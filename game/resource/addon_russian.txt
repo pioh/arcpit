@@ -1,0 +1,20 @@
+"lang"
+{
+    "Language"    "Russian"
+    "Tokens"
+    {
+        "addon_game_name"                           "Arcpit"
+        "addon_game_description"                    "Битва в стиле Custom Hero Chaos"
+        
+        // Названия команд
+        "DOTA_Custom1"                              "Команда 1"
+        "DOTA_Custom2"                              "Команда 2"
+        "DOTA_Custom3"                              "Команда 3"
+        "DOTA_Custom4"                              "Команда 4"
+        "DOTA_Custom5"                              "Команда 5"
+        "DOTA_Custom6"                              "Команда 6"
+        "DOTA_Custom7"                              "Команда 7"
+        "DOTA_Custom8"                              "Команда 8"
+    }
+}
+

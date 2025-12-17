@@ -1,0 +1,8 @@
+// Arcpit custom heroes
+"DOTAHeroes"
+{
+    "Version"        "1"
+    
+    // Custom heroes configuration will be added here later
+}
+

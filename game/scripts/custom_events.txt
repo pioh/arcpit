@@ -1,0 +1,10 @@
+// Custom events for Arcpit
+"CustomEvents"
+{
+    "stage_changed"
+    {
+        "stage"        "short"
+        "duration"     "short"
+    }
+}
+

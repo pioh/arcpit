@@ -1,0 +1,11 @@
+"lang"
+{
+    "Language"    "English"
+    "Tokens"
+    {
+        "addon_game_name"          "Arcpit"
+        "addon_game_description"   "Custom Hero Chaos style"
+    }
+}
+
+

@@ -1,0 +1,38 @@
+// Arcpit Game Mode Configuration
+"GameMode"
+{
+    "1"
+    {
+        "game_mode"                     "custom"
+        "game_name"                     "Arcpit"
+        "game_description"              "Custom Hero Chaos style game"
+        
+        // Team configuration
+        "max_players"                   "8"
+        "team_count"                    "8"
+        
+        // Game rules
+        "hero_respawn_enabled"          "0"
+        "use_custom_hero_levels"        "0"
+        "allow_same_hero_selection"     "1"
+        "hero_selection_time"           "0"
+        "pregame_time"                  "1"
+        "post_game_time"                "60"
+        "strategy_time"                 "0"
+        "showcase_time"                 "0"
+        
+        // Gold and XP
+        "starting_gold"                 "625"
+        "gold_per_tick"                 "1"
+        "gold_tick_time"                "0.6"
+        "xp_per_tick"                   "0"
+        
+        // Other settings
+        "use_universal_shop_mode"       "0"
+        "camera_distance_override"      "1134.0"
+        "recommended_builds_disabled"   "1"
+        "ability_upgrades_disabled"     "0"
+        "buyback_enabled"               "0"
+    }
+}
+

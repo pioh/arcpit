@@ -1,0 +1,11 @@
+"lang"
+{
+    "Language"    "Russian"
+    "Tokens"
+    {
+        "addon_game_name"          "Arcpit"
+        "addon_game_description"   "Битва в стиле Custom Hero Chaos"
+    }
+}
+
+

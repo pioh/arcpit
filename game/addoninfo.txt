@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+    "TeamCount"                "8"
+    "MaxPlayers"               "8"
+    "Default_Keys"             "1"
+    
+    maps                       { "arcpit_1" "1" }
+    IsPlayable                 "1"
+    FoWTeamCount               "8"
+}
+

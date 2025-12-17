@@ -1,7 +1,7 @@
-const { findSteamAppByName, SteamNotFoundError } = require("@moddota/find-steam-app");
-const packageJson = require("../package.json");
+import { findSteamAppByName, SteamNotFoundError } from "@moddota/find-steam-app";
+import packageJson from "../package.json" with { type: "json" };
 
-module.exports.getAddonName = () => {
+export function getAddonName() {
     if (!/^[a-z][\d_a-z]+$/.test(packageJson.name)) {
         throw new Error(
             "Addon name may consist only of lowercase characters, digits, and underscores " +
@@ -10,9 +10,9 @@ module.exports.getAddonName = () => {
     }
 
     return packageJson.name;
-};
+}
 
-module.exports.getDotaPath = async () => {
+export async function getDotaPath() {
     try {
         return await findSteamAppByName("dota 2 beta");
     } catch (error) {
@@ -20,4 +20,4 @@ module.exports.getDotaPath = async () => {
             throw error;
         }
     }
-};
+}

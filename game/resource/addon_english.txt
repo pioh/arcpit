@@ -1,0 +1,20 @@
+"lang"
+{
+    "Language"    "English"
+    "Tokens"
+    {
+        "addon_game_name"                           "Arcpit"
+        "addon_game_description"                    "Custom Hero Chaos style battle royale"
+        
+        // Team names
+        "DOTA_Custom1"                              "Team 1"
+        "DOTA_Custom2"                              "Team 2"
+        "DOTA_Custom3"                              "Team 3"
+        "DOTA_Custom4"                              "Team 4"
+        "DOTA_Custom5"                              "Team 5"
+        "DOTA_Custom6"                              "Team 6"
+        "DOTA_Custom7"                              "Team 7"
+        "DOTA_Custom8"                              "Team 8"
+    }
+}
+

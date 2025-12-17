@@ -1,39 +1,70 @@
-# ModDota template
+# Arcpit
 
-A template for Dota 2 Custom Games built with modern technologies.
+Dota 2 Custom Game проект, построенный с использованием современных технологий.
 
-[This tutorial](https://moddota.com/scripting/Typescript/typescript-introduction/) explains how to set up and use the template.
+[Этот туториал](https://moddota.com/scripting/Typescript/typescript-introduction/) объясняет как настроить и использовать шаблон.
 
-The template includes:
+Проект включает:
 
-- [TypeScript for Panorama](https://moddota.com/panorama/introduction-to-panorama-ui-with-typescript)
-- [TypeScript for VScripts](https://typescripttolua.github.io/)
-- Simple commands to build and launch your custom game
-- [Continuous Integration](#continuous-integration) support
+- [TypeScript для Panorama](https://moddota.com/panorama/introduction-to-panorama-ui-with-typescript)
+- [TypeScript для VScripts](https://typescripttolua.github.io/)
+- Простые команды для сборки и запуска вашей кастомной игры
+- Поддержка [Continuous Integration](#continuous-integration)
 
-## Getting Started
+## Начало работы
 
-1. Clone this repository or, if you're planning to have a repository for your custom game on GitHub, [create a new repository from this template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) and clone it instead.
-2. Open the directory of your custom game and change `name` field in `package.json` file to the name of your addon name.
-3. Open terminal in that directory and run `npm install` to install dependencies. You also should run `npm update` once in a while to get tool updates.
+1. Склонируйте этот репозиторий или, если вы планируете иметь репозиторий для вашей кастомной игры на GitHub, [создайте новый репозиторий из этого шаблона](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) и склонируйте его.
+2. Откройте директорию вашей кастомной игры и измените поле `name` в файле `package.json` на имя вашего аддона.
+3. Откройте терминал в этой директории и выполните `bun install` для установки зависимостей. Также периодически запускайте `bun update` для получения обновлений инструментов.
 
-After that you can press `Ctrl+Shift+B` in VSCode or run `npm run dev` command in terminal to compile your code and watch for changes.
+После этого вы можете нажать `Ctrl+Shift+B` в VSCode или выполнить команду `bun run dev` в терминале для компиляции кода и отслеживания изменений.
 
-## Contents:
+## Доступные команды
 
-* **[src/common]:** TypeScript .d.ts type declaration files with types that can be shared between Panorama and VScripts
-* **[src/vscripts]:** TypeScript code for Dota addon (Lua) vscripts. Compiles lua to game/scripts/vscripts.
-* **[src/panorama]:** TypeScript code for panorama UI. Compiles js to content/panorama/scripts/custom_game
+### 🔧 Разработка
+- `bun install` - установка зависимостей
+- `bun run build` - сборка проекта (panorama и vscripts)
+- `bun run dev` - режим разработки с отслеживанием изменений
+
+### 🎮 Запуск
+- `bun run launch` - запуск Dota 2 Tools с аддоном (для работы с редакторами)
+- `bun run play` - быстрый запуск карты arcpit_1 в игре (для тестирования)
+- `bun run hammer` - запуск только Hammer для редактирования карт
+
+**Важно:** `launch` открывает Tools (редакторы), `play` запускает игру с картой.
+
+### 🔍 Отладка
+- `bun run logs` - показать последний лог с анализом ошибок
+
+### 📋 Рабочий процесс
+1. **Разработка карты:** `bun run hammer` → создайте/отредактируйте карту → сохраните и скомпилируйте
+2. **Тестирование в игре:** `bun run play` → запустит карту `arcpit_1` в игровом режиме
+3. **Работа с Tools:** `bun run launch` → откроет Dota 2 Tools (редакторы, Asset Browser и т.д.)
+
+**Примечание:** Если `play` не запускает карту автоматически, используйте `launch` и запустите карту вручную через меню Tools.
+
+### ⚠️ Важно перед запуском:
+- **Steam ОБЯЗАН быть запущен** - проверьте что Steam.exe работает в трее Windows
+- Скрипты автоматически запускают Dota 2 через Steam (использует `-applaunch 570`)
+- Все запуски автоматически логируются в `logs/` с полным выводом из vconsole2
+- Логи содержат весь вывод из `console.log` Dota 2 для диагностики проблем
+- При ошибке `SteamAPI_Init failed` - перезапустите Steam
+
+## Содержание проекта:
+
+* **[src/common]:** TypeScript .d.ts файлы с типами, которые можно использовать как в Panorama, так и в VScripts
+* **[src/vscripts]:** TypeScript код для Dota аддона (Lua) vscripts. Компилируется в game/scripts/vscripts
+* **[src/panorama]:** TypeScript код для Panorama UI. Компилируется в content/panorama/scripts/custom_game
 
 --
 
-* **[game/*]:** Dota game directory containing files such as npc kv files and compiled lua scripts.
-* **[content/*]:** Dota content directory containing panorama sources other than scripts (xml, css, compiled js)
+* **[game/*]:** Директория с игровыми файлами Dota, такими как npc kv файлы и скомпилированные lua скрипты
+* **[content/*]:** Директория с контентом Dota, содержащая исходники panorama, кроме скриптов (xml, css, скомпилированный js)
 
 --
 
-* **[scripts/*]:** Repository installation scripts
+* **[scripts/*]:** Скрипты для установки и управления проектом
 
 ## Continuous Integration
 
-This template includes a [GitHub Actions](https://github.com/features/actions) [workflow](.github/workflows/ci.yml) that builds your custom game on every commit and fails when there are type errors.
+Этот проект включает [GitHub Actions](https://github.com/features/actions) [workflow](.github/workflows/ci.yml), который собирает вашу кастомную игру при каждом коммите и падает при наличии ошибок типизации.
