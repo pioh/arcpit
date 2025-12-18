@@ -40,9 +40,10 @@ try {
     // Запускаем Dota 2 через Steam для корректной инициализации SteamAPI
     // Используем -tools для открытия редактора (без автозапуска игры)
     const usingSteam = executable.endsWith("steam.exe");
+    let options = `-high -windowed -noborder -w 3840 -h 1600`
     const args = usingSteam 
-        ? ["-applaunch", "570", "-novid", "-console", "-condebug", "-tools", "-addon", addonName]
-        : ["-novid", "-console", "-condebug", "-tools", "-addon", addonName];
+        ? ["-applaunch", "570", "-novid", "-console", "-condebug", "-tools", ...options.split(" "), "-addon", addonName]
+        : ["-novid", "-console", "-condebug", "-tools", ...options.split(" "), "-addon", addonName];
 
     log("=== Запуск Dota 2 ===");
     log(`Время запуска: ${new Date().toLocaleString("ru-RU")}`);

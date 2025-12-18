@@ -1,5 +1,6 @@
 import "./lib/timers";
 import { GameMode } from "./GameMode";
+import "./modifiers/modifiers"; // Импортируем все модификаторы
 
 // Connect GameMode.Activate and GameMode.Precache to the dota engine
 Object.assign(getfenv(), {

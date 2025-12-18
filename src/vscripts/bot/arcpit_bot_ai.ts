@@ -1,5 +1,9 @@
-// EntityScript для GameRules.AddBotPlayerWithEntityScript
-// Движок выполняет этот файл в контексте созданного героя (thisEntity).
+/**
+ * AI для бота - EntityScript для GameRules.AddBotPlayerWithEntityScript
+ * Движок выполняет этот файл в контексте созданного героя (thisEntity).
+ */
+
+import { GAME_CONSTANTS } from "../config/game-constants";
 
 declare const thisEntity: CDOTA_BaseNPC_Hero;
 
@@ -18,9 +22,13 @@ function BotThink(): number {
     // Ищем ближайшего вражеского героя
     const enemies = FindUnitsInRadius(
         team,
-        thisEntity.GetAbsOrigin(),
+        // Нормализуем origin (иногда возвращается vectorws)
+        (() => {
+            const o = thisEntity.GetAbsOrigin();
+            return Vector(o.x, o.y, o.z);
+        })(),
         undefined,
-        2500,
+        GAME_CONSTANTS.BOT_SEARCH_RADIUS,
         UnitTargetTeam.ENEMY,
         UnitTargetType.HERO,
         UnitTargetFlags.FOW_VISIBLE + UnitTargetFlags.NO_INVIS,

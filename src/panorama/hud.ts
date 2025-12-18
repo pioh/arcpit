@@ -1,5 +1,8 @@
 $.Msg("=== Arcpit HUD script START ===");
 
+// Panorama НЕ поддерживает ES-модули (import/export) в runtime.
+// Поэтому hud.ts должен быть самодостаточным (без import).
+
 enum GameStage {
     INIT = 0,
     HERO_SELECTION = 1,
@@ -15,7 +18,7 @@ interface StageChangedData {
     duration: number;
 }
 
-function RenderPlayersBar(): void {
+function renderPlayersBar(): void {
     const bar = $("#PlayersBar");
     if (!bar) return;
 
@@ -29,7 +32,6 @@ function RenderPlayersBar(): void {
         const heroName = Players.GetPlayerSelectedHero(pid);
         const heroEntIndex = Players.GetPlayerHeroEntityIndex(pid);
 
-        // DOTAHeroImage сам корректно подставляет иконку по имени npc_dota_hero_*
         const heroImg = $.CreatePanel("DOTAHeroImage", slot, "");
         heroImg.style.width = "100%";
         heroImg.style.height = "100%";
@@ -45,75 +47,14 @@ function RenderPlayersBar(): void {
     }
 }
 
-// Проверяем что панель загрузилась
-function CheckPanels() {
-    $.Msg("=== Checking panels ===");
-    const rootPanel = $.GetContextPanel();
-    $.Msg(`Root panel: ${rootPanel.id}`);
-    
+function showStageScreen(stage: GameStage, duration: number) {
     const stagePanel = $("#StagePanel");
-    const titleLabel = $("#StageTitle");
-    const timerLabel = $("#StageTimer");
-    
-    if (stagePanel) {
-        $.Msg("✓ StagePanel found");
-        stagePanel.style.visibility = "collapse";
-    } else {
-        $.Msg("✗ StagePanel NOT found!");
-    }
-    
-    if (titleLabel) {
-        $.Msg("✓ StageTitle found");
-    } else {
-        $.Msg("✗ StageTitle NOT found!");
-    }
-    
-    if (timerLabel) {
-        $.Msg("✓ StageTimer found");
-    } else {
-        $.Msg("✗ StageTimer NOT found!");
-    }
-}
+    if (!stagePanel) return;
 
-// Проверяем несколько раз
-$.Schedule(0.1, CheckPanels);
-$.Schedule(1, CheckPanels);
-$.Schedule(3, CheckPanels);
-$.Schedule(0.2, RenderPlayersBar);
-$.Schedule(1.2, RenderPlayersBar);
-$.Schedule(3.2, RenderPlayersBar);
+    const titleLabel = $("#StageTitle") as LabelPanel;
+    const timerLabel = $("#StageTimer") as LabelPanel;
+    if (!titleLabel || !timerLabel) return;
 
-// Обработчик смены стадии
-$.Msg("=== Subscribing to stage_changed event ===");
-GameEvents.Subscribe("stage_changed", (data: NetworkedData<StageChangedData>) => {
-    $.Msg("==========================================================");
-    $.Msg(`=== STAGE_CHANGED EVENT RECEIVED ===`);
-    $.Msg(`Stage: ${data.stage}, Duration: ${data.duration}`);
-    $.Msg("==========================================================");
-    
-    ShowStageScreen(data.stage, data.duration);
-    RenderPlayersBar();
-});
-$.Msg("=== Subscribed to stage_changed ===");
-
-function ShowStageScreen(stage: GameStage, duration: number) {
-    $.Msg(`ShowStageScreen called: stage=${stage}, duration=${duration}`);
-    
-    const stagePanel = $("#StagePanel");
-    if (!stagePanel) {
-        $.Msg("ERROR: StagePanel not found!");
-        return;
-    }
-
-    const titleLabel = $("#StageTitle");
-    const timerLabel = $("#StageTimer");
-
-    if (!titleLabel || !timerLabel) {
-        $.Msg("ERROR: Title or Timer label not found!");
-        return;
-    }
-
-    // Устанавливаем текст в зависимости от стадии
     let titleText = "";
     switch (stage) {
         case GameStage.HERO_SELECTION:
@@ -130,58 +71,48 @@ function ShowStageScreen(stage: GameStage, duration: number) {
             break;
     }
 
-    $.Msg(`Setting title to: ${titleText}`);
-    (titleLabel as LabelPanel).text = titleText;
+    titleLabel.text = titleText;
     stagePanel.style.visibility = "visible";
-    $.Msg("Panel visibility set to visible");
 
-    // Запускаем таймер
-    if (duration > 0) {
-        StartTimer(duration, timerLabel);
-        
-        // Скрываем панель после окончания таймера
-        $.Schedule(duration, () => {
-            if (stage !== GameStage.COMBAT) {
-                stagePanel.style.visibility = "collapse";
-                $.Msg("Panel hidden after timer");
-            } else {
-                // Для боевой стадии показываем коротко и скрываем
-                $.Schedule(3, () => {
-                    stagePanel.style.visibility = "collapse";
-                    $.Msg("Combat panel hidden");
-                });
+    const startTimer = (seconds: number) => {
+        if (currentTimer !== null) $.CancelScheduled(currentTimer);
+        let timeLeft = seconds;
+        const update = () => {
+            if (timeLeft <= 0) {
+                timerLabel.text = "0";
+                currentTimer = null;
+                return;
             }
-        });
-    } else if (stage === GameStage.COMBAT) {
-        (timerLabel as LabelPanel).text = "";
-        $.Schedule(3, () => {
+            timerLabel.text = Math.ceil(timeLeft).toString();
+            timeLeft -= 0.1;
+            currentTimer = $.Schedule(0.1, update);
+        };
+        update();
+    };
+
+    if (duration > 0) {
+        startTimer(duration);
+        $.Schedule(duration, () => {
             stagePanel.style.visibility = "collapse";
         });
-    }
-}
-
-function StartTimer(duration: number, label: Panel) {
-    if (currentTimer !== null) {
-        $.CancelScheduled(currentTimer);
-    }
-
-    let timeLeft = duration;
-    const labelPanel = label as LabelPanel;
-    
-    function UpdateTimer() {
-        if (timeLeft <= 0) {
-            labelPanel.text = "0";
-            currentTimer = null;
-            return;
+    } else {
+        timerLabel.text = "";
+        // COMBAT показываем коротко и скрываем
+        if (stage === GameStage.COMBAT) {
+            $.Schedule(1.5, () => {
+                stagePanel.style.visibility = "collapse";
+            });
         }
-        
-        labelPanel.text = Math.ceil(timeLeft).toString();
-        timeLeft -= 0.1;
-        
-        currentTimer = $.Schedule(0.1, UpdateTimer);
     }
-    
-    UpdateTimer();
 }
+
+GameEvents.Subscribe("stage_changed", (data: NetworkedData<StageChangedData>) => {
+    showStageScreen(data.stage, data.duration);
+    renderPlayersBar();
+});
+
+$.Schedule(0.2, renderPlayersBar);
+$.Schedule(1.2, renderPlayersBar);
+$.Schedule(3.2, renderPlayersBar);
 
 $.Msg("=== Arcpit HUD script end ===");
