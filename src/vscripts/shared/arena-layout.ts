@@ -57,8 +57,18 @@ export type Layout = {
   origin: Vec3; // world origin of layout (center of neutral zone)
   neutral: {
     center: Vec3;
+    /** Внутренняя безопасная зона (safe). */
     bounds: Rect;
+    /** Внешняя зона нейтрали, включая unsafeZone-рамку вокруг safe (опасная кайма). */
+    extendedBounds: Rect;
+    /** Размер safe зоны в тайлах. */
     tileSize: number;
+    /** Размер extended зоны в тайлах (safe + unsafeZone*2). */
+    extendedTileSize: number;
+    /** Ширина unsafe зоны (в тайлах) по периметру safe. */
+    unsafeZoneTiles: number;
+    contains2D: (p: Vec3) => boolean;
+    containsExtended2D: (p: Vec3) => boolean;
   };
 
   arenas: ArenaSlot[];
@@ -153,14 +163,14 @@ export function buildLayout(params?: BuildLayoutParams): Layout {
     if (!debug) return;
     print(`${logPrefix} ${msg}`);
   };
-
+  const unsafeZone = 4;
   const tileSize = params?.tileSize ?? 256;
   const arenaTileSize = params?.arenaTileSize ?? 6;
   // поддерживаем deprecated алиас (arenaWallExtraWorld) если perSide не задан
   const arenaWallExtraWorldPerSide = params?.arenaWallExtraWorldPerSide ?? params?.arenaWallExtraWorld ?? 32;
   const gapBetweenArenasTiles = params?.gapBetweenArenasTiles ?? 17;
-  const neutralTileSize = params?.neutralTileSize ?? 10;
-  const gapNeutralToArenaTiles = params?.gapNeutralToArenaTiles ?? 15;
+  const neutralTileSize = params?.neutralTileSize ?? 10 - unsafeZone;
+  const gapNeutralToArenaTiles = params?.gapNeutralToArenaTiles ?? 15 + unsafeZone;
   const z = params?.z  ?? 128;
 
   const origin = v3(0, 0, z);
@@ -179,6 +189,14 @@ export function buildLayout(params?: BuildLayoutParams): Layout {
   const neutralBounds = rect(
     v3(origin.x - neutralHalfWorld, origin.y - neutralHalfWorld, z),
     v3(origin.x + neutralHalfWorld, origin.y + neutralHalfWorld, z),
+  );
+
+  // extended нейтралка = safe + unsafeZone тайлов с каждой стороны
+  const neutralExtendedTileSize = neutralTileSize + unsafeZone * 2;
+  const neutralExtendedHalfWorld = (neutralExtendedTileSize * tileSize) / 2;
+  const neutralExtendedBounds = rect(
+    v3(origin.x - neutralExtendedHalfWorld, origin.y - neutralExtendedHalfWorld, z),
+    v3(origin.x + neutralExtendedHalfWorld, origin.y + neutralExtendedHalfWorld, z),
   );
 
   log(`neutralHalfWorld=${round3(neutralHalfWorld)} ; neutralBounds=${fmtRect(neutralBounds)}`);
@@ -298,7 +316,16 @@ export function buildLayout(params?: BuildLayoutParams): Layout {
     neutralTileSize,
     gapNeutralToArenaTiles,
     origin,
-    neutral: { center: origin, bounds: neutralBounds, tileSize: neutralTileSize },
+    neutral: {
+      center: origin,
+      bounds: neutralBounds,
+      extendedBounds: neutralExtendedBounds,
+      tileSize: neutralTileSize,
+      extendedTileSize: neutralExtendedTileSize,
+      unsafeZoneTiles: unsafeZone,
+      contains2D: (p) => containsRect2D(neutralBounds, p),
+      containsExtended2D: (p) => containsRect2D(neutralExtendedBounds, p),
+    },
     arenas,
     byId,
   };

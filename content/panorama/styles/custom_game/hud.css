@@ -3,6 +3,11 @@
     height: 100%;
 }
 
+.HudOverlayNoHit {
+    width: 100%;
+    height: 100%;
+}
+
 .PlayersBar {
     width: 100%;
     height: 64px;
@@ -94,5 +99,208 @@
     text-align: center;
     text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
     horizontal-align: center;
+}
+
+/* =========================================================
+   Pick overlays (Hero / Ability)
+   ========================================================= */
+
+.PickOverlay {
+    width: 100%;
+    height: 100%;
+    align: center center;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 1200;
+    flow-children: none;
+}
+
+.PickWindow {
+    width: 1180px;
+    height: 820px;
+    align: center center;
+    flow-children: down;
+    padding: 18px 18px 16px 18px;
+    background-color: rgba(10, 10, 14, 0.92);
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.75);
+}
+
+/* =========================================================
+   Ability pick toast (compact overlay)
+   ========================================================= */
+
+.AbilityToastOverlay {
+    width: 980px;
+    height: 230px;
+    align: center top;
+    margin-top: 140px;
+    background-color: rgba(10, 10, 14, 0.70);
+    border: 2px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.65);
+    padding: 10px 12px 10px 12px;
+    z-index: 1200;
+    flow-children: down;
+}
+
+.AbilityToastHeader {
+    width: 100%;
+    height: 36px;
+    flow-children: right;
+}
+
+.AbilityToastTitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.95);
+    vertical-align: center;
+}
+
+.AbilityToastProgress {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    horizontal-align: right;
+    vertical-align: center;
+}
+
+.AbilityToastGrid {
+    width: 100%;
+    height: 180px;
+    flow-children: right-wrap;
+    padding-top: 8px;
+}
+
+.PickHeader {
+    width: 100%;
+    height: 64px;
+    flow-children: right;
+}
+
+.PickHeaderRight {
+    width: 260px;
+    height: 100%;
+    horizontal-align: right;
+    flow-children: down;
+}
+
+.PickTitle {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 12px rgba(0, 0, 0, 0.8);
+    vertical-align: center;
+}
+
+.PickSubTitle {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: right;
+    vertical-align: center;
+    horizontal-align: right;
+    margin-top: 8px;
+}
+
+.PickTimer {
+    font-size: 44px;
+    font-weight: bold;
+    color: #ffff00;
+    text-align: right;
+    horizontal-align: right;
+    vertical-align: center;
+}
+
+.PickHint {
+    width: 100%;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.65);
+    margin-top: 12px;
+    text-align: center;
+}
+
+.HeroPickGrid {
+    width: 100%;
+    height: 700px;
+    flow-children: right-wrap;
+    padding-top: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    horizontal-align: center;
+}
+
+.HeroCard {
+    width: 360px;
+    height: 340px;
+    margin: 10px;
+    flow-children: down;
+    background-color: rgba(255, 255, 255, 0.03);
+    /* background-image убрали: текущий синтаксис градиента ругается парсером vcss в некоторых сборках */
+    border: 1px solid rgba(255, 255, 255, 0.07);
+    transition-property: transform, brightness, border;
+    transition-duration: 0.12s;
+}
+
+.HeroCard:hover {
+    brightness: 1.25;
+    transform: translateY(-3px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.HeroPortrait {
+    width: 100%;
+    height: 292px;
+}
+
+.HeroName {
+    width: 100%;
+    height: 48px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    vertical-align: center;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+.AbilityCard {
+    width: 235px;
+    height: 78px;
+    margin: 8px;
+    flow-children: right;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    transition-property: transform, brightness, border;
+    transition-duration: 0.12s;
+    padding: 8px;
+}
+
+.AbilityCard:hover {
+    brightness: 1.25;
+    transform: translateY(-2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.AbilityIcon {
+    width: 64px;
+    height: 64px;
+    vertical-align: center;
+}
+
+.AbilityMeta {
+    flow-children: down;
+    margin-left: 10px;
+    vertical-align: center;
+}
+
+.AbilityName {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+}
+
+.AbilityHintLine {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 2px;
 }
 

@@ -32,6 +32,48 @@ interface CameraFocusHeroData {
     duration: number;
 }
 
+interface HeroDraftOfferData {
+    playerID?: number;
+    offerId: number;
+    duration: number;
+    heroes: string[];
+}
+
+interface AbilityDraftOfferData {
+    playerID?: number;
+    offerId: number;
+    abilities: string[];
+    chosenCount: number;
+    allowedCount: number;
+}
+
+let heroPickTimer: ScheduleID | null = null;
+let heroPickOfferId: number = 0;
+let heroPicked: boolean = false;
+let heroPickPlayerID: number = -1;
+
+let abilityPickOfferId: number = 0;
+let abilityPickPlayerID: number = -1;
+
+function normalizeNetArray<T>(value: any): T[] {
+    // Panorama network tables often come as objects with numeric keys ("1","2",...) instead of real JS arrays.
+    if (!value) return [];
+    if (Array.isArray(value)) return value as T[];
+    if (typeof value !== "object") return [];
+
+    const keys = Object.keys(value)
+        .filter(k => k !== "length")
+        .filter(k => /^\d+$/.test(k))
+        .map(k => Number(k))
+        .sort((a, b) => a - b);
+
+    const out: T[] = [];
+    for (const k of keys) {
+        out.push((value as any)[k] as T);
+    }
+    return out;
+}
+
 function renderRoundPanel(): void {
     const roundLabel = $("#RoundLabel") as LabelPanel;
     if (!roundLabel) return;
@@ -172,9 +214,173 @@ function showStageScreen(stage: GameStage, duration: number) {
     }
 }
 
+function localizeHeroName(heroName: string): string {
+    // В локализации Dota: токены героев обычно вида "#npc_dota_hero_axe"
+    try {
+        const token = heroName.startsWith("#") ? heroName : `#${heroName}`;
+        const loc = $.Localize(token);
+        if (loc && loc !== token) return loc;
+    } catch (e) {}
+    return heroName;
+}
+
+function localizeAbilityName(abilityName: string): string {
+    // Обычно "#DOTA_Tooltip_ability_axe_berserkers_call"
+    try {
+        const token = `#DOTA_Tooltip_ability_${abilityName}`;
+        const loc = $.Localize(token);
+        if (loc && loc !== token) return loc;
+    } catch (e) {}
+    return abilityName;
+}
+
+function stopHeroPickTimer(): void {
+    if (heroPickTimer !== null) {
+        $.CancelScheduled(heroPickTimer);
+        heroPickTimer = null;
+    }
+}
+
+function showHeroPick(offer: HeroDraftOfferData): void {
+    const overlay = $("#HeroPickOverlay");
+    const grid = $("#HeroPickGrid");
+    const timerLabel = $("#HeroPickTimer") as LabelPanel;
+    if (!overlay || !grid || !timerLabel) return;
+
+    heroPicked = false;
+    heroPickOfferId = offer.offerId;
+    heroPickPlayerID = (offer as any).playerID ?? -1;
+
+    grid.RemoveAndDeleteChildren();
+
+    const heroes = normalizeNetArray<string>((offer as any).heroes);
+    if (heroes.length <= 0) {
+        $.Msg("[HeroPick] ERROR: heroes list is empty/invalid", offer as any);
+        return;
+    }
+
+    for (const heroName of heroes) {
+        const card = $.CreatePanel("Panel", grid, "");
+        card.AddClass("HeroCard");
+
+        const portrait = $.CreatePanel("DOTAHeroImage", card, "") as any;
+        portrait.AddClass("HeroPortrait");
+        portrait.heroname = heroName;
+        portrait.heroimagestyle = "portrait";
+
+        const name = $.CreatePanel("Label", card, "") as LabelPanel;
+        name.AddClass("HeroName");
+        name.text = localizeHeroName(heroName);
+
+        // Тултип героя
+        card.SetPanelEvent("onmouseover", () => {
+            try { $.DispatchEvent("DOTAShowHeroTooltip", card, heroName); } catch (e) {}
+        });
+        card.SetPanelEvent("onmouseout", () => {
+            try { $.DispatchEvent("DOTAHideHeroTooltip", card); } catch (e) {}
+        });
+
+        card.SetPanelEvent("onactivate", () => {
+            if (heroPicked) return;
+            heroPicked = true;
+            overlay.style.visibility = "collapse";
+            stopHeroPickTimer();
+
+            GameEvents.SendCustomGameEventToServer("arcpit_hero_pick", {
+                offerId: heroPickOfferId,
+                heroName,
+                playerID: heroPickPlayerID
+            } as any);
+        });
+    }
+
+    overlay.style.visibility = "visible";
+
+    // Таймер (5 секунд)
+    stopHeroPickTimer();
+    let timeLeft = Math.max(0, offer.duration ?? 0);
+    const update = () => {
+        if (timeLeft <= 0) {
+            timerLabel.text = "0";
+            heroPickTimer = null;
+            overlay.style.visibility = "collapse";
+            return;
+        }
+        timerLabel.text = `${Math.ceil(timeLeft)}`;
+        timeLeft -= 0.1;
+        heroPickTimer = $.Schedule(0.1, update);
+    };
+    update();
+}
+
+function showAbilityPick(offer: AbilityDraftOfferData): void {
+    const overlay = $("#AbilityPickOverlay");
+    const grid = $("#AbilityPickGrid");
+    const progress = $("#AbilityPickProgress") as LabelPanel;
+    if (!overlay || !grid || !progress) return;
+
+    abilityPickOfferId = offer.offerId;
+    abilityPickPlayerID = (offer as any).playerID ?? -1;
+    grid.RemoveAndDeleteChildren();
+
+    progress.text = `${offer.chosenCount}/${offer.allowedCount}`;
+
+    const abilities = normalizeNetArray<string>((offer as any).abilities);
+    if (abilities.length <= 0) {
+        $.Msg("[AbilityPick] ERROR: abilities list is empty/invalid", offer as any);
+        return;
+    }
+
+    for (const abilityName of abilities) {
+        const card = $.CreatePanel("Panel", grid, "");
+        card.AddClass("AbilityCard");
+
+        const icon = $.CreatePanel("DOTAAbilityImage", card, "") as any;
+        icon.AddClass("AbilityIcon");
+        icon.abilityname = abilityName;
+
+        const meta = $.CreatePanel("Panel", card, "");
+        meta.AddClass("AbilityMeta");
+
+        const title = $.CreatePanel("Label", meta, "") as LabelPanel;
+        title.AddClass("AbilityName");
+        title.text = localizeAbilityName(abilityName);
+
+        const hint = $.CreatePanel("Label", meta, "") as LabelPanel;
+        hint.AddClass("AbilityHintLine");
+        hint.text = "Наведите для описания";
+
+        card.SetPanelEvent("onmouseover", () => {
+            try { $.DispatchEvent("DOTAShowAbilityTooltip", card, abilityName); } catch (e) {}
+        });
+        card.SetPanelEvent("onmouseout", () => {
+            try { $.DispatchEvent("DOTAHideAbilityTooltip", card); } catch (e) {}
+        });
+
+        card.SetPanelEvent("onactivate", () => {
+            overlay.style.visibility = "collapse";
+            GameEvents.SendCustomGameEventToServer("arcpit_ability_pick", {
+                offerId: abilityPickOfferId,
+                abilityName,
+                playerID: abilityPickPlayerID
+            } as any);
+        });
+    }
+
+    overlay.style.visibility = "visible";
+}
+
 GameEvents.Subscribe("stage_changed", (data: any) => {
     showStageScreen(data.stage as GameStage, data.duration as number);
     renderPlayersBar();
+});
+
+GameEvents.Subscribe("arcpit_hero_draft_offer", (data: any) => {
+    showHeroPick(data as HeroDraftOfferData);
+});
+
+GameEvents.Subscribe("arcpit_ability_draft_offer", (data: any) => {
+    showAbilityPick(data as AbilityDraftOfferData);
 });
 
 GameEvents.Subscribe("round_state_changed", (data: any) => {

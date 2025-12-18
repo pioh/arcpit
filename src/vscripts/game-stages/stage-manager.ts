@@ -1,6 +1,5 @@
 import { GameStage, IStageHandler } from "./types";
 import { HeroSelectionStage } from "./hero-selection";
-import { AbilitySelectionStage } from "./ability-selection";
 import { PreCombatStage } from "./pre-combat";
 import { CombatStage } from "./combat";
 import { GAME_CONSTANTS } from "../config/game-constants";
@@ -16,13 +15,11 @@ export class StageManager {
 
     constructor(
         heroSelectionStage: HeroSelectionStage,
-        abilitySelectionStage: AbilitySelectionStage,
         preCombatStage: PreCombatStage,
         combatStage: CombatStage,
         roundController?: RoundController
     ) {
         this.stages.set(GameStage.HERO_SELECTION, heroSelectionStage);
-        this.stages.set(GameStage.ABILITY_SELECTION, abilitySelectionStage);
         this.stages.set(GameStage.PRE_COMBAT, preCombatStage);
         this.stages.set(GameStage.COMBAT, combatStage);
         this.roundController = roundController;
@@ -37,16 +34,8 @@ export class StageManager {
         
         // Переход к следующей стадии
         Timers.CreateTimer(GAME_CONSTANTS.HERO_SELECTION_TIME, () => {
-            this.startAbilitySelection();
-            return undefined;
-        });
-    }
-
-    startAbilitySelection(): void {
-        this.transitionTo(GameStage.ABILITY_SELECTION);
-        
-        Timers.CreateTimer(GAME_CONSTANTS.ABILITY_SELECTION_TIME, () => {
-            this.startPreCombat();
+            // Выбор способностей больше не является отдельной стадией (он триггерится сервером по правилам).
+            this.startPreCombat(GAME_CONSTANTS.PRE_COMBAT_TIME);
             return undefined;
         });
     }

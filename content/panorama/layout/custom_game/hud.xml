@@ -7,18 +7,43 @@
         <include src="file://{resources}/scripts/custom_game/hud.js" />
     </scripts>
 
-    <!-- Важно: этот оверлей не должен перехватывать мышь, иначе пропадают тултипы/ховеры дефолтного HUD (способности, предметы). -->
-    <Panel class="HudRoot" hittest="false">
-        <Panel id="PlayersBar" class="PlayersBar" />
-        <Panel id="RoundPanel" class="RoundPanel">
-            <Label id="RoundLabel" class="RoundLabel" text="" />
-            <Label id="RoundTimer" class="RoundTimer" text="" />
-        </Panel>
-        <Panel id="StagePanel" class="StagePanel">
-            <Panel class="StageContent">
-                <Label id="StageTitle" class="StageTitle" text="" />
-                <Label id="StageTimer" class="StageTimer" text="" />
+    <Panel class="HudRoot">
+        <!-- Важно: этот слой не должен перехватывать мышь, иначе пропадают тултипы/ховеры дефолтного HUD (способности, предметы). -->
+        <Panel class="HudOverlayNoHit" hittest="false">
+            <Panel id="PlayersBar" class="PlayersBar" />
+            <Panel id="RoundPanel" class="RoundPanel">
+                <Label id="RoundLabel" class="RoundLabel" text="" />
+                <Label id="RoundTimer" class="RoundTimer" text="" />
             </Panel>
+            <Panel id="StagePanel" class="StagePanel">
+                <Panel class="StageContent">
+                    <Label id="StageTitle" class="StageTitle" text="" />
+                    <Label id="StageTimer" class="StageTimer" text="" />
+                </Panel>
+            </Panel>
+        </Panel>
+
+        <!-- Выбор героя (интерактивный слой, полноэкранный) -->
+        <Panel id="HeroPickOverlay" class="PickOverlay" hittest="true" style="visibility:collapse;">
+            <Panel class="PickWindow">
+                <Panel class="PickHeader">
+                    <Label id="HeroPickTitle" class="PickTitle" text="ВЫБЕРИ ГЕРОЯ" />
+                    <Panel class="PickHeaderRight">
+                        <Label id="HeroPickTimer" class="PickTimer" text="" />
+                    </Panel>
+                </Panel>
+                <Panel id="HeroPickGrid" class="HeroPickGrid" />
+                <Label id="HeroPickHint" class="PickHint" text="Кликни по герою — это зафиксирует выбор. Дальше будет выбор аспекта." />
+            </Panel>
+        </Panel>
+
+        <!-- Выбор способности (компактная плашка сверху, не перекрывает экран) -->
+        <Panel id="AbilityPickOverlay" class="AbilityToastOverlay" hittest="true" style="visibility:collapse;">
+            <Panel class="AbilityToastHeader">
+                <Label id="AbilityPickTitle" class="AbilityToastTitle" text="ВЫБЕРИ СПОСОБНОСТЬ" />
+                <Label id="AbilityPickProgress" class="AbilityToastProgress" text="" />
+            </Panel>
+            <Panel id="AbilityPickGrid" class="AbilityToastGrid" />
         </Panel>
     </Panel>
 </root>

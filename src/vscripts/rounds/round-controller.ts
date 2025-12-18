@@ -29,11 +29,13 @@ export class RoundController {
 
     private nextRoundNumber: number = 1;
     private activeRoundNumber: number | null = null;
+    private activeRoundStartedAt: number | null = null;
 
     private playerStates: Map<PlayerID, PlayerRoundState> = new Map();
 
     private roundPollTimerName = "RoundController_Poll";
     private neutralPollTimerName = "RoundController_NeutralPeacePoll";
+    private botFunNextAt: Map<PlayerID, number> = new Map();
 
     private stageManager: StageManagerLike | null = null;
 
@@ -78,6 +80,7 @@ export class RoundController {
 
         this.ensureLayout();
         this.activeRoundNumber = this.nextRoundNumber;
+        this.activeRoundStartedAt = GameRules.GetGameTime();
 
         const round = this.activeRoundNumber;
         print(`=== RoundController: старт раунда ${round} ===`);
@@ -201,6 +204,7 @@ export class RoundController {
         print(`=== RoundController: раунд ${round} завершён (все игроки справились) ===`);
 
         this.activeRoundNumber = null;
+        this.activeRoundStartedAt = null;
         this.nextRoundNumber++;
         try {
             (GameRules as any).Addon.isRoundActive = false;
@@ -218,9 +222,19 @@ export class RoundController {
     private startRoundPoll(round: number): void {
         Timers.RemoveTimer(this.roundPollTimerName);
         Timers.CreateTimer(this.roundPollTimerName, {
-            endTime: 0.25,
+            endTime: 0.2,
             callback: () => {
                 if (this.activeRoundNumber !== round) return undefined;
+
+                // Таймаут раунда: если крипы живы слишком долго — удаляем и засчитываем как победу.
+                const startedAt = this.activeRoundStartedAt ?? GameRules.GetGameTime();
+                const elapsed = GameRules.GetGameTime() - startedAt;
+                if (elapsed >= 80) {
+                    this.forceFinishRoundByTimeout();
+                }
+
+                // Защитный фикс: если у бота есть живые крипы, но он не на своей арене — возвращаем.
+                this.enforceBotsOnArenas();
 
                 let allFinished = true;
                 for (const pid of this.playerManager.getAllValidPlayerIDs()) {
@@ -247,7 +261,7 @@ export class RoundController {
                     return undefined;
                 }
 
-                return 0.25;
+                return 0.2;
             }
         });
     }
@@ -301,29 +315,213 @@ export class RoundController {
         Timers.CreateTimer(this.neutralPollTimerName, {
             endTime: 0.25,
             callback: () => {
-                const neutralBounds = this.layout!.neutral.bounds;
+                const safeBounds = this.layout!.neutral.bounds;
+                const extBounds = this.layout!.neutral.extendedBounds;
                 for (const pid of this.playerManager.getAllValidPlayerIDs()) {
                     const hero = this.playerManager.getPlayerHero(pid) ?? PlayerResource.GetSelectedHeroEntity(pid);
                     if (!hero || !IsValidEntity(hero)) continue;
 
+                    // Автодоставка покупок: если предмет попал в stash, переносим его в свободный слот инвентаря/рюкзака.
+                    // Это делает "универсальный магазин" реально удобным — предметы доступны сразу, а не только после смерти/респавна у фонтана.
+                    this.autoDeliverStashItems(hero);
+
                     const o = hero.GetAbsOrigin();
                     const p = { x: o.x, y: o.y, z: o.z };
-                    const inNeutral =
-                        p.x >= neutralBounds.mins.x &&
-                        p.x <= neutralBounds.maxs.x &&
-                        p.y >= neutralBounds.mins.y &&
-                        p.y <= neutralBounds.maxs.y;
+                    const inSafe =
+                        p.x >= safeBounds.mins.x &&
+                        p.x <= safeBounds.maxs.x &&
+                        p.y >= safeBounds.mins.y &&
+                        p.y <= safeBounds.maxs.y;
+                    const inExtended =
+                        p.x >= extBounds.mins.x &&
+                        p.x <= extBounds.maxs.x &&
+                        p.y >= extBounds.mins.y &&
+                        p.y <= extBounds.maxs.y;
 
-                    if (inNeutral) {
+                    if (inSafe) {
+                        // Safe: мягкие ограничения на авто-агр + полный реген
                         this.peaceMode.applyToHero(hero);
+                        if (!hero.HasModifier("modifier_arcpit_neutral_regen")) {
+                            hero.AddNewModifier(hero, undefined, "modifier_arcpit_neutral_regen", {});
+                        }
+                        if (hero.HasModifier("modifier_arcpit_neutral_mana_regen")) {
+                            hero.RemoveModifierByName("modifier_arcpit_neutral_mana_regen");
+                        }
+
+                        // Боты на базе "балуються": каждые 5 сек выдаём на 5 сек случайный модификатор поведения.
+                        if (PlayerResource.IsFakeClient(pid)) {
+                            this.applyBotBaseFun(pid, hero);
+                        }
+                    } else if (inExtended) {
+                        // Unsafe ring: без HP-регена, но с маной и с фановыми модификаторами (иначе боты там тупят).
+                        this.peaceMode.removeFromHero(hero);
+                        if (hero.HasModifier("modifier_arcpit_neutral_regen")) {
+                            hero.RemoveModifierByName("modifier_arcpit_neutral_regen");
+                        }
+                        if (!hero.HasModifier("modifier_arcpit_neutral_mana_regen")) {
+                            hero.AddNewModifier(hero, undefined, "modifier_arcpit_neutral_mana_regen", {});
+                        }
+                        if (PlayerResource.IsFakeClient(pid)) {
+                            this.applyBotBaseFun(pid, hero);
+                        }
                     } else {
                         // Вне нейтрали можно драться с крипами
                         this.peaceMode.removeFromHero(hero);
+                        if (hero.HasModifier("modifier_arcpit_neutral_regen")) {
+                            hero.RemoveModifierByName("modifier_arcpit_neutral_regen");
+                        }
+                        if (hero.HasModifier("modifier_arcpit_neutral_mana_regen")) {
+                            hero.RemoveModifierByName("modifier_arcpit_neutral_mana_regen");
+                        }
+
+                        // Если бот вышел из нейтрали — сбрасываем таймер, чтобы при возврате быстро начал снова.
+                        if (PlayerResource.IsFakeClient(pid)) {
+                            this.botFunNextAt.delete(pid);
+                        }
                     }
                 }
                 return 0.25;
             }
         });
+    }
+
+    private enforceBotsOnArenas(): void {
+        if (this.activeRoundNumber === null) return;
+        if (!this.layout) return;
+
+        for (const pid of this.playerManager.getAllValidPlayerIDs()) {
+            if (!PlayerResource.IsFakeClient(pid)) continue;
+
+            const st = this.playerStates.get(pid);
+            if (!st || st.finished) continue;
+
+            // Если крипов уже нет — нечего чинить
+            const hasAliveCreeps = st.creeps.some((idx) => {
+                const ent = EntIndexToHScript(idx);
+                return ent && IsValidEntity(ent) && (ent as CDOTA_BaseNPC).IsAlive();
+            });
+            if (!hasAliveCreeps) continue;
+
+            const hero = this.playerManager.getPlayerHero(pid) ?? PlayerResource.GetSelectedHeroEntity(pid);
+            if (!hero || !IsValidEntity(hero)) continue;
+
+            const slot = this.layout.byId[st.arenaId];
+            const ho = hero.GetAbsOrigin();
+            const hpos = Vector(ho.x, ho.y, ho.z);
+
+            // Если герой мёртв — гарантируем, что респавн будет в арене
+            if (!hero.IsAlive()) {
+                st.pendingRespawnPos = Vector(slot.spawn.x, slot.spawn.y, slot.spawn.z);
+                continue;
+            }
+
+            // Если герой жив, но вне своей арены — телепортируем назад и даём автоатаку
+            const inArena = slot.contains2D({ x: hpos.x, y: hpos.y, z: hpos.z } as any);
+            if (!inArena) {
+                const spawn = Vector(slot.spawn.x, slot.spawn.y, slot.spawn.z);
+                hero.SetAbsOrigin(spawn);
+                FindClearSpaceForUnit(hero, spawn, true);
+                st.lastCombatPos = Vector(spawn.x, spawn.y, spawn.z);
+                this.enforceExclusiveControl(hero);
+                this.forceAutoAttack(pid, hero);
+            }
+        }
+    }
+
+    private forceFinishRoundByTimeout(): void {
+        if (this.activeRoundNumber === null) return;
+
+        for (const pid of this.playerManager.getAllValidPlayerIDs()) {
+            const st = this.playerStates.get(pid);
+            if (!st || st.finished) continue;
+
+            // Удаляем оставшихся крипов
+            for (const idx of st.creeps) {
+                const ent = EntIndexToHScript(idx);
+                if (!ent || !IsValidEntity(ent)) continue;
+                const creep = ent as CDOTA_BaseNPC;
+                if (!creep.IsAlive()) continue;
+                try {
+                    // best-effort: RemoveSelf существует у большинства entities
+                    (creep as any).RemoveSelf?.();
+                } catch (e) {}
+                try {
+                    (globalThis as any).UTIL_Remove?.(creep);
+                } catch (e) {}
+            }
+
+            st.finished = true;
+            this.returnPlayerToNeutral(pid);
+        }
+    }
+
+    private applyBotBaseFun(pid: PlayerID, hero: CDOTA_BaseNPC_Hero): void {
+        // если уже действует один из fun-модификаторов — ничего не делаем
+        if (hero.HasModifier("modifier_arcpit_bot_fun_hunt") || hero.HasModifier("modifier_arcpit_bot_fun_wander")) {
+            return;
+        }
+
+        const now = GameRules.GetGameTime();
+        const prev = this.botFunNextAt.get(pid);
+        const nextAt = prev !== undefined ? prev : 0;
+        if (now < nextAt) return;
+
+        // каждые 5 секунд, модификатор на 5 секунд
+        this.botFunNextAt.set(pid, now + 5.0);
+
+        const roll = RandomInt(1, 100);
+        const name = roll <= 50 ? "modifier_arcpit_bot_fun_hunt" : "modifier_arcpit_bot_fun_wander";
+        hero.AddNewModifier(hero, undefined, name, { duration: 5.0 });
+    }
+
+    /**
+     * Переносит предметы из stash (обычно слоты 9..14) в свободные слоты инвентаря/рюкзака (0..8).
+     * Best-effort: индексы слотов и наличие SwapItems зависят от окружения/биндингов.
+     */
+    private autoDeliverStashItems(hero: CDOTA_BaseNPC_Hero): void {
+        // слоты: 0..5 inventory, 6..8 backpack, 9..14 stash (стандартный порядок в Dota VScript)
+        const MAIN_AND_BACKPACK = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+        const STASH = [9, 10, 11, 12, 13, 14];
+
+        // Собираем свободные слоты (куда можно положить предмет)
+        const free: number[] = [];
+        for (const s of MAIN_AND_BACKPACK) {
+            const it = hero.GetItemInSlot(s);
+            if (!it) free.push(s);
+        }
+        if (free.length <= 0) return;
+
+        // Перетаскиваем предметы из stash в свободные слоты
+        let moved = 0;
+        let freeIdx = 0;
+        for (const stashSlot of STASH) {
+            if (freeIdx >= free.length) break;
+            const it = hero.GetItemInSlot(stashSlot);
+            if (!it) continue;
+
+            const dst = free[freeIdx];
+            freeIdx++;
+
+            // SwapItems — самый безопасный способ перемещения между слотами
+            let swapped = false;
+            try {
+                const h: any = hero as any;
+                if (typeof h.SwapItems === "function") {
+                    h.SwapItems(stashSlot, dst);
+                    swapped = true;
+                }
+            } catch (e) {
+                swapped = false;
+            }
+            if (swapped) {
+                moved++;
+            }
+        }
+
+        // Если что-то сдвинули — всё, выходим. (Если SwapItems отсутствует, просто молча ничего не делаем)
+        if (moved > 0) {
+            // noop
+        }
     }
 
     // ---------------------------
@@ -471,21 +669,26 @@ export class RoundController {
 
         // собираем список прокачиваемых абилок
         const abil: CDOTABaseAbility[] = [];
+        const talents: CDOTABaseAbility[] = [];
         for (let i = 0; i < hero.GetAbilityCount(); i++) {
             const a = hero.GetAbilityByIndex(i);
             if (!a) continue;
             const name = a.GetAbilityName();
             if (!name) continue;
-            if (name.startsWith("special_bonus_")) continue;
             if (a.GetMaxLevel() <= 0) continue;
-            abil.push(a);
+            if (name.startsWith("special_bonus_")) {
+                talents.push(a);
+            } else {
+                abil.push(a);
+            }
         }
-        if (abil.length === 0) return;
+        if (abil.length === 0 && talents.length === 0) return;
 
         let guard = 0;
         let idx = 0;
         while (points > 0 && guard < 5000) {
             guard++;
+            if (abil.length <= 0) break;
             const a = abil[idx % abil.length];
             idx++;
             if (!a) continue;
@@ -497,6 +700,23 @@ export class RoundController {
             points = hero.GetAbilityPoints();
             hero.SetAbilityPoints(math.max(0, points - 1));
             points = hero.GetAbilityPoints();
+        }
+
+        // Если остались пойнты (часто из-за отсутствия дефолтных абилок) — потратим их на таланты.
+        if (points > 0 && talents.length > 0) {
+            let tguard = 0;
+            let tidx = 0;
+            while (points > 0 && tguard < 256) {
+                tguard++;
+                const t = talents[tidx % talents.length];
+                tidx++;
+                if (!t) continue;
+                if (t.GetLevel() >= t.GetMaxLevel()) continue;
+                t.SetLevel(t.GetLevel() + 1);
+                points = hero.GetAbilityPoints();
+                hero.SetAbilityPoints(math.max(0, points - 1));
+                points = hero.GetAbilityPoints();
+            }
         }
     }
 

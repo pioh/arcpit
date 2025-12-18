@@ -1,0 +1,94 @@
+ARCPIT — краткий SPEC (для следующего агента)
+
+1) Структура проекта (главное)
+- src/vscripts/            server-side логика (TypeScript → Lua через tstl)
+  - GameMode.ts            точка входа: инициализация, state machine, event listeners, глобальные хуки (npc_spawned, level up, etc)
+  - config/game-rules.ts   настройка GameRules/GameModeEntity, фильтры ордеров/урона, тайминги стадий
+  - players/               PlayerManager + TeamAssignment
+  - bots/                  BotManager (создание bot-slots), AiTakeoverController (server-side AI для ботов/дисконнектов)
+  - heroes/hero-draft-manager.ts   кастомный пик героя (6 офферов на игрока)
+  - abilities/ability-draft-manager.ts  кастомный выбор способностей “по требованию”
+  - rounds/round-controller.ts      PvE раунды: телепорт на арену, спавн крипов, планирование/бой, scaling, bot leveling
+  - modifiers/             кастомные модификаторы, импортируются через modifiers.ts
+
+- src/panorama/            panorama runtime TS (→ content/panorama/scripts/custom_game)
+  - hud.ts                 UI логика (герой-пик + ability toast + players bar + таймеры)
+  - manifest.ts            отключение стандартных UI элементов, инъекция hud.xml, скрытие дефолтного hero picker в HERO_SELECTION
+
+- content/panorama/        готовые ресурсы panorama
+  - layout/custom_game/hud.xml
+  - styles/custom_game/hud.css
+  - scripts/custom_game/hud.js (генерируется из src/panorama/hud.ts)
+
+2) Механика игры (реализовано)
+
+2.1 Поток стадий (важно)
+- CUSTOM_GAME_SETUP:
+  - докидываем ботов до MAX_PLAYERS
+  - запускаем кастомный пик героя на HERO_SELECTION_TIME секунд (5с), таймеры real-time
+  - после таймера: GameRules.FinishCustomGameSetup()
+
+- STRATEGY_TIME (5с):
+  - включен стандартный экран выбора аспектов/фасетов (def strategy UI)
+  - дефолтный hero picker UI скрывается панорамой только в HERO_SELECTION, не в STRATEGY
+
+- GAME_IN_PROGRESS:
+  - стартует сценарий DefaultGameScenario → PRE_COMBAT на 5с → COMBAT (1-й раунд)
+  - на старте GAME_IN_PROGRESS очищаем дефолтные способности у всех уже существующих героев (1 раз/PlayerID)
+  - стартуем выдачу офферов выбора способностей
+
+2.2 Кастомный выбор героя (HeroDraft)
+- На каждого игрока/бота генерится 6 случайных героев из HERO_POOL (без wisp).
+- Игрок выбирает кликом (UI), бот автопикает.
+- Для людей: выбор фиксится через PlayerController.SetSelectedHero(heroName)
+- Для ботов: используется PlayerResource.ReplaceHeroWith(pid, heroName, 0, 0) (иначе они оставались wisp).
+- После драфта: best-effort cleanup оставшихся npc_dota_hero_wisp (чтобы не было “лишних io на базе”).
+- В UI payload оффера содержит playerID; клиент возвращает playerID обратно (не используем Game.GetLocalPlayerID(), он бывает -1).
+
+События:
+- server → client: arcpit_hero_draft_offer { playerID, offerId, duration, heroes }
+- client → server: arcpit_hero_pick { offerId, heroName, playerID? }
+
+2.3 Кастомный выбор способностей (AbilityDraft)
+- Сервер вычисляет, доступен ли выбор, по таблице:
+  - lvl>=1  allow 2
+  - lvl>=3  allow 3
+  - lvl>=4  allow 4
+  - lvl>=5  allow 5
+  - lvl>=6  allow 6
+  - lvl>=20 allow 7
+- Если chosenCount < allowedCount → выдаём оффер из 8 случайных способностей (ABILITY_POOL) без уже имеющихся.
+- Игрок выбирает 1 способность за раз; после выбора сервер при необходимости выдаёт следующий оффер.
+- chosenCount хранится на сервере в AbilityDraftManager.
+- UI для способности — компактная плашка сверху (AbilityToastOverlay).
+
+ВАЖНО: гонка UI
+- Для людей оффер не создаём, пока PlayerResource.GetPlayer(pid) не готов, иначе activeOffer “залипает” и UI теряется.
+- Дополнительно: после npc_spawned героя (в GAME_IN_PROGRESS) дергаем maybeOffer(pid) с задержкой (чтобы выбор на lvl1 появлялся сразу).
+
+События:
+- server → client: arcpit_ability_draft_offer { playerID, offerId, abilities, chosenCount, allowedCount }
+- client → server: arcpit_ability_pick { offerId, abilityName, playerID? }
+
+2.4 Боты
+- Создаются BotManager.addBot() через GameRules.AddBotPlayerWithEntityScript("npc_dota_hero_wisp", ...)
+- После hero draft заменяются на выбранного героя (ReplaceHeroWith).
+- AbilityDraftManager: боты автокликают способности; после каждого выбора ботам автотратим ability points (иначе на 30 уровне висели пойнты).
+- RoundController: апает ботов до BOT_START_LEVEL и автокачает способности/таланты.
+
+2.5 Раунды PvE (RoundController)
+- PRE_COMBAT (planning): safe-zone/peace mode + shopkeeper.
+- COMBAT: телепорт каждого игрока на свою арену, спавн крипов, scaling модификатором, отслеживание завершения раунда.
+
+2.6 Ограничение управления чужими героями
+- GameMode периодически (раз в 1с) форсит controllable flags: только владелец может управлять своим героем.
+- ExecuteOrderFilter блокирует ордера на героев, если owner != issuer или owner undefined (убирает управление “лишними” героями).
+
+3) Ключевые файлы (куда лезть)
+- server flow/state: src/vscripts/GameMode.ts, src/vscripts/config/game-rules.ts
+- hero draft: src/vscripts/heroes/hero-draft-manager.ts
+- ability draft: src/vscripts/abilities/ability-draft-manager.ts
+- rounds: src/vscripts/rounds/round-controller.ts
+- panorama: src/panorama/hud.ts, src/panorama/manifest.ts, content/panorama/layout/custom_game/hud.xml, content/panorama/styles/custom_game/hud.css
+
+

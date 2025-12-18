@@ -23,11 +23,14 @@ export class AiTakeoverController {
         this.tickAccumulator = 0;
 
         for (const pid of this.playerManager.getAllValidPlayerIDs()) {
-            if (PlayerResource.IsFakeClient(pid)) continue;
+            const isBot = PlayerResource.IsFakeClient(pid);
 
-            // connected если есть Player object
-            const connected = PlayerResource.GetPlayer(pid) !== undefined;
-            if (connected) continue;
+            // Для людей: takeover только если игрок реально отключился (нет Player object).
+            // Для ботов: работаем всегда (это наш универсальный server-side AI).
+            if (!isBot) {
+                const connected = PlayerResource.GetPlayer(pid) !== undefined;
+                if (connected) continue;
+            }
 
             const hero = this.playerManager.getPlayerHero(pid) ?? PlayerResource.GetSelectedHeroEntity(pid);
             if (!hero || !IsValidEntity(hero)) continue;

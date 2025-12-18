@@ -1,7 +1,7 @@
 local ____lualib = require("lualib_bundle")
 local __TS__Class = ____lualib.__TS__Class
 local __TS__SourceMapTraceBack = ____lualib.__TS__SourceMapTraceBack
-__TS__SourceMapTraceBack(debug.getinfo(1).short_src, {["6"] = 1,["7"] = 1,["12"] = 9,["13"] = 9,["14"] = 9,["16"] = 10,["17"] = 9,["18"] = 12,["19"] = 13,["22"] = 14,["25"] = 19,["26"] = 20,["29"] = 22,["35"] = 24,["36"] = 24,["38"] = 24,["45"] = 25,["46"] = 25,["48"] = 25,["55"] = 29,["56"] = 31,["57"] = 33,["58"] = 34,["61"] = 37,["62"] = 40,["63"] = 40,["64"] = 40,["65"] = 40,["66"] = 40,["67"] = 40,["68"] = 40,["69"] = 40,["70"] = 40,["71"] = 40,["72"] = 40,["73"] = 53,["76"] = 55,["77"] = 56,["80"] = 57,["83"] = 58,["87"] = 54,["90"] = 61,["91"] = 53,["92"] = 64,["95"] = 65,["98"] = 31,["99"] = 69,["100"] = 69,["101"] = 69,["102"] = 69,["103"] = 69,["104"] = 72,["105"] = 73,["106"] = 73,["107"] = 73,["108"] = 73,["109"] = 73,["111"] = 12});
+__TS__SourceMapTraceBack(debug.getinfo(1).short_src, {["6"] = 1,["7"] = 1,["12"] = 9,["13"] = 9,["14"] = 9,["16"] = 10,["17"] = 9,["18"] = 12,["19"] = 13,["22"] = 14,["23"] = 16,["24"] = 18,["25"] = 20,["26"] = 21,["29"] = 24,["30"] = 27,["31"] = 27,["32"] = 27,["33"] = 27,["34"] = 27,["35"] = 27,["36"] = 27,["37"] = 27,["38"] = 27,["39"] = 27,["40"] = 27,["41"] = 40,["44"] = 42,["45"] = 43,["48"] = 44,["51"] = 45,["55"] = 41,["58"] = 48,["59"] = 40,["60"] = 51,["63"] = 52,["66"] = 18,["67"] = 56,["68"] = 56,["69"] = 56,["70"] = 56,["71"] = 56,["72"] = 59,["73"] = 60,["74"] = 60,["75"] = 60,["76"] = 60,["77"] = 60,["79"] = 12});
 local ____exports = {}
 local ____arena_2Dlayout = require("shared.arena-layout")
 local buildLayout = ____arena_2Dlayout.buildLayout
@@ -20,38 +20,6 @@ function LightingManager.prototype.ensureLights(self)
         return
     end
     self.spawned = true
-    do
-        pcall(function()
-            local gl = Entities:FindByClassname(nil, "env_global_light")
-            if gl then
-                do
-                    pcall(function()
-                        gl:SetAngles(-90, 0, 0)
-                    end)
-                end
-                do
-                    pcall(function()
-                        local ____this_1
-                        ____this_1 = gl
-                        local ____opt_0 = ____this_1.__KeyValueFromString
-                        if ____opt_0 ~= nil then
-                            ____opt_0(____this_1, "brightness", "4")
-                        end
-                    end)
-                end
-                do
-                    pcall(function()
-                        local ____this_3
-                        ____this_3 = gl
-                        local ____opt_2 = ____this_3.__KeyValueFromString
-                        if ____opt_2 ~= nil then
-                            ____opt_2(____this_3, "_light", "255 255 255 255")
-                        end
-                    end)
-                end
-            end
-        end)
-    end
     local layout = buildLayout(nil, {debug = false, logPrefix = "[arena-layout]"})
     local function spawnOmni(____, name, pos)
         local existing = Entities:FindByName(nil, name)

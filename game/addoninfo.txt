@@ -47,7 +47,7 @@
     AddonTitle = "Arcpit"
     AddonTagline = "Custom Hero Chaos: арены, раунды, случайные способности"
     AddonDescription = "Бесконечные PvE-раунды: каждый игрок (или бот) попадает на свою арену, отражает волны крипов и возвращается в нейтральную зону на планирование.\n\nОсобенности:\n- Автозаполнение недостающих игроков ботами\n- AI takeover при дисконнекте игрока\n- Рандом героев и способностей\n- Усиление крипов по раундам\n\nСтатус: WIP (ранний прототип)."
-    AddonVersion = "0.1.1"
+    AddonVersion = "0.3.0"
     AddonAuthor = "pioh"
     AddonURL = "https://github.com/pioh/arcpit"
     AddonPreviewImage = "panorama/images/custom_game/arcpit_logo_512.png"

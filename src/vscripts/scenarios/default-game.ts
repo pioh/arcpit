@@ -22,7 +22,9 @@ export class DefaultGameScenario {
     start(): void {
         print("=== Starting DEFAULT GAME scenario ===");
         
-        // Стандартная последовательность стадий
+        // Флоу:
+        // - HERO_SELECTION + STRATEGY_TIME обрабатывает движок (кастомный пик + аспекты)
+        // - тут мы стартуем только когда игра уже началась (GAME_IN_PROGRESS): PRE_COMBAT 5с -> COMBAT
         this.peaceMode.enable();
         this.peaceMode.applyToAll();
         
@@ -35,9 +37,9 @@ export class DefaultGameScenario {
         // Сохраняем героев
         this.playerManager.saveCurrentHeroes();
         
-        // Запускаем стадии
+        // Запускаем стадии: сразу PRE_COMBAT на 5 сек, затем первый раунд
         Timers.CreateTimer(0.5, () => {
-            this.stageManager.startHeroSelection();
+            this.stageManager.startPreCombat(5);
             return undefined;
         });
     }
