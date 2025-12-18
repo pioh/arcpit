@@ -1,4 +1,8 @@
 import { spawn } from "bun";
+import { cleanBuildOutputs } from "./utils.js";
+
+// Важно: чистим outDir'ы перед билдом, чтобы не оставались старые файлы.
+await cleanBuildOutputs();
 
 // Параллельный запуск обоих билдов
 const panorama = spawn(["bun", "run", "build:panorama"], {

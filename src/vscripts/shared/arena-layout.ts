@@ -1,6 +1,6 @@
 // arena-layout.ts
 // Все размеры в "тайлах" по 128 world units (tileSize).
-// Нейтральная зона в центре, арены (1..8) вокруг неё в сетке 4×2.
+// Нейтральная зона в центре, арены (1..8) вокруг неё в сетке 3×3 без центра.
 
 export type Vec2 = { x: number; y: number };
 export type Vec3 = { x: number; y: number; z: number };
@@ -17,18 +17,18 @@ export type TileRect = {
 
 export type ArenaSlot = {
   id: number; // 1..8
-  row: number; // 0..rows-1
-  col: number; // 0..cols-1
+  row: number; // 0..2 (как в 3×3)
+  col: number; // 0..2 (как в 3×3)
 
   // tile-space (относительно origin, в тайлах)
   centerTile: Vec2;
-  baseTileBounds: TileRect; // чистые 6×6 (без +32)
-  tileBounds: TileRect; // 6×6 + "стенка" (+32 world => +0.25 tile на сторону)
+  baseTileBounds: TileRect; // чистые 6×6 (без +wall)
+  tileBounds: TileRect; // 6×6 + "стенка" (wallExtra)
 
   // world-space
   center: Vec3;
   baseBounds: Rect; // чистые 6×6
-  bounds: Rect; // baseBounds расширенный на arenaWallExtraWorld с каждой стороны
+  bounds: Rect; // baseBounds расширенный на wallExtra
 
   // suggested point for teleport/spawn inside the arena
   spawn: Vec3;
@@ -84,7 +84,7 @@ export type BuildLayoutParams = Partial<{
    * - Record: ключи 1..8
    * - Array: индекс 0 => id=1, индекс 7 => id=8
    *
-   * Если не задано — позиции считаются по формуле (4×2 вокруг нейтрали).
+   * Если не задано — позиции считаются по формуле (3×3 вокруг нейтрали, без центра).
    */
   arenaCenters: Record<number, Vec3> | Vec3[];
 }>;
@@ -121,7 +121,7 @@ function clampToRect2D(r: Rect, p: Vec3, paddingWorld: number): Vec3 {
 }
 
 /**
- * Собирает layout: нейтральная зона (10×10) + 8 арен (4×2).
+ * Собирает layout: нейтральная зона (10×10) + 8 арен (3×3 без центра).
  *
  * Геометрия по умолчанию (в тайлах по 128):
  * - tileSize = 128
@@ -129,7 +129,7 @@ function clampToRect2D(r: Rect, p: Vec3, paddingWorld: number): Vec3 {
  * - gapBetweenArenasTiles = 17
  * - neutralTileSize = 10
  * - gapNeutralToArenaTiles = 15
- * - arenaWallExtraWorld = 32 (1/4 тайла на сторону)
+ * - arenaWallExtraWorldPerSide = 32 (1/4 тайла на сторону)
  *
  * origin — МИРОВАЯ точка центра нейтральной зоны.
  */
@@ -155,26 +155,24 @@ export function buildLayout(params?: BuildLayoutParams): Layout {
 
   const halfArenaBaseWorld = (arenaTileSize * tileSize) / 2;
 
-  // шаг центра арены от origin (в world). По твоим числам:
-  // neutralHalfTiles(=neutral/2) + gapNeutralToArenaTiles + halfArenaTiles(=arena/2)
-  // и он же == (arenaTileSize + gapBetweenArenasTiles), т.к. 10/15/6/17 подобраны ровно.
+  // шаг между центрами арен = (arena + gap) * tileSize
+  // Для твоих чисел он же равен расстоянию от центра нейтрали до центра ближайшей арены:
+  // (neutral/2 + gapNeutralToArena + arena/2) * tileSize = (5 + 15 + 3)*128 = 23*128
   const stepWorld = (arenaTileSize + gapBetweenArenasTiles) * tileSize;
-  const stepFromNeutralWorld = (neutralTileSize / 2 + gapNeutralToArenaTiles + arenaTileSize / 2) * tileSize;
 
   const arenas: ArenaSlot[] = [];
   const byId: Record<number, ArenaSlot> = {};
 
-  // Раскладка 8 арен вокруг нейтрали (3×3 без центра).
   // id (по часовой, начиная с left-top):
   // 1 LT, 2 T, 3 RT, 4 L, 5 R, 6 LB, 7 B, 8 RB
   const slots: Array<{ id: number; row: number; col: number; dx: number; dy: number }> = [
     { id: 1, row: 0, col: 0, dx: -1, dy: +1 },
-    { id: 2, row: 0, col: 1, dx:  0, dy: +1 },
+    { id: 2, row: 0, col: 1, dx: 0, dy: +1 },
     { id: 3, row: 0, col: 2, dx: +1, dy: +1 },
-    { id: 4, row: 1, col: 0, dx: -1, dy:  0 },
-    { id: 5, row: 1, col: 2, dx: +1, dy:  0 },
+    { id: 4, row: 1, col: 0, dx: -1, dy: 0 },
+    { id: 5, row: 1, col: 2, dx: +1, dy: 0 },
     { id: 6, row: 2, col: 0, dx: -1, dy: -1 },
-    { id: 7, row: 2, col: 1, dx:  0, dy: -1 },
+    { id: 7, row: 2, col: 1, dx: 0, dy: -1 },
     { id: 8, row: 2, col: 2, dx: +1, dy: -1 },
   ];
 
@@ -194,7 +192,7 @@ export function buildLayout(params?: BuildLayoutParams): Layout {
     const baseMaxs = v3(center.x + halfArenaBaseWorld, center.y + halfArenaBaseWorld, z);
     const baseBounds = rect(baseMins, baseMaxs);
 
-    // bounds арены: плюс поправка на "стенки земли" (+32 world units на сторону)
+    // bounds арены: плюс поправка на "стенки земли"
     const mins = v3(baseMins.x - arenaWallExtraWorldPerSide, baseMins.y - arenaWallExtraWorldPerSide, z);
     const maxs = v3(baseMaxs.x + arenaWallExtraWorldPerSide, baseMaxs.y + arenaWallExtraWorldPerSide, z);
     const bounds = rect(mins, maxs);
