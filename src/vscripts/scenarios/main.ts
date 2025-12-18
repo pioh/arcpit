@@ -64,10 +64,10 @@ export class ScenarioManager {
         // Раскомментируй нужный сценарий:
 
         // === ОСНОВНАЯ ИГРА ===
-        // this.defaultGame.start();
+        this.defaultGame.start();
 
         // === ТЕСТ: Glaives vs Creeps ===
-        this.testGlaives.start();
+        // this.testGlaives.start();
 
         // === Добавь свои тесты ниже ===
         // this.testMyCustomScenario.start();

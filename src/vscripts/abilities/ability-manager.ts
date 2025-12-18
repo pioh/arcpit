@@ -64,7 +64,7 @@ export class AbilityManager {
         
         for (const abilityName of selectedAbilities) {
             const ability = hero.AddAbility(abilityName);
-            if (ability) {
+            if (ability !== undefined) {
                 // НЕ прокачиваем способности! Игрок сам будет качать
                 // ability.SetLevel(1);
                 print(`  ✓ Added ability: ${abilityName} (level 0, not skilled)`);

@@ -2,11 +2,15 @@
 export const GAME_CONSTANTS = {
     // Игроки
     MAX_PLAYERS: 8,
+
+    // Боты
+    BOT_START_LEVEL: 30,
     
     // Время стадий (в секундах)
-    HERO_SELECTION_TIME: 0.5,  // Быстро для тестов
-    ABILITY_SELECTION_TIME: 0.5,  // Быстро для тестов
-    PRE_COMBAT_TIME: 1,  // Быстро для тестов
+    HERO_SELECTION_TIME: 5,
+    ABILITY_SELECTION_TIME: 5,
+    PRE_COMBAT_TIME: 5, // планирование перед 1-м раундом
+    BETWEEN_ROUNDS_PLANNING_TIME: 10, // планирование между раундами
     
     // Экономика
     STARTING_GOLD: 2000,

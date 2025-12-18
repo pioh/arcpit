@@ -12,10 +12,70 @@ enum GameStage {
 }
 
 let currentTimer: ScheduleID | null = null;
+let roundTimer: ScheduleID | null = null;
+let roundPhase: "planning" | "round" = "planning";
+let roundNumber: number = 1;
 
 interface StageChangedData {
     stage: GameStage;
     duration: number;
+}
+
+interface RoundStateChangedData {
+    phase: "planning" | "round";
+    round: number;
+    duration: number;
+}
+
+interface CameraFocusHeroData {
+    entindex: EntityIndex;
+    duration: number;
+}
+
+function renderRoundPanel(): void {
+    const roundLabel = $("#RoundLabel") as LabelPanel;
+    if (!roundLabel) return;
+    roundLabel.text = `РАУНД ${roundNumber}`;
+}
+
+function stopRoundTimer(): void {
+    if (roundTimer !== null) {
+        $.CancelScheduled(roundTimer);
+        roundTimer = null;
+    }
+}
+
+function startRoundCountdown(seconds: number): void {
+    const label = $("#RoundTimer") as LabelPanel;
+    if (!label) return;
+    stopRoundTimer();
+
+    let timeLeft = seconds;
+    const update = () => {
+        if (timeLeft <= 0) {
+            label.text = "0";
+            roundTimer = null;
+            return;
+        }
+        label.text = `${Math.ceil(timeLeft)}`;
+        timeLeft -= 0.1;
+        roundTimer = $.Schedule(0.1, update);
+    };
+    update();
+}
+
+function startRoundStopwatch(): void {
+    const label = $("#RoundTimer") as LabelPanel;
+    if (!label) return;
+    stopRoundTimer();
+
+    let t = 0;
+    const update = () => {
+        t += 0.1;
+        label.text = `${Math.floor(t)}s`;
+        roundTimer = $.Schedule(0.1, update);
+    };
+    update();
 }
 
 function renderPlayersBar(): void {
@@ -64,10 +124,10 @@ function showStageScreen(stage: GameStage, duration: number) {
             titleText = "ВЫБОР СПОСОБНОСТЕЙ";
             break;
         case GameStage.PRE_COMBAT:
-            titleText = "ПОДГОТОВКА К БОЮ";
+            titleText = "ПЛАНИРОВАНИЕ";
             break;
         case GameStage.COMBAT:
-            titleText = "БОЙ НАЧАЛСЯ!";
+            titleText = "РАУНД";
             break;
     }
 
@@ -106,9 +166,33 @@ function showStageScreen(stage: GameStage, duration: number) {
     }
 }
 
-GameEvents.Subscribe("stage_changed", (data: NetworkedData<StageChangedData>) => {
-    showStageScreen(data.stage, data.duration);
+GameEvents.Subscribe("stage_changed", (data: any) => {
+    showStageScreen(data.stage as GameStage, data.duration as number);
     renderPlayersBar();
+});
+
+GameEvents.Subscribe("round_state_changed", (data: any) => {
+    roundPhase = (data.phase as RoundStateChangedData["phase"]) ?? "planning";
+    roundNumber = (data.round as number) ?? 1;
+    renderRoundPanel();
+    if (roundPhase === "planning") {
+        startRoundCountdown((data.duration as number) ?? 0);
+    } else {
+        startRoundStopwatch();
+    }
+});
+
+GameEvents.Subscribe("camera_focus_hero", (data: any) => {
+    const entindex = data.entindex as EntityIndex;
+    const duration = (data.duration as number) ?? 0.25;
+    if (!entindex || entindex === -1) return;
+
+    try {
+        GameUI.SetCameraTarget(entindex);
+        $.Schedule(duration, () => {
+            try { GameUI.SetCameraTarget(-1 as any); } catch (e) {}
+        });
+    } catch (e) {}
 });
 
 $.Schedule(0.2, renderPlayersBar);

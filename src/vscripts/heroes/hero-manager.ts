@@ -19,6 +19,14 @@ export class HeroManager {
     autoSelectForAllPlayers(onComplete?: () => void): void {
         print("=== Auto-selecting heroes for all players ===");
 
+        // Список реальных игроков (люди). Нужен, чтобы запретить управление ботами человеком.
+        const humanPlayerIDs: PlayerID[] = [];
+        for (let p = 0; p < 64; p++) {
+            if (!PlayerResource.IsValidPlayerID(p)) continue;
+            if (PlayerResource.IsFakeClient(p)) continue;
+            humanPlayerIDs.push(p as PlayerID);
+        }
+
         // Проверяем что у всех есть текущий герой для замены
         let pending = 0;
         for (let i = 0; i < 64; i++) {
@@ -47,16 +55,25 @@ export class HeroManager {
                 print(`Replacing hero attempt ${attempt}/${maxAttempts}: ${randomHero} for player ${i} on team ${team}`);
 
                 const hero = PlayerResource.ReplaceHeroWith(i, randomHero, 0, 0);
-                if (hero) {
+                if (hero !== undefined) {
                     replaced = hero;
                     break;
                 }
             }
 
             if (replaced) {
-                // Все друзья до боя
-                replaced.SetTeam(DotaTeam.CUSTOM_1);
+                // Управление:
+                // - человек должен управлять только своим героем
+                // - бот должен управляться ТОЛЬКО своим AI, человек НЕ должен иметь контроль над бот-героем
                 replaced.SetControllableByPlayer(i, true);
+
+                if (PlayerResource.IsFakeClient(i)) {
+                    // На некоторых хостах/локалках движок может дать контроль над fake client героем человеку.
+                    // Жёстко запрещаем control для всех human playerID.
+                    for (const hp of humanPlayerIDs) {
+                        replaced.SetControllableByPlayer(hp, false);
+                    }
+                }
                 this.playerManager.setPlayerHero(i as PlayerID, replaced);
                 this.peaceMode.applyToHero(replaced);
                 print(`✓ Hero replaced for player ${i}`);

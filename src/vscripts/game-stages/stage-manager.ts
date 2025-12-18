@@ -4,6 +4,7 @@ import { AbilitySelectionStage } from "./ability-selection";
 import { PreCombatStage } from "./pre-combat";
 import { CombatStage } from "./combat";
 import { GAME_CONSTANTS } from "../config/game-constants";
+import { RoundController } from "../rounds/round-controller";
 
 /**
  * Управление переходами между стадиями
@@ -11,17 +12,20 @@ import { GAME_CONSTANTS } from "../config/game-constants";
 export class StageManager {
     private currentStage: GameStage = GameStage.INIT;
     private stages: Map<GameStage, IStageHandler> = new Map();
+    private roundController?: RoundController;
 
     constructor(
         heroSelectionStage: HeroSelectionStage,
         abilitySelectionStage: AbilitySelectionStage,
         preCombatStage: PreCombatStage,
-        combatStage: CombatStage
+        combatStage: CombatStage,
+        roundController?: RoundController
     ) {
         this.stages.set(GameStage.HERO_SELECTION, heroSelectionStage);
         this.stages.set(GameStage.ABILITY_SELECTION, abilitySelectionStage);
         this.stages.set(GameStage.PRE_COMBAT, preCombatStage);
         this.stages.set(GameStage.COMBAT, combatStage);
+        this.roundController = roundController;
     }
 
     getCurrentStage(): GameStage {
@@ -47,10 +51,18 @@ export class StageManager {
         });
     }
 
-    startPreCombat(): void {
+    startPreCombat(duration: number = GAME_CONSTANTS.PRE_COMBAT_TIME): void {
         this.transitionTo(GameStage.PRE_COMBAT);
+
+        // Для PRE_COMBAT (планирование) длительность может быть разной (5с перед 1-м раундом, 10с между раундами)
+        CustomGameEventManager.Send_ServerToAllClients("stage_changed", {
+            stage: GameStage.PRE_COMBAT,
+            duration
+        });
+
+        this.roundController?.onPlanningStageStarted(duration);
         
-        Timers.CreateTimer(GAME_CONSTANTS.PRE_COMBAT_TIME, () => {
+        Timers.CreateTimer(duration, () => {
             this.startCombat();
             return undefined;
         });

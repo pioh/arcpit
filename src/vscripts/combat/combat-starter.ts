@@ -58,8 +58,7 @@ export class CombatStarter {
      */
     private issueAttackOrders(): void {
         const playerHeroes = this.playerManager.getAllPlayerHeroes();
-        const c = Entities.FindByClassname(undefined, "info_player_start_dota")?.GetAbsOrigin();
-        const center = c ? Vector(c.x, c.y, c.z) : Vector(0, 0, 128);
+        const center = Vector(0, 0, 128);
         
         for (let i = 0; i < 64; i++) {
             if (!PlayerResource.IsValidPlayerID(i)) continue;

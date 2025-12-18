@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#1e2b3a"/>
+      <stop offset="55%" stop-color="#0f141b"/>
+      <stop offset="100%" stop-color="#070a0f"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6d06f"/>
+      <stop offset="45%" stop-color="#caa24f"/>
+      <stop offset="100%" stop-color="#7a5a24"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feColorMatrix in="b" type="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 0.55 0" result="c"/>
+      <feMerge>
+        <feMergeNode in="c"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="512" height="512" rx="64" fill="url(#bg)"/>
+
+  <!-- Subtle grid -->
+  <g opacity="0.08">
+    <path d="M64 256H448" stroke="#cfe6ff" stroke-width="2"/>
+    <path d="M256 64V448" stroke="#cfe6ff" stroke-width="2"/>
+    <path d="M96 96L416 416" stroke="#cfe6ff" stroke-width="2"/>
+    <path d="M416 96L96 416" stroke="#cfe6ff" stroke-width="2"/>
+  </g>
+
+  <!-- Arena ring -->
+  <g filter="url(#softGlow)">
+    <circle cx="256" cy="256" r="170" fill="none" stroke="url(#ring)" stroke-width="18"/>
+    <circle cx="256" cy="256" r="124" fill="none" stroke="#2a3340" stroke-width="10" opacity="0.9"/>
+  </g>
+
+  <!-- Spikes / pits -->
+  <g fill="#0b0f15" opacity="0.9">
+    <path d="M256 110l18 34h-36z"/>
+    <path d="M402 256l-34 18v-36z"/>
+    <path d="M256 402l-18-34h36z"/>
+    <path d="M110 256l34-18v36z"/>
+  </g>
+
+  <!-- Center emblem -->
+  <g filter="url(#softGlow)">
+    <path d="M256 168c58 0 106 34 106 76 0 33-29 62-72 72l-10 44h-48l-10-44c-43-10-72-39-72-72 0-42 48-76 106-76z"
+          fill="#141b24" stroke="#f6d06f" stroke-width="6"/>
+    <path d="M256 206c28 0 50 15 50 34 0 13-10 24-26 30l-6 20h-36l-6-20c-16-6-26-17-26-30 0-19 22-34 50-34z"
+          fill="#0c1118" stroke="#caa24f" stroke-width="4"/>
+  </g>
+
+  <!-- Title -->
+  <g font-family="Trajan Pro, Cinzel, serif" text-anchor="middle">
+    <text x="256" y="468" font-size="44" fill="#f6d06f" letter-spacing="2">ARCPIT</text>
+    <text x="256" y="494" font-size="16" fill="#cfe6ff" opacity="0.65" letter-spacing="1">ARENA ROUNDS</text>
+  </g>
+</svg>
+
+
+

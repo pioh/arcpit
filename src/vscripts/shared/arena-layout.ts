@@ -70,23 +70,15 @@ export type BuildLayoutParams = Partial<{
   arenaTileSize: number;
   /** Доп. стенка в КАЖДУЮ сторону (world units). */
   arenaWallExtraWorldPerSide: number;
-  /** @deprecated алиас, если уже использовал */
   arenaWallExtraWorld: number;
   gapBetweenArenasTiles: number;
   neutralTileSize: number;
   gapNeutralToArenaTiles: number;
-  origin: Vec3;
   z: number;
-  // spawn offset relative to center (world units)
-  spawnOffset: Vec3;
-  /**
-   * Если арены уже расставлены в редакторе — передай реальные центры.
-   * - Record: ключи 1..8
-   * - Array: индекс 0 => id=1, индекс 7 => id=8
-   *
-   * Если не задано — позиции считаются по формуле (3×3 вокруг нейтрали, без центра).
-   */
-  arenaCenters: Record<number, Vec3> | Vec3[];
+  /** Подробные логи расчётов (для отладки крашей/проверки координат). */
+  debug: boolean;
+  /** Префикс для строк print(). */
+  logPrefix: string;
 }>;
 
 function v3(x: number, y: number, z: number): Vec3 {
@@ -103,6 +95,27 @@ function rect(mins: Vec3, maxs: Vec3): Rect {
 
 function tileRect(mins: Vec2, maxs: Vec2): TileRect {
   return { mins, maxs };
+}
+
+function round3(n: number): number {
+  // В vscripts нет гарантий для Number.toFixed(), поэтому округляем вручную через math.
+  return math.floor(n * 1000 + 0.5) / 1000;
+}
+
+function fmtV2(v: Vec2): string {
+  return `(${round3(v.x)}, ${round3(v.y)})`;
+}
+
+function fmtV3(v: Vec3): string {
+  return `(${round3(v.x)}, ${round3(v.y)}, ${round3(v.z)})`;
+}
+
+function fmtRect(r: Rect): string {
+  return `{ mins=${fmtV3(r.mins)}, maxs=${fmtV3(r.maxs)} }`;
+}
+
+function abs(n: number): number {
+  return n < 0 ? -n : n;
 }
 
 function containsRect2D(r: Rect, p: Vec3): boolean {
@@ -123,8 +136,8 @@ function clampToRect2D(r: Rect, p: Vec3, paddingWorld: number): Vec3 {
 /**
  * Собирает layout: нейтральная зона (10×10) + 8 арен (3×3 без центра).
  *
- * Геометрия по умолчанию (в тайлах по 128):
- * - tileSize = 128
+ * Геометрия по умолчанию (в тайлах по 256):
+ * - tileSize = 256
  * - arenaTileSize = 6
  * - gapBetweenArenasTiles = 17
  * - neutralTileSize = 10
@@ -134,17 +147,32 @@ function clampToRect2D(r: Rect, p: Vec3, paddingWorld: number): Vec3 {
  * origin — МИРОВАЯ точка центра нейтральной зоны.
  */
 export function buildLayout(params?: BuildLayoutParams): Layout {
-  const tileSize = params?.tileSize ?? 128;
+  const debug = params?.debug ?? false;
+  const logPrefix = params?.logPrefix ?? "[arena-layout]";
+  const log = (msg: string) => {
+    if (!debug) return;
+    print(`${logPrefix} ${msg}`);
+  };
+
+  const tileSize = params?.tileSize ?? 256;
   const arenaTileSize = params?.arenaTileSize ?? 6;
+  // поддерживаем deprecated алиас (arenaWallExtraWorld) если perSide не задан
   const arenaWallExtraWorldPerSide = params?.arenaWallExtraWorldPerSide ?? params?.arenaWallExtraWorld ?? 32;
   const gapBetweenArenasTiles = params?.gapBetweenArenasTiles ?? 17;
   const neutralTileSize = params?.neutralTileSize ?? 10;
   const gapNeutralToArenaTiles = params?.gapNeutralToArenaTiles ?? 15;
-  const z = params?.z ?? params?.origin?.z ?? 0;
+  const z = params?.z  ?? 128;
 
-  const origin = params?.origin ?? v3(0, 0, z);
-  const spawnOffset = params?.spawnOffset ?? v3(0, 0, 0);
-  const arenaCenters = params?.arenaCenters;
+  const origin = v3(0, 0, z);
+
+  log("=== buildLayout() start ===");
+  log(
+    `params: tileSize=${tileSize}, arenaTileSize=${arenaTileSize}, ` +
+      `arenaWallExtraWorldPerSide=${arenaWallExtraWorldPerSide} (alias arenaWallExtraWorld=${params?.arenaWallExtraWorld}), ` +
+      `gapBetweenArenasTiles=${gapBetweenArenasTiles}, neutralTileSize=${neutralTileSize}, ` +
+      `gapNeutralToArenaTiles=${gapNeutralToArenaTiles}, z=${z}`,
+  );
+  log(`origin=${fmtV3(origin)}`);
 
   // нейтральная зона: bounds в world
   const neutralHalfWorld = (neutralTileSize * tileSize) / 2;
@@ -153,12 +181,24 @@ export function buildLayout(params?: BuildLayoutParams): Layout {
     v3(origin.x + neutralHalfWorld, origin.y + neutralHalfWorld, z),
   );
 
+  log(`neutralHalfWorld=${round3(neutralHalfWorld)} ; neutralBounds=${fmtRect(neutralBounds)}`);
+
   const halfArenaBaseWorld = (arenaTileSize * tileSize) / 2;
+  log(`halfArenaBaseWorld=${round3(halfArenaBaseWorld)}`);
 
   // шаг между центрами арен = (arena + gap) * tileSize
   // Для твоих чисел он же равен расстоянию от центра нейтрали до центра ближайшей арены:
   // (neutral/2 + gapNeutralToArena + arena/2) * tileSize = (5 + 15 + 3)*128 = 23*128
   const stepWorld = (arenaTileSize + gapBetweenArenasTiles) * tileSize;
+  const stepFromNeutralWorld = (neutralTileSize / 2 + gapNeutralToArenaTiles + arenaTileSize / 2) * tileSize;
+  log(`stepWorld=(arenaTileSize+gapBetweenArenasTiles)*tileSize = ${round3(stepWorld)}`);
+  log(`stepFromNeutralWorld=(neutral/2+gapNeutralToArena+arena/2)*tileSize = ${round3(stepFromNeutralWorld)}`);
+  if (abs(stepFromNeutralWorld - stepWorld) > 0.01) {
+    log(
+      `WARNING: stepWorld mismatch (diff=${round3(stepFromNeutralWorld - stepWorld)}). ` +
+        `Похоже, gapBetweenArenasTiles и gapNeutralToArenaTiles не согласованы.`,
+    );
+  }
 
   const arenas: ArenaSlot[] = [];
   const byId: Record<number, ArenaSlot> = {};
@@ -177,16 +217,10 @@ export function buildLayout(params?: BuildLayoutParams): Layout {
   ];
 
   for (const s of slots) {
-    const idx = s.id - 1;
-    const centerFromMap =
-      arenaCenters !== undefined ? (Array.isArray(arenaCenters) ? arenaCenters[idx] : arenaCenters[s.id]) : undefined;
-
     const xOffWorld = s.dx * stepWorld;
     const yOffWorld = s.dy * stepWorld;
 
-    const center = centerFromMap
-      ? v3(centerFromMap.x, centerFromMap.y, (centerFromMap as any).z ?? z)
-      : v3(origin.x + xOffWorld, origin.y + yOffWorld, z);
+    const center = v3(origin.x + xOffWorld, origin.y + yOffWorld, z);
 
     const baseMins = v3(center.x - halfArenaBaseWorld, center.y - halfArenaBaseWorld, z);
     const baseMaxs = v3(center.x + halfArenaBaseWorld, center.y + halfArenaBaseWorld, z);
@@ -212,7 +246,22 @@ export function buildLayout(params?: BuildLayoutParams): Layout {
       v2(centerTile.x + halfArenaTiles + wallExtraTiles, centerTile.y + halfArenaTiles + wallExtraTiles),
     );
 
-    const spawn = v3(center.x + spawnOffset.x, center.y + spawnOffset.y, center.z + spawnOffset.z);
+    const spawn = v3(center.x, center.y, center.z);
+
+    log(
+      `arena#${s.id} grid(row=${s.row}, col=${s.col}, dx=${s.dx}, dy=${s.dy}) ` +
+        `offsetWorld=(${round3(xOffWorld)}, ${round3(yOffWorld)}) center=${fmtV3(center)} spawn=${fmtV3(spawn)}`,
+    );
+    log(`arena#${s.id} baseBounds=${fmtRect(baseBounds)} bounds(+wall)=${fmtRect(bounds)}`);
+    log(
+      `arena#${s.id} centerTile=${fmtV2(centerTile)} halfArenaTiles=${round3(halfArenaTiles)} wallExtraTiles=${round3(wallExtraTiles)}`,
+    );
+    log(
+      `arena#${s.id} baseTileBounds={ mins=${fmtV2(baseTileBounds.mins)}, maxs=${fmtV2(baseTileBounds.maxs)} }`,
+    );
+    log(
+      `arena#${s.id} tileBounds(+wall)={ mins=${fmtV2(tileBounds.mins)}, maxs=${fmtV2(tileBounds.maxs)} }`,
+    );
 
     const slot: ArenaSlot = {
       id: s.id,
@@ -238,6 +287,8 @@ export function buildLayout(params?: BuildLayoutParams): Layout {
     byId[s.id] = slot;
   }
 
+  log(`=== buildLayout() done: arenas=${arenas.length}, neutralBounds=${fmtRect(neutralBounds)} ===`);
+
   return {
     tileSize,
     arenaTileSize,
@@ -252,5 +303,6 @@ export function buildLayout(params?: BuildLayoutParams): Layout {
     byId,
   };
 }
+
 
 

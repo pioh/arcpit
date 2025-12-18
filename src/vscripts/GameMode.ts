@@ -9,13 +9,15 @@ import { HeroManager } from "./heroes/hero-manager";
 import { AbilityManager } from "./abilities/ability-manager";
 import { SpawnManager } from "./map/spawn-manager";
 import { ShopkeeperManager } from "./map/shopkeeper";
-import { CombatStarter } from "./combat/combat-starter";
 import { StageManager } from "./game-stages/stage-manager";
 import { HeroSelectionStage } from "./game-stages/hero-selection";
 import { AbilitySelectionStage } from "./game-stages/ability-selection";
 import { PreCombatStage } from "./game-stages/pre-combat";
 import { CombatStage } from "./game-stages/combat";
 import { ScenarioManager } from "./scenarios/main";
+import { RoundController } from "./rounds/round-controller";
+import { GAME_CONSTANTS } from "./config/game-constants";
+import { AiTakeoverController } from "./bots/ai-takeover-controller";
 
 declare global {
     interface CDOTAGameRules {
@@ -38,12 +40,19 @@ export class GameMode {
     private abilityManager!: AbilityManager;
     private spawnManager!: SpawnManager;
     private shopkeeperManager!: ShopkeeperManager;
-    private combatStarter!: CombatStarter;
     private stageManager!: StageManager;
     private scenarioManager!: ScenarioManager;
+    private roundController!: RoundController;
+    private aiTakeover!: AiTakeoverController;
+
+    private botsFilled: boolean = false;
+    private thinkDtAcc: number = 0;
 
     // Флаг для доступа из бот AI
     public botCombatEnabled: boolean = false;
+    // Флаги для RoundController / bot AI
+    public isRoundActive: boolean = false;
+    public currentRound: number = 0;
 
     /**
      * Прекеш ресурсов
@@ -91,31 +100,39 @@ export class GameMode {
         // Карта
         this.spawnManager = new SpawnManager(this.peaceMode);
         this.shopkeeperManager = new ShopkeeperManager();
-        
-        // Боевая система
-        this.combatStarter = new CombatStarter(
-            this.peaceMode,
-            this.botManager,
-            this.teamAssignment,
-            this.playerManager
+
+        // Раунды (PvE)
+        this.roundController = new RoundController(
+            this.playerManager,
+            this.spawnManager,
+            this.peaceMode
         );
+
+        // AI takeover для ливнувших игроков
+        this.aiTakeover = new AiTakeoverController(this.playerManager);
         
         // Стадии игры
-        const heroSelectionStage = new HeroSelectionStage(this.heroManager);
+        const heroSelectionStage = new HeroSelectionStage(
+            this.heroManager,
+            this.spawnManager,
+            this.playerManager.getAllPlayerHeroes()
+        );
         const abilitySelectionStage = new AbilitySelectionStage(this.abilityManager);
         const preCombatStage = new PreCombatStage(
             this.spawnManager,
             this.shopkeeperManager,
             this.playerManager.getAllPlayerHeroes()
         );
-        const combatStage = new CombatStage(this.combatStarter);
+        const combatStage = new CombatStage(this.roundController);
         
         this.stageManager = new StageManager(
             heroSelectionStage,
             abilitySelectionStage,
             preCombatStage,
-            combatStage
+            combatStage,
+            this.roundController
         );
+        this.roundController.setStageManager(this.stageManager);
         
         // Менеджер сценариев (для тестов и основной игры)
         this.scenarioManager = new ScenarioManager(
@@ -150,6 +167,7 @@ export class GameMode {
         ListenToGameEvent("game_rules_state_change", () => this.onStateChange(), undefined);
         ListenToGameEvent("npc_spawned", event => this.onNpcSpawned(event), undefined);
         ListenToGameEvent("player_connect_full", event => this.onPlayerConnected(event), undefined);
+        ListenToGameEvent("entity_killed", event => this.onEntityKilled(event), undefined);
 
         // События от UI
         CustomGameEventManager.RegisterListener("hero_selected", (_, data) => this.onHeroSelected(data));
@@ -183,6 +201,14 @@ export class GameMode {
         print("CUSTOM_GAME_SETUP state - auto finishing...");
 
         Timers.CreateTimer(0.1, () => {
+            // В CUSTOM_GAME_SETUP добиваем недостающих игроков ботами (как отдельные player-slot'ы).
+            // Считаем РЕАЛЬНЫХ подключенных людей по списку валидных PlayerID.
+            if (!this.botsFilled) {
+                const connectedHumans = this.playerManager.getConnectedHumanPlayerIDs();
+                this.botManager.ensureBotsToFillFromConnectedHumans(GAME_CONSTANTS.MAX_PLAYERS, connectedHumans);
+                this.botsFilled = true;
+            }
+
             print("Finishing custom game setup...");
             GameRules.FinishCustomGameSetup();
             return undefined;
@@ -196,6 +222,12 @@ export class GameMode {
         print("=== Game starting! ===");
         
         this.botManager.disableBotCombat();
+        // Боты должны быть добавлены в CUSTOM_GAME_SETUP; тут только safety-net (например, при script_reload)
+        if (!this.botsFilled) {
+            const connectedHumans = this.playerManager.getConnectedHumanPlayerIDs();
+            this.botManager.ensureBotsToFillFromConnectedHumans(GAME_CONSTANTS.MAX_PLAYERS, connectedHumans);
+            this.botsFilled = true;
+        }
         
         // Запускаем выбранный сценарий (основная игра или тест)
         // Меняй сценарий в scenarios/main.ts
@@ -220,7 +252,6 @@ export class GameMode {
             // До старта теста/боя держим всех в "мирном режиме", чтобы не было ранних ударов
             if (this.peaceMode?.isEnabled()) {
                 const hero = unit as CDOTA_BaseNPC_Hero;
-                hero.SetTeam(DotaTeam.CUSTOM_1);
                 this.peaceMode.applyToHero(hero);
             }
 
@@ -229,7 +260,14 @@ export class GameMode {
             if (!hero.HasModifier("modifier_temp_int_buckets")) {
                 hero.AddNewModifier(hero, undefined, "modifier_temp_int_buckets", {});
             }
+
+            // Хук для раундов: "респавн там же"
+            this.roundController?.onNpcSpawned(hero);
         }
+    }
+
+    private onEntityKilled(event: EntityKilledEvent): void {
+        this.roundController?.onEntityKilled(event);
     }
 
     /**
@@ -252,6 +290,10 @@ export class GameMode {
     private onThink(): number {
         // Обновляем флаг для бот AI
         this.botCombatEnabled = this.botManager.isBotCombatEnabled();
+
+        // AI takeover: периодически проверяем, кто дисконнектнулся, и берём героя под контроль
+        this.thinkDtAcc += 0.1;
+        this.aiTakeover.tick(0.1, this.isRoundActive);
         return 0.1;
     }
 

@@ -1,5 +1,4 @@
 import { IStageHandler, GameStage } from "./types";
-import { GAME_CONSTANTS } from "../config/game-constants";
 import { SpawnManager } from "../map/spawn-manager";
 import { ShopkeeperManager } from "../map/shopkeeper";
 
@@ -19,19 +18,11 @@ export class PreCombatStage implements IStageHandler {
 
     start(): void {
         print("=== Starting pre-combat phase ===");
-        
-        const spawnLocation = this.spawnManager.getSpawnLocation();
-        
-        // Телепортируем всех героев в центр
-        this.spawnManager.moveAllHeroesToSpawn(this.playerHeroes);
-        
-        // Создаем торговца
-        this.shopkeeperManager.ensureShopkeeper(spawnLocation);
-        
-        CustomGameEventManager.Send_ServerToAllClients("stage_changed", {
-            stage: GameStage.PRE_COMBAT,
-            duration: GAME_CONSTANTS.PRE_COMBAT_TIME
-        });
+
+        // В планировании НЕ телепортируем всех в одну точку — игроки должны остаться на своих местах в нейтралке.
+        // Мирный режим держится через PeaceMode + RoundController neutral enforcer.
+        const neutralCenter = this.spawnManager.getNeutralCenter();
+        this.shopkeeperManager.ensureShopkeeper(neutralCenter);
     }
 }
 

@@ -1,12 +1,12 @@
 import { IStageHandler, GameStage } from "./types";
-import { CombatStarter } from "../combat/combat-starter";
+import { RoundController } from "../rounds/round-controller";
 
 /**
  * Боевая стадия
  */
 export class CombatStage implements IStageHandler {
     constructor(
-        private combatStarter: CombatStarter
+        private roundController: RoundController
     ) {}
 
     getName(): string {
@@ -16,8 +16,8 @@ export class CombatStage implements IStageHandler {
     start(): void {
         print("=== Starting combat phase ===");
         
-        // Разделяем всех по командам и запускаем бой
-        this.combatStarter.startCombat();
+        // Стартуем раунд PvE (vs крипы)
+        this.roundController.onCombatStageStarted();
         
         CustomGameEventManager.Send_ServerToAllClients("stage_changed", {
             stage: GameStage.COMBAT,

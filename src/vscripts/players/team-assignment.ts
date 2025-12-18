@@ -10,6 +10,10 @@ export class TeamAssignment {
         return this.playerTeams.get(playerID);
     }
 
+    setPlayerTeam(playerID: PlayerID, team: DotaTeam): void {
+        this.playerTeams.set(playerID, team);
+    }
+
     assignTeamToPlayer(playerID: PlayerID): DotaTeam {
         const team = this.getAvailableTeam();
         this.playerTeams.set(playerID, team);

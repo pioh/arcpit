@@ -12,4 +12,15 @@ interface CustomGameEventDeclarations {
         PlayerID: number;
         abilities: string[];
     };
+
+    round_state_changed: {
+        phase: "planning" | "round";
+        round: number;
+        duration: number;
+    };
+
+    camera_focus_hero: {
+        entindex: EntityIndex;
+        duration: number;
+    };
 }

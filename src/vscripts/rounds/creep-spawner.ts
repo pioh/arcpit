@@ -40,7 +40,7 @@ export class CreepSpawner {
                 DotaTeam.NEUTRALS
             );
             
-            if (creep) {
+            if (creep !== undefined) {
                 // Дополнительная настройка крипа
                 this.setupCreep(creep);
             }

@@ -9,6 +9,10 @@
 
     <Panel class="HudRoot">
         <Panel id="PlayersBar" class="PlayersBar" />
+        <Panel id="RoundPanel" class="RoundPanel">
+            <Label id="RoundLabel" class="RoundLabel" text="" />
+            <Label id="RoundTimer" class="RoundTimer" text="" />
+        </Panel>
         <Panel id="StagePanel" class="StagePanel">
             <Panel class="StageContent">
                 <Label id="StageTitle" class="StageTitle" text="" />

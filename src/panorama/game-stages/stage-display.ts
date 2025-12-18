@@ -51,9 +51,9 @@ export class StageDisplay {
             case GameStage.ABILITY_SELECTION:
                 return "ВЫБОР СПОСОБНОСТЕЙ";
             case GameStage.PRE_COMBAT:
-                return "ПОДГОТОВКА К БОЮ";
+                return "ПЛАНИРОВАНИЕ";
             case GameStage.COMBAT:
-                return "БОЙ НАЧАЛСЯ!";
+                return "РАУНД";
             default:
                 return "";
         }

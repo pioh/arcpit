@@ -47,12 +47,44 @@ export class PlayerManager {
      */
     getHumanPlayerCount(): number {
         let count = 0;
-        for (let i = 0; i < PlayerResource.GetPlayerCount(); i++) {
+        for (let i = 0; i < 64; i++) {
             if (PlayerResource.IsValidPlayerID(i) && !PlayerResource.IsFakeClient(i)) {
                 count++;
             }
         }
         return count;
+    }
+
+    /**
+     * Список подключённых людей (не ботов).
+     * Важно: не предполагаем, что PlayerID = 0..maxPlayers-1 — проходим 0..63 и фильтруем валидных.
+     */
+    getConnectedHumanPlayerIDs(): PlayerID[] {
+        const ids: PlayerID[] = [];
+        for (let i = 0; i < 64; i++) {
+            if (!PlayerResource.IsValidPlayerID(i)) continue;
+            if (PlayerResource.IsFakeClient(i)) continue;
+
+            // best-effort: если API состояния коннекта есть — учитываем
+            const pr: any = PlayerResource as any;
+            const state = typeof pr.GetConnectionState === "function" ? pr.GetConnectionState(i) : undefined;
+            // По практике: undefined => считаем подключенным; иначе считаем "connected", если state === 2
+            if (state !== undefined && state !== 2) continue;
+
+            ids.push(i as PlayerID);
+        }
+        return ids;
+    }
+
+    /**
+     * Получить список валидных PlayerID (люди + боты)
+     */
+    getAllValidPlayerIDs(): PlayerID[] {
+        const ids: PlayerID[] = [];
+        for (let i = 0; i < 64; i++) {
+            if (PlayerResource.IsValidPlayerID(i)) ids.push(i as PlayerID);
+        }
+        return ids;
     }
 
     /**
@@ -85,12 +117,11 @@ export class PlayerManager {
      * Сохранение текущих героев игроков
      */
     saveCurrentHeroes(): void {
-        for (let i = 0; i < PlayerResource.GetPlayerCount(); i++) {
-            if (PlayerResource.IsValidPlayerID(i)) {
-                const hero = PlayerResource.GetSelectedHeroEntity(i);
-                if (hero && IsValidEntity(hero)) {
-                    this.playerHeroes.set(i as PlayerID, hero);
-                }
+        for (let i = 0; i < 64; i++) {
+            if (!PlayerResource.IsValidPlayerID(i)) continue;
+            const hero = PlayerResource.GetSelectedHeroEntity(i);
+            if (hero && IsValidEntity(hero)) {
+                this.playerHeroes.set(i as PlayerID, hero);
             }
         }
     }

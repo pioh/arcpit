@@ -16,7 +16,7 @@ export class AbilityCustomizer {
     static setupAbility(hero: CDOTA_BaseNPC_Hero, abilityName: string): void {
         const modifierName = this.ABILITY_MODIFIERS[abilityName];
         
-        if (modifierName) {
+        if (modifierName !== undefined) {
             print(`[AbilityCustomizer] Applying custom modifier ${modifierName} for ${abilityName}`);
             
             // Применяем модификатор который будет отслеживать поведение способности

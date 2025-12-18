@@ -49,7 +49,6 @@ export class PeaceMode {
             
             const hero = PlayerResource.GetSelectedHeroEntity(i);
             if (hero && IsValidEntity(hero)) {
-                hero.SetTeam(DotaTeam.CUSTOM_1);
                 this.applyToHero(hero);
             }
         }

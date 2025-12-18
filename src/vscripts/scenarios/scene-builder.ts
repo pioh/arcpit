@@ -41,7 +41,7 @@ export class SceneBuilder {
      */
     giveAbility(hero: CDOTA_BaseNPC_Hero, abilityName: string, level: number = 1): void {
         const ability = hero.AddAbility(abilityName);
-        if (ability) {
+        if (ability !== undefined) {
             const maxLevel = ability.GetMaxLevel();
             const targetLevel = math.min(level, maxLevel);
 
@@ -106,7 +106,7 @@ export class SceneBuilder {
                 team
             );
             
-            if (creep) {
+            if (creep !== undefined) {
                 FindClearSpaceForUnit(creep, spawnPos, true);
                 creeps.push(creep);
             }

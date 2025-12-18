@@ -7,9 +7,11 @@
 import "./modifier_temp_int_buckets";
 import "./modifier_glaives_temp_int_handler";
 import "./modifier_infinite_mana";
+import "./modifier_round_creep_scaling";
 
 // Экспортируем для использования в других местах
 export * from "./modifier_temp_int_buckets";
 export * from "./modifier_glaives_temp_int_handler";
 export * from "./modifier_infinite_mana";
+export * from "./modifier_round_creep_scaling";
 
