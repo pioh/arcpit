@@ -52,6 +52,8 @@
     "lib/tstl-utils.lua.map",
     "lualib_bundle.lua",
     "lualib_bundle.lua.map",
+    "map/lighting-manager.lua",
+    "map/lighting-manager.lua.map",
     "map/shopkeeper.lua",
     "map/shopkeeper.lua.map",
     "map/spawn-manager.lua",

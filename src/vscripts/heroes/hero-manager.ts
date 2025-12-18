@@ -21,8 +21,10 @@ export class HeroManager {
 
         // Список реальных игроков (люди). Нужен, чтобы запретить управление ботами человеком.
         const humanPlayerIDs: PlayerID[] = [];
+        const allValidPlayerIDs: PlayerID[] = [];
         for (let p = 0; p < 64; p++) {
             if (!PlayerResource.IsValidPlayerID(p)) continue;
+            allValidPlayerIDs.push(p as PlayerID);
             if (PlayerResource.IsFakeClient(p)) continue;
             humanPlayerIDs.push(p as PlayerID);
         }
@@ -65,15 +67,11 @@ export class HeroManager {
                 // Управление:
                 // - человек должен управлять только своим героем
                 // - бот должен управляться ТОЛЬКО своим AI, человек НЕ должен иметь контроль над бот-героем
-                replaced.SetControllableByPlayer(i, true);
-
-                if (PlayerResource.IsFakeClient(i)) {
-                    // На некоторых хостах/локалках движок может дать контроль над fake client героем человеку.
-                    // Жёстко запрещаем control для всех human playerID.
-                    for (const hp of humanPlayerIDs) {
-                        replaced.SetControllableByPlayer(hp, false);
-                    }
+                // Жёстко: сперва снимаем controllable для всех, потом включаем ТОЛЬКО владельцу слота.
+                for (const pid of allValidPlayerIDs) {
+                    replaced.SetControllableByPlayer(pid, false);
                 }
+                replaced.SetControllableByPlayer(i as PlayerID, true);
                 this.playerManager.setPlayerHero(i as PlayerID, replaced);
                 this.peaceMode.applyToHero(replaced);
                 print(`✓ Hero replaced for player ${i}`);

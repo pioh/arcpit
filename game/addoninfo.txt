@@ -1,47 +1,54 @@
-"AddonInfo"
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
     // =========================
-    // Gameplay / slots
+    // Maps
     // =========================
-    "TeamCount"                "8"
-    "MaxPlayers"               "8"
-    "FoWTeamCount"             "8"
-    "IsPlayable"               "1"
-    "Default_Keys"             "1"
+    maps =
+    [
+        "arcpit_1",
+    ]
+
+    map_options =
+    [
+        {
+            map = "arcpit_1"
+            MaxPlayers = 8
+        },
+    ]
+
+    DefaultMap = "arcpit_1"
+    IsPlayable = 1
 
     // =========================
-    // Arcade / Workshop metadata
-    // (часть полей может не отображаться в старых версиях Tools,
-    // но лишними для публикации не являются)
+    // Players / Teams
     // =========================
-    "AddonTitle"               "Arcpit"
-    "AddonTagline"             "Custom Hero Chaos: арены, раунды, случайные способности"
-    "AddonDescription"         "Бесконечные PvE-раунды: каждый игрок (или бот) попадает на свою арену, отражает волны крипов и возвращается в нейтральную зону на планирование.\n\nОсобенности:\n- Автозаполнение недостающих игроков ботами\n- AI takeover при дисконнекте игрока\n- Рандом героев и способностей\n- Усиление крипов по раундам\n\nСтатус: WIP (ранний прототип)."
-    "AddonVersion"             "0.1.0"
-    "AddonAuthor"              "tema"
-    "AddonLanguage"            "ru"
-    "AddonURL"                 "https://github.com/"
+    MinPlayers = 1
+    MaxPlayers = 8
+    TeamCount = -1
 
-    // Превью-изображение для страницы (если Tools подхватит).
-    // Рекомендуемый размер: 512x512 PNG.
-    // Файл лежит в content/panorama/images/custom_game/ (SVG как исходник + экспорт в PNG перед публикацией).
-    "AddonPreviewImage"        "panorama/images/custom_game/arcpit_logo_512.png"
+    // Если хочешь “каждый сам за себя” — это ок.
+    // Default_Keys в KV3 обычно массив; пустой = стандартные бинды.
+    Default_Keys =
+    [
+    ]
 
-    // Теги для поиска (Arcade)
-    "AddonTags"
-    {
-        "0" "PvE"
-        "1" "Arena"
-        "2" "Waves"
-        "3" "Roguelike"
-        "4" "Custom Hero Chaos"
-        "5" "Bots"
-    }
+    HeroGuidesSupported = 1
+    ForceDefaultGuide = false
 
-    // Карты аддона
-    maps
-    {
-        "arcpit_1" "1"
-    }
+    PenaltiesEnabled = 0
+    CheckAFKPlayers = false
+    EnablePickRules = false
+    MinimalPrecache = false
+    IsTemplate = false
+
+    // =========================
+    // Workshop metadata
+    // =========================
+    AddonTitle = "Arcpit"
+    AddonTagline = "Custom Hero Chaos: арены, раунды, случайные способности"
+    AddonDescription = "Бесконечные PvE-раунды: каждый игрок (или бот) попадает на свою арену, отражает волны крипов и возвращается в нейтральную зону на планирование.\n\nОсобенности:\n- Автозаполнение недостающих игроков ботами\n- AI takeover при дисконнекте игрока\n- Рандом героев и способностей\n- Усиление крипов по раундам\n\nСтатус: WIP (ранний прототип)."
+    AddonVersion = "0.1.1"
+    AddonAuthor = "pioh"
+    AddonURL = "https://github.com/pioh/arcpit"
+    AddonPreviewImage = "panorama/images/custom_game/arcpit_logo_512.png"
 }
-

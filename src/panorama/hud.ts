@@ -98,10 +98,16 @@ function renderPlayersBar(): void {
         (heroImg as any).heroname = heroName;
         (heroImg as any).heroimagestyle = "icon";
 
-        slot.SetPanelEvent("onactivate", () => {
+        // Как в дефолтном UI: двойной клик фокусирует камеру.
+        // Важно: НЕ выбираем юнита, чтобы не давать управление чужими героями.
+        slot.SetPanelEvent("ondblclick", () => {
             if (heroEntIndex && heroEntIndex !== -1) {
-                GameUI.SelectUnit(heroEntIndex, false);
-                GameUI.SetCameraTarget(heroEntIndex);
+                try {
+                    GameUI.SetCameraTarget(heroEntIndex);
+                    $.Schedule(0.35, () => {
+                        try { GameUI.SetCameraTarget(-1 as any); } catch (e) {}
+                    });
+                } catch (e) {}
             }
         });
     }

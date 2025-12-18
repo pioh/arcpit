@@ -5,6 +5,7 @@ import { GAME_CONSTANTS } from "../config/game-constants";
  */
 export class PeaceMode {
     private isPeaceMode: boolean = true;
+    private readonly modifierName: string = "modifier_arcpit_peace_mode";
 
     isEnabled(): boolean {
         return this.isPeaceMode;
@@ -22,20 +23,16 @@ export class PeaceMode {
      * Применить мирный режим к герою
      */
     applyToHero(hero: CDOTA_BaseNPC_Hero): void {
+        // В нейтральной зоне нам не нужно "запрещать игру": игроки должны уметь жать абилки/предметы.
+        // Ставим только мягкие ограничения на авто-агр, а безопасность (без урона герой-в-героя) решаем через союзные команды + damage filter.
         hero.SetIdleAcquire(false);
         hero.SetAcquisitionRange(0);
-        hero.AddNewModifier(hero, undefined, "modifier_disarmed", {});
     }
 
     /**
      * Снять мирный режим с героя
      */
     removeFromHero(hero: CDOTA_BaseNPC_Hero): void {
-        // На некоторых стадиях/спавнах disarm может повеситься несколько раз.
-        // RemoveModifierByName() не всегда гарантирует снятие всех экземпляров, поэтому чистим в цикле.
-        while (hero.HasModifier("modifier_disarmed")) {
-            hero.RemoveModifierByName("modifier_disarmed");
-        }
         hero.SetIdleAcquire(true);
         hero.SetAcquisitionRange(GAME_CONSTANTS.DEFAULT_ACQUISITION_RANGE);
     }

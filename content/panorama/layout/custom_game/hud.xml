@@ -7,7 +7,8 @@
         <include src="file://{resources}/scripts/custom_game/hud.js" />
     </scripts>
 
-    <Panel class="HudRoot">
+    <!-- Важно: этот оверлей не должен перехватывать мышь, иначе пропадают тултипы/ховеры дефолтного HUD (способности, предметы). -->
+    <Panel class="HudRoot" hittest="false">
         <Panel id="PlayersBar" class="PlayersBar" />
         <Panel id="RoundPanel" class="RoundPanel">
             <Label id="RoundLabel" class="RoundLabel" text="" />

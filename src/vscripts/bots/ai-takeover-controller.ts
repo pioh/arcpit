@@ -75,7 +75,7 @@ export class AiTakeoverController {
                     OrderType: UnitOrder.CAST_NO_TARGET,
                     AbilityIndex: ab.entindex(),
                 });
-                break;
+                return;
             }
             if ((behavior & DOTA_ABILITY_BEHAVIOR_UNIT_TARGET) !== 0) {
                 ExecuteOrderFromTable({
@@ -84,7 +84,7 @@ export class AiTakeoverController {
                     TargetIndex: target.entindex(),
                     AbilityIndex: ab.entindex(),
                 });
-                break;
+                return;
             }
             if ((behavior & DOTA_ABILITY_BEHAVIOR_POINT) !== 0) {
                 const to = target.GetAbsOrigin();
@@ -94,7 +94,7 @@ export class AiTakeoverController {
                     Position: Vector(to.x, to.y, to.z),
                     AbilityIndex: ab.entindex(),
                 });
-                break;
+                return;
             }
         }
 

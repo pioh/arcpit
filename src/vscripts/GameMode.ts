@@ -18,6 +18,7 @@ import { ScenarioManager } from "./scenarios/main";
 import { RoundController } from "./rounds/round-controller";
 import { GAME_CONSTANTS } from "./config/game-constants";
 import { AiTakeoverController } from "./bots/ai-takeover-controller";
+import { LightingManager } from "./map/lighting-manager";
 
 declare global {
     interface CDOTAGameRules {
@@ -44,6 +45,7 @@ export class GameMode {
     private scenarioManager!: ScenarioManager;
     private roundController!: RoundController;
     private aiTakeover!: AiTakeoverController;
+    private lighting!: LightingManager;
 
     private botsFilled: boolean = false;
     private thinkDtAcc: number = 0;
@@ -110,6 +112,9 @@ export class GameMode {
 
         // AI takeover для ливнувших игроков
         this.aiTakeover = new AiTakeoverController(this.playerManager);
+
+        // Освещение (best-effort)
+        this.lighting = new LightingManager();
         
         // Стадии игры
         const heroSelectionStage = new HeroSelectionStage(
@@ -220,6 +225,8 @@ export class GameMode {
      */
     private startGame(): void {
         print("=== Game starting! ===");
+        // Пытаемся включить яркий omnidirectional свет в нейтралке и аренах.
+        this.lighting.ensureLights();
         
         this.botManager.disableBotCombat();
         // Боты должны быть добавлены в CUSTOM_GAME_SETUP; тут только safety-net (например, при script_reload)
@@ -245,12 +252,15 @@ export class GameMode {
      * Обработка спавна NPC
      */
     private onNpcSpawned(event: NpcSpawnedEvent): void {
+        if (event.entindex === undefined) return;
         const unit = EntIndexToHScript(event.entindex) as CDOTA_BaseNPC;
         
         if (unit.IsRealHero()) {
             print(`Hero spawned: ${unit.GetUnitName()}`);
-            // До старта теста/боя держим всех в "мирном режиме", чтобы не было ранних ударов
-            if (this.peaceMode?.isEnabled()) {
+            // Мирный режим нужен только вне активного раунда (планирование/нейтралка).
+            // В бою, особенно при респавне, не должны автоматически вешать disarm/peace-эффекты,
+            // иначе герой (и бот) перестает атаковать.
+            if (!this.isRoundActive && this.peaceMode?.isEnabled()) {
                 const hero = unit as CDOTA_BaseNPC_Hero;
                 this.peaceMode.applyToHero(hero);
             }
@@ -263,6 +273,16 @@ export class GameMode {
 
             // Хук для раундов: "респавн там же"
             this.roundController?.onNpcSpawned(hero);
+
+            // Жёстко: герой должен быть controllable только своим владельцем (даже если его можно "выбрать" кликом).
+            const pid = hero.GetPlayerID();
+            if (pid !== undefined) {
+                for (let p = 0; p < 64; p++) {
+                    if (!PlayerResource.IsValidPlayerID(p)) continue;
+                    hero.SetControllableByPlayer(p as PlayerID, false);
+                }
+                hero.SetControllableByPlayer(pid, true);
+            }
         }
     }
 

@@ -62,7 +62,7 @@ function BotThink(): number {
                     OrderType: UnitOrder.CAST_NO_TARGET,
                     AbilityIndex: ab.entindex(),
                 });
-                break;
+                return 0.35;
             }
 
             // unit target
@@ -73,7 +73,7 @@ function BotThink(): number {
                     TargetIndex: target.entindex(),
                     AbilityIndex: ab.entindex(),
                 });
-                break;
+                return 0.35;
             }
 
             // point
@@ -85,7 +85,7 @@ function BotThink(): number {
                     Position: Vector(to.x, to.y, to.z),
                     AbilityIndex: ab.entindex(),
                 });
-                break;
+                return 0.35;
             }
         }
 

@@ -38,6 +38,8 @@ function ensureArcpitHudLoaded(): void {
 
     $.Msg("Arcpit: injecting HUD layout (hud.xml)");
     const container = $.CreatePanel("Panel", hudRoot, "ArcpitHudContainer");
+    // Не должны блокировать дефолтный HUD (тултипы способностей/предметов и т.п.)
+    try { (container as any).hittest = false; } catch (e) {}
     container.BLoadLayout("file://{resources}/layout/custom_game/hud.xml", false, false);
 }
 

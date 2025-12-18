@@ -16,6 +16,8 @@ type PlayerRoundState = {
     creeps: EntityIndex[];
     lastCombatPos?: Vector;
     pendingRespawnPos?: Vector;
+    arenaCenter?: Vector;
+    combatTeam?: DotaTeam;
 };
 
 /**
@@ -57,6 +59,7 @@ export class RoundController {
      */
     onPlanningStageStarted(duration: number): void {
         this.ensureLayout();
+        this.preparePlayerStates();
         this.sendRoundState("planning", this.nextRoundNumber, duration);
         try {
             (GameRules as any).Addon.isRoundActive = false;
@@ -108,6 +111,12 @@ export class RoundController {
         FindClearSpaceForUnit(hero, pos, true);
         st.pendingRespawnPos = undefined;
 
+        // После ручного RespawnHero движок часто даёт защиту/инвулн.
+        // Нам нужно сразу вернуться в бой (без "стояния в неуязвимости").
+        this.stripSpawnProtection(hero);
+        this.enforceExclusiveControl(hero);
+        this.forceAutoAttack(pid, hero);
+
         // Камеру подтянем к герою (только реальному клиенту; для ботов PlayerResource.GetPlayer может быть undefined).
         this.focusCameraOnHero(pid, hero);
     }
@@ -116,6 +125,7 @@ export class RoundController {
      * Хук из entity_killed (его повесим в GameMode): респавн через 2 сек.
      */
     onEntityKilled(event: EntityKilledEvent): void {
+        if (event.entindex_killed === undefined) return;
         const killed = EntIndexToHScript(event.entindex_killed);
         if (!killed || !IsValidEntity(killed)) return;
         if (!(killed as CDOTA_BaseNPC).IsRealHero()) return;
@@ -127,11 +137,11 @@ export class RoundController {
         const st = this.playerStates.get(pid);
         if (!st) return;
 
-        // Сохраняем позицию "где умер" (в арене) и респавним вручную через 2 сек.
+        // Сохраняем позицию "где умер" (в арене) и респавним вручную через 3 сек.
         const o = hero.GetAbsOrigin();
         st.pendingRespawnPos = Vector(o.x, o.y, o.z);
 
-        Timers.CreateTimer(2, () => {
+        Timers.CreateTimer(3, () => {
             if (!IsValidEntity(hero)) return undefined;
             if (hero.IsAlive()) return undefined;
             hero.RespawnHero(false, false);
@@ -160,9 +170,12 @@ export class RoundController {
             this.peaceMode.removeFromHero(hero);
 
             // Телепорт в центр арены
+            // ВАЖНО: никаких маркеров на карте не требуется — используем вычисляемый layout.
+            const arenaCenter = Vector(slot.center.x, slot.center.y, slot.center.z);
             const spawn = Vector(slot.spawn.x, slot.spawn.y, slot.spawn.z);
             hero.SetAbsOrigin(spawn);
             FindClearSpaceForUnit(hero, spawn, true);
+            st.arenaCenter = Vector(arenaCenter.x, arenaCenter.y, arenaCenter.z);
 
             // Камера на героя при телепорте
             this.focusCameraOnHero(pid, hero);
@@ -173,7 +186,7 @@ export class RoundController {
             }
 
             // Спавн крипов и агр
-            const creeps = this.spawnCreepsForHero(round, slot.center, hero);
+            const creeps = this.spawnCreepsForHero(round, { x: arenaCenter.x, y: arenaCenter.y, z: arenaCenter.z }, hero);
             st.creeps = creeps.map(c => c.entindex());
             st.finished = false;
             const ho = hero.GetAbsOrigin();
@@ -340,19 +353,92 @@ export class RoundController {
 
             this.applyCreepScaling(creep, round);
 
-            // агрим на героя
+            // Агрим на героя.
+            // Важно: ATTACK_TARGET требует, чтобы цель была "видима" для стороны, которая отдаёт приказ.
+            // Если приказ проваливается, дефолтные крипы могут уйти по лейну в центр карты — отсюда баг "все бегут в центр".
+            // Поэтому сначала даём ATTACK_MOVE в позицию героя (не требует видимости), а дальше крипы добьют через IdleAcquire.
             creep.SetIdleAcquire(true);
             creep.SetAcquisitionRange(2500);
+            const ho = hero.GetAbsOrigin();
+            const heroPos = Vector(ho.x, ho.y, ho.z);
             ExecuteOrderFromTable({
                 UnitIndex: creep.entindex(),
-                OrderType: UnitOrder.ATTACK_TARGET,
-                TargetIndex: hero.entindex(),
+                OrderType: UnitOrder.ATTACK_MOVE,
+                Position: heroPos,
             });
 
             creeps.push(creep);
         }
 
         return creeps;
+    }
+
+    private stripSpawnProtection(hero: CDOTA_BaseNPC_Hero): void {
+        // Список best-effort: разные патчи/режимы используют разные названия.
+        const toRemove = [
+            "modifier_invulnerable",
+            "modifier_fountain_invulnerability",
+            "modifier_fountain_aura_buff",
+            "modifier_respawn_protection",
+        ];
+        for (const name of toRemove) {
+            while (hero.HasModifier(name)) {
+                hero.RemoveModifierByName(name);
+            }
+        }
+
+        // На всякий случай возвращаем авто-агр.
+        hero.SetIdleAcquire(true);
+        hero.SetAcquisitionRange(GAME_CONSTANTS.DEFAULT_ACQUISITION_RANGE);
+    }
+
+    private enforceExclusiveControl(hero: CDOTA_BaseNPC_Hero): void {
+        const owner = hero.GetPlayerID();
+        if (owner === undefined) return;
+        // На всякий случай: после ReplaceHeroWith/RespawnHero движок иногда "расшаривает" controllable.
+        for (let p = 0; p < 64; p++) {
+            if (!PlayerResource.IsValidPlayerID(p)) continue;
+            hero.SetControllableByPlayer(p as PlayerID, false);
+        }
+        hero.SetControllableByPlayer(owner, true);
+    }
+
+    private forceAutoAttack(pid: PlayerID, hero: CDOTA_BaseNPC_Hero): void {
+        // Ищем ближайшего вражеского крипа и приказываем атаковать.
+        const o = hero.GetAbsOrigin();
+        const origin = Vector(o.x, o.y, o.z);
+
+        const enemies = FindUnitsInRadius(
+            hero.GetTeamNumber(),
+            origin,
+            undefined,
+            GAME_CONSTANTS.BOT_SEARCH_RADIUS,
+            UnitTargetTeam.ENEMY,
+            UnitTargetType.BASIC,
+            UnitTargetFlags.NONE,
+            FindOrder.CLOSEST,
+            false
+        );
+
+        if (enemies.length > 0) {
+            ExecuteOrderFromTable({
+                UnitIndex: hero.entindex(),
+                OrderType: UnitOrder.ATTACK_TARGET,
+                TargetIndex: enemies[0].entindex(),
+            });
+            return;
+        }
+
+        // Если крипы еще не подлетели — остаёмся в пределах арены (не бежим в (0,0)).
+        const st = this.playerStates.get(pid);
+        const center = st?.arenaCenter ?? st?.lastCombatPos;
+        if (center) {
+            ExecuteOrderFromTable({
+                UnitIndex: hero.entindex(),
+                OrderType: UnitOrder.ATTACK_MOVE,
+                Position: center,
+            });
+        }
     }
 
     private applyCreepScaling(creep: CDOTA_BaseNPC, round: number): void {

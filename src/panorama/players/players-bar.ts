@@ -44,11 +44,15 @@ export class PlayersBar {
         (heroImg as any).heroname = heroName;
         (heroImg as any).heroimagestyle = "icon";
 
-        // Клик по иконке для выбора героя
-        slot.SetPanelEvent("onactivate", () => {
+        // Двойной клик — фокус камеры, без выбора юнита.
+        slot.SetPanelEvent("ondblclick", () => {
             if (heroEntIndex && heroEntIndex !== -1) {
-                GameUI.SelectUnit(heroEntIndex, false);
-                GameUI.SetCameraTarget(heroEntIndex);
+                try {
+                    GameUI.SetCameraTarget(heroEntIndex);
+                    $.Schedule(0.35, () => {
+                        try { GameUI.SetCameraTarget(-1 as any); } catch (e) {}
+                    });
+                } catch (e) {}
             }
         });
     }
