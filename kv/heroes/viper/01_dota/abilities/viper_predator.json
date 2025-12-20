@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "damage_base": {
+      "special_bonus_unique_viper_predator_damage": "+0.25",
+      "value": "0.15"
+    },
+    "damage_per_level": "0.05",
+    "total_damage_per_missing_health": {
+      "dynamic_value": "true"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

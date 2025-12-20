@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "attack_range_bonus": "0",
+    "attack_speed_bonus": "0",
+    "debuff_duration": "6",
+    "magic_resistance_reduction": "20"
+  },
+  "DisplayOverheadAlertOnReceived": "0",
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

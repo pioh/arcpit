@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilitySound": "Hero_Clinkz.DeathPact",
+  "AbilityValues": {
+    "duration": "5",
+    "hero_stacks": "2",
+    "max_armor_piercing_pct": "20",
+    "skeleton_stacks": "1"
+  },
+  "Innate": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

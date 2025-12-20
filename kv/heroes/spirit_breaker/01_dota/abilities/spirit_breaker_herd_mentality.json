@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "xp_gain_rate": "50"
+  },
+  "Innate": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

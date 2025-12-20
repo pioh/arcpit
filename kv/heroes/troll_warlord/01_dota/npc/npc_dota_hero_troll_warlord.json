@@ -1,0 +1,189 @@
+{
+  "Ability1": "troll_warlord_switch_stance",
+  "Ability10": "special_bonus_unique_troll_warlord_whirling_axes_debuff_duration",
+  "Ability11": "special_bonus_unique_troll_warlord_2",
+  "Ability12": "special_bonus_unique_troll_warlord_5",
+  "Ability13": "special_bonus_unique_troll_warlord_3",
+  "Ability14": "special_bonus_unique_troll_warlord_battle_trance_movespeed",
+  "Ability15": "special_bonus_unique_troll_warlord",
+  "Ability16": "special_bonus_unique_troll_warlord_6",
+  "Ability17": "special_bonus_unique_troll_warlord_4",
+  "Ability2": "troll_warlord_whirling_axes_ranged",
+  "Ability3": "troll_warlord_whirling_axes_melee",
+  "Ability4": "troll_warlord_fervor",
+  "Ability5": "troll_warlord_berserkers_rage",
+  "Ability6": "troll_warlord_battle_trance",
+  "AbilityDraftAbilities": {
+    "Ability1": "troll_warlord_fervor",
+    "Ability2": "troll_warlord_whirling_axes_ranged",
+    "Ability3": "troll_warlord_whirling_axes_melee",
+    "Ability4": "troll_warlord_battle_trance"
+  },
+  "AbilityLayout": "5",
+  "Adjectives": {
+    "Red": "1"
+  },
+  "ArmorPhysical": "-1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.300000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "35",
+  "AttackDamageMin": "27",
+  "AttackRange": "500",
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "200",
+    "faster": "320",
+    "fastest": "430"
+  },
+  "AttributeAgilityGain": "3.30000",
+  "AttributeBaseAgility": "23",
+  "AttributeBaseIntelligence": "13",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "1.000000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.500000",
+  "BanSound": "troll_warlord_troll_anger_03",
+  "Bot": {
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "2",
+      "RequiresFarm": "2",
+      "RequiresSetup": "2",
+      "SoloDesire": "0",
+      "SurvivalRating": "0"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "troll_warlord_bad_influence": {
+      "Color": "Red",
+      "GradientID": "1",
+      "Icon": "damage"
+    },
+    "troll_warlord_insensitive": {
+      "Color": "Blue",
+      "GradientID": "2",
+      "Icon": "armor"
+    }
+  },
+  "GameSoundsFile": [
+    "soundevents/game_sounds_heroes/game_sounds_troll_warlord.vsndevts",
+    "soundevents/game_sounds_heroes/game_sounds_troll_warlord.vsndevts"
+  ],
+  "GibType": "default",
+  "HeroID": "95",
+  "HeroOrderID": "97",
+  "HeroSelectSoundEffect": "Hero_TrollWarlord.Pick",
+  "HeroUnlockOrder": "0",
+  "IdleExpression": "scenes/troll_warlord/troll_warlord_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "3",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "SlotIndex": "4",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ability_effects_1",
+      "SlotText": "troll_warlord_berserkers_rage"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_2",
+      "SlotText": "troll_warlord_whirling_axes_ranged"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_windrunner",
+  "Model": "models/heroes/troll_warlord/troll_warlord.vmdl",
+  "ModelScale": "0.900000",
+  "MovementSpeed": "290",
+  "MovementSpeedActivityModifiers": {
+    "run": "350",
+    "run_fast": "400",
+    "walk": "0"
+  },
+  "NameAliases": "troll,jahrakal",
+  "NoCombine": "0",
+  "PickSound": "troll_warlord_troll_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_troll_warlord/troll_warlord_base_attack.vpcf",
+  "ProjectileSpeed": "1200",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_troll_warlord/troll_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Pusher,Disabler,Durable",
+  "Rolelevels": "3,2,1,1",
+  "SimilarHeroes": "70,114,4",
+  "SoundSet": "Hero_TrollWarlord",
+  "StatusHealthRegen": "0.25",
+  "Team": "Good",
+  "VersusScale": "0.90",
+  "VisionDaytimeRange": "1800",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_troll_warlord.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_troll_warlord",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_troll_warlord.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_troll_warlord.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_head": "1",
+    "attach_weapon1": "4",
+    "attach_weapon2": "5"
+  },
+  "workshop_guide_name": "Troll Warlord"
+}

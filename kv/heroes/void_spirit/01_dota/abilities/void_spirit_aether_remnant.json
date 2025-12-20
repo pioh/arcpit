@@ -1,0 +1,83 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "850",
+  "AbilityManaCost": "75 80 85 90",
+  "AbilitySound": "Hero_VoidSpirit.AetherRemnant.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "17.0 15.0 13.0 11.0"
+    },
+    "activation_delay": "0.4",
+    "artifice_duration_override": {
+      "special_bonus_facet_void_spirit_aether_artifice": "+4.0",
+      "value": "0"
+    },
+    "artifice_pct_effectiveness": {
+      "special_bonus_facet_void_spirit_aether_artifice": "+70.0",
+      "value": "0"
+    },
+    "creep_damage_pct": {
+      "special_bonus_shard": "+50",
+      "value": "0"
+    },
+    "damage_tick_rate": {
+      "special_bonus_shard": "+0.5",
+      "value": "0"
+    },
+    "duration": "20.0",
+    "end_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "90"
+    },
+    "impact_damage": {
+      "special_bonus_unique_void_spirit_2": "+65",
+      "value": "90 140 190 240"
+    },
+    "pierces_creeps": {
+      "special_bonus_shard": "+1",
+      "value": "0"
+    },
+    "projectile_speed": "900",
+    "pull_destination": "44 50 56 62",
+    "pull_duration": "1.0 1.2 1.4 1.6",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    },
+    "remnant_watch_distance": {
+      "affected_by_aoe_increase": "1",
+      "value": "450"
+    },
+    "remnant_watch_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "130"
+    },
+    "rotation_speed": {
+      "special_bonus_shard": "1.5",
+      "value": "0"
+    },
+    "start_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "90"
+    },
+    "think_interval": "0.1",
+    "truesight_range": {
+      "special_bonus_shard": "475",
+      "value": "0"
+    },
+    "watch_path_vision_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

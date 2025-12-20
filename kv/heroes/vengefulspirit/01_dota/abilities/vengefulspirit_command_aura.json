@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastRange": "1200",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityValues": {
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "bonus_base_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_unique_vengeful_spirit_2": "+16",
+      "value": "10 15 20 25"
+    },
+    "scepter_illusion_damage_in_pct": {
+      "special_bonus_scepter": "115"
+    },
+    "scepter_illusion_damage_out_pct": {
+      "special_bonus_scepter": "100"
+    },
+    "scepter_illusion_ms_bonus_pct": {
+      "special_bonus_scepter": "0"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "IsBreakable": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

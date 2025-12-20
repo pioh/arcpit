@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCooldown": "120.0",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityValues": {
+    "duration": {
+      "value": "6"
+    },
+    "movement_speed": {
+      "value": "50"
+    }
+  },
+  "MaxLevel": "1"
+}

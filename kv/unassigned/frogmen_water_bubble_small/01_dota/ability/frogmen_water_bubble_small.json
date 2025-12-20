@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "550",
+  "AbilityCooldown": "16",
+  "AbilityManaCost": "90",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "damage_absorb": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "value": "100 120 140 160"
+    },
+    "duration": "10"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_NO"
+}

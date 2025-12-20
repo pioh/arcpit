@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_NONE",
+  "AbilityValues": {
+    "str_agi_average_tooltip": {
+      "dynamic_value": "true"
+    }
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

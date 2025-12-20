@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCharges": "1",
+  "AbilityValues": {
+    "countdown_time": "3",
+    "radius": "300",
+    "think_interval": "0.1"
+  },
+  "MaxLevel": "1"
+}

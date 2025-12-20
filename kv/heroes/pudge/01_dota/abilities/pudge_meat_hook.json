@@ -1,0 +1,49 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityManaCost": "110",
+  "AbilitySound": "Hero_Pudge.AttackHookExtend",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_facet_pudge_flayers_hook": "+15%",
+      "value": "1300"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_pudge_5": "-4",
+      "value": "18 16 14 12"
+    },
+    "cooldown_reduction_pct_allied_hook": {
+      "special_bonus_shard": "50"
+    },
+    "damage": {
+      "special_bonus_facet_pudge_flayers_hook": "=80 =120 =160 =200",
+      "special_bonus_unique_pudge_7": "+150",
+      "value": "150 220 290 360"
+    },
+    "distance_to_damage": {
+      "special_bonus_shard": "20"
+    },
+    "hook_speed": {
+      "special_bonus_facet_pudge_flayers_hook": "+0",
+      "value": "1600.0"
+    },
+    "hook_width": "100",
+    "min_distance_damage": {
+      "special_bonus_shard": "10"
+    },
+    "reveal_duration": "00",
+    "self_stun_duration_percent": {
+      "value": "65"
+    },
+    "vector_target_distance": {
+      "value": "0"
+    },
+    "vision_duration": "4.0 4.0 4.0 4.0",
+    "vision_radius": "500 500 500 500"
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

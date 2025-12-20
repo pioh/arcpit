@@ -1,0 +1,10 @@
+{
+  "ItemCost": "320",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_circlet;item_sobi_mask;item_ring_of_protection;"
+  },
+  "ItemResult": "item_urn_of_shadows",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

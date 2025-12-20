@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "20.0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "active_movespeed_pct": "20",
+    "all_stats": "0",
+    "duration": "3"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

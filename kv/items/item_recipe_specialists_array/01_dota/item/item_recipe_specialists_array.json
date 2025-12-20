@@ -1,0 +1,11 @@
+{
+  "ItemCost": "650",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_blade_of_alacrity;item_broadsword"
+  },
+  "ItemResult": "item_specialists_array",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

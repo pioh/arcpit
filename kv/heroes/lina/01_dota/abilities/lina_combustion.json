@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "damage": {
+      "special_bonus_unique_lina_7": "+60%",
+      "value": "15 35 55 75"
+    },
+    "damage_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "damage_illusions": {
+      "special_bonus_unique_lina_7": "+60%",
+      "value": "10 15 20 25"
+    },
+    "damage_threshold": "175",
+    "duration": "6"
+  },
+  "DependentOnAbility": "lina_laguna_blade",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

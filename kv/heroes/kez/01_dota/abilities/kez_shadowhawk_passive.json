@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "invis_bonus_crit": "30 45 60 75",
+    "invis_bonus_duration": "1"
+  },
+  "DependentOnAbility": "kez_ravens_veil",
+  "MaxLevel": "5"
+}

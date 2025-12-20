@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "ally_multiplier": "25",
+    "backstab_angle": "105",
+    "bonus_xp_assist": {
+      "special_bonus_facet_riki_contract_killer": "25 75 125 175",
+      "value": "0"
+    },
+    "bonus_xp_assist_other": {
+      "special_bonus_facet_riki_contract_killer": "25 75 125 175",
+      "value": "0"
+    },
+    "bonus_xp_kill": {
+      "special_bonus_facet_riki_contract_killer": "25 150 250 350",
+      "value": "0"
+    },
+    "damage_multiplier": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "hero_levelup": "+0.05",
+      "special_bonus_unique_riki_1": "+0.3",
+      "value": "0.6"
+    }
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

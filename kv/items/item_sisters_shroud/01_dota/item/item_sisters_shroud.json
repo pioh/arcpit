@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "evasion_loss": "75",
+    "evasion_max": {
+      "apply_curio_bonus": "1",
+      "value": "150"
+    },
+    "hp_threshold": "50",
+    "max_duration": "5"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

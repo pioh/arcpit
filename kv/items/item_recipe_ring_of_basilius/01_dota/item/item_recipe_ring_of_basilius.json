@@ -1,0 +1,12 @@
+{
+  "ItemCost": "250",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_sobi_mask"
+  },
+  "ItemResult": "item_ring_of_basilius",
+  "ItemShopTags": "",
+  "UIDropSound": "Item.DropRingShop",
+  "UIPickupSound": "Item.PickUpRingShop",
+  "WorldDropSound": "Item.DropRingWorld"
+}

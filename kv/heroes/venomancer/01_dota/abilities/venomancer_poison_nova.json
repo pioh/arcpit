@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilitySound": "Hero_Venomancer.PoisonNova",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage": "3",
+    "duration": "10",
+    "magic_resist": "-20",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    },
+    "speed": "550",
+    "start_radius": "255",
+    "trigger_cd": "10"
+  },
+  "FightRecapLevel": "2",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

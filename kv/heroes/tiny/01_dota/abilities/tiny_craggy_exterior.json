@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE ",
+  "AbilityModifierSupportBonus": "35",
+  "AbilitySound": "Hero_Tiny.CraggyExterior.Stun",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage": "0",
+    "damage_reduction_per_stack": "2 3 4 5",
+    "debuff_duration": "5",
+    "max_stacks": "10"
+  },
+  "DependentOnAbility": "tiny_grow",
+  "FightRecapLevel": "1",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

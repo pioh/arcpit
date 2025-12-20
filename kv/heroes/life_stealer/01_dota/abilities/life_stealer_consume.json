@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_UNRESTRICTED | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.0",
+  "AbilitySound": "Hero_LifeStealer.Consume",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "FightRecapLevel": "1"
+}

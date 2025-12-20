@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK",
+  "AbilityCastRange": "150",
+  "AbilityCooldown": "8",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "damage_boost": "50",
+    "damage_boost_duration": "12",
+    "damage_boost_stacks": "4",
+    "root_duration": "0.5"
+  },
+  "IsBreakable": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

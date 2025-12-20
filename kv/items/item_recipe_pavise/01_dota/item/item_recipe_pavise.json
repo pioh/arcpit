@@ -1,0 +1,10 @@
+{
+  "ItemCost": "175",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_energy_booster;item_ring_of_protection;item_fluffy_hat"
+  },
+  "ItemResult": "item_pavise",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

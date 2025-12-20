@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE",
+  "AbilityCooldown": "5",
+  "AbilityValues": {
+    "bonus_health_regen": "0",
+    "bonus_mana_regen": "0",
+    "conversion_pct": "30",
+    "regen_bonus_pct": "0"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

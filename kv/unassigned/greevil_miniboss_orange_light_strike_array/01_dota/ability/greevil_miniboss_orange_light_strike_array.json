@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.45 0.45 0.45 0.45",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "13 11 9 7",
+  "AbilityDamage": "150",
+  "AbilityDuration": "1.6 1.6 1.6 1.6",
+  "AbilityManaCost": "50",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "cast_animation": {
+      "value": "12"
+    },
+    "light_strike_array_aoe": {
+      "value": "225"
+    },
+    "light_strike_array_delay_time": {
+      "value": "0.5"
+    },
+    "light_strike_array_stun_duration": {
+      "value": "1.6"
+    }
+  }
+}

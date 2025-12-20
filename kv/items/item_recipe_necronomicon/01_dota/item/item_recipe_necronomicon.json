@@ -1,0 +1,12 @@
+{
+  "IsObsolete": "1",
+  "ItemCost": "1250",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_sobi_mask;item_sobi_mask;item_belt_of_strength"
+  },
+  "ItemResult": "item_necronomicon",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

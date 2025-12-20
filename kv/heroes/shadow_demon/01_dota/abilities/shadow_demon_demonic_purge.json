@@ -1,0 +1,44 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.3 0.3 0.3",
+  "AbilityCastRange": "800",
+  "AbilityDraftExtraAbilities": {
+    "shadow_demon_demonic_cleanse": "shard"
+  },
+  "AbilityDuration": "5.0",
+  "AbilityManaCost": "150 175 200",
+  "AbilitySound": "Hero_ShadowDemon.DemonicPurge.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_shadow_demon_9": "-30",
+      "value": "70 65 60"
+    },
+    "charge_restore_time": {
+      "special_bonus_scepter": "70 65 60",
+      "special_bonus_unique_shadow_demon_9": "-30"
+    },
+    "max_charges": {
+      "special_bonus_scepter": "2"
+    },
+    "max_slow": {
+      "value": "100"
+    },
+    "min_slow": {
+      "value": "20"
+    },
+    "purge_damage": {
+      "special_bonus_unique_shadow_demon_1": "+150",
+      "value": "300 450 600"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

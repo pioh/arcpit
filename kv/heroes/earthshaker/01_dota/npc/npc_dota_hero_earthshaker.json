@@ -1,0 +1,285 @@
+{
+  "Ability1": "earthshaker_fissure",
+  "Ability10": "special_bonus_attack_base_damage_25",
+  "Ability11": "special_bonus_unique_earthshaker_4",
+  "Ability12": "special_bonus_unique_earthshaker_3",
+  "Ability13": "special_bonus_unique_earthshaker_6",
+  "Ability14": "special_bonus_unique_earthshaker_2",
+  "Ability15": "special_bonus_unique_earthshaker_totem_damage",
+  "Ability16": "special_bonus_unique_earthshaker_echo_cd",
+  "Ability17": "special_bonus_unique_earthshaker",
+  "Ability2": "earthshaker_enchant_totem",
+  "Ability3": "earthshaker_aftershock",
+  "Ability4": "generic_hidden",
+  "Ability5": "generic_hidden",
+  "Ability6": "earthshaker_echo_slam",
+  "Ability7": "earthshaker_slugger",
+  "AbilityDraftAbilities": {
+    "Ability1": "earthshaker_fissure",
+    "Ability2": "earthshaker_enchant_totem",
+    "Ability3": "earthshaker_aftershock",
+    "Ability4": "earthshaker_echo_slam"
+  },
+  "Adjectives": {
+    "Fuzzy": "1"
+  },
+  "ArmorPhysical": "2",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.467000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "37",
+  "AttackDamageMin": "27",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.400000",
+  "AttributeBaseAgility": "12",
+  "AttributeBaseIntelligence": "18",
+  "AttributeBaseStrength": "22",
+  "AttributeIntelligenceGain": "2.100000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.700000",
+  "BanSound": "earthshaker_erth_anger_02",
+  "Bot": {
+    "Build": {
+      "1": "earthshaker_fissure",
+      "2": "earthshaker_aftershock",
+      "3": "earthshaker_fissure",
+      "4": "earthshaker_enchant_totem",
+      "5": "earthshaker_fissure",
+      "6": "earthshaker_echo_slam",
+      "7": "earthshaker_fissure",
+      "8": "earthshaker_aftershock",
+      "9": "earthshaker_aftershock",
+      "10": "special_bonus_unique_earthshaker_4",
+      "11": "earthshaker_aftershock",
+      "12": "earthshaker_echo_slam",
+      "13": "earthshaker_enchant_totem",
+      "14": "earthshaker_enchant_totem",
+      "15": "special_bonus_unique_earthshaker_3",
+      "16": "earthshaker_enchant_totem",
+      "17": "",
+      "18": "earthshaker_echo_slam",
+      "19": "",
+      "20": "special_bonus_unique_earthshaker_2",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_earthshaker"
+    },
+    "HeroType": "DOTA_BOT_STUN_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "0",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    },
+    "Loadout": {
+      "item_arcane_boots": "ITEM_DERIVED",
+      "item_black_king_bar": "ITEM_DERIVED",
+      "item_blade_of_alacrity": "ITEM_CORE",
+      "item_blink": "ITEM_CORE",
+      "item_boots": "ITEM_CORE",
+      "item_branches": [
+        "ITEM_CORE",
+        "ITEM_CORE"
+      ],
+      "item_clarity": [
+        "ITEM_CONSUMABLE | ITEM_SELLABLE",
+        "ITEM_CONSUMABLE | ITEM_SELLABLE"
+      ],
+      "item_cyclone": "ITEM_DERIVED",
+      "item_magic_stick": "ITEM_CORE",
+      "item_magic_wand": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_mithril_hammer": "ITEM_EXTENSION",
+      "item_mystic_staff": "ITEM_LUXURY",
+      "item_ogre_axe": [
+        "ITEM_CORE",
+        "ITEM_EXTENSION"
+      ],
+      "item_point_booster": "ITEM_CORE",
+      "item_recipe_arcane_boots": "ITEM_EXTENSION",
+      "item_recipe_black_king_bar": "ITEM_EXTENSION",
+      "item_recipe_cyclone": "ITEM_EXTENSION",
+      "item_recipe_magic_wand": "ITEM_CORE",
+      "item_recipe_ring_of_basilius": "ITEM_EXTENSION",
+      "item_recipe_sheepstick": "ITEM_EXTENSION",
+      "item_ring_of_basilius": "ITEM_DERIVED",
+      "item_sheepstick": "ITEM_DERIVED",
+      "item_sobi_mask": "ITEM_CORE",
+      "item_staff_of_wizardry": [
+        "ITEM_CORE",
+        "ITEM_EXTENSION"
+      ],
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_tiara_of_selemene": "ITEM_EXTENSION",
+      "item_ultimate_scepter": "ITEM_DERIVED",
+      "item_void_stone": "ITEM_EXTENSION",
+      "item_wind_lace": "ITEM_EXTENSION"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "earthshaker_reverberating_ridge": {
+      "Color": "Gray",
+      "GradientID": "2",
+      "Icon": "ricochet"
+    },
+    "earthshaker_slugger": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "earthshaker_slugger"
+        }
+      },
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "1",
+      "Icon": "movement"
+    },
+    "earthshaker_tectonic_buildup": {
+      "Color": "Red",
+      "GradientID": "1",
+      "Icon": "area_of_effect"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_earthshaker.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "255 160 0",
+  "HeroID": "7",
+  "HeroOrderID": "6",
+  "HeroSelectSoundEffect": "Hero_Earthshaker.Pick",
+  "HeroUnlockOrder": "1",
+  "IdleExpression": "scenes/earthshaker/earthshaker_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Earthshaker_Totem",
+      "TextureHeight": "512",
+      "TextureWidth": "512",
+      "no_import": "1"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "512",
+      "TextureWidth": "512",
+      "no_import": "1"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "3",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "GeneratesUnits": {
+        "0": "npc_dota_companion"
+      },
+      "ShowItemOnGeneratedUnits": "1",
+      "SlotIndex": "4",
+      "SlotName": "summon",
+      "SlotText": "#LoadoutSlot_Pet"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_1",
+      "SlotText": "earthshaker_fissure"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_2",
+      "SlotText": "earthshaker_enchant_totem"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_3",
+      "SlotText": "earthshaker_aftershock"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_4",
+      "SlotText": "earthshaker_echo_slam"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_base",
+      "SlotText": "#LoadoutSlot_Earthshaker_Base"
+    },
+    "11": {
+      "SlotIndex": "11",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_tiny",
+  "Model": "models/heroes/earthshaker/earthshaker.vmdl",
+  "ModelScale": "0.930000",
+  "MovementSpeed": "315",
+  "MovementTurnRate": "0.900000",
+  "NameAliases": "es;Raigor",
+  "NoCombine": "0",
+  "PickSound": "earthshaker_erth_spawn_01",
+  "ProjectileSpeed": "0",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_earthshaker/earthshaker_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Support,Initiator,Disabler,Nuker",
+  "Rolelevels": "1,3,2,1",
+  "SimilarHeroes": "29,16,97",
+  "SoundSet": "Hero_Earthshaker",
+  "StatusHealthRegen": "1.0",
+  "Team": "Good",
+  "VersusScale": "0.93",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_earthshaker.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_earthshaker",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_earthshaker.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_earthshaker.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "1",
+    "attach_attack2": "2",
+    "attach_head": "3"
+  },
+  "workshop_guide_name": "Earthshaker"
+}

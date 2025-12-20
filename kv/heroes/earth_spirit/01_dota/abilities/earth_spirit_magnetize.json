@@ -1,0 +1,60 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_6",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "350",
+  "AbilityCooldown": "100 90 80",
+  "AbilityDraftExtraAbilities": {
+    "earth_spirit_petrify": "scepter",
+    "earth_spirit_stone_caller": ""
+  },
+  "AbilityManaCost": "100.0",
+  "AbilitySound": "Hero_EarthSpirit.Magnetize.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "cast_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "350"
+    },
+    "damage_duration": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_unique_earth_spirit_8": "+30%",
+      "value": "6.0"
+    },
+    "damage_interval": "1.0",
+    "damage_per_second": {
+      "special_bonus_unique_earth_spirit_8": "+30%",
+      "value": "45 85 125"
+    },
+    "magnetize_self": {
+      "special_bonus_unique_earth_spirit_2": "1",
+      "value": "0"
+    },
+    "magnetized_rocks_bonus_self_damage": {
+      "value": "0"
+    },
+    "magnetized_rocks_buff_self": {
+      "value": "0"
+    },
+    "magnetized_rocks_buff_self_duration": {
+      "value": "0"
+    },
+    "rock_explosion_delay": "8.0",
+    "rock_explosion_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    },
+    "rock_search_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    },
+    "silence_duration": "5.0",
+    "slow_duration": "2.0"
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

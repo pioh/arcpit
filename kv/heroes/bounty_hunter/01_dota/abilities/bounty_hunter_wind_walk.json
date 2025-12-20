@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityDraftExtraAbilities": {
+    "bounty_hunter_wind_walk_ally": "shard"
+  },
+  "AbilityManaCost": "50",
+  "AbilitySound": "Hero_BountyHunter.WindWalk",
+  "AbilityValues": {
+    "AbilityChargeRestoreTime": {
+      "special_bonus_shard": "15 14 13 12"
+    },
+    "AbilityCooldown": {
+      "special_bonus_shard": "-5",
+      "value": "18 17 16 15"
+    },
+    "ally_fade_time": {
+      "special_bonus_shard": "0.5"
+    },
+    "damage_reduction_pct": {
+      "special_bonus_unique_bounty_hunter_9": "+30",
+      "value": "0"
+    },
+    "duration": "20.0 25.0 30.0 35.0",
+    "fade_time": "1.0 0.75 0.5 0.25",
+    "stun_duration": {
+      "value": "1.0 1.2 1.4 1.6"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

@@ -1,0 +1,57 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3",
+  "AbilityManaCost": "150",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilitySound": "Hero_ObsidianDestroyer.AstralImprisonment",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY | DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_outworld_devourer_astral_castrange": "+100",
+      "value": "650"
+    },
+    "AbilityCooldown": {
+      "value": "18 16 14 12"
+    },
+    "allied_movement_speed_pct": {
+      "special_bonus_shard": "+70",
+      "value": "0"
+    },
+    "damage": {
+      "value": "90 180 270 360"
+    },
+    "damage_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_shard": "+300"
+    },
+    "debuff_duration": {
+      "special_bonus_facet_obsidian_destroyer_overwhelming_devourer": "+5"
+    },
+    "has_mana_steal": {
+      "value": "1"
+    },
+    "mana_capacity_duration": {
+      "value": "30 40 50 60"
+    },
+    "mana_capacity_steal": {
+      "special_bonus_unique_outworld_devourer_2": "+8",
+      "value": "16 19 22 25"
+    },
+    "percentage_damage": {
+      "special_bonus_facet_obsidian_destroyer_overwhelming_devourer": "0"
+    },
+    "percentage_heal": {
+      "special_bonus_facet_obsidian_destroyer_overwhelming_devourer": "+100"
+    },
+    "prison_duration": {
+      "value": "1.75 2.5 3.25 4"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

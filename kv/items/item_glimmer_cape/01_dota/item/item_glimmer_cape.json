@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "15.0",
+  "AbilityManaCost": "125",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "active_movement_speed": "20",
+    "barrier_block": "375",
+    "bonus_magical_armor": "20",
+    "duration": "5",
+    "initial_fade_delay": "0.5",
+    "secondary_fade_delay": "0.5"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "2150",
+  "ItemQuality": "rare",
+  "ItemShopTags": "teamfight;escape;save;magic_resist",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestLategame": "1"
+}

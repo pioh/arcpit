@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCooldown": "75.0",
+  "AbilityValues": {
+    "bonus_health": "0",
+    "heal": "1500",
+    "health_threshold": "20"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

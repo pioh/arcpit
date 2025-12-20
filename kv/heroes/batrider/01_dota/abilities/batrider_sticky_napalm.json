@@ -1,0 +1,61 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0",
+  "AbilityManaCost": "22",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilitySound": "Hero_Batrider.StickyNapalm.Impact",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "value": "600"
+    },
+    "AbilityCooldown": {
+      "value": "3.0"
+    },
+    "application_damage": "5 10 15 20 20",
+    "building_damage_pct": {
+      "special_bonus_shard": "+25",
+      "value": "0"
+    },
+    "creep_damage_pct": "20",
+    "damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "special_bonus_unique_batrider_4": "+10",
+      "value": "2.5 5 7.5 10 10"
+    },
+    "duration": "6",
+    "max_level": {
+      "special_bonus_facet_batrider_arsonist": "+1",
+      "value": "4"
+    },
+    "max_level_tooltip": {
+      "special_bonus_facet_batrider_arsonist": "=5"
+    },
+    "max_stacks": "20",
+    "movement_speed_pct": "-.75 -1.5 -2.25 -3 -3",
+    "napalm_stacks_on_attack": {
+      "special_bonus_facet_batrider_arsonist": "=0 =0 =0 =0 =1",
+      "value": "0"
+    },
+    "napalm_stacks_on_attack_tooltip": {
+      "special_bonus_facet_batrider_arsonist": "1"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_batrider_7": "+50",
+      "value": "375"
+    },
+    "stacks_per_cast": "2",
+    "turn_rate_pct": "-10 -30 -50 -70 -70",
+    "unlimited_stacks": {
+      "special_bonus_shard": "1",
+      "value": "0"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

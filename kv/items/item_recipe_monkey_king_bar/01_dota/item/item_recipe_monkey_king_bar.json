@@ -1,0 +1,9 @@
+{
+  "ItemCost": "600",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_demon_edge;item_javelin;item_blitz_knuckles"
+  },
+  "ItemResult": "item_monkey_king_bar",
+  "ItemShopTags": ""
+}

@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_strength": "16",
+    "hp_regen_amp": "16",
+    "slow_resistance": "20"
+  },
+  "ItemCost": "2100",
+  "ItemQuality": "artifact",
+  "ItemShopTags": "damage;str;unique",
+  "SuggestLategame": "1"
+}

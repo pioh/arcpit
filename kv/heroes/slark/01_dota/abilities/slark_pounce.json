@@ -1,0 +1,46 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityManaCost": "75",
+  "AbilitySound": "Hero_Slark.Pounce.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "24 20 16 12"
+    },
+    "charge_restore_time": {
+      "special_bonus_scepter": "12"
+    },
+    "essence_stacks": {
+      "value": "1 2 3 4"
+    },
+    "leash_duration": {
+      "special_bonus_unique_slark": "+0.5",
+      "value": "2.5 2.75 3 3.25"
+    },
+    "leash_radius": {
+      "value": "400"
+    },
+    "max_charges": {
+      "special_bonus_scepter": "2"
+    },
+    "pounce_acceleration": "7000.0",
+    "pounce_damage": "0",
+    "pounce_distance": {
+      "value": "700"
+    },
+    "pounce_distance_scepter": {
+      "special_bonus_scepter": "900"
+    },
+    "pounce_radius": {
+      "value": "120"
+    },
+    "pounce_speed": {
+      "value": "933.33"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

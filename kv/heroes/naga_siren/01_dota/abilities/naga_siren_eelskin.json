@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_NONE",
+  "AbilityValues": {
+    "evasion_per_naga": "8",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

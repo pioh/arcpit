@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "800",
+  "AbilityCooldown": "16.0",
+  "AbilityManaCost": "75",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "duration": "6",
+    "target_crit_multiplier": "160"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

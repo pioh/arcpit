@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_NONE",
+  "AbilityValues": {
+    "armor": {
+      "dynamic_value": "true"
+    },
+    "hp_regen": {
+      "dynamic_value": "true"
+    },
+    "magic_resist": {
+      "dynamic_value": "true"
+    },
+    "mp_regen": {
+      "dynamic_value": "true"
+    },
+    "secondary_stat_bonus_pct": "25"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

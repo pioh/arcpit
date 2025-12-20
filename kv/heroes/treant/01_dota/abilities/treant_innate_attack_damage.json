@@ -1,0 +1,7 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "attack_damage_per_level": "6"
+  },
+  "MaxLevel": "1"
+}

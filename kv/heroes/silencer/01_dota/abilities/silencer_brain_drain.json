@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "permanent_int_steal_amount": {
+      "special_bonus_shard": "+2",
+      "value": "1"
+    },
+    "permanent_int_steal_range": {
+      "affected_by_aoe_increase": "1",
+      "value": "925"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "Innate": "1",
+  "MaxLevel": "1"
+}

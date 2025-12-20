@@ -1,0 +1,43 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "1.0",
+  "AbilityCastRange": "700",
+  "AbilityCastRangeBuffer": "500",
+  "AbilityCooldown": "75 55 35",
+  "AbilityDraftExtraAbilities": {
+    "spirit_breaker_planar_pocket": "scepter"
+  },
+  "AbilityManaCost": "125 150 175",
+  "AbilitySound": "Hero_Spirit_Breaker.NetherStrike.Begin",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "150 250 350"
+    },
+    "fade_time": "1.0 1.0 1.0",
+    "knockback_amp": {
+      "special_bonus_facet_spirit_breaker_imbalanced": "+100"
+    },
+    "knockback_amp_duration": {
+      "special_bonus_facet_spirit_breaker_imbalanced": "+6"
+    },
+    "shard_bonus_damage": {
+      "special_bonus_shard": "0"
+    },
+    "shard_break_duration": {
+      "special_bonus_shard": "0.0"
+    },
+    "shard_spell_immune_duration": {
+      "special_bonus_shard": "0.0"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

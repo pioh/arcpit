@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "40",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/seasonal_festive_firework",
+  "AbilityValues": {
+    "linger_duration": {
+      "value": "5"
+    },
+    "radius": {
+      "value": "600"
+    },
+    "speed": {
+      "value": "1200"
+    }
+  },
+  "MaxLevel": "1"
+}

@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_GS_INK_CREATURE",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "35",
+  "AbilityManaCost": "200",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES | DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "illusion_duration": {
+      "value": "25"
+    },
+    "images_do_damage_percent": {
+      "value": "25"
+    },
+    "images_do_damage_percent_tooltip": {
+      "value": "125"
+    },
+    "images_movespeed_bonus": {
+      "value": "30"
+    },
+    "images_take_damage_percent": {
+      "value": "175"
+    },
+    "images_take_damage_percent_tooltip": {
+      "value": "275"
+    }
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

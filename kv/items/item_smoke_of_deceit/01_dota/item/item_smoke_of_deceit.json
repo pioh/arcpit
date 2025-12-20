@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "1.0",
+  "AbilityValues": {
+    "application_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "bonus_movement_speed": "15",
+    "duration": "45.0",
+    "second_cast_cooldown": "2.0",
+    "secondary_application_radius": "300",
+    "visibility_radius": "1025"
+  },
+  "Effect": "particles/generic_gameplay/dropped_smoke.vpcf",
+  "FightRecapLevel": "1",
+  "IsTempestDoubleClonable": "0",
+  "ItemAlertable": "1",
+  "ItemCanBeUsedWithoutInventory": "1",
+  "ItemCost": "50",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisplayCharges": "1",
+  "ItemInitialCharges": "1",
+  "ItemPermanent": "0",
+  "ItemQuality": "consumable",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "consumable;teamfight",
+  "ItemStackable": "1",
+  "ItemStockInitial": "2",
+  "ItemStockMax": "3",
+  "ItemStockTime": "420.0",
+  "ItemSupport": "1",
+  "Model": "models/props_gameplay/smoke.vmdl",
+  "ShouldNotSuggestMainGame": "1",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestPregame": "1"
+}

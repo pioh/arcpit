@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_INVISIBLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastGestureSlot": "ATTACK",
+  "AbilityCastPoint": "0.0",
+  "AbilityTextureName": "kez_switch_weapons_sai",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "hero_levelup": "-0.25",
+      "value": "7.75"
+    },
+    "katana_agility_bonus_base_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "value": "12"
+    },
+    "katana_attack_range": "225",
+    "katana_base_attack_time": "1.8",
+    "katana_swap_bonus_damage": {
+      "special_bonus_facet_kez_flutter": "12"
+    },
+    "sai_attack_range": "150",
+    "sai_base_attack_time": "1.5",
+    "sai_swap_bonus_movement_speed": {
+      "special_bonus_facet_kez_flutter": "12"
+    },
+    "sai_swap_duration": {
+      "special_bonus_facet_kez_flutter": "2"
+    },
+    "scepter_cooldown_timer": "3"
+  },
+  "HasScepterUpgrade": "1",
+  "Innate": "1",
+  "MaxLevel": "1"
+}

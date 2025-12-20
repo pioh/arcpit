@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "dodge_chance_pct": "20"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

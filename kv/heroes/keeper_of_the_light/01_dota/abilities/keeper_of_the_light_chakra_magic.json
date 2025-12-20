@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "900 900 900 900",
+  "AbilityManaCost": "0",
+  "AbilityModifierSupportValue": "3.0",
+  "AbilitySound": "Hero_KeeperOfTheLight.ChakraMagic.Target",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_keeper_of_the_light_7": "-2",
+      "value": "18 16 14 12"
+    },
+    "cooldown_reduction": "3 4 5 6",
+    "duration": "5",
+    "mana_leak_pct": "4.5 5 5.5 6.0",
+    "mana_restore": {
+      "special_bonus_unique_keeper_of_the_light_2": "+200",
+      "value": "90 160 230 300"
+    },
+    "self_bonus": "30",
+    "strong_dispel": {
+      "special_bonus_unique_keeper_of_the_light_14": "1"
+    }
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

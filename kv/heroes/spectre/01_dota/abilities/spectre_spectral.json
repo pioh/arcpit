@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityValues": {
+    "linger_time": "0.3",
+    "radius": "40",
+    "speed_bonus": {
+      "hero_levelup": "10",
+      "value": "50"
+    }
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

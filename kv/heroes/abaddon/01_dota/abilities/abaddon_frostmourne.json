@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "curse_attack_speed": {
+      "special_bonus_unique_abaddon_3": "+65",
+      "value": "10 20 30 40"
+    },
+    "curse_dps": {
+      "special_bonus_unique_abaddon_5": "+40",
+      "value": "15 25 35 45"
+    },
+    "curse_duration": "2.0",
+    "curse_interval": "0.5",
+    "curse_slow": {
+      "value": "10 15 20 25"
+    },
+    "hit_count": {
+      "value": "1"
+    },
+    "slow_duration": "2",
+    "tower_dps_pct": "100"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

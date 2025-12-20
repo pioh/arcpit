@@ -1,0 +1,50 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "0",
+  "AbilityManaCost": "90 105 120 135",
+  "AbilitySound": "Hero_LegionCommander.Overwhelming.Location",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_legion_commander_9": "-2",
+      "value": "18"
+    },
+    "armor_per_creep": {
+      "special_bonus_shard": "1"
+    },
+    "armor_per_hero": {
+      "special_bonus_shard": "5"
+    },
+    "bonus_attack_speed": "50 75 100 125",
+    "bonus_attack_speed_creeps": "0",
+    "damage": "40 70 100 130",
+    "damage_per_hero": {
+      "special_bonus_unique_legion_commander_4": "+35",
+      "value": "40 70 100 130"
+    },
+    "damage_per_unit": "14 16 18 20",
+    "duel_radius_bonus": {
+      "special_bonus_shard": "+100"
+    },
+    "duration": "6.0",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    },
+    "shard_duration": {
+      "special_bonus_shard": "8"
+    },
+    "shield_duration": {
+      "special_bonus_facet_legion_commander_stonehall_plate": "+6"
+    },
+    "shield_per_damage_pct": {
+      "special_bonus_facet_legion_commander_stonehall_plate": "+40"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,11 @@
+{
+  "ItemCost": "250",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_cloak;item_wind_lace;item_vitality_booster"
+  },
+  "ItemResult": "item_lunar_crest",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_attack_speed": "35"
+  },
+  "ItemCost": "1000",
+  "ItemQuality": "component",
+  "ItemShopTags": "attack_speed"
+}

@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "200",
+  "AbilityCooldown": "0.0",
+  "AbilityValues": {
+    "paint_duration": "900.0"
+  },
+  "AssociatedConsumable": "17023",
+  "EventID": "14",
+  "IsObsolete": "1",
+  "ItemCost": "0",
+  "ItemQuality": "component",
+  "ItemStackable": "1",
+  "ItemStockInitial": "1",
+  "ItemStockMax": "1",
+  "ItemStockTime": "900.0",
+  "PlayerSpecificCooldown": "1"
+}

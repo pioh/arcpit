@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "damage_bonus": "100"
+  },
+  "Innate": "1",
+  "MaxLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

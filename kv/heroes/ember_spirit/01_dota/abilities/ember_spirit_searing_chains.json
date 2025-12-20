@@ -1,0 +1,36 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "400",
+  "AbilityCooldown": "13 12 11 10",
+  "AbilityManaCost": "95 105 115 125",
+  "AbilitySound": "Hero_EmberSpirit.SearingChains.Target",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage_per_second": {
+      "special_bonus_unique_ember_spirit_chains_dps": "+50",
+      "value": "50 70 90 110"
+    },
+    "duration": {
+      "special_bonus_unique_ember_spirit_2": "+0.8",
+      "value": "1.5 2.0 2.5 3.0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "remnant_chains": {
+      "special_bonus_facet_ember_spirit_chain_gang": "=1",
+      "value": "0"
+    },
+    "tick_interval": "0.5",
+    "unit_count": {
+      "special_bonus_facet_ember_spirit_chain_gang": "+2",
+      "value": "2"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

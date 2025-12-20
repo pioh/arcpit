@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "evasion": "0 0 0 15",
+    "max_mana": "0 100 160 220",
+    "movement_speed": "15 20 25 30"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralPassiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "MaxLevel": "4",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

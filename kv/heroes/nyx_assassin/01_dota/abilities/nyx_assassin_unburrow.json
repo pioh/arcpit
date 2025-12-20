@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "0.0",
+  "AbilityManaCost": "0",
+  "FightRecapLevel": "1",
+  "LinkedAbility": "nyx_assassin_burrow",
+  "MaxLevel": "1"
+}

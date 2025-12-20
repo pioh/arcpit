@@ -1,0 +1,36 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "450",
+  "AbilityCooldown": "70 60 50",
+  "AbilityManaCost": "100 150 200",
+  "AbilitySound": "Hero_Dazzle.Weave",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "base_leash_pull": "50",
+    "castable_while_disabled": {
+      "special_bonus_shard": "1"
+    },
+    "healing_amp": {
+      "special_bonus_shard": "15"
+    },
+    "initial_travel_speed": "1200",
+    "leash_increase": "1.5",
+    "leash_start": "1600",
+    "max_duration": {
+      "special_bonus_unique_dazzle_nothl_projection_duration": "+5",
+      "value": "12"
+    },
+    "min_duration": "5",
+    "poison_touch_hex": "1.4 1.6 1.8",
+    "shadow_wave_cdr": "30 40 50",
+    "shallow_grave_heal": "225 300 375",
+    "soul_return_min_speed": "500",
+    "soul_return_time": "0.75"
+  },
+  "FightRecapLevel": "2",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

@@ -1,0 +1,48 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.35 0.35 0.35",
+  "AbilityCastRange": "500",
+  "AbilityCooldown": "125 120 115",
+  "AbilityManaCost": "125 200 275",
+  "AbilityModifierSupportBonus": "50",
+  "AbilitySound": "Hero_FacelessVoid.Chronosphere",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "bonus_attack_speed": {
+      "special_bonus_unique_faceless_void": "+100",
+      "value": "0"
+    },
+    "bonus_cast_speed": {
+      "value": "50"
+    },
+    "bonus_move_speed": {
+      "value": "50"
+    },
+    "bonus_projectile_speed": {
+      "value": "40"
+    },
+    "bonus_turn_speed": {
+      "value": "50"
+    },
+    "cooldown_acceleration": {
+      "value": "400"
+    },
+    "duration": {
+      "value": "3.75 4.25 4.75"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_faceless_void_2": "+200",
+      "value": "700"
+    },
+    "vision_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "675"
+    },
+    "yaw": "45"
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

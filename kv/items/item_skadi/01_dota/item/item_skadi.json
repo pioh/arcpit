@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_all_stats": "35",
+    "bonus_health": "0",
+    "bonus_mana": "0",
+    "cold_attack_slow_melee": "-20",
+    "cold_attack_slow_ranged": "-20",
+    "cold_duration": "3.0",
+    "cold_slow_melee": "-25",
+    "cold_slow_ranged": "-50",
+    "heal_reduction": "40",
+    "restoration_reduction": "40"
+  },
+  "ItemCost": "5900",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "artifact",
+  "ItemShopTags": "agi;str;int;hard_to_tag;mana_pool;health_pool;unique;tank",
+  "SuggestLategame": "1"
+}

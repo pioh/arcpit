@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityValues": {
+    "damage_block_pct_fifty_tooltip": "50",
+    "damage_block_pct_vs_creeps": "100"
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

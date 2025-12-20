@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastPoint": "0.3",
+  "AbilityCooldown": "40.0",
+  "AbilityManaCost": "0",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "customval_damage": {
+      "value": "11 14 17"
+    },
+    "duration": {
+      "value": "10"
+    },
+    "radius": {
+      "value": "830"
+    },
+    "speed": {
+      "value": "500"
+    },
+    "start_radius": {
+      "value": "255"
+    }
+  }
+}

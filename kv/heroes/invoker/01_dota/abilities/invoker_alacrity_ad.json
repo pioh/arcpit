@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.05",
+  "AbilityCastRange": "650",
+  "AbilityCooldown": "17",
+  "AbilityManaCost": "90",
+  "AbilitySound": "Hero_Invoker.Alacrity",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "bonus_attack_speed": {
+      "special_bonus_unique_invoker_5": "+50",
+      "value": "22 42 62 82"
+    },
+    "bonus_damage": {
+      "special_bonus_unique_invoker_5": "+50",
+      "value": "22 42 62 82"
+    },
+    "duration": "9"
+  },
+  "HotKeyOverride": "Z",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

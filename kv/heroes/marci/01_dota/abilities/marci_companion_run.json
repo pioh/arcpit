@@ -1,0 +1,80 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.1",
+  "AbilityManaCost": "70 80 90 100",
+  "AbilitySound": "Hero_Marci.Rebound.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_marci_lunge_range": "+100",
+      "value": "450 550 650 750"
+    },
+    "AbilityCooldown": {
+      "value": "24 20 16 12"
+    },
+    "ally_arc_offset": {
+      "special_bonus_facet_marci_pickmeup": "=150"
+    },
+    "ally_buff_duration": "4.0",
+    "ally_impact_damage_pct": {
+      "special_bonus_facet_marci_pickmeup": "=35"
+    },
+    "ally_movespeed_pct": {
+      "special_bonus_unique_marci_lunge_movespeed": "+10",
+      "value": "15 20 25 30"
+    },
+    "debuff_duration": {
+      "special_bonus_unique_marci_grapple_stun_duration": "+0.75",
+      "value": "0.8 1.1 1.4 1.7"
+    },
+    "impact_damage": {
+      "special_bonus_shard": "+20%",
+      "value": "75 150 225 300"
+    },
+    "impact_position_offset": "64",
+    "landing_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_marci_rebound_radius": "+75",
+      "value": "275"
+    },
+    "max_acceleration": "6000.0",
+    "max_jump_distance": {
+      "special_bonus_unique_marci_lunge_range": "+100",
+      "value": "450 550 650 750"
+    },
+    "max_level": {
+      "value": "4"
+    },
+    "max_level_tooltip": {
+      "special_bonus_facet_marci_pickmeup": "=5"
+    },
+    "max_lob_travel_time": "0.2",
+    "min_acceleration": "6000.0",
+    "min_height_above_highest": "200.0",
+    "min_height_above_lowest": "250.0",
+    "min_jump_distance": "0",
+    "min_lob_travel_time": "0.1",
+    "move_speed": "1700",
+    "postjump_flurry_charges": {
+      "special_bonus_facet_marci_fleeting_fury": "=3"
+    },
+    "postjump_unleash_duration": {
+      "special_bonus_facet_marci_fleeting_fury": "=3"
+    },
+    "scepter_armor": {
+      "special_bonus_scepter": "15"
+    },
+    "scepter_heal": {
+      "special_bonus_scepter": "300"
+    },
+    "target_abort_distance": "700",
+    "vector_preview_radius": "100"
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityValues": {
+    "attack_timer_duration": "10",
+    "aura_damage": "60",
+    "aura_interval": "0.2",
+    "aura_radius": "1000"
+  },
+  "MaxLevel": "1"
+}

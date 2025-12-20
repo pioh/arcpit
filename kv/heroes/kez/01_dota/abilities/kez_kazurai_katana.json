@@ -1,0 +1,48 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_ATTACK | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "200",
+  "AbilityCooldown": "20 15 10 5",
+  "AbilityManaCost": "40",
+  "AbilitySound": "Hero_Kez.Katana.Impale.Start",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "backstab_angle": {
+      "special_bonus_shard": "+105",
+      "value": "0"
+    },
+    "bleed_as_rupture_pct": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "special_bonus_shard": "+50",
+      "value": "50"
+    },
+    "creep_lifesteal_reduction_pct": {
+      "special_bonus_shard": "+40",
+      "value": "0"
+    },
+    "impale_duration": "0.5",
+    "katana_bleed_attack_damage_pct": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "special_bonus_unique_kez_kazura_katana_bleed_damage": "+4.0",
+      "value": "3 6 9 12"
+    },
+    "katana_bleed_duration": "7",
+    "lifesteal_pct": {
+      "special_bonus_shard": "+100",
+      "value": "0"
+    },
+    "max_stacks": {
+      "special_bonus_shard": "+500",
+      "value": "500"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "LinkedAbility": "kez_shodo_sai",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

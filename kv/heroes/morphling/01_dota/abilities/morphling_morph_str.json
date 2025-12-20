@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCooldown": "0.0",
+  "AbilityValues": {
+    "castable_while_stunned": {
+      "special_bonus_shard": "+1",
+      "value": "0"
+    },
+    "mana_cost": {
+      "special_bonus_shard": "-50%",
+      "value": "10"
+    },
+    "morph_cooldown": "0.25 0.12 0.08 0.06",
+    "morph_rate_tooltip": "4 8 12 16",
+    "points_per_tick": "1"
+  },
+  "HasShardUpgrade": "1",
+  "LinkedAbility": "morphling_morph_agi"
+}

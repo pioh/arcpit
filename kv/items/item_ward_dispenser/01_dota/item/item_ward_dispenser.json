@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_SUPPRESS_ASSOCIATED_CONSUMABLE",
+  "AbilityCastRange": "500",
+  "AbilityCooldown": "0",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "bonus_health": "75",
+    "cast_range_observer": "500",
+    "cast_range_sentry": "500",
+    "lifetime_observer": "360",
+    "lifetime_sentry": "420",
+    "observer_cost": "75",
+    "observer_duration_minutes_tooltip": "6",
+    "observer_vision_range_tooltip": "1600",
+    "sentry_cost": "100",
+    "sentry_duration_minutes_tooltip": "8",
+    "true_sight_range": "1050"
+  },
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "50",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_NEVER",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable;laning",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "SpeciallyBannedFromNeutralSlot": "1"
+}

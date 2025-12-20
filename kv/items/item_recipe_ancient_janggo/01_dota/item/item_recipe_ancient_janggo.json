@@ -1,0 +1,10 @@
+{
+  "ItemCost": "500",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_belt_of_strength;item_robe;item_wind_lace"
+  },
+  "ItemResult": "item_ancient_janggo",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

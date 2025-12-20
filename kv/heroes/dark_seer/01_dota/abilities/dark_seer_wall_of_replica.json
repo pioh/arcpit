@@ -1,0 +1,48 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "1000",
+  "AbilityCooldown": "100.0 100.0 100.0",
+  "AbilityDraftExtraAbilities": {
+    "dark_seer_normal_punch": "scepter"
+  },
+  "AbilityManaCost": "125 250 375",
+  "AbilitySound": "Hero_Dark_Seer.Wall_of_Replica_Start",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "cooldown_reduction": {
+      "special_bonus_unique_dark_seer_13": "40"
+    },
+    "duration": "30.0",
+    "movement_slow": "40",
+    "replica_damage_incoming": "100",
+    "replica_damage_outgoing": {
+      "special_bonus_unique_dark_seer_7": "+15",
+      "value": "-30 -20 -10"
+    },
+    "replica_scale": "0",
+    "scepter_length_multiplier": {
+      "special_bonus_scepter": "2"
+    },
+    "slow_duration": {
+      "value": "1"
+    },
+    "tooltip_outgoing": {
+      "special_bonus_unique_dark_seer_7": "+15",
+      "value": "70 80 90"
+    },
+    "tooltip_replica_total_damage_incoming": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "200"
+    },
+    "wall_damage": "25 40 55",
+    "width": {
+      "affected_by_aoe_increase": "1",
+      "value": "1300"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

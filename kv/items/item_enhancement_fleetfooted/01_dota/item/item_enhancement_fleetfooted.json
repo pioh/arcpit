@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "movespeed": "115"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralPassiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "MaxLevel": "1",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

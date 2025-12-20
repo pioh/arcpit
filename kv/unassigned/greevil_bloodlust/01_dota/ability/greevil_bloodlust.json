@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "20",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "customval_bonus_attack_speed": {
+      "value": "18 23 28"
+    },
+    "customval_bonus_movement_speed": {
+      "value": "12 14 16"
+    },
+    "duration": {
+      "value": "20"
+    },
+    "modelscale": {
+      "value": "25"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "500",
+  "AbilityChannelTime": "1.3",
+  "AbilityManaCost": "100",
+  "AbilitySound": "Hero_ElderTitan.EchoStomp",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_shard": "-2",
+      "value": "14 13 12 11"
+    },
+    "animation_rate": "0.0",
+    "cast_time": "1.7",
+    "initial_stun_duration": "0.2",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "475"
+    },
+    "sleep_duration": "2 2.8 3.6 4.4",
+    "stomp_damage": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_unique_elder_titan_2": "+75",
+      "value": "60 100 140 180"
+    },
+    "wake_damage_limit": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_unique_elder_titan_4": "+350",
+      "value": "100 150 200 250"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

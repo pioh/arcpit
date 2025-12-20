@@ -1,0 +1,10 @@
+{
+  "ItemCost": "775",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_energy_booster;item_void_stone"
+  },
+  "ItemResult": "item_aether_lens",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityTextureName": "warlock_imp_explode",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "bonus_dmg": "0 8 16 24 32",
+    "bonus_hp": "0 100 200 300 400",
+    "bonus_movespeed": "0 15 30 45 60",
+    "explosion_delay": ".2",
+    "explosion_dmg": "100 200 300 400 500",
+    "explosion_nonhero_reduce": "50",
+    "explosion_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    }
+  },
+  "BaseClass": "warlock_imp_explode",
+  "MaxLevel": "4"
+}

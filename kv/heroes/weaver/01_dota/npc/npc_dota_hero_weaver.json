@@ -1,0 +1,190 @@
+{
+  "Ability1": "weaver_the_swarm",
+  "Ability10": "special_bonus_unique_weaver_1",
+  "Ability11": "special_bonus_strength_7",
+  "Ability12": "special_bonus_mana_break_20",
+  "Ability13": "special_bonus_unique_weaver_4",
+  "Ability14": "special_bonus_unique_weaver_2",
+  "Ability15": "special_bonus_unique_weaver_3",
+  "Ability16": "special_bonus_unique_weaver_6",
+  "Ability17": "special_bonus_unique_weaver_5",
+  "Ability2": "weaver_shukuchi",
+  "Ability3": "weaver_geminate_attack",
+  "Ability4": "generic_hidden",
+  "Ability5": "generic_hidden",
+  "Ability6": "weaver_time_lapse",
+  "Ability7": "weaver_rewoven",
+  "AbilityDraftAbilities": {
+    "Ability1": "weaver_the_swarm",
+    "Ability2": "weaver_shukuchi",
+    "Ability3": "weaver_geminate_attack",
+    "Ability4": "weaver_time_lapse"
+  },
+  "Adjectives": {
+    "Legs": "4",
+    "Nose": "0"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.550000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "43",
+  "AttackDamageMin": "37",
+  "AttackRange": "425",
+  "AttackRate": "1.800000",
+  "AttributeAgilityGain": "3.3",
+  "AttributeBaseAgility": "17",
+  "AttributeBaseIntelligence": "20",
+  "AttributeBaseStrength": "16",
+  "AttributeIntelligenceGain": "2.00000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.0000",
+  "BanSound": "weaver_weav_anger_01",
+  "BaseAttackSpeed": "120",
+  "Bot": {
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "2",
+      "RequiresSetup": "2",
+      "SoloDesire": "1",
+      "SurvivalRating": "2"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "weaver_hivemind": {
+      "Color": "Blue",
+      "GradientID": "1",
+      "Icon": "xp"
+    },
+    "weaver_skitterstep": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "speed"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_weaver.vsndevts",
+  "GibTintColor": "98 124 97 255",
+  "GibType": "goo",
+  "HeroID": "63",
+  "HeroOrderID": "41",
+  "HeroSelectSoundEffect": "Hero_Weaver.Pick",
+  "HeroUnlockOrder": "3",
+  "ItemSlots": {
+    "0": {
+      "GeneratesUnits": {
+        "0": "npc_dota_weaver_swarm"
+      },
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Weaver_Antennae",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "1",
+      "SlotName": "legs",
+      "SlotText": "#LoadoutSlot_Legs",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "4",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Misc",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_1",
+      "SlotText": "weaver_the_swarm"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_2",
+      "SlotText": "weaver_shukuchi"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_viper",
+  "LoadoutScale": "0.74",
+  "Model": "models/heroes/weaver/weaver.vmdl",
+  "ModelScale": "0.740000",
+  "MovementSpeed": "275",
+  "NameAliases": "nw;Skitskurr",
+  "NewHero": "1",
+  "PickSound": "weaver_weav_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_weaver/weaver_base_attack.vpcf",
+  "ProjectileSpeed": "900",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_weaver/weaver_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Escape",
+  "Rolelevels": "2,3",
+  "SimilarHeroes": "62,32,44",
+  "SoundSet": "Hero_Weaver",
+  "SpectatorLoadoutScale": "0.9",
+  "StatusHealthRegen": "1.25",
+  "StatusManaRegen": "0.5",
+  "Team": "Bad",
+  "VersusScale": "0.74",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_weaver.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_weaver",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_weaver.vpcf"
+  },
+  "precache": {
+    "model": "models/heroes/weaver/weaver_bug.vmdl",
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_weaver.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Weaver"
+}

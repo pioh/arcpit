@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "1.0",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "20.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "area_of_effect": {
+      "value": "200"
+    },
+    "damage": {
+      "value": "3000"
+    },
+    "delay": {
+      "value": "2"
+    }
+  },
+  "MaxLevel": "1"
+}

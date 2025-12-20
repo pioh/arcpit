@@ -1,0 +1,10 @@
+{
+  "ItemCost": "350",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_force_staff*;item_dragon_lance"
+  },
+  "ItemResult": "item_hurricane_pike",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

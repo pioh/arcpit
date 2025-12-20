@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCooldown": "20.0",
+  "AbilityValues": {
+    "customval_heal": {
+      "value": "7 8 9"
+    },
+    "duration": {
+      "value": "5"
+    },
+    "heal_interval": {
+      "value": "1"
+    },
+    "radius": {
+      "value": "275"
+    },
+    "wisp_count": {
+      "value": "4 5 6"
+    }
+  }
+}

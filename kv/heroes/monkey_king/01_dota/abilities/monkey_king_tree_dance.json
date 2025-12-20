@@ -1,0 +1,48 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "800",
+  "AbilityCooldown": "1.40 1.2 1.0 0.8 0",
+  "AbilityManaCost": "0",
+  "AbilitySound": "Hero_MonkeyKing.TreeJump.Cast",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE",
+  "AbilityValues": {
+    "give_up_distance": "1850",
+    "ground_jump_distance": {
+      "special_bonus_unique_monkey_king_7": "+450",
+      "value": "800"
+    },
+    "impact_damage_tooltip": {
+      "value": "140 210 280 350"
+    },
+    "impact_movement_slow_tooltip": "20 40 60 80",
+    "jump_damage_cooldown": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "3.0"
+    },
+    "leap_speed": "700",
+    "max_level": {
+      "special_bonus_facet_monkey_king_simian_stride": "+1",
+      "value": "4"
+    },
+    "max_level_tooltip": {
+      "special_bonus_facet_monkey_king_simian_stride": "=5"
+    },
+    "perched_day_vision": "700",
+    "perched_jump_distance": {
+      "special_bonus_unique_monkey_king_7": "+450",
+      "value": "800"
+    },
+    "perched_night_vision": "500",
+    "perched_spot_height": "192.0",
+    "range": "800",
+    "spring_leap_speed": "1300",
+    "top_level_height": "500",
+    "unperched_stunned_duration": "3.0"
+  },
+  "FightRecapLevel": "1",
+  "RestrictValuesToMaxLevel": "1"
+}

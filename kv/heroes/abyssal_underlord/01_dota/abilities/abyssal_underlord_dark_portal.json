@@ -1,0 +1,41 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING ",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "0",
+  "AbilityManaCost": "175",
+  "AbilitySound": "Hero_Undying.Tombstone",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_scepter": "-10",
+      "value": "110 105 100"
+    },
+    "distance_from_fountain": "1425",
+    "dps": {
+      "special_bonus_unique_underlord_9": "+125"
+    },
+    "duration": "20.0",
+    "firestorm_radius": {
+      "value": "0"
+    },
+    "minimum_distance": "1500",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_underlord_9": "+700"
+    },
+    "spawn_pit_on_cast": {
+      "special_bonus_scepter": "+1"
+    },
+    "underling_building_damage_reduction_tooltip": {
+      "special_bonus_facet_abyssal_underlord_demons_reach": "=50",
+      "value": "50"
+    },
+    "warp_channel_duration": "3.5"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "MaxLevel": "3",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

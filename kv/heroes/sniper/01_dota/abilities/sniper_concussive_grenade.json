@@ -1,0 +1,39 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.1",
+  "AbilityCooldown": "10",
+  "AbilityManaCost": "50",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "value": "600"
+    },
+    "damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "200"
+    },
+    "debuff_duration": "3",
+    "knockback_distance": {
+      "affected_by_aoe_increase": "1",
+      "value": "475"
+    },
+    "knockback_duration": "0.4",
+    "knockback_height": "100",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "375"
+    },
+    "self_push": {
+      "value": "1"
+    },
+    "slow": "50"
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

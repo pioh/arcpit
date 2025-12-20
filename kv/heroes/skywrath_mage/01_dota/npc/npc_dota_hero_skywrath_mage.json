@@ -1,0 +1,303 @@
+{
+  "Ability1": "skywrath_mage_arcane_bolt",
+  "Ability10": "special_bonus_mp_regen_150",
+  "Ability11": "special_bonus_unique_skywrath_6",
+  "Ability12": "special_bonus_unique_skywrath",
+  "Ability13": "special_bonus_unique_skywrath_concussive_shot_slow",
+  "Ability14": "special_bonus_unique_skywrath_4",
+  "Ability15": "special_bonus_unique_skywrath_3",
+  "Ability16": "special_bonus_unique_skywrath_2",
+  "Ability17": "special_bonus_unique_skywrath_5",
+  "Ability2": "skywrath_mage_concussive_shot",
+  "Ability3": "skywrath_mage_ancient_seal",
+  "Ability4": "generic_hidden",
+  "Ability5": "skywrath_mage_ruin_and_restoration",
+  "Ability6": "skywrath_mage_mystic_flare",
+  "AbilityDraftAbilities": {
+    "Ability1": "skywrath_mage_arcane_bolt",
+    "Ability2": "skywrath_mage_concussive_shot",
+    "Ability3": "skywrath_mage_ancient_seal",
+    "Ability4": "skywrath_mage_mystic_flare"
+  },
+  "Adjectives": {
+    "Flying": "1",
+    "Wings": "1"
+  },
+  "ArmorPhysical": "-2",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.400000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "26",
+  "AttackDamageMin": "16",
+  "AttackRange": "625",
+  "AttackRangeActivityModifiers": {
+    "attack_long_range": "300",
+    "attack_normal_range": "0"
+  },
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "200"
+  },
+  "AttributeAgilityGain": "0.800000",
+  "AttributeBaseAgility": "13",
+  "AttributeBaseIntelligence": "25",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "4.100000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.000000",
+  "BanSound": "skywrath_mage_drag_anger_13",
+  "BaseAttackSpeed": "90",
+  "Bot": {
+    "Build": {
+      "1": "skywrath_mage_arcane_bolt",
+      "2": "skywrath_mage_concussive_shot",
+      "3": "skywrath_mage_arcane_bolt",
+      "4": "skywrath_mage_ancient_seal",
+      "5": "skywrath_mage_arcane_bolt",
+      "6": "skywrath_mage_mystic_flare",
+      "7": "skywrath_mage_arcane_bolt",
+      "8": "skywrath_mage_ancient_seal",
+      "9": "skywrath_mage_ancient_seal",
+      "10": "special_bonus_mp_regen_150",
+      "11": "skywrath_mage_ancient_seal",
+      "12": "skywrath_mage_mystic_flare",
+      "13": "skywrath_mage_concussive_shot",
+      "14": "skywrath_mage_concussive_shot",
+      "15": "special_bonus_unique_skywrath_concussive_shot_slow",
+      "16": "skywrath_mage_concussive_shot",
+      "17": "",
+      "18": "skywrath_mage_mystic_flare",
+      "19": "",
+      "20": "special_bonus_unique_skywrath_3",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_skywrath_5"
+    },
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_NUKER",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "0",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "1"
+    },
+    "Loadout": {
+      "item_arcane_boots": "ITEM_DERIVED",
+      "item_blade_of_alacrity": "ITEM_LUXURY",
+      "item_boots": "ITEM_CORE",
+      "item_branches": [
+        "ITEM_CORE",
+        "ITEM_CORE"
+      ],
+      "item_circlet": "ITEM_CORE",
+      "item_clarity": [
+        "ITEM_CONSUMABLE | ITEM_SELLABLE",
+        "ITEM_CONSUMABLE | ITEM_SELLABLE"
+      ],
+      "item_cyclone": "ITEM_DERIVED",
+      "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_fluffy_hat": "ITEM_EXTENSION",
+      "item_force_staff": "ITEM_DERIVED",
+      "item_magic_stick": "ITEM_CORE",
+      "item_magic_wand": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_mantle": "ITEM_CORE",
+      "item_mystic_staff": "ITEM_LUXURY",
+      "item_null_talisman": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_ogre_axe": "ITEM_LUXURY",
+      "item_point_booster": "ITEM_LUXURY",
+      "item_recipe_arcane_boots": "ITEM_EXTENSION",
+      "item_recipe_cyclone": "ITEM_EXTENSION",
+      "item_recipe_force_staff": "ITEM_EXTENSION",
+      "item_recipe_magic_wand": "ITEM_CORE",
+      "item_recipe_null_talisman": "ITEM_CORE",
+      "item_recipe_ring_of_basilius": "ITEM_EXTENSION",
+      "item_recipe_rod_of_atos": "ITEM_LUXURY",
+      "item_recipe_sheepstick": "ITEM_EXTENSION",
+      "item_ring_of_basilius": "ITEM_DERIVED",
+      "item_rod_of_atos": "ITEM_DERIVED",
+      "item_sheepstick": "ITEM_DERIVED",
+      "item_sobi_mask": "ITEM_CORE",
+      "item_staff_of_wizardry": [
+        "ITEM_EXTENSION",
+        "ITEM_EXTENSION",
+        "ITEM_LUXURY",
+        "ITEM_LUXURY"
+      ],
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_tiara_of_selemene": "ITEM_EXTENSION",
+      "item_ultimate_scepter": "ITEM_DERIVED",
+      "item_vitality_booster": "ITEM_LUXURY",
+      "item_void_stone": "ITEM_EXTENSION",
+      "item_wind_lace": "ITEM_EXTENSION"
+    }
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "skywrath_mage_shield": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "3",
+          "AbilityName": "skywrath_mage_shield_of_the_scion"
+        }
+      },
+      "Color": "Blue",
+      "GradientID": "0",
+      "Icon": "armor"
+    },
+    "skywrath_mage_staff": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "3",
+          "AbilityName": "skywrath_mage_staff_of_the_scion"
+        }
+      },
+      "Color": "Yellow",
+      "GradientID": "2",
+      "Icon": "cooldown"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_skywrath_mage.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HealthBarOffset": "300",
+  "HeroGlowColor": "194 80 163",
+  "HeroID": "101",
+  "HeroOrderID": "100",
+  "HeroSelectSoundEffect": "Hero_SkywrathMage.Pick",
+  "HeroUnlockOrder": "3",
+  "IdleExpression": "scenes/skywrath_mage/skywrath_mage_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Wings",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "3",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "4",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "5",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "skywrath_mage_arcane_bolt"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_4",
+      "SlotText": "skywrath_mage_mystic_flare"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_vengefulspirit",
+  "LoadoutScale": "0.75",
+  "Model": "models/heroes/skywrath_mage/skywrath_mage.vmdl",
+  "ModelScale": "0.750000",
+  "MovementSpeed": "325",
+  "NameAliases": [
+    "dragonus",
+    "sm;Dragonus"
+  ],
+  "NoCombine": "1",
+  "PickSound": "skywrath_mage_drag_spawn_02",
+  "ProjectileModel": "particles/units/heroes/hero_skywrath_mage/skywrath_mage_base_attack.vpcf",
+  "ProjectileSpeed": "1000",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_skywrath_mage/skywrath_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Support,Nuker,Disabler",
+  "Rolelevels": "2,3,1",
+  "SimilarHeroes": "22,86,119",
+  "SoundSet": "Hero_SkywrathMage",
+  "SpectatorLoadoutScale": "0.70",
+  "StatusManaRegen": "0.25",
+  "Team": "Good",
+  "VersusScale": "0.75",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_skywrath_mage.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_skywrath_mage",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_skywrath_mage.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_skywrath_mage.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "1",
+    "attach_attack2": "2",
+    "attach_head": "3",
+    "attach_wing_l": "4",
+    "attach_wing_r": "5"
+  },
+  "workshop_guide_name": "Skywrath Mage"
+}

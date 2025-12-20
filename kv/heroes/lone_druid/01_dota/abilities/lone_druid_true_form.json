@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0 0 0",
+  "AbilityManaCost": "80",
+  "AbilitySound": "Hero_LoneDruid.TrueForm.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "60 55 50"
+    },
+    "attack_speed_pct": {
+      "special_bonus_facet_lone_druid_unbearable": "+15"
+    },
+    "bonus_armor": {
+      "value": "10 15 20"
+    },
+    "bonus_attack_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "value": "50 90 130"
+    },
+    "bonus_hp": {
+      "special_bonus_facet_lone_druid_unbearable": "-100%",
+      "value": "500 1000 1500"
+    },
+    "bonus_slow_resistance": {
+      "special_bonus_unique_lone_druid_8": "+60",
+      "value": "0"
+    },
+    "duration": {
+      "value": "25"
+    },
+    "transform_bear": {
+      "special_bonus_facet_lone_druid_unbearable": "1",
+      "value": "0"
+    },
+    "transformation_time": "1.933"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

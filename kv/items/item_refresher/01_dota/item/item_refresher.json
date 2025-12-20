@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "180.0 190.0 200.0 210.0",
+  "AbilityManaCost": "400",
+  "AbilityValues": {
+    "bonus_damage": "0",
+    "bonus_health_regen": "12",
+    "bonus_mana_regen": "6.0",
+    "cooldown_duration": "180.0 190.0 200.0 210.0",
+    "max_level": "4"
+  },
+  "CooldownPausedOutOfInventory": "1",
+  "ItemCost": "5000",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "regen_health;regen_mana;hard_to_tag;teamfight",
+  "SuggestLategame": "1"
+}

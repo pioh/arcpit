@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "4.0",
+  "AbilityManaCost": "60",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "damage_percent_loss": {
+      "value": "25.0 20.0 15.0 10.0"
+    },
+    "initial_damage": {
+      "value": "140 180 220 260"
+    },
+    "jump_delay": {
+      "value": "0.25"
+    },
+    "jump_range": {
+      "value": "500"
+    },
+    "max_targets": {
+      "value": "4"
+    }
+  },
+  "MaxLevel": "1"
+}

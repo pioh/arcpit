@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_health": "250",
+    "bonus_spell_resist": "20",
+    "bonus_strength": "10",
+    "mana_restore_pct": "25",
+    "max_stacks": "6",
+    "stack_duration": "5",
+    "stack_resist": "3.5",
+    "stack_threshold": "300"
+  },
+  "ItemCost": "3700",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "regen_health;magic_resist;tank",
+  "SuggestLategame": "1"
+}

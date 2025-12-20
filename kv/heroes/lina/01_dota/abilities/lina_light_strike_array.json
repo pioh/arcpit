@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.45 0.45 0.45 0.45",
+  "AbilityCastRange": "700",
+  "AbilityCooldown": "13 11 9 7",
+  "AbilityManaCost": "100 110 120 130",
+  "AbilitySound": "Ability.LightStrikeArray",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "light_strike_array_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "250"
+    },
+    "light_strike_array_damage": {
+      "special_bonus_unique_lina_3": "+150",
+      "value": "110 160 210 260"
+    },
+    "light_strike_array_delay_time": "0.5",
+    "light_strike_array_stun_duration": "1.2 1.6 2.0 2.4"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

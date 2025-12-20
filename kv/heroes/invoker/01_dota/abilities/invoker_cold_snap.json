@@ -1,0 +1,41 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.05",
+  "AbilityCastRange": "1000",
+  "AbilityManaCost": "100",
+  "AbilityModifierSupportValue": "0.15",
+  "AbilitySound": "Hero_Invoker.ColdSnap",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_invoker_9": "-6",
+      "value": "18"
+    },
+    "damage_trigger": "10.0",
+    "duration": {
+      "levelkey": "quaslevel",
+      "value": "3.0 3.4 3.8 4.2 4.6 5.0 5.4 5.8 6.2 6.6"
+    },
+    "freeze_cooldown": {
+      "levelkey": "quaslevel",
+      "value": "0.80 0.77 0.74 0.71 0.68 0.65 0.62 0.59 0.56 0.53"
+    },
+    "freeze_damage": {
+      "levelkey": "quaslevel",
+      "value": "28 36 44 52 60 68 76 84 92 100"
+    },
+    "freeze_duration": "0.4",
+    "freeze_heal": {
+      "special_bonus_unique_invoker_cold_snap_heal": "1",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HotKeyOverride": "Y",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

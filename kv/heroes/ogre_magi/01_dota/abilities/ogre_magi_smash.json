@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "15",
+  "AbilityManaCost": "50",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
+  "AbilityValues": {
+    "attacks": "3",
+    "damage": "160",
+    "damage_absorb_pct": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "85"
+    },
+    "duration": "25",
+    "multicast_fireshield_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "1000"
+    },
+    "projectile_speed": "1400"
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

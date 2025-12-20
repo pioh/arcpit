@@ -1,0 +1,10 @@
+{
+  "ItemCost": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_cloak;item_orb_of_venom;item_gloves;item_cornucopia"
+  },
+  "ItemResult": "item_mage_slayer",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

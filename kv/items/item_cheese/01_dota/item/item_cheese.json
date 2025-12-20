@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "40.0",
+  "AbilityValues": {
+    "health_restore": "2500",
+    "mana_restore": "1500"
+  },
+  "FightRecapLevel": "2",
+  "IsTempestDoubleClonable": "0",
+  "ItemAllowCombineFromGround": "0",
+  "ItemContributesToNetWorthWhenDropped": "0",
+  "ItemCost": "1000",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemInitialCharges": "1",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "",
+  "ItemStackable": "1",
+  "Model": "models/props_gameplay/cheese.vmdl",
+  "SpeciallyBannedFromNeutralSlot": "1"
+}

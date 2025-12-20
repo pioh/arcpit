@@ -1,0 +1,9 @@
+{
+  "ItemCost": "250",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_staff_of_wizardry;item_vitality_booster"
+  },
+  "ItemResult": "item_rod_of_atos",
+  "ItemShopTags": ""
+}

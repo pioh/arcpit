@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "strict": true,
+    "moduleResolution": "node",
+    "types": ["@moddota/dota-lua-types/normalized"],
+    "baseUrl": "../src/vscripts",
+    "paths": {
+      "vscripts/*": ["./*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "../src/common/**/*.d.ts",
+    "../src/vscripts/lib/**/*.d.ts"
+  ]
+}
+
+

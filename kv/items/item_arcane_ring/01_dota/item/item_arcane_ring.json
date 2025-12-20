@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "60.0",
+  "AbilityValues": {
+    "bonus_armor": "0",
+    "bonus_intelligence": "0",
+    "mana_restore": "30",
+    "mana_restore_pct": "3",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

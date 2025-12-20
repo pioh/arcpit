@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityValues": {
+    "health_threshold": {
+      "value": "100 200 300 400"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "600 800 1000 1200"
+    },
+    "zombie_interval": {
+      "value": "3"
+    }
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

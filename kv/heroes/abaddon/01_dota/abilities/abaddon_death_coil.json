@@ -1,0 +1,49 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.25",
+  "AbilityCastRange": "625",
+  "AbilityCooldown": "8 7 6 5",
+  "AbilityManaCost": "50 55 60 65",
+  "AbilitySound": "Hero_Abaddon.DeathCoil.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "damage_percentage_on_perform_attack": {
+      "special_bonus_facet_abaddon_mists_of_fate": "=40 =60 =80 =100",
+      "value": "0"
+    },
+    "effect_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_abaddon_4": "+350",
+      "value": "0"
+    },
+    "heal_amount": {
+      "special_bonus_unique_abaddon_2": "+35",
+      "value": "95 160 225 290"
+    },
+    "missile_speed": "1300",
+    "perform_attack": {
+      "special_bonus_facet_abaddon_mists_of_fate": "+1",
+      "value": "0"
+    },
+    "self_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PURE",
+      "value": "40"
+    },
+    "self_damage_enemy_target": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PURE",
+      "special_bonus_facet_abaddon_mists_of_fate": "=70",
+      "value": "40"
+    },
+    "target_damage": {
+      "special_bonus_unique_abaddon_2": "+35",
+      "value": "95 160 225 290"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES_ENEMIES_NO"
+}

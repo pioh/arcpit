@@ -1,0 +1,50 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT ",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.2 0.2 0.2 0.2",
+  "AbilityCooldown": "40",
+  "AbilityDuration": "21 24 27 30",
+  "AbilityManaCost": "80",
+  "AbilitySound": "Hero_Pugna.NetherWard",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_shard": "=350",
+      "value": "150"
+    },
+    "attacks_to_destroy": {
+      "special_bonus_unique_pugna_6": "+2",
+      "value": "4 4 4 4"
+    },
+    "base_damage": "50 70 90 110",
+    "health_restore_pct": {
+      "special_bonus_facet_pugna_siphoning_ward": "+20",
+      "value": "0"
+    },
+    "mana_multiplier": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "special_bonus_unique_pugna_3": "+1.9",
+      "value": "1 1.2 1.4 1.6"
+    },
+    "mana_regen": "0",
+    "mana_restore_pct": {
+      "special_bonus_facet_pugna_siphoning_ward": "+20",
+      "value": "0"
+    },
+    "nether_ward_gold_bounty": "20 40 60 80",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1400"
+    },
+    "self_restoration_range": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "spell_damage_reduction": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "0"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

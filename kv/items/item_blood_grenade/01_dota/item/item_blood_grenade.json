@@ -1,0 +1,36 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "10",
+  "AbilityHealthCost": "75",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bonus_health": "50",
+    "damage_over_time": "15",
+    "debuff_duration": "5",
+    "impact_damage": "50",
+    "movespeed_slow": "-15",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    },
+    "speed": "1100",
+    "tick_rate": "1"
+  },
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "50",
+  "ItemInitialCharges": "1",
+  "ItemPermanent": "0",
+  "ItemQuality": "consumable",
+  "ItemShopTags": "consumable;laning",
+  "ItemStackable": "1",
+  "ItemStackableMax": "2",
+  "ItemStockInitial": "2",
+  "ItemStockMax": "3",
+  "ItemStockTime": "180",
+  "Model": "models/props_gameplay/neutral_box.vmdl",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestPregame": "1"
+}

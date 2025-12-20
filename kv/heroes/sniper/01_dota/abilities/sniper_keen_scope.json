@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "bonus_range": "160 260 360 460"
+  },
+  "DependentOnAbility": "sniper_assassinate",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

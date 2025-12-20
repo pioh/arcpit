@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_ITEM | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "1000",
+  "AbilityCooldown": "20",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/seasonal_ti10_soccer_ball",
+  "AbilityValues": {
+    "drag_coefficient": {
+      "value": "0.0002"
+    },
+    "forward_move_speed": {
+      "value": "1000"
+    },
+    "hit_radius": {
+      "value": "80"
+    },
+    "magnus_coefficient": {
+      "value": "1000"
+    },
+    "magnus_falloff": {
+      "value": "0.7"
+    },
+    "max_delay": {
+      "value": "1.25"
+    },
+    "min_delay": {
+      "value": "0.2"
+    },
+    "tick_interval": {
+      "value": "0.05"
+    }
+  },
+  "AssociatedConsumable": "17550",
+  "MaxLevel": "1"
+}

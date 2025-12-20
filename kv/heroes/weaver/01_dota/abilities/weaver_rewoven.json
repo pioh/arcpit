@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityValues": {
+    "attack_range_increase_per_stack": "50",
+    "duration": "7.0"
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

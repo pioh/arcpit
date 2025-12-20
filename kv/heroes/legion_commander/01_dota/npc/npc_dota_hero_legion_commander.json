@@ -1,0 +1,199 @@
+{
+  "Ability1": "legion_commander_overwhelming_odds",
+  "Ability10": "special_bonus_unique_legion_commander_9",
+  "Ability11": "special_bonus_unique_legion_commander_pta_movespeed",
+  "Ability12": "special_bonus_unique_legion_commander_6",
+  "Ability13": "special_bonus_unique_legion_commander_4",
+  "Ability14": "special_bonus_unique_legion_commander_5",
+  "Ability15": "special_bonus_unique_legion_commander_3",
+  "Ability16": "special_bonus_unique_legion_commander_7",
+  "Ability17": "special_bonus_unique_legion_commander_8",
+  "Ability2": "legion_commander_press_the_attack",
+  "Ability3": "legion_commander_moment_of_courage",
+  "Ability4": "legion_commander_outfight_them",
+  "Ability5": "generic_hidden",
+  "Ability6": "legion_commander_duel",
+  "AbilityDraftAbilities": {
+    "Ability1": "legion_commander_overwhelming_odds",
+    "Ability2": "legion_commander_press_the_attack",
+    "Ability3": "legion_commander_moment_of_courage",
+    "Ability4": "legion_commander_duel"
+  },
+  "Adjectives": {
+    "Female": "1",
+    "Red": "1"
+  },
+  "ArmorPhysical": "0.000000",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.460000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "37",
+  "AttackDamageMin": "33",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.700000",
+  "AttributeBaseAgility": "18",
+  "AttributeBaseIntelligence": "20",
+  "AttributeBaseStrength": "24",
+  "AttributeIntelligenceGain": "2.200000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.100000",
+  "BanSound": "legion_commander_legcom_anger_07",
+  "Bot": {
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "1",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "1"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "legion_commander_spoils_of_war": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "damage"
+    },
+    "legion_commander_stonehall_plate": {
+      "Color": "Yellow",
+      "GradientID": "1",
+      "Icon": "armor"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_legion_commander.vsndevts",
+  "GibType": "default",
+  "HeroID": "104",
+  "HeroOrderID": "105",
+  "HeroSelectSoundEffect": "Hero_LegionCommander.Pick",
+  "IdleExpression": "scenes/legion_commander/legion_commander_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_LegionCommander_Banners",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "5",
+      "SlotName": "legs",
+      "SlotText": "#LoadoutSlot_Legs",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "GeneratesUnits": {
+        "0": "npc_dota_companion"
+      },
+      "ShowItemOnGeneratedUnits": "1",
+      "SlotIndex": "7",
+      "SlotName": "summon",
+      "SlotText": "#LoadoutSlot_Pet"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_1",
+      "SlotText": "legion_commander_overwhelming_odds"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_2",
+      "SlotText": "legion_commander_press_the_attack"
+    },
+    "11": {
+      "SlotIndex": "11",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_kunkka",
+  "Model": "models/heroes/legion_commander/legion_commander.vmdl",
+  "ModelScale": "1.025000",
+  "MovementSpeed": "325",
+  "NameAliases": "Tresdin,Legion,lc",
+  "PickSound": "legion_commander_legcom_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_legion_commander/legion_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Disabler,Initiator,Durable,Nuker",
+  "Rolelevels": "1,2,1,1,1",
+  "SimilarHeroes": "2,60,93",
+  "SoundSet": "Hero_LegionCommander",
+  "Team": "Good",
+  "VersusScale": "1.025",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_legion_commander.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_legion_commander",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_legion_commander.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_legion_commander.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_attack2": "2",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Legion Commander"
+}

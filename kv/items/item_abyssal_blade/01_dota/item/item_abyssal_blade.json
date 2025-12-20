@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "150",
+  "AbilityCooldown": "35",
+  "AbilityManaCost": "75",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bash_chance_melee": "25",
+    "bash_chance_ranged": "10",
+    "bash_cooldown": "2.3",
+    "bash_duration": "1.2",
+    "bonus_chance_damage": "120",
+    "bonus_damage": "35",
+    "bonus_strength": "26",
+    "hp_regen_amp": "20",
+    "slow_resistance": "25",
+    "stun_duration": "1.6"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "6250",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "damage;str;hard_to_tag;disable",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SuggestLategame": "1"
+}

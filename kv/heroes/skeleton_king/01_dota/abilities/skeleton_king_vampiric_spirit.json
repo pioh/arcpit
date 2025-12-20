@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "duration": {
+      "special_bonus_scepter": "+1",
+      "value": "3.5 4 4.5 5"
+    },
+    "scepter_attack_speed": {
+      "value": "30 45 60 75"
+    },
+    "scepter_aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "+1200"
+    },
+    "scepter_move_speed_pct": {
+      "value": "10 15 20 25"
+    },
+    "vampiric_aura": {
+      "special_bonus_unique_wraith_king_2": "+10",
+      "value": "10 20 30 40"
+    }
+  },
+  "DependentOnAbility": "skeleton_king_reincarnation",
+  "HasScepterUpgrade": "1",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityCastRange": "0",
+  "AbilityDamage": "100 160 220 280",
+  "AbilityDraftExtraAbilities": {
+    "necrolyte_death_seeker": "shard"
+  },
+  "AbilityManaCost": "115 130 145 160",
+  "AbilitySound": "Hero_Necrolyte.DeathPulse",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_necrophos": "-2.5",
+      "value": "8 7 6 5"
+    },
+    "area_of_effect": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "heal": {
+      "special_bonus_unique_necrophos_4": "+60",
+      "value": "70 90 110 130"
+    },
+    "projectile_speed": "400"
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES_ENEMIES_NO"
+}

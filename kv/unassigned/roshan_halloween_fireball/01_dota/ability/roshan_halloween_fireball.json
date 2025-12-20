@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastPoint": "3.0",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "25.0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "jakiro_liquid_fire",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "area_of_effect": {
+      "value": "1200"
+    },
+    "damage_percent": {
+      "value": "50 50 50 50"
+    },
+    "projectile_speed": {
+      "value": "400"
+    },
+    "radius": {
+      "value": "300 300 300 300"
+    }
+  },
+  "MaxLevel": "1"
+}

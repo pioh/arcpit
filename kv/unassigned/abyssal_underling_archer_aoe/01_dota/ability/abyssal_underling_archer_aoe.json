@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityValues": {
+    "as_bonus": "10 15 20",
+    "ms_bonus": "5",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "IsBreakable": "1"
+}

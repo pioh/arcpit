@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_STATIC_STORM",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.05 0.05 0.05 0.05",
+  "AbilityCastRange": "800 800 800 800",
+  "AbilityCooldown": "100 85 70",
+  "AbilityManaCost": "125 175 225",
+  "AbilitySound": "Hero_Disruptor.StaticStorm.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage_max": {
+      "special_bonus_unique_disruptor": "+60",
+      "value": "200 275 350"
+    },
+    "duration": {
+      "value": "6.0"
+    },
+    "pulses": {
+      "value": "20"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_disruptor_8": "+150",
+      "value": "550"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

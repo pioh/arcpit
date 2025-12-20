@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCooldown": "25.0",
+  "AbilityHealthCost": "170",
+  "AbilityValues": {
+    "bonus_armor": "2",
+    "bonus_strength": "6",
+    "duration": "10",
+    "mana_gain": "170"
+  },
+  "ItemCost": "805",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "common",
+  "ItemShopTags": "regen_health;boost_mana;mana;regen_mana",
+  "SuggestEarlygame": "1",
+  "UIDropSound": "Item.DropRingShop",
+  "UIPickupSound": "Item.PickUpRingShop",
+  "WorldDropSound": "Item.DropRingWorld"
+}

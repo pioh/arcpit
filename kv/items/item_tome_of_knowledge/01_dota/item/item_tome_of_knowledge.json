@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilitySharedCooldown": "tome",
+  "AbilityValues": {
+    "xp_bonus": "750",
+    "xp_per_use": "150"
+  },
+  "BonusDelayedStockCount": "0",
+  "FightRecapLevel": "1",
+  "IsObsolete": "1",
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "75",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisplayCharges": "1",
+  "ItemInitialCharges": "1",
+  "ItemInitialStockTime": "690.0",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "consumable",
+  "ItemStackable": "0",
+  "ItemStockInitial": "0",
+  "ItemStockMax": "3",
+  "ItemStockTime": "600.0",
+  "ItemSupport": "1",
+  "Model": "models/gameplay/attrib_tome_xp.vmdl"
+}

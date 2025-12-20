@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCooldown": "21.0",
+  "AbilityManaCost": "60 65 70 75",
+  "AbilityValues": {
+    "bonus_attack_speed": {
+      "special_bonus_unique_nevermore_4": "+30",
+      "value": "40 55 70 85"
+    },
+    "bonus_move_speed": {
+      "value": "5 7 9 11"
+    },
+    "cast_speed_pct": {
+      "special_bonus_unique_nevermore_frenzy_castspeed": "+30",
+      "value": "100"
+    },
+    "cast_speed_pct_tooltip": {
+      "special_bonus_unique_nevermore_frenzy_castspeed": "=140",
+      "value": "0"
+    },
+    "duration": "8",
+    "max_soul_increase": "5",
+    "soul_cost": "5"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

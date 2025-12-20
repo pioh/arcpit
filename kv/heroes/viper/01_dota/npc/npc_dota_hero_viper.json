@@ -1,0 +1,259 @@
+{
+  "Ability1": "viper_poison_attack",
+  "Ability10": "special_bonus_unique_viper_4",
+  "Ability11": "special_bonus_unique_viper_1",
+  "Ability12": "special_bonus_unique_viper_3",
+  "Ability13": "special_bonus_unique_viper_7",
+  "Ability14": "special_bonus_unique_viper_2",
+  "Ability15": "special_bonus_unique_viper_predator_damage",
+  "Ability16": "special_bonus_unique_viper_nethertoxin_radius",
+  "Ability17": "special_bonus_unique_viper_8",
+  "Ability2": "viper_nethertoxin",
+  "Ability3": "viper_corrosive_skin",
+  "Ability4": "viper_nose_dive",
+  "Ability5": "viper_predator",
+  "Ability6": "viper_viper_strike",
+  "AbilityDraftAbilities": {
+    "Ability1": "viper_poison_attack",
+    "Ability2": "viper_nethertoxin",
+    "Ability3": "viper_corrosive_skin",
+    "Ability4": "viper_viper_strike"
+  },
+  "Adjectives": {
+    "Arachnophobic": "1",
+    "Flying": "1",
+    "Green": "1",
+    "Legs": "0",
+    "Wings": "1"
+  },
+  "ArmorPhysical": "-2",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.330000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "29",
+  "AttackDamageMin": "27",
+  "AttackRange": "575",
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "142",
+    "faster": "275",
+    "fastest": "350"
+  },
+  "AttributeAgilityGain": "2.700000",
+  "AttributeBaseAgility": "21",
+  "AttributeBaseIntelligence": "17",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "2.0",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.400000",
+  "BanSound": "viper_vipe_anger_06",
+  "BaseAttackSpeed": "120",
+  "Bot": {
+    "Build": {
+      "1": "viper_poison_attack",
+      "2": "viper_nethertoxin",
+      "3": "viper_poison_attack",
+      "4": "viper_corrosive_skin",
+      "5": "viper_corrosive_skin",
+      "6": "viper_viper_strike",
+      "7": "viper_corrosive_skin",
+      "8": "viper_corrosive_skin",
+      "9": "viper_poison_attack",
+      "10": "special_bonus_unique_viper_4",
+      "11": "viper_nethertoxin",
+      "12": "viper_viper_strike",
+      "13": "viper_poison_attack",
+      "14": "viper_nethertoxin",
+      "15": "special_bonus_unique_viper_7",
+      "16": "viper_nethertoxin",
+      "17": "",
+      "18": "viper_viper_strike",
+      "19": "",
+      "20": "special_bonus_unique_viper_predator_damage",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_viper_nethertoxin_radius"
+    },
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "2",
+      "SurvivalRating": "0"
+    },
+    "Loadout": {
+      "item_belt_of_strength": "ITEM_CORE",
+      "item_black_king_bar": "ITEM_DERIVED",
+      "item_blade_of_alacrity": [
+        "ITEM_CORE",
+        "ITEM_LUXURY"
+      ],
+      "item_blitz_knuckles": "ITEM_LUXURY",
+      "item_boots": "ITEM_CORE",
+      "item_boots_of_elves": "ITEM_CORE",
+      "item_circlet": "ITEM_CORE",
+      "item_demon_edge": "ITEM_LUXURY",
+      "item_dragon_lance": "ITEM_DERIVED",
+      "item_faerie_fire": "ITEM_CORE | ITEM_SELLABLE",
+      "item_fluffy_hat": "ITEM_EXTENSION",
+      "item_force_staff": "ITEM_DERIVED",
+      "item_gloves": "ITEM_CORE",
+      "item_hurricane_pike": "ITEM_DERIVED",
+      "item_javelin": "ITEM_LUXURY",
+      "item_mithril_hammer": "ITEM_EXTENSION",
+      "item_monkey_king_bar": "ITEM_DERIVED",
+      "item_ogre_axe": [
+        "ITEM_EXTENSION",
+        "ITEM_LUXURY"
+      ],
+      "item_point_booster": "ITEM_LUXURY",
+      "item_power_treads": "ITEM_DERIVED",
+      "item_recipe_black_king_bar": "ITEM_EXTENSION",
+      "item_recipe_dragon_lance": "ITEM_CORE",
+      "item_recipe_force_staff": "ITEM_EXTENSION",
+      "item_recipe_hurricane_pike": "ITEM_EXTENSION",
+      "item_recipe_monkey_king_bar": "ITEM_LUXURY",
+      "item_recipe_ring_of_basilius": "ITEM_CORE",
+      "item_recipe_wraith_band": "ITEM_CORE",
+      "item_ring_of_basilius": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_slippers": "ITEM_CORE",
+      "item_sobi_mask": "ITEM_CORE",
+      "item_staff_of_wizardry": [
+        "ITEM_EXTENSION",
+        "ITEM_LUXURY"
+      ],
+      "item_ultimate_scepter": "ITEM_DERIVED",
+      "item_wraith_band": "ITEM_DERIVED | ITEM_SELLABLE"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "viper_caustic_bath": {
+      "Color": "Yellow",
+      "GradientID": "2",
+      "Icon": "armor"
+    },
+    "viper_poison_burst": {
+      "Color": "Green",
+      "GradientID": "0",
+      "Icon": "area_of_effect"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_viper.vsndevts",
+  "GibTintColor": "188 255 57 255",
+  "GibType": "goo",
+  "HeroGlowColor": "160 229 81",
+  "HeroID": "47",
+  "HeroOrderID": "29",
+  "HeroPool1": "1",
+  "HeroPool2": "1",
+  "HeroSelectSoundEffect": "Hero_Viper.Pick",
+  "HeroUnlockOrder": "1",
+  "IdleExpression": "scenes/viper/viper_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "1",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "2",
+      "SlotName": "tail",
+      "SlotText": "#LoadoutSlot_Tail",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "SlotIndex": "3",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "4": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "4",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ability_effects_1",
+      "SlotText": "viper_poison_attack"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_2",
+      "SlotText": "viper_nethertoxin"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_jakiro",
+  "Model": "models/heroes/viper/viper.vmdl",
+  "ModelScale": "0.740000",
+  "MovementSpeed": "275",
+  "MovementSpeedActivityModifiers": {
+    "run": "375",
+    "walk": "0"
+  },
+  "NameAliases": "Netherdrake",
+  "NoCombine": "1",
+  "PickSound": "viper_vipe_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_viper/viper_base_attack.vpcf",
+  "ProjectileSpeed": "1200",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_viper/viper_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Durable,Initiator,Disabler",
+  "Rolelevels": "1,2,1,1",
+  "SimilarHeroes": "15,59,40",
+  "SoundSet": "Hero_Viper",
+  "SpectatorLoadoutScale": "0.65",
+  "Team": "Bad",
+  "VersusScale": "0.74",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_viper.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_viper",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_viper.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_viper.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_wing_barb_1": "1",
+    "attach_wing_barb_2": "2"
+  },
+  "workshop_guide_name": "Viper"
+}

@@ -1,0 +1,12 @@
+{
+  "IsObsolete": "1",
+  "ItemCost": "0",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_chainmail;item_sobi_mask;item_blight_stone"
+  },
+  "ItemResult": "item_medallion_of_courage",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

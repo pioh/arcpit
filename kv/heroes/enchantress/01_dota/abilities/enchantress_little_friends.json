@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastRange": "750",
+  "AbilityCooldown": "20",
+  "AbilityManaCost": "75",
+  "AbilitySound": "Hero_Enchantress.EnchantCreep",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bonus_attack_speed": "70",
+    "bonus_move_speed": "100",
+    "duration": "6",
+    "max_root": "5",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "root_base_duration": "2.0",
+    "root_per_target": "0.5"
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

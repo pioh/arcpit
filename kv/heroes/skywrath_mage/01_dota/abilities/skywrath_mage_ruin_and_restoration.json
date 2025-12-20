@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "spell_lifesteal": {
+      "special_bonus_unique_skywrath_arcane_bolt_lifesteal": "+20",
+      "value": "25 30 35 40"
+    }
+  },
+  "DependentOnAbility": "skywrath_mage_mystic_flare",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

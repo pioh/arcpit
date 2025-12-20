@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "30.0",
+  "AbilityValues": {
+    "attack_damage_aura": "6",
+    "bonus_agi": "14",
+    "bonus_str": "14",
+    "illusion_duration": "30",
+    "incoming_damage": "100",
+    "outgoing_damage": "-50",
+    "outgoing_damage_tooltip": "50",
+    "tooltip_incoming_damage_total_pct": "200"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

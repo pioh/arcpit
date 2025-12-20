@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilitySound": "Hero_Batrider.StickyNapalm.Impact",
+  "AbilityValues": {
+    "tick_attack_damage_pct": "20",
+    "tick_rate": "1",
+    "total_ticks": {
+      "special_bonus_unique_batrider_smoldering_resin_ticks": "+4",
+      "value": "2"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

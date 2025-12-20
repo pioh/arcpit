@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_4",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0",
+  "AbilityCooldown": "80 70 60",
+  "AbilityManaCost": "100 150 200",
+  "AbilityModifierSupportValue": "0.1",
+  "AbilitySound": "Hero_Razor.Storm.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "armor_reduction": {
+      "value": "1"
+    },
+    "damage": "60 75 90",
+    "duration": "30.0",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "strike_interval": {
+      "special_bonus_unique_razor_2": "+-0.1",
+      "value": "0.7 0.6 0.5"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

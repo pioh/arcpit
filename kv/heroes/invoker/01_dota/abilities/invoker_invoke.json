@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_INVISIBLE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCooldown": "7",
+  "AbilityManaCost": "0",
+  "AbilitySound": "Hero_Invoker.Invoke",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "cooldown_reduction_per_orb": "0.3",
+    "max_invoked_spells": "2"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

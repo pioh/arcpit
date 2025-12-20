@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES",
+  "AbilityCooldown": "9.0",
+  "AbilityValues": {
+    "damage": "10",
+    "poison_duration": "3.0",
+    "tick_interval": "1.0"
+  },
+  "ItemCost": "350",
+  "ItemQuality": "component",
+  "ItemShopTags": "hard_to_tag",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestEarlygame": "1",
+  "SuggestPregame": "1"
+}

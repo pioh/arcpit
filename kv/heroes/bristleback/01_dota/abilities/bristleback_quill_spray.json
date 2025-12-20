@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_AUTOCAST",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityCooldown": "3.0 3.0 3.0 3.0",
+  "AbilityDraftExtraAbilities": {
+    "bristleback_hairball": "shard"
+  },
+  "AbilityManaCost": "35 35 35 35",
+  "AbilitySound": "Hero_Bristleback.QuillSpray",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "max_damage": "500",
+    "projectile_speed": "2400",
+    "quill_base_damage": "25 45 65 85",
+    "quill_stack_damage": {
+      "special_bonus_unique_bristleback_2": "+20",
+      "value": "30"
+    },
+    "quill_stack_duration": "14.0",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "700"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

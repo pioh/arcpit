@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityValues": {
+    "damage_amp": {
+      "hero_levelup": "4",
+      "value": "4"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

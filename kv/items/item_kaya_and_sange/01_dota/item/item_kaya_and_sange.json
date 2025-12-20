@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_intellect": "16",
+    "bonus_strength": "16",
+    "hp_regen_amp": "20",
+    "mana_regen_multiplier": "50",
+    "manacost_reduction": "25",
+    "slow_resistance": "25",
+    "spell_amp": "12"
+  },
+  "ItemCost": "4200",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
+  "ItemQuality": "artifact",
+  "ItemShopTags": "damage;str;agi;unique;magic_dmg",
+  "SuggestLategame": "1"
+}

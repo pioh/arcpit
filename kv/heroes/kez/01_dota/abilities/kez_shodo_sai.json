@@ -1,0 +1,34 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "20 15 10 5",
+  "AbilityManaCost": "30 20 10 0",
+  "AbilitySound": "Hero_Kez.Sai.Proc",
+  "AbilityValues": {
+    "base_crit_pct": {
+      "special_bonus_unique_kez_mark_damage": "+100",
+      "value": "125 150 175 200"
+    },
+    "forward_angle": "180",
+    "parry_bonus_crit": {
+      "special_bonus_unique_kez_mark_damage": "+0",
+      "value": "4"
+    },
+    "parry_duration": "2.0",
+    "parry_stun_duration": "0.4",
+    "sai_proc_vuln_chance": "18",
+    "sai_swap_bonus_movement_speed": {
+      "value": "12"
+    },
+    "speed_penalty": "25",
+    "stun_duration": "0.4",
+    "vuln_duration": "8.0",
+    "vuln_slow": "0"
+  },
+  "FightRecapLevel": "1",
+  "LinkedAbility": "kez_shodo_sai_parry_cancel",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

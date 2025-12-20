@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "cooldown_reduction": "0.1"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

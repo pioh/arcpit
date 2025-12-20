@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "600 600 600 600",
+  "AbilityCooldown": "16",
+  "AbilityManaCost": "60 80 100 120",
+  "AbilitySound": "Hero_Chen.TestOfFaith.Target",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "damage_max": {
+      "value": "100 200 300 400"
+    },
+    "damage_min": {
+      "value": "50 100 150 200"
+    },
+    "heal_max": {
+      "value": "50 100 150 200"
+    },
+    "heal_min": {
+      "value": "25 50 75 100"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

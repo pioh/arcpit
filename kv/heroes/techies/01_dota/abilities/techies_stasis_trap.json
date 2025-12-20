@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "1.0",
+  "AbilityCastRange": "150",
+  "AbilityCooldown": "20.0 16.0 13.0 10.0",
+  "AbilityManaCost": "80 110 140 160",
+  "AbilityValues": {
+    "activation_radius": {
+      "value": "400"
+    },
+    "activation_time": {
+      "value": "2"
+    },
+    "cast_range_scepter_bonus": {
+      "special_bonus_scepter": "300"
+    },
+    "duration": {
+      "value": "600"
+    },
+    "explode_delay": {
+      "value": "0"
+    },
+    "fade_time": {
+      "value": "2"
+    },
+    "stun_duration": {
+      "value": "2 3 4 5"
+    },
+    "stun_radius": {
+      "value": "600"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

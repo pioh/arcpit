@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_magical_armor": "20",
+    "tooltip_resist": "20"
+  },
+  "ItemCost": "800",
+  "ItemQuality": "component",
+  "ItemShopTags": "magic_resist"
+}

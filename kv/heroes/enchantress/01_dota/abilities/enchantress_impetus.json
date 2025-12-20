@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.0 0.0 0.0",
+  "AbilityCastRange": "575",
+  "AbilityCooldown": "6 4 2 0",
+  "AbilityDuration": "1.5 1.5 1.5",
+  "AbilityManaCost": "40 45 50 55",
+  "AbilitySound": "Hero_Enchantress.Impetus",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "distance_cap": "1750",
+    "distance_damage_pct": {
+      "special_bonus_unique_enchantress_4": "+6.5",
+      "value": "5 10 15 20"
+    },
+    "illusion_damage_multiplier": "2"
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

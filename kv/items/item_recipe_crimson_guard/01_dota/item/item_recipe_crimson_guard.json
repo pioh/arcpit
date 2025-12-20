@@ -1,0 +1,10 @@
+{
+  "ItemCost": "1050",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_vanguard;item_helm_of_iron_will"
+  },
+  "ItemResult": "item_crimson_guard",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

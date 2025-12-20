@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "1200",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bonus_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "special_bonus_shard": "+100",
+      "value": "10 20 30 40"
+    },
+    "movement_slow": "25",
+    "range": "1200",
+    "slow_duration": "2.5",
+    "speed": "900.0",
+    "splash_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "LinkedAbility": "tiny_tree_grab",
+  "MaxLevel": "4",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

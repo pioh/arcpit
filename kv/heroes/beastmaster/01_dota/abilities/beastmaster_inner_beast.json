@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_facet_beastmaster_beast_mode": "=20",
+      "value": "0"
+    },
+    "AbilityManaCost": {
+      "special_bonus_facet_beastmaster_beast_mode": "=35",
+      "value": "0"
+    },
+    "attack_speed_per_unit": {
+      "special_bonus_facet_beastmaster_wild_hunt": "3 4 5 6",
+      "value": "0"
+    },
+    "berserk_bonus_attack_speed": {
+      "special_bonus_facet_beastmaster_beast_mode": "20 30 40 50",
+      "value": "0"
+    },
+    "berserk_duration": {
+      "special_bonus_facet_beastmaster_beast_mode": "+6",
+      "value": "0"
+    },
+    "bonus_attack_speed": {
+      "special_bonus_unique_beastmaster_4": "+15",
+      "value": "10 30 50 70"
+    },
+    "bonus_damage": {
+      "special_bonus_unique_beastmaster_2": "+30"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "IsBreakable": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

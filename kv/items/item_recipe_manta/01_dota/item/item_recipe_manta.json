@@ -1,0 +1,11 @@
+{
+  "FightRecapLevel": "1",
+  "ItemCost": "1550",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_yasha;item_diadem"
+  },
+  "ItemResult": "item_manta",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

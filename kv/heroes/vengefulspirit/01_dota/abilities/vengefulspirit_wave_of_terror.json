@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "1400",
+  "AbilityCooldown": "16 14 12 10",
+  "AbilityDuration": "8",
+  "AbilityManaCost": "40",
+  "AbilitySound": "Hero_VengefulSpirit.WaveOfTerror",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "armor_reduction": {
+      "special_bonus_unique_vengeful_spirit_4": "+-3",
+      "value": "-3 -4 -5 -6"
+    },
+    "attack_reduction": {
+      "value": "10 15 20 25"
+    },
+    "damage": "60 80 100 120",
+    "steal_pct": {
+      "special_bonus_unique_vengeful_spirit_wave_of_terror_steal": "+25",
+      "value": "0"
+    },
+    "vision_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "350"
+    },
+    "vision_duration": "4",
+    "wave_speed": "2000.0",
+    "wave_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "325"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

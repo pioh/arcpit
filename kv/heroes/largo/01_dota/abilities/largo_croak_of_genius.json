@@ -1,0 +1,44 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "800",
+  "AbilityManaCost": "25 35 45 55",
+  "AbilitySound": "Hero_Largo.CroakOfGenius.Cast",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCharges": {
+      "value": "0"
+    },
+    "AbilityCooldown": {
+      "value": "25"
+    },
+    "damage_duration": {
+      "value": "5"
+    },
+    "damage_hp_pct": {
+      "special_bonus_unique_largo_3": "=1.5",
+      "value": "0"
+    },
+    "damage_per_second": {
+      "value": "0"
+    },
+    "damage_portion_pct": {
+      "value": "30 35 40 45"
+    },
+    "damage_threshold": "0",
+    "duration": "12 18 24 30",
+    "duration_reduction": "0.5",
+    "mana_cost_reduction": {
+      "value": "15"
+    },
+    "slow": {
+      "value": "0"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

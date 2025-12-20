@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityCooldown": "7.5 7 6.5 6",
+  "AbilityManaCost": "100",
+  "AbilitySound": "Hero_Shredder.WhirlingDeath.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityValues": {
+    "duration": {
+      "value": "12 13 14 15"
+    },
+    "stat_loss_pct": {
+      "special_bonus_unique_timbersaw_5": "+2.5",
+      "value": "13"
+    },
+    "stat_loss_univ": {
+      "special_bonus_unique_timbersaw_5": "+2.5",
+      "value": "5"
+    },
+    "tree_damage_scale": {
+      "special_bonus_unique_timbersaw": "+75",
+      "value": "9 16 23 30"
+    },
+    "whirling_damage": "85 130 175 220",
+    "whirling_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "325"
+    },
+    "whirling_tick": "0.3"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,34 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0",
+  "AbilitySound": "Hero_ElderTitan.EchoStomp",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "base_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "80"
+    },
+    "creep_damage_pct": "100",
+    "creep_heal_pct": "5",
+    "heal_pct": "20",
+    "max_drum_hit_interval": "3",
+    "max_stacks": "20",
+    "min_drum_hit_interval": "0.5",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    },
+    "stack_decay_time": "1.0"
+  },
+  "FightRecapLevel": "1",
+  "IsBreakable": "1",
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

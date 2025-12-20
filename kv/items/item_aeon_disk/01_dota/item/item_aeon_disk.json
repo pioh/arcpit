@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCooldown": "105.0 125.0 145.0 165.0",
+  "AbilityValues": {
+    "bonus_health": "250",
+    "bonus_mana": "300",
+    "buff_duration": "2.5",
+    "cooldown_duration": "105.0 125.0 145.0 165.0",
+    "health_threshold_pct": "70",
+    "initial_cooldown": "6",
+    "max_level": "4",
+    "status_resistance": "75"
+  },
+  "ItemCost": "3000",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH",
+  "ItemQuality": "epic",
+  "ItemShopTags": "str;regen_health;health_pool;escape;tank",
+  "SuggestLategame": "1"
+}

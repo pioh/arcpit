@@ -1,0 +1,10 @@
+{
+  "ItemCost": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_mithril_hammer;item_javelin;item_gloves"
+  },
+  "ItemResult": "item_maelstrom",
+  "ItemShopTags": "farming",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

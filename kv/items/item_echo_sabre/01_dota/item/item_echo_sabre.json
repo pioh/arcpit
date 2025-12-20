@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "5",
+  "AbilityManaCost": "0",
+  "AbilitySharedCooldown": "echo_sabre",
+  "AbilityValues": {
+    "bonus_damage": "20",
+    "bonus_mana_regen": "1.75",
+    "bonus_strength": "15",
+    "movement_slow": "100",
+    "slow_duration": "0.8"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "2700",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
+  "ItemQuality": "artifact",
+  "ItemShopTags": "attack_speed;damage;regen_mana;damage;hard_to_tag;farming;dps",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestLategame": "1"
+}

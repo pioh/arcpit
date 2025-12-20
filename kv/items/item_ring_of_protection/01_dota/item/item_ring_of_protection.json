@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_armor": "2"
+  },
+  "ItemCost": "175",
+  "ItemQuality": "component",
+  "ItemShopTags": "armor",
+  "SuggestPregame": "1",
+  "UIDropSound": "Item.DropRingShop",
+  "UIPickupSound": "Item.PickUpRingShop",
+  "WorldDropSound": "Item.DropRingWorld"
+}

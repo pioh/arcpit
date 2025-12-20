@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityValues": {
+    "bonus_attack_speed": "25",
+    "bonus_damage": "0",
+    "bonus_movement_speed_melee": "55",
+    "bonus_movement_speed_ranged": "45",
+    "bonus_stat": "10"
+  },
+  "ItemCost": "1400",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "common",
+  "ItemShopTags": "attack_speed;move_speed;int;agi;str;mobility",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestEarlygame": "1"
+}

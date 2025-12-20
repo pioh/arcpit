@@ -1,0 +1,51 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_6",
+  "AbilityCastPoint": "0.75",
+  "AbilityCastRange": "500",
+  "AbilityCooldown": "8",
+  "AbilityManaCost": "120 180 240",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "activation_time": {
+      "value": "2"
+    },
+    "cast_range_scepter_bonus": {
+      "special_bonus_scepter": "300"
+    },
+    "damage": {
+      "value": "300 450 600"
+    },
+    "damage_scepter": {
+      "special_bonus_scepter": "450 600 750"
+    },
+    "detonate_delay": {
+      "value": "0.25"
+    },
+    "duration": {
+      "value": "600"
+    },
+    "max_mines": {
+      "value": "21"
+    },
+    "model_scale": {
+      "value": "0 10 20"
+    },
+    "radius": {
+      "value": "425"
+    },
+    "radius_scepter": {
+      "special_bonus_scepter": "425"
+    },
+    "vision_duration": {
+      "value": "3"
+    },
+    "vision_radius": {
+      "value": "500"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

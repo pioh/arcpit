@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_2",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.25",
+  "AbilityCooldown": "18 14 10 6",
+  "AbilityManaCost": "50",
+  "AbilitySound": "Hero_ChaosKnight.RealityRift",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": "600 650 700 750",
+    "additional_debuff_duration_percent": {
+      "special_bonus_facet_chaos_knight_irrationality": "=50",
+      "value": "0"
+    },
+    "armor_reduction": "4 5 6 7",
+    "duration": "6",
+    "pierces_immunity": {
+      "special_bonus_unique_chaos_knight": "=1",
+      "value": "0"
+    },
+    "pull_distance": {
+      "special_bonus_unique_chaos_knight_2": "+225",
+      "value": "300 350 400 450"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

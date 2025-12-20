@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3",
+  "AbilityManaCost": "100",
+  "AbilitySound": "Hero_Brewmaster.ThunderClap",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_brewmaster_thunderclap_cd": "-3",
+      "value": "18 16 14 12"
+    },
+    "attack_speed_slow": "15 30 45 60",
+    "damage": {
+      "special_bonus_unique_brewmaster_thunder_clap_damage": "+160",
+      "value": "80 160 240 320"
+    },
+    "duration": {
+      "special_bonus_unique_brewmaster_7": "+1.5",
+      "value": "4.0"
+    },
+    "movement_slow": "15 30 45 60",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "375"
+    }
+  },
+  "AnimationPlaybackRate": "1.25",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "175",
+  "AbilityCooldown": "16 14 12 10",
+  "AbilityManaCost": "80",
+  "AbilitySound": "Hero_Marci.Grapple.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "air_duration": "0.5",
+    "air_height": "150",
+    "debuff_duration": {
+      "special_bonus_unique_marci_dispose_slow": "+1.5",
+      "value": "3"
+    },
+    "impact_damage": {
+      "special_bonus_unique_marci_grapple_damage": "+100",
+      "value": "60 150 240 330"
+    },
+    "landing_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    },
+    "movement_slow_pct": "20 30 40 50",
+    "pull_angle": "230",
+    "pull_offset": "75",
+    "throw_distance_behind": {
+      "value": "250"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

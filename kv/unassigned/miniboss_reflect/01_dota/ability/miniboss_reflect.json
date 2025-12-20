@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityValues": {
+    "passive_reflection_bonus_per_interval": "2",
+    "passive_reflection_pct": "50"
+  },
+  "MaxLevel": "1"
+}

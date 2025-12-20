@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.5",
+  "AbilityCooldown": "3.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "barrier_decay_pct": "0.5",
+    "hp_cost_per_second": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "value": "7"
+    },
+    "movement_slow": "30",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "450"
+    },
+    "voracity_bonus_pct": "50"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.35",
+  "AbilityCastRange": "475",
+  "AbilityDraftExtraAbilities": {
+    "terrorblade_demon_zeal": "shard"
+  },
+  "AbilityManaCost": "100 75 50",
+  "AbilitySound": "Hero_Terrorblade.Sunder.Target",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_terrorblade": "-30",
+      "value": "120.0 80.0 40.0"
+    },
+    "hit_point_minimum_pct": "35 30 25",
+    "ignore_minimum_pct_for_enemies": {
+      "special_bonus_facet_terrorblade_condemned": "+1",
+      "value": "0"
+    },
+    "ignore_minimum_pct_for_enemies_tooltip": {
+      "special_bonus_facet_terrorblade_condemned": "=0",
+      "value": "1"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

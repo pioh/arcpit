@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_4",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.15",
+  "AbilityCooldown": "60",
+  "AbilityManaCost": "100",
+  "AbilityValues": {
+    "tooltip_scepter_cooldown": {
+      "special_bonus_scepter": "60"
+    },
+    "tooltip_scepter_manacost": {
+      "special_bonus_scepter": "100"
+    }
+  },
+  "FightRecapLevel": "1",
+  "MaxLevel": "1"
+}

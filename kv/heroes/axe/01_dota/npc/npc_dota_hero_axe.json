@@ -1,0 +1,284 @@
+{
+  "Ability1": "axe_berserkers_call",
+  "Ability10": "special_bonus_unique_axe_culling_blade_speed_duration",
+  "Ability11": "special_bonus_unique_axe_8",
+  "Ability12": "special_bonus_unique_axe",
+  "Ability13": "special_bonus_unique_axe_7",
+  "Ability14": "special_bonus_strength_15",
+  "Ability15": "special_bonus_unique_axe_4",
+  "Ability16": "special_bonus_unique_axe_2",
+  "Ability17": "special_bonus_unique_axe_5",
+  "Ability2": "axe_battle_hunger",
+  "Ability3": "axe_counter_helix",
+  "Ability4": "generic_hidden",
+  "Ability5": "generic_hidden",
+  "Ability6": "axe_culling_blade",
+  "Ability7": "axe_coat_of_blood",
+  "AbilityDraftAbilities": {
+    "Ability1": "axe_berserkers_call",
+    "Ability2": "axe_battle_hunger",
+    "Ability3": "axe_counter_helix",
+    "Ability4": "axe_culling_blade"
+  },
+  "Adjectives": {
+    "Bearded": "1",
+    "NicePecs": "1",
+    "Red": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.400000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "35",
+  "AttackDamageMin": "31",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "170"
+  },
+  "AttributeAgilityGain": "1.7",
+  "AttributeBaseAgility": "20",
+  "AttributeBaseIntelligence": "18",
+  "AttributeBaseStrength": "25",
+  "AttributeIntelligenceGain": "1.6",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "2.8",
+  "BanSound": "axe_axe_anger_01",
+  "Bot": {
+    "Build": {
+      "1": "axe_counter_helix",
+      "2": "axe_berserkers_call",
+      "3": "axe_counter_helix",
+      "4": "axe_berserkers_call",
+      "5": "axe_counter_helix",
+      "6": "axe_culling_blade",
+      "7": "axe_counter_helix",
+      "8": "axe_berserkers_call",
+      "9": "axe_berserkers_call",
+      "10": "special_bonus_unique_axe_8",
+      "11": "axe_battle_hunger",
+      "12": "axe_culling_blade",
+      "13": "axe_battle_hunger",
+      "14": "axe_battle_hunger",
+      "15": "special_bonus_unique_axe_6",
+      "16": "axe_battle_hunger",
+      "17": "",
+      "18": "axe_culling_blade",
+      "19": "",
+      "20": "special_bonus_unique_axe_5",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_axe"
+    },
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_STUN_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "1",
+      "RequiresSetup": "1",
+      "SoloDesire": "1",
+      "SurvivalRating": "2"
+    },
+    "Loadout": {
+      "item_black_king_bar": "ITEM_LUXURY | ITEM_DERIVED",
+      "item_blade_mail": "ITEM_CORE | ITEM_DERIVED",
+      "item_blink": "ITEM_CORE",
+      "item_boots": "ITEM_CORE",
+      "item_branches": [
+        "ITEM_CORE | ITEM_SELLABLE",
+        "ITEM_CORE | ITEM_SELLABLE"
+      ],
+      "item_broadsword": "ITEM_CORE",
+      "item_chainmail": "ITEM_CORE",
+      "item_crown": "ITEM_EXTENSION",
+      "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_heart": "ITEM_DERIVED",
+      "item_helm_of_iron_will": "ITEM_EXTENSION",
+      "item_mithril_hammer": "ITEM_LUXURY",
+      "item_ogre_axe": "ITEM_LUXURY",
+      "item_platemail": "ITEM_LUXURY",
+      "item_reaver": "ITEM_LUXURY",
+      "item_recipe_black_king_bar": "ITEM_LUXURY",
+      "item_recipe_blade_mail": "ITEM_CORE",
+      "item_recipe_heart": "ITEM_LUXURY",
+      "item_recipe_shivas_guard": "ITEM_LUXURY",
+      "item_recipe_tranquil_boots": "ITEM_DERIVED",
+      "item_recipe_veil_of_discord": "ITEM_EXTENSION",
+      "item_ring_of_regen": "ITEM_CORE",
+      "item_ring_of_tarrasque": "ITEM_LUXURY",
+      "item_shivas_guard": "ITEM_LUXURY | ITEM_DERIVED",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_tranquil_boots": "ITEM_DERIVED",
+      "item_veil_of_discord": "ITEM_DERIVED",
+      "item_wind_lace": "ITEM_CORE"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "axe_call_out": {
+      "Color": "Red",
+      "GradientID": "2",
+      "Icon": "armor"
+    },
+    "axe_one_man_army": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "axe_one_man_army"
+        }
+      },
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "strength"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_axe.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "222 60 36",
+  "HeroID": "2",
+  "HeroOrderID": "2",
+  "HeroPool1": "1",
+  "HeroPool2": "1",
+  "HeroSelectSoundEffect": "Hero_Axe.Pick",
+  "HeroUnlockOrder": "2",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "2",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "SlotIndex": "4",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "5",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Misc",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "6": {
+      "GeneratesUnits": {
+        "0": "npc_dota_companion"
+      },
+      "ShowItemOnGeneratedUnits": "1",
+      "SlotIndex": "6",
+      "SlotName": "summon",
+      "SlotText": "#LoadoutSlot_Pet"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "axe_berserkers_call"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_2",
+      "SlotText": "axe_battle_hunger"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_3",
+      "SlotText": "axe_counter_helix"
+    },
+    "11": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "11",
+      "SlotName": "ability_effects_4",
+      "SlotText": "axe_culling_blade"
+    },
+    "12": {
+      "SlotIndex": "12",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_juggernaut",
+  "LoadoutScale": "1",
+  "Model": "models/heroes/axe/axe.vmdl",
+  "ModelScale": "1.000000",
+  "MovementSpeed": "315",
+  "MovementSpeedActivityModifiers": {
+    "jog": "0",
+    "run": "340"
+  },
+  "PickSound": "axe_axe_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_axe/axe_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Initiator,Durable,Disabler,Carry",
+  "Rolelevels": "3,3,2,1",
+  "SimilarHeroes": "96,16,104",
+  "SoundSet": "Hero_Axe",
+  "SpectatorLoadoutScale": "0.85",
+  "StatusHealthRegen": "2.5",
+  "Team": "Bad",
+  "VersusScale": "1",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_axe.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_axe",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_axe.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_axe.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_mouth": "1"
+  },
+  "workshop_guide_name": "Axe"
+}

@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_ITEM",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "800",
+  "AbilityCooldown": "30",
+  "AbilityDamage": "400",
+  "AbilityManaCost": "0",
+  "AbilitySharedCooldown": "frostivus2018_consumable",
+  "AbilityTextureName": "consumables/frostivus2018_throw_snowball",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "snowball_aoe": {
+      "value": "500"
+    },
+    "snowball_speed": {
+      "value": "1000"
+    },
+    "snowball_stun_duration": {
+      "value": "5"
+    }
+  },
+  "AssociatedConsumable": "17465",
+  "MaxLevel": "1"
+}

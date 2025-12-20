@@ -1,0 +1,306 @@
+{
+  "Ability1": "drow_ranger_frost_arrows",
+  "Ability10": "special_bonus_unique_drow_ranger_7",
+  "Ability11": "special_bonus_unique_drow_ranger_2",
+  "Ability12": "special_bonus_attack_range_75",
+  "Ability13": "special_bonus_unique_drow_ranger_6",
+  "Ability14": "special_bonus_unique_drow_ranger_1",
+  "Ability15": "special_bonus_unique_drow_ranger_gust_selfmovespeed",
+  "Ability16": "special_bonus_unique_drow_ranger_3",
+  "Ability17": "special_bonus_unique_drow_ranger_8",
+  "Ability2": "drow_ranger_wave_of_silence",
+  "Ability3": "drow_ranger_multishot",
+  "Ability4": "drow_ranger_glacier",
+  "Ability5": "drow_ranger_trueshot",
+  "Ability6": "drow_ranger_marksmanship",
+  "AbilityDraftAbilities": {
+    "Ability1": "drow_ranger_frost_arrows",
+    "Ability2": "drow_ranger_wave_of_silence",
+    "Ability3": "drow_ranger_multishot",
+    "Ability4": "drow_ranger_marksmanship"
+  },
+  "Adjectives": {
+    "Cape": "1",
+    "Female": "1",
+    "Icy": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.5",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "36",
+  "AttackDamageMin": "29",
+  "AttackRange": "625",
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "150",
+    "faster": "190",
+    "fastest": "220",
+    "megafast": "420",
+    "superfast": "300"
+  },
+  "AttributeAgilityGain": "2.900000",
+  "AttributeBaseAgility": "22",
+  "AttributeBaseIntelligence": "15",
+  "AttributeBaseStrength": "16",
+  "AttributeIntelligenceGain": "1.400000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "1.900000",
+  "BanSound": "drowranger_dro_anger_01",
+  "BaseAttackSpeed": "100",
+  "Bot": {
+    "Build": {
+      "1": "drow_ranger_multishot",
+      "2": "drow_ranger_frost_arrows",
+      "3": "drow_ranger_multishot",
+      "4": "drow_ranger_wave_of_silence",
+      "5": "drow_ranger_multishot",
+      "6": "drow_ranger_marksmanship",
+      "7": "drow_ranger_multishot",
+      "8": "drow_ranger_frost_arrows",
+      "9": "drow_ranger_frost_arrows",
+      "10": "special_bonus_unique_drow_ranger_2",
+      "11": "drow_ranger_frost_arrows",
+      "12": "drow_ranger_marksmanship",
+      "13": "drow_ranger_wave_of_silence",
+      "14": "drow_ranger_wave_of_silence",
+      "15": "special_bonus_unique_drow_ranger_6",
+      "16": "drow_ranger_wave_of_silence",
+      "17": "",
+      "18": "drow_ranger_marksmanship",
+      "19": "",
+      "20": "special_bonus_unique_drow_ranger_gust_selfmovespeed",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_drow_ranger_8"
+    },
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "1",
+      "SurvivalRating": "1"
+    },
+    "Loadout": {
+      "item_black_king_bar": "ITEM_LUXURY | ITEM_DERIVED",
+      "item_blade_of_alacrity": "ITEM_CORE",
+      "item_boots": "ITEM_CORE",
+      "item_boots_of_elves": [
+        "ITEM_CORE",
+        "ITEM_EXTENSION"
+      ],
+      "item_branches": "ITEM_CORE",
+      "item_butterfly": "ITEM_DERIVED",
+      "item_circlet": "ITEM_CORE",
+      "item_claymore": "ITEM_EXTENSION",
+      "item_diadem": "ITEM_EXTENSION",
+      "item_eagle": "ITEM_EXTENSION",
+      "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_gloves": "ITEM_CORE",
+      "item_lifesteal": "ITEM_EXTENSION",
+      "item_manta": "ITEM_LUXURY | ITEM_DERIVED",
+      "item_mithril_hammer": "ITEM_LUXURY",
+      "item_ogre_axe": "ITEM_LUXURY",
+      "item_power_treads": "ITEM_CORE | ITEM_DERIVED",
+      "item_recipe_black_king_bar": "ITEM_LUXURY",
+      "item_recipe_manta": "ITEM_EXTENSION",
+      "item_recipe_wraith_band": "ITEM_CORE",
+      "item_recipe_yasha": "ITEM_EXTENSION",
+      "item_slippers": "ITEM_CORE",
+      "item_talisman_of_evasion": "ITEM_EXTENSION",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_wraith_band": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_yasha": "ITEM_DERIVED"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "drow_ranger_high_ground": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "drow_ranger_vantage_point"
+        }
+      },
+      "Color": "Gray",
+      "GradientID": "1",
+      "Icon": "damage"
+    },
+    "drow_ranger_sidestep": {
+      "Color": "Blue",
+      "GradientID": "1",
+      "Icon": "multi_arrow"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_drowranger.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": [
+    "0",
+    "1"
+  ],
+  "HeroGlowColor": "1 60 246",
+  "HeroID": "6",
+  "HeroOrderID": "5",
+  "HeroPool1": "1",
+  "HeroPool2": "1",
+  "HeroSelectSoundEffect": "Hero_DrowRanger.Pick",
+  "HeroUnlockOrder": "0",
+  "IdleExpression": "scenes/drowranger/drowranger_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "1",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "2",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "3",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "legs",
+      "SlotText": "#LoadoutSlot_Legs",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "5",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "6": {
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "400",
+      "SlotIndex": "6",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Quiver",
+      "TextureHeight": "128",
+      "TextureWidth": "256"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_2",
+      "SlotText": "drow_ranger_wave_of_silence"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_4",
+      "SlotText": "drow_ranger_marksmanship"
+    },
+    "11": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "11",
+      "SlotName": "ability_effects_1",
+      "SlotText": "drow_ranger_frost_arrows"
+    },
+    "12": {
+      "SlotIndex": "12",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_windrunner",
+  "LoadoutScale": "0.97",
+  "Model": "models/heroes/drow/drow_base.vmdl",
+  "ModelScale": "0.970000",
+  "MovementSpeed": "310",
+  "MovementSpeedActivityModifiers": {
+    "sprint": "430"
+  },
+  "MovementTurnRate": "0.7000",
+  "NameAliases": "Traxex",
+  "PickSound": "drowranger_dro_spawn_03",
+  "ProjectileModel": "particles/units/heroes/hero_drow/drow_base_attack.vpcf",
+  "ProjectileSpeed": "1250",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_drow/drow_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Disabler,Pusher",
+  "Rolelevels": "2,1,1",
+  "SimilarHeroes": "48,109,63",
+  "SoundSet": "Hero_DrowRanger",
+  "StatusHealthRegen": "0.25",
+  "Team": "Good",
+  "VersusScale": "0.97",
+  "VisionDaytimeRange": "1800",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_drowranger.vsndevts",
+  "animation_transitions": {
+    "ACT_DOTA_IDLE": {
+      "regular": "1.452"
+    },
+    "ACT_DOTA_RUN": {
+      "regular": "0.462"
+    }
+  },
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_drow",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_drow_ranger.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_drow_ranger.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_head": "4",
+    "attach_mom_l": "1",
+    "attach_mom_r": "2",
+    "bow_mid": "3"
+  },
+  "workshop_guide_name": "Drow Ranger"
+}

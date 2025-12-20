@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityType": "ABILITY_TYPE_ATTRIBUTES",
+  "AbilityValues": {
+    "value": {
+      "value": "1250"
+    }
+  }
+}

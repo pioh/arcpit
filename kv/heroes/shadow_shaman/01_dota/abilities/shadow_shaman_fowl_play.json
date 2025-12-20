@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityCooldown": "120",
+  "AbilityValues": {
+    "allow_items": {
+      "special_bonus_shard": "1"
+    },
+    "ally_chicken_images_count": {
+      "special_bonus_shard": "3"
+    },
+    "ally_chicken_images_take_damage_percent": {
+      "special_bonus_shard": "200"
+    },
+    "ally_voodoo_duration": {
+      "special_bonus_shard": "3"
+    },
+    "damage_reduction_duration": {
+      "special_bonus_shard": "+.5",
+      "value": "1"
+    },
+    "damage_reduction_pct": "100",
+    "hex_duration": "3.0",
+    "invuln_duration": {
+      "special_bonus_shard": ".1"
+    },
+    "invuln_vision_radius": {
+      "special_bonus_shard": "1000"
+    },
+    "movespeed_bonus_pct": "0"
+  },
+  "HasShardUpgrade": "1",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

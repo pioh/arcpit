@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.47 0.47 0.47 0.47",
+  "AbilityCooldown": "10.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage": {
+      "value": "70"
+    },
+    "damage_bonus_creeps": {
+      "value": "100"
+    },
+    "damage_growth": {
+      "value": "10"
+    },
+    "radius": {
+      "value": "350"
+    },
+    "slow_amount": {
+      "value": "50"
+    },
+    "slow_duration": {
+      "value": "4"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "armor": "0 4 6 8",
+    "bonus_damage": "7 10 13 16",
+    "knockback_resist": "0 0 0 40"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralPassiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "MaxLevel": "4",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

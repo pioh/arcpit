@@ -1,0 +1,227 @@
+{
+  "Ability1": "tusk_ice_shards",
+  "Ability10": "special_bonus_unique_tusk_3",
+  "Ability11": "special_bonus_unique_tusk_7",
+  "Ability12": "special_bonus_hp_325",
+  "Ability13": "special_bonus_unique_tusk_2",
+  "Ability14": "special_bonus_unique_tusk_5",
+  "Ability15": "special_bonus_unique_tusk",
+  "Ability16": "special_bonus_unique_tusk_4",
+  "Ability17": "special_bonus_unique_tusk_6",
+  "Ability2": "tusk_snowball",
+  "Ability3": "generic_hidden",
+  "Ability4": "tusk_walrus_kick",
+  "Ability5": "tusk_bitter_chill",
+  "Ability6": "tusk_walrus_punch",
+  "Ability7": "tusk_launch_snowball",
+  "AbilityDraftAbilities": {
+    "Ability1": "tusk_ice_shards",
+    "Ability2": "tusk_snowball",
+    "Ability3": "tusk_tag_team,tusk_drinking_buddies",
+    "Ability4": "tusk_walrus_punch"
+  },
+  "Adjectives": {
+    "Arachnophobic": "1",
+    "Fuzzy": "1",
+    "Icy": "1"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.360000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "31",
+  "AttackDamageMin": "27",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.9",
+  "AttributeBaseAgility": "23",
+  "AttributeBaseIntelligence": "18",
+  "AttributeBaseStrength": "23",
+  "AttributeIntelligenceGain": "1.700000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.900",
+  "BanSound": "tusk_tusk_anger_03",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "0",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "1"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "tusk_facet_fist_bump": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "2",
+          "AbilityName": "tusk_drinking_buddies",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Yellow",
+      "GradientID": "0",
+      "Icon": "movement"
+    },
+    "tusk_facet_tag_team": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "2",
+          "AbilityName": "tusk_tag_team",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Blue",
+      "GradientID": "3",
+      "Icon": "damage"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_tusk.vsndevts",
+  "GibType": "default",
+  "HeroID": "100",
+  "HeroOrderID": "98",
+  "HeroSelectSoundEffect": "Hero_Tusk.Pick",
+  "IdleExpression": "scenes/tusk/tusk_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "neck",
+      "SlotText": "#LoadoutSlot_Tusk_Tusks",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "4",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "5",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Tusk_Fist",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "6": {
+      "GeneratesUnits": {
+        "0": "npc_dota_tusk_frozen_sigil"
+      },
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "6",
+      "SlotName": "ability3",
+      "SlotText": "#LoadoutSlot_Tusk_FrozenSigil",
+      "TextureHeight": "256",
+      "TextureWidth": "256",
+      "no_import": "1"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_3",
+      "SlotText": "tusk_walrus_punch"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_1",
+      "SlotText": "tusk_ice_shards"
+    },
+    "11": {
+      "SlotIndex": "11",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_earthshaker",
+  "LoadoutScale": "0.9",
+  "Model": "models/heroes/tuskarr/tuskarr.vmdl",
+  "ModelScale": "0.900000",
+  "MovementSpeed": "310",
+  "MovementTurnRate": "0.700000",
+  "NameAliases": [
+    "Tuskarr",
+    "Ymir"
+  ],
+  "PickSound": "tusk_tusk_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_tusk/tusk_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Initiator,Disabler,Nuker",
+  "Rolelevels": "2,2,1",
+  "SimilarHeroes": "28,7,51",
+  "SoundSet": "Hero_Tusk",
+  "StatusHealthRegen": "1",
+  "StatusManaRegen": "0.5",
+  "Team": "Good",
+  "VersusScale": "0.900000",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_tusk.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_tusk",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_tusk.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_tusk.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_axe": "2",
+    "attach_left_fist": "3",
+    "attach_mouth": "1"
+  },
+  "workshop_guide_name": "Tusk"
+}

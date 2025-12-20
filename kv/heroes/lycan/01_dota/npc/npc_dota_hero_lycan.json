@@ -1,0 +1,221 @@
+{
+  "Ability1": "lycan_summon_wolves",
+  "Ability10": "special_bonus_unique_lycan_howl_armor",
+  "Ability11": "special_bonus_unique_lycan_3",
+  "Ability12": "special_bonus_unique_lycan_7",
+  "Ability13": "special_bonus_unique_lycan_8",
+  "Ability14": "special_bonus_unique_lycan_1",
+  "Ability15": "special_bonus_unique_lycan_4",
+  "Ability16": "special_bonus_unique_lycan_5",
+  "Ability17": "special_bonus_unique_lycan_2",
+  "Ability2": "lycan_howl",
+  "Ability3": "lycan_feral_impulse",
+  "Ability4": "lycan_wolf_bite",
+  "Ability5": "lycan_apex_predator",
+  "Ability6": "lycan_shapeshift",
+  "AbilityDraftAbilities": {
+    "Ability1": "lycan_summon_wolves",
+    "Ability2": "lycan_howl",
+    "Ability3": "lycan_feral_impulse",
+    "Ability4": "lycan_shapeshift"
+  },
+  "Adjectives": {
+    "Arachnophobic": "1",
+    "Bearded": "1",
+    "Fuzzy": "1"
+  },
+  "AlternateLoadoutScale": "0.6",
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.550000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "29",
+  "AttackDamageMin": "24",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "150",
+    "faster": "250"
+  },
+  "AttributeAgilityGain": "1.7",
+  "AttributeBaseAgility": "18",
+  "AttributeBaseIntelligence": "23",
+  "AttributeBaseStrength": "28",
+  "AttributeIntelligenceGain": "1.7",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.4",
+  "BanSound": "lycan_lycan_anger_03",
+  "BaseAttackSpeed": "110",
+  "Bot": {
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "2",
+      "RequiresFarm": "2",
+      "RequiresSetup": "2",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_SMALL",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "lycan_alpha_wolves": {
+      "Color": "Green",
+      "GradientID": "2",
+      "Icon": "wolf"
+    },
+    "lycan_pack_leader": {
+      "Color": "Gray",
+      "GradientID": "1",
+      "Icon": "summons"
+    },
+    "lycan_spirit_wolves": {
+      "AbilityIconReplacements": {
+        "lycan_summon_wolves": "lycan_summon_spirit_wolves"
+      },
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "spirit"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_lycan.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "139 1 1",
+  "HeroID": "77",
+  "HeroOrderID": "72",
+  "HeroSelectSoundEffect": "Hero_Lycan.Pick",
+  "HeroUnlockOrder": "0",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "1",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "LoadoutPreviewMode": "transformation",
+      "MaxPolygonsLOD0": "5500",
+      "MaxPolygonsLOD1": "3500",
+      "SlotIndex": "5",
+      "SlotName": "ability4",
+      "SlotText": "#LoadoutSlot_Shapeshift",
+      "TextureHeight": "512",
+      "TextureWidth": "512",
+      "no_import": "1"
+    },
+    "6": {
+      "GeneratesUnits": {
+        "0": "npc_dota_lycan_wolf"
+      },
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "2250",
+      "SlotIndex": "6",
+      "SlotName": "summon",
+      "SlotText": "#LoadoutSlot_Wolves",
+      "TextureHeight": "256",
+      "TextureWidth": "512",
+      "no_import": "1"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "body_head",
+      "SlotText": "#LoadoutSlot_Head"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_2",
+      "SlotText": "lycan_howl"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_skeleton_king",
+  "Model": "models/heroes/lycan/lycan.vmdl",
+  "ModelScale": "0.850000",
+  "MovementSpeed": "305",
+  "NameAliases": "Banehallow;wolf",
+  "PickSound": "lycan_lycan_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_lycan/lycan_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Pusher,Durable,Escape",
+  "Rolelevels": "2,3,1,1",
+  "SimilarHeroes": "38,78,81",
+  "SoundSet": "Hero_Lycan",
+  "Team": "Bad",
+  "VersusScale": "0.85",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_lycan.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_lycan",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf"
+  },
+  "precache": {
+    "model": "models/heroes/lycan/lycan_wolf.vmdl",
+    "particle": [
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan.vpcf",
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lycan_wolf.vpcf"
+    ]
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_mouth": "1"
+  },
+  "workshop_guide_name": "Lycan"
+}

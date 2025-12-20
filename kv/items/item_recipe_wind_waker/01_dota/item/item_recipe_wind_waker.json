@@ -1,0 +1,10 @@
+{
+  "ItemCost": "1400",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_cyclone*;item_mystic_staff"
+  },
+  "ItemResult": "item_wind_waker",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

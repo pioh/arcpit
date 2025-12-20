@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "damage_reflected_to_self": "27.0",
+    "spell_amplification": "14",
+    "spell_amplification_per_level": "0.0"
+  },
+  "MaxLevel": "1"
+}

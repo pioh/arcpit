@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "750",
+  "AbilityCooldown": "13",
+  "AbilityManaCost": "60",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "goo_stacks": "2",
+    "projectile_speed": "1200",
+    "quill_stacks": "1",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "700"
+    }
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

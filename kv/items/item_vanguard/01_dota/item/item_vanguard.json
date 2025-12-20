@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "block_chance": "60",
+    "block_damage_melee": "50",
+    "block_damage_ranged": "25",
+    "bonus_health": "250",
+    "bonus_health_regen": "4.5"
+  },
+  "ItemCost": "1700",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "regen_health;block;health_pool;tank",
+  "SuggestLategame": "1"
+}

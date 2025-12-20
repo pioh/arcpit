@@ -1,0 +1,190 @@
+{
+  "Ability1": "hoodwink_acorn_shot",
+  "Ability10": "special_bonus_unique_hoodwink_bushwhack_damage",
+  "Ability11": "special_bonus_hp_150",
+  "Ability12": "special_bonus_unique_hoodwink_scurry_charges",
+  "Ability13": "special_bonus_unique_hoodwink_acorn_shot_bounces",
+  "Ability14": "special_bonus_unique_hoodwink_sharpshooter_vision",
+  "Ability15": "special_bonus_corruption_3",
+  "Ability16": "special_bonus_unique_hoodwink_acorn_shot_charges",
+  "Ability17": "special_bonus_unique_hoodwink_sharpshooter_damage",
+  "Ability2": "hoodwink_bushwhack",
+  "Ability3": "hoodwink_scurry",
+  "Ability4": "hoodwink_decoy",
+  "Ability5": "hoodwink_hunters_boomerang",
+  "Ability6": "hoodwink_sharpshooter",
+  "Ability7": "hoodwink_sharpshooter_release",
+  "Ability8": "hoodwink_mistwoods_wayfarer",
+  "AbilityDraftAbilities": {
+    "Ability1": "hoodwink_acorn_shot",
+    "Ability2": "hoodwink_bushwhack",
+    "Ability3": "hoodwink_scurry",
+    "Ability4": "hoodwink_sharpshooter"
+  },
+  "AbilityLayout": "5",
+  "Adjectives": {
+    "Cute": "1",
+    "Female": "1",
+    "Fuzzy": "1",
+    "Green": "1",
+    "Legs": "4"
+  },
+  "ArmorPhysical": "0.000000",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.4",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "29",
+  "AttackDamageMin": "22",
+  "AttackRange": "575",
+  "AttackRate": "2.0",
+  "AttackSpeedActivityModifiers": {
+    "fast": "150"
+  },
+  "AttributeAgilityGain": "3.60000",
+  "AttributeBaseAgility": "25",
+  "AttributeBaseIntelligence": "21",
+  "AttributeBaseStrength": "17",
+  "AttributeIntelligenceGain": "2.90000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.00000",
+  "BanSound": "hoodwink_hoodwink_net_miss_06",
+  "BaseAttackSpeed": "100",
+  "BotImplemented": "0",
+  "BoundsHullName": "DOTA_HULL_SIZE_SMALL",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "hoodwink_hipshot": {
+      "Color": "Green",
+      "GradientID": "0",
+      "Icon": "cooldown"
+    },
+    "hoodwink_hunter": {
+      "Color": "Yellow",
+      "GradientID": "0",
+      "Icon": "range"
+    },
+    "hoodwink_treebounce_trickshot": {
+      "Color": "Green",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "tree"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_hoodwink.vsndevts",
+  "HasAggressiveStance": "1",
+  "HealthBarOffset": "220",
+  "HeroGlowColor": "170 112 194",
+  "HeroID": "123",
+  "HeroOrderID": "120",
+  "HeroSelectSoundEffect": "Hero_Hoodwink.Pick",
+  "HeroUnlockOrder": "3",
+  "IdleExpression": "scenes/hoodwink/hoodwink_portrait.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "2",
+      "SlotName": "tail",
+      "SlotText": "#LoadoutSlot_Tail",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "3",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "SlotIndex": "4",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_3",
+      "SlotText": "hoodwink_scurry"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_4",
+      "SlotText": "hoodwink_sharpshooter"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_snapfire",
+  "LoadoutScale": "0.80",
+  "Model": "models/heroes/hoodwink/hoodwink.vmdl",
+  "ModelScale": "0.80",
+  "MovementSpeed": "315",
+  "MovementTurnRate": "0.9",
+  "NameAliases": "squirrel;hw",
+  "PickSound": "hoodwink_hoodwink_attack_10",
+  "ProjectileModel": "particles/units/heroes/hero_hoodwink/hoodwink_base_attack.vpcf",
+  "ProjectileSpeed": "1800",
+  "Role": "Support,Nuker,Escape,Disabler",
+  "Rolelevels": "2,2,2,1",
+  "SimilarHeroes": "21,9,65",
+  "SoundSet": "Hero_Hoodwink",
+  "SpectatorLoadoutScale": "0.98",
+  "StatusHealthRegen": "0.250000",
+  "Team": "Good",
+  "VersusScale": "0.8",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_hoodwink.vsndevts",
+  "animation_transitions": {
+    "ACT_DOTA_IDLE": {
+      "regular": "0.9"
+    }
+  },
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_hoodwink",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_hoodwink.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_hoodwink.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "4",
+    "attach_bolt_fx": "5",
+    "attach_foot_l_fx": "2",
+    "attach_foot_r_fx": "1",
+    "attach_hand_r_fx": "3"
+  },
+  "workshop_guide_name": "Hoodwink"
+}

@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_armor": "4",
+    "bonus_regen": "4"
+  },
+  "ItemCost": "975",
+  "ItemQuality": "component",
+  "ItemShopTags": "armor;regen_health"
+}

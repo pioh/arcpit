@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "3000",
+  "AbilityCooldown": "44 36 28 20",
+  "AbilityManaCost": "110",
+  "AbilityModifierSupportValue": "0.2",
+  "AbilitySound": "Hero_Weaver.Swarm.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "armor_reduction": {
+      "special_bonus_unique_weaver_3": "+0.5",
+      "value": "1 1 1 1"
+    },
+    "attack_rate": "1.2 1.05 0.9 0.75",
+    "count": "12 12 12 12",
+    "damage": "18 23 28 33",
+    "destroy_attacks": {
+      "special_bonus_unique_weaver_4": "+2",
+      "value": "6 7 8 9"
+    },
+    "duration": "16",
+    "experience_gain": {
+      "special_bonus_facet_weaver_hivemind": "=5 =8 =11 =14"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "100 100 100 100"
+    },
+    "shard_cooldown_reduction": {
+      "special_bonus_shard": "2"
+    },
+    "spawn_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300 300 300 300"
+    },
+    "speed": "750 750 750 750"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

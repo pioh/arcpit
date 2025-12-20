@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastRange": "1200",
+  "AbilityValues": {
+    "armor": "1",
+    "bonus_aoe_armor": "2",
+    "bonus_aoe_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "ItemCost": "425",
+  "ItemQuality": "rare",
+  "ItemShopTags": "armor;boost_armor"
+}

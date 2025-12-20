@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "aoe_per_int": "0.7"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

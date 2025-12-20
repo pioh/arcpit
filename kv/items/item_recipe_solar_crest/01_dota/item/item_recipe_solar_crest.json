@@ -1,0 +1,10 @@
+{
+  "ItemCost": "500",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_pavise*;item_crown;item_wind_lace"
+  },
+  "ItemResult": "item_solar_crest",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

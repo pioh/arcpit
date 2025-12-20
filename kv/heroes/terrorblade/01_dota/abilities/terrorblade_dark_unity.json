@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityValues": {
+    "inside_radius_bonus_damage_pct": "60",
+    "outside_radius_bonus_damage_pct": {
+      "value": "0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

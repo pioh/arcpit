@@ -1,0 +1,41 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.25",
+  "AbilityCastRange": "1500",
+  "AbilityDuration": "10",
+  "AbilityManaCost": "45",
+  "AbilityModifierSupportValue": "0.0",
+  "AbilitySound": "Hero_ShadowDemon.ShadowPoison",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_shadow_demon_3": "-1",
+      "value": "2.5"
+    },
+    "bonus_stack_damage": {
+      "special_bonus_unique_shadow_demon_4": "+15%",
+      "value": "50"
+    },
+    "hit_damage": {
+      "special_bonus_unique_shadow_demon_4": "+15%",
+      "value": "24 36 48 60"
+    },
+    "max_multiply_stacks": "5",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "speed": "1200",
+    "stack_damage": {
+      "special_bonus_unique_shadow_demon_4": "+15%",
+      "value": "24 36 48 60"
+    },
+    "vision_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

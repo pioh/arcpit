@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityValues": {
+    "absorb_bonus_per_interval": "20",
+    "damage_absorb": "2000",
+    "regen_bonus_per_interval": "3.5",
+    "regen_per_second": "40"
+  },
+  "MaxLevel": "1"
+}

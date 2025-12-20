@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "30",
+  "AbilityValues": {
+    "duration": "2.5",
+    "health_regen": "10",
+    "mana_regen": "6",
+    "miss_rate": "30",
+    "movespeed_pct": "5",
+    "penalty": "75",
+    "radius": "200",
+    "tree_destruction_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "325"
+    }
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

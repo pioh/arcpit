@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.25",
+  "AbilityCastRange": "900",
+  "AbilitySound": "Hero_DrowRanger.Silence",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "19 17 15 13"
+    },
+    "AbilityManaCost": {
+      "value": "70"
+    },
+    "bonus_movespeed": {
+      "special_bonus_unique_drow_ranger_gust_selfmovespeed": "+50",
+      "value": "0"
+    },
+    "gust_reveals_invis": {
+      "value": "1"
+    },
+    "knockback_distance_max": "450",
+    "knockback_duration": "0.6 0.7 0.8 0.9",
+    "knockback_height": "0",
+    "miss_chance": {
+      "value": "0"
+    },
+    "silence_duration": "3 4 5 6",
+    "wave_length": "900",
+    "wave_speed": "2000.0",
+    "wave_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "250"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

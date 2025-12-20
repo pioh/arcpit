@@ -1,0 +1,57 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.01 0.01 0.01",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "60.0 50.0 40.0",
+  "AbilityDamage": "250 325 400",
+  "AbilityManaCost": "175",
+  "AbilitySound": "Hero_Ancient_Apparition.IceBlast.Target",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "cold_feet_aoe": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_ancient_apparition_exposure": "200 350 500"
+    },
+    "cold_feet_stun_duration_pct": {
+      "special_bonus_shard": "+50",
+      "value": "0"
+    },
+    "frost_stacks": {
+      "value": "2"
+    },
+    "frostbite_duration": {
+      "special_bonus_unique_ancient_apparition_ice_vortex_duration": "+4",
+      "value": "10 11 12"
+    },
+    "kill_pct": {
+      "special_bonus_unique_ancient_apparition_5": "+4",
+      "value": "12 13 14"
+    },
+    "path_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    },
+    "radius_grow": {
+      "value": "50.0"
+    },
+    "radius_max": {
+      "affected_by_aoe_increase": "1",
+      "value": "1000"
+    },
+    "radius_min": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    },
+    "speed": "1500 1500 1500",
+    "target_sight_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

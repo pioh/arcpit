@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_INNATE_UI | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "damage_per_tree_pct": "2",
+    "multiplier": {
+      "special_bonus_facet_furion_ironwood_treant": "x4",
+      "special_bonus_unique_furion": "x3",
+      "value": "1 1 1 1 1"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300 400 500 600"
+    },
+    "radius_treant": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "DependentOnAbility": "furion_wrath_of_nature",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

@@ -1,0 +1,12 @@
+{
+  "IsObsolete": "1",
+  "ItemBaseLevel": "2",
+  "ItemCost": "0",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_necronomicon*;item_recipe_necronomicon"
+  },
+  "ItemResult": "item_necronomicon_2",
+  "ItemShopTags": ""
+}

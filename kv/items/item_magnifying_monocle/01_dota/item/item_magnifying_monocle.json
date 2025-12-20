@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "bonus_attack_range": {
+      "apply_curio_bonus": "1",
+      "value": "100"
+    },
+    "bonus_cast_range": {
+      "apply_curio_bonus": "1",
+      "value": "100"
+    },
+    "damage_disable": "6",
+    "damage_threshold": "25"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "puddle_armor": {
+      "special_bonus_scepter": "+10",
+      "value": "3 4 5 6"
+    },
+    "puddle_regen": {
+      "special_bonus_scepter": "+22",
+      "value": "2.5 5.0 7.5 10.0"
+    },
+    "puddle_status_resistance": {
+      "special_bonus_scepter": "40"
+    },
+    "river_damage": {
+      "special_bonus_unique_slardar_6": "+14",
+      "value": "8 16 24 32"
+    },
+    "river_speed": "18",
+    "scepter_puddle_duration_increase_tooltip": "5",
+    "scepter_puddle_radius_tooltip": "75"
+  },
+  "DependentOnAbility": "slardar_amplify_damage",
+  "HasScepterUpgrade": "1",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

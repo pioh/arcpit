@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_NONE",
+  "AbilityValues": {
+    "knockback_reduction": "50",
+    "slow_resistance": "20 30 40 50"
+  },
+  "DependentOnAbility": "magnataur_reverse_polarity",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

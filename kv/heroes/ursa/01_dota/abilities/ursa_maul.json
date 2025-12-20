@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityValues": {
+    "health_as_damage_pct": {
+      "special_bonus_unique_ursa_maul_health": "+0.5",
+      "value": "1.25"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_SUPPRESS_ASSOCIATED_CONSUMABLE",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "400",
+  "AbilityCooldown": "5",
+  "AbilitySharedCooldown": "famango",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "replenish_amount": "400"
+  },
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "0",
+  "ItemInitialCharges": "1",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "consumable",
+  "ItemStackable": "1",
+  "ItemStackableMax": "2",
+  "Model": "models/props_gameplay/fountain_of_life/fountain_of_life_consumable.vmdl",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestPregame": "0"
+}

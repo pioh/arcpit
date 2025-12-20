@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastPoint": "1.5",
+  "AbilityCastRange": "800",
+  "AbilityChannelTime": "2.5",
+  "AbilityCooldown": "30.0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "dragon_knight_breathe_fire",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage": {
+      "value": "1000"
+    },
+    "projectile_count": {
+      "value": "20"
+    },
+    "radius": {
+      "value": "200"
+    },
+    "rotation_angle": {
+      "value": "90"
+    },
+    "speed": {
+      "value": "1000"
+    }
+  },
+  "MaxLevel": "1"
+}

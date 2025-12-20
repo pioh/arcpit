@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.45",
+  "AbilityCastRange": "525",
+  "AbilityDraftExtraAbilities": {
+    "ogre_magi_unrefined_fireblast": "scepter"
+  },
+  "AbilityManaCost": "70 85 100 115",
+  "AbilitySound": "Hero_OgreMagi.Fireblast.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_ogre_magi_5": "-1",
+      "value": "11 10 9 8"
+    },
+    "fireblast_damage": {
+      "special_bonus_unique_ogre_magi_2": "+220",
+      "value": "70 130 190 250"
+    },
+    "fireblast_proc": {
+      "special_bonus_unique_ogre_magi_3": "17"
+    },
+    "multicast_delay": "0.6",
+    "stun_duration": "1.2"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "0",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

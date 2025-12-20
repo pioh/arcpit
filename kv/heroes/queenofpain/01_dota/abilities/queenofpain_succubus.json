@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "close_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    },
+    "lifesteal_reflected": {
+      "special_bonus_facet_queenofpain_facet_bondage": "1"
+    },
+    "max_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "800"
+    },
+    "spell_lifesteal": {
+      "value": "2.0"
+    },
+    "spell_lifesteal_close": {
+      "value": "14.0"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

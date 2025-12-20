@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "duration": "4.0",
+    "heal_bonus_pct": {
+      "value": "30 40 50 60"
+    }
+  },
+  "DependentOnAbility": "legion_commander_duel",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

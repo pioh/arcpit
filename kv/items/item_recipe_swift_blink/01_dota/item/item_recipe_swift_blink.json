@@ -1,0 +1,10 @@
+{
+  "ItemCost": "1750",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_blink*;item_eagle"
+  },
+  "ItemResult": "item_swift_blink",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

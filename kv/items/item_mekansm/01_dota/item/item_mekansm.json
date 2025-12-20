@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "50.0",
+  "AbilityManaCost": "100",
+  "AbilityValues": {
+    "aura_health_regen": "2.5",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "bonus_armor": "5",
+    "heal_amount": "250",
+    "heal_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "FightRecapLevel": "2",
+  "ItemAlertable": "1",
+  "ItemCost": "1775",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "agi;int;str;armor;boost_health;teamfight;save;tank",
+  "SuggestLategame": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.452 0.452 0.452",
+  "AbilityCastRange": "700",
+  "AbilityManaCost": "250 400 550",
+  "AbilitySound": "Hero_QueenOfPain.SonicWave",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_queen_of_pain_3": "-45",
+      "value": "110 95 80"
+    },
+    "damage": {
+      "special_bonus_unique_queen_of_pain_7": "+250",
+      "value": "325 475 625"
+    },
+    "distance": {
+      "value": "900"
+    },
+    "final_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "450"
+    },
+    "knockback_distance": {
+      "affected_by_aoe_increase": "1",
+      "value": "350"
+    },
+    "knockback_duration": "1.4",
+    "speed": "900",
+    "starting_aoe": {
+      "value": "100"
+    },
+    "tick_rate": "0.1"
+  },
+  "FightRecapLevel": "2",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

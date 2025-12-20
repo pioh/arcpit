@@ -1,0 +1,72 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCooldown": "0",
+  "AbilityValues": {
+    "bonus_damage_per_stack": {
+      "value": "10 20 30 40"
+    },
+    "damage_limit": "50",
+    "damage_max": "2000",
+    "damage_min": "20",
+    "max_split_amount": {
+      "special_bonus_scepter": "2"
+    },
+    "move_slow_per_stack": "4 6 8 10",
+    "projectile_break_duration": {
+      "special_bonus_scepter": "2.5"
+    },
+    "projectile_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "special_bonus_scepter": "85"
+    },
+    "projectile_distance": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "1400"
+    },
+    "projectile_speed": {
+      "special_bonus_scepter": "500"
+    },
+    "projectile_waves": {
+      "special_bonus_scepter": "3"
+    },
+    "projectile_width": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "75"
+    },
+    "projectiles_per_stack": {
+      "special_bonus_scepter": "2"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    },
+    "roar_duration": "7",
+    "roared_bonus_armor": {
+      "special_bonus_unique_primal_beast_uproar_armor": "+7",
+      "value": "2 3 4 5"
+    },
+    "roared_bonus_attack_speed": "0",
+    "should_dispell": {
+      "special_bonus_unique_primal_beast_roar_dispells": "+1"
+    },
+    "slow_duration": "3.0",
+    "splinter_angle": {
+      "special_bonus_scepter": "30"
+    },
+    "split_delay": {
+      "special_bonus_scepter": "1.25"
+    },
+    "stack_count_increase_on_disable": {
+      "special_bonus_facet_primal_beast_provoke_the_beast": "3",
+      "value": "0"
+    },
+    "stack_duration": "20",
+    "stack_limit": {
+      "value": "6"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

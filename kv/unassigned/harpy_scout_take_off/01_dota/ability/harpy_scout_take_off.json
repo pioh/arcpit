@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "1.5",
+  "AbilityCooldown": "10",
+  "AbilityManaCost": "20",
+  "AbilityValues": {
+    "cost_per_second": {
+      "value": "4"
+    },
+    "move_speed_penalty": {
+      "value": "50 40 30 10"
+    }
+  },
+  "MaxLevel": "1"
+}

@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityType": "ABILITY_TYPE_ATTRIBUTES",
+  "AbilityValues": {
+    "attribute_bonus_per_level": "6"
+  },
+  "LevelsBetweenUpgrades": "1",
+  "MaxLevel": "1",
+  "RequiredLevel": "25"
+}

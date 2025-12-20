@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "reroll": "1"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

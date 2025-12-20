@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "275",
+  "AbilityChannelTime": "4.0",
+  "AbilityCooldown": "200.0",
+  "AbilityManaCost": "275",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "duration": {
+      "value": "4.0 4.0 4.0"
+    },
+    "far_damage": {
+      "value": "25 50 75"
+    },
+    "far_radius": {
+      "value": "400 425 450 475 500 525 550 575 600 625"
+    },
+    "near_damage": {
+      "value": "50 100 150"
+    },
+    "near_radius": {
+      "value": "200 225 250 275 300 325 350 375 400 425"
+    },
+    "pull_radius": {
+      "value": "400 425 450 475 500 525 550 575 600 625"
+    },
+    "pull_speed": {
+      "value": "40 50 60 70 80 90 100 110 120 130"
+    },
+    "tick_rate": {
+      "value": "0.1 0.1 0.1"
+    },
+    "vision_radius": {
+      "value": "800 800 800"
+    }
+  },
+  "FightRecapLevel": "2",
+  "MaxLevel": "10",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

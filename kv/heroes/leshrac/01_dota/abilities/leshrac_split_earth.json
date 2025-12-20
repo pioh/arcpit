@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.7 0.7 0.7 0.7",
+  "AbilityCastRange": "650",
+  "AbilityCooldown": "11",
+  "AbilityDamage": "115 170 225 280",
+  "AbilityDuration": "1.6",
+  "AbilityManaCost": "80 100 120 140",
+  "AbilitySound": "Hero_Leshrac.Split_Earth",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "delay": "0.35",
+    "duration": "1.7",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "150 170 190 210"
+    },
+    "shard_max_count": {
+      "special_bonus_shard": "2"
+    },
+    "shard_radius_increase": {
+      "special_bonus_shard": "45"
+    },
+    "shard_secondary_delay": {
+      "special_bonus_shard": "5"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

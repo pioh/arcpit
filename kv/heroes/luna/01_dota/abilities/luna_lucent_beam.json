@@ -1,0 +1,59 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "800",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilitySound": "Hero_Luna.LucentBeam.Target",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_luna_2": "-2",
+      "value": "9.0 8.0 7.0 6.0"
+    },
+    "AbilityManaCost": {
+      "value": "90 100 110 120"
+    },
+    "beam_damage": {
+      "special_bonus_unique_luna_1": "+80",
+      "value": "75 150 225 300"
+    },
+    "damage_buff_duration": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_facet_luna_moonstorm": "+15",
+      "value": "0"
+    },
+    "damage_buff_from_eclipse_pct": {
+      "special_bonus_facet_luna_moonstorm": "=50"
+    },
+    "damage_buff_per_beam": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "special_bonus_facet_luna_moonstorm": "+4 7 10 13",
+      "value": "0"
+    },
+    "glaives_attack_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_luna_8": "+500",
+      "value": "0"
+    },
+    "glaives_fired": {
+      "special_bonus_unique_luna_8": "+2",
+      "value": "0"
+    },
+    "lucent_beam_bounce_range": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_luna_5": "+500"
+    },
+    "stun_duration": {
+      "special_bonus_unique_luna_4": "+0.5",
+      "value": "0.6"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

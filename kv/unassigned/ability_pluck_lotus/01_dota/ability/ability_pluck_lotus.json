@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityCastAnimation": "ACT_DOTA_GENERIC_CHANNEL_1",
+  "AbilityCastRange": "400",
+  "AbilityChannelTime": "1.0",
+  "AbilityTextureName": "lotus_channel",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityValues": {
+    "channel_time_after_threshold": "0.5",
+    "channel_time_reduction_threshold_mins": "5",
+    "lotus_rate": "1"
+  },
+  "MaxLevel": "1"
+}

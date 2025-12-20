@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK",
+  "AbilitySound": "Hero_Ancient_Apparition.ChillingTouchCast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_scepter": "-100%",
+      "value": "12 9 6 3"
+    },
+    "AbilityManaCost": {
+      "special_bonus_scepter": "-40%",
+      "value": "45 50 55 60"
+    },
+    "attack_range_bonus": {
+      "special_bonus_unique_ancient_apparition_7": "+300",
+      "value": "60 90 120 150"
+    },
+    "damage": {
+      "special_bonus_unique_ancient_apparition_2": "+80",
+      "value": "30 60 90 120"
+    },
+    "duration": "3",
+    "frost_stacks": "2",
+    "slow": "100",
+    "slow_duration": "0.7 0.8 0.9 1"
+  },
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

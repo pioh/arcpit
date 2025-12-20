@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE ",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "0.5",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "linger_duration": "5.0",
+    "radius": "600",
+    "speed": "1200"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "0",
+  "ItemKillable": "0",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "MaxLevel": "1"
+}

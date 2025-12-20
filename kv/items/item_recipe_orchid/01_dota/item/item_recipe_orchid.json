@@ -1,0 +1,10 @@
+{
+  "ItemCost": "450",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_oblivion_staff;item_cornucopia"
+  },
+  "ItemResult": "item_orchid",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_ITEM",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "165",
+  "AbilityCooldown": "5.0",
+  "AbilityTextureName": "consumables/seasonal_decorate_tree",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE",
+  "AbilityValues": {
+    "duration": {
+      "value": "300"
+    }
+  },
+  "AssociatedConsumable": "17440",
+  "MaxLevel": "1"
+}

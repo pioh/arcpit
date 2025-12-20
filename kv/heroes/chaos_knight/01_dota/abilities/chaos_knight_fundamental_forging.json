@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "trinket_options_current": "2",
+    "trinket_options_next": "2"
+  },
+  "MaxLevel": "1"
+}

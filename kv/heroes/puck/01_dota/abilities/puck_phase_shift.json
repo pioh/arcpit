@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.01",
+  "AbilityChannelTime": "1 1.75 2.5 3.25",
+  "AbilityManaCost": "0 0 0 0",
+  "AbilitySound": "Hero_Puck.Phase_Shift",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "8 7.5 7 6.5"
+    },
+    "duration": "1 1.75 2.5 3.25",
+    "shard_attack_range_bonus": {
+      "special_bonus_shard": "0"
+    },
+    "shard_bonus_damage": {
+      "special_bonus_shard": "20"
+    }
+  },
+  "HasShardUpgrade": "1"
+}

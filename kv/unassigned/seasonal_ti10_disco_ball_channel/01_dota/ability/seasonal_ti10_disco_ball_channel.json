@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "600",
+  "AbilityChannelTime": "30.0",
+  "AbilityCooldown": "0",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/seasonal_ti10_disco_ball_channel",
+  "AbilityValues": {
+    "duration": {
+      "value": "30"
+    }
+  },
+  "MaxLevel": "1"
+}

@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "550",
+  "AbilityCooldown": "19.0",
+  "AbilityManaCost": "175",
+  "AbilitySharedCooldown": "cyclone",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "bonus_intellect": "35",
+    "bonus_mana_regen": "3.0",
+    "bonus_movement_speed": "30",
+    "cyclone_duration": "2.5",
+    "tooltip_drop_damage": "50",
+    "tornado_speed": "300"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "6800",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "int;regen_mana;move_speed;hard_to_tag;escape;save;disable",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestLategame": "1"
+}

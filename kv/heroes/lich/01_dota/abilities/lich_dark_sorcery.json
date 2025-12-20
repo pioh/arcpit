@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCooldown": "25 20 15 10",
+  "AbilityModifierSupportValue": "0.3",
+  "AbilitySound": "Ability.DarkRitual",
+  "AbilityValues": {
+    "attack_count": "5",
+    "attack_speed": "100",
+    "duration": "15",
+    "health_cost": "20",
+    "mana_drain": "5 6 7 8"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

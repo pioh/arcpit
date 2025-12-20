@@ -1,0 +1,45 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "650",
+  "AbilityManaCost": "60 65 70 75",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "AbilityChargeRestoreTime": {
+      "value": "13 11 9 7"
+    },
+    "AbilityCharges": {
+      "special_bonus_unique_ember_spirit_4": "=2",
+      "value": "0"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_ember_spirit_4": "=0",
+      "value": "13 11 9 7"
+    },
+    "attack_interval": "0.25",
+    "bonus_hero_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "special_bonus_unique_ember_spirit_6": "+50",
+      "value": "25 70 115 160"
+    },
+    "creep_damage_penalty": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "0"
+    },
+    "min_enemies_for_double_sleight": {
+      "special_bonus_facet_ember_spirit_double_impact": "=2",
+      "value": "0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "250 350 450 550"
+    },
+    "second_attack_damage_penalty": {
+      "special_bonus_facet_ember_spirit_double_impact": "=50",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "34.0",
+  "AbilityManaCost": "125",
+  "AbilityValues": {
+    "bonus_agility": "26",
+    "bonus_attack_speed": "15",
+    "bonus_intellect": "10",
+    "bonus_movement_speed": "10",
+    "bonus_strength": "10",
+    "illusion_duration": "18",
+    "images_count": "2",
+    "images_do_damage_percent_melee": "-67",
+    "images_do_damage_percent_ranged": "-72",
+    "images_take_damage_percent": "200",
+    "invuln_duration": "0.1",
+    "tooltip_damage_incoming_total_pct": "300",
+    "tooltip_damage_outgoing_melee": "33",
+    "tooltip_damage_outgoing_ranged": "28",
+    "vision_radius": "1000"
+  },
+  "ItemCost": "4650",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "agi;str;int;attack_speed;move_speed;hard_to_tag;farming",
+  "SuggestLategame": "1"
+}

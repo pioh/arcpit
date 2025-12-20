@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastRange": "425",
+  "AbilityCooldown": "9.0 7.0 5.0 3.0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
+  "AbilityValues": {
+    "bonus_damage": {
+      "special_bonus_unique_weaver_2": "+70",
+      "value": "20 35 50 65"
+    },
+    "delay": {
+      "value": "0.25"
+    },
+    "extra_attack": {
+      "special_bonus_unique_weaver_5": "+1",
+      "value": "1"
+    },
+    "shard_beetle_search_range": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_shard": "1200"
+    }
+  },
+  "IsBreakable": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

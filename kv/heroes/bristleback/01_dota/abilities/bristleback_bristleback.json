@@ -1,0 +1,45 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_SPAWN",
+  "AbilityCastPoint": "0",
+  "AbilitySound": "Hero_Bristleback.Bristleback",
+  "AbilityValues": {
+    "activation_angle": "45",
+    "activation_cooldown": "24",
+    "activation_delay": "0.5",
+    "activation_disable_turning": "1",
+    "activation_ignore_cast_angle": "1",
+    "activation_manacost": "125",
+    "activation_movement_speed_pct": "-40",
+    "activation_num_quill_sprays": "5",
+    "activation_spray_interval": "0.4",
+    "activation_turn_rate": "500",
+    "activation_turn_rate_pct": "-100",
+    "back_angle": "70",
+    "back_damage_reduction": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_unique_bristleback_6": "+8",
+      "value": "16 24 32 40"
+    },
+    "cast_range_bonus": "0",
+    "goo_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_bristleback_snot_rocket": "+750",
+      "value": "0"
+    },
+    "quill_release_interval": ".1",
+    "quill_release_threshold": {
+      "value": "275 250 225 200"
+    },
+    "side_angle": "110",
+    "side_damage_reduction": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_unique_bristleback_6": "+4",
+      "value": "8 12 16 20"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "IsBreakable": "1"
+}

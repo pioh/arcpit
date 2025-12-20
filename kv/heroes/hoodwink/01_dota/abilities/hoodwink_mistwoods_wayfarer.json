@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    },
+    "redirect_chance": "14 21 28 35"
+  },
+  "DependentOnAbility": "hoodwink_sharpshooter",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

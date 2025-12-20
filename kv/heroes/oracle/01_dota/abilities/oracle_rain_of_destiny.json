@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "650",
+  "AbilityCooldown": "40",
+  "AbilityManaCost": "150",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "30"
+    },
+    "duration": "10",
+    "heal_amp": "15",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "650"
+    },
+    "tick_rate": "1.0"
+  },
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

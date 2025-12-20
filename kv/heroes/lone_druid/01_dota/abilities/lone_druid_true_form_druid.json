@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0 0 0",
+  "AbilityCooldown": "0.0 0.0 0.0",
+  "AbilityManaCost": "25 25 25",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "transformation_time": {
+      "value": "1.933"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

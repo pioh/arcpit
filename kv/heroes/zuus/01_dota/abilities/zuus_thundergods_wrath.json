@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.4 0.4 0.4 0.4",
+  "AbilityCooldown": "130",
+  "AbilityDraftExtraAbilities": {
+    "zuus_cloud": "scepter"
+  },
+  "AbilityManaCost": "250 375 500",
+  "AbilitySound": "Hero_Zuus.GodsWrath",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage": {
+      "special_bonus_unique_zeus_4": "+75",
+      "value": "300 475 650"
+    },
+    "grow_kill_amp": {
+      "special_bonus_facet_zuus_divine_rampage": "25",
+      "value": "0"
+    },
+    "growing_delay": {
+      "special_bonus_facet_zuus_divine_rampage": ".2",
+      "value": "0"
+    },
+    "sight_duration": "3.0 3.0 3.0 3.0",
+    "sight_radius_day": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "sight_radius_night": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

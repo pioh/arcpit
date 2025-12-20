@@ -1,0 +1,63 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "1.0",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "100 90 80",
+  "AbilityManaCost": "100",
+  "AbilitySound": "Hero_MonkeyKing.FurArmy",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "attack_speed": "1.1",
+    "bonus_armor": {
+      "value": "15 20 25"
+    },
+    "cast_range": {
+      "special_bonus_unique_monkey_king_6": "+350",
+      "value": "625"
+    },
+    "cast_range_scepter": {
+      "special_bonus_scepter": "1550"
+    },
+    "cooldown_scepter": {
+      "special_bonus_scepter": "90 70 50"
+    },
+    "duration": {
+      "special_bonus_facet_monkey_king_wukongs_faithful": "+3.0",
+      "value": "13"
+    },
+    "first_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    },
+    "leadership_time_buffer": {
+      "special_bonus_facet_monkey_king_wukongs_faithful": "+4.0",
+      "value": "0"
+    },
+    "move_speed": "700",
+    "num_first_soldiers": "5",
+    "num_second_soldiers": "9",
+    "num_third_soldiers": {
+      "special_bonus_unique_monkey_king_6": "=7"
+    },
+    "outer_attack_buffer": "0",
+    "scepter_spawn_duration": {
+      "special_bonus_scepter": "12"
+    },
+    "scepter_spawn_interval": {
+      "special_bonus_scepter": "4"
+    },
+    "second_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "750"
+    },
+    "third_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_monkey_king_6": "=1100"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1"
+}

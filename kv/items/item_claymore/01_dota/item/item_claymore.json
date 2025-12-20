@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_damage": "20"
+  },
+  "ItemCost": "1350",
+  "ItemQuality": "component",
+  "ItemShopTags": "damage"
+}

@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityCastPoint": "0.25",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "60",
+  "AbilityManaCost": "200",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "duration": {
+      "value": "20"
+    },
+    "illusion_damage_in_pct": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "0 0 0"
+    },
+    "illusion_damage_out_pct": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "-50 -50 -50"
+    },
+    "illusion_damage_out_pct_scepter": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "-20"
+    },
+    "illusion_incoming_dmg_pct_tooltip": {
+      "value": "100 100 100"
+    },
+    "tooltip_illusion_damage_out_pct": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "50 50 50"
+    }
+  },
+  "FightRecapLevel": "1",
+  "MaxLevel": "1"
+}

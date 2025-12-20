@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "blade_dance_lifesteal_consumed_tooltip": "15",
+    "lifesteal_flat_tooltip": "5"
+  },
+  "MaxLevel": "1"
+}

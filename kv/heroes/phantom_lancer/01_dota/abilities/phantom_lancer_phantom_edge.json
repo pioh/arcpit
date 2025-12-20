@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilitySound": "Hero_PhantomLancer.PhantomEdge",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "15 11 7 3"
+    },
+    "agility_duration": "0",
+    "bonus_agility": "0",
+    "bonus_speed": "800",
+    "evasion": "20 30 40 50",
+    "illusion_spawn_radius": {
+      "special_bonus_scepter": "125"
+    },
+    "illusion_spawn_travel_distance": {
+      "special_bonus_scepter": "600"
+    },
+    "max_distance": {
+      "special_bonus_scepter": "+625",
+      "value": "600 675 750 825"
+    },
+    "min_distance": "275"
+  },
+  "HasScepterUpgrade": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

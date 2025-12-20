@@ -1,0 +1,46 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.0",
+  "AbilitySound": "Hero_TrollWarlord.WhirlingAxes.Melee",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_scepter": "-5",
+      "value": "9"
+    },
+    "AbilityManacost": {
+      "special_bonus_scepter": "-25",
+      "value": "50"
+    },
+    "axe_movement_speed": "1250",
+    "blind_duration": {
+      "special_bonus_unique_troll_warlord_whirling_axes_debuff_duration": "+2.5",
+      "value": "5"
+    },
+    "blind_pct": "60",
+    "damage": {
+      "special_bonus_unique_troll_warlord_3": "+100",
+      "value": "50 100 150 200"
+    },
+    "hit_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "100"
+    },
+    "max_range": {
+      "affected_by_aoe_increase": "1",
+      "value": "450.0"
+    },
+    "pierces_magic_immunity": {
+      "special_bonus_unique_troll_warlord_6": "+1",
+      "value": "0"
+    },
+    "whirl_duration": "3.0"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "LinkedAbility": "troll_warlord_whirling_axes_ranged",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

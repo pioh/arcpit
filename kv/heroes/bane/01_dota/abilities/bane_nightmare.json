@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "550 600 650 700",
+  "AbilityDuration": "3.5 4.5 5.5 6.5",
+  "AbilityManaCost": "120 130 140 150",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilitySound": "Hero_Bane.Nightmare",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_bane_5": "-3",
+      "value": "25 22 19 16"
+    },
+    "animation_rate": "0.2 0.2 0.2 0.2",
+    "bonus_attack_speed": {
+      "special_bonus_facet_bane_dream_stalker": "40 60 80 100",
+      "value": "0"
+    },
+    "is_vector_targeted": {
+      "special_bonus_facet_bane_sleepwalk": "+1",
+      "value": "0"
+    },
+    "nightmare_invuln_time": "1.0",
+    "turn_rate": "200",
+    "vector_render_distance": "600",
+    "vector_render_radius": "120",
+    "walk_speed": {
+      "special_bonus_facet_bane_sleepwalk": "+110",
+      "value": "0"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_NO"
+}

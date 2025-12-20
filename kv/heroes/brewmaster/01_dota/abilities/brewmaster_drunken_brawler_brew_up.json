@@ -1,0 +1,7 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityCooldown": "9",
+  "AbilityTextureName": "brewmaster_drunken_brawler",
+  "AbilityValues": {},
+  "LinkedAbility": "brewmaster_drunken_brawler"
+}

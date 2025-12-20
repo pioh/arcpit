@@ -1,0 +1,79 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.6",
+  "AbilityCooldown": "11 9 7 5",
+  "AbilityManaCost": "100 110 120 130",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_grimstroke_3": "+70%",
+      "value": "1400"
+    },
+    "bonus_damage_per_creep": {
+      "special_bonus_unique_grimstroke_2": "+80%",
+      "value": "10 20 30 40"
+    },
+    "bonus_damage_per_hero": {
+      "special_bonus_unique_grimstroke_2": "+80%",
+      "value": "20 40 60 80"
+    },
+    "damage": {
+      "special_bonus_unique_grimstroke_2": "+80%",
+      "value": "100 160 220 280"
+    },
+    "end_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "160"
+    },
+    "movement_slow_pct": "50 60 70 80",
+    "projectile_speed": {
+      "special_bonus_unique_grimstroke_3": "+70%",
+      "value": "2000"
+    },
+    "reflected_stroke": {
+      "special_bonus_facet_grimstroke_fine_art": "+1",
+      "value": "0"
+    },
+    "slow_duration": {
+      "value": "1.75"
+    },
+    "start_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "120"
+    },
+    "vector_acceptable_radian_to_snap_velocity": {
+      "value": "0.25"
+    },
+    "vector_deg_turn_divisor": {
+      "value": "1.3"
+    },
+    "vector_deg_turn_max": {
+      "value": "60"
+    },
+    "vector_distance_to_start_force_turning": {
+      "value": "100"
+    },
+    "vector_max_travel_time_multiplier": {
+      "value": "5"
+    },
+    "vector_min_cos_facing_angle": {
+      "value": "-0.99"
+    },
+    "vector_reticle_distance": {
+      "value": "400.0"
+    },
+    "vector_reticle_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "140.0"
+    },
+    "vector_strength": {
+      "value": "0.6"
+    },
+    "vision_duration": "2.0"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

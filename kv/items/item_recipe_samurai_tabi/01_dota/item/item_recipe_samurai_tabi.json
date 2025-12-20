@@ -1,0 +1,11 @@
+{
+  "ItemCost": "1100",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_belt_of_strength;item_boots_of_elves;item_robe;item_ultimate_orb"
+  },
+  "ItemResult": "item_samurai_tabi",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

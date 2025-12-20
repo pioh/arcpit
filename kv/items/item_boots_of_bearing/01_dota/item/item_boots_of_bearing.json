@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCooldown": "30.0",
+  "AbilityValues": {
+    "aura_movement_speed": "20",
+    "bonus_attack_speed_pct": "50",
+    "bonus_health_regen": "18",
+    "bonus_int": "8",
+    "bonus_movement_speed": "65",
+    "bonus_movement_speed_pct": "15",
+    "bonus_ms_duration": "1.5",
+    "bonus_str": "8",
+    "duration": "6",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "4225",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemPermanent": "1",
+  "ItemQuality": "rare",
+  "ItemShopTags": "str;int;damage;move_speed;attack_speed;hard_to_tag;mobility;teamfight",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestLategame": "1"
+}

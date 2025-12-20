@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "attack_projectile_slow": "35 40 45 50",
+    "slow_distance_max": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    }
+  },
+  "DependentOnAbility": "faceless_void_chronosphere",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

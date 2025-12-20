@@ -1,0 +1,9 @@
+{
+  "ItemCost": "450",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_vanguard;item_crown"
+  },
+  "ItemResult": "item_heavens_halberd",
+  "ItemShopTags": ""
+}

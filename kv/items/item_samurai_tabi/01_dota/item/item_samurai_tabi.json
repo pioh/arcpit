@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityValues": {
+    "agi_counter_chance": "20",
+    "agi_counter_cooldown": "4",
+    "base_interval": "0.1",
+    "bonus_all_stats": "10",
+    "bonus_stat_tooltip": "24",
+    "int_damage": "125",
+    "int_damage_interval": "4",
+    "int_damage_range": "700",
+    "int_max_targets": "2",
+    "max_tick_count": "8",
+    "stat_per_tick": "3",
+    "str_bonus_damage": "80",
+    "str_root_chance": "20",
+    "str_root_cooldown": "4",
+    "str_root_duration": "1.0"
+  },
+  "ItemCost": "5250",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemPurchasable": "0",
+  "ItemQuality": "common",
+  "ItemShopTags": "attack_speed;move_speed;int;agi;str;mobility",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestLategame": "1"
+}

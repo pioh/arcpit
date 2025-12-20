@@ -1,0 +1,197 @@
+{
+  "Ability1": "muerta_dead_shot",
+  "Ability10": "special_bonus_unique_muerta_dead_shot_range",
+  "Ability11": "special_bonus_attack_speed_20",
+  "Ability12": "special_bonus_unique_muerta_calling_hp_regen",
+  "Ability13": "special_bonus_unique_muerta_gunslinger_bonus_damage",
+  "Ability14": "special_bonus_unique_muerta_pierce_the_veil_duration",
+  "Ability15": "special_bonus_unique_muerta_the_calling_num_revenants",
+  "Ability16": "special_bonus_unique_muerta_gunslinger_double_shot_chance",
+  "Ability17": "special_bonus_unique_muerta_dead_shot_charges",
+  "Ability2": "muerta_the_calling",
+  "Ability3": "muerta_gunslinger",
+  "Ability4": "generic_hidden",
+  "Ability5": "generic_hidden",
+  "Ability6": "muerta_pierce_the_veil",
+  "Ability7": "muerta_supernatural",
+  "Ability8": "generic_hidden",
+  "Ability9": "generic_hidden",
+  "AbilityDraftAbilities": {
+    "Ability1": "muerta_dead_shot",
+    "Ability2": "muerta_the_calling",
+    "Ability3": "muerta_gunslinger",
+    "Ability4": "muerta_pierce_the_veil"
+  },
+  "Adjectives": {
+    "Blue": "1",
+    "Cape": "1",
+    "Female": "1",
+    "Green": "1",
+    "Undead": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.35",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "32",
+  "AttackDamageMin": "24",
+  "AttackRange": "575",
+  "AttackRate": "1.7",
+  "AttackSpeedActivityModifiers": {
+    "fast": "170",
+    "faster": "250",
+    "fastest": "300"
+  },
+  "AttributeAgilityGain": "2.700000",
+  "AttributeBaseAgility": "21",
+  "AttributeBaseIntelligence": "23",
+  "AttributeBaseStrength": "19",
+  "AttributeIntelligenceGain": "3.6",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.000000",
+  "BanSound": "muerta_muerta_anger_12",
+  "BaseAttackSpeed": "115",
+  "BotImplemented": "0",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "muerta_dance_of_the_dead": {
+      "Color": "Green",
+      "GradientID": "1",
+      "Icon": "spirit"
+    },
+    "muerta_ofrenda": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "4",
+          "AbilityName": "muerta_ofrenda"
+        }
+      },
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "teleport"
+    },
+    "muerta_slingshot": {
+      "Color": "Red",
+      "GradientID": "1",
+      "Icon": "ricochet"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_muerta.vsndevts",
+  "GibTintColor": "95 210 156 255",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HealthBarOffset": "200",
+  "HeroGlowColor": "237 154 15",
+  "HeroID": "138",
+  "HeroOrderID": "124",
+  "HeroPool1": "1",
+  "HeroSelectSoundEffect": "Hero_Muerta.Pick",
+  "HeroUnlockOrder": "0",
+  "IdleExpression": "scenes/muerta/muerta_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "DisplayInLoadout": "1",
+      "LoadoutPreviewMode": "transformation",
+      "MaxPolygonsLOD0": "16000",
+      "MaxPolygonsLOD1": "6400",
+      "SlotIndex": "4",
+      "SlotName": "ability_ultimate",
+      "SlotText": "#LoadoutSlot_Misc",
+      "TextureHeight": "1024",
+      "TextureWidth": "1024",
+      "no_import": "1"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_drow_ranger",
+  "LoadoutScale": "1",
+  "Model": "models/heroes/muerta/muerta_base.vmdl",
+  "ModelScale": "1",
+  "MovementSpeed": "295",
+  "MovementSpeedActivityModifiers": {
+    "run_fast": "400"
+  },
+  "MovementTurnRate": "0.700000",
+  "PickSound": "muerta_muerta_intro_06",
+  "ProjectileModel": "particles/units/heroes/hero_muerta/muerta_base_attack.vpcf",
+  "ProjectileSpeed": "3000",
+  "RandomEnabled": "1",
+  "RenderablePortrait": {},
+  "Role": "Carry,Nuker,Disabler",
+  "Rolelevels": "3,2,1",
+  "SoundSet": "Hero_Muerta",
+  "Team": "Good",
+  "VersusScale": "1",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_muerta.vsndevts",
+  "animation_transitions": {
+    "ACT_DOTA_IDLE": {
+      "regular": "0.50000"
+    },
+    "ACT_DOTA_RUN": {
+      "regular": "0.5000"
+    }
+  },
+  "new_player_enable": "0",
+  "particle_folder": "particles/units/heroes/hero_muerta",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_muerta.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_muerta.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Muerta"
+}

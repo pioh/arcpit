@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.25",
+  "AbilityDamage": "75 150 225 300",
+  "AbilityManaCost": "115",
+  "AbilitySound": "Hero_Morphling.Waveform",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_morphling_1": "+250",
+      "value": "700 800 900 1000"
+    },
+    "AbilityCharges": {
+      "value": "0"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_morphling_waveform_cooldown": "-40%",
+      "value": "21 18 15 12"
+    },
+    "pct_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "special_bonus_facet_morphling_agi": "+50",
+      "special_bonus_unique_morphling_4": "+75",
+      "value": "0"
+    },
+    "process_procs": {
+      "special_bonus_unique_morphling_4": "+1",
+      "value": "0"
+    },
+    "speed": "1250",
+    "width": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

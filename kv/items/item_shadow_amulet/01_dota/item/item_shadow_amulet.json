@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "18.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "fade_duration": "3.5",
+    "fade_time": "1.25",
+    "movement_speed_reduction": "35"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "900",
+  "ItemShopTags": "",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

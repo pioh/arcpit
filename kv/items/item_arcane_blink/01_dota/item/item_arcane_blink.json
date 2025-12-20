@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_OVERSHOOT",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "1400",
+  "AbilityCooldown": "9.0",
+  "AbilityManaCost": "0",
+  "AbilitySharedCooldown": "blink",
+  "AbilityValues": {
+    "blink_damage_cooldown": "3.0",
+    "blink_range": "1400",
+    "blink_range_clamp": "1120",
+    "bonus_intellect": "25",
+    "debuff_amp": "0",
+    "duration": "0",
+    "heal_amount": "250",
+    "mana_amount": "100"
+  },
+  "ItemCost": "6800",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "component",
+  "ItemShopTags": "teleport;mobility;escape;magic_dmg",
+  "SuggestLategame": "1"
+}

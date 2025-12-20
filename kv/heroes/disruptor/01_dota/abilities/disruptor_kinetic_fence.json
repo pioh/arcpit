@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_KINETIC_FIELD",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.05 0.05 0.05 0.05",
+  "AbilityCastRange": "1050 1050 1050 1050",
+  "AbilityCooldown": "0",
+  "AbilityManaCost": "50",
+  "AbilitySound": "Hero_Disruptor.KineticField",
+  "AbilityValues": {
+    "AbilityChargeRestoreTime": {
+      "special_bonus_unique_disruptor_2": "-3",
+      "value": "20 17 14 11"
+    },
+    "AbilityCharges": {
+      "special_bonus_unique_disruptor_5": "+1",
+      "value": "2"
+    },
+    "duration": {
+      "value": "2.6 3.2 3.8 4.4"
+    },
+    "formation_time": {
+      "value": "0.4"
+    },
+    "radius": "350",
+    "wall_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

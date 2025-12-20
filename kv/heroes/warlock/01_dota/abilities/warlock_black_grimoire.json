@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "tooltip_seconds": "420",
+    "tooltip_xp": "200"
+  },
+  "MaxLevel": "1"
+}

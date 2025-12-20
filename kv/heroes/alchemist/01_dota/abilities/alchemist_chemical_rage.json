@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "60.0",
+  "AbilityDraftExtraAbilities": {
+    "alchemist_berserk_potion": "shard"
+  },
+  "AbilityManaCost": "50 75 100",
+  "AbilitySound": "Hero_Alchemist.ChemicalRage.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "base_attack_time": {
+      "special_bonus_unique_alchemist_8": "-0.1",
+      "value": "1.2 1.1 1.0"
+    },
+    "bonus_health": "0",
+    "bonus_health_regen": {
+      "special_bonus_unique_alchemist_4": "+50",
+      "value": "60 90 120"
+    },
+    "bonus_mana_regen": "0",
+    "bonus_movespeed": {
+      "special_bonus_unique_alchemist_6": "+50",
+      "value": "20 30 40"
+    },
+    "duration": "30",
+    "transformation_time": "0.35"
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

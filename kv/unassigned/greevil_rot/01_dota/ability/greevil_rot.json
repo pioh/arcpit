@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastPoint": "0 0 0 0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "customval_damage": {
+      "value": "20"
+    },
+    "rot_radius": {
+      "value": "250"
+    },
+    "rot_slow": {
+      "value": "-20"
+    },
+    "rot_tick": {
+      "value": "0.2"
+    }
+  }
+}

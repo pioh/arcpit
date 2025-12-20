@@ -1,0 +1,62 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityValues": {
+    "bonus_damage_duration": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_unique_underlord_8": "+15",
+      "value": "30 40 50 60"
+    },
+    "bonus_damage_from_creep": {
+      "CalculateSpellDamageTooltip": "0",
+      "special_bonus_unique_underlord_3": "+10%",
+      "value": "2 4 6 8"
+    },
+    "bonus_damage_from_hero": {
+      "CalculateSpellDamageTooltip": "0",
+      "special_bonus_unique_underlord_3": "+10%",
+      "value": "30 35 40 45"
+    },
+    "bonus_shared_by_allies_pct": {
+      "value": "0"
+    },
+    "cleave_angle": {
+      "special_bonus_facet_abyssal_underlord_demons_reach": "+75",
+      "value": "0"
+    },
+    "cleave_damage_pct": {
+      "special_bonus_facet_abyssal_underlord_demons_reach": "+35",
+      "value": "0"
+    },
+    "cleave_distance_base": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_abyssal_underlord_demons_reach": "+100",
+      "value": "0"
+    },
+    "cleave_distance_per_stack": {
+      "special_bonus_facet_abyssal_underlord_demons_reach": "+5",
+      "value": "0"
+    },
+    "cleave_starting_width": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_abyssal_underlord_demons_reach": "+150",
+      "value": "0"
+    },
+    "damage_reduction_pct": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_unique_underlord_3": "+10",
+      "value": "6 14 22 30"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    }
+  },
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES_ENEMIES_NO"
+}

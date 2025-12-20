@@ -1,0 +1,10 @@
+{
+  "ItemCost": "250",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_oblivion_staff;item_chainmail;item_orb_of_venom"
+  },
+  "ItemResult": "item_witch_blade",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

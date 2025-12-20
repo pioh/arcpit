@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_mana_regen": "1 1.5",
+    "cast_range_bonus": "125 135",
+    "mana_reduction_pct": "15"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralPassiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "MaxLevel": "2",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

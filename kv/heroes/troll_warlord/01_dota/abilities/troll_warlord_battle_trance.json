@@ -1,0 +1,47 @@
+{
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.0 0.0 0.0",
+  "AbilityCastRange": "525",
+  "AbilityManaCost": "150",
+  "AbilitySound": "Hero_TrollWarlord.BattleTrance.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "90 80 70"
+    },
+    "attack_speed": "140 170 200",
+    "attack_speed_share_percent": {
+      "special_bonus_facet_troll_warlord_bad_influence": "+50",
+      "value": "0"
+    },
+    "ignore_attack_speed_limit": {
+      "special_bonus_facet_troll_warlord_bad_influence": "+1",
+      "value": "0"
+    },
+    "lifesteal": "40 60 80",
+    "movement_speed": {
+      "value": "25 30 35"
+    },
+    "range": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    },
+    "stack_limit_tooltip": {
+      "special_bonus_facet_troll_warlord_bad_influence": "+12",
+      "value": "0"
+    },
+    "strong_dispel": {
+      "special_bonus_unique_troll_warlord_4": "=1"
+    },
+    "trance_duration": {
+      "special_bonus_unique_troll_warlord_battle_trance_movespeed": "+1.5",
+      "value": "6.5"
+    }
+  },
+  "FightRecapLevel": "2",
+  "MaxLevel": "3",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

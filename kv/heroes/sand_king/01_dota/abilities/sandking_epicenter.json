@@ -1,0 +1,73 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "2.0",
+  "AbilityChannelAnimation": "ACT_DOTA_CHANNEL_ABILITY_4",
+  "AbilityDuration": "6.0",
+  "AbilityManaCost": "150 225 300",
+  "AbilityModifierSupportValue": "0.2",
+  "AbilitySound": "Ability.SandKing_Epicenter",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "120 110 100"
+    },
+    "epicenter_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "special_bonus_shard": "+5",
+      "value": "60 70 80"
+    },
+    "epicenter_pulses": {
+      "special_bonus_unique_sand_king": "+8",
+      "value": "12 16 20"
+    },
+    "epicenter_radius_base": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_sand_king_5": "+75",
+      "value": "500"
+    },
+    "epicenter_radius_increment": {
+      "special_bonus_unique_sand_king_5": "+7",
+      "value": "13"
+    },
+    "epicenter_slow": {
+      "value": "-30 -40 -50"
+    },
+    "epicenter_slow_as": {
+      "value": "-50 -55 -60"
+    },
+    "linger_duration": "3.0",
+    "scepter_explosion_min_dist": {
+      "special_bonus_scepter": "+120"
+    },
+    "scepter_explosion_radius_pct": {
+      "special_bonus_scepter": "+35"
+    },
+    "scepter_explosions_per_pulse": {
+      "special_bonus_scepter": "+3"
+    },
+    "shard_explosions_per_pulse": {
+      "special_bonus_scepter": "+1"
+    },
+    "shard_interval": {
+      "special_bonus_shard": "3"
+    },
+    "shard_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_shard": "425",
+      "special_bonus_unique_sand_king_5": "+100"
+    },
+    "spine_damage_pct": {
+      "special_bonus_scepter": "=50"
+    },
+    "spine_tick_rate": {
+      "special_bonus_scepter": "=0.5"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_agility": "35",
+    "bonus_attack_speed_pct": "20",
+    "bonus_damage": "25",
+    "bonus_evasion": "35"
+  },
+  "ItemCost": "5450",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "agi;damage;evasion;attack_speed;dps;tank",
+  "SuggestLategame": "1"
+}

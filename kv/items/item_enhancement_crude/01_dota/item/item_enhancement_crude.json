@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bat_reduce": "12 18",
+    "health_restoration": "30 40",
+    "intelligence_pct": "-5"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralPassiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "MaxLevel": "2",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

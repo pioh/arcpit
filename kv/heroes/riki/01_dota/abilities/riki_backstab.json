@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityTextureName": "riki_permanent_invisibility",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "bonus_xp_assist": "100",
+    "bonus_xp_kill": "130 260 390",
+    "fade_delay": {
+      "value": "4 3 2"
+    },
+    "invis_movespeed_bonus_percent": {
+      "special_bonus_unique_riki_8": "10"
+    }
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "3",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

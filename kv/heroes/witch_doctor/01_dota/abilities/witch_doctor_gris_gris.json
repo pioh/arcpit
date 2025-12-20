@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "death_gold_lost_reduction_pct_tooltip": "100",
+    "gold_tick_interval_tooltip": "3"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

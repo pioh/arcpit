@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3 0.3 0.3",
+  "AbilityCastRange": "650",
+  "AbilityCooldown": "13 12 11",
+  "AbilityManaCost": "160",
+  "AbilitySound": "Hero_KeeperOfTheLight.ManaLeak.Cast",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "duration": {
+      "value": "5.0 5.5 6.0"
+    },
+    "mana_leak_pct": {
+      "value": "6"
+    },
+    "stun_duration": {
+      "value": "2 2.25 2.5"
+    }
+  },
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

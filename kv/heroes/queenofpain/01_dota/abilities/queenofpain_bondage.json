@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "spell_reflect_pct": "16.0"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

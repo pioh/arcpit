@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "ItemCost": "5800",
+  "ItemQuality": "rare",
+  "ItemShopTags": "int;str;agi;mana_pool;health_pool;hard_to_tag",
+  "Model": "models/props_gameplay/aghanim_scepter.vmdl",
+  "SuggestLategame": "1"
+}

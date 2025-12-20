@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "20",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/seasonal_firecrackers",
+  "AbilityValues": {
+    "linger_duration": {
+      "value": "5"
+    },
+    "radius": {
+      "value": "600"
+    },
+    "speed": {
+      "value": "1200"
+    }
+  },
+  "MaxLevel": "1"
+}

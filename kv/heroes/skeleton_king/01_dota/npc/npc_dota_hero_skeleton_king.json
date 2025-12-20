@@ -1,0 +1,317 @@
+{
+  "Ability1": "skeleton_king_hellfire_blast",
+  "Ability10": "special_bonus_unique_wraith_king_2",
+  "Ability11": "special_bonus_unique_wraith_king_facet_1",
+  "Ability12": "special_bonus_unique_wraith_king_11",
+  "Ability13": "special_bonus_hp_350",
+  "Ability14": "special_bonus_attack_speed_50",
+  "Ability15": "special_bonus_unique_wraith_king_facet_3",
+  "Ability16": "special_bonus_unique_wraith_king_10",
+  "Ability17": "special_bonus_unique_wraith_king_4",
+  "Ability2": "generic_hidden",
+  "Ability3": "skeleton_king_mortal_strike",
+  "Ability4": "skeleton_king_vampiric_spirit",
+  "Ability5": "generic_hidden",
+  "Ability6": "skeleton_king_reincarnation",
+  "AbilityDraftAbilities": {
+    "Ability1": "skeleton_king_hellfire_blast",
+    "Ability2": "skeleton_king_bone_guard,skeleton_king_spectral_blade",
+    "Ability3": "skeleton_king_mortal_strike",
+    "Ability4": "skeleton_king_reincarnation"
+  },
+  "Adjectives": {
+    "Bearded": "1",
+    "Green": "1",
+    "Undead": "1"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.560000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "40",
+  "AttackDamageMin": "38",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "175",
+    "faster": "250",
+    "fastest": "350"
+  },
+  "AttributeAgilityGain": "1.7",
+  "AttributeBaseAgility": "16",
+  "AttributeBaseIntelligence": "16",
+  "AttributeBaseStrength": "22",
+  "AttributeIntelligenceGain": "1.6",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "2.8",
+  "BanSound": "skeleton_king_wraith_anger_04",
+  "Bot": {
+    "Build": {
+      "1": "skeleton_king_hellfire_blast",
+      "2": "",
+      "3": "skeleton_king_hellfire_blast",
+      "4": "skeleton_king_mortal_strike",
+      "5": "skeleton_king_hellfire_blast",
+      "6": "skeleton_king_reincarnation",
+      "7": "skeleton_king_hellfire_blast",
+      "8": "skeleton_king_mortal_strike",
+      "9": "skeleton_king_mortal_strike",
+      "10": "special_bonus_unique_wraith_king_2",
+      "11": "skeleton_king_mortal_strike",
+      "12": "skeleton_king_reincarnation",
+      "13": "",
+      "14": "",
+      "15": "special_bonus_hp_400",
+      "16": "",
+      "17": "",
+      "18": "skeleton_king_reincarnation",
+      "19": "",
+      "20": "special_bonus_attack_speed_60",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_wraith_king_4"
+    },
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "2",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    },
+    "Loadout": {
+      "item_armlet": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_belt_of_strength": "ITEM_EXTENSION",
+      "item_black_king_bar": "ITEM_DERIVED",
+      "item_blade_mail": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_blades_of_attack": "ITEM_CORE",
+      "item_blink": "ITEM_CORE",
+      "item_blitz_knuckles": "ITEM_LUXURY",
+      "item_boots": "ITEM_CORE",
+      "item_branches": [
+        "ITEM_CORE",
+        "ITEM_CORE"
+      ],
+      "item_broadsword": [
+        "ITEM_LUXURY",
+        "ITEM_CORE"
+      ],
+      "item_chainmail": "ITEM_LUXURY",
+      "item_demon_edge": "ITEM_LUXURY",
+      "item_echo_sabre": "ITEM_DERIVED",
+      "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_gloves": [
+        "ITEM_EXTENSION",
+        "ITEM_CORE"
+      ],
+      "item_helm_of_iron_will": "ITEM_CORE",
+      "item_javelin": "ITEM_LUXURY",
+      "item_magic_stick": "ITEM_CORE",
+      "item_magic_wand": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_mithril_hammer": "ITEM_EXTENSION",
+      "item_monkey_king_bar": "ITEM_DERIVED",
+      "item_ogre_axe": [
+        "ITEM_CORE",
+        "ITEM_EXTENSION"
+      ],
+      "item_power_treads": "ITEM_DERIVED",
+      "item_quelling_blade": "ITEM_CORE | ITEM_SELLABLE",
+      "item_recipe_armlet": "ITEM_CORE",
+      "item_recipe_black_king_bar": "ITEM_EXTENSION",
+      "item_recipe_blade_mail": "ITEM_LUXURY",
+      "item_recipe_magic_wand": "ITEM_CORE",
+      "item_recipe_monkey_king_bar": "ITEM_LUXURY",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_void_stone": "ITEM_CORE"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "skeleton_king_facet_bone_guard": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "1",
+          "AbilityName": "skeleton_king_bone_guard",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Yellow",
+      "GradientID": "0",
+      "Icon": "summons"
+    },
+    "skeleton_king_facet_cursed_blade": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "1",
+          "AbilityName": "skeleton_king_spectral_blade",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "damage"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_skeletonking.vsndevts",
+  "GibTintColor": "92 196 128 255",
+  "GibType": "ethereal",
+  "HeroGlowColor": "226 224 36",
+  "HeroID": "42",
+  "HeroOrderID": "52",
+  "HeroPool1": "1",
+  "HeroPool2": "1",
+  "HeroSelectSoundEffect": "Hero_SkeletonKing.Pick",
+  "HeroUnlockOrder": "0",
+  "IdleExpression": "scenes/skeleton_king/skeleton_king_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "GeneratesUnits": {
+        "0": "npc_dota_wraith_king_skeleton_warrior"
+      },
+      "LoadoutPreviewMode": "hero",
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Misc"
+    },
+    "7": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "7",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "skeleton_king_hellfire_blast"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_3",
+      "SlotText": "skeleton_king_mortal_strike"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_2",
+      "SlotText": "skeleton_king_bone_guard"
+    },
+    "11": {
+      "SlotIndex": "11",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_sand_king",
+  "LoadoutScale": "0.940000",
+  "Model": "models/heroes/wraith_king/wraith_king.vmdl",
+  "ModelScale": "0.940000",
+  "MovementSpeed": "310",
+  "MovementSpeedActivityModifiers": {
+    "run": "360",
+    "walk": "0"
+  },
+  "NameAliases": "sk;snk;wk;skeleton;one true king;Ostarion",
+  "PickSound": "skeleton_king_wraith_spawn_01",
+  "ProjectileSpeed": "0",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_skeletonking/wraith_king_new_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Support,Durable,Disabler,Initiator",
+  "Rolelevels": "2,1,3,2,1",
+  "SimilarHeroes": "8,54,18",
+  "SoundSet": "Hero_SkeletonKing",
+  "StatusHealthRegen": "0.5",
+  "Team": "Bad",
+  "VersusScale": "0.94",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_skeleton_king.vsndevts",
+  "animation_transitions": {
+    "ACT_DOTA_IDLE": {
+      "regular": "0.55000"
+    },
+    "ACT_DOTA_RUN": {
+      "regular": "0.300000"
+    }
+  },
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_skeletonking",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_skeleton_king.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_skeleton_king.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_head": "1",
+    "attach_right_hand": "4"
+  },
+  "workshop_guide_name": "Wraith King"
+}

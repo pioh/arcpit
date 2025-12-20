@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "chance_pct": {
+      "value": "10 15 20"
+    },
+    "customval_bonus_damage": {
+      "value": "7 11 15"
+    },
+    "duration": {
+      "value": "1"
+    }
+  }
+}

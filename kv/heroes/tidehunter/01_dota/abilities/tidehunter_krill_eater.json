@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "anchor_smash_radius_base": "-60",
+    "anchor_smash_radius_per_level": "5",
+    "anchor_smash_range_tooltip": {
+      "dynamic_value": "true"
+    },
+    "attack_range_base": "-60",
+    "attack_range_per_level": "5",
+    "attack_range_tooltip": {
+      "dynamic_value": "true"
+    },
+    "health_bar_offset_base": "160",
+    "health_bar_offset_per_level": "5",
+    "model_scale_base": "-25",
+    "model_scale_per_level": "3",
+    "strength_gain_tooltip": "4.1"
+  },
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

@@ -1,0 +1,36 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.05",
+  "AbilityCastRange": "1000",
+  "AbilityCooldown": "40",
+  "AbilityManaCost": "250",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilitySound": "Hero_Invoker.DeafeningBlast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage": "60 127 293 260",
+    "disarm_duration": "2.0 3.25 4.5 5.75",
+    "end_vision_duration": "1.75",
+    "knockback_duration": "0.4 0.74 1.06 1.4",
+    "radial_count": {
+      "special_bonus_unique_invoker_2": "+11",
+      "value": "1"
+    },
+    "radius_end": {
+      "affected_by_aoe_increase": "1",
+      "value": "225"
+    },
+    "radius_start": {
+      "affected_by_aoe_increase": "1",
+      "value": "175"
+    },
+    "travel_distance": "1000",
+    "travel_speed": "1100"
+  },
+  "FightRecapLevel": "1",
+  "HotKeyOverride": "B",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

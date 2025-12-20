@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.05",
+  "AbilityCooldown": "30",
+  "AbilityManaCost": "75",
+  "AbilitySound": "Hero_Invoker.ForgeSpirit",
+  "AbilityValues": {
+    "spirit_armor": "1 2 4 6",
+    "spirit_attack_range": "365 470 580 690",
+    "spirit_attack_speed": {
+      "special_bonus_unique_invoker_11": "+50"
+    },
+    "spirit_count": {
+      "value": "1"
+    },
+    "spirit_damage": "32 49 66 82",
+    "spirit_duration": "30 47 63 80",
+    "spirit_hp": "400 566 733 900",
+    "spirit_mana": "150 233 316 400"
+  },
+  "HotKeyOverride": "F",
+  "MaxLevel": "4",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_agility": "7",
+    "corruption_armor": "-2",
+    "duration": "3.0",
+    "heal_reduction": "16",
+    "slow_melee": "-8",
+    "slow_ranged": "-16"
+  },
+  "ItemCost": "1050",
+  "ItemQuality": "rare",
+  "ItemShopTags": "hard_to_tag",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestEarlygame": "1"
+}

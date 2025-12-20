@@ -1,0 +1,10 @@
+{
+  "ItemCost": "250",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_ring_of_regen"
+  },
+  "ItemResult": "item_headdress",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

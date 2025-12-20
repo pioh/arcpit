@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "agi_bonus_pct_per_stack": "2.0",
+    "linger_duration": "2",
+    "max_stacks": "10",
+    "movement_speed_pct_per_stack": "1",
+    "stack_gain_time": "2.0"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

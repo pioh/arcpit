@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_attack_speed": "60"
+  },
+  "ItemCost": "2000",
+  "ItemQuality": "secret_shop",
+  "ItemShopTags": "attack_speed",
+  "SecretShop": "1"
+}

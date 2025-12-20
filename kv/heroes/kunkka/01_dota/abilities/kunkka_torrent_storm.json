@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "75",
+  "AbilityManaCost": "275",
+  "AbilitySound": "Ability.Torrent",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "torrent_duration": {
+      "special_bonus_scepter": "4.0"
+    },
+    "torrent_interval": {
+      "special_bonus_scepter": "0.25"
+    },
+    "torrent_max_distance": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "1100"
+    },
+    "torrent_min_distance": {
+      "special_bonus_scepter": "115"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "IsGrantedByScepter": "0",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

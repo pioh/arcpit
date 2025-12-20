@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "150",
+  "AbilityCooldown": "6.0",
+  "AbilityDamage": "240",
+  "AbilityDuration": "4.0",
+  "AbilityManaCost": "50",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "cast_animation": {
+      "value": "4"
+    },
+    "movement_slow": {
+      "value": "-55"
+    },
+    "shock_radius": {
+      "value": "385"
+    }
+  }
+}

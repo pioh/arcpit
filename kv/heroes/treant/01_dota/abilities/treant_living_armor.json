@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.3",
+  "AbilityCooldown": "30 25 20 15",
+  "AbilityManaCost": "40 45 50 55",
+  "AbilitySound": "Hero_Treant.LivingArmor.Cast",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
+  "AbilityValues": {
+    "aoe_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_treant_7": "450"
+    },
+    "damage_block_base": {
+      "special_bonus_unique_treant_13": "+20",
+      "value": "100"
+    },
+    "damage_block_loss": "35 30 25 20",
+    "damage_block_threshold": "20",
+    "duration": "12",
+    "heal_per_second": {
+      "special_bonus_unique_treant_8": "+4",
+      "value": "4 7 10 13"
+    },
+    "passive_reset_cd": {
+      "special_bonus_shard": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

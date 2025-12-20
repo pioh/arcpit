@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0 0 0 0",
+  "AbilityCastRange": "1500",
+  "AbilityCooldown": "18",
+  "AbilityManaCost": "105 115 125 135",
+  "AbilitySound": "Hero_Tinker.Heat-Seeking_Missile",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE | DOTA_UNIT_TARGET_FLAG_NO_INVIS | DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "damage": "360",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1500"
+    },
+    "radius_explosion": "0",
+    "speed": "700",
+    "splash_pct": "0",
+    "targets": {
+      "value": "2 2 2 2"
+    }
+  },
+  "FightRecapLevel": "1",
+  "MaxLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

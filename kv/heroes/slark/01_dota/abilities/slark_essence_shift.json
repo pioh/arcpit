@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_FORCE_NO_INNATE_UI",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityValues": {
+    "agi_gain": {
+      "special_bonus_unique_slark_5": "+1",
+      "value": "3"
+    },
+    "duration": {
+      "hero_levelup": "+2.5",
+      "special_bonus_unique_slark_4": "+35",
+      "value": "15"
+    },
+    "max_stacks_per_hero": {
+      "value": "0"
+    },
+    "stat_loss": "1",
+    "steal_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_health": "425",
+    "bonus_mana": "425"
+  },
+  "ItemCost": "3000",
+  "ItemQuality": "epic",
+  "ItemShopTags": "regen_health;regen_mana;health_pool;mana_pool"
+}

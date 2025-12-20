@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityTextureName": "lotus_channel",
+  "AbilityValues": {
+    "first_lotus_pickup_time": "1.5",
+    "min_lotus_pickup_time": "0.3",
+    "pickup_time_reduction_pct": "70",
+    "radius": "350",
+    "think_interval": "0.1"
+  },
+  "MaxLevel": "1"
+}

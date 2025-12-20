@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "15.0",
+  "AbilityManaCost": "25",
+  "AbilitySharedCooldown": "diffusal",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bonus_agility": "15",
+    "bonus_intellect": "10",
+    "damage_per_burn": "1",
+    "feedback_mana_burn": "40",
+    "feedback_mana_burn_illusion_melee": "0",
+    "feedback_mana_burn_illusion_ranged": "0",
+    "purge_rate": "5",
+    "purge_root_duration": "3.0",
+    "purge_slow_duration": "4.0"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "2500",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemPermanent": "1",
+  "ItemQuality": "artifact",
+  "ItemShopTags": "agi;int;unique;hard_to_tag",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestLategame": "1",
+  "UpgradeRecipe": "item_recipe_diffusal_blade",
+  "UpgradesItems": "item_diffusal_blade"
+}

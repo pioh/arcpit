@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET| DOTA_ABILITY_BEHAVIOR_ALT_CASTABLE",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.1 0.1 0.1 0.1",
+  "AbilityCooldown": "23 20 17 14",
+  "AbilityManaCost": "80",
+  "AbilitySound": "Hero_Tusk.FrozenSigil",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": "900",
+    "alt_cast_castrange_pct": "50",
+    "attackdamage_bonus": {
+      "value": "20 50 80 110"
+    },
+    "buff_duration": {
+      "special_bonus_unique_tusk_3": "+2",
+      "value": "6.0"
+    },
+    "max_distance": "1200",
+    "min_distance": "250",
+    "movespeed_bonus": "11 14 17 20",
+    "pull_duration": "0.2"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

@@ -1,0 +1,262 @@
+{
+  "Ability1": "sandking_burrowstrike",
+  "Ability10": "special_bonus_unique_sand_king_3",
+  "Ability11": "special_bonus_unique_sand_king_caustic_finale_radius",
+  "Ability12": "special_bonus_unique_sand_king_2",
+  "Ability13": "special_bonus_unique_sand_king_8",
+  "Ability14": "special_bonus_unique_sand_king_7",
+  "Ability15": "special_bonus_unique_sand_king_5",
+  "Ability16": "special_bonus_unique_sand_king",
+  "Ability17": "special_bonus_unique_sand_king_4",
+  "Ability2": "sandking_sand_storm",
+  "Ability3": "sandking_scorpion_strike",
+  "Ability4": "sandking_caustic_finale",
+  "Ability5": "generic_hidden",
+  "Ability6": "sandking_epicenter",
+  "AbilityDraftAbilities": {
+    "Ability1": "sandking_burrowstrike",
+    "Ability2": "sandking_sand_storm",
+    "Ability3": "sandking_scorpion_strike",
+    "Ability4": "sandking_epicenter"
+  },
+  "AbilityPreview": {
+    "movie": "media/heroes/default",
+    "resource": [
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res"
+    ]
+  },
+  "Adjectives": {
+    "Legs": "6",
+    "Nose": "0"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.530000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "29",
+  "AttackDamageMin": "19",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "2.0",
+  "AttributeBaseAgility": "19",
+  "AttributeBaseIntelligence": "17",
+  "AttributeBaseStrength": "23",
+  "AttributeIntelligenceGain": "2.0",
+  "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+  "AttributeStrengthGain": "2.3",
+  "BanSound": "sandking_skg_anger_06",
+  "BaseAttackSpeed": "110",
+  "Bot": {
+    "Build": {
+      "1": "sandking_burrowstrike",
+      "2": "sandking_sand_storm",
+      "3": "sandking_burrowstrike",
+      "4": "sandking_sand_storm",
+      "5": "sandking_burrowstrike",
+      "6": "sandking_epicenter",
+      "7": "sandking_burrowstrike",
+      "8": "sandking_sand_storm",
+      "9": "sandking_sand_storm",
+      "10": "special_bonus_unique_sand_king_caustic_finale_radius",
+      "11": "sandking_caustic_finale",
+      "12": "sandking_epicenter",
+      "13": "sandking_caustic_finale",
+      "14": "sandking_caustic_finale",
+      "15": "special_bonus_unique_sand_king_2",
+      "16": "sandking_caustic_finale",
+      "17": "",
+      "18": "sandking_epicenter",
+      "19": "",
+      "20": "special_bonus_unique_sand_king_7",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_sand_king_4"
+    },
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_STUN_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "0",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    },
+    "Loadout": {
+      "item_arcane_boots": "ITEM_DERIVED",
+      "item_black_king_bar": "ITEM_DERIVED",
+      "item_blink": "ITEM_CORE",
+      "item_boots": "ITEM_CORE",
+      "item_branches": [
+        "ITEM_CORE | ITEM_SELLABLE",
+        "ITEM_CORE"
+      ],
+      "item_clarity": [
+        "ITEM_CONSUMABLE | ITEM_SELLABLE",
+        "ITEM_CONSUMABLE | ITEM_SELLABLE",
+        "ITEM_CONSUMABLE | ITEM_SELLABLE"
+      ],
+      "item_crown": "ITEM_EXTENSION",
+      "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_helm_of_iron_will": "ITEM_EXTENSION",
+      "item_mithril_hammer": "ITEM_LUXURY",
+      "item_ogre_axe": "ITEM_LUXURY",
+      "item_platemail": "ITEM_LUXURY",
+      "item_recipe_arcane_boots": "ITEM_EXTENSION",
+      "item_recipe_black_king_bar": "ITEM_LUXURY",
+      "item_recipe_ring_of_basilius": "ITEM_EXTENSION",
+      "item_recipe_shivas_guard": "ITEM_LUXURY",
+      "item_recipe_veil_of_discord": "ITEM_EXTENSION",
+      "item_ring_of_basilius": "ITEM_DERIVED",
+      "item_shivas_guard": "ITEM_DERIVED",
+      "item_sobi_mask": "ITEM_CORE",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_veil_of_discord": "ITEM_DERIVED"
+    }
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "sand_king_dust_devil": {
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "1",
+      "Icon": "speed"
+    },
+    "sand_king_obscurity": {
+      "Color": "Yellow",
+      "GradientID": "3",
+      "Icon": "no_vision"
+    },
+    "sand_king_pinpoint": {
+      "Color": "Red",
+      "GradientID": "1",
+      "Icon": "area_of_effect"
+    },
+    "sand_king_sandshroud": {
+      "Color": "Gray",
+      "Deprecated": "true",
+      "GradientID": "3",
+      "Icon": "vision"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_sandking.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "216 174 46",
+  "HeroID": "16",
+  "HeroOrderID": "16",
+  "HeroSelectSoundEffect": "Hero_Sandking.Pick",
+  "HeroUnlockOrder": "1",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "body_head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "4500",
+      "MaxPolygonsLOD1": "1800",
+      "SlotIndex": "1",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "legs",
+      "SlotText": "#LoadoutSlot_Legs",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "4",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_3",
+      "SlotText": "sandking_caustic_finale"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_1",
+      "SlotText": "sandking_burrowstrike"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_skeleton_king",
+  "Model": "models/heroes/sand_king/sand_king.vmdl",
+  "ModelScale": "0.840000",
+  "MovementSpeed": "290",
+  "NameAliases": "sk;Crixalis",
+  "PickSound": "sandking_skg_spawn_02",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_sandking/sandking_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Initiator,Disabler,Support,Nuker,Escape",
+  "Rolelevels": "3,2,1,2,2",
+  "SimilarHeroes": "7,2,96",
+  "SoundSet": "Hero_SandKing",
+  "SpectatorLoadoutScale": "0.94",
+  "Team": "Bad",
+  "VersusScale": "0.840000",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_sandking.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_sandking",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_sand_king.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_sand_king.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_hand2": "3",
+    "attach_head": "4",
+    "attach_tail": "1"
+  },
+  "workshop_guide_name": "Sand King"
+}

@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "30.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "bonus_aoe": "0",
+    "bonus_health": "450",
+    "bonus_mana": "450",
+    "bonus_mp_regen": "3",
+    "buff_duration": "5",
+    "hp_cost": "0",
+    "lifesteal_multiplier": "3",
+    "spell_lifesteal": "25"
+  },
+  "AllowedInBackpack": "1",
+  "FightRecapLevel": "2",
+  "ItemCost": "4350",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "regen_health;regen_mana;mana_pool;health_pool;tank",
+  "SuggestLategame": "1"
+}

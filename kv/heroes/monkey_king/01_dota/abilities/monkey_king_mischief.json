@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0",
+  "AbilityCooldown": "24 20 16 12",
+  "AbilityManaCost": "0 0 0 0",
+  "AbilitySound": "Hero_MonkeyKing.Transform.On",
+  "AbilityValues": {
+    "invul_duration": {
+      "value": "0.1"
+    },
+    "movespeed": "8",
+    "reveal_radius": "200"
+  },
+  "DependentOnAbility": "monkey_king_wukongs_command",
+  "FightRecapLevel": "2",
+  "Innate": "1",
+  "MaxLevel": "4"
+}

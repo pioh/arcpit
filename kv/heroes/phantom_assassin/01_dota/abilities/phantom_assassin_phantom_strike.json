@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.25",
+  "AbilityChargeRestoreTime": "21 18 15 12",
+  "AbilityCharges": "2",
+  "AbilityCooldown": "0.1",
+  "AbilityManaCost": "35 40 45 50",
+  "AbilitySound": "Hero_PhantomAssassin.Strike.Start",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_phantom_assassin_6": "+200",
+      "value": "650 750 850 950"
+    },
+    "bonus_attack_speed": {
+      "special_bonus_unique_phantom_assassin_strike_aspd": "+60",
+      "value": "100 130 160 190"
+    },
+    "creep_lifesteal_penalty": "40",
+    "duration": {
+      "special_bonus_unique_phantom_assassin_4": "+0.5",
+      "value": "2.5"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

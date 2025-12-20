@@ -1,0 +1,52 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_INVISIBLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCooldown": "0",
+  "AbilityDraftExtraAbilities": {
+    "brewmaster_primal_companion": "scepter"
+  },
+  "AbilityManaCost": "0",
+  "AbilitySound": "Hero_Brewmaster.Brawler.Crit",
+  "AbilityValues": {
+    "attack_speed": {
+      "special_bonus_unique_brewmaster_drunken_brawler_stance_bonus": "+50%",
+      "value": "10 20 30 40"
+    },
+    "bonus_armor": {
+      "special_bonus_unique_brewmaster_drunken_brawler_stance_bonus": "+50%",
+      "value": "2 4 6 8"
+    },
+    "bonus_move_speed": {
+      "special_bonus_unique_brewmaster_drunken_brawler_stance_bonus": "+50%",
+      "value": "4 6 8 10"
+    },
+    "brewed_up_bonus": "150",
+    "brewed_up_duration": {
+      "special_bonus_unique_brewmaster_brewed_up_duration": "+1",
+      "value": "5"
+    },
+    "brewed_up_duration_extend": {
+      "special_bonus_unique_brewmaster_brewed_up_duration": "+1",
+      "value": "1"
+    },
+    "crit_chance": "20",
+    "crit_multiplier": {
+      "special_bonus_unique_brewmaster_drunken_brawler_stance_bonus": "+50%",
+      "value": "120 140 160 180"
+    },
+    "dodge_chance": {
+      "special_bonus_unique_brewmaster_drunken_brawler_stance_bonus": "+50%",
+      "value": "15 20 25 30"
+    },
+    "hangover_time": "9",
+    "magic_resist": {
+      "special_bonus_unique_brewmaster_drunken_brawler_stance_bonus": "+50%",
+      "value": "8 12 16 20"
+    },
+    "stance_multiplier_tooltip": {
+      "special_bonus_unique_brewmaster_drunken_brawler_stance_bonus": "1.5"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

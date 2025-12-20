@@ -1,0 +1,212 @@
+{
+  "Ability1": "phantom_lancer_spirit_lance",
+  "Ability10": "special_bonus_unique_phantom_lancer_lance_slow_duration",
+  "Ability11": "special_bonus_unique_phantom_lancer_juxtapose_illusio_proc_chance",
+  "Ability12": "special_bonus_unique_phantom_lancer_illusion_lances",
+  "Ability13": "special_bonus_unique_phantom_lancer_doppelwalk_cast_range",
+  "Ability14": "special_bonus_unique_phantom_lancer_lance_damage",
+  "Ability15": "special_bonus_unique_phantom_lancer_juxtapose_damage_in",
+  "Ability16": "special_bonus_unique_phantom_lancer_4",
+  "Ability17": "special_bonus_unique_phantom_lancer_illusory_armaments_duration",
+  "Ability2": "phantom_lancer_doppelwalk",
+  "Ability3": "phantom_lancer_phantom_edge",
+  "Ability4": "phantom_lancer_illusory_armaments",
+  "Ability5": "generic_hidden",
+  "Ability6": "phantom_lancer_juxtapose",
+  "AbilityDraftAbilities": {
+    "Ability1": "phantom_lancer_spirit_lance",
+    "Ability2": "phantom_lancer_doppelwalk",
+    "Ability3": "phantom_lancer_phantom_edge",
+    "Ability4": "phantom_lancer_juxtapose"
+  },
+  "Adjectives": {
+    "Bearded": "1",
+    "Blue": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "36",
+  "AttackDamageMin": "26",
+  "AttackRange": "225",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "3.4",
+  "AttributeBaseAgility": "26",
+  "AttributeBaseIntelligence": "21",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "1.800000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.200000",
+  "BanSound": "phantom_lancer_plance_anger_06",
+  "BaseAttackSpeed": "110",
+  "Bot": {
+    "HeroType": "DOTA_BOT_PUSH_SUPPORT | DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "2",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_SMALL",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "phantom_lancer_convergence": {
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "illusion"
+    },
+    "phantom_lancer_divergence": {
+      "Color": "Blue",
+      "Deprecated": "true",
+      "GradientID": "2",
+      "Icon": "summons"
+    },
+    "phantom_lancer_lancelot": {
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "1",
+      "Icon": "phantom_lance"
+    },
+    "phantom_lancer_lancer": {
+      "Color": "Yellow",
+      "GradientID": "2",
+      "Icon": "phantom_lance"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_phantom_lancer.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HeroID": "12",
+  "HeroOrderID": "75",
+  "HeroSelectSoundEffect": "Hero_PhantomLancer.Pick",
+  "HeroUnlockOrder": "2",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "2",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "4",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "body_head",
+      "SlotText": "#LoadoutSlot_Head"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_1",
+      "SlotText": "phantom_lancer_spirit_lance"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_2",
+      "SlotText": "phantom_lancer_doppelwalk"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_3",
+      "SlotText": "phantom_lancer_phantom_edge"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_4",
+      "SlotText": "phantom_lancer_juxtapose"
+    },
+    "11": {
+      "SlotIndex": "11",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_juggernaut",
+  "LoadoutScale": "0.840000",
+  "Model": "models/heroes/phantom_lancer/phantom_lancer.vmdl",
+  "ModelScale": "0.840000",
+  "MovementSpeed": "285",
+  "NameAliases": "pl;Azwraith",
+  "PickSound": "phantom_lancer_plance_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_phantom_lancer/phantom_lancer_spawn.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Escape,Pusher,Nuker",
+  "Rolelevels": "2,2,1,1",
+  "SimilarHeroes": "109,67,89",
+  "SoundSet": "Hero_PhantomLancer",
+  "StatusHealthRegen": "2.0",
+  "Team": "Good",
+  "VersusScale": "0.840000",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_phantom_lancer.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_phantom_lancer",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_phantom_lancer.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_phantom_lancer.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_hand1": "1",
+    "attach_hand2": "2",
+    "attach_head": "3"
+  },
+  "workshop_guide_name": "Phantom Lancer"
+}

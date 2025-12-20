@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_6",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "2400",
+  "AbilityChargeRestoreTime": "17",
+  "AbilityCharges": "1 2 3 4",
+  "AbilityCooldown": "1",
+  "AbilityManaCost": "80",
+  "AbilitySound": "Hero_Ringmaster.Impalement.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "bleed_creep_dps": "100",
+    "bleed_duration": {
+      "special_bonus_unique_ringmaster_dagger_bleed_and_slow_duration": "+1",
+      "value": "4"
+    },
+    "bleed_health_pct": "3.5 4 4.5 5.0",
+    "dagger_pass_through": {
+      "special_bonus_unique_ringmaster_dagger_penetrates": "+1",
+      "value": "0"
+    },
+    "dagger_speed": "1350",
+    "dagger_vision": "200",
+    "dagger_width": "130",
+    "damage_impact": {
+      "special_bonus_unique_ringmaster_dagger_impact_damage": "+75",
+      "value": "50"
+    },
+    "slow_duration": {
+      "special_bonus_unique_ringmaster_dagger_bleed_and_slow_duration": "+1",
+      "value": "0.8"
+    },
+    "slow_percent": "100",
+    "tick_interval": "1.0"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

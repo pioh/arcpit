@@ -1,0 +1,191 @@
+{
+  "Ability1": "treant_natures_grasp",
+  "Ability10": "special_bonus_unique_treant_8",
+  "Ability11": "special_bonus_attack_base_damage_50",
+  "Ability12": "special_bonus_unique_treant_3",
+  "Ability13": "special_bonus_unique_treant_9",
+  "Ability14": "special_bonus_unique_treant_13",
+  "Ability15": "special_bonus_unique_treant_2",
+  "Ability16": "special_bonus_unique_treant_14",
+  "Ability17": "special_bonus_unique_treant_7",
+  "Ability2": "treant_leech_seed",
+  "Ability3": "treant_living_armor",
+  "Ability4": "treant_eyes_in_the_forest",
+  "Ability5": "treant_natures_guise",
+  "Ability6": "treant_overgrowth",
+  "AbilityDraftAbilities": {
+    "Ability1": "treant_natures_grasp",
+    "Ability2": "treant_leech_seed",
+    "Ability3": "treant_living_armor",
+    "Ability4": "treant_overgrowth"
+  },
+  "Adjectives": {
+    "Green": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.600000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "68",
+  "AttackDamageMin": "60",
+  "AttackRange": "150",
+  "AttackRate": "1.900000",
+  "AttributeAgilityGain": "1.8000000",
+  "AttributeBaseAgility": "15",
+  "AttributeBaseIntelligence": "20",
+  "AttributeBaseStrength": "25",
+  "AttributeIntelligenceGain": "1.800000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.400000",
+  "BanSound": "treant_treant_anger_11",
+  "Bot": {
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_PURE_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "0",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "treant_primeval_power": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "treant_innate_attack_damage"
+        }
+      },
+      "Color": "Yellow",
+      "Deprecated": "1",
+      "GradientID": "2",
+      "Icon": "damage"
+    },
+    "treant_sapling": {
+      "Color": "Green",
+      "Deprecated": "1",
+      "GradientID": "2",
+      "Icon": "tree"
+    },
+    "treant_treant": {
+      "Color": "Green",
+      "GradientID": "2",
+      "Icon": "tree"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_treant.vsndevts",
+  "GibTintColor": "0 255 182 255",
+  "GibType": "wood",
+  "HeroID": "83",
+  "HeroOrderID": "76",
+  "HeroSelectSoundEffect": "Hero_Treant.Pick",
+  "ItemSlots": {
+    "0": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "4",
+      "SlotName": "legs",
+      "SlotText": "#LoadoutSlot_Legs",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_3",
+      "SlotText": "treant_living_armor"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_4",
+      "SlotText": "treant_overgrowth"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_tiny",
+  "LoadoutScale": "0.84",
+  "Model": "models/heroes/treant_protector/treant_protector.vmdl",
+  "ModelScale": "0.840000",
+  "MovementSpeed": "280",
+  "PickSound": "treant_treant_spawn_02",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_treant/treant_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Support,Initiator,Durable,Disabler,Escape",
+  "Rolelevels": "3,2,1,1,1",
+  "SimilarHeroes": "85,103,105",
+  "SoundSet": "Hero_Treant",
+  "StatusManaRegen": "0.25",
+  "Team": "Good",
+  "VersusScale": "0.84",
+  "VisionDaytimeRange": "1800",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_treant.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_treant",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_treant.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_treant.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_face": "1",
+    "attach_hand_l": "2",
+    "attach_hand_r": "3"
+  },
+  "workshop_guide_name": "Treant Protector"
+}

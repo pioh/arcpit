@@ -1,0 +1,36 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "625",
+  "AbilityCooldown": "30 27 24 21",
+  "AbilityManaCost": "65 85 105 125",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilitySound": "Ability.Torrent",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "damage": "30 70 110 150",
+    "damage_interval": ".2",
+    "damage_pers": "100",
+    "delay": "1",
+    "duration": "0.8 1.2 1.6 2.0",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_medusa_gorgons_grasp_radius": "+20%",
+      "value": "150"
+    },
+    "radius_grow": {
+      "special_bonus_unique_medusa_gorgons_grasp_radius": "+20%",
+      "value": "50"
+    },
+    "volley_count": {
+      "special_bonus_unique_medusa_gorgons_grasp_volleys": "1",
+      "value": "3"
+    },
+    "volley_interval": ".25",
+    "volley_spread_pct": "170"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

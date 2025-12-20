@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "30.0",
+  "AbilityManacost": "50",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "barrier_block": "375",
+    "bonus_health": "300",
+    "bonus_spell_resist": "22",
+    "duration": "12.0",
+    "movement_speed": "20",
+    "tooltip_resist": "22"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "2275",
+  "ItemPurchasable": "0",
+  "ItemQuality": "common",
+  "ItemShopTags": "regen_health;magic_resist",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+  "SuggestLategame": "1"
+}

@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityValues": {
+    "bonus_spell_damage": {
+      "value": "0"
+    },
+    "fiery_soul_attack_speed_bonus": {
+      "special_bonus_unique_lina_2": "+10",
+      "value": "8 16 24 32"
+    },
+    "fiery_soul_magic_resist": {
+      "special_bonus_unique_lina_4": "+5"
+    },
+    "fiery_soul_max_stacks": "7",
+    "fiery_soul_move_speed_bonus": {
+      "special_bonus_unique_lina_2": "+1",
+      "value": "1.0 1.5 2 2.5"
+    },
+    "fiery_soul_stack_duration": "18",
+    "target_crit_debuff_duration": {
+      "special_bonus_unique_lina_crit_debuff": "3.0",
+      "value": "0"
+    },
+    "target_crit_multiplier": {
+      "special_bonus_unique_lina_crit_debuff": "+150",
+      "value": "0"
+    }
+  },
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

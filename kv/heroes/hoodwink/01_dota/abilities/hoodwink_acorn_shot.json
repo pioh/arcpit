@@ -1,0 +1,46 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_ALT_CASTABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "575",
+  "AbilityCooldown": "16 14 12 10",
+  "AbilityManaCost": "70 80 90 100",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "AbilityCharges": {
+      "special_bonus_unique_hoodwink_acorn_shot_charges": "2"
+    },
+    "acorn_shot_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "45 90 135 180"
+    },
+    "base_damage_pct": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "80"
+    },
+    "bonus_range": "100",
+    "bounce_count": {
+      "special_bonus_unique_hoodwink_acorn_shot_bounces": "+1",
+      "value": "2 3 4 5"
+    },
+    "bounce_delay": "0.1",
+    "bounce_range": {
+      "affected_by_aoe_increase": "1",
+      "value": "525"
+    },
+    "bounces_after_tree_bounce": {
+      "special_bonus_facet_hoodwink_treebounce_trickshot": "+1",
+      "value": "0"
+    },
+    "can_bounce_off_of_trees": {
+      "special_bonus_facet_hoodwink_treebounce_trickshot": "+1",
+      "value": "0"
+    },
+    "debuff_duration": "0.3",
+    "projectile_speed": "2200",
+    "slow": "100"
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

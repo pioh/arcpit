@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "attack_range_min": "400",
+    "attack_range_per_damage": "40 30 20 10",
+    "damage_per_ten_attack_range_tooltip": "0.25 0.33 0.5 1.0"
+  },
+  "DependentOnAbility": "winter_wyvern_winters_curse",
+  "IsBreakable": "1",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

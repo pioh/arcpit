@@ -1,0 +1,191 @@
+{
+  "Ability1": "obsidian_destroyer_arcane_orb",
+  "Ability10": "special_bonus_unique_outworld_devourer_astral_castrange",
+  "Ability11": "special_bonus_mp_200",
+  "Ability12": "special_bonus_unique_outworld_devourer_2",
+  "Ability13": "special_bonus_unique_outworld_devourer_3",
+  "Ability14": "special_bonus_hp_450",
+  "Ability15": "special_bonus_unique_outworld_devourer_4",
+  "Ability16": "special_bonus_unique_outworld_devourer",
+  "Ability17": "special_bonus_unique_outworld_devourer_5",
+  "Ability2": "obsidian_destroyer_astral_imprisonment",
+  "Ability3": "obsidian_destroyer_equilibrium",
+  "Ability4": "generic_hidden",
+  "Ability5": "obsidian_destroyer_ominous_discernment",
+  "Ability6": "obsidian_destroyer_sanity_eclipse",
+  "AbilityDraftAbilities": {
+    "Ability1": "obsidian_destroyer_arcane_orb",
+    "Ability2": "obsidian_destroyer_astral_imprisonment",
+    "Ability3": "obsidian_destroyer_equilibrium",
+    "Ability4": "obsidian_destroyer_sanity_eclipse"
+  },
+  "Adjectives": {
+    "Arachnophobic": "1",
+    "Flying": "1",
+    "Green": "1",
+    "Legs": "4",
+    "Nose": "0",
+    "Wings": "1"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.460000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "31",
+  "AttackDamageMin": "19",
+  "AttackRange": "450",
+  "AttackRate": "1.900000",
+  "AttributeAgilityGain": "1.60000",
+  "AttributeBaseAgility": "22",
+  "AttributeBaseIntelligence": "30",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "4.200000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.90000",
+  "BanSound": "outworld_destroyer_odest_anger_02",
+  "Bot": {
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "0",
+      "SoloDesire": "2",
+      "SurvivalRating": "1"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "obsidian_destroyer_obsidian_decimator": {
+      "Color": "Blue",
+      "GradientID": "0",
+      "Icon": "mana"
+    },
+    "obsidian_destroyer_overwhelming_devourer": {
+      "Color": "Blue",
+      "GradientID": "2",
+      "Icon": "healing"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_obsidian_destroyer.vsndevts",
+  "GibTintColor": "37 18 13 255",
+  "GibType": "ethereal",
+  "HealthBarOffset": "300",
+  "HeroID": "76",
+  "HeroOrderID": "69",
+  "HeroSelectSoundEffect": "Hero_OD.Pick",
+  "HeroUnlockOrder": "2",
+  "IdleExpression": "scenes/outworld_destroyer/outworld_destroyer_exp_idle_01.vcd",
+  "IdleSoundLoop": "Hero_ObsidianDestroyer.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Wings",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "3",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "SlotIndex": "4",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "body_head",
+      "SlotText": "#LoadoutSlot_Head"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_2",
+      "SlotText": "obsidian_destroyer_astral_imprisonment"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_4",
+      "SlotText": "obsidian_destroyer_sanity_eclipse"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_death_prophet",
+  "Model": "models/heroes/obsidian_destroyer/obsidian_destroyer.vmdl",
+  "ModelScale": "0.700000",
+  "MovementSpeed": "315",
+  "NameAliases": "od;Harbinger",
+  "PickSound": "outworld_destroyer_odest_spawn_02",
+  "ProjectileModel": "particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_base_attack.vpcf",
+  "ProjectileSpeed": "900",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_obsidian_destroyer/obsidian_destroyer_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Nuker,Disabler",
+  "Rolelevels": "2,2,1",
+  "SimilarHeroes": "79,36,43",
+  "SoundSet": "Hero_ObsidianDestroyer",
+  "StatusHealthRegen": "1",
+  "Team": "Bad",
+  "VersusScale": "0.70",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_outworld_destroyer.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_obsidian_destroyer",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_obsidian_destroyer.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_obsidian_destroyer.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_foot_l": "3",
+    "attach_foot_r": "4",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Outworld Devourer"
+}

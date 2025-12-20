@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "100",
+  "AbilityValues": {
+    "die_time": "20",
+    "madstone_primary": "2 3",
+    "madstone_secondary": "1 2",
+    "turbo_madstone_primary": "3 4",
+    "turbo_madstone_secondary": "2 3"
+  },
+  "AutoPickup": "1",
+  "ItemCastOnPickup": "1",
+  "ItemCost": "0",
+  "ItemInitialCharges": "1",
+  "ItemKillable": "0",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "consumable",
+  "ItemStackable": "1",
+  "Model": "models/props_gameplay/crystal_shards/crystal_shards.vmdl"
+}

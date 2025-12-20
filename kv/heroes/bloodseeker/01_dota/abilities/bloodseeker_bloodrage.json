@@ -1,0 +1,58 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCooldown": "14 12 10 8",
+  "AbilityManaCost": "0",
+  "AbilityModifierSupportValue": "0.1",
+  "AbilitySound": "hero_bloodseeker.bloodRage",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_facet_bloodseeker_old_blood": "=400",
+      "value": "800"
+    },
+    "AbilityManaCost": {
+      "special_bonus_facet_bloodseeker_old_blood": "=60",
+      "value": "0"
+    },
+    "attack_speed": {
+      "special_bonus_unique_bloodseeker_5": "+30",
+      "value": "60 90 120 150"
+    },
+    "base_damage_amp": {
+      "special_bonus_facet_bloodseeker_old_blood": "=15 =20 =25 =30"
+    },
+    "can_silence": {
+      "special_bonus_facet_bloodseeker_old_blood": "1"
+    },
+    "damage_pct": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_PURE",
+      "special_bonus_unique_bloodseeker": "-0.7",
+      "value": "1.4"
+    },
+    "damage_pct_enemies": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_PURE",
+      "value": "1.4"
+    },
+    "duration": "8",
+    "enemy_castpoint": "0.3",
+    "max_health_dmg_pct": {
+      "special_bonus_shard": "+2",
+      "value": "0"
+    },
+    "spell_amp": {
+      "special_bonus_facet_bloodseeker_old_blood": "=0",
+      "value": "15 20 25 30"
+    },
+    "thirst_threshold_bonus": {
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

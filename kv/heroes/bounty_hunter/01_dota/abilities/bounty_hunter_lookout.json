@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "1800",
+  "AbilityCooldown": "18.0",
+  "AbilityManaCost": "30",
+  "AbilitySound": "Hero_TemplarAssassin.Trap",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "lookout_fade_time": "2.25",
+    "max_lookouts": "4",
+    "radius": "150"
+  },
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

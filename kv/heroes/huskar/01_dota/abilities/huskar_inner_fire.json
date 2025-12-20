@@ -1,0 +1,44 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.35",
+  "AbilityCastRange": "500",
+  "AbilityModifierSupportValue": "0.0",
+  "AbilitySound": "Hero_Huskar.Inner_Vitality",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_shard": "-3",
+      "value": "17 15 13 11"
+    },
+    "creep_damage_heal_pct": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_shard": "+10"
+    },
+    "damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "105 170 235 300"
+    },
+    "disarm_duration": {
+      "special_bonus_unique_huskar_3": "+0.75",
+      "value": "1.5 2 2.5 3"
+    },
+    "health_cost": "75 100 125 150",
+    "hero_damage_heal_pct": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_shard": "+50"
+    },
+    "knockback_distance": "400",
+    "knockback_duration": "1",
+    "movement_slow_pct": {
+      "special_bonus_shard": "+50"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

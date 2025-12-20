@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilitySound": "Hero_Meepo.Geostrike",
+  "AbilityValues": {
+    "attack_dmg_per_stack": "2 2.5 3 3.5",
+    "debuff_duration": "4.0",
+    "max_stacks": "7 10 13 16",
+    "one_tooltip": "1",
+    "slow_per_stack": "2 2.5 3 3.5",
+    "stacks_per_attack": "2"
+  },
+  "IsBreakable": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

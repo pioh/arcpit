@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_4",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCooldown": "5",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_facet_disruptor_conduit": "=600"
+    },
+    "AbilityManaCost": {
+      "special_bonus_facet_disruptor_conduit": "=50"
+    },
+    "current_hp_as_damage": {
+      "special_bonus_facet_disruptor_conduit": "=10"
+    },
+    "damage_reset_interval": "7",
+    "damage_threshold": "250",
+    "effect_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_disruptor_7": "+150",
+      "value": "400"
+    },
+    "knockback": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_disruptor_7": "+150",
+      "value": "300"
+    },
+    "knockback_duration": ".2",
+    "manual_cooldown": {
+      "special_bonus_facet_disruptor_conduit": "26 20 14 8"
+    },
+    "max_level": {
+      "special_bonus_facet_disruptor_conduit": "=4",
+      "value": "1"
+    }
+  },
+  "DependentOnAbility": "disruptor_static_storm",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "RestrictValuesToMaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

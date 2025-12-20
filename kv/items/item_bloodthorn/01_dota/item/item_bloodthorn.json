@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "15.0",
+  "AbilityManaCost": "125",
+  "AbilitySharedCooldown": "orchid",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bonus_attack_speed": "95",
+    "bonus_damage": "10",
+    "bonus_health_regen": "6.5",
+    "bonus_intellect": "10",
+    "bonus_mana_regen": "3.25",
+    "duration": "6",
+    "passive_proc_damage": "60",
+    "proc_chance": "40",
+    "proc_damage_creeps": "25",
+    "proc_damage_heroes": "50",
+    "silence_damage_percent": "60",
+    "silence_duration": "5",
+    "spell_amp_debuff": "35"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "6625",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "int;attack_speed;damage;regen_mana;damage;hard_to_tag;dps;disable",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestLategame": "1"
+}

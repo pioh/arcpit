@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityValues": {
+    "bonus_magical_armor": {
+      "value": "10 12 14 16"
+    },
+    "bonus_magical_armor_creeps": {
+      "value": "20 24 28 32"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

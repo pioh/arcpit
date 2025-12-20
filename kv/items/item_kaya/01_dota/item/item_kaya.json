@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_intellect": "16",
+    "mana_regen_multiplier": "40",
+    "spell_amp": "10"
+  },
+  "ItemCost": "2100",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH",
+  "ItemQuality": "epic",
+  "ItemShopTags": "int;mana;magic_dmg",
+  "SuggestLategame": "1"
+}

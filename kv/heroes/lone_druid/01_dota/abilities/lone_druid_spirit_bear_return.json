@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "AbilityChannelTime": {
+      "special_bonus_unique_lone_druid_spirit_bear_return_cd": "-0.5",
+      "value": "3.0"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_lone_druid_spirit_bear_return_cd": "=0.2",
+      "value": "30.0"
+    },
+    "channel_tooltip": {
+      "special_bonus_unique_lone_druid_spirit_bear_return_cd": "-1.0",
+      "value": "3"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "MaxLevel": "1"
+}

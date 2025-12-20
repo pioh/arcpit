@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "aoe_bonus": {
+      "special_bonus_facet_rubick_arcane_accumulation": "+25",
+      "value": "0"
+    },
+    "aoe_bonus_duration": {
+      "special_bonus_facet_rubick_arcane_accumulation": "+20",
+      "value": "0"
+    },
+    "cast_range": "60 120 180 240",
+    "spell_amp": "11 16 21 26"
+  },
+  "IsBreakable": "1"
+}

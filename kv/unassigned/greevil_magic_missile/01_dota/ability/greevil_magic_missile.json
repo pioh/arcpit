@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "500",
+  "AbilityCooldown": "6.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "customval_damage": {
+      "value": "35 45 55"
+    },
+    "magic_missile_speed": {
+      "value": "1250"
+    },
+    "magic_missile_stun": {
+      "value": "1"
+    }
+  }
+}

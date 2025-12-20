@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_CHANNELLED  | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_GENERIC_CHANNEL_1",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "250",
+  "AbilityChannelTime": "1",
+  "AbilityCooldown": "8",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "0",
+  "ItemKillable": "0",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "MaxLevel": "1"
+}

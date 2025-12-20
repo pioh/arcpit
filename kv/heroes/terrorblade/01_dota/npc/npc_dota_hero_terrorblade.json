@@ -1,0 +1,190 @@
+{
+  "Ability1": "terrorblade_reflection",
+  "Ability10": "special_bonus_unique_terrorblade_2",
+  "Ability11": "special_bonus_unique_terrorblade_4",
+  "Ability12": "special_bonus_unique_terrorblade_metamorphosis_cooldown",
+  "Ability13": "special_bonus_unique_terrorblade_6",
+  "Ability14": "special_bonus_all_stats_10",
+  "Ability15": "special_bonus_unique_terrorblade_5",
+  "Ability16": "special_bonus_unique_terrorblade",
+  "Ability17": "special_bonus_unique_terrorblade_3",
+  "Ability2": "terrorblade_conjure_image",
+  "Ability3": "terrorblade_metamorphosis",
+  "Ability4": "terrorblade_demon_zeal",
+  "Ability5": "terrorblade_terror_wave",
+  "Ability6": "terrorblade_sunder",
+  "Ability7": "terrorblade_dark_unity",
+  "AbilityDraftAbilities": {
+    "Ability1": "terrorblade_reflection",
+    "Ability2": "terrorblade_conjure_image",
+    "Ability3": "terrorblade_metamorphosis",
+    "Ability4": "terrorblade_sunder"
+  },
+  "Adjectives": {
+    "Demon": "1",
+    "Horns": "1",
+    "Wings": "1"
+  },
+  "ArmorPhysical": "5",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.300000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "32",
+  "AttackDamageMin": "26",
+  "AttackRange": "150",
+  "AttackRate": "1.500000",
+  "AttributeAgilityGain": "4.000000",
+  "AttributeBaseAgility": "22",
+  "AttributeBaseIntelligence": "19",
+  "AttributeBaseStrength": "18",
+  "AttributeIntelligenceGain": "1.60000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.0",
+  "BanSound": "terrorblade_terr_anger_03",
+  "BaseAttackSpeed": "110",
+  "Bot": {
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "2",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "0",
+      "SurvivalRating": "0"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "terrorblade_condemned": {
+      "Color": "Gray",
+      "GradientID": "0",
+      "Icon": "twin_hearts"
+    },
+    "terrorblade_soul_fragment": {
+      "Color": "Blue",
+      "GradientID": "2",
+      "Icon": "illusion"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_terrorblade.vsndevts",
+  "GibTintColor": "113 74 91 255",
+  "GibType": "ethereal",
+  "HealthBarOffset": "300",
+  "HeroID": "109",
+  "HeroOrderID": "107",
+  "HeroSelectSoundEffect": "Hero_Terrorblade.Pick",
+  "HeroUnlockOrder": "1",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "1",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "6000",
+      "MaxPolygonsLOD1": "2400",
+      "SlotIndex": "2",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "LoadoutPreviewMode": "transformation",
+      "MaxPolygonsLOD0": "10000",
+      "MaxPolygonsLOD1": "4000",
+      "SlotIndex": "4",
+      "SlotName": "ability3",
+      "SlotText": "#LoadoutSlot_TerrorBlade_Demon",
+      "TextureHeight": "1024",
+      "TextureWidth": "1024",
+      "no_import": "1"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_4",
+      "SlotText": "terrorblade_sunder"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LoadoutScale": "1.1",
+  "Model": "models/heroes/terrorblade/terrorblade.vmdl",
+  "ModelScale": "1.100000",
+  "MovementSpeed": "315",
+  "MovementTurnRate": "0.800000",
+  "NameAliases": "tb",
+  "PickSound": "terrorblade_terr_spawn_01",
+  "ProjectileSpeed": "900",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_terrorblade/terrorblade_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Pusher,Nuker",
+  "Rolelevels": "3,2,1",
+  "SimilarHeroes": "12,89,67",
+  "SoundSet": "Hero_Terrorblade",
+  "SpectatorLoadoutScale": "0.92",
+  "StatusHealthRegen": "0.5",
+  "Team": "Bad",
+  "TransformedLoadoutScale": "1.13",
+  "VersusScale": "1.100000",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_terrorblade.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_terrorblade",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_terrorblade.vpcf"
+  },
+  "precache": {
+    "model": "models/heroes/terrorblade/demon.vmdl",
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_terrorblade.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_head": "1",
+    "attach_weapon_l": "2",
+    "attach_weapon_r": "3"
+  },
+  "workshop_guide_name": "Terrorblade"
+}

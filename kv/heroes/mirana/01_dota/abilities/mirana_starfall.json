@@ -1,0 +1,44 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.4",
+  "AbilityDuration": "10.0 10.0 10.0 10.0",
+  "AbilityManaCost": "80 90 100 110",
+  "AbilitySound": "Ability.Starfall",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_mirana_3": "-2",
+      "value": "12.0 12.0 12.0 12.0"
+    },
+    "damage": {
+      "special_bonus_unique_mirana_7": "+200",
+      "value": "75 150 225 300"
+    },
+    "secondary_starfall_damage_percent": {
+      "CalculateSpellDamageTooltip": "0",
+      "special_bonus_facet_mirana_starstruck": "=70 =80 =90 =100",
+      "value": "70"
+    },
+    "starfall_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "675"
+    },
+    "starfall_secondary_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "675"
+    },
+    "starstruck_blind_pct": {
+      "special_bonus_facet_mirana_starstruck": "+60.0",
+      "value": "0"
+    },
+    "starstruck_duration": {
+      "special_bonus_facet_mirana_starstruck": "=3.0",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "0",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

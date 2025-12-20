@@ -1,0 +1,55 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityManaCost": "80 80 80 80",
+  "AbilitySound": "Hero_Magnataur.Skewer.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_magnus_7": "-5",
+      "value": "22 20 18 16"
+    },
+    "cliff_hit_damage": {
+      "special_bonus_shard": "150",
+      "value": "0"
+    },
+    "damage_distance_pct": {
+      "special_bonus_unique_magnus_skewer_damage_distance": "+15",
+      "value": "6 9 12 15"
+    },
+    "range": {
+      "special_bonus_shard": "+275",
+      "value": "800 900 1000 1100"
+    },
+    "skewer_damage": "80 160 240 320",
+    "skewer_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "145"
+    },
+    "skewer_speed": "900",
+    "slow_duration": {
+      "special_bonus_unique_magnus_6": "+1.25",
+      "value": "3.25"
+    },
+    "slow_pct": {
+      "value": "20 30 40 50"
+    },
+    "terrain_hit_cooldown": {
+      "value": "0.5"
+    },
+    "tree_hit_damage": {
+      "special_bonus_shard": "40",
+      "value": "0"
+    },
+    "tree_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "1100",
+  "AbilityCooldown": "18",
+  "AbilityManaCost": "100",
+  "AbilitySharedCooldown": "atos",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bonus_hp": "275",
+    "bonus_intellect": "12",
+    "duration": "2.0"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "2250",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "int;regen_health;disable",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestLategame": "1"
+}

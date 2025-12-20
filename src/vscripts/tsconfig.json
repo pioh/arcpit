@@ -1,5 +1,9 @@
 {
     "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "vscripts/*": ["./*"]
+        },
         "rootDir": ".",
         "outDir": "../../game/scripts/vscripts",
         "target": "esnext",

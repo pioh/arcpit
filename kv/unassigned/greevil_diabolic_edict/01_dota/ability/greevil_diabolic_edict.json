@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastPoint": "0.3",
+  "AbilityCooldown": "20",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
+  "AbilityValues": {
+    "customval_damage": {
+      "value": "8 13 18"
+    },
+    "duration": {
+      "value": "5"
+    },
+    "num_explosions": {
+      "value": "20"
+    },
+    "radius": {
+      "value": "500"
+    }
+  }
+}

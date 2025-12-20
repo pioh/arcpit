@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_armor": {
+      "value": "1"
+    },
+    "bonus_damage": {
+      "value": "200"
+    },
+    "bonus_health_regen": {
+      "value": "5"
+    },
+    "bonus_magic_resist": {
+      "value": "5"
+    },
+    "bonus_movement": {
+      "value": "8"
+    }
+  },
+  "MaxLevel": "1"
+}

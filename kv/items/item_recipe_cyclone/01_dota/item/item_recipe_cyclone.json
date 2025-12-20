@@ -1,0 +1,10 @@
+{
+  "ItemCost": "675",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_staff_of_wizardry;item_void_stone;item_wind_lace"
+  },
+  "ItemResult": "item_cyclone",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

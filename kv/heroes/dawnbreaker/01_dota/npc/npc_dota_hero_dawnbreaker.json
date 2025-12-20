@@ -1,0 +1,198 @@
+{
+  "Ability1": "dawnbreaker_fire_wreath",
+  "Ability10": "special_bonus_unique_dawnbreaker_break_of_dawn_damage",
+  "Ability11": "special_bonus_unique_dawnbreaker_celestial_hammer_slow",
+  "Ability12": "special_bonus_unique_dawnbreaker_luminosity_crit",
+  "Ability13": "special_bonus_unique_dawnbreaker_solar_guardian_cooldown",
+  "Ability14": "special_bonus_unique_dawnbreaker_solar_guardian_radius",
+  "Ability15": "special_bonus_unique_dawnbreaker_luminosity_attack_count",
+  "Ability16": "special_bonus_unique_dawnbreaker_fire_wreath_cooldown",
+  "Ability17": "special_bonus_unique_dawnbreaker_celestial_hammer_cast_range",
+  "Ability2": "dawnbreaker_celestial_hammer",
+  "Ability3": "dawnbreaker_luminosity",
+  "Ability4": "dawnbreaker_converge",
+  "Ability5": "dawnbreaker_break_of_dawn",
+  "Ability6": "dawnbreaker_solar_guardian",
+  "Ability7": "dawnbreaker_land",
+  "AbilityDraftAbilities": {
+    "Ability1": "dawnbreaker_fire_wreath",
+    "Ability2": "dawnbreaker_celestial_hammer",
+    "Ability3": "dawnbreaker_luminosity",
+    "Ability4": "dawnbreaker_solar_guardian"
+  },
+  "Adjectives": {
+    "Female": "1",
+    "Fiery": "1"
+  },
+  "ArmorPhysical": "2",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.460000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "29",
+  "AttackDamageMin": "25",
+  "AttackRange": "150",
+  "AttackRangeActivityModifiers": {
+    "attack_long_range": "80",
+    "attack_short_range": "0"
+  },
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "180"
+  },
+  "AttributeAgilityGain": "1.700000",
+  "AttributeBaseAgility": "14",
+  "AttributeBaseIntelligence": "20",
+  "AttributeBaseStrength": "25",
+  "AttributeIntelligenceGain": "2.000000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.40000",
+  "BanSound": "dawnbreaker_ban_shout",
+  "Bot": {
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "1",
+      "RequiresSetup": "1",
+      "SoloDesire": "1",
+      "SurvivalRating": "1"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "dawnbreaker_blaze": {
+      "Color": "Red",
+      "GradientID": "1",
+      "Icon": "fist"
+    },
+    "dawnbreaker_gleaming_hammer": {
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "1",
+      "Icon": "dawnbreaker_hammer"
+    },
+    "dawnbreaker_hearthfire": {
+      "Color": "Yellow",
+      "GradientID": "1",
+      "Icon": "Speed"
+    },
+    "dawnbreaker_solar_charged": {
+      "Color": "Gray",
+      "GradientID": "3",
+      "Icon": "cooldown"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_dawnbreaker.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HealthBarOffset": "280",
+  "HeroID": "135",
+  "HeroOrderID": "121",
+  "HeroSelectSoundEffect": "Hero_Dawnbreaker.Pick",
+  "IdleExpression": "scenes/dawnbreaker/dawnbreaker_face_idle.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "1",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "5000",
+      "MaxPolygonsLOD1": "2000",
+      "SlotIndex": "2",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "SlotIndex": "4",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_kunkka",
+  "LoadoutScale": "1",
+  "Model": "models/heroes/dawnbreaker/dawnbreaker.vmdl",
+  "ModelScale": "1",
+  "MovementSpeed": "300",
+  "MovementSpeedActivityModifiers": {
+    "run": "350",
+    "run_fast": "440",
+    "walk": "0"
+  },
+  "MovementTurnRate": "0.600000",
+  "NameAliases": "Dawnbreaker, Valora",
+  "PickSound": "dawnbreaker_pick_shout",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_dawnbreaker/dawnbreaker_loadout.vpcf": {
+        "0": {
+          "location": "attach_hitloc",
+          "type": "follow_origin"
+        }
+      }
+    }
+  },
+  "Role": "Carry,Durable",
+  "Rolelevels": "1,2",
+  "SoundSet": "Hero_Dawnbreaker",
+  "SpectatorLoadoutScale": "0.85",
+  "StatusHealthRegen": "0.5",
+  "Team": "Good",
+  "VersusScale": "1",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_dawnbreaker.vsndevts",
+  "animation_transitions": {
+    "ACT_DOTA_IDLE": {
+      "regular": "0.40000"
+    },
+    "ACT_DOTA_RUN": {
+      "regular": "0.300000"
+    }
+  },
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_dawnbreaker",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_dawnbreaker.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_dawnbreaker.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_head": "4",
+    "attach_weapon_core_fx": "1"
+  },
+  "workshop_guide_name": "Dawnbreaker"
+}

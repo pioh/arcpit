@@ -1,0 +1,199 @@
+{
+  "Ability1": "templar_assassin_refraction",
+  "Ability10": "special_bonus_unique_templar_assassin_meld_duration",
+  "Ability11": "special_bonus_unique_templar_assassin_3",
+  "Ability12": "special_bonus_unique_templar_assassin_refraction_disable_cast",
+  "Ability13": "special_bonus_unique_templar_assassin_8",
+  "Ability14": "special_bonus_unique_templar_assassin_4",
+  "Ability15": "special_bonus_unique_templar_assassin_refraction_damage",
+  "Ability16": "special_bonus_unique_templar_assassin_7",
+  "Ability17": "special_bonus_unique_templar_assassin",
+  "Ability2": "templar_assassin_meld",
+  "Ability3": "templar_assassin_psi_blades",
+  "Ability4": "templar_assassin_trap",
+  "Ability5": "templar_assassin_trap_teleport",
+  "Ability6": "templar_assassin_psionic_trap",
+  "Ability7": "templar_assassin_third_eye",
+  "AbilityDraftAbilities": {
+    "Ability1": "templar_assassin_refraction",
+    "Ability2": "templar_assassin_meld",
+    "Ability3": "templar_assassin_psi_blades",
+    "Ability4": "templar_assassin_psionic_trap"
+  },
+  "Adjectives": {
+    "Female": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.300000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "33",
+  "AttackDamageMin": "28",
+  "AttackRange": "250",
+  "AttackRate": "1.600000",
+  "AttributeAgilityGain": "3.4",
+  "AttributeBaseAgility": "23",
+  "AttributeBaseIntelligence": "20",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "2.000000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.400000",
+  "BanSound": "templar_assassin_temp_anger_03",
+  "BaseAttackSpeed": "100",
+  "Bot": {
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "2",
+      "RequiresFarm": "2",
+      "RequiresSetup": "2",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "templar_assassin_hidden_reach": {
+      "Color": "Blue",
+      "GradientID": "1",
+      "Icon": "range"
+    },
+    "templar_assassin_refractor": {
+      "Color": "Purple",
+      "GradientID": "0",
+      "Icon": "damage"
+    },
+    "templar_assassin_voidblades": {
+      "Color": "Gray",
+      "GradientID": "3",
+      "Icon": "ricochet"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_templar_assassin.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "242 200 198",
+  "HeroID": "46",
+  "HeroOrderID": "86",
+  "HeroSelectSoundEffect": "Hero_TemplarAssassin.Pick",
+  "HeroUnlockOrder": "3",
+  "IdleExpression": "scenes/templar_assassin/templar_assassin_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "3",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "SlotIndex": "4",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_1",
+      "SlotText": "templar_assassin_refraction"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_2",
+      "SlotText": "templar_assassin_meld"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_3",
+      "SlotText": "templar_assassin_psi_blades"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_4",
+      "SlotText": "templar_assassin_psionic_trap"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_omniknight",
+  "LoadoutScale": "0.88",
+  "Model": "models/heroes/lanaya/lanaya.vmdl",
+  "ModelScale": "0.880000",
+  "MovementSpeed": "310",
+  "MovementTurnRate": "0.700000",
+  "NameAliases": "ta;Lanaya",
+  "PickSound": "templar_assassin_temp_spawn_02",
+  "ProjectileModel": "particles/units/heroes/hero_templar_assassin/templar_assassin_base_attack.vpcf",
+  "ProjectileSpeed": "1000",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_templar_assassin/templar_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Escape",
+  "Rolelevels": "2,1",
+  "SimilarHeroes": "44,32,93",
+  "SoundSet": "Hero_TemplarAssassin",
+  "StatusHealthRegen": "1",
+  "Team": "Good",
+  "VersusScale": "0.88",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_templar_assassin.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_templar_assassin",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_templar_assassin.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_templar_assassin.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Templar Assassin"
+}

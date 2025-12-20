@@ -1,0 +1,290 @@
+{
+  "Ability1": "bristleback_viscous_nasal_goo",
+  "Ability10": "special_bonus_attack_speed_25",
+  "Ability11": "special_bonus_mp_regen_150",
+  "Ability12": "special_bonus_unique_bristleback_5",
+  "Ability13": "special_bonus_unique_bristleback_6",
+  "Ability14": "special_bonus_hp_regen_25",
+  "Ability15": "special_bonus_unique_bristleback_2",
+  "Ability16": "special_bonus_spell_lifesteal_12",
+  "Ability17": "special_bonus_unique_bristleback_3",
+  "Ability2": "bristleback_quill_spray",
+  "Ability3": "bristleback_bristleback",
+  "Ability4": "bristleback_hairball",
+  "Ability5": "generic_hidden",
+  "Ability6": "bristleback_warpath",
+  "Ability7": "bristleback_prickly",
+  "AbilityDraftAbilities": {
+    "Ability1": "bristleback_viscous_nasal_goo",
+    "Ability2": "bristleback_quill_spray",
+    "Ability3": "bristleback_bristleback",
+    "Ability4": "bristleback_warpath"
+  },
+  "Adjectives": {
+    "NicePecs": "1"
+  },
+  "ArmorPhysical": "1.000000",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.300000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "37",
+  "AttackDamageMin": "31",
+  "AttackRange": "150",
+  "AttackRate": "1.800000",
+  "AttributeAgilityGain": "1.800000",
+  "AttributeBaseAgility": "17",
+  "AttributeBaseIntelligence": "14",
+  "AttributeBaseStrength": "22",
+  "AttributeIntelligenceGain": "2.800000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "2.800000",
+  "BanSound": "bristleback_bristle_anger_09",
+  "Bot": {
+    "Build": {
+      "1": "bristleback_quill_spray",
+      "2": "bristleback_bristleback",
+      "3": "bristleback_quill_spray",
+      "4": "bristleback_viscous_nasal_goo",
+      "5": "bristleback_quill_spray",
+      "6": "bristleback_warpath",
+      "7": "bristleback_quill_spray",
+      "8": "bristleback_bristleback",
+      "9": "bristleback_bristleback",
+      "10": "special_bonus_mp_regen_150",
+      "11": "bristleback_bristleback",
+      "12": "bristleback_warpath",
+      "13": "bristleback_viscous_nasal_goo",
+      "14": "bristleback_viscous_nasal_goo",
+      "15": "special_bonus_unique_bristleback_5",
+      "16": "bristleback_viscous_nasal_goo",
+      "17": "",
+      "18": "bristleback_warpath",
+      "19": "",
+      "20": "special_bonus_hp_regen_25",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_bristleback_3"
+    },
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "1",
+      "RequiresSetup": "1",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    },
+    "Loadout": {
+      "item_assault": "ITEM_DERIVED",
+      "item_belt_of_strength": "ITEM_CORE",
+      "item_blade_mail": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_boots": "ITEM_CORE",
+      "item_branches": [
+        "ITEM_CORE",
+        "ITEM_CORE"
+      ],
+      "item_broadsword": "ITEM_EXTENSION",
+      "item_buckler": "ITEM_DERIVED",
+      "item_chainmail": "ITEM_EXTENSION",
+      "item_clarity": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_crown": "ITEM_EXTENSION",
+      "item_gloves": "ITEM_CORE",
+      "item_heart": "ITEM_DERIVED",
+      "item_helm_of_iron_will": "ITEM_EXTENSION",
+      "item_hyperstone": "ITEM_LUXURY",
+      "item_magic_stick": "ITEM_CORE",
+      "item_magic_wand": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_platemail": [
+        "ITEM_LUXURY",
+        "ITEM_LUXURY"
+      ],
+      "item_power_treads": "ITEM_DERIVED",
+      "item_reaver": "ITEM_LUXURY",
+      "item_recipe_assault": "ITEM_LUXURY",
+      "item_recipe_blade_mail": "ITEM_EXTENSION",
+      "item_recipe_buckler": "ITEM_LUXURY",
+      "item_recipe_heart": "ITEM_LUXURY",
+      "item_recipe_magic_wand": "ITEM_CORE",
+      "item_recipe_ring_of_basilius": "ITEM_CORE",
+      "item_recipe_shivas_guard": "ITEM_LUXURY",
+      "item_recipe_vanguard": "ITEM_EXTENSION",
+      "item_recipe_veil_of_discord": "ITEM_EXTENSION",
+      "item_ring_of_basilius": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_ring_of_health": "ITEM_CORE",
+      "item_ring_of_protection": "ITEM_LUXURY",
+      "item_ring_of_tarrasque": "ITEM_LUXURY",
+      "item_shivas_guard": "ITEM_LUXURY | ITEM_DERIVED",
+      "item_sobi_mask": "ITEM_CORE",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_vanguard": "ITEM_DERIVED",
+      "item_veil_of_discord": "ITEM_DERIVED",
+      "item_vitality_booster": "ITEM_EXTENSION"
+    }
+  },
+  "BotImplemented": "1",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "bristleback_berserk": {
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "damage"
+    },
+    "bristleback_seeing_red": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "no_vision"
+    },
+    "bristleback_snot_rocket": {
+      "Color": "Green",
+      "GradientID": "0",
+      "Icon": "snot"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_bristleback.vsndevts",
+  "GibTintColor": "203 29 0 255",
+  "GibType": "goo",
+  "HasAggressiveStance": "1",
+  "HeroID": "99",
+  "HeroOrderID": "99",
+  "HeroSelectSoundEffect": "Hero_Bristleback.Pick",
+  "IdleSoundLoop": "Hero_Bristleback.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "neck",
+      "SlotText": "#LoadoutSlot_Neck",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "GeneratesUnits": {
+        "0": "npc_dota_companion"
+      },
+      "ShowItemOnGeneratedUnits": "1",
+      "SlotIndex": "5",
+      "SlotName": "summon",
+      "SlotText": "#LoadoutSlot_Pet"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "bristleback_viscous_nasal_goo"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_2",
+      "SlotText": "bristleback_quill_spray"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_4",
+      "SlotText": "bristleback_warpath"
+    },
+    "11": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "11",
+      "SlotName": "ability_effects_3",
+      "SlotText": "bristleback_bristleback"
+    },
+    "12": {
+      "SlotIndex": "12",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_dragon_knight",
+  "LoadoutScale": "0.80",
+  "Model": "models/heroes/bristleback/bristleback.vmdl",
+  "ModelScale": "0.800000",
+  "MovementSpeed": "295",
+  "MovementTurnRate": "0.900000",
+  "NameAliases": "Rigwarl;bb",
+  "PickSound": "bristleback_bristle_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_bristleback/bristleback_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Durable,Initiator,Nuker",
+  "Rolelevels": "2,3,1,1",
+  "SimilarHeroes": "102,98,129",
+  "SoundSet": "Hero_Bristleback",
+  "StatusHealthRegen": "1",
+  "StatusManaRegen": "0.4",
+  "Team": "Good",
+  "VersusScale": "0.80",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_bristleback.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_bristleback",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_bristleback.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_bristleback.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "1",
+    "attach_attack2": "2",
+    "attach_attack3": "3",
+    "attach_weapon": "4"
+  },
+  "workshop_guide_name": "Bristleback"
+}

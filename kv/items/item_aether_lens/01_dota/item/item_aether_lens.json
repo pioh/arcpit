@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_mana": "300",
+    "bonus_mana_regen": "2.5",
+    "cast_range_bonus": "225"
+  },
+  "ItemCost": "2275",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "int;regen_mana;hard_to_tag",
+  "SuggestLategame": "1"
+}

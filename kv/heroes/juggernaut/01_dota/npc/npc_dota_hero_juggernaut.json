@@ -1,0 +1,310 @@
+{
+  "Ability1": "juggernaut_blade_fury",
+  "Ability10": "special_bonus_unique_juggernaut_5",
+  "Ability11": "special_bonus_unique_juggernaut_3",
+  "Ability12": "special_bonus_unique_juggernaut_healing_ward_heal",
+  "Ability13": "special_bonus_unique_juggernaut_blade_fury_movespeed",
+  "Ability14": "special_bonus_unique_juggernaut_2",
+  "Ability15": "special_bonus_unique_juggernaut",
+  "Ability16": "special_bonus_unique_juggernaut_omnislash_duration",
+  "Ability17": "special_bonus_unique_juggernaut_blade_dance_lifesteal",
+  "Ability2": "juggernaut_healing_ward",
+  "Ability3": "juggernaut_blade_dance",
+  "Ability4": "juggernaut_swift_slash",
+  "Ability5": "juggernaut_duelist",
+  "Ability6": "juggernaut_omni_slash",
+  "AbilityDraftAbilities": {
+    "Ability1": "juggernaut_blade_fury",
+    "Ability2": "juggernaut_healing_ward",
+    "Ability3": "juggernaut_blade_dance",
+    "Ability4": "juggernaut_omni_slash"
+  },
+  "AbilityPreview": {
+    "movie": "media/heroes/default",
+    "resource": [
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res"
+    ]
+  },
+  "Adjectives": {
+    "BadTeeth": "1",
+    "Bearded": "1",
+    "NicePecs": "1",
+    "Nose": "0"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.330000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "24",
+  "AttackDamageMin": "22",
+  "AttackRange": "150",
+  "AttackRate": "1.400000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "170",
+    "faster": "275",
+    "fastest": "350"
+  },
+  "AttributeAgilityGain": "2.800000",
+  "AttributeBaseAgility": "32",
+  "AttributeBaseIntelligence": "14",
+  "AttributeBaseStrength": "20",
+  "AttributeIntelligenceGain": "1.400000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.0000",
+  "BanSound": "juggernaut_jug_anger_04",
+  "BaseAttackSpeed": "110",
+  "Bot": {
+    "Build": {
+      "1": "juggernaut_blade_fury",
+      "2": "juggernaut_blade_dance",
+      "3": "juggernaut_blade_fury",
+      "4": "juggernaut_blade_dance",
+      "5": "juggernaut_blade_fury",
+      "6": "juggernaut_omni_slash",
+      "7": "juggernaut_blade_fury",
+      "8": "juggernaut_blade_dance",
+      "9": "juggernaut_blade_dance",
+      "10": "special_bonus_unique_juggernaut_3",
+      "11": "juggernaut_healing_ward",
+      "12": "juggernaut_omni_slash",
+      "13": "juggernaut_healing_ward",
+      "14": "juggernaut_healing_ward",
+      "15": "special_bonus_unique_juggernaut_blade_fury_movespeed",
+      "16": "juggernaut_healing_ward",
+      "17": "",
+      "18": "juggernaut_omni_slash",
+      "19": "",
+      "20": "special_bonus_unique_juggernaut",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_juggernaut_omnislash_duration"
+    },
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "2",
+      "RequiresFarm": "2",
+      "RequiresSetup": "2",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    },
+    "Loadout": {
+      "item_blade_of_alacrity": "ITEM_EXTENSION",
+      "item_blades_of_attack": "ITEM_EXTENSION",
+      "item_boots": "ITEM_CORE",
+      "item_boots_of_elves": "ITEM_EXTENSION",
+      "item_branches": [
+        "ITEM_CORE | ITEM_SELLABLE",
+        "ITEM_CORE | ITEM_SELLABLE"
+      ],
+      "item_butterfly": "ITEM_DERIVED",
+      "item_chainmail": "ITEM_EXTENSION",
+      "item_claymore": [
+        "ITEM_EXTENSION",
+        "ITEM_LUXURY"
+      ],
+      "item_diadem": "ITEM_EXTENSION",
+      "item_eagle": "ITEM_LUXURY",
+      "item_gloves": "ITEM_EXTENSION",
+      "item_hyperstone": "ITEM_CORE",
+      "item_javelin": "ITEM_CORE",
+      "item_lifesteal": "ITEM_LUXURY",
+      "item_maelstrom": "ITEM_DERIVED",
+      "item_magic_stick": "ITEM_CORE",
+      "item_manta": "ITEM_LUXURY | ITEM_DERIVED",
+      "item_mithril_hammer": "ITEM_CORE",
+      "item_mjollnir": "ITEM_DERIVED",
+      "item_phase_boots": "ITEM_DERIVED",
+      "item_quelling_blade": "ITEM_CORE | ITEM_SELLABLE",
+      "item_reaver": "ITEM_LUXURY",
+      "item_recipe_magic_wand": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_recipe_manta": "ITEM_EXTENSION",
+      "item_recipe_mjollnir": "ITEM_CORE",
+      "item_recipe_satanic": "ITEM_LUXURY",
+      "item_recipe_yasha": "ITEM_EXTENSION",
+      "item_satanic": "ITEM_DERIVED",
+      "item_talisman_of_evasion": "ITEM_LUXURY",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_yasha": "ITEM_DERIVED"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "juggernaut_agigain": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "juggernaut_bladeform"
+        }
+      },
+      "Color": "Red",
+      "GradientID": "2",
+      "Icon": "agility"
+    },
+    "juggernaut_bladestorm": {
+      "Color": "Yellow",
+      "GradientID": "1",
+      "Icon": "spinning"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_juggernaut.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HeroGlowColor": "222 120 36",
+  "HeroID": "8",
+  "HeroOrderID": "46",
+  "HeroPool1": "1",
+  "HeroPool2": "1",
+  "HeroSelectSoundEffect": "Hero_Juggernaut.Pick",
+  "HeroUnlockOrder": "3",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "2",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "3",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "4",
+      "SlotName": "legs",
+      "SlotText": "#LoadoutSlot_Legs",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "GeneratesUnits": {
+        "0": "npc_dota_juggernaut_healing_ward"
+      },
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "2000",
+      "SlotIndex": "6",
+      "SlotName": "ability2",
+      "SlotText": "#LoadoutSlot_Juggernaut_HealingWard",
+      "TextureHeight": "256",
+      "TextureWidth": "256",
+      "no_import": "1"
+    },
+    "7": {
+      "GeneratesUnits": {
+        "0": "npc_dota_companion"
+      },
+      "ShowItemOnGeneratedUnits": "1",
+      "SlotIndex": "7",
+      "SlotName": "summon",
+      "SlotText": "#LoadoutSlot_Pet"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "voice",
+      "SlotText": "#LoadoutSlot_Voice"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_1",
+      "SlotText": "juggernaut_blade_fury"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_4",
+      "SlotText": "juggernaut_omni_slash"
+    },
+    "11": {
+      "SlotIndex": "11",
+      "SlotName": "hero_base",
+      "SlotText": "#LoadoutSlot_Juggernaut_Base"
+    },
+    "12": {
+      "SlotIndex": "12",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_skeleton_king",
+  "LoadoutScale": "0.85",
+  "Model": "models/heroes/juggernaut/juggernaut.vmdl",
+  "ModelScale": "0.850000",
+  "MovementSpeed": "300",
+  "MovementSpeedActivityModifiers": {
+    "run": "345",
+    "run_fast": "373",
+    "walk": "0"
+  },
+  "NameAliases": "Yurnero",
+  "PickSound": "juggernaut_jug_spawn_03",
+  "Press": "1",
+  "ProjectileSpeed": "0",
+  "Role": "Carry,Pusher,Escape",
+  "Rolelevels": "2,1,1",
+  "SimilarHeroes": "18,41,44",
+  "SoundSet": "Hero_Juggernaut",
+  "SpectatorLoadoutScale": "1",
+  "StatusHealthRegen": "0.5",
+  "Team": "Good",
+  "VersusScale": "0.850000",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_juggernaut.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_juggernaut",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_juggernaut.vpcf"
+  },
+  "precache": {
+    "model": "models/heroes/juggernaut/jugg_healing_ward.vmdl",
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_juggernaut.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_hand1": "1",
+    "attach_hand2": "2",
+    "attach_head": "3"
+  },
+  "workshop_guide_name": "Juggernaut"
+}

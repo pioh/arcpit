@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+  "AbilityCastRange": "600",
+  "AbilityChannelTime": "1.5",
+  "AbilityCooldown": "24",
+  "AbilityManaCost": "100",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "bonus_agility": "25",
+    "bonus_intellect": "40",
+    "bonus_strength": "25",
+    "burn_dps_buildings": "60",
+    "burn_dps_units": "60",
+    "burn_duration": "6",
+    "burn_interval": "1.0",
+    "burn_slow": "20",
+    "enemy_particles_visible": "0",
+    "impact_damage_buildings": "95",
+    "impact_damage_units": "150",
+    "impact_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "land_time": ".5",
+    "mana_regen_multiplier": "100",
+    "max_duration": "1.5",
+    "spell_amp": "12",
+    "spell_lifesteal_amp": "36",
+    "stun_duration": "0.5"
+  },
+  "FightRecapLevel": "1",
+  "IsObsolete": "1",
+  "ItemCost": "5900",
+  "ItemPurchasable": "0",
+  "ItemQuality": "common",
+  "ItemShopTags": "hard_to_tag;magic_dmg",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+  "SuggestLategame": "1"
+}

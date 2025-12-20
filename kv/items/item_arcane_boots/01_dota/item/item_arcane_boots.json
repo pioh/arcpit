@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "55.0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "aura_mana_regen": "1",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "bonus_movement": "45",
+    "mana_regen": "0.25",
+    "replenish_amount": "150",
+    "replenish_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "ItemAlertable": "1",
+  "ItemCost": "1400",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "move_speed;boost_mana;mana_pool;mana;regen_mana",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestEarlygame": "1"
+}

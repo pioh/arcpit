@@ -1,0 +1,56 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "0",
+  "AbilityDuration": "0.0 0.0 0.0 0.0 0.0",
+  "AbilityManaCost": "14 16 18 20 20",
+  "AbilitySound": "Hero_Silencer.GlaivesOfWisdom",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bounce_count": {
+      "special_bonus_facet_silencer_spread_the_knowledge": "=0 =0 =0 =0 =1",
+      "value": "0"
+    },
+    "bounce_count_tooltip": {
+      "special_bonus_facet_silencer_spread_the_knowledge": "+1"
+    },
+    "bounce_range": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_silencer_spread_the_knowledge": "=0 =0 =0 =0 =450",
+      "value": "0"
+    },
+    "bounce_range_tooltip": {
+      "special_bonus_facet_silencer_spread_the_knowledge": "+450"
+    },
+    "debuff_linger_duration": "3 4 5 6 6",
+    "int_steal": {
+      "value": "2 3 4 5 5"
+    },
+    "int_steal_duration": {
+      "special_bonus_unique_silencer_5": "+40",
+      "value": "10 20 30 40 40"
+    },
+    "intellect_damage_pct": {
+      "special_bonus_unique_silencer_3": "+25",
+      "value": "35 50 65 80 80"
+    },
+    "max_level": {
+      "special_bonus_facet_silencer_spread_the_knowledge": "+1",
+      "value": "4"
+    },
+    "max_level_tooltip": {
+      "special_bonus_facet_silencer_spread_the_knowledge": "=5"
+    },
+    "silence_duration": {
+      "value": "+2.5"
+    },
+    "stacks_for_silence": {
+      "value": "0"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

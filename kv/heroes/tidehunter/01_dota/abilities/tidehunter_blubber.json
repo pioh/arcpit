@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityValues": {
+    "damage_cleanse": {
+      "value": "450"
+    },
+    "damage_reset_interval": "7.0",
+    "smash_on_purge": {
+      "special_bonus_unique_tidehunter_smash_on_blubber": "1"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

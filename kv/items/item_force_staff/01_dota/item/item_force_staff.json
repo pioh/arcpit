@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "550",
+  "AbilityCooldown": "19.0",
+  "AbilityManaCost": "150",
+  "AbilitySharedCooldown": "force",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH | DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "bonus_health": "175",
+    "bonus_intellect": "10",
+    "enemy_cast_range": "850",
+    "push_length": "600",
+    "push_time": "0.5"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "2200",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "int;damage;hard_to_tag;mobility;escape;save",
+  "SuggestLategame": "1"
+}

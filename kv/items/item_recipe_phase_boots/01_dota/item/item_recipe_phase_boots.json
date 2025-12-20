@@ -1,0 +1,10 @@
+{
+  "ItemCost": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_boots*;item_chainmail;item_blades_of_attack"
+  },
+  "ItemResult": "item_phase_boots",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

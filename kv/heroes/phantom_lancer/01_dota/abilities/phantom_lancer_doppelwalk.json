@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.1",
+  "AbilityManaCost": "50",
+  "AbilitySound": "Hero_PhantomLancer.Doppelganger.Cast",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_phantom_lancer_doppelwalk_cast_range": "+125",
+      "value": "575"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_phantom_lancer_4": "-4",
+      "value": "22 18 14 10"
+    },
+    "delay": "1",
+    "hp_missing_per_extra_illusion_pct": {
+      "special_bonus_facet_phantom_lancer_convergence": "25",
+      "value": "0"
+    },
+    "illusion_1_damage_in_pct": "0",
+    "illusion_1_damage_out_pct": "-100",
+    "illusion_2_amount": {
+      "value": "1"
+    },
+    "illusion_2_damage_in_pct": "500",
+    "illusion_2_damage_out_pct": "-80",
+    "illusion_duration": "8",
+    "illusion_extended_duration": "2",
+    "search_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    },
+    "target_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "325"
+    }
+  },
+  "FightRecapLevel": "1"
+}

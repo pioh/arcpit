@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCooldown": "25.0",
+  "AbilityManaCost": "25",
+  "AbilityValues": {
+    "active_reflection_pct": "85",
+    "bonus_armor": "6",
+    "bonus_damage": "15",
+    "bonus_intellect": "0",
+    "duration": "5.5",
+    "passive_reflection_constant": "10",
+    "passive_reflection_pct": "15"
+  },
+  "ItemCost": "2300",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "damage;armor;int;hard_to_tag;tank",
+  "SuggestLategame": "1"
+}

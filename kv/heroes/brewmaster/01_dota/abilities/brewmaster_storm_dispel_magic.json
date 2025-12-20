@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "500 500 500 500",
+  "AbilityCooldown": "4",
+  "AbilityManaCost": "75 75 75 75",
+  "AbilitySound": "Brewmaster_Storm.DispelMagic",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityValues": {
+    "damage": {
+      "value": "1000"
+    },
+    "radius": {
+      "value": "600"
+    }
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

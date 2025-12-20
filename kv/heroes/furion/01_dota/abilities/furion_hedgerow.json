@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_OVERSHOOT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "16 15 14 13",
+  "AbilityManaCost": "80 70 60 50",
+  "AbilitySound": "Hero_Furion.Teleport_Grow",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "damage_per_tick": "10 15 20 25",
+    "damage_tick_interval": "0.5",
+    "duration": "5",
+    "hedge_length": "450",
+    "hedge_range": "125",
+    "hedge_width": "50",
+    "max_hits": "3 4 5 6",
+    "movement_slow_pct": "-50 -80 -120 -160"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

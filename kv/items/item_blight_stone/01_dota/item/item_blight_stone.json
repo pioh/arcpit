@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "corruption_armor": "-2",
+    "corruption_duration": "3.0"
+  },
+  "ItemCost": "300",
+  "ItemQuality": "component",
+  "ItemShopTags": "hard_to_tag",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
+  "SuggestEarlygame": "1",
+  "SuggestPregame": "1"
+}

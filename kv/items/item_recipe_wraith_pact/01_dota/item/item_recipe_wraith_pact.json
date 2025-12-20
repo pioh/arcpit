@@ -1,0 +1,12 @@
+{
+  "IsObsolete": "1",
+  "ItemCost": "400",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_vladmir;item_point_booster"
+  },
+  "ItemResult": "item_wraith_pact",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

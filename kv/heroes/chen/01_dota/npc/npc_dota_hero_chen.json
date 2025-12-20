@@ -1,0 +1,227 @@
+{
+  "Ability1": "chen_penitence",
+  "Ability10": "special_bonus_unique_chen_11",
+  "Ability11": "special_bonus_unique_chen_3",
+  "Ability12": "special_bonus_unique_chen_5",
+  "Ability13": "special_bonus_unique_chen_8",
+  "Ability14": "special_bonus_unique_chen_divine_favor_healing",
+  "Ability15": "special_bonus_unique_chen_4",
+  "Ability16": "special_bonus_unique_chen_12",
+  "Ability17": "special_bonus_unique_chen_2",
+  "Ability2": "chen_holy_persuasion",
+  "Ability3": "chen_divine_favor",
+  "Ability4": "chen_summon_convert",
+  "Ability5": "generic_hidden",
+  "Ability6": "chen_hand_of_god",
+  "AbilityDraftAbilities": {
+    "Ability1": "chen_penitence",
+    "Ability2": "chen_divine_favor",
+    "Ability3": "chen_holy_persuasion",
+    "Ability4": "chen_hand_of_god"
+  },
+  "Adjectives": {
+    "Arachnophobic": "1",
+    "Steed": "1"
+  },
+  "ArmorPhysical": "-1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "39",
+  "AttackDamageMin": "29",
+  "AttackRange": "650",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "2.100000",
+  "AttributeBaseAgility": "15",
+  "AttributeBaseIntelligence": "19",
+  "AttributeBaseStrength": "23",
+  "AttributeIntelligenceGain": "3.200000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.00000",
+  "BanSound": "chen_chen_anger_04",
+  "Bot": {
+    "HeroType": "DOTA_BOT_PURE_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "1",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "0"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "3",
+  "Enabled": "1",
+  "Facets": {
+    "chen_centaur_convert": {
+      "AbilityIconReplacements": {
+        "chen_summon_convert": "chen_summon_convert_centaur"
+      },
+      "Color": "Yellow",
+      "GradientID": "3",
+      "Icon": "area_of_effect"
+    },
+    "chen_frog_convert": {
+      "AbilityIconReplacements": {
+        "chen_summon_convert": "chen_summon_convert_frog"
+      },
+      "Color": "Blue",
+      "GradientID": "3",
+      "Icon": "bubbles"
+    },
+    "chen_hellbear_convert": {
+      "AbilityIconReplacements": {
+        "chen_summon_convert": "chen_summon_convert_hellbear"
+      },
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "slow"
+    },
+    "chen_satyr_convert": {
+      "AbilityIconReplacements": {
+        "chen_summon_convert": "chen_summon_convert_satyr"
+      },
+      "Color": "Purple",
+      "GradientID": "1",
+      "Icon": "mana"
+    },
+    "chen_troll_convert": {
+      "AbilityIconReplacements": {
+        "chen_summon_convert": "chen_summon_convert_troll"
+      },
+      "Color": "Green",
+      "GradientID": "0",
+      "Icon": "summons"
+    },
+    "chen_wolf_convert": {
+      "AbilityIconReplacements": {
+        "chen_summon_convert": "chen_summon_convert_wolf"
+      },
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "2",
+      "Icon": "damage"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_chen.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "107 74 53",
+  "HeroID": "66",
+  "HeroOrderID": "50",
+  "HeroSelectSoundEffect": "Hero_Chen.Pick",
+  "HeroUnlockOrder": "3",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "2",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "6000",
+      "MaxPolygonsLOD1": "2400",
+      "SlotIndex": "4",
+      "SlotName": "mount",
+      "SlotText": "#LoadoutSlot_Mount",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Misc"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_sven",
+  "LoadoutScale": "0.93",
+  "Model": "models/heroes/chen/chen.vmdl",
+  "ModelScale": "0.930000",
+  "MovementSpeed": "305",
+  "NameAliases": "Holy Knight",
+  "PickSound": "chen_chen_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_chen/chen_base_attack.vpcf",
+  "ProjectileSpeed": "1100",
+  "RenderablePortrait": [
+    {
+      "Particles": {
+        "particles/units/heroes/hero_chen/chen_loadout.vpcf": "loadout"
+      }
+    },
+    {
+      "Particles": {}
+    }
+  ],
+  "Role": "Support,Pusher",
+  "Rolelevels": "2,2",
+  "SimilarHeroes": "58,53,33",
+  "SoundSet": "Hero_Chen",
+  "StatusManaRegen": "0.5",
+  "Team": "Good",
+  "VersusScale": "0.93",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_chen.vsndevts",
+  "particle_folder": "particles/units/heroes/hero_chen",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_chen.vpcf",
+    "party_hat_effect_1": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_chen_mount.vpcf"
+  },
+  "precache": {
+    "particle": [
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_chen.vpcf",
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_chen_mount.vpcf"
+    ]
+  },
+  "showcase_attachments": {
+    "attach_hand2": "3",
+    "attach_head": "1",
+    "attach_head_mount": "2"
+  },
+  "workshop_guide_name": "Chen"
+}

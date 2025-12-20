@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bash_chance": {
+      "value": "40"
+    },
+    "bonus_damage": {
+      "value": "0"
+    },
+    "stun_duration": {
+      "value": "1"
+    }
+  },
+  "MaxLevel": "1"
+}

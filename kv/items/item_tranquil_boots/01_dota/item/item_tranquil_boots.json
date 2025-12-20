@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCooldown": "13.0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "bonus_armor": "0",
+    "bonus_health_regen": "14",
+    "bonus_movement_speed": "65",
+    "break_count": "1",
+    "break_threshold": "20",
+    "break_time": "13",
+    "broken_movement_speed": "40",
+    "heal_amount": "250",
+    "heal_duration": "20.0",
+    "heal_interval": "0.334"
+  },
+  "ItemCost": "900",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemHideCharges": "1",
+  "ItemQuality": "rare",
+  "ItemShopTags": "move_speed;regen_health;armor",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestEarlygame": "1"
+}

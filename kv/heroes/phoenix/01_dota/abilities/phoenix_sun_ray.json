@@ -1,0 +1,52 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.01",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "30",
+  "AbilityDuration": "6.0",
+  "AbilityManaCost": "100 110 120 130",
+  "AbilitySound": "Hero_Phoenix.SunRay.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "base_damage": "15 20 25 30",
+    "base_heal": "7 10 13 16",
+    "focal_point_blind_stack_multiplier": {
+      "special_bonus_facet_phoenix_hotspot": "+2",
+      "value": "0"
+    },
+    "focal_point_full_length_tooltip_only": {
+      "special_bonus_facet_phoenix_hotspot": "1200",
+      "value": "0"
+    },
+    "focal_point_max_multiplier": {
+      "special_bonus_facet_phoenix_hotspot": "160",
+      "value": "0"
+    },
+    "focal_point_start_length_pct": {
+      "special_bonus_facet_phoenix_hotspot": "50",
+      "value": "0"
+    },
+    "forward_move_speed": "250",
+    "hp_cost_perc_per_second": "5",
+    "hp_perc_damage": {
+      "special_bonus_unique_phoenix_5": "+1.5",
+      "value": "1.5 3 4.5 6.0"
+    },
+    "hp_perc_heal": "0.5 1.0 1.5 2.0",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "130"
+    },
+    "shard_move_slow_pct": {
+      "special_bonus_shard": "10"
+    },
+    "tick_interval": "0.2",
+    "turn_rate": "25",
+    "turn_rate_initial": "250"
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

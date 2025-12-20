@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "10.0",
+  "AbilityValues": {
+    "angle": "360",
+    "bonus_damage": "16",
+    "bonus_strength": "14",
+    "knockback_duration": "0.2",
+    "nuke_base_dmg": "175",
+    "nuke_str_dmg": "1.5",
+    "pull_distance": "100",
+    "range": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "slow": "50",
+    "slow_duration": "3"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "bonus_movement_speed": "90",
+    "maximum_distance": "800",
+    "tp_cooldown": "40",
+    "vision_radius": "200"
+  },
+  "ItemBaseLevel": "1",
+  "ItemCost": "2500",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "common",
+  "ItemShopTags": "teleport;move_speed;mobility",
+  "MaxUpgradeLevel": "2",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestLategame": "1",
+  "UpgradeRecipe": "item_recipe_travel_boots",
+  "UpgradesItems": "item_travel_boots"
+}

@@ -1,0 +1,59 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.4",
+  "AbilityCooldown": "90 80 70",
+  "AbilityManaCost": "300 400 500",
+  "AbilitySound": "Hero_Jakiro.Macropyre.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "value": "1400"
+    },
+    "burn_interval": "0.5 0.5 0.5",
+    "damage": {
+      "special_bonus_unique_jakiro_7": "+20",
+      "value": "100 150 200"
+    },
+    "duration": {
+      "special_bonus_scepter": "+5.0",
+      "value": "10.0"
+    },
+    "ice_edge_linger_duration": {
+      "special_bonus_scepter": "+0.4",
+      "value": "0"
+    },
+    "ice_edge_movement_slow": {
+      "special_bonus_scepter": "60",
+      "value": "0"
+    },
+    "ice_edge_path_offset": {
+      "special_bonus_scepter": "+20",
+      "value": "0"
+    },
+    "ice_edge_path_radius": {
+      "special_bonus_scepter": "+50",
+      "value": "0"
+    },
+    "linger_duration": "1",
+    "path_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "pierces_magic_immunity": {
+      "special_bonus_scepter": "+1",
+      "value": "0"
+    },
+    "pure_damage_type": {
+      "special_bonus_scepter": "+1",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

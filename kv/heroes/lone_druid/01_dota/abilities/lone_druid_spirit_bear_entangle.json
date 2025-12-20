@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilitySound": "LoneDruid_SpiritBear.Entangle",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "counter_duration": "10",
+    "damage": {
+      "special_bonus_unique_lone_druid_1": "+20",
+      "value": "60 70 80 90"
+    },
+    "entangle_duration": {
+      "special_bonus_unique_lone_druid_entangle_duration": "+0.6",
+      "value": "1.2 1.6 2.0 2.4"
+    },
+    "hits_required": {
+      "value": "5"
+    },
+    "spirit_bear_counters_applied_tooltip": "1"
+  },
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

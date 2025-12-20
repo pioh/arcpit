@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityCastPoint": "0.3",
+  "AbilityValues": {
+    "barrier_decay_pct": {
+      "special_bonus_unique_bloodseeker_overheal_barrier": "1.5",
+      "value": "0"
+    },
+    "base_heal": "30",
+    "creep_lifesteal_reduction_pct": "40",
+    "deny_lifesteal_reduction_pct": "0",
+    "half_bonus_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    },
+    "heal_hp_pct": {
+      "hero_levelup": "1.5",
+      "value": "1.5"
+    },
+    "max_shield_pct": {
+      "special_bonus_unique_bloodseeker_overheal_barrier": "+35",
+      "value": "0"
+    },
+    "pure_damage_lifesteal_pct": {
+      "special_bonus_unique_bloodseeker_pure_damage_lifesteal": "=25",
+      "value": "0"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

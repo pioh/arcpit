@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "700",
+  "AbilityCooldown": "10.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "bonus_movement_speed": {
+      "value": "-50"
+    },
+    "customval_duration": {
+      "value": "1.0 1.5 2.0"
+    },
+    "customval_spell_damage_pct": {
+      "value": "-15 -20 -25"
+    }
+  }
+}

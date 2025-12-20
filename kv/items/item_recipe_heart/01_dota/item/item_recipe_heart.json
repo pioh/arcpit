@@ -1,0 +1,10 @@
+{
+  "ItemCost": "600",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_ring_of_tarrasque;item_reaver"
+  },
+  "ItemResult": "item_heart",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

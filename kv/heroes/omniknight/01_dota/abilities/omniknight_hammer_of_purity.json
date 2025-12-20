@@ -1,0 +1,34 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_ATTACK | DOTA_ABILITY_BEHAVIOR_IGNORE_SILENCE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "150",
+  "AbilityDamage": "0 0 0 0",
+  "AbilityManaCost": "0 0 0 0",
+  "AbilitySound": "Hero_Omniknight.Repel",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "20 15 10 5"
+    },
+    "attack_cooldown": {
+      "value": "-1"
+    },
+    "attack_range_bonus": "75",
+    "base_damage": {
+      "special_bonus_unique_omniknight_4": "+75",
+      "value": "55 70 85 100"
+    },
+    "bonus_damage": "25 50 75 100",
+    "duration": "0.2",
+    "heal_pct": {
+      "value": "0"
+    },
+    "movement_slow": "75"
+  },
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

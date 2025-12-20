@@ -1,0 +1,52 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_ALERT_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "0",
+  "AbilityManaCost": "90 100 110 120",
+  "AbilityModifierSupportValue": ".30",
+  "AbilitySound": "Hero_Spirit_Breaker.ChargeOfDarkness",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_spirit_breaker_4": "-4",
+      "value": "22 19 16 13"
+    },
+    "bash_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300 300 300 300"
+    },
+    "charge_for_max_linger": {
+      "special_bonus_facet_spirit_breaker_bull_rush": "5",
+      "value": "0"
+    },
+    "guaranteed_bash_time": "0",
+    "linger_time_max": {
+      "special_bonus_facet_spirit_breaker_bull_rush": "2.5",
+      "value": "0"
+    },
+    "linger_time_min": {
+      "special_bonus_facet_spirit_breaker_bull_rush": "0.5",
+      "value": "0"
+    },
+    "min_movespeed_bonus_pct": "25",
+    "movement_speed": {
+      "special_bonus_shard": "+85",
+      "value": "275 325 375 425"
+    },
+    "out_of_world_time": "0",
+    "reveal_charge": "0",
+    "stun_duration": "1.3 1.6 1.9 2.2",
+    "vision_duration": "0.94 0.94 0.94 0.94",
+    "vision_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400 400 400 400"
+    },
+    "windup_time": "1.5"
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

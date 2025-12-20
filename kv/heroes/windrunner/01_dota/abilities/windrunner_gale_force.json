@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT |  DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "30",
+  "AbilityManaCost": "125",
+  "AbilityValues": {
+    "duration": "3.0",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    },
+    "wind_strength": "240"
+  },
+  "IsGrantedByShard": "1",
+  "IsShardUpgrade": "1",
+  "MaxLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

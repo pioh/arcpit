@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "gold_steal": "4 11 18 25"
+  },
+  "DependentOnAbility": "bounty_hunter_track",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

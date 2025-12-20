@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "250",
+  "AbilityCooldown": "15",
+  "AbilityTextureName": "consumables/seasonal_summon_cny_tree",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE",
+  "AbilityValues": {
+    "duration": {
+      "value": "300"
+    }
+  },
+  "MaxLevel": "1"
+}

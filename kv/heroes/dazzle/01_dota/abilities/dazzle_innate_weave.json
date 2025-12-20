@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "affects_allies": "1",
+    "affects_enemies": "1",
+    "ally_multiplier": {
+      "special_bonus_facet_dazzle_facet_nothl_boon": "=2",
+      "value": "0"
+    },
+    "armor_change": {
+      "special_bonus_unique_dazzle_4": "+1",
+      "value": "0.5 0.75 1.0 1.25"
+    },
+    "duration": "8",
+    "enemy_multiplier": {
+      "special_bonus_facet_dazzle_poison_bloom": "=2",
+      "value": "0"
+    },
+    "heal_amplification_pct": {
+      "special_bonus_facet_dazzle_facet_nothl_boon": "=7.5",
+      "value": "0"
+    },
+    "ultimate_always_applies": "0"
+  },
+  "DependentOnAbility": "dazzle_nothl_projection",
+  "Innate": "1",
+  "MaxLevel": "4"
+}

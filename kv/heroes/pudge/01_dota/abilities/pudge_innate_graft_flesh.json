@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityValues": {
+    "flesh_heap_range": {
+      "affected_by_aoe_increase": "1",
+      "value": "450"
+    },
+    "flesh_heap_strength_buff_amount": {
+      "special_bonus_unique_pudge_1": "x1.5",
+      "value": "1.1 1.4 1.7 2.0"
+    }
+  },
+  "DependentOnAbility": "pudge_dismember",
+  "Innate": "1",
+  "MaxLevel": "4"
+}

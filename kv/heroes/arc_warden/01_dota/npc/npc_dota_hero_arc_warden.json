@@ -1,0 +1,196 @@
+{
+  "Ability1": "arc_warden_flux",
+  "Ability10": "special_bonus_unique_arc_warden_5",
+  "Ability11": "special_bonus_hp_200",
+  "Ability12": "special_bonus_unique_arc_warden_4",
+  "Ability13": "special_bonus_unique_arc_warden_3",
+  "Ability14": "special_bonus_unique_arc_warden",
+  "Ability15": "special_bonus_unique_arc_warden_9",
+  "Ability16": "special_bonus_unique_arc_warden_8",
+  "Ability17": "special_bonus_unique_arc_warden_7",
+  "Ability2": "arc_warden_magnetic_field",
+  "Ability3": "arc_warden_spark_wraith",
+  "Ability4": "arc_warden_runic_infusion",
+  "Ability5": "generic_hidden",
+  "Ability6": "arc_warden_tempest_double",
+  "AbilityDraftAbilities": {
+    "Ability1": "arc_warden_flux",
+    "Ability2": "arc_warden_magnetic_field",
+    "Ability3": "arc_warden_spark_wraith"
+  },
+  "Adjectives": {
+    "Arachnophobic": "1",
+    "Blue": "1",
+    "Cape": "1",
+    "Nose": "0"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.3",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "29",
+  "AttackDamageMin": "23",
+  "AttackDamageType": "DAMAGE_TYPE_ArmorPhysical",
+  "AttackRange": "625",
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "170",
+    "faster": "275",
+    "fastest": "350"
+  },
+  "AttributeAgilityGain": "3",
+  "AttributeBaseAgility": "20",
+  "AttributeBaseIntelligence": "24",
+  "AttributeBaseStrength": "20",
+  "AttributeIntelligenceGain": "2.6",
+  "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+  "AttributeStrengthGain": "2.4",
+  "BanSound": "arc_warden_arcwar_anger_10",
+  "BaseAttackSpeed": "110",
+  "Bot": {
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "2",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "0",
+      "SurvivalRating": "0"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "3",
+  "Enabled": "1",
+  "Facets": {
+    "arc_warden_disorder": {
+      "Color": "Gray",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "arc_warden_alt"
+    },
+    "arc_warden_order": {
+      "Color": "Gray",
+      "Deprecated": "true",
+      "GradientID": "3",
+      "Icon": "arc_warden"
+    },
+    "arc_warden_power_capture": {
+      "Color": "Yellow",
+      "GradientID": "1",
+      "Icon": "rune"
+    },
+    "arc_warden_runed_replica": {
+      "Color": "Blue",
+      "GradientID": "1",
+      "Icon": "arc_warden_alt"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_arc_warden.vsndevts",
+  "GibTintColor": "108 209 210 255",
+  "GibType": "ethereal",
+  "HeroGlowColor": "120 64 148",
+  "HeroID": "113",
+  "HeroOrderID": "111",
+  "HeroSelectSoundEffect": "Hero_ArcWarden.Pick",
+  "HeroUnlockOrder": "1",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_arms",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "SlotIndex": "4",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_3",
+      "SlotText": "arc_warden_spark_wraith"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "Model": "models/heroes/arc_warden/arc_warden.vmdl",
+  "ModelScale": "1.0",
+  "MovementSpeed": "285",
+  "MovementSpeedActivityModifiers": {
+    "run": "325",
+    "walk": "0"
+  },
+  "MovementTurnRate": "0.7",
+  "NameAliases": "zet,aw",
+  "PickSound": "arc_warden_arcwar_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_arc_warden/arc_warden_base_attack.vpcf",
+  "ProjectileSpeed": "900",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_arc_warden/arc_warden_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Escape,Nuker",
+  "Rolelevels": "3,3,1",
+  "SimilarHeroes": "34,53,80",
+  "SoundSet": "Hero_ArcWarden",
+  "StatusHealthRegen": "0.25",
+  "Team": "Bad",
+  "VersusScale": "1",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_arc_warden.vsndevts",
+  "particle_folder": "particles/units/heroes/hero_arc_warden",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_arc_warden.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_arc_warden.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "1",
+    "attach_attack2": "2",
+    "attach_head": "3"
+  },
+  "workshop_guide_name": "Arc Warden"
+}

@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "850 900 950 1000",
+  "AbilityCooldown": "24 21 18 15",
+  "AbilityManaCost": "50 60 70 80",
+  "AbilitySound": "Hero_Winter_Wyvern.ColdEmbrace",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "can_target_buildings": {
+      "special_bonus_facet_winter_wyvern_winterproof": "=1"
+    },
+    "damage_buff_duration": {
+      "special_bonus_facet_winter_wyvern_winterproof": "=6.0"
+    },
+    "damage_buff_pct": {
+      "special_bonus_facet_winter_wyvern_winterproof": "=60"
+    },
+    "duration": "4.0",
+    "heal_additive": {
+      "special_bonus_unique_winter_wyvern_5": "+25",
+      "value": "40 45 50 55"
+    },
+    "heal_percentage": "2.25 3 3.75 4.5",
+    "shard_cooldown_reduction": {
+      "special_bonus_shard": "4.0"
+    },
+    "shard_splinter_range": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_shard": "1150"
+    },
+    "tick_interval": "0.25"
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

@@ -1,0 +1,12 @@
+{
+  "ItemCost": "300",
+  "ItemPurchasable": "1",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_crown;item_kaya"
+  },
+  "ItemResult": "item_meteor_hammer",
+  "ItemSellable": "1",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

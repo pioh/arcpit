@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "300",
+  "AbilityCooldown": "10.0",
+  "AbilityDuration": "15.0",
+  "AbilityManaCost": "50",
+  "AbilityValues": {
+    "attack_speed_bonus_pct": {
+      "value": "300"
+    },
+    "cast_animation": {
+      "value": "5"
+    },
+    "max_attacks": {
+      "value": "5"
+    }
+  }
+}

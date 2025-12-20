@@ -1,0 +1,287 @@
+{
+  "Ability1": "jakiro_dual_breath",
+  "Ability10": "special_bonus_unique_jakiro_4",
+  "Ability11": "special_bonus_unique_jakiro_6",
+  "Ability12": "special_bonus_attack_range_175",
+  "Ability13": "special_bonus_unique_jakiro_dualbreath_cooldown",
+  "Ability14": "special_bonus_unique_jakiro",
+  "Ability15": "special_bonus_unique_jakiro_7",
+  "Ability16": "special_bonus_unique_jakiro_2",
+  "Ability17": "special_bonus_unique_jakiro_3",
+  "Ability2": "jakiro_ice_path",
+  "Ability3": "jakiro_liquid_fire",
+  "Ability4": "jakiro_liquid_ice",
+  "Ability5": "jakiro_double_trouble",
+  "Ability6": "jakiro_macropyre",
+  "AbilityDraftAbilities": {
+    "Ability1": "jakiro_dual_breath",
+    "Ability2": "jakiro_ice_path",
+    "Ability3": "jakiro_liquid_fire,jakiro_liquid_ice",
+    "Ability6": "jakiro_macropyre"
+  },
+  "Adjectives": {
+    "Blue": "1",
+    "Fiery": "1",
+    "Flying": "1",
+    "Icy": "1",
+    "Red": "1",
+    "Wings": "1"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "950",
+  "AttackAnimationPoint": "0.400000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "35",
+  "AttackDamageMin": "27",
+  "AttackRange": "400",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.200000",
+  "AttributeBaseAgility": "15",
+  "AttributeBaseIntelligence": "26",
+  "AttributeBaseStrength": "25",
+  "AttributeIntelligenceGain": "3.000000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.5",
+  "BanSound": "jakiro_jak_anger_04",
+  "Bot": {
+    "Build": {
+      "1": "jakiro_dual_breath",
+      "2": "jakiro_liquid_fire",
+      "3": "jakiro_ice_path",
+      "4": "jakiro_liquid_fire",
+      "5": "jakiro_liquid_fire",
+      "6": "jakiro_macropyre",
+      "7": "jakiro_liquid_fire",
+      "8": "jakiro_dual_breath",
+      "9": "jakiro_dual_breath",
+      "10": "special_bonus_unique_jakiro_dualbreath_cooldown",
+      "11": "jakiro_dual_breath",
+      "12": "jakiro_macropyre",
+      "13": "jakiro_ice_path",
+      "14": "jakiro_ice_path",
+      "15": "special_bonus_unique_jakiro_4",
+      "16": "jakiro_ice_path",
+      "17": "",
+      "18": "jakiro_macropyre",
+      "19": "",
+      "20": "special_bonus_unique_jakiro_7",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_jakiro_2"
+    },
+    "HeroType": "DOTA_BOT_PUSH_SUPPORT | DOTA_BOT_STUN_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "1",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    },
+    "Loadout": {
+      "item_arcane_boots": "ITEM_DERIVED",
+      "item_blade_of_alacrity": "ITEM_EXTENSION",
+      "item_boots": "ITEM_CORE",
+      "item_branches": [
+        "ITEM_CORE",
+        "ITEM_CORE"
+      ],
+      "item_clarity": [
+        "ITEM_CONSUMABLE | ITEM_SELLABLE",
+        "ITEM_CONSUMABLE | ITEM_SELLABLE"
+      ],
+      "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_magic_stick": "ITEM_CORE",
+      "item_magic_wand": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_mystic_staff": "ITEM_LUXURY",
+      "item_ogre_axe": "ITEM_EXTENSION",
+      "item_point_booster": "ITEM_EXTENSION",
+      "item_recipe_arcane_boots": "ITEM_EXTENSION",
+      "item_recipe_magic_wand": "ITEM_CORE",
+      "item_recipe_ring_of_basilius": "ITEM_CORE",
+      "item_recipe_sheepstick": "ITEM_EXTENSION",
+      "item_ring_of_basilius": "ITEM_DERIVED",
+      "item_sheepstick": "ITEM_DERIVED",
+      "item_sobi_mask": "ITEM_CORE",
+      "item_staff_of_wizardry": "ITEM_EXTENSION",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_tiara_of_selemene": "ITEM_EXTENSION",
+      "item_ultimate_scepter": "ITEM_DERIVED"
+    }
+  },
+  "BotImplemented": "1",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "jakiro_fire": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "2",
+          "AbilityName": "jakiro_liquid_fire",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Red",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "nuke"
+    },
+    "jakiro_ice": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "2",
+          "AbilityName": "jakiro_liquid_ice",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Blue",
+      "Deprecated": "true",
+      "GradientID": "1",
+      "Icon": "snowflake"
+    },
+    "jakiro_ice_breaker": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "7",
+          "AbilityName": "jakiro_ice_path_detonate",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Blue",
+      "GradientID": "1",
+      "Icon": "snowflake"
+    },
+    "jakiro_twin_terror": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "damage"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_jakiro.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "107 74 53",
+  "HeroID": "64",
+  "HeroOrderID": "55",
+  "HeroPool1": "1",
+  "HeroPool2": "1",
+  "HeroSelectSoundEffect": "Hero_Jakiro.Pick",
+  "HeroUnlockOrder": "1",
+  "IdleExpression": "scenes/jakiro/jakiro_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Jakiro_Head_Right",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "1",
+      "SlotName": "body_head",
+      "SlotText": "#LoadoutSlot_Jakiro_Head_Left",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Wings",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "tail",
+      "SlotText": "#LoadoutSlot_Tail",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "4",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_1",
+      "SlotText": "jakiro_dual_breath"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_2",
+      "SlotText": "jakiro_ice_path"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_4",
+      "SlotText": "jakiro_macropyre"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_crystal_maiden",
+  "LoadoutScale": "0.97",
+  "Model": "models/heroes/jakiro/jakiro.vmdl",
+  "ModelScale": "0.970000",
+  "MovementSpeed": "290",
+  "MovementTurnRate": "0.8",
+  "NameAliases": "thd;twin headed dragon",
+  "NewHero": "1",
+  "NoCombine": "1",
+  "PickSound": "jakiro_jak_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_jakiro/jakiro_base_attack.vpcf",
+  "ProjectileSpeed": "1100",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_jakiro/jakiro_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Support,Nuker,Pusher,Disabler",
+  "Rolelevels": "1,2,2,1",
+  "SimilarHeroes": "5,31,90",
+  "SoundSet": "Hero_Jakiro",
+  "Team": "Good",
+  "VersusScale": "0.97",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_jakiro.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_jakiro",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_jakiro.vpcf",
+    "party_hat_effect_1": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_jakiro_mount.vpcf"
+  },
+  "precache": {
+    "particle": [
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_jakiro.vpcf",
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_jakiro_mount.vpcf"
+    ]
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_attack2": "2"
+  },
+  "workshop_guide_name": "Jakiro"
+}

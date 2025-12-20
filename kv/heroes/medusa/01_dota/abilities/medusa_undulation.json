@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "fixed_movespeed": "310",
+    "stone_gaze_ms_tooltip_only": "465"
+  },
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

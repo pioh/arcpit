@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "200",
+  "AbilityCooldown": "15.0 12.0 9.0 6.0",
+  "AbilityManaCost": "35 40 45 50",
+  "AbilitySound": "Hero_Kunkka.Tidebringer.Attack",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "attack_damage": {
+      "special_bonus_unique_sand_king_scorpion_strike_damage": "+40",
+      "value": "50 75 100 125"
+    },
+    "caustic_damage_pct": {
+      "special_bonus_facet_sand_king_pinpoint": "50"
+    },
+    "debuff_duration": "4 5 6 7",
+    "inner_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "125"
+    },
+    "inner_radius_bonus_damage_pct": {
+      "value": "40"
+    },
+    "inner_radius_procs_caustic": {
+      "special_bonus_facet_sand_king_pinpoint": "=1"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "230 250 270 290"
+    },
+    "strike_slow": {
+      "special_bonus_unique_sand_king_3": "+12",
+      "value": "10 12 14 16"
+    }
+  },
+  "FightRecapLevel": "1"
+}

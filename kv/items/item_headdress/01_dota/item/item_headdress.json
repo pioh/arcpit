@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastRange": "1200",
+  "AbilityValues": {
+    "aura_health_regen": "2.0",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "health_regen": "0.5"
+  },
+  "ItemCost": "425",
+  "ItemQuality": "rare",
+  "ItemShopTags": "str;int;agi;regen_health",
+  "SuggestEarlygame": "1"
+}

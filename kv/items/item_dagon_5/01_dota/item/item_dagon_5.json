@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "700 750 800 850 900",
+  "AbilityCooldown": "27 24 21 18 15",
+  "AbilityManaCost": "120 140 160 180 200",
+  "AbilitySharedCooldown": "dagon",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bonus_agi": "7 9 11 13 15",
+    "bonus_int": "7 9 11 13 15",
+    "bonus_str": "7 9 11 13 15",
+    "dagon_spell_lifesteal": "75",
+    "damage": "400 500 600 700 800",
+    "damage_delay": "0",
+    "int_damage": "0",
+    "mana_cost_tooltip": "120 140 160 180 200",
+    "passive_spell_lifesteal": "15 16 17 18 19"
+  },
+  "FightRecapLevel": "1",
+  "ItemBaseLevel": "5",
+  "ItemCost": "7400",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "damage;int;str;agi;hard_to_tag;magic_dmg",
+  "MaxUpgradeLevel": "5",
+  "SuggestLategame": "1"
+}

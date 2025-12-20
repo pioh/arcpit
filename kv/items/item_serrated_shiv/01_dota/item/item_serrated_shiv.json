@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCooldown": "1.0",
+  "AbilityValues": {
+    "hp_dmg": {
+      "apply_curio_bonus": "1",
+      "value": "8"
+    },
+    "hp_dmg_rosh": {
+      "apply_curio_bonus": "1",
+      "value": "200"
+    },
+    "proc_chance": "20"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

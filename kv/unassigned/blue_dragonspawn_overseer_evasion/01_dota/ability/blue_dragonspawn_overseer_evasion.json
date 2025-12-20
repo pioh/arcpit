@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "evasion_chance_pct": {
+      "value": "15"
+    }
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

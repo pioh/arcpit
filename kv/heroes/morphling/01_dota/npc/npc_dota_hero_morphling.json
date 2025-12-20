@@ -1,0 +1,205 @@
+{
+  "Ability1": "morphling_waveform",
+  "Ability15": "special_bonus_magic_resistance_15",
+  "Ability16": "special_bonus_unique_morphling_8",
+  "Ability17": "special_bonus_unique_morphling_1",
+  "Ability18": "special_bonus_attack_range_75",
+  "Ability19": "special_bonus_unique_morphling_7",
+  "Ability2": "morphling_adaptive_strike_agi",
+  "Ability20": "special_bonus_agility_15",
+  "Ability21": "special_bonus_unique_morphling_waveform_cooldown",
+  "Ability22": "special_bonus_strength_35",
+  "Ability3": "generic_hidden",
+  "Ability4": "morphling_morph_agi",
+  "Ability5": "morphling_morph_str",
+  "Ability6": "morphling_replicate",
+  "Ability7": "morphling_morph_replicate",
+  "Ability8": "generic_hidden",
+  "Ability9": "morphling_accumulation",
+  "AbilityDraftAbilities": {
+    "Ability1": "morphling_waveform",
+    "Ability2": "morphling_adaptive_strike_agi"
+  },
+  "AbilityTalentStart": "15",
+  "Adjectives": {
+    "Aquatic": "1",
+    "Blue": "1",
+    "Legs": "0",
+    "Nose": "0"
+  },
+  "ArmorPhysical": "-2",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "21",
+  "AttackDamageMin": "12",
+  "AttackRange": "350",
+  "AttackRate": "1.5000",
+  "AttributeAgilityGain": "3.900000",
+  "AttributeBaseAgility": "24",
+  "AttributeBaseIntelligence": "19",
+  "AttributeBaseStrength": "23",
+  "AttributeIntelligenceGain": "1.800000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.6",
+  "BanSound": "morphling_mrph_anger_07",
+  "Bot": {
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "3",
+  "Enabled": "1",
+  "Facets": {
+    "morphling_agi": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "morphling_ebb"
+        }
+      },
+      "Color": "Green",
+      "GradientID": "0",
+      "Icon": "agility"
+    },
+    "morphling_str": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "morphling_flow"
+        }
+      },
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "strength"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_morphling.vsndevts",
+  "GibTintColor": "99 255 255 255",
+  "GibType": "ethereal",
+  "HeroGlowColor": "33 255 255",
+  "HeroID": "10",
+  "HeroOrderID": "11",
+  "HeroSelectSoundEffect": "Hero_Morphling.Pick",
+  "HeroUnlockOrder": "3",
+  "IdleSoundLoop": "Hero_Morphling.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "1",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Misc",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_1",
+      "SlotText": "morphling_waveform"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_2",
+      "SlotText": "morphling_adaptive_strike_agi"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_necrolyte",
+  "LoadoutScale": "0.88",
+  "Model": "models/heroes/morphling/morphling.vmdl",
+  "ModelScale": "0.880000",
+  "MovementSpeed": "285",
+  "MovementTurnRate": "0.700000",
+  "NoCombine": "1",
+  "PickSound": "morphling_mrph_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_morphling/morphling_base_attack.vpcf",
+  "ProjectileSpeed": "1300",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_morphling/morphling_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Escape,Durable,Nuker,Disabler",
+  "Rolelevels": "3,3,2,1,1",
+  "SimilarHeroes": "113,109,94",
+  "SoundSet": "Hero_Morphling",
+  "SpectatorLoadoutScale": "1",
+  "StatusHealthRegen": "0.5",
+  "StatusManaRegen": "0.0",
+  "Team": "Good",
+  "VersusScale": "0.88",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_morphling.vsndevts",
+  "particle_folder": "particles/units/heroes/hero_morphling",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_morphling.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_morphling.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "1",
+    "attach_attack2": "2",
+    "attach_head": "3"
+  },
+  "workshop_guide_name": "Morphling"
+}

@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "7.0 6.5 6 5.5",
+  "AbilityManaCost": "85",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "barrage_duration": "3",
+    "bonus_movement_speed_per_hit": {
+      "special_bonus_facet_gyrocopter_afterburner": "=1 =2 =3 =4",
+      "value": "0 0 0 0"
+    },
+    "bonus_movespeed_duration": {
+      "special_bonus_facet_gyrocopter_afterburner": "=4.0",
+      "value": "0"
+    },
+    "radius": "400",
+    "rocket_damage": {
+      "special_bonus_unique_gyrocopter_3": "+14",
+      "value": "8 14 20 26"
+    },
+    "rocket_interval": "0.1",
+    "rockets_per_second": "10"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_armor": "10"
+  },
+  "ItemCost": "1400",
+  "ItemQuality": "secret_shop",
+  "ItemShopTags": "armor",
+  "SecretShop": "1"
+}

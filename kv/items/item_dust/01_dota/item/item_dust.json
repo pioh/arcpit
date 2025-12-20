@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastRange": "1050",
+  "AbilityCooldown": "30.0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "damage": "25",
+    "duration": "12",
+    "linger_duration": "8",
+    "movespeed": "-20",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1050"
+    }
+  },
+  "Effect": "particles/generic_gameplay/dropped_dust.vpcf",
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "80",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES",
+  "ItemInitialCharges": "1",
+  "ItemPermanent": "0",
+  "ItemQuality": "consumable",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "consumable;see_invis;laning",
+  "ItemStackable": "1",
+  "ItemSupport": "1",
+  "Model": "models/props_gameplay/dust.vmdl",
+  "ShouldNotSuggestMainGame": "1",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

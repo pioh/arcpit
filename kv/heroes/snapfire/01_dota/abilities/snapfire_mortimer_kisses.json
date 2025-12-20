@@ -1,0 +1,63 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.5",
+  "AbilityCastRange": "3000",
+  "AbilityCooldown": "120 110 100",
+  "AbilityDraftExtraAbilities": {
+    "snapfire_gobble_up": "scepter",
+    "snapfire_spit_creep": "scepter"
+  },
+  "AbilityDuration": "5.5",
+  "AbilityManaCost": "125 150 175",
+  "AbilitySound": "Hero_Snapfire.MortimerBlob.Launch",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "burn_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "special_bonus_unique_snapfire_5": "+35",
+      "value": "60 80 100"
+    },
+    "burn_ground_duration": "3.5",
+    "burn_interval": "0.5",
+    "burn_linger_duration": "1.0",
+    "damage_per_impact": {
+      "value": "180 270 360"
+    },
+    "delay_after_last_projectile": "0.5",
+    "dist_change_speed": "75",
+    "duration_tooltip": "5.5",
+    "has_bonus_projectile": {
+      "special_bonus_unique_snapfire_1": "1"
+    },
+    "impact_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    },
+    "max_lob_travel_time": "2.0",
+    "min_lob_travel_time": "0.8",
+    "min_range": "600",
+    "move_slow_pct": {
+      "value": "15 20 25"
+    },
+    "projectile_count": {
+      "special_bonus_unique_snapfire_1": "+8",
+      "value": "8"
+    },
+    "projectile_speed": "1300",
+    "projectile_vision": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "projectile_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "130"
+    },
+    "turn_rate": "75"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

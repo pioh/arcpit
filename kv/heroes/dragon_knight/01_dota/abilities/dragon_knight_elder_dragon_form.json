@@ -1,0 +1,78 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCooldown": "100",
+  "AbilityDraftExtraAbilities": {
+    "dragon_knight_fireball": "shard"
+  },
+  "AbilityManaCost": "50 50 50",
+  "AbilityModifierSupportValue": "0.35",
+  "AbilitySound": "Hero_DragonKnight.ElderDragonForm",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "bonus_attack_damage": "20 50 80 110",
+    "bonus_attack_range": {
+      "special_bonus_unique_dragon_knight_7": "+150",
+      "value": "350 350 350 350"
+    },
+    "bonus_movement_speed": "20",
+    "corrosive_breath_effect_bonus": {
+      "special_bonus_facet_dragon_knight_corrosive_dragon": {
+        "special_bonus_unique_dragon_knight_8": "+50",
+        "value": "=20 =30 =40 =50"
+      }
+    },
+    "duration": {
+      "value": "60"
+    },
+    "fire_breath_effect_bonus": {
+      "special_bonus_facet_dragon_knight_fire_dragon": {
+        "special_bonus_unique_dragon_knight_8": "+50",
+        "value": "=20 =30 =40 =50"
+      }
+    },
+    "frost_breath_effect_bonus": {
+      "special_bonus_facet_dragon_knight_frost_dragon": {
+        "special_bonus_unique_dragon_knight_8": "+50",
+        "value": "=20 =30 =40 =50"
+      }
+    },
+    "health_bar_offset": {
+      "value": "300"
+    },
+    "is_blue_dragon": {
+      "special_bonus_facet_dragon_knight_frost_dragon": "+1",
+      "value": "0"
+    },
+    "is_green_dragon": {
+      "special_bonus_facet_dragon_knight_corrosive_dragon": "+1",
+      "value": "0"
+    },
+    "is_red_dragon": {
+      "special_bonus_facet_dragon_knight_fire_dragon": "+1",
+      "value": "0"
+    },
+    "magic_resistance": {
+      "value": "0"
+    },
+    "model_scale": {
+      "special_bonus_scepter": "+10",
+      "value": "10 15 20"
+    },
+    "ranged_splash_damage_pct": {
+      "value": "30 40 50 60"
+    },
+    "ranged_splash_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    },
+    "wyrms_wrath_bonus_tooltip": {
+      "special_bonus_unique_dragon_knight_8": "+50",
+      "value": "20 30 40 50"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

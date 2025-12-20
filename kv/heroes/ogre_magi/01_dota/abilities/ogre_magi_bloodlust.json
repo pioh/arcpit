@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AUTOCAST | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.45",
+  "AbilityCastRange": "650",
+  "AbilityCooldown": "20 18 16 14",
+  "AbilityManaCost": "40 50 60 70",
+  "AbilitySound": "Hero_OgreMagi.Bloodlust.Target",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
+  "AbilityValues": {
+    "bonus_attack_speed": {
+      "special_bonus_unique_ogre_magi": "+35",
+      "value": "35 50 65 80"
+    },
+    "bonus_movement_speed": "6 8 10 12",
+    "duration": "30",
+    "modelscale": "25.0",
+    "multicast_bloodlust_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "700"
+    },
+    "self_bonus": {
+      "special_bonus_unique_ogre_magi": "+35",
+      "value": "40 60 80 100"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

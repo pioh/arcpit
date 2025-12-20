@@ -1,0 +1,9 @@
+{
+  "ItemCost": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_ultimate_orb;item_ultimate_orb;item_orb_of_frost"
+  },
+  "ItemResult": "item_skadi",
+  "ItemShopTags": ""
+}

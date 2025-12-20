@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "180.0",
+  "AbilityManaCost": "200",
+  "AbilityValues": {
+    "bonus_damage": "20",
+    "bonus_health_regen": "12",
+    "bonus_mana_regen": "6.0"
+  },
+  "CooldownPausedOutOfInventory": "1",
+  "Effect": "particles/generic_gameplay/dropped_refresher_shard.vpcf",
+  "FightRecapLevel": "2",
+  "IsTempestDoubleClonable": "0",
+  "ItemContributesToNetWorthWhenDropped": "0",
+  "ItemCost": "1000",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemInitialCharges": "1",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "",
+  "ItemStackable": "0",
+  "Model": "models/props_gameplay/refresher_shard.vmdl",
+  "SpeciallyBannedFromNeutralSlot": "1"
+}

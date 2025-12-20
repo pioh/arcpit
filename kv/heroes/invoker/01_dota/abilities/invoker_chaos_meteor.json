@@ -1,0 +1,61 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.05",
+  "AbilityCastRange": "700",
+  "AbilityManaCost": "200",
+  "AbilityModifierSupportValue": "0.0",
+  "AbilitySound": "Hero_Invoker.ChaosMeteor.Impact",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "50"
+    },
+    "area_of_effect": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_invoker_chaos_meteor_size": "+25",
+      "value": "275"
+    },
+    "burn_dps": {
+      "CalculateSpellDamageTooltip": "1",
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "levelkey": "exortlevel",
+      "value": "10 15 20 25 30 35 40 45 50 55"
+    },
+    "burn_duration": "3.0",
+    "damage_interval": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "0.5"
+    },
+    "end_vision_duration": "3.0",
+    "land_time": "1.3",
+    "main_damage": {
+      "levelkey": "exortlevel",
+      "value": "55 80 105 130 155 180 205 220 235 250"
+    },
+    "meteor_count": {
+      "special_bonus_unique_invoker_additional_chaos_meteors": "+2",
+      "value": "1"
+    },
+    "stun_duration": {
+      "value": "0"
+    },
+    "travel_distance": {
+      "levelkey": "wexlevel",
+      "value": "465 615 780 930 1095 1245 1410 1575 1725 1890"
+    },
+    "travel_speed": {
+      "value": "300"
+    },
+    "vision_distance": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HotKeyOverride": "D",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_RUNE_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.2 0.2 0.2 0.2",
+  "AbilityCastRange": "200",
+  "AbilityManaCost": "75",
+  "AbilitySound": "Hero_Batrider.FlamingLasso.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY | DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "AbilityCooldown": "30",
+    "break_distance": "425",
+    "damage": "300",
+    "drag_distance": "200",
+    "duration": "2.5",
+    "self_slow": "0",
+    "tick_rate": "0.5"
+  },
+  "FightRecapLevel": "2",
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

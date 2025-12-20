@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "spell_lifesteal": "12"
+  },
+  "ItemCost": "650",
+  "ItemQuality": "component",
+  "ItemShopTags": "unique"
+}

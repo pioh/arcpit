@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastGestureSlot": "ABSOLUTE",
+  "AbilityCastPoint": "0",
+  "AbilityManaCost": "80 90 100 110",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_dark_willow_5": "-2",
+      "value": "21 19 17 15"
+    },
+    "attack_range_bonus": "600",
+    "aura_damage_pct": {
+      "special_bonus_facet_dark_willow_throwing_shade": "=30",
+      "value": "0"
+    },
+    "aura_linger": {
+      "special_bonus_facet_dark_willow_throwing_shade": "=0.75",
+      "value": "0"
+    },
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_dark_willow_throwing_shade": "=700",
+      "value": "0"
+    },
+    "damage": "120 200 280 360",
+    "duration": {
+      "special_bonus_unique_dark_willow_1": "+1.5",
+      "value": "5"
+    },
+    "fade_time": "0.3",
+    "max_damage_duration": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "3.0"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.5",
+  "AbilityCastRange": "1500",
+  "AbilityCooldown": "30",
+  "AbilityDuration": "8",
+  "AbilityManaCost": "50",
+  "AbilitySound": "Hero_Ringmaster.SpotLight.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "duration": "8",
+    "illusion_percent_damage": "30",
+    "initial_speed": "3000",
+    "linger_duration": "0.3",
+    "miss_chance": "30",
+    "pulse_interval": "0.1",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    },
+    "spotlight_count": "3",
+    "start_offset": "0",
+    "sweep_radius": "450",
+    "sweep_speed": "0.785"
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

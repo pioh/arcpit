@@ -1,0 +1,12 @@
+{
+  "IsObsolete": "1",
+  "ItemCost": "1",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_quelling_blade*;item_ring_of_protection"
+  },
+  "ItemResult": "item_iron_talon",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.mdl"
+}

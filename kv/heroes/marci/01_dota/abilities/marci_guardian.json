@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "1000",
+  "AbilityCooldown": "20",
+  "AbilityManaCost": "45 40 35 30",
+  "AbilitySound": "Hero_Marci.Guardian.Applied",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "bonus_attack_range": "0",
+    "bonus_damage": {
+      "special_bonus_unique_marci_guardian_damage": "+20",
+      "value": "10 15 20 25"
+    },
+    "creep_lifesteal_reduction_pct": "40",
+    "lifesteal_pct": {
+      "special_bonus_unique_marci_guardian_lifesteal": "+10",
+      "value": "12 18 24 30"
+    },
+    "max_partner_distance": {
+      "affected_by_aoe_increase": "1",
+      "value": "1750"
+    },
+    "max_partner_penalty": "50"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

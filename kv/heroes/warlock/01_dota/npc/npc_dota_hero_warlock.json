@@ -1,0 +1,289 @@
+{
+  "Ability1": "warlock_fatal_bonds",
+  "Ability10": "special_bonus_unique_warlock_5",
+  "Ability11": "special_bonus_unique_warlock_upheaval_aoe",
+  "Ability12": "special_bonus_unique_warlock_10",
+  "Ability13": "special_bonus_unique_warlock_7",
+  "Ability14": "special_bonus_unique_warlock_1",
+  "Ability15": "special_bonus_unique_warlock_3",
+  "Ability16": "special_bonus_unique_warlock_4",
+  "Ability17": "special_bonus_unique_warlock_fatal_bonds_count",
+  "Ability2": "warlock_shadow_word",
+  "Ability3": "warlock_upheaval",
+  "Ability4": "warlock_eldritch_summoning",
+  "Ability5": "generic_hidden",
+  "Ability6": "warlock_rain_of_chaos",
+  "AbilityDraftAbilities": {
+    "Ability1": "warlock_fatal_bonds",
+    "Ability2": "warlock_shadow_word",
+    "Ability3": "warlock_upheaval",
+    "Ability4": "warlock_rain_of_chaos"
+  },
+  "Adjectives": {
+    "Bearded": "1",
+    "Cape": "1",
+    "Red": "1"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.300000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "37",
+  "AttackDamageMin": "27",
+  "AttackRange": "600",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.000000",
+  "AttributeBaseAgility": "10",
+  "AttributeBaseIntelligence": "25",
+  "AttributeBaseStrength": "22",
+  "AttributeIntelligenceGain": "3.100000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.4",
+  "BanSound": "warlock_warl_anger_04",
+  "BaseAttackSpeed": "90",
+  "Bot": {
+    "AggressionFactor": "0.800000",
+    "Build": {
+      "1": "warlock_shadow_word",
+      "2": "warlock_fatal_bonds",
+      "3": "warlock_shadow_word",
+      "4": "warlock_fatal_bonds",
+      "5": "warlock_shadow_word",
+      "6": "warlock_rain_of_chaos",
+      "7": "warlock_shadow_word",
+      "8": "warlock_fatal_bonds",
+      "9": "warlock_fatal_bonds",
+      "10": "special_bonus_unique_warlock_5",
+      "11": "warlock_upheaval",
+      "12": "warlock_rain_of_chaos",
+      "13": "warlock_upheaval",
+      "14": "warlock_upheaval",
+      "15": "special_bonus_unique_warlock_7",
+      "16": "warlock_upheaval",
+      "17": "",
+      "18": "warlock_rain_of_chaos",
+      "19": "",
+      "20": "special_bonus_unique_warlock_4",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_warlock_1"
+    },
+    "HeroType": "DOTA_BOT_PURE_SUPPORT | DOTA_BOT_PUSH_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "1",
+      "RequiresSetup": "1",
+      "SoloDesire": "0",
+      "SurvivalRating": "0"
+    },
+    "Loadout": {
+      "item_arcane_boots": "ITEM_DERIVED",
+      "item_blade_of_alacrity": "ITEM_LUXURY",
+      "item_boots": "ITEM_CORE",
+      "item_cornucopia": "ITEM_EXTENSION",
+      "item_crown": [
+        "ITEM_CORE",
+        "ITEM_EXTENSION"
+      ],
+      "item_helm_of_iron_will": "ITEM_EXTENSION",
+      "item_ogre_axe": "ITEM_LUXURY",
+      "item_platemail": "ITEM_LUXURY",
+      "item_point_booster": "ITEM_LUXURY",
+      "item_recipe_arcane_boots": "ITEM_EXTENSION",
+      "item_recipe_refresher": "ITEM_EXTENSION",
+      "item_recipe_ring_of_basilius": "ITEM_EXTENSION",
+      "item_recipe_shivas_guard": "ITEM_LUXURY",
+      "item_recipe_veil_of_discord": "ITEM_EXTENSION",
+      "item_refresher": "ITEM_DERIVED",
+      "item_ring_of_basilius": "ITEM_DERIVED",
+      "item_ring_of_tarrasque": "ITEM_EXTENSION",
+      "item_shivas_guard": "ITEM_DERIVED",
+      "item_sobi_mask": "ITEM_CORE",
+      "item_staff_of_wizardry": "ITEM_LUXURY",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_tiara_of_selemene": "ITEM_EXTENSION",
+      "item_ultimate_scepter": "ITEM_DERIVED",
+      "item_veil_of_discord": "ITEM_DERIVED"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "warlock_golem": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "summons"
+    },
+    "warlock_grimoire": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "warlock_black_grimoire"
+        }
+      },
+      "Color": "Gray",
+      "GradientID": "3",
+      "Icon": "xp"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_warlock.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HeroGlowColor": "249 54 47",
+  "HeroID": "37",
+  "HeroOrderID": "59",
+  "HeroPool1": "1",
+  "HeroPool2": "1",
+  "HeroSelectSoundEffect": "Hero_Warlock.Pick",
+  "HeroUnlockOrder": "2",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "500",
+      "SlotIndex": "2",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "3",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "GeneratesUnits": {
+        "0": "npc_dota_warlock_golem"
+      },
+      "MaxPolygonsLOD0": "6500",
+      "MaxPolygonsLOD1": "3500",
+      "SlotIndex": "4",
+      "SlotName": "ability_ultimate",
+      "SlotText": "#LoadoutSlot_Warlock_Golem",
+      "TextureHeight": "512",
+      "TextureWidth": "1024",
+      "no_import": "1"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "5",
+      "SlotName": "offhand_weapon",
+      "SlotText": "#LoadoutSlot_Warlock_Lantern",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "6": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "6",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "7": {
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "7",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Warlock_EvilPurse",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_1",
+      "SlotText": "warlock_fatal_bonds"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_2",
+      "SlotText": "warlock_shadow_word"
+    },
+    "11": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_3",
+      "SlotText": "warlock_upheaval"
+    },
+    "12": {
+      "SlotIndex": "12",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_lion",
+  "LoadoutScale": "0.93",
+  "Model": "models/heroes/warlock/warlock.vmdl",
+  "ModelScale": "0.930000",
+  "MovementSpeed": "300",
+  "NameAliases": "wl;Demnok Lannik",
+  "PickSound": "warlock_warl_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_warlock/warlock_base_attack.vpcf",
+  "ProjectileSpeed": "1200",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_warlock/warlock_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Support,Initiator,Disabler",
+  "Rolelevels": "1,2,1",
+  "SimilarHeroes": "50,33,57",
+  "SoundSet": "Hero_Warlock",
+  "SpectatorLoadoutScale": "1.1",
+  "Team": "Bad",
+  "VersusScale": "0.93",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_warlock.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_warlock",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_warlock.vpcf"
+  },
+  "precache": {
+    "model": "models/heroes/warlock/warlock_demon.vmdl",
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_warlock.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_head": "1",
+    "attach_lantern": "3",
+    "attach_staff_top": "2"
+  },
+  "workshop_guide_name": "Warlock"
+}

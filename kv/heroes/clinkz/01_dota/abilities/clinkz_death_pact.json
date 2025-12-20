@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_6",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "700",
+  "AbilityCooldown": "0.0",
+  "AbilityManaCost": "60",
+  "AbilitySound": "Hero_Clinkz.DeathPact",
+  "AbilityValues": {
+    "AbilityChargeRestoreTime": {
+      "special_bonus_facet_clinkz_engulfing_step": "-10",
+      "value": "40"
+    },
+    "AbilityCharges": {
+      "special_bonus_unique_clinkz_9": "+1",
+      "value": "1 1 2 2"
+    },
+    "creep_level": "4 5 6 6",
+    "duration": "45",
+    "health_gain": {
+      "special_bonus_unique_clinkz_8": "+350",
+      "value": "175 250 325 400"
+    },
+    "skeletons_spawned": {
+      "value": "0"
+    },
+    "spawn_skeleton_on_origin": {
+      "special_bonus_facet_clinkz_engulfing_step": "1",
+      "value": "0"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

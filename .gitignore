@@ -2,7 +2,16 @@ node_modules
 logs
 
 /content/panorama/scripts/custom_game/**/*.js
-# /game/scripts/vscripts/**/*.lua
+/game/scripts/vscripts/**/*.lua
+/game/scripts/npm/*.txt
+# temp
+.tmp
+.tmp-npm
+
+# auto-generated (do not commit)
+kv/**/02_custom
+src/vscripts/**/**.generated.ts
+src/vscripts/kv_generated
 
 # Dota 2 stuff
 *.bin

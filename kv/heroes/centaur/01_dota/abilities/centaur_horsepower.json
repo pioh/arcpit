@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI ",
+  "AbilityValues": {
+    "base_move_speed_penalty": "0",
+    "move_speed_limit": "575",
+    "strength_to_movement_pct": "30"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

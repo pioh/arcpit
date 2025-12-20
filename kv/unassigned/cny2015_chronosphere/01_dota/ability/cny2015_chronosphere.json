@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastPoint": "0.35",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "130.0",
+  "AbilityManaCost": "150",
+  "AbilityModifierSupportBonus": "50",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "duration": {
+      "value": "4.0 4.5 5.0"
+    },
+    "radius": {
+      "value": "425 450 475 500 525 550 575 600 625 650 675"
+    },
+    "vision_radius": {
+      "value": "475"
+    }
+  },
+  "FightRecapLevel": "2",
+  "MaxLevel": "10",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

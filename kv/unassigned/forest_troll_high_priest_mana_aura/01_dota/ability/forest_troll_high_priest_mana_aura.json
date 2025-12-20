@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityValues": {
+    "allow_multiple": {
+      "value": "0"
+    },
+    "mana_regen": {
+      "value": "1.75"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

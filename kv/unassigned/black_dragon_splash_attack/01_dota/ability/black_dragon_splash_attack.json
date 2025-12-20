@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityValues": {
+    "damage_percent": "100",
+    "range": {
+      "affected_by_aoe_increase": "1",
+      "value": "250"
+    }
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

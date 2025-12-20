@@ -1,0 +1,45 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCooldown": "45.0",
+  "AbilityDuration": "10.0 10.0 10.0",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "AbilityManaCost": {
+      "special_bonus_facet_bristleback_seeing_red": "55 65 75",
+      "value": "0"
+    },
+    "active_bonus_attack_percent": {
+      "special_bonus_facet_bristleback_seeing_red": "50",
+      "value": "0"
+    },
+    "active_bonus_movement_percent": {
+      "special_bonus_facet_bristleback_seeing_red": "50",
+      "value": "0"
+    },
+    "active_duration": {
+      "special_bonus_facet_bristleback_seeing_red": "4 5 6",
+      "value": "0"
+    },
+    "active_view_angle_restriction": {
+      "special_bonus_facet_bristleback_seeing_red": "110",
+      "value": "0"
+    },
+    "aspd_per_stack": {
+      "special_bonus_facet_bristleback_berserk": "=10 =15 =20",
+      "value": "0"
+    },
+    "damage_per_stack": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "special_bonus_facet_bristleback_berserk": "=5",
+      "special_bonus_unique_bristleback_3": "+18",
+      "value": "15 20 25"
+    },
+    "max_stacks": "8 10 12",
+    "move_speed_per_stack": "2 2.5 3",
+    "stack_duration": "16.0 18.0 20.0"
+  },
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

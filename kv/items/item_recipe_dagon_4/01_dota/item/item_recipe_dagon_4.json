@@ -1,0 +1,10 @@
+{
+  "ItemCost": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "02": "item_dagon_3;item_recipe_dagon"
+  },
+  "ItemResult": "item_dagon_4",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

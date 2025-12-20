@@ -1,0 +1,65 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCooldown": "8",
+  "AbilityManaCost": "45 55 65 75",
+  "AbilityModifierSupportValue": "0.3",
+  "AbilitySound": "Hero_Magnataur.Empower.Cast",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "value": "800"
+    },
+    "always_on": {
+      "special_bonus_facet_magnataur_eternal_empowerment": "=1",
+      "value": "0"
+    },
+    "bonus_damage_pct": {
+      "special_bonus_unique_magnus_2": "+10",
+      "value": "16 24 32 40"
+    },
+    "cleave_damage_pct": {
+      "special_bonus_unique_magnus_2": "+10",
+      "value": "16 24 32 40"
+    },
+    "cleave_distance": {
+      "affected_by_aoe_increase": "1",
+      "value": "650"
+    },
+    "cleave_ending_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "360"
+    },
+    "cleave_starting_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    },
+    "empower_duration": {
+      "special_bonus_unique_magnus_4": "+10",
+      "value": "30 33 36 39"
+    },
+    "secondary_cleave_distance": {
+      "value": "0"
+    },
+    "self_multiplier": "30",
+    "self_multiplier_bonus_max_stacks": {
+      "special_bonus_facet_magnataur_eternal_empowerment": "8 12 16 20",
+      "value": "0"
+    },
+    "self_multiplier_bonus_per_stack": {
+      "special_bonus_facet_magnataur_eternal_empowerment": "2 3 4 5",
+      "value": "0"
+    },
+    "self_multiplier_bonus_stack_duration": {
+      "special_bonus_facet_magnataur_eternal_empowerment": "10",
+      "value": "0"
+    },
+    "should_self_cast": {
+      "value": "0"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

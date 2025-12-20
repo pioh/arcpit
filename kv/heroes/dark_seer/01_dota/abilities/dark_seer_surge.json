@@ -1,0 +1,43 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "24 19 14 9",
+  "AbilityManaCost": "50",
+  "AbilityModifierSupportValue": "2.5",
+  "AbilitySound": "Hero_Dark_Seer.Surge",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "aoe_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_dark_seer_3": "350"
+    },
+    "duration": {
+      "special_bonus_shard": "+0",
+      "value": "3 4 5 6"
+    },
+    "speed_boost": "550",
+    "trail_damage": {
+      "special_bonus_shard": "40"
+    },
+    "trail_damage_interval": {
+      "special_bonus_shard": "0.5"
+    },
+    "trail_duration": {
+      "special_bonus_shard": "7"
+    },
+    "trail_move_slow": {
+      "special_bonus_shard": "-35"
+    },
+    "trail_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_shard": "+150",
+      "value": "0"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

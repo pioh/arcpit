@@ -1,0 +1,43 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityCooldown": "45 40 35 30",
+  "AbilityManaCost": "100",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage_per_second": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "25 50 75 100"
+    },
+    "duration": {
+      "special_bonus_unique_batrider_1": "+4.5",
+      "value": "15"
+    },
+    "hp_cost_per_second": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "special_bonus_facet_batrider_buff_on_displacement": "=2.0"
+    },
+    "movement_speed_pct_total": {
+      "special_bonus_facet_batrider_buff_on_displacement": "=25 =30 =35 =40"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "250"
+    },
+    "self_burn_buff": {
+      "special_bonus_facet_batrider_buff_on_displacement": "=1"
+    },
+    "spell_amplification_total": {
+      "special_bonus_facet_batrider_buff_on_displacement": "=20"
+    },
+    "tick_interval": "0.5",
+    "tree_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "100"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

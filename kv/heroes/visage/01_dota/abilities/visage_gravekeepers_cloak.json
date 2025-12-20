@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityValues": {
+    "armor": {
+      "special_bonus_unique_visage_5": "15"
+    },
+    "damage_reduction": {
+      "value": "8 12 16 20"
+    },
+    "max_damage_reduction": {
+      "value": "80"
+    },
+    "max_layers": {
+      "value": "4"
+    },
+    "minimum_damage": {
+      "value": "40"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    },
+    "recovery_time": {
+      "special_bonus_unique_visage_cloak_recovery_time": "-2",
+      "value": "7 6 5 4"
+    },
+    "shard_cooldown": {
+      "special_bonus_shard": "65"
+    },
+    "shard_hp_restoration_pct": {
+      "special_bonus_shard": "25"
+    },
+    "shard_manacost": {
+      "special_bonus_shard": "125"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "IsBreakable": "1"
+}

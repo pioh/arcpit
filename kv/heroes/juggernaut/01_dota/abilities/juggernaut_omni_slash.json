@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.3 0.3 0.3",
+  "AbilityCooldown": "120",
+  "AbilityDraftExtraAbilities": {
+    "juggernaut_swift_slash": "scepter"
+  },
+  "AbilityManaCost": "200 275 350",
+  "AbilityModifierSupportValue": "0.0",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "value": "450"
+    },
+    "attack_rate_multiplier": "1.5",
+    "bonus_attack_speed": "40",
+    "bonus_damage": "25 30 35",
+    "dispel": {
+      "value": "0"
+    },
+    "duration": {
+      "special_bonus_unique_juggernaut_omnislash_duration": "+1",
+      "value": "3 3.25 3.5"
+    },
+    "omni_slash_radius": {
+      "value": "425"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

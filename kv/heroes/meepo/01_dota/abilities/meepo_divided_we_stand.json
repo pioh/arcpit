@@ -1,0 +1,58 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityDamage": "0",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "levels_between_upgrades": {
+      "special_bonus_facet_meepo_more_meepo": "=7",
+      "value": "7"
+    },
+    "magic_resist": {
+      "value": "10 15 20"
+    },
+    "main_meepo_stats_pct": {
+      "special_bonus_facet_meepo_more_meepo": "=90",
+      "value": "100"
+    },
+    "max_level": {
+      "special_bonus_facet_meepo_more_meepo": "=4",
+      "value": "3"
+    },
+    "required_level": {
+      "special_bonus_facet_meepo_more_meepo": "=3",
+      "value": "4"
+    },
+    "respawn": "0.0",
+    "support_group_armor": {
+      "special_bonus_facet_meepo_codependent": "1"
+    },
+    "support_group_attack_speed_pct": {
+      "special_bonus_facet_meepo_codependent": "5"
+    },
+    "support_radius": {
+      "special_bonus_facet_meepo_codependent": "600"
+    },
+    "tooltip_clones": {
+      "special_bonus_facet_meepo_more_meepo": "=0",
+      "value": "1 2 3"
+    },
+    "tooltip_clones_multiplicity": {
+      "special_bonus_facet_meepo_more_meepo": "1 2 3 4"
+    },
+    "tooltip_magic_resist": {
+      "special_bonus_facet_meepo_more_meepo": "=0",
+      "value": "10 15 20"
+    },
+    "tooltip_magic_resist_multiplicity": {
+      "special_bonus_facet_meepo_pack_rat": "=0",
+      "value": "10 15 20 20"
+    },
+    "tooltip_respawn": "20",
+    "tooltip_share_percentage": "20",
+    "tooltip_share_percentage_scepter": "100"
+  },
+  "DisplayAdditionalHeroes": "1",
+  "LevelsBetweenUpgrades": "7",
+  "RequiredLevel": "4"
+}

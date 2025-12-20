@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET |  DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "175",
+  "AbilityCooldown": "45",
+  "AbilityManaCost": "150",
+  "AbilitySound": "Hero_EarthSpirit.Petrify",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "ally_cast_range": "500",
+    "aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "450"
+    },
+    "damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "450"
+    },
+    "duration": "2.4"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

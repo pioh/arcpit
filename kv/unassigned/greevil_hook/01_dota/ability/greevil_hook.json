@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "700 900 1100 1300",
+  "AbilityCooldown": "13.0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityValues": {
+    "customval_damage": {
+      "value": "50"
+    },
+    "hook_distance": {
+      "value": "1300"
+    },
+    "hook_speed": {
+      "value": "1600"
+    },
+    "hook_width": {
+      "value": "100"
+    },
+    "vision_duration": {
+      "value": "4.0 4.0 4.0 4.0"
+    },
+    "vision_radius": {
+      "value": "500 500 500 500"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "800",
+  "AbilityChannelTime": "10 12 14 16",
+  "AbilityDamage": "0 0 0 0",
+  "AbilityManaCost": "100",
+  "AbilitySound": "Hero_Warlock.Upheaval",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": "60 50 40 30",
+    "aoe": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_warlock_upheaval_aoe": "+50",
+      "value": "575 600 625 650"
+    },
+    "aspd_per_second": {
+      "special_bonus_unique_warlock_10": "8"
+    },
+    "base_damage": {
+      "special_bonus_unique_warlock_3": "=40"
+    },
+    "damage_per_second": "10",
+    "damage_tick_interval": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "1"
+    },
+    "duration": "1.0",
+    "imps_interval": "2",
+    "max_damage": {
+      "special_bonus_unique_warlock_3": "+40",
+      "value": "35 60 85 110"
+    },
+    "max_slow": "55 70 85 100",
+    "minor_imp_duration": "15",
+    "slow_per_second": "11 14 17 20"
+  },
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

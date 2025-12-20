@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCooldown": "25.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "blade_fury_damage_tick": {
+      "value": "0.2"
+    },
+    "blade_fury_radius": {
+      "value": "250"
+    },
+    "customval_damage": {
+      "value": "28 33 38"
+    },
+    "duration": {
+      "value": "5"
+    }
+  }
+}

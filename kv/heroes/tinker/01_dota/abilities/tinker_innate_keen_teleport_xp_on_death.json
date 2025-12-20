@@ -1,0 +1,7 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "xp_on_death": "50"
+  },
+  "MaxLevel": "1"
+}

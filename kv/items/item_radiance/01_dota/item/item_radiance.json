@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_INVISIBLE",
+  "AbilityValues": {
+    "aura_damage": "60",
+    "aura_damage_illusions": "35",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "650"
+    },
+    "blind_pct": "0",
+    "bonus_damage": "55",
+    "evasion": "25",
+    "illusion_multiplier_pct": "100",
+    "upgrade_day_vision": "250"
+  },
+  "ItemCost": "4700",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "damage;farming;dps",
+  "SuggestLategame": "1"
+}

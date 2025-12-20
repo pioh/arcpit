@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS ",
+  "AbilityValues": {
+    "agi_bonus_pct_tooltip": {
+      "dynamic_value": "true"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "trueshot_agi_bonus_allies_pct": "50",
+    "trueshot_agi_bonus_base": "4 8 12 16",
+    "trueshot_agi_bonus_per_level": "1"
+  },
+  "DependentOnAbility": "drow_ranger_marksmanship",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

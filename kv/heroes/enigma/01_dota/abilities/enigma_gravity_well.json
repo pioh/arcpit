@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS | DOTA_ABILITY_BEHAVIOR_INNATE_UI | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_NONE",
+  "AbilityValues": {
+    "damage_reduction": "9 11 13 15",
+    "max_dist": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "min_dist": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    }
+  },
+  "DependentOnAbility": "enigma_black_hole",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.25",
+  "AbilityCastRange": "500",
+  "AbilityCooldown": "26 22 18 14",
+  "AbilityManaCost": "90 105 120 135",
+  "AbilityModifierSupportValue": "3.0",
+  "AbilitySound": "Hero_Omniknight.Repel",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bonus_str": {
+      "value": "8 18 28 38"
+    },
+    "duration": {
+      "value": "10"
+    },
+    "hp_regen": {
+      "value": "8 12 16 20"
+    },
+    "status_resistance": {
+      "value": "50"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

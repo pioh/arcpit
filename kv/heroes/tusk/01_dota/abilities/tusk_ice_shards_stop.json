@@ -1,0 +1,4 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0"
+}

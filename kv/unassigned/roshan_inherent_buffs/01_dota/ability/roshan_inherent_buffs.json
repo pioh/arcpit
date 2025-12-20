@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "move_pits_bonus_speed_per_interrupt": "70",
+    "move_pits_max_bonus_speed": "300",
+    "move_pits_slow_resistance": "25"
+  }
+}

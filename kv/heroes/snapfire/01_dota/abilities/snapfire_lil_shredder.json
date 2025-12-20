@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_3",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "800",
+  "AbilityCooldown": "24 20 16 12",
+  "AbilityDuration": "6",
+  "AbilityManaCost": "70 80 90 100",
+  "AbilitySound": "Hero_Snapfire.ExplosiveShells.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "armor_duration": "5.0",
+    "armor_reduction_per_attack": "0.5",
+    "attack_range_bonus": "160 240 320 400",
+    "attack_speed_bonus": "300",
+    "base_attack_time": "1.0",
+    "buff_duration_tooltip": "6",
+    "buffed_attacks": {
+      "special_bonus_unique_snapfire_2": "+1",
+      "value": "5"
+    },
+    "damage": "20 35 50 65",
+    "damage_pct": {
+      "special_bonus_unique_snapfire_6": "+60",
+      "value": "35"
+    },
+    "extra_targets": {
+      "special_bonus_unique_snapfire_8": "=2"
+    }
+  },
+  "FightRecapLevel": "1"
+}

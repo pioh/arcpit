@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCooldown": "25.0",
+  "AbilityManaCost": "75",
+  "AbilitySharedCooldown": "shadow_blade",
+  "AbilityValues": {
+    "bonus_attack_speed": "35",
+    "bonus_damage": "25",
+    "windwalk_bonus_damage": "175",
+    "windwalk_duration": "17.0",
+    "windwalk_fade_time": "0.3",
+    "windwalk_movement_speed": "20"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "3250",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "damage;attack_speed;movespeed;hard_to_tag;dps",
+  "SuggestLategame": "1"
+}

@@ -1,0 +1,10 @@
+{
+  "ItemCost": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_buckler;item_ring_of_basilius;item_lifesteal;item_blades_of_attack"
+  },
+  "ItemResult": "item_vladmir",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

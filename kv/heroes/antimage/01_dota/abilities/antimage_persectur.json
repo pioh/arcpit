@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "mana_threshold": "50",
+    "move_slow_max": {
+      "special_bonus_unique_antimage_5": "+18",
+      "value": "25 30 35 40"
+    },
+    "move_slow_min": {
+      "special_bonus_unique_antimage_5": "+9",
+      "value": "12.5 15.0 17.5 20"
+    },
+    "slow_duration": "0.75",
+    "zero_tooltip": "0"
+  },
+  "DependentOnAbility": "antimage_mana_void",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "15.0",
+  "AbilityManaCost": "175",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "active_duration": "5",
+    "bonus_armor": "10",
+    "bonus_health_regen": "6.5",
+    "bonus_mana": "250",
+    "bonus_mana_regen": "4.0"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "3850",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "regen_health;regen_mana;str;agi;int;hard_to_tag;teamfight;save",
+  "SuggestLategame": "1"
+}

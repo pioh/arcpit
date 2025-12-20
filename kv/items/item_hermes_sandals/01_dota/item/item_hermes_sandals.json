@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCooldown": "10.0",
+  "AbilityValues": {
+    "bonus_agility": "30",
+    "bonus_armor": "5",
+    "bonus_damage_melee": "20",
+    "bonus_damage_range": "20",
+    "bonus_movement_speed": "50",
+    "phase_duration": "4.0",
+    "phase_movement_speed": "20",
+    "phase_movement_speed_range": "10"
+  },
+  "ItemCost": "4800",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemPurchasable": "0",
+  "ItemQuality": "common",
+  "ItemShopTags": "damage;move_speed;hard_to_tag",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestLategame": "1"
+}

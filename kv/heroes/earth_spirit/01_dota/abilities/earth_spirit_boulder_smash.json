@@ -1,0 +1,51 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "150",
+  "AbilityManaCost": "100",
+  "AbilitySound": "Hero_EarthSpirit.BoulderSmash.Target",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlag": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_earth_spirit_7": "-2.0",
+      "value": "20.0 17.0 14.0 11.0"
+    },
+    "creep_multiplier": "1.0",
+    "duration": "1.25 2.5 3.25 4",
+    "move_slow": "50",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "180"
+    },
+    "remnant_smash_radius_tooltip": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "rock_damage": {
+      "special_bonus_unique_earth_spirit_6": "+80",
+      "value": "110 180 250 320"
+    },
+    "rock_distance": {
+      "value": "2000.0"
+    },
+    "rock_search_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "speed": "900",
+    "stun_duration": {
+      "value": "0"
+    },
+    "unit_distance": {
+      "value": "500.0 600.0 700.0 800.0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

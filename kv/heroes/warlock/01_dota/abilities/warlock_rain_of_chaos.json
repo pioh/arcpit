@@ -1,0 +1,62 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.5 0.5 0.5",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "165",
+  "AbilityManaCost": "200 400 600",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilitySound": "Hero_Warlock.RainOfChaos",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    },
+    "bonus_armor": {
+      "special_bonus_unique_warlock_2": "+20"
+    },
+    "bonus_damage_resist": {
+      "special_bonus_unique_warlock_1": "+25"
+    },
+    "bonus_magic_resistance": {},
+    "bonus_slow_resistance": "60",
+    "golem_armor": "8 12 14",
+    "golem_dmg": "100 150 200",
+    "golem_dmg_scepter": {
+      "special_bonus_scepter": "80 120 160"
+    },
+    "golem_duration": "60",
+    "golem_gold_bounty": "100 150 200",
+    "golem_gold_bounty_scepter": {
+      "special_bonus_scepter": "100 150 200"
+    },
+    "golem_health_regen": "25 50 75",
+    "golem_hp": {
+      "value": "1500 2250 3000"
+    },
+    "golem_hp_scepter": {
+      "special_bonus_scepter": "1500 2250 3000"
+    },
+    "golem_movement_speed": "320 340 360",
+    "golem_on_death": {
+      "special_bonus_unique_warlock_4": "1"
+    },
+    "number_of_golems_scepter": {
+      "special_bonus_scepter": "2"
+    },
+    "stun_delay": "0.5",
+    "stun_duration": "0.8",
+    "tooltip_golem_armor": {
+      "special_bonus_unique_warlock_2": "+20",
+      "value": "8 12 14"
+    },
+    "tooltip_manahealthboost": {
+      "special_bonus_facet_warlock_golem": "+90"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

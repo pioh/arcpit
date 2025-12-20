@@ -1,0 +1,10 @@
+{
+  "ItemCost": "800",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_headdress;item_chainmail"
+  },
+  "ItemResult": "item_mekansm",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

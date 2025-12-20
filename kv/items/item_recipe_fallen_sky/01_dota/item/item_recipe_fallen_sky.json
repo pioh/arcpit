@@ -1,0 +1,12 @@
+{
+  "IsObsolete": "1",
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": "",
+  "ItemResult": "item_fallen_sky",
+  "ItemSellable": "0",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

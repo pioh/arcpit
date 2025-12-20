@@ -1,0 +1,45 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCooldown": "0.0 0.0 0.0 0.0",
+  "AbilityManaCost": "25",
+  "AbilitySound": "Hero_WitchDoctor.Voodoo_Restoration",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "bonus_heal_percent": {
+      "special_bonus_unique_witch_doctor_2": "1"
+    },
+    "does_damage": {
+      "special_bonus_facet_witch_doctor_voodoo_festeration": "+1",
+      "value": "0"
+    },
+    "does_heal_all_allies": {
+      "special_bonus_facet_witch_doctor_voodoo_festeration": "=0",
+      "value": "1"
+    },
+    "heal": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "special_bonus_facet_witch_doctor_voodoo_festeration": "+10",
+      "value": "20 30 40 50"
+    },
+    "heal_interval": "0.33 0.33 0.33 0.33",
+    "mana_per_second": {
+      "special_bonus_unique_witch_doctor_4": "x0.75",
+      "value": "9 12 15 18"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_witch_doctor_voodoo_festeration": "+100",
+      "value": "500 550 600 650"
+    },
+    "self_only_heal_percentage": {
+      "special_bonus_facet_witch_doctor_voodoo_festeration": "=25 =30 =35 =40",
+      "value": "0 0 0 0"
+    },
+    "tooltip_mana_per_second": {
+      "special_bonus_unique_witch_doctor_4": "+25"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

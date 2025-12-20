@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "350",
+  "AbilityDuration": "25.0",
+  "AbilityManaCost": "120",
+  "AbilitySound": "Hero_Juggernaut.HealingWard.Cast",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_juggernaut_5": "-12",
+      "value": "60"
+    },
+    "healing_ward_aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "healing_ward_bonus_health": {
+      "special_bonus_unique_juggernaut_2": "+1",
+      "value": "0"
+    },
+    "healing_ward_heal_amount": {
+      "special_bonus_unique_juggernaut_healing_ward_heal": "+1",
+      "value": "2 3 4 5"
+    },
+    "healing_ward_hits_to_kill_tooltip": {
+      "special_bonus_unique_juggernaut_2": "+1",
+      "value": "1"
+    },
+    "healing_ward_movespeed_tooltip": {
+      "value": "325"
+    }
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

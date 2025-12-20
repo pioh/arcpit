@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "duration": "5.0",
+    "heal_reduction_pct": {
+      "special_bonus_unique_abaddon_6": "+10",
+      "value": "35"
+    },
+    "hp_threshold_pct": "40.0"
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

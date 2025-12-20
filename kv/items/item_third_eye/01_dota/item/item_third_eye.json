@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_all_stats": "7",
+    "bonus_vision": "300",
+    "truesight_radius": "500"
+  },
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "0",
+  "ItemInitialCharges": "3",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

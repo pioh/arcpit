@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_CHANNEL | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "0",
+  "AbilityChannelTime": "3.0",
+  "AbilityCooldown": "80.0",
+  "AbilityManaCost": "75",
+  "AbilitySharedCooldown": "teleport",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_BUILDING",
+  "AbilityValues": {
+    "maximum_distance": "800",
+    "minimum_distance": "70",
+    "tooltip_channel_time": "3.0",
+    "vision_radius": "200"
+  },
+  "ItemCost": "100",
+  "ItemInitialCharges": "1",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "1",
+  "ItemQuality": "consumable",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "consumable;laning;tutorial",
+  "ItemStackable": "1",
+  "Model": "models/props_gameplay/tpscroll01.vmdl",
+  "ShouldNotSuggestMainGame": "1"
+}

@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCooldown": "40.0",
+  "AbilityValues": {
+    "duration": "20",
+    "magic_resist": "15",
+    "scout_movespeed": "350",
+    "self_vision_duration": "5",
+    "sight_range": "300",
+    "vision_bonus": "150"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

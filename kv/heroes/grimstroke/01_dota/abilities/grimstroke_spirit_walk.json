@@ -1,0 +1,57 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.15",
+  "AbilityCastRange": "500 600 700 800",
+  "AbilityManaCost": "120 130 140 150",
+  "AbilityModifierSupportValue": "0.75",
+  "AbilitySound": "Hero_ObsidianDestroyer.AstralImprisonment",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_grimstroke_7": "-4",
+      "value": "27 24 21 18"
+    },
+    "buff_duration": {
+      "special_bonus_facet_grimstroke_inkstigate": "+1",
+      "value": "3"
+    },
+    "can_end_early": {
+      "special_bonus_facet_grimstroke_inkstigate": "+1",
+      "value": "0"
+    },
+    "damage_per_tick": "6 9 12 15",
+    "max_damage": {
+      "value": "90 180 270 360"
+    },
+    "max_stun": "1.6 2.0 2.4 2.8",
+    "max_threshold_duration": "2.5",
+    "movespeed_bonus_pct": {
+      "special_bonus_unique_grimstroke_6": "+12",
+      "value": "20"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_grimstroke_1": "+150",
+      "value": "375"
+    },
+    "shard_bonus_damage_pct": {
+      "special_bonus_shard": "40"
+    },
+    "shard_creep_penalty": {
+      "special_bonus_shard": "0.2"
+    },
+    "shard_heal_pct": {
+      "special_bonus_shard": "40"
+    },
+    "tick_dps_tooltip": "30 45 60 75",
+    "tick_rate": "0.2"
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES_ENEMIES_NO"
+}

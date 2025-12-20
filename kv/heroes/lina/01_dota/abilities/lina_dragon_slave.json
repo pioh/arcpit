@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.35",
+  "AbilityCastRange": "1075",
+  "AbilityDuration": "0.6875 0.6875 0.6875 0.6875",
+  "AbilityManaCost": "100 110 120 130",
+  "AbilitySound": "Hero_Lina.DragonSlave",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_lina_1": "-3",
+      "value": "11 10 9 8"
+    },
+    "dragon_slave_damage": {
+      "value": "85 165 245 325"
+    },
+    "dragon_slave_distance": "1075",
+    "dragon_slave_speed": "1200",
+    "dragon_slave_width_end": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "dragon_slave_width_initial": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

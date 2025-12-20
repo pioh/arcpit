@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "kill_creeps_penalty": "40",
+    "kill_heal_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    },
+    "kill_heal_duration": "3",
+    "kill_heal_heroes": {
+      "value": "2"
+    },
+    "tick_rate": "0.5"
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

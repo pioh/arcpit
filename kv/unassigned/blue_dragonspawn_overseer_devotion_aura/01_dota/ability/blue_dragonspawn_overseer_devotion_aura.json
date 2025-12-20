@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_armor": {
+      "value": "3"
+    },
+    "radius": {
+      "value": "1200"
+    }
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

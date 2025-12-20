@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "tooltip_cooldown": "25.0",
+    "tooltip_duration": "4",
+    "tooltip_manacost": "0",
+    "tooltip_movespeed": "10",
+    "voodoo_manacost": "110"
+  },
+  "MaxLevel": "1"
+}

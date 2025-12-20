@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityValues": {
+    "buff_duration": "2.0",
+    "spiderite_duration": "40.0"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

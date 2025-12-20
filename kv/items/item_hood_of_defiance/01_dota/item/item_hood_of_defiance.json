@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "60.0",
+  "AbilityManaCost": "50",
+  "AbilityValues": {
+    "barrier_block": "350",
+    "barrier_duration": "12.0",
+    "bonus_health_regen": "8.5",
+    "bonus_spell_resist": "18",
+    "tooltip_resist": "18"
+  },
+  "IsObsolete": "1",
+  "ItemCost": "0",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemPurchasable": "0",
+  "ItemQuality": "epic",
+  "ItemShopTags": "regen_health;magic_resist;tank"
+}

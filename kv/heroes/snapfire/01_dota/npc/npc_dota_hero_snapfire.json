@@ -1,0 +1,203 @@
+{
+  "Ability1": "snapfire_scatterblast",
+  "Ability10": "special_bonus_unique_snapfire_7",
+  "Ability11": "special_bonus_unique_snapfire_5",
+  "Ability12": "special_bonus_unique_snapfire_2",
+  "Ability13": "special_bonus_unique_snapfire_3",
+  "Ability14": "special_bonus_unique_snapfire_8",
+  "Ability15": "special_bonus_unique_snapfire_firesnap_cookie_additional_charge",
+  "Ability16": "special_bonus_unique_snapfire_6",
+  "Ability17": "special_bonus_unique_snapfire_1",
+  "Ability2": "snapfire_firesnap_cookie",
+  "Ability3": "snapfire_lil_shredder",
+  "Ability4": "snapfire_gobble_up",
+  "Ability5": "snapfire_spit_creep",
+  "Ability6": "snapfire_mortimer_kisses",
+  "Ability7": "snapfire_buckshot",
+  "AbilityDraftAbilities": {
+    "Ability1": "snapfire_scatterblast",
+    "Ability2": "snapfire_firesnap_cookie",
+    "Ability3": "snapfire_lil_shredder",
+    "Ability4": "snapfire_mortimer_kisses"
+  },
+  "Adjectives": {
+    "Female": "1",
+    "Red": "1",
+    "Steed": "1"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.350000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "31",
+  "AttackDamageMin": "25",
+  "AttackRange": "400",
+  "AttackRate": "1.8",
+  "AttackSpeedActivityModifiers": {
+    "fast": "170",
+    "faster": "320"
+  },
+  "AttributeAgilityGain": "1.9",
+  "AttributeBaseAgility": "16",
+  "AttributeBaseIntelligence": "21",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "2.2",
+  "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+  "AttributeStrengthGain": "3.5",
+  "BanSound": "snapfire_snapfire_curse_07",
+  "Bot": {
+    "HeroType": "DOTA_BOT_STUN_SUPPORT | DOTA_BOT_GANKER",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "1",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "2"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "snapfire_full_bore": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "range"
+    },
+    "snapfire_ricochet_ii": {
+      "Color": "Gray",
+      "GradientID": "3",
+      "Icon": "ricochet"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_snapfire.vsndevts",
+  "GibType": "default",
+  "HealthBarOffset": "220",
+  "HeroGlowColor": "242 200 198",
+  "HeroID": "128",
+  "HeroOrderID": "118",
+  "HeroSelectSoundEffect": "Hero_Snapfire.Pick",
+  "HeroUnlockOrder": "3",
+  "IdleExpression": "scenes/snapfire/snapfire_portrait_idle.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "1",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "5000",
+      "MaxPolygonsLOD1": "2000",
+      "SlotIndex": "2",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "6000",
+      "MaxPolygonsLOD1": "2400",
+      "SlotIndex": "3",
+      "SlotName": "mount",
+      "SlotText": "#LoadoutSlot_Mount",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "4",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_3",
+      "SlotText": "snapfire_lil_shredder"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_4",
+      "SlotText": "snapfire_mortimer_kisses"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_kunkka",
+  "LoadoutScale": "0.58",
+  "Model": "models/heroes/snapfire/snapfire.vmdl",
+  "ModelScale": "0.58",
+  "MovementSpeed": "300",
+  "MovementSpeedActivityModifiers": {
+    "run": "350",
+    "run_fast": "440",
+    "run_haste": "540",
+    "walk": "0"
+  },
+  "NameAliases": "snap,mortimer",
+  "PickSound": "snapfire_snapfire_spawn_25",
+  "ProjectileModel": "particles/units/heroes/hero_snapfire/hero_snapfire_base_attack.vpcf",
+  "ProjectileSpeed": "1800",
+  "Role": "Support,Nuker,Disabler,Escape",
+  "Rolelevels": "1,3,1,1",
+  "SimilarHeroes": "68,120,100",
+  "SoundSet": "Hero_Snapfire",
+  "SpectatorLoadoutScale": "0.75",
+  "StatusHealthRegen": "0.75",
+  "Team": "Good",
+  "VersusScale": "0.58",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_snapfire.vsndevts",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_snapfire.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_snapfire.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_anklel_fx": "10",
+    "attach_ankler_fx": "9",
+    "attach_attack1": "4",
+    "attach_attack2": "5",
+    "attach_bolt_fx": "6",
+    "attach_hand_1": "1",
+    "attach_hand_2": "2",
+    "attach_handl_fx": "8",
+    "attach_handr_fx": "7",
+    "attach_mouth": "3"
+  },
+  "workshop_guide_name": "Snapfire"
+}

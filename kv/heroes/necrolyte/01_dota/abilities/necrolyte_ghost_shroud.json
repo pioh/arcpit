@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0",
+  "AbilityManaCost": "75",
+  "AbilitySound": "Hero_Necrolyte.SpiritForm.Cast",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_necrophos_6": "-2.5",
+      "value": "28 24 20 16"
+    },
+    "bonus_damage": "-20",
+    "duration": "3 3.5 4 4.5",
+    "enemies_negative_heal_bonus_as_pct_of_self": {
+      "special_bonus_facet_necrolyte_rapid_decay": "100.0",
+      "value": "0"
+    },
+    "heal_bonus": {
+      "special_bonus_unique_necrophos_sadist_heal_bonus": "+15",
+      "value": "45 55 65 75"
+    },
+    "movement_speed": {
+      "special_bonus_unique_necrophos_3": "+15",
+      "value": "16 19 22 25"
+    },
+    "movement_transfer": {
+      "special_bonus_facet_necrolyte_rapid_decay": "50",
+      "value": "0"
+    },
+    "slow_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "700"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

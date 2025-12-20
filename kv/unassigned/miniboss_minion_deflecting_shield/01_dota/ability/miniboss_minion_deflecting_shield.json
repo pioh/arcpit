@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityValues": {
+    "aura_radius": "1200",
+    "damage_cooldown": "1.5",
+    "damage_reflection_pct": "20",
+    "decay_to_zero_seconds": "1",
+    "max_barrier_pct_max_health": "20",
+    "regeneration_to_max_seconds": "2.5"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

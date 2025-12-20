@@ -1,0 +1,10 @@
+{
+  "ItemCost": "250",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_fluffy_hat;item_sobi_mask;item_blades_of_attack"
+  },
+  "ItemResult": "item_falcon_blade",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

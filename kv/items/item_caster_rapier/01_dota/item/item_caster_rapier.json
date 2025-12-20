@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCooldown": "9",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "backstab_duration": "3",
+    "bonus_spell_amp": "50",
+    "cast_range_limit": "2000"
+  },
+  "AllowedInBackpack": "0",
+  "FightRecapLevel": "2",
+  "IsObsolete": "1",
+  "IsTempestDoubleClonable": "0",
+  "ItemContributesToNetWorthWhenDropped": "0",
+  "ItemCost": "5600",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_NEVER",
+  "ItemKillable": "0",
+  "ItemQuality": "rare",
+  "ItemSellable": "0",
+  "ItemShareability": "ITEM_NOT_SHAREABLE",
+  "ItemShopTags": "int;regen_mana;agi;hard_to_tag",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG"
+}

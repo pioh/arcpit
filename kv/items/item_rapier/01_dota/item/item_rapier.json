@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_TOGGLE",
+  "AbilityCooldown": "6",
+  "AbilityValues": {
+    "bonus_damage": "250",
+    "bonus_damage_base": "100",
+    "bonus_spell_amp": "25"
+  },
+  "AllowedInBackpack": "0",
+  "IsTempestDoubleClonable": "0",
+  "ItemContributesToNetWorthWhenDropped": "0",
+  "ItemCost": "5600",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS | DECLARE_PURCHASES_IN_SPEECH",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_NEVER",
+  "ItemKillable": "0",
+  "ItemQuality": "epic",
+  "ItemSellable": "0",
+  "ItemShareability": "ITEM_NOT_SHAREABLE",
+  "ItemShopTags": "damage;dps;magic_dmg",
+  "Model": "models/props_gameplay/divine_rapier.vmdl",
+  "ModelAlternate": "models/props_gameplay/divine_rapier_spell.vmdl",
+  "SpeciallyBannedFromNeutralSlot": "1"
+}

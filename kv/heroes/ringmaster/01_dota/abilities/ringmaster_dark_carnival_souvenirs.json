@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityValues": {
+    "souvenir_collection_range": "925",
+    "use_souvenir_set_1": {
+      "special_bonus_facet_ringmaster_carny_classics": "=1",
+      "value": "0"
+    },
+    "use_souvenir_set_2": {
+      "special_bonus_facet_ringmaster_sideshow_secrets": "=1",
+      "value": "0"
+    }
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilitySound": "Tiny.Grow",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "attack_speed_reduction": {
+      "special_bonus_unique_tiny_6": "+8",
+      "value": "-35"
+    },
+    "bonus_armor": "5 10 15",
+    "bonus_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "55 110 165"
+    },
+    "move_speed": "10 15 20",
+    "toss_bonus_damage": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "value": "50 175 300"
+    }
+  }
+}

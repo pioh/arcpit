@@ -1,0 +1,91 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCooldown": "30.0 30.0 30.0 30.0",
+  "AbilitySound": "Hero_Lycan.SummonWolves",
+  "AbilityValues": {
+    "AbilityManaCost": {
+      "special_bonus_facet_lycan_spirit_wolves": "-50",
+      "value": "115 120 125 130 130 130"
+    },
+    "back_distance": {
+      "special_bonus_facet_lycan_spirit_wolves": "+150"
+    },
+    "bash_chance": "15",
+    "bash_duration": "1.0",
+    "bonus_armor": {
+      "value": "0 0 0 0 5 10"
+    },
+    "bonus_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "special_bonus_unique_lycan_3": "+10",
+      "value": "0"
+    },
+    "bonus_health": {
+      "special_bonus_unique_lycan_7": "+350",
+      "value": "0"
+    },
+    "damage_per_wolf": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "special_bonus_facet_lycan_spirit_wolves": {
+        "special_bonus_unique_lycan_3": "+6",
+        "value": "6 12 18 24"
+      }
+    },
+    "death_fx_time": {
+      "special_bonus_facet_lycan_spirit_wolves": "1.0"
+    },
+    "health_per_wolf": {
+      "special_bonus_facet_lycan_spirit_wolves": {
+        "special_bonus_unique_lycan_7": "+250",
+        "value": "60 120 180 240"
+      }
+    },
+    "invis_level": {
+      "special_bonus_facet_lycan_spirit_wolves": "0.05"
+    },
+    "is_lone_wolf": {
+      "special_bonus_facet_lycan_spirit_wolves": "+1"
+    },
+    "max_level": {
+      "special_bonus_facet_lycan_alpha_wolves": "+2",
+      "value": "4"
+    },
+    "model_scale": {
+      "special_bonus_facet_lycan_spirit_wolves": "-15"
+    },
+    "side_distance": {
+      "special_bonus_facet_lycan_spirit_wolves": "+75"
+    },
+    "wolf_bat": {
+      "special_bonus_facet_lycan_spirit_wolves": "=0 =0 =0 =0 =0 =0",
+      "value": "1.2 1.1 1.0 0.9 0.9 0.9"
+    },
+    "wolf_count": {
+      "special_bonus_unique_lycan_2": "+2",
+      "value": "2"
+    },
+    "wolf_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "special_bonus_facet_lycan_spirit_wolves": "=0 =0 =0 =0 =0 =0",
+      "special_bonus_unique_lycan_3": "+10",
+      "value": "22 28 34 40 46 52"
+    },
+    "wolf_duration": {
+      "special_bonus_facet_lycan_spirit_wolves": "=25",
+      "value": "50"
+    },
+    "wolf_hp": {
+      "special_bonus_facet_lycan_spirit_wolves": "=0 =0 =0 =0 =0 =0",
+      "special_bonus_unique_lycan_7": "+350",
+      "value": "325 375 425 475 525 575"
+    },
+    "wolf_index": "1 2 3 4 5 6"
+  },
+  "HasShardUpgrade": "1",
+  "RestrictValuesToMaxLevel": "1"
+}

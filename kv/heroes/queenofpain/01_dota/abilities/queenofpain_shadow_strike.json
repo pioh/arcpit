@@ -1,0 +1,44 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "450 500 550 600",
+  "AbilityCooldown": "13 10 7 4",
+  "AbilityManaCost": "100 110 120 130",
+  "AbilitySound": "Hero_QueenOfPain.ShadowStrike",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "aoe_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "+375",
+      "value": "0"
+    },
+    "attack_speed": {
+      "special_bonus_unique_queen_of_pain_1": "+35"
+    },
+    "damage_interval": {
+      "special_bonus_unique_queen_of_pain_4": "-1",
+      "value": "3.0"
+    },
+    "duration": "16",
+    "duration_damage": "20 40 60 80",
+    "duration_heal": {
+      "value": "0"
+    },
+    "generate_scream": {
+      "special_bonus_scepter": "+1",
+      "value": "0"
+    },
+    "movement_slow": "-25 -35 -45 -55",
+    "projectile_speed": "900",
+    "strike_damage": {
+      "value": "50 80 110 140"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

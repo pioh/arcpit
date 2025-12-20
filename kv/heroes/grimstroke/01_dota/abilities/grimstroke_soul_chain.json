@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_GS_SOUL_CHAIN",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.15",
+  "AbilityCastRange": "700 800 900",
+  "AbilityCooldown": "70 65 60",
+  "AbilityDraftExtraAbilities": {
+    "grimstroke_dark_portrait": "scepter"
+  },
+  "AbilityManaCost": "150 200 250",
+  "AbilityModifierSupportValue": "0.75",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "bonus_reflected_spell_damage": {
+      "special_bonus_unique_grimstroke_soul_chain_reflect_damage": "+25.0",
+      "value": "0"
+    },
+    "chain_break_distance": "700",
+    "chain_duration": "6.0 7.0 8.0",
+    "chain_latch_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    },
+    "creep_duration_pct": "50.0",
+    "leash_limit_multiplier": "1.3",
+    "leash_radius_buffer": "50"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

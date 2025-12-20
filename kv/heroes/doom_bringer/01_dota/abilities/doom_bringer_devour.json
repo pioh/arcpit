@@ -1,0 +1,41 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_ALT_CASTABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "300 300 300 300",
+  "AbilityManaCost": "40 50 60 70",
+  "AbilitySound": "Hero_DoomBringer.Devour",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "AbilityChargeRestoreTime": {
+      "special_bonus_facet_doom_bringer_gluttony": "=80",
+      "value": "0"
+    },
+    "AbilityCharges": {
+      "special_bonus_facet_doom_bringer_gluttony": "=2",
+      "value": "0"
+    },
+    "AbilityCooldown": {
+      "special_bonus_facet_doom_bringer_gluttony": "=0.0",
+      "value": "70.0"
+    },
+    "ability_bonus_level": {
+      "special_bonus_facet_doom_bringer_gluttony": "+1"
+    },
+    "bonus_gold": {
+      "value": "35 70 105 140"
+    },
+    "can_target_ancient": {
+      "special_bonus_unique_doom_2": "=1"
+    },
+    "creep_level": "4 5 6 6",
+    "hero_ability_steal_time": "99999",
+    "magic_resist": {
+      "special_bonus_unique_doom_3": "+15",
+      "value": "0"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

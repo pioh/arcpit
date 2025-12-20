@@ -1,0 +1,52 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.35",
+  "AbilityCastRange": "625 700 775 850",
+  "AbilityCooldown": "14 12 10 8",
+  "AbilityManaCost": "70 80 90 100",
+  "AbilitySound": "Hero_Furion.Sprout",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "building_healing_pct": {
+      "value": "0"
+    },
+    "duration": "2.5 3 3.5 4",
+    "healing_radius": {
+      "special_bonus_facet_furion_soothing_saplings": "+900",
+      "value": "0"
+    },
+    "healing_tree_proximity": {
+      "special_bonus_facet_furion_soothing_saplings": "+175",
+      "value": "0"
+    },
+    "leash": {
+      "value": "0"
+    },
+    "sprout_damage": {
+      "special_bonus_unique_furion_4": "+170",
+      "value": "70 130 190 250"
+    },
+    "sprout_damage_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    },
+    "sprout_heal_interval": {
+      "special_bonus_facet_furion_soothing_saplings": "=0.5",
+      "value": "0"
+    },
+    "sprout_heal_per_second": {
+      "special_bonus_facet_furion_soothing_saplings": "=10 =15 =20 =25",
+      "special_bonus_unique_furion_8": "+20%",
+      "value": "0"
+    },
+    "vision_range": {
+      "affected_by_aoe_increase": "1",
+      "value": "250"
+    }
+  },
+  "FightRecapLevel": "1"
+}

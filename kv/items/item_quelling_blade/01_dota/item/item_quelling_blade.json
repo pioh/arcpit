@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "350",
+  "AbilityCooldown": "4.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "damage_bonus": "8",
+    "damage_bonus_ranged": "4",
+    "quelling_range_tooltip": "350"
+  },
+  "ItemCost": "100",
+  "ItemQuality": "component",
+  "ItemShopTags": "damage",
+  "Model": "models/props_gameplay/quelling_blade.vmdl",
+  "SuggestPregame": "1"
+}

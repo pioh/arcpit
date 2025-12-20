@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "350",
+  "AbilityCooldown": "20",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/seasonal_summon_dragon",
+  "AbilityValues": {
+    "duration": {
+      "value": "6"
+    },
+    "grace_period": {
+      "value": "1"
+    },
+    "search_distance": {
+      "value": "70"
+    },
+    "think_interval": {
+      "value": "0.2"
+    }
+  },
+  "MaxLevel": "1"
+}

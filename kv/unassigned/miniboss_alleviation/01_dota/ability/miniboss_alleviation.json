@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityValues": {
+    "aura_duration": "10",
+    "hp_restoration_pct": "2",
+    "radius": "900"
+  },
+  "MaxLevel": "1"
+}

@@ -1,0 +1,204 @@
+{
+  "Ability1": "undying_decay",
+  "Ability10": "special_bonus_unique_undying_8",
+  "Ability11": "special_bonus_unique_undying_7",
+  "Ability12": "special_bonus_unique_undying",
+  "Ability13": "special_bonus_unique_undying_6",
+  "Ability14": "special_bonus_unique_undying_5",
+  "Ability15": "special_bonus_unique_undying_2",
+  "Ability16": "special_bonus_unique_undying_4",
+  "Ability17": "special_bonus_unique_undying_3",
+  "Ability2": "undying_soul_rip",
+  "Ability3": "undying_tombstone",
+  "Ability4": "undying_ceaseless_dirge",
+  "Ability5": "generic_hidden",
+  "Ability6": "undying_flesh_golem",
+  "AbilityDraftAbilities": {
+    "Ability1": "undying_decay",
+    "Ability2": "undying_soul_rip",
+    "Ability3": "undying_tombstone",
+    "Ability4": "undying_flesh_golem"
+  },
+  "Adjectives": {
+    "BadTeeth": "1",
+    "Green": "1",
+    "Undead": "1"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.300000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "41",
+  "AttackDamageMin": "33",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.200000",
+  "AttributeBaseAgility": "10",
+  "AttributeBaseIntelligence": "27",
+  "AttributeBaseStrength": "22",
+  "AttributeIntelligenceGain": "2.800000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "2.400000",
+  "BanSound": "undying_undying_anger_02",
+  "Bot": {
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "1",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "undying_ripped": {
+      "Color": "Red",
+      "GradientID": "1",
+      "Icon": "strength"
+    },
+    "undying_rotting_mitts": {
+      "Color": "Green",
+      "GradientID": "4",
+      "Icon": "summons"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_undying.vsndevts",
+  "GibTintColor": "73 82 68 255",
+  "GibType": "goo",
+  "HeroID": "85",
+  "HeroOrderID": "84",
+  "HeroSelectSoundEffect": "Hero_Undying.Pick",
+  "IdleExpression": "scenes/undying/undying_exp_idle_01.vcd",
+  "IdleSoundLoop": "Hero_Undying.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "6000",
+      "MaxPolygonsLOD1": "2400",
+      "SlotIndex": "1",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "2",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "GeneratesUnits": {
+        "0": "npc_dota_unit_tombstone",
+        "1": "npc_dota_unit_undying_zombie"
+      },
+      "MaxPolygonsLOD0": "0",
+      "MaxPolygonsLOD1": "0",
+      "SlotIndex": "3",
+      "SlotName": "ability3",
+      "SlotText": "#LoadoutSlot_Undying_Tombstone",
+      "TextureHeight": "0",
+      "TextureWidth": "0",
+      "no_import": "1"
+    },
+    "4": {
+      "DisplayInLoadout": "1",
+      "LoadoutPreviewMode": "transformation",
+      "MaxBonesLOD0": "62",
+      "MaxBonesLOD1": "62",
+      "MaxPolygonsLOD0": "10000",
+      "MaxPolygonsLOD1": "4000",
+      "SlotIndex": "4",
+      "SlotName": "ability4",
+      "SlotText": "#LoadoutSlot_Undying_Flesh_Golem",
+      "TextureHeight": "1024",
+      "TextureWidth": "1024",
+      "no_import": "1"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_1",
+      "SlotText": "undying_decay"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_2",
+      "SlotText": "undying_soul_rip"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_sand_king",
+  "LoadoutScale": "0.93",
+  "Model": "models/heroes/undying/undying.vmdl",
+  "ModelScale": "0.930000",
+  "MovementSpeed": "300",
+  "NameAliases": "Dirge",
+  "PickSound": "undying_undying_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_undying/undying_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Support,Durable,Disabler,Nuker",
+  "Rolelevels": "2,2,1,1",
+  "SimilarHeroes": "83,102,84",
+  "SoundSet": "Hero_Undying",
+  "SpectatorLoadoutScale": "0.88",
+  "StatusHealthRegen": [
+    "-0.25",
+    "-0.25"
+  ],
+  "StatusManaRegen": "0.25",
+  "Team": "Bad",
+  "TransformedLoadoutScale": "0.73",
+  "VersusScale": "0.93",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_undying.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_undying",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_undying.vpcf"
+  },
+  "precache": {
+    "model": "models/heroes/undying/undying_flesh_golem.vmdl",
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_undying.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Undying"
+}

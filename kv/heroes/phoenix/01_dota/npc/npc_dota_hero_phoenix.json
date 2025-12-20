@@ -1,0 +1,196 @@
+{
+  "Ability1": "phoenix_icarus_dive",
+  "Ability10": "special_bonus_unique_phoenix_6",
+  "Ability11": "special_bonus_unique_phoenix_blinding_sun_misschance",
+  "Ability12": "special_bonus_unique_phoenix_3",
+  "Ability13": "special_bonus_hp_regen_25",
+  "Ability14": "special_bonus_unique_phoenix_5",
+  "Ability15": "special_bonus_unique_phoenix_2",
+  "Ability16": "special_bonus_unique_phoenix_1",
+  "Ability17": "special_bonus_unique_phoenix_4",
+  "Ability2": "phoenix_fire_spirits",
+  "Ability3": "phoenix_sun_ray",
+  "Ability4": "phoenix_sun_ray_toggle_move",
+  "Ability5": "phoenix_blinding_sun",
+  "Ability6": "phoenix_supernova",
+  "Ability7": "phoenix_launch_fire_spirit",
+  "Ability8": "phoenix_icarus_dive_stop",
+  "Ability9": "phoenix_sun_ray_stop",
+  "AbilityDraftAbilities": {
+    "Ability1": "phoenix_icarus_dive",
+    "Ability2": "phoenix_fire_spirits",
+    "Ability3": "phoenix_sun_ray",
+    "Ability4": "phoenix_supernova"
+  },
+  "Adjectives": {
+    "Fiery": "1",
+    "Flying": "1",
+    "Nose": "0",
+    "Red": "1",
+    "Wings": "1"
+  },
+  "ArmorPhysical": "-1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.350000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "31",
+  "AttackDamageMin": "21",
+  "AttackRange": "525",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.5",
+  "AttributeBaseAgility": "12",
+  "AttributeBaseIntelligence": "16",
+  "AttributeBaseStrength": "23",
+  "AttributeIntelligenceGain": "1.8",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.3",
+  "BanSound": "phoenix_phoenix_bird_moving01",
+  "Bot": {
+    "HeroType": "DOTA_BOT_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "0",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "phoenix_facet_immolate": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "phoenix_dying_light"
+        }
+      },
+      "Color": "Red",
+      "GradientID": "2",
+      "Icon": "barrier"
+    },
+    "phoenix_hotspot": {
+      "Color": "Red",
+      "GradientID": "1",
+      "Icon": "nuke"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_phoenix.vsndevts",
+  "GibType": "fire",
+  "HealthBarOffset": "250",
+  "HeroID": "110",
+  "HeroOrderID": "106",
+  "HeroSelectSoundEffect": "Hero_Phoenix.Pick",
+  "HeroUnlockOrder": "1",
+  "IdleExpression": "scenes/phoenix/phoenix/phoenix_phoenix_bird_exp_idle_01.vcd",
+  "IdleSoundLoop": "Hero_Phoenix.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "10000",
+      "MaxPolygonsLOD1": "4000",
+      "SlotIndex": "1",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Wings",
+      "TextureHeight": "512",
+      "TextureWidth": "512",
+      "no_import": "1"
+    },
+    "2": {
+      "SlotIndex": "2",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "3": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "3",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "4": {
+      "GeneratesUnits": {
+        "0": "npc_dota_phoenix_sun"
+      },
+      "MaxPolygonsLOD0": "5000",
+      "MaxPolygonsLOD1": "2000",
+      "SlotIndex": "4",
+      "SlotName": "ability_ultimate",
+      "SlotText": "#LoadoutSlot_Phoenix_Supernova",
+      "TextureHeight": "512",
+      "TextureWidth": "512",
+      "no_import": "1"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ability_effects_1",
+      "SlotText": "phoenix_icarus_dive"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_2",
+      "SlotText": "phoenix_fire_spirits"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_3",
+      "SlotText": "phoenix_sun_ray"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_4",
+      "SlotText": "phoenix_supernova"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "Model": "models/heroes/phoenix/phoenix_bird.vmdl",
+  "ModelScale": "0.950000",
+  "MovementSpeed": "280",
+  "MovementTurnRate": "0.900000",
+  "NameAliases": "ph",
+  "NoCombine": "1",
+  "PickSound": "phoenix_phoenix_bird_respawn",
+  "ProjectileModel": "particles/units/heroes/hero_phoenix/phoenix_base_attack.vpcf",
+  "ProjectileSpeed": "1100",
+  "RenderablePortrait": {},
+  "Role": "Support,Nuker,Initiator,Escape,Disabler",
+  "Rolelevels": "2,3,2,2,1",
+  "SimilarHeroes": "85,83,64",
+  "SoundSet": "Hero_Phoenix",
+  "StatusHealthRegen": "2.0",
+  "Team": "Good",
+  "VersusScale": "0.950000",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_phoenix.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_phoenix",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_phoenix.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_phoenix.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_head": "1",
+    "attach_wingtipL": "3",
+    "attach_wingtipR": "2"
+  },
+  "workshop_guide_name": "Phoenix"
+}

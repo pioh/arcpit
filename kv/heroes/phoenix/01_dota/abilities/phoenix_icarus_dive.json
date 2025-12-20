@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.2",
+  "AbilityCooldown": "40 35 30 25",
+  "AbilityManaCost": "0",
+  "AbilitySound": "Hero_Phoenix.IcarusDive.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "burn_duration": "4",
+    "burn_tick_interval": "0.2",
+    "damage_per_second": {
+      "value": "20 40 60 80"
+    },
+    "dash_length": {
+      "special_bonus_unique_phoenix_4": "+1000",
+      "value": "1100 1200 1300 1400"
+    },
+    "dash_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "dive_duration": "2.0",
+    "hit_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "hp_cost_perc": "15",
+    "slow_movement_speed_pct": {
+      "special_bonus_unique_phoenix_6": "+25",
+      "value": "10 15 20 25"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

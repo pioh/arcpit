@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "multicast_2_times": {
+      "dynamic_value": "true",
+      "special_bonus_facet_ogre_magi_fat_chance": "+0",
+      "value": "75"
+    },
+    "multicast_3_times": {
+      "dynamic_value": "true",
+      "special_bonus_facet_ogre_magi_fat_chance": "+0",
+      "value": "0 30 30"
+    },
+    "multicast_4_times": {
+      "dynamic_value": "true",
+      "special_bonus_facet_ogre_magi_fat_chance": "+0",
+      "value": "0 0 15"
+    },
+    "strength_mult": {
+      "special_bonus_facet_ogre_magi_fat_chance": "=0.06",
+      "value": "0"
+    }
+  },
+  "IsBreakable": "1"
+}

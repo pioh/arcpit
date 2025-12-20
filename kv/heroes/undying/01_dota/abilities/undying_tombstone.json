@@ -1,0 +1,58 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_UNDYING_TOMBSTONE",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.6",
+  "AbilityCastRange": "500",
+  "AbilityManaCost": "125 150 175 200",
+  "AbilitySound": "Hero_Undying.Tombstone",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_undying_7": "-15",
+      "value": "80"
+    },
+    "bunker_heal_pct": "0",
+    "bunker_units": "1",
+    "duration": "30.0",
+    "health_threshold_pct_tooltip": "40",
+    "hits_to_destroy_tooltip": {
+      "special_bonus_unique_undying_5": "+4",
+      "value": "5 6 7 8"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "tombstone_bunker_cd": "2",
+    "tombstone_grab_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "350"
+    },
+    "tombstone_health": {
+      "special_bonus_unique_undying_5": "+16",
+      "value": "20 24 28 32"
+    },
+    "tombstone_stun_penalty": "2",
+    "zombie_bonus_damage": {
+      "special_bonus_unique_undying": "+20"
+    },
+    "zombie_damage_interval": {
+      "value": "0"
+    },
+    "zombie_damage_tooltip": {
+      "CalculateSpellDamageTooltip": "0",
+      "special_bonus_unique_undying": "+20",
+      "value": "34"
+    },
+    "zombie_health": "2",
+    "zombie_interval": {
+      "value": "4.0 3.6 3.2 2.8"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

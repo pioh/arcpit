@@ -1,0 +1,216 @@
+{
+  "Ability1": "doom_bringer_devour",
+  "Ability10": "special_bonus_unique_doom_3",
+  "Ability11": "special_bonus_unique_doom_4",
+  "Ability12": "special_bonus_unique_doom_6",
+  "Ability13": "special_bonus_unique_doom_2",
+  "Ability14": "special_bonus_unique_doom_9",
+  "Ability15": "special_bonus_unique_doom_1",
+  "Ability16": "special_bonus_unique_doom_10",
+  "Ability17": "special_bonus_unique_doom_11",
+  "Ability2": "doom_bringer_scorched_earth",
+  "Ability3": "doom_bringer_infernal_blade",
+  "Ability4": "doom_bringer_empty1",
+  "Ability5": "doom_bringer_empty2",
+  "Ability6": "doom_bringer_doom",
+  "Ability7": "doom_bringer_lvl_pain",
+  "AbilityDraftAbilities": {
+    "Ability1": "doom_bringer_devour",
+    "Ability2": "doom_bringer_scorched_earth",
+    "Ability3": "doom_bringer_infernal_blade",
+    "Ability4": "doom_bringer_doom"
+  },
+  "Adjectives": {
+    "Arachnophobic": "1",
+    "Demon": "1",
+    "Fiery": "1",
+    "Horns": "1",
+    "Nose": "0",
+    "Red": "1",
+    "Wings": "1"
+  },
+  "ArmorPhysical": "2",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "42",
+  "AttackDamageMin": "32",
+  "AttackRange": "200",
+  "AttackRate": "1.90000",
+  "AttributeAgilityGain": "1.5",
+  "AttributeBaseAgility": "15",
+  "AttributeBaseIntelligence": "15",
+  "AttributeBaseStrength": "24",
+  "AttributeIntelligenceGain": "1.9",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.5",
+  "BanSound": "doom_bringer_doom_anger_02",
+  "Bot": {
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "2",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "doom_bringer_boost_selling": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "doom_bringer_devils_bargain"
+        }
+      },
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "gold"
+    },
+    "doom_bringer_gluttony": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "meat"
+    },
+    "doom_bringer_impending_doom": {
+      "Color": "Gray",
+      "GradientID": "0",
+      "Icon": "cooldown"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_doombringer.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "107 74 53",
+  "HeroID": "69",
+  "HeroOrderID": "45",
+  "HeroSelectSoundEffect": "Hero_DoomBringer.Pick",
+  "HeroUnlockOrder": "2",
+  "IdleSoundLoop": "Hero_DoomBringer.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "2",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "4",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Wings",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "5",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "6": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "6",
+      "SlotName": "tail",
+      "SlotText": "#LoadoutSlot_Tail",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "doom_bringer_devour"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_3",
+      "SlotText": "doom_bringer_infernal_blade"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_lich",
+  "LoadoutScale": "0.86",
+  "Model": "models/heroes/doom/doom.vmdl",
+  "ModelScale": "0.860000",
+  "MovementSpeed": "290",
+  "NameAliases": "db",
+  "PickSound": "doom_bringer_doom_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_doom_bringer/doom_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Disabler,Initiator,Durable,Nuker",
+  "Rolelevels": "1,2,2,2,1",
+  "SimilarHeroes": "73,4,15",
+  "SoundSet": "Hero_DoomBringer",
+  "SpectatorLoadoutScale": "0.73",
+  "StatusHealthRegen": "0.66",
+  "Team": "Bad",
+  "VersusScale": "0.86",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_doom_bringer.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_doom_bringer",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_doom_bringer.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_doom_bringer.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_hand2": "2",
+    "attach_mouth": "1"
+  },
+  "workshop_guide_name": "Doom"
+}

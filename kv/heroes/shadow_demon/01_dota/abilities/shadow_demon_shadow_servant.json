@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "illusion_incoming_damage": "100",
+    "illusion_incoming_damage_tooltip": "200",
+    "illusion_outgoing_damage": "-80 -75 -70 -65 -60",
+    "illusion_outgoing_damage_tooltip": "20 25 30 35 40",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1500"
+    }
+  },
+  "DependentOnAbility": "shadow_demon_disruption",
+  "MaxLevel": "5"
+}

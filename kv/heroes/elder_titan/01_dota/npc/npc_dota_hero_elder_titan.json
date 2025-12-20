@@ -1,0 +1,194 @@
+{
+  "Ability1": "elder_titan_echo_stomp",
+  "Ability10": "special_bonus_unique_elder_titan_bonus_spirit_speed",
+  "Ability11": "special_bonus_attack_speed_25",
+  "Ability12": "special_bonus_unique_elder_titan_2",
+  "Ability13": "special_bonus_unique_elder_titan",
+  "Ability14": "special_bonus_unique_elder_titan_4",
+  "Ability15": "special_bonus_unique_elder_titan_5",
+  "Ability16": "special_bonus_unique_elder_titan_3",
+  "Ability17": "special_bonus_cleave_100",
+  "Ability2": "elder_titan_ancestral_spirit",
+  "Ability3": "elder_titan_natural_order",
+  "Ability4": "elder_titan_move_spirit",
+  "Ability5": "generic_hidden",
+  "Ability6": "elder_titan_earth_splitter",
+  "Ability7": "elder_titan_return_spirit",
+  "Ability8": "elder_titan_tip_the_scales",
+  "AbilityDraftAbilities": {
+    "Ability1": "elder_titan_echo_stomp",
+    "Ability2": "elder_titan_ancestral_spirit",
+    "Ability3": "elder_titan_natural_order",
+    "Ability4": "elder_titan_earth_splitter"
+  },
+  "Adjectives": {
+    "Horns": "1",
+    "NicePecs": "1",
+    "Parent": "1"
+  },
+  "ArmorPhysical": "0.000000",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.350000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "33",
+  "AttackDamageMin": "23",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.800000",
+  "AttributeBaseAgility": "16",
+  "AttributeBaseIntelligence": "23",
+  "AttributeBaseStrength": "26",
+  "AttributeIntelligenceGain": "1.600000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.000000",
+  "BanSound": "elder_titan_elder_anger_03",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_TANK",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "0",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "1"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "elder_titan_boost_atkspd": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "elder_titan_momentum"
+        }
+      },
+      "Color": "Yellow",
+      "GradientID": "0",
+      "Icon": "damage"
+    },
+    "elder_titan_deconstruction": {
+      "Color": "Blue",
+      "GradientID": "2",
+      "Icon": "armor_broken"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_elder_titan.vsndevts",
+  "GibType": "default",
+  "HeroID": "103",
+  "HeroOrderID": "101",
+  "HeroSelectSoundEffect": "Hero_ElderTitan.Pick",
+  "IdleExpression": "scenes/elder_titan/elder_titan_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "summon",
+      "SlotText": "#LoadoutSlot_ElderTitan_AstralSpirit"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "elder_titan_echo_stomp"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_4",
+      "SlotText": "elder_titan_earth_splitter"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_earthshaker",
+  "LoadoutScale": "0.75",
+  "Model": "models/heroes/elder_titan/elder_titan.vmdl",
+  "ModelScale": "0.750000",
+  "MovementSpeed": "305",
+  "NameAliases": "TC,Cairne,et",
+  "NoCombine": "1",
+  "PickSound": "elder_titan_elder_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_elder_titan/elder_titan_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Initiator,Disabler,Nuker,Durable",
+  "Rolelevels": "2,1,1,1",
+  "SimilarHeroes": "55,16,114",
+  "SoundSet": "Hero_ElderTitan",
+  "SpectatorLoadoutScale": "0.70",
+  "StatusHealthRegen": "0.75",
+  "StatusManaRegen": "0.25",
+  "Team": "Good",
+  "VersusScale": "0.75",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_elder_titan.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_elder_titan",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_elder_titan.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_elder_titan.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack2": "2",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Elder Titan"
+}

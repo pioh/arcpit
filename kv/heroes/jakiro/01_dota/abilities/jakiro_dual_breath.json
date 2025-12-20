@@ -1,0 +1,47 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.35",
+  "AbilityDamage": "0",
+  "AbilityDuration": "5.0",
+  "AbilityManaCost": "135 150 165 180",
+  "AbilityModifierSupportValue": "0.25",
+  "AbilitySound": "Hero_Jakiro.DualBreath.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_jakiro_2": "+100%",
+      "value": "850"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_jakiro_dualbreath_cooldown": "-3",
+      "value": "10.0"
+    },
+    "burn_damage": {
+      "special_bonus_unique_jakiro_2": "+100%",
+      "value": "20 40 60 80"
+    },
+    "end_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    },
+    "fire_delay": "0.2",
+    "slow_attack_speed_pct": {
+      "value": "-25 -30 -35 -40"
+    },
+    "slow_movement_speed_pct": {
+      "value": "-25 -30 -35 -40"
+    },
+    "speed": "1050",
+    "speed_fire": "1050",
+    "start_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

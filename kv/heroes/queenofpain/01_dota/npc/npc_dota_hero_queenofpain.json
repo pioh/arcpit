@@ -1,0 +1,233 @@
+{
+  "Ability1": "queenofpain_shadow_strike",
+  "Ability10": "special_bonus_unique_queen_of_pain_1",
+  "Ability11": "special_bonus_strength_7",
+  "Ability12": "special_bonus_unique_queen_of_pain_4",
+  "Ability13": "special_bonus_attack_damage_30",
+  "Ability14": "special_bonus_unique_queen_of_pain_2",
+  "Ability15": "special_bonus_unique_queen_of_pain_3",
+  "Ability16": "special_bonus_unique_queen_of_pain_6",
+  "Ability17": "special_bonus_unique_queen_of_pain_7",
+  "Ability2": "queenofpain_blink",
+  "Ability3": "queenofpain_scream_of_pain",
+  "Ability4": "queenofpain_succubus",
+  "Ability5": "generic_hidden",
+  "Ability6": "queenofpain_sonic_wave",
+  "AbilityDraftAbilities": {
+    "Ability1": "queenofpain_shadow_strike",
+    "Ability2": "queenofpain_blink",
+    "Ability3": "queenofpain_scream_of_pain",
+    "Ability4": "queenofpain_sonic_wave"
+  },
+  "Adjectives": {
+    "Demon": "1",
+    "Female": "1",
+    "Horns": "1",
+    "Wings": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.560000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "32",
+  "AttackDamageMin": "26",
+  "AttackRange": "550",
+  "AttackRangeActivityModifiers": {
+    "close": "0",
+    "far": "350"
+  },
+  "AttackRate": "1.500000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "190",
+    "faster": "300"
+  },
+  "AttributeAgilityGain": "2.5",
+  "AttributeBaseAgility": "22",
+  "AttributeBaseIntelligence": "25",
+  "AttributeBaseStrength": "20",
+  "AttributeIntelligenceGain": "3.400000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.4",
+  "BanSound": "queenofpain_pain_anger_03",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "0",
+      "SoloDesire": "2",
+      "SurvivalRating": "2"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "queenofpain_facet_bondage": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "queenofpain_bondage"
+        }
+      },
+      "Color": "Blue",
+      "GradientID": "0",
+      "Icon": "twin_hearts"
+    },
+    "queenofpain_lifesteal": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "queenofpain_succubus"
+        }
+      },
+      "Color": "Blue",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "healing"
+    },
+    "queenofpain_selfdmg": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "queenofpain_masochist"
+        }
+      },
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "nuke"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_queenofpain.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HeroGlowColor": "175 41 128",
+  "HeroID": "39",
+  "HeroOrderID": "51",
+  "HeroSelectSoundEffect": "Hero_QueenOfPain.Pick",
+  "HeroUnlockOrder": "1",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2250",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "4",
+      "SlotName": "legs",
+      "SlotText": "#LoadoutSlot_Legs",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_1",
+      "SlotText": "queenofpain_shadow_strike"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_2",
+      "SlotText": "queenofpain_blink"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_3",
+      "SlotText": "queenofpain_scream_of_pain"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_4",
+      "SlotText": "queenofpain_sonic_wave"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_vengefulspirit",
+  "LoadoutScale": "0.84",
+  "Model": "models/heroes/queenofpain/queenofpain.vmdl",
+  "ModelScale": "0.840000",
+  "MovementSpeed": "290",
+  "NameAliases": "qop;Akasha",
+  "PickSound": "queenofpain_pain_spawn_04",
+  "ProjectileModel": "particles/units/heroes/hero_queenofpain/queen_base_attack.vpcf",
+  "ProjectileSpeed": "1500",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_queenofpain/queenofpain_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Nuker,Escape",
+  "Rolelevels": "1,3,3",
+  "SimilarHeroes": "25,21,13",
+  "SoundSet": "Hero_QueenOfPain",
+  "SpectatorLoadoutScale": "0.91",
+  "Team": "Bad",
+  "VersusScale": "0.84",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_queenofpain.vsndevts",
+  "animation_transitions": {
+    "ACT_DOTA_IDLE": {
+      "regular": "0.50000"
+    },
+    "ACT_DOTA_RUN": {
+      "regular": "0.300000"
+    }
+  },
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_queenofpain",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_queenofpain.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_queenofpain.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_hand1": "5",
+    "attach_hand2": "6",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Queen of Pain"
+}

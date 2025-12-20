@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "golem_can_summon": "0",
+    "imp_level": {
+      "special_bonus_shard": "+1",
+      "value": "1 2 3 4"
+    },
+    "minor_imp_duration": "15",
+    "tooltip_imp_explode": "25 70 115 160 205",
+    "tooltip_imp_explode_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "tooltip_imp_health": "50 130 210 290 370"
+  },
+  "DependentOnAbility": "warlock_rain_of_chaos",
+  "HasShardUpgrade": "1",
+  "Innate": "1",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

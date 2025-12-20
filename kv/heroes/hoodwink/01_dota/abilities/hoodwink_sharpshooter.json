@@ -1,0 +1,91 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CHANNEL_ABILITY_6",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "3000",
+  "AbilityDraftExtraAbilities": {
+    "hoodwink_decoy": "scepter",
+    "hoodwink_hunters_boomerang": "shard"
+  },
+  "AbilityDraftUltShardAbility": "hoodwink_hunters_boomerang",
+  "AbilityManaCost": "100 150 200",
+  "AbilitySound": "Hero_Mirana.ArrowCast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_facet_hoodwink_hipshot": "x0.5",
+      "value": "45"
+    },
+    "arrow_range": "3000",
+    "arrow_speed": {
+      "special_bonus_scepter": "+25%",
+      "value": "2200"
+    },
+    "arrow_vision": {
+      "affected_by_aoe_increase": "1",
+      "value": "350"
+    },
+    "arrow_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "125"
+    },
+    "base_power": "0.2",
+    "max_charge_time": {
+      "special_bonus_facet_hoodwink_hipshot": "x0.75",
+      "value": "3.0"
+    },
+    "max_damage": {
+      "special_bonus_facet_hoodwink_hipshot": "x0.75",
+      "special_bonus_unique_hoodwink_sharpshooter_damage": "+400",
+      "value": "600 975 1350"
+    },
+    "max_slow_debuff_duration": {
+      "special_bonus_facet_hoodwink_hipshot": "x0.75",
+      "value": "5.0"
+    },
+    "misfire_time": {
+      "special_bonus_facet_hoodwink_hipshot": "x0.75",
+      "value": "5.0"
+    },
+    "pierce_debuff_immunity": {
+      "special_bonus_unique_hoodwink_sharpshooter_pure_damage": "1"
+    },
+    "quick_draw_tooltip_efficacy_pct": {
+      "special_bonus_facet_hoodwink_hipshot": "25",
+      "value": "0"
+    },
+    "quick_draw_tooltip_pct_cooldown_reduction": {
+      "special_bonus_facet_hoodwink_hipshot": "50",
+      "value": "0"
+    },
+    "recoil_distance": {
+      "value": "350"
+    },
+    "recoil_duration": "0.4",
+    "recoil_height": "75",
+    "slow_move_pct": {
+      "special_bonus_scepter": "+20",
+      "value": "30 40 50"
+    },
+    "turn_rate": {
+      "special_bonus_facet_hoodwink_hipshot": "x1.33",
+      "value": "60"
+    },
+    "turn_rate_tooltip": {
+      "special_bonus_facet_hoodwink_hipshot": "33"
+    },
+    "vision_along_indicator": {
+      "special_bonus_unique_hoodwink_sharpshooter_vision": "=1",
+      "value": "0"
+    },
+    "vision_radius_buffer": {
+      "special_bonus_unique_hoodwink_sharpshooter_vision": "+35",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

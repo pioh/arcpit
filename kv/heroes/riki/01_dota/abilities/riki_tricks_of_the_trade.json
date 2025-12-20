@@ -1,0 +1,63 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.3",
+  "AbilityChannelAnimation": "ACT_DOTA_CHANNEL_ABILITY_4",
+  "AbilityChannelTime": "2.0",
+  "AbilityManaCost": "65",
+  "AbilitySound": "Hero_Riki.TricksOfTheTrade.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_scepter": "+300",
+      "value": "400"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_riki_6": "-4",
+      "value": "21 18 15 12"
+    },
+    "agility_pct": "0",
+    "attack_count": {
+      "value": "4"
+    },
+    "attack_damage": {
+      "value": "30 50 70 90"
+    },
+    "base_attack_damage_pct": {
+      "special_bonus_unique_riki_tricks_dmg": "+15"
+    },
+    "cd_per_kill": "0",
+    "cooldown_reduction_per_creep_kill": {
+      "special_bonus_facet_riki_exterminator": "=0.75"
+    },
+    "creep_agility_multiplier": {
+      "special_bonus_facet_riki_exterminator": "=4.5",
+      "value": "1"
+    },
+    "dispel": {
+      "value": "0"
+    },
+    "interval_targets": "2",
+    "pocket_riki_enabled": {
+      "special_bonus_scepter": "=1"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "425"
+    },
+    "scepter_bonus_attacks": {
+      "special_bonus_scepter": "2"
+    },
+    "scepter_bonus_duration": {
+      "special_bonus_scepter": "1"
+    },
+    "scepter_movespeed": {
+      "special_bonus_scepter": "15"
+    },
+    "speed_per_attack": "180"
+  },
+  "HasScepterUpgrade": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

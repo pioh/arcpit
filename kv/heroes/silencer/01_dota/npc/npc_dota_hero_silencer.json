@@ -1,0 +1,216 @@
+{
+  "Ability1": "silencer_curse_of_the_silent",
+  "Ability10": "special_bonus_unique_silencer",
+  "Ability11": "special_bonus_attack_speed_20",
+  "Ability12": "special_bonus_unique_silencer_7",
+  "Ability13": "special_bonus_unique_silencer_arcane_curse_duration",
+  "Ability14": "special_bonus_unique_silencer_5",
+  "Ability15": "special_bonus_unique_silencer_4",
+  "Ability16": "special_bonus_unique_silencer_3",
+  "Ability17": "special_bonus_unique_silencer_arcane_curse_charges",
+  "Ability2": "silencer_glaives_of_wisdom",
+  "Ability3": "silencer_last_word",
+  "Ability4": "silencer_brain_drain",
+  "Ability5": "generic_hidden",
+  "Ability6": "silencer_global_silence",
+  "AbilityDraftAbilities": {
+    "Ability1": "silencer_curse_of_the_silent",
+    "Ability2": "silencer_glaives_of_wisdom",
+    "Ability3": "silencer_last_word",
+    "Ability4": "silencer_global_silence"
+  },
+  "Adjectives": {},
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "32",
+  "AttackDamageMin": "18",
+  "AttackRange": "600",
+  "AttackRate": "1.600000",
+  "AttributeAgilityGain": "2.200000",
+  "AttributeBaseAgility": "22",
+  "AttributeBaseIntelligence": "25",
+  "AttributeBaseStrength": "18",
+  "AttributeIntelligenceGain": "2.900000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.200000",
+  "BanSound": "silencer_silen_anger_07",
+  "BaseAttackSpeed": "110",
+  "Bot": {
+    "HeroType": "DOTA_BOT_PURE_SUPPORT | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "2",
+      "SoloDesire": "0",
+      "SurvivalRating": "0"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "silencer_irrepressible": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "silencer_irrepressible"
+        }
+      },
+      "Color": "Purple",
+      "Deprecated": "1",
+      "GradientID": "1",
+      "Icon": "silencer"
+    },
+    "silencer_oppressive_silence": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "silencer_oppressive_silence"
+        }
+      },
+      "Color": "Gray",
+      "GradientID": "3",
+      "Icon": "debuff"
+    },
+    "silencer_reverberating_silence": {
+      "Color": "Gray",
+      "Deprecated": "1",
+      "GradientID": "3",
+      "Icon": "debuff"
+    },
+    "silencer_spread_the_knowledge": {
+      "Color": "Purple",
+      "GradientID": "1",
+      "Icon": "ricochet",
+      "MaxHeroAttributeLevel": "6"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_silencer.vsndevts",
+  "GibType": "default",
+  "HeroID": "75",
+  "HeroOrderID": "65",
+  "HeroSelectSoundEffect": "Hero_Silencer.Pick",
+  "HeroUnlockOrder": "3",
+  "IdleExpression": "scenes/silencer/silencer_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "1",
+      "SlotName": "offhand_weapon",
+      "SlotText": "#LoadoutSlot_Shield",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "4",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "5",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_1",
+      "SlotText": "silencer_curse_of_the_silent"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_2",
+      "SlotText": "silencer_glaives_of_wisdom"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_3",
+      "SlotText": "silencer_last_word"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_zuus",
+  "LoadoutScale": "0.74",
+  "Model": "models/heroes/silencer/silencer.vmdl",
+  "ModelScale": "0.740000",
+  "MovementSpeed": "290",
+  "NameAliases": "Nortrom",
+  "PickSound": "silencer_silen_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_silencer/silencer_base_attack.vpcf",
+  "ProjectileSpeed": "900",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_silencer/silencer_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Support,Disabler,Initiator,Nuker",
+  "Rolelevels": "1,1,2,2,1",
+  "SimilarHeroes": "87,37,11",
+  "SoundSet": "Hero_Silencer",
+  "Team": "Good",
+  "VersusScale": "0.74",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_silencer.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_silencer",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_silencer.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_silencer.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack2": "3",
+    "attach_hand_l": "2",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Silencer"
+}

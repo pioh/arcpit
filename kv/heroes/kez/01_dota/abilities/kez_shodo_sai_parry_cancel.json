@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "0.0",
+  "LinkedAbility": "kez_kazurai_katana",
+  "MaxLevel": "1"
+}

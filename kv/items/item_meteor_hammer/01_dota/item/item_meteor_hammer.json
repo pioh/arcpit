@@ -1,0 +1,39 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+  "AbilityCastRange": "600",
+  "AbilityChannelTime": "2",
+  "AbilityCooldown": "24",
+  "AbilityManaCost": "75",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "bonus_agility": "6",
+    "bonus_intellect": "24",
+    "bonus_strength": "6",
+    "burn_dps_buildings": "50",
+    "burn_dps_units": "50",
+    "burn_duration": "6",
+    "burn_interval": "1.0",
+    "burn_slow": "20",
+    "enemy_particles_visible": "0",
+    "impact_damage_buildings": "90",
+    "impact_damage_units": "130",
+    "impact_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "land_time": ".5",
+    "mana_regen_multiplier": "40",
+    "max_duration": "2",
+    "spell_amp": "10",
+    "stun_duration": "0.75"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "2850",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemPurchasable": "1",
+  "ItemQuality": "epic",
+  "ItemSellable": "1",
+  "ItemShopTags": "farming;magic_dmg;disable",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+  "SuggestLategame": "1"
+}

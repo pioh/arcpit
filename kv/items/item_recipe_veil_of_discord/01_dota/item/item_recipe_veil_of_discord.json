@@ -1,0 +1,10 @@
+{
+  "ItemCost": "320",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_ring_of_health;item_chainmail;item_circlet"
+  },
+  "ItemResult": "item_veil_of_discord",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

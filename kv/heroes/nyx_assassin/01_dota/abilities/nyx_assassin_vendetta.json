@@ -1,0 +1,50 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_6",
+  "AbilityDraftExtraAbilities": {
+    "nyx_assassin_burrow": "scepter"
+  },
+  "AbilitySound": "Hero_NyxAssassin.Vendetta",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "80 70 60"
+    },
+    "AbilityManaCost": {
+      "value": "180 240 300"
+    },
+    "attack_animation_bonus": "70",
+    "attack_range_bonus": "75",
+    "bonus_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "special_bonus_unique_nyx_vendetta_damage": "+50",
+      "value": "300 400 500"
+    },
+    "break_duration": {
+      "special_bonus_shard": "+4",
+      "value": "0"
+    },
+    "duration": {
+      "value": "60"
+    },
+    "fade_time": "0.0",
+    "free_pathing_duration": {
+      "special_bonus_facet_nyx_assassin_scuttle": "=15",
+      "value": "0"
+    },
+    "free_pathing_movement_speed_bonus": {
+      "special_bonus_facet_nyx_assassin_scuttle": "=200",
+      "value": "0"
+    },
+    "health_regen_rate_scepter": "3",
+    "mana_regen_rate_scepter": "3",
+    "movement_speed": {
+      "value": "16 18 20"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_ITEM",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "800",
+  "AbilityChannelTime": "2.0",
+  "AbilityCooldown": "6",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/seasonal_ti11_balloon",
+  "AbilityValues": {
+    "bounce_delay": "0.6",
+    "bounce_turn_angle": "45.0",
+    "bounce_turn_angle_tree": "30.0",
+    "drag": "7",
+    "duration": "30",
+    "max_bounces": "2",
+    "max_height": "300",
+    "max_usable_charges": "25",
+    "max_vertical_move_time": "0.5",
+    "min_distance_before_bounce": "200",
+    "model_scale_per_stack": "4",
+    "power_growth_exponent": "4",
+    "speed": "1500"
+  },
+  "AssociatedConsumable": "23681",
+  "MaxLevel": "1"
+}

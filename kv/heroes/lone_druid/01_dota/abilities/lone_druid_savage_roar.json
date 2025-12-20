@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.1",
+  "AbilityManaCost": "50",
+  "AbilitySound": "Hero_LoneDruid.SavageRoar.Cast",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_lone_druid_4": "-5",
+      "value": "38 32 26 20"
+    },
+    "bonus_speed": "20",
+    "duration": "0.8 1.2 1.6 2.0",
+    "only_affects_player_units": "1",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_lone_druid_savage_roar_aoe": "+150",
+      "value": "350"
+    },
+    "shard_attack_speed": {
+      "special_bonus_shard": "40"
+    },
+    "shard_duration": {
+      "special_bonus_shard": "5.0"
+    },
+    "shard_movement_speed_pct": {
+      "special_bonus_shard": "15"
+    },
+    "shard_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_shard": "700"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

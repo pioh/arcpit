@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.56",
+  "AbilityCastRange": "800",
+  "AbilityCooldown": "5.0",
+  "AbilityManaCost": "40",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "armor_bonus": {
+      "value": "4 5 6 8"
+    },
+    "attackspeed_slow": {
+      "value": "-22 -24 -26 -30"
+    },
+    "duration": {
+      "value": "45"
+    },
+    "movespeed_slow": {
+      "value": "-22 -24 -26 -30"
+    },
+    "slow_duration": {
+      "value": "5"
+    }
+  },
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

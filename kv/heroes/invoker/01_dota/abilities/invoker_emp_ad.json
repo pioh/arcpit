@@ -1,0 +1,34 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.05",
+  "AbilityCastRange": "950",
+  "AbilityCooldown": "30",
+  "AbilityManaCost": "125",
+  "AbilitySound": "Hero_Invoker.EMP.Charge",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "area_of_effect": {
+      "affected_by_aoe_increase": "1",
+      "value": "675"
+    },
+    "damage_per_mana_pct": {
+      "special_bonus_shard": "+50%",
+      "value": "60"
+    },
+    "delay": {
+      "value": "2.9"
+    },
+    "mana_burned": {
+      "value": "100 250 400 550"
+    },
+    "self_mana_restore_pct": "25",
+    "shard_drag_speed": {
+      "special_bonus_shard": "175"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "HotKeyOverride": "C",
+  "MaxLevel": "4",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

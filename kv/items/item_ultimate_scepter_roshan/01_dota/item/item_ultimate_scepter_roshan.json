@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "5800",
+  "ItemKillable": "1",
+  "ItemPurchasable": "0",
+  "ItemQuality": "rare",
+  "ItemSellable": "0",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/aghanim_scepter.vmdl"
+}

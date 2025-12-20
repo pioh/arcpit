@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.001 0.001 0.001 0.001",
+  "AbilityManaCost": "65",
+  "AbilitySound": "Hero_Slark.DarkPact.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_slark_6": "-0.75",
+      "value": "9.0 8.0 7.0 6.0"
+    },
+    "delay": "1.5",
+    "pulse_duration": "1.0",
+    "pulse_interval": "0.1",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "325"
+    },
+    "self_damage_pct": "30",
+    "total_damage": {
+      "special_bonus_unique_slark_2": "+70",
+      "value": "75 150 225 300"
+    },
+    "total_pulses": "10"
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

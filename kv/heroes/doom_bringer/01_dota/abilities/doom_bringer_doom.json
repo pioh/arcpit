@@ -1,0 +1,55 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_6",
+  "AbilityCastPoint": "0.5",
+  "AbilityCastRange": "400",
+  "AbilityManaCost": "150 200 250",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES | DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "140 130 120"
+    },
+    "applies_dispel_to_self": {
+      "special_bonus_scepter": "0"
+    },
+    "damage": {
+      "special_bonus_scepter": "+15",
+      "value": "25 45 65"
+    },
+    "deniable_pct": "25 25 25",
+    "does_break": {
+      "special_bonus_unique_doom_11": "+1",
+      "value": "0"
+    },
+    "does_mute": {
+      "special_bonus_unique_doom_10": "+1",
+      "value": "0"
+    },
+    "duration": {
+      "dynamic_value": "true",
+      "special_bonus_facet_doom_bringer_impending_doom": "+0",
+      "value": "12 14 16"
+    },
+    "scepter_aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "+350",
+      "value": "0"
+    },
+    "upgrade_amount": {
+      "special_bonus_facet_doom_bringer_impending_doom": "+0.66",
+      "value": "0.0"
+    },
+    "upgrade_interval": {
+      "special_bonus_facet_doom_bringer_impending_doom": "=6.66",
+      "value": "0.0"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

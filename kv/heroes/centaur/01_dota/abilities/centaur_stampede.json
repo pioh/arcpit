@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityDraftExtraAbilities": {
+    "centaur_work_horse": "scepter"
+  },
+  "AbilityManaCost": "150 200 250",
+  "AbilityModifierSupportValue": "0.2",
+  "AbilitySound": "Hero_Centaur.Stampede",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_centaur_5": "-25",
+      "value": "100 95 90"
+    },
+    "base_damage": "0",
+    "damage_reduction": "",
+    "duration": {
+      "value": "3.5 4 4.5"
+    },
+    "has_flying_movement": "",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "105"
+    },
+    "scepter_bonus_duration": {
+      "special_bonus_scepter": "+1"
+    },
+    "slow_duration": "3",
+    "slow_movement_speed": "100",
+    "strength_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "2 2.5 3"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES_ENEMIES_NO"
+}

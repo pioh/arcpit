@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.2",
+  "AbilityCooldown": "18",
+  "AbilityManaCost": "80",
+  "AbilitySound": "Hero_Furion.WrathOfNature_Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "damage_per_tree": "15",
+    "duration": "7",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "250"
+    },
+    "range": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    },
+    "slow_per_tree": "7"
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

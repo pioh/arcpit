@@ -1,0 +1,398 @@
+{
+  "Ability1": "pudge_meat_hook",
+  "Ability10": "special_bonus_armor_5",
+  "Ability11": "special_bonus_unique_pudge_4",
+  "Ability12": "special_bonus_spell_lifesteal_8",
+  "Ability13": "special_bonus_unique_pudge_7",
+  "Ability14": "special_bonus_unique_pudge_6",
+  "Ability15": "special_bonus_unique_pudge_5",
+  "Ability16": "special_bonus_unique_pudge_3",
+  "Ability17": "special_bonus_unique_pudge_1",
+  "Ability2": "pudge_rot",
+  "Ability3": "pudge_flesh_heap",
+  "Ability4": "generic_hidden",
+  "Ability5": "pudge_innate_graft_flesh",
+  "Ability6": "pudge_dismember",
+  "AbilityDraftAbilities": {
+    "Ability1": "pudge_meat_hook",
+    "Ability2": "pudge_rot",
+    "Ability3": "pudge_flesh_heap",
+    "Ability4": "pudge_dismember"
+  },
+  "AbilityPreview": {
+    "movie": "media/heroes/default",
+    "resource": [
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res"
+    ]
+  },
+  "Adjectives": {
+    "BadTeeth": "1",
+    "NicePecs": "1",
+    "Potbelly": "1",
+    "Red": "1",
+    "Undead": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "51",
+  "AttackDamageMin": "45",
+  "AttackRange": "175",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.400000",
+  "AttributeBaseAgility": "11",
+  "AttributeBaseIntelligence": "16",
+  "AttributeBaseStrength": "25",
+  "AttributeIntelligenceGain": "1.800000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.0",
+  "BanSound": "pudge_pud_anger_01",
+  "Bot": {
+    "Build": {
+      "1": "pudge_meat_hook",
+      "2": "pudge_rot",
+      "3": "pudge_meat_hook",
+      "4": "pudge_rot",
+      "5": "pudge_meat_hook",
+      "6": "pudge_dismember",
+      "7": "pudge_meat_hook",
+      "8": "pudge_rot",
+      "9": "pudge_rot",
+      "10": "special_bonus_unique_pudge_4",
+      "11": "pudge_flesh_heap",
+      "12": "pudge_dismember",
+      "13": "pudge_flesh_heap",
+      "14": "pudge_flesh_heap",
+      "15": "special_bonus_spell_lifesteal_8",
+      "16": "pudge_flesh_heap",
+      "17": "",
+      "18": "pudge_dismember",
+      "19": "",
+      "20": "special_bonus_unique_pudge_5",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_pudge_1"
+    },
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_TANK",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "2",
+      "SurvivalRating": "2"
+    },
+    "Loadout": {
+      "item_blade_of_alacrity": "ITEM_LUXURY",
+      "item_blink": "ITEM_EXTENSION",
+      "item_boots": "ITEM_CORE",
+      "item_bottle": "ITEM_CORE | ITEM_SELLABLE",
+      "item_bracer": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_branches": [
+        "ITEM_EXTENSION",
+        "ITEM_EXTENSION"
+      ],
+      "item_circlet": "ITEM_CORE",
+      "item_crown": "ITEM_EXTENSION",
+      "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_gauntlets": "ITEM_CORE",
+      "item_heart": "ITEM_DERIVED",
+      "item_helm_of_iron_will": "ITEM_EXTENSION",
+      "item_magic_stick": "ITEM_CORE",
+      "item_magic_wand": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_ogre_axe": "ITEM_LUXURY",
+      "item_platemail": "ITEM_LUXURY",
+      "item_point_booster": "ITEM_LUXURY",
+      "item_reaver": "ITEM_LUXURY",
+      "item_recipe_bracer": "ITEM_CORE",
+      "item_recipe_heart": "ITEM_LUXURY",
+      "item_recipe_magic_wand": "ITEM_EXTENSION",
+      "item_recipe_shivas_guard": "ITEM_LUXURY",
+      "item_recipe_veil_of_discord": "ITEM_EXTENSION",
+      "item_ring_of_regen": "ITEM_EXTENSION",
+      "item_ring_of_tarrasque": "ITEM_LUXURY",
+      "item_shivas_guard": "ITEM_DERIVED",
+      "item_staff_of_wizardry": "ITEM_LUXURY",
+      "item_tranquil_boots": "ITEM_DERIVED",
+      "item_ultimate_scepter": "ITEM_DERIVED",
+      "item_veil_of_discord": "ITEM_DERIVED",
+      "item_wind_lace": "ITEM_EXTENSION"
+    }
+  },
+  "BotImplemented": "1",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "pudge_flayers_hook": {
+      "Color": "Red",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "pudge_hook"
+    },
+    "pudge_fresh_meat": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "meat"
+    },
+    "pudge_rotten_core": {
+      "Color": "Green",
+      "GradientID": "3",
+      "Icon": "fist"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_pudge.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "178 128 114",
+  "HeroID": "14",
+  "HeroOrderID": "14",
+  "HeroPool1": "1",
+  "HeroPool2": "1",
+  "HeroSelectSoundEffect": "Hero_Pudge.Pick",
+  "HeroUnlockOrder": "3",
+  "IdleExpression": "scenes/pudge/pudge_exp_idle_01.vcd",
+  "IdleSoundLoop": "Hero_Pudge.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "2",
+      "SlotName": "offhand_weapon",
+      "SlotText": "#LoadoutSlot_offhand_weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "4",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_LeftArm",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "5",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "7",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "9": {
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "500",
+      "SlotIndex": "9",
+      "SlotName": "weapon_persona_1",
+      "SlotText": "#LoadoutSlot_Weapon_Pudge_Persona",
+      "TextureHeight": "256",
+      "TextureWidth": "256",
+      "no_import": "1"
+    },
+    "10": {
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "500",
+      "SlotIndex": "10",
+      "SlotName": "offhand_weapon_persona_1",
+      "SlotText": "#LoadoutSlot_Offhand_Weapon_Pudge_Persona",
+      "TextureHeight": "256",
+      "TextureWidth": "256",
+      "no_import": "1"
+    },
+    "11": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1250",
+      "SlotIndex": "11",
+      "SlotName": "head_persona_1",
+      "SlotText": "#LoadoutSlot_Head_Pudge_Persona",
+      "TextureHeight": "512",
+      "TextureWidth": "512",
+      "no_import": "1"
+    },
+    "12": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "2000",
+      "SlotIndex": "12",
+      "SlotName": "armor_persona_1",
+      "SlotText": "#LoadoutSlot_Armor_Pudge_Persona",
+      "TextureHeight": "512",
+      "TextureWidth": "512",
+      "no_import": "1"
+    },
+    "13": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1250",
+      "SlotIndex": "13",
+      "SlotName": "arms_persona_1",
+      "SlotText": "#LoadoutSlot_Arms_Pudge_Persona",
+      "TextureHeight": "512",
+      "TextureWidth": "512",
+      "no_import": "1"
+    },
+    "14": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "14",
+      "SlotName": "ambient_effects_persona_1",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "15": {
+      "SlotIndex": "15",
+      "SlotName": "taunt_persona_1",
+      "SlotText": "#LoadoutSlot_Taunt_Pudge_Persona"
+    },
+    "16": {
+      "SlotIndex": "16",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "17": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "17",
+      "SlotName": "ability_effects_1",
+      "SlotText": "pudge_meat_hook"
+    },
+    "18": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "18",
+      "SlotName": "ability_effects_2",
+      "SlotText": "pudge_rot"
+    },
+    "19": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "19",
+      "SlotName": "ability_effects_3",
+      "SlotText": "pudge_flesh_heap"
+    },
+    "20": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "20",
+      "SlotName": "ability_effects_4",
+      "SlotText": "pudge_dismember"
+    },
+    "21": {
+      "SlotIndex": "21",
+      "SlotName": "hero_base",
+      "SlotText": "#LoadoutSlot_Pudge_Base"
+    },
+    "22": {
+      "SlotIndex": "22",
+      "SlotName": "persona_selector",
+      "SlotText": "#LoadoutSlot_Persona_Selector"
+    },
+    "23": {
+      "SlotIndex": "23",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    },
+    "24": {
+      "SlotIndex": "24",
+      "SlotName": "hero_effigy_persona_1",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_skeleton_king",
+  "LoadoutScale": "0.980000",
+  "Model": "models/heroes/pudge/pudge.vmdl",
+  "ModelScale": "0.980000",
+  "MovementSpeed": "280",
+  "MovementTurnRate": "0.700000",
+  "NameAliases": "Toy Butcher",
+  "Persona": {
+    "1": {
+      "Model": "models/heroes/pudge_cute/pudge_cute.vmdl",
+      "mvp_map_override": "maps/scenes/mvp/mvp_pudge_persona.vmap",
+      "name": "npc_dota_hero_pudge_persona1",
+      "token": "#npc_dota_hero_pudge_persona1",
+      "token_english": "#npc_dota_hero_pudge_persona1__en"
+    }
+  },
+  "PickSound": "pudge_pud_spawn_10",
+  "ProjectileSpeed": "0",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_pudge/pudge_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Disabler,Initiator,Durable,Nuker",
+  "Rolelevels": "2,2,2,1",
+  "SimilarHeroes": "9,21,51",
+  "SoundSet": "Hero_Pudge",
+  "StatusHealthRegen": "2.5",
+  "Team": "Bad",
+  "VersusScale": "0.980000",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_pudge.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_pudge",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_pudge.vpcf",
+    "party_hat_effect_persona_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_pudge_persona_1.vpcf"
+  },
+  "precache": {
+    "particle": [
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_pudge.vpcf",
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_pudge_persona_1.vpcf"
+    ]
+  },
+  "showcase_attachments": {
+    "attach_attack2": "2",
+    "attach_head": "3",
+    "attach_hook": "1"
+  },
+  "workshop_guide_name": "Pudge"
+}

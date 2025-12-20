@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "cooldown_reduction_creeps": "0.2",
+    "cooldown_reduction_heroes": "5.0",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    }
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

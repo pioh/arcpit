@@ -1,0 +1,43 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastPoint": "0.0",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "activatable": {
+      "special_bonus_facet_huskar_cauterize": "+1",
+      "value": "0"
+    },
+    "activation_cooldown": {
+      "special_bonus_facet_huskar_cauterize": "+50.0 +40.0 +30.0 +20.0",
+      "value": "0 0 0 0"
+    },
+    "activation_delay": {
+      "special_bonus_facet_huskar_cauterize": "+3.0",
+      "value": "0"
+    },
+    "activation_heal_pct_per_debuff": {
+      "special_bonus_facet_huskar_cauterize": "+5.0",
+      "value": "0"
+    },
+    "activation_healthcost_pct": {
+      "special_bonus_facet_huskar_cauterize": "+30.0",
+      "value": "0"
+    },
+    "aura_effectiveness": {
+      "value": "0"
+    },
+    "aura_radius": {
+      "value": "0"
+    },
+    "hp_threshold_max": "12",
+    "maximum_attack_speed": "170 220 270 320",
+    "maximum_health_regen": {
+      "special_bonus_unique_huskar_6": "+30",
+      "value": "25 40 55 70"
+    },
+    "maximum_magic_resist": "15 20 25 30"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

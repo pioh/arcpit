@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "debuff_amp": "14 16 18 20"
+  },
+  "DependentOnAbility": "ursa_enrage",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

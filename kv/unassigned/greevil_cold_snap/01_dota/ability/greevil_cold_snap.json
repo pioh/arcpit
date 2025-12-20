@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "1000",
+  "AbilityCooldown": "10",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "customval_damage": {
+      "value": "10 15 20"
+    },
+    "customval_initial_damage": {
+      "value": "25 30 35"
+    },
+    "damage_trigger": {
+      "value": "10"
+    },
+    "duration": {
+      "value": "3"
+    },
+    "freeze_cooldown": {
+      "value": "0.7"
+    },
+    "freeze_duration": {
+      "value": "0.4"
+    }
+  }
+}

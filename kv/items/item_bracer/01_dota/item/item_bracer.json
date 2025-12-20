@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_agility": "2",
+    "bonus_damage": "0",
+    "bonus_health": "50",
+    "bonus_health_regen": "0.75",
+    "bonus_intellect": "2",
+    "bonus_strength": "5"
+  },
+  "ItemCost": "505",
+  "ItemQuality": "common",
+  "ItemShopTags": "damage;int;agi;str",
+  "SuggestEarlygame": "1"
+}

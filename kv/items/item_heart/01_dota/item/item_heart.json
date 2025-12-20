@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_strength": "40",
+    "hp_regen": "1",
+    "missing_health_regen": "1.5"
+  },
+  "ItemCost": "5100",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "str;regen_health;health_pool;tank",
+  "SuggestLategame": "1"
+}

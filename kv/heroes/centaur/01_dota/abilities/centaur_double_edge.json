@@ -1,0 +1,56 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.25",
+  "AbilityCastRange": "175 175 175 175",
+  "AbilityCooldown": "3.5",
+  "AbilityManaCost": "0 0 0 0",
+  "AbilitySound": "Hero_Centaur.DoubleEdge",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "edge_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "120 180 240 300"
+    },
+    "max_damage_increase_pct": {
+      "special_bonus_facet_centaur_counter_strike": "=100",
+      "value": "0"
+    },
+    "pct_of_incoming_damage_as_bonus": {
+      "special_bonus_facet_centaur_counter_strike": "=35",
+      "value": "0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "220"
+    },
+    "shard_max_stacks": {
+      "special_bonus_shard": "+5"
+    },
+    "shard_movement_slow": {
+      "special_bonus_shard": "+25"
+    },
+    "shard_movement_slow_duration": {
+      "special_bonus_shard": "+2"
+    },
+    "shard_str_duration": {
+      "special_bonus_shard": "+15"
+    },
+    "shard_str_pct": {
+      "special_bonus_shard": "+12"
+    },
+    "stack_duration": {
+      "special_bonus_facet_centaur_counter_strike": "=6",
+      "value": "0"
+    },
+    "strength_damage": {
+      "special_bonus_unique_centaur_4": "+30",
+      "value": "60 90 120 150"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

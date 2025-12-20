@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "40",
+  "AbilityValues": {
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    },
+    "damage_redirection": "25",
+    "duration": "10",
+    "hp_regen": "7",
+    "magic_resist": "25"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

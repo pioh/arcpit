@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "700",
+  "AbilityCooldown": "45",
+  "AbilityManaCost": "50",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "bonus_armor": "7",
+    "bonus_regen": "7",
+    "bonus_stats": "21",
+    "bounty_gold": "250",
+    "count_limit": "1",
+    "creep_ability_level_increase": "1",
+    "creep_bonus_armor": "7",
+    "creep_bonus_damage": "70",
+    "creep_bonus_hp_regen": "12",
+    "creep_bonus_mp_regen": "4",
+    "creep_damage_taken_cooldown": "3",
+    "health_min": "1800",
+    "is_overlord": "1",
+    "model_scale": "20",
+    "speed_base": "380"
+  },
+  "ItemCost": "5650",
+  "ItemQuality": "artifact",
+  "ItemShopTags": "damage;armor;unique;hard_to_tag",
+  "SuggestLategame": "1"
+}

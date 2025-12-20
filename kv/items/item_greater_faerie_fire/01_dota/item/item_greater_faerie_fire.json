@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "10.0",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "bonus_damage": "20",
+    "hp_restore": "250"
+  },
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "0",
+  "ItemInitialCharges": "3",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable",
+  "ItemSellable": "0",
+  "ItemShopTags": "consumable;laning",
+  "Model": "models/props_gameplay/neutral_box.vmdl",
+  "SpeciallyBannedFromNeutralSlot": "1"
+}

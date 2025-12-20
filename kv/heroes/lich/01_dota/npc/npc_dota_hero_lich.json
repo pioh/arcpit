@@ -1,0 +1,268 @@
+{
+  "Ability1": "lich_frost_nova",
+  "Ability10": "special_bonus_unique_lich_8",
+  "Ability11": "special_bonus_unique_lich_6",
+  "Ability12": "special_bonus_unique_lich_2",
+  "Ability13": "special_bonus_unique_lich_3",
+  "Ability14": "special_bonus_unique_lich_7",
+  "Ability15": "special_bonus_unique_lich_4",
+  "Ability16": "special_bonus_unique_lich_1",
+  "Ability17": "special_bonus_unique_lich_jump_damage",
+  "Ability2": "lich_frost_shield",
+  "Ability3": "lich_sinister_gaze",
+  "Ability4": "lich_ice_spire",
+  "Ability5": "lich_death_charge",
+  "Ability6": "lich_chain_frost",
+  "AbilityDraftAbilities": {
+    "Ability1": "lich_frost_nova",
+    "Ability2": "lich_frost_shield",
+    "Ability3": "lich_sinister_gaze",
+    "Ability4": "lich_chain_frost"
+  },
+  "Adjectives": {
+    "Blue": "1",
+    "Flying": "1",
+    "Icy": "1",
+    "Undead": "1"
+  },
+  "ArmorPhysical": "-1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.460000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "33",
+  "AttackDamageMin": "24",
+  "AttackRange": "550",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "2.0",
+  "AttributeBaseAgility": "17",
+  "AttributeBaseIntelligence": "28",
+  "AttributeBaseStrength": "20",
+  "AttributeIntelligenceGain": "3.80000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.10000",
+  "BanSound": "lich_lich_anger_03",
+  "Bot": {
+    "Build": {
+      "1": "lich_frost_shield",
+      "2": "lich_frost_nova",
+      "3": "lich_frost_shield",
+      "4": "lich_frost_nova",
+      "5": "lich_sinister_gaze",
+      "6": "lich_chain_frost",
+      "7": "lich_frost_shield",
+      "8": "lich_frost_nova",
+      "9": "lich_frost_nova",
+      "10": "special_bonus_unique_lich_8",
+      "11": "lich_frost_shield",
+      "12": "lich_chain_frost",
+      "13": "lich_sinister_gaze",
+      "14": "lich_sinister_gaze",
+      "15": "special_bonus_unique_lich_3",
+      "16": "lich_sinister_gaze",
+      "17": "",
+      "18": "lich_chain_frost",
+      "19": "",
+      "20": "special_bonus_unique_lich_7",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_lich_jump_damage"
+    },
+    "HeroType": "DOTA_BOT_PURE_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "0",
+      "RequiresSetup": "1",
+      "SoloDesire": "1",
+      "SurvivalRating": "1"
+    },
+    "Loadout": {
+      "item_aether_lens": "ITEM_DERIVED",
+      "item_blade_of_alacrity": "ITEM_LUXURY",
+      "item_blink": "ITEM_CORE",
+      "item_boots": "ITEM_CORE",
+      "item_cloak": "ITEM_EXTENSION",
+      "item_energy_booster": "ITEM_EXTENSION",
+      "item_headdress": "ITEM_DERIVED",
+      "item_mystic_staff": "ITEM_LUXURY",
+      "item_ogre_axe": "ITEM_LUXURY",
+      "item_pipe": "ITEM_DERIVED",
+      "item_point_booster": "ITEM_LUXURY",
+      "item_recipe_aether_lens": "ITEM_EXTENSION",
+      "item_recipe_headdress": "ITEM_EXTENSION",
+      "item_recipe_pipe": "ITEM_EXTENSION",
+      "item_recipe_sheepstick": "ITEM_EXTENSION",
+      "item_ring_of_regen": [
+        "ITEM_CORE",
+        "ITEM_EXTENSION"
+      ],
+      "item_ring_of_tarrasque": "ITEM_EXTENSION",
+      "item_sheepstick": "ITEM_DERIVED",
+      "item_staff_of_wizardry": "ITEM_LUXURY",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_tiara_of_selemene": "ITEM_EXTENSION",
+      "item_tranquil_boots": "ITEM_DERIVED",
+      "item_ultimate_scepter": "ITEM_DERIVED",
+      "item_void_stone": "ITEM_EXTENSION",
+      "item_wind_lace": "ITEM_CORE"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "lich_cryophobia": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "vision"
+    },
+    "lich_frostbound": {
+      "Color": "Blue",
+      "Deprecated": "1",
+      "GradientID": "0",
+      "Icon": "snowflake"
+    },
+    "lich_growing_cold": {
+      "Color": "Gray",
+      "GradientID": "0",
+      "Icon": "cooldown"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_lich.vsndevts",
+  "GibType": "ice",
+  "HealthBarOffset": "255",
+  "HeroGlowColor": "40 160 255",
+  "HeroID": "31",
+  "HeroOrderID": "7",
+  "HeroPool1": "1",
+  "HeroPool2": "1",
+  "HeroSelectSoundEffect": "Hero_Lich.Pick",
+  "HeroUnlockOrder": "0",
+  "IdleSoundLoop": "Hero_Lich.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "neck",
+      "SlotText": "#LoadoutSlot_Neck",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "1",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "4",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_1",
+      "SlotText": "lich_frost_nova"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_3",
+      "SlotText": "lich_sinister_gaze"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_4",
+      "SlotText": "lich_chain_frost"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_crystal_maiden",
+  "Model": "models/heroes/lich/lich.vmdl",
+  "ModelScale": "0.790000",
+  "MovementSpeed": "290",
+  "MovementTurnRate": "0.700000",
+  "NameAliases": "Ethreain",
+  "PickSound": "lich_lich_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_lich/lich_base_attack.vpcf",
+  "ProjectileSpeed": "900",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_lich/lich_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Support,Nuker",
+  "Rolelevels": "3,2",
+  "SimilarHeroes": "5,30,121",
+  "SoundSet": "Hero_Lich",
+  "SpectatorLoadoutScale": "0.84",
+  "StatusHealthRegen": "0.5",
+  "StatusManaRegen": "0.75",
+  "Team": "Bad",
+  "VersusScale": "0.790000",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_lich.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_lich",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lich.vpcf"
+  },
+  "precache": {
+    "model": "models/heroes/lich/ice_spire.vmdl",
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_lich.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack4": "3",
+    "attach_head": "4"
+  },
+  "workshop_guide_name": "Lich"
+}

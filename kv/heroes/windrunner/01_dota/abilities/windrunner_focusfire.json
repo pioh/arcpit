@@ -1,0 +1,62 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "600",
+  "AbilityDraftExtraAbilities": {
+    "windrunner_gale_force": "shard"
+  },
+  "AbilityManaCost": "75 100 125",
+  "AbilitySound": "Ability.Focusfire",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_facet_windrunner_whirlwind": "=70 =60 =50",
+      "value": "70 50 30"
+    },
+    "AbilityDuration": {
+      "special_bonus_facet_windrunner_whirlwind": "=8.0",
+      "value": "20.0 20.0 20.0"
+    },
+    "attacks_per_second": {
+      "special_bonus_facet_windrunner_whirlwind": "7 9 11"
+    },
+    "bonus_attack_speed": {
+      "special_bonus_facet_windrunner_whirlwind": "=0",
+      "value": "350 425 500"
+    },
+    "bonus_range": {
+      "special_bonus_facet_windrunner_whirlwind": "+125",
+      "value": "0"
+    },
+    "cooldown_reduction_per_kill": {
+      "special_bonus_unique_windranger_2": "+18"
+    },
+    "duration_increase_per_kill": {
+      "special_bonus_facet_windrunner_whirlwind": {
+        "special_bonus_unique_windranger_2": "+2"
+      }
+    },
+    "focusfire_damage_reduction": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_facet_windrunner_whirlwind": "-5",
+      "special_bonus_unique_windranger_8": "+10",
+      "value": "-25"
+    },
+    "focusfire_fire_on_the_move": "1",
+    "is_unfocused": {
+      "special_bonus_facet_windrunner_whirlwind": "=1",
+      "value": "0"
+    },
+    "process_procs": {
+      "value": "1"
+    },
+    "unfocused_cancel_initial_cooldown": "0.5"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

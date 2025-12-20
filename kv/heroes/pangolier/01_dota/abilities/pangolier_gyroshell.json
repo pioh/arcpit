@@ -1,0 +1,62 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "1.2",
+  "AbilityCastRange": "0",
+  "AbilityDamage": "75 150 225",
+  "AbilityDraftExtraAbilities": {
+    "pangolier_rollup": "shard"
+  },
+  "AbilityManaCost": "100 125 150",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_pangolier_5": "-15",
+      "value": "90 85 80"
+    },
+    "bounce_duration": "0.4",
+    "cast_time_tooltip": "1.2",
+    "damage_pct": "100",
+    "duration": {
+      "special_bonus_facet_pangolier_thunderbolt": "-1",
+      "special_bonus_unique_pangolier_6": "+2",
+      "value": "9 10 11"
+    },
+    "forward_move_speed": {
+      "special_bonus_facet_pangolier_thunderbolt": "+115",
+      "value": "550"
+    },
+    "hit_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    },
+    "jump_recover_time": "0.25",
+    "knockback_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    },
+    "magic_resistance": "60",
+    "move_speed_ramp_up_time": "1.0",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "stun_duration": "0.8 1.0 1.2",
+    "tick_interval": "0.05",
+    "turn_rate": {
+      "special_bonus_facet_pangolier_thunderbolt": "+40%",
+      "value": "120"
+    },
+    "turn_rate_boosted": {
+      "special_bonus_facet_pangolier_thunderbolt": "+40%",
+      "value": "165"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+  "precache": {
+    "model": "models/heroes/pangolier/pangolier_gyroshell2.vmdl"
+  }
+}

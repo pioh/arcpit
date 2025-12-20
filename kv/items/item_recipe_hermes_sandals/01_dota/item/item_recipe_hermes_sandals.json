@@ -1,0 +1,11 @@
+{
+  "ItemCost": "500",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_phase_boots;item_eagle"
+  },
+  "ItemResult": "item_hermes_sandals",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

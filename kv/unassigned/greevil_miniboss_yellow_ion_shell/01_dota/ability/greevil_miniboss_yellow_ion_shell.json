@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "10",
+  "AbilityManaCost": "50",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "cast_animation": {
+      "value": "6"
+    },
+    "damage_per_second": {
+      "value": "90"
+    },
+    "duration": {
+      "value": "20"
+    },
+    "radius": {
+      "value": "250"
+    }
+  }
+}

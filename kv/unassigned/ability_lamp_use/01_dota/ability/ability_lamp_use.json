@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_IGNORE_SILENCE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityCastAnimation": "ACT_DOTA_GENERIC_CHANNEL_1",
+  "AbilityCastRange": "200",
+  "AbilityChannelTime": "1.0",
+  "AbilityTextureName": "watcher_channel",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityValues": {
+    "active_duration": "420",
+    "duration": "420",
+    "inactive_duration": "120"
+  },
+  "MaxLevel": "1"
+}

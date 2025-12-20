@@ -1,0 +1,217 @@
+{
+  "Ability1": "earth_spirit_boulder_smash",
+  "Ability10": "special_bonus_unique_earth_spirit_7",
+  "Ability11": "special_bonus_unique_earth_spirit_4",
+  "Ability12": "special_bonus_unique_earth_spirit_rolling_boulder_stun",
+  "Ability13": "special_bonus_unique_earth_spirit_6",
+  "Ability14": "special_bonus_unique_earth_spirit_8",
+  "Ability15": "special_bonus_unique_earth_spirit",
+  "Ability16": "special_bonus_unique_earth_spirit_2",
+  "Ability17": "special_bonus_unique_earth_spirit_5",
+  "Ability2": "earth_spirit_rolling_boulder",
+  "Ability3": "earth_spirit_geomagnetic_grip",
+  "Ability4": "earth_spirit_stone_caller",
+  "Ability5": "earth_spirit_petrify",
+  "Ability6": "earth_spirit_magnetize",
+  "AbilityDraftAbilities": {
+    "Ability1": "earth_spirit_boulder_smash",
+    "Ability2": "earth_spirit_rolling_boulder",
+    "Ability3": "earth_spirit_geomagnetic_grip",
+    "Ability4": "earth_spirit_magnetize"
+  },
+  "Adjectives": {
+    "Green": "1",
+    "NicePecs": "1",
+    "Nose": "0",
+    "Spirit": "1"
+  },
+  "ArmorPhysical": "0.00000",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.350000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "29",
+  "AttackDamageMin": "25",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "2.400000",
+  "AttributeBaseAgility": "17",
+  "AttributeBaseIntelligence": "18",
+  "AttributeBaseStrength": "22",
+  "AttributeIntelligenceGain": "2.100000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.800000",
+  "BanSound": "earth_spirit_earthspi_anger_08",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "0",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "3",
+  "Enabled": "1",
+  "Facets": {
+    "earth_spirit_earth_spirit": {
+      "Color": "Green",
+      "GradientID": "0",
+      "Icon": "spinning"
+    },
+    "earth_spirit_ready_to_roll": {
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "1",
+      "Icon": "spinning"
+    },
+    "earth_spirit_resonance": {
+      "Color": "Green",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "damage"
+    },
+    "earth_spirit_stepping_stone": {
+      "Color": "Gray",
+      "Deprecated": "true",
+      "GradientID": "2",
+      "Icon": "cooldown"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_earth_spirit.vsndevts",
+  "GibType": "stone",
+  "HasAggressiveStance": "1",
+  "HeroID": "107",
+  "HeroOrderID": "104",
+  "HeroSelectSoundEffect": "Hero_EarthSpirit.Pick",
+  "IdleExpression": "scenes/earth_spirit/earth_spirit_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "1",
+      "SlotName": "neck",
+      "SlotText": "#LoadoutSlot_neck",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "3",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "body_head",
+      "SlotText": "#LoadoutSlot_Head"
+    },
+    "6": {
+      "LoadoutPreviewMode": "particle",
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "3000",
+      "SlotIndex": "6",
+      "SlotName": "ability4",
+      "SlotText": "#LoadoutSlot_EarthSpirit_StoneRemnant",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_2",
+      "SlotText": "earth_spirit_rolling_boulder"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "Model": "models/heroes/earth_spirit/earth_spirit.vmdl",
+  "ModelScale": "0.950000",
+  "MovementSpeed": "290",
+  "NameAliases": "es;Kaolin;Earth",
+  "NoCombine": "0",
+  "PickSound": "earth_spirit_earthspi_spawn_02",
+  "RenderablePortrait": [
+    {
+      "Particles": {
+        "particles/units/heroes/hero_earth_spirit/earth_spirit_loadout.vpcf": "loadout"
+      }
+    },
+    {
+      "Particles": {}
+    }
+  ],
+  "Role": "Nuker,Escape,Disabler,Initiator,Durable",
+  "Rolelevels": "2,2,1,1,1",
+  "SimilarHeroes": "126,106,17",
+  "SoundSet": "Hero_EarthSpirit",
+  "StatusHealthRegen": "1",
+  "Team": "Good",
+  "VersusScale": "0.950000",
+  "VisionDaytimeRange": "1800",
+  "VoiceFile": [
+    "soundevents/voscripts/game_sounds_vo_earth_spirit.vsndevts",
+    "soundevents/voscripts/game_sounds_vo_earth_spirit.vsndevts"
+  ],
+  "particle_folder": "particles/units/heroes/hero_earth_spirit",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_earth_spirit.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_earth_spirit.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_hand2": "2",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Earth Spirit"
+}

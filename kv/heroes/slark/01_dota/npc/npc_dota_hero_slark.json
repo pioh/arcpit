@@ -1,0 +1,213 @@
+{
+  "Ability1": "slark_dark_pact",
+  "Ability10": "special_bonus_unique_slark_6",
+  "Ability11": "special_bonus_unique_slark",
+  "Ability12": "special_bonus_unique_slark_2",
+  "Ability13": "special_bonus_unique_slark_8",
+  "Ability14": "special_bonus_unique_slark_5",
+  "Ability15": "special_bonus_unique_slark_7",
+  "Ability16": "special_bonus_unique_slark_3",
+  "Ability17": "special_bonus_unique_slark_4",
+  "Ability2": "slark_pounce",
+  "Ability3": "slark_saltwater_shiv",
+  "Ability4": "slark_depth_shroud",
+  "Ability5": "slark_essence_shift",
+  "Ability6": "slark_shadow_dance",
+  "AbilityDraftAbilities": {
+    "Ability1": "slark_dark_pact",
+    "Ability2": "slark_pounce",
+    "Ability3": "slark_saltwater_shiv",
+    "Ability4": "slark_shadow_dance"
+  },
+  "Adjectives": {
+    "Aquatic": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "43",
+  "AttackDamageMin": "37",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.500000",
+  "AttributeBaseAgility": "21",
+  "AttributeBaseIntelligence": "16",
+  "AttributeBaseStrength": "20",
+  "AttributeIntelligenceGain": "1.900000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.100000",
+  "BanSound": "slark_slark_anger_02",
+  "BaseAttackSpeed": "120",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "2",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "1",
+      "SurvivalRating": "2"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "slark_dark_reef_renegade": {
+      "Color": "Blue",
+      "Deprecated": "true",
+      "GradientID": "2",
+      "Icon": "cooldown"
+    },
+    "slark_leeching_leash": {
+      "Color": "Green",
+      "Deprecated": "true",
+      "GradientID": "2",
+      "Icon": "agility"
+    },
+    "slark_slark": {
+      "Color": "Blue",
+      "GradientID": "2",
+      "Icon": "broken_chain"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_slark.vsndevts",
+  "GibType": "default",
+  "HeroID": "93",
+  "HeroOrderID": "94",
+  "HeroSelectSoundEffect": "Hero_Slark.Pick",
+  "HeroUnlockOrder": "0",
+  "IdleExpression": "scenes/slark/slark_exp_idle_01.vcd",
+  "IdleSoundLoop": "Hero_Slark.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "2",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "4",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "GeneratesUnits": {
+        "0": "npc_dota_companion"
+      },
+      "ShowItemOnGeneratedUnits": "1",
+      "SlotIndex": "5",
+      "SlotName": "summon",
+      "SlotText": "#LoadoutSlot_Pet"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "slark_dark_pact"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_2",
+      "SlotText": "slark_pounce"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_4",
+      "SlotText": "slark_shadow_dance"
+    },
+    "11": {
+      "SlotIndex": "11",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_kunkka",
+  "LoadoutScale": "0.9",
+  "Model": "models/heroes/slark/slark.vmdl",
+  "ModelScale": "0.900000",
+  "MovementSpeed": "300",
+  "MovementTurnRate": "0.700000",
+  "NameAliases": "slark",
+  "PickSound": "slark_slark_spawn_01",
+  "ProjectileSpeed": "0",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_slark/slark_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Escape,Disabler,Nuker",
+  "Rolelevels": "2,3,1,1",
+  "SimilarHeroes": "44,32,63",
+  "SoundSet": "Hero_Slark",
+  "StatusHealthRegen": "0.25",
+  "Team": "Bad",
+  "VersusScale": "0.900000",
+  "VisionDaytimeRange": "1800",
+  "VisionNighttimeRange": "1800",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_slark.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_slark",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_slark.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_slark.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_hand_l": "3",
+    "attach_head": "1",
+    "attach_weapon": "2"
+  },
+  "workshop_guide_name": "Slark"
+}

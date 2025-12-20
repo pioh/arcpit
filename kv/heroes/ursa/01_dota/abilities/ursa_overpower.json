@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "12 11 10 9",
+  "AbilityDuration": "20",
+  "AbilityManaCost": "45 50 55 60",
+  "AbilitySound": "Hero_Ursa.Overpower",
+  "AbilityValues": {
+    "attack_speed_bonus_pct": "400",
+    "max_attacks": {
+      "special_bonus_unique_ursa_7": "+3",
+      "value": "3 4 5 6"
+    },
+    "slow_resist": "25"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

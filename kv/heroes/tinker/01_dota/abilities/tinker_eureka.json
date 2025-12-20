@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "int_per_one_cdr": "3",
+    "item_cooldown_tooltip": {
+      "dynamic_value": "true"
+    },
+    "max_cdr": "60",
+    "one_percent_tooltip": "1"
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

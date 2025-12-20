@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "40.0",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "duration": "5",
+    "health_restore": "3000",
+    "idle": "5",
+    "mana_restore": "2000",
+    "regen": "100",
+    "shield": "500"
+  },
+  "IsTempestDoubleClonable": "0",
+  "ItemContributesToNetWorthWhenDropped": "0",
+  "ItemCost": "2",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemInitialCharges": "1",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "",
+  "ItemStackable": "1",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

@@ -1,0 +1,59 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityChannelAnimation": "ACT_DOTA_CHANNEL_ABILITY_4",
+  "AbilityModifierSupportValue": "0.35",
+  "AbilitySound": "hero_Crystal.freezingField.wind",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCastPoint": "0",
+    "AbilityChannelTime": "10",
+    "AbilityCooldown": "100 95 90",
+    "AbilityDuration": "10.0",
+    "AbilityManaCost": "200 400 600",
+    "aoe_bonus": {
+      "special_bonus_facet_crystal_maiden_frozen_expanse": "6 8 10"
+    },
+    "attack_slow": "-80 -120 -160",
+    "can_move": {
+      "special_bonus_scepter": "+1"
+    },
+    "damage": {
+      "special_bonus_unique_crystal_maiden_3": "+50",
+      "value": "110 180 250"
+    },
+    "explosion_interval": "0.1",
+    "explosion_max_dist": {
+      "affected_by_aoe_increase": "1",
+      "value": "785"
+    },
+    "explosion_min_dist": "195",
+    "explosion_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "320"
+    },
+    "frostbite_delay": {
+      "special_bonus_scepter": "+3.0",
+      "value": "-1"
+    },
+    "movespeed_slow": "-40",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "810"
+    },
+    "self_cast_range_bonus": {
+      "special_bonus_facet_crystal_maiden_frozen_expanse": "75 100 125"
+    },
+    "shard_bonus_explosion": {
+      "special_bonus_scepter": "+20"
+    },
+    "shard_self_movement_speed_slow_pct": {
+      "special_bonus_scepter": "-75"
+    },
+    "slow_duration": "1.0"
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

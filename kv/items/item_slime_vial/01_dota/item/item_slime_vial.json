@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastRange": "550",
+  "AbilityCooldown": "27",
+  "AbilityValues": {
+    "health_regen": "12",
+    "spill_attack_speed": "30",
+    "spill_damage": "125",
+    "spill_debuff_duration": "4.0",
+    "spill_movement_speed": "35",
+    "spill_radius": "550",
+    "spill_self_bonus_armor": "15",
+    "spill_speed": "350"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

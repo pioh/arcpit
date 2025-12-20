@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "burn_damage_pct": "65",
+    "burn_duration": {
+      "special_bonus_facet_lina_dot": "3"
+    },
+    "impact_damage_pct": "60",
+    "total_damage_tooltip": "125"
+  },
+  "MaxLevel": "1"
+}

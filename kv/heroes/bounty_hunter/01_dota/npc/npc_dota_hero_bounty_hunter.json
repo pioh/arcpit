@@ -1,0 +1,281 @@
+{
+  "Ability1": "bounty_hunter_shuriken_toss",
+  "Ability10": "special_bonus_unique_bounty_hunter_5",
+  "Ability11": "special_bonus_attack_damage_25",
+  "Ability12": "special_bonus_unique_bounty_hunter_9",
+  "Ability13": "special_bonus_unique_bounty_hunter_3",
+  "Ability14": "special_bonus_unique_bounty_hunter_8",
+  "Ability15": "special_bonus_unique_bounty_hunter",
+  "Ability16": "special_bonus_unique_bounty_hunter_2",
+  "Ability17": "special_bonus_unique_bounty_hunter_jinada_no_cooldown",
+  "Ability2": "bounty_hunter_jinada",
+  "Ability3": "bounty_hunter_wind_walk",
+  "Ability4": "bounty_hunter_wind_walk_ally",
+  "Ability5": "bounty_hunter_big_game_hunter",
+  "Ability6": "bounty_hunter_track",
+  "AbilityDraftAbilities": {
+    "Ability1": "bounty_hunter_shuriken_toss",
+    "Ability2": "bounty_hunter_jinada",
+    "Ability3": "bounty_hunter_wind_walk",
+    "Ability4": "bounty_hunter_track"
+  },
+  "Adjectives": {
+    "BadTeeth": "1"
+  },
+  "ArmorPhysical": "5",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.590000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "41",
+  "AttackDamageMin": "33",
+  "AttackRange": "150",
+  "AttackRate": "1.500000",
+  "AttributeAgilityGain": "2.600000",
+  "AttributeBaseAgility": "21",
+  "AttributeBaseIntelligence": "20",
+  "AttributeBaseStrength": "19",
+  "AttributeIntelligenceGain": "1.900000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.500000",
+  "BanSound": "bounty_hunter_bount_anger_04",
+  "Bot": {
+    "Build": {
+      "1": "bounty_hunter_wind_walk",
+      "2": "bounty_hunter_jinada",
+      "3": "bounty_hunter_shuriken_toss",
+      "4": "bounty_hunter_shuriken_toss",
+      "5": "bounty_hunter_shuriken_toss",
+      "6": "bounty_hunter_track",
+      "7": "bounty_hunter_shuriken_toss",
+      "8": "bounty_hunter_wind_walk",
+      "9": "bounty_hunter_wind_walk",
+      "10": "special_bonus_unique_bounty_hunter_5",
+      "11": "bounty_hunter_wind_walk",
+      "12": "bounty_hunter_track",
+      "13": "bounty_hunter_jinada",
+      "14": "bounty_hunter_jinada",
+      "15": "special_bonus_unique_bounty_hunter_3",
+      "16": "bounty_hunter_jinada",
+      "17": "",
+      "18": "bounty_hunter_track",
+      "19": "",
+      "20": "special_bonus_unique_bounty_hunter",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_bounty_hunter_jinada_no_cooldown"
+    },
+    "HeroType": "DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "2",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    },
+    "Loadout": {
+      "item_ancient_janggo": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_belt_of_strength": "ITEM_EXTENSION",
+      "item_black_king_bar": "ITEM_DERIVED",
+      "item_blades_of_attack": "ITEM_EXTENSION",
+      "item_blight_stone": "ITEM_EXTENSION",
+      "item_boots": "ITEM_CORE",
+      "item_branches": [
+        "ITEM_CORE | ITEM_SELLABLE",
+        "ITEM_CORE | ITEM_SELLABLE"
+      ],
+      "item_chainmail": "ITEM_EXTENSION",
+      "item_crown": "ITEM_EXTENSION",
+      "item_desolator": "ITEM_DERIVED",
+      "item_energy_booster": "ITEM_EXTENSION",
+      "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_fluffy_hat": "ITEM_EXTENSION",
+      "item_mithril_hammer": [
+        "ITEM_EXTENSION",
+        "ITEM_EXTENSION",
+        "ITEM_LUXURY"
+      ],
+      "item_ogre_axe": "ITEM_LUXURY",
+      "item_pavise": "ITEM_DERIVED",
+      "item_phase_boots": "ITEM_DERIVED",
+      "item_recipe_ancient_janggo": "ITEM_EXTENSION",
+      "item_recipe_black_king_bar": "ITEM_LUXURY",
+      "item_recipe_pavise": "ITEM_EXTENSION",
+      "item_recipe_solar_crest": "ITEM_EXTENSION",
+      "item_ring_of_protection": "ITEM_EXTENSION",
+      "item_robe": "ITEM_EXTENSION",
+      "item_solar_crest": "ITEM_DERIVED",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_wind_lace": [
+        "ITEM_EXTENSION",
+        "ITEM_EXTENSION"
+      ]
+    }
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "bounty_hunter_mugging": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "bounty_hunter_cutpurse",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Yellow",
+      "GradientID": "0",
+      "Icon": "gold"
+    },
+    "bounty_hunter_shuriken": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "nuke"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_bounty_hunter.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "221 201 63",
+  "HeroID": "62",
+  "HeroOrderID": "64",
+  "HeroSelectSoundEffect": "Hero_BountyHunter.Pick",
+  "HeroUnlockOrder": "2",
+  "IdleExpression": "scenes/bounty_hunter/bounty_hunter_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "2",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Misc",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "offhand_weapon",
+      "SlotText": "#LoadoutSlot_OffHand_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "5",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_ARMOR",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "bounty_hunter_shuriken_toss"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_2",
+      "SlotText": "bounty_hunter_jinada"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_3",
+      "SlotText": "bounty_hunter_wind_walk"
+    },
+    "11": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "11",
+      "SlotName": "ability_effects_4",
+      "SlotText": "bounty_hunter_track"
+    },
+    "12": {
+      "SlotIndex": "12",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_skeleton_king",
+  "LoadoutScale": "0.84",
+  "Model": "models/heroes/bounty_hunter/bounty_hunter.vmdl",
+  "ModelScale": "0.840000",
+  "MovementSpeed": "325",
+  "NameAliases": "bh",
+  "PickSound": "bounty_hunter_bount_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_bounty_hunter/bounty_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Escape,Nuker",
+  "Rolelevels": "2,1",
+  "SimilarHeroes": "28,88,32",
+  "SoundSet": "Hero_BountyHunter",
+  "StatusHealthRegen": "0.75",
+  "StatusManaRegen": "0.5",
+  "Team": "Good",
+  "VersusScale": "0.84",
+  "VisionDaytimeRange": "1800",
+  "VisionNighttimeRange": "1000",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_bounty_hunter.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_bounty_hunter",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_bounty_hunter.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_bounty_hunter.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_head": "3",
+    "attach_weapon1": "1",
+    "attach_weapon2": "2"
+  },
+  "workshop_guide_name": "Bounty Hunter"
+}

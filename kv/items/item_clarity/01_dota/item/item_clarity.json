@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_SUPPRESS_ASSOCIATED_CONSUMABLE",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "250",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "buff_duration": "25",
+    "mana_regen": "6"
+  },
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "60",
+  "ItemInitialCharges": "1",
+  "ItemPermanent": "0",
+  "ItemQuality": "consumable",
+  "ItemShopTags": "consumable;laning",
+  "ItemStackable": "1",
+  "ItemStockInitial": "5",
+  "ItemStockMax": "5",
+  "ItemStockTime": "120",
+  "Model": "models/props_gameplay/clarity.vmdl",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestPregame": "1"
+}

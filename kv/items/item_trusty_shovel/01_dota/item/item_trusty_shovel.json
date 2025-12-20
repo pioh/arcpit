@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_GENERIC_CHANNEL_1",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "250",
+  "AbilityChannelTime": "1",
+  "AbilityCooldown": "70.0",
+  "AbilityValues": {
+    "bonus_health": "0",
+    "chance_bounty_rune": "16",
+    "chance_other_item": "28",
+    "kobold_duration": "60"
+  },
+  "CooldownPausedOutOfInventory": "1",
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

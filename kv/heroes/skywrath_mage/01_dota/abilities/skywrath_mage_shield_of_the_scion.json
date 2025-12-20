@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "barrier_duration": "12",
+    "bonus_intelligence": "0",
+    "damage_barrier": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "hero_levelup": "+1",
+      "value": "11"
+    },
+    "stack_duration": "25"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

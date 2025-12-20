@@ -1,0 +1,52 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "850",
+  "AbilityManaCost": "120 130 140 150",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilitySound": "Hero_Silencer.Curse.Cast",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCharges": {
+      "special_bonus_unique_silencer_arcane_curse_charges": "2",
+      "value": "0 0 0 0"
+    },
+    "AbilityCooldown": {
+      "value": "22 20 18 16"
+    },
+    "application_damage": "20 40 60 80",
+    "damage": {
+      "value": "16 24 32 40"
+    },
+    "duration": {
+      "dynamic_value": "true",
+      "special_bonus_unique_silencer_arcane_curse_duration": "+2",
+      "value": "6"
+    },
+    "duration_percent_per_stolen_int": {
+      "special_bonus_facet_silencer_burden_of_knowledge": "1"
+    },
+    "movespeed": "-16 -19 -22 -25",
+    "penalty_duration": {
+      "special_bonus_unique_silencer_arcane_curse_duration": "+1",
+      "value": "2"
+    },
+    "penalty_multiplier": {
+      "special_bonus_unique_silencer": "+0.25",
+      "value": "1.25"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "350"
+    },
+    "undispellable": {
+      "special_bonus_unique_silencer_arcane_curse_undispellable": "+1",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

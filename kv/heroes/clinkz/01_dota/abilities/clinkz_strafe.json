@@ -1,0 +1,43 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "1200",
+  "AbilityManaCost": "60 70 80 90",
+  "AbilitySound": "Ability.Focusfire",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_clinkz_4": "-9",
+      "value": "30 25 20 15"
+    },
+    "archer_attack_speed_pct": "50",
+    "attack_range_bonus": {
+      "value": "200"
+    },
+    "attack_speed_bonus": {
+      "special_bonus_unique_clinkz_7": "+40",
+      "value": "100 140 180 220"
+    },
+    "blind_pct": {
+      "special_bonus_facet_clinkz_suppressive_fire": "=30",
+      "value": "0"
+    },
+    "debuff_duration": {
+      "special_bonus_facet_clinkz_suppressive_fire": "=2.0",
+      "value": "0"
+    },
+    "duration": {
+      "special_bonus_unique_clinkz_1": "+0.75",
+      "value": "3.5"
+    },
+    "strafe_skeleton_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

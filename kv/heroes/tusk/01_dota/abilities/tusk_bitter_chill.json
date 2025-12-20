@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityTextureName": "tusk_frozen_sigil",
+  "AbilityValues": {
+    "attack_speed_slow": "20 40 60 80",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "350"
+    }
+  },
+  "DependentOnAbility": "tusk_walrus_punch",
+  "Innate": "1",
+  "MaxLevel": "4"
+}

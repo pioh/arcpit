@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_SILENCE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "60",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/plus_high_five",
+  "AbilityValues": {
+    "acknowledge_range": {
+      "value": "900"
+    },
+    "acknowledged_cooldown": {
+      "value": "1"
+    },
+    "high_five_speed": {
+      "value": "700"
+    },
+    "request_duration": {
+      "value": "10"
+    },
+    "think_interval": {
+      "value": "0.2"
+    }
+  },
+  "MaxLevel": "1"
+}

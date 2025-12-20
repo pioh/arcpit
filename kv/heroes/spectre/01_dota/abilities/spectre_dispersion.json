@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityValues": {
+    "activation_bonus_pct": {
+      "special_bonus_shard": "+50",
+      "value": "0"
+    },
+    "activation_cooldown": {
+      "special_bonus_shard": "+25",
+      "value": "0"
+    },
+    "activation_duration": {
+      "special_bonus_shard": "+5",
+      "value": "0"
+    },
+    "activation_manacost": {
+      "special_bonus_shard": "+50",
+      "value": "0"
+    },
+    "damage_reflection_pct": {
+      "special_bonus_unique_spectre_5": "+5",
+      "value": "7 11 15 19"
+    },
+    "max_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "800"
+    },
+    "min_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "350"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "IsBreakable": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityManaCost": "95 110 125 140",
+  "AbilitySound": "Ability.Avalanche",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_tiny_4": "+200",
+      "value": "600"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_tiny_3": "-8",
+      "value": "23 20 17 14"
+    },
+    "avalanche_damage": {
+      "special_bonus_unique_tiny": "+100",
+      "value": "100 190 280 370"
+    },
+    "projectile_speed": "1200",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "325 340 355 370"
+    },
+    "stun_duration": "0.3",
+    "tick_count": "5",
+    "tick_interval": "0.3",
+    "toss_damage_bonus_pct": {
+      "value": "0"
+    },
+    "total_duration": "1.5"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

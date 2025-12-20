@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE",
+  "AbilityCastRange": "1200",
+  "AbilityValues": {
+    "aura_bonus_armor": "2",
+    "aura_mana_regen": "1",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "bonus_agility": "9",
+    "bonus_damage": "3",
+    "bonus_intellect": "3",
+    "bonus_strength": "3"
+  },
+  "ActiveDescriptionLine": "2",
+  "DisplayOverheadAlertOnReceived": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "ItemShareability": "",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/neutral_box.vmdl",
+  "UIDropSound": "Item.DropRingShop",
+  "UIPickupSound": "Item.PickUpRingShop",
+  "WorldDropSound": "Item.DropRingWorld"
+}

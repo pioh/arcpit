@@ -1,0 +1,39 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "700",
+  "AbilityManaCost": "90 105 120 135",
+  "AbilitySound": "Hero_Omniknight.Purification",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_omniknight_6": "-3",
+      "value": "15 14 13 12"
+    },
+    "heal": {
+      "CalculateSpellDamageTooltip": "1",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PURE",
+      "special_bonus_unique_omniknight_1": "+160",
+      "value": "90 160 230 300"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_omniknight_4": "+80",
+      "value": "260"
+    },
+    "recast_delay": {
+      "special_bonus_shard": "+3.0",
+      "value": "0"
+    },
+    "recast_effectiveness_pct": {
+      "special_bonus_shard": "+65",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES_ENEMIES_NO"
+}

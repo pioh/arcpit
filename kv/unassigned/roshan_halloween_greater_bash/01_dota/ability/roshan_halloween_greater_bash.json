@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCooldown": "1.5",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "chance_pct": {
+      "value": "25"
+    },
+    "duration": {
+      "value": "0.35"
+    },
+    "knockback_distance": {
+      "value": "500"
+    },
+    "knockback_duration": {
+      "value": "0.25"
+    }
+  },
+  "MaxLevel": "1"
+}

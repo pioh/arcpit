@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_agility": "16",
+    "bonus_attack_speed": "20",
+    "bonus_strength": "16",
+    "hp_regen_amp": "20",
+    "movement_speed_percent_bonus": "12",
+    "slow_resistance": "25",
+    "status_resistance": "15"
+  },
+  "ItemCost": "4200",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
+  "ItemQuality": "artifact",
+  "ItemShopTags": "damage;str;agi;attack_speed;unique;dps",
+  "SuggestLategame": "1"
+}

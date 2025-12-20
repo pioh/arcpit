@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.2",
+  "AbilityCooldown": "3",
+  "AbilityHealthCost": "75",
+  "AbilitySound": "Hero_Dazzle.Weave",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "cooldown_reduction": "4 5 6",
+    "cooldown_reduction_items": "0",
+    "mana_cost_increase_duration": "20",
+    "mana_cost_increase_pct": "40",
+    "max_stacks": "15"
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

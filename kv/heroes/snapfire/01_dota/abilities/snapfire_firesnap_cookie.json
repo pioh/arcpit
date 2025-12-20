@@ -1,0 +1,58 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "650",
+  "AbilityManaCost": "105",
+  "AbilitySound": "Hero_Snapfire.FeedCookie.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "AbilityChargeRestoreTime": {
+      "special_bonus_unique_snapfire_3": "-4",
+      "value": "21 19 17 15"
+    },
+    "AbilityCharges": {
+      "special_bonus_unique_snapfire_firesnap_cookie_additional_charge": "+2",
+      "value": "0"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_snapfire_3": "-4",
+      "value": "18 17 16 15"
+    },
+    "impact_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "75 150 225 300"
+    },
+    "impact_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    },
+    "impact_stun_duration": {
+      "value": "1.0 1.4 1.8 2.2"
+    },
+    "jump_duration": {
+      "value": "0.484"
+    },
+    "jump_height": {
+      "value": "257"
+    },
+    "jump_horizontal_distance": {
+      "value": "425"
+    },
+    "landing_gesture_duration": "0.6",
+    "pre_hop_duration": "0.0",
+    "pre_land_anim_time": "0.14",
+    "projectile_speed": "1200",
+    "self_cast_delay": "0.3",
+    "shard_damage_multiplier_tooltip": "40",
+    "target_heal": {
+      "special_bonus_shard": "+200",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG"
+}

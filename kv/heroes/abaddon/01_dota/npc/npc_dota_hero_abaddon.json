@@ -1,0 +1,219 @@
+{
+  "Ability1": "abaddon_death_coil",
+  "Ability10": "special_bonus_unique_abaddon_6",
+  "Ability11": "special_bonus_unique_abaddon_7",
+  "Ability12": "special_bonus_unique_abaddon_5",
+  "Ability13": "special_bonus_unique_abaddon_2",
+  "Ability14": "special_bonus_unique_abaddon",
+  "Ability15": "special_bonus_unique_abaddon_immolation",
+  "Ability16": "special_bonus_unique_abaddon_3",
+  "Ability17": "special_bonus_unique_abaddon_4",
+  "Ability2": "abaddon_aphotic_shield",
+  "Ability3": "abaddon_frostmourne",
+  "Ability4": "abaddon_withering_mist",
+  "Ability5": "generic_hidden",
+  "Ability6": "abaddon_borrowed_time",
+  "AbilityDraftAbilities": {
+    "Ability1": "abaddon_death_coil",
+    "Ability2": "abaddon_aphotic_shield",
+    "Ability3": "abaddon_frostmourne",
+    "Ability4": "abaddon_borrowed_time"
+  },
+  "Adjectives": {
+    "Blue": "1",
+    "Cape": "1",
+    "Steed": "1"
+  },
+  "ArmorPhysical": "-1",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.560000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "32",
+  "AttackDamageMin": "22",
+  "AttackRange": "150",
+  "AttackRate": "1.500000",
+  "AttributeAgilityGain": "1.5",
+  "AttributeBaseAgility": "22",
+  "AttributeBaseIntelligence": "18",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "2.0",
+  "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+  "AttributeStrengthGain": "2.6",
+  "BanSound": "abaddon_abad_anger_07",
+  "BaseAttackSpeed": "95",
+  "Bot": {
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_PURE_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "1",
+      "RequiresSetup": "1",
+      "SoloDesire": "1",
+      "SurvivalRating": "2"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "abaddon_death_dude": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "abaddon_the_quickening"
+        }
+      },
+      "Color": "Gray",
+      "GradientID": "0",
+      "Icon": "cooldown"
+    },
+    "abaddon_mephitic_shroud": {
+      "Color": "Blue",
+      "Deprecated": "true",
+      "GradientID": "1",
+      "Icon": "barrier"
+    },
+    "abaddon_mists_of_fate": {
+      "Color": "Blue",
+      "GradientID": "1",
+      "Icon": "phantom_ass_dagger"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_abaddon.vsndevts",
+  "GibTintColor": "76 147 148 255",
+  "GibType": "ethereal",
+  "HasAggressiveStance": "1",
+  "HeroID": "102",
+  "HeroOrderID": "102",
+  "HeroSelectSoundEffect": "Hero_Abaddon.Pick",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "6000",
+      "MaxPolygonsLOD1": "2400",
+      "SlotIndex": "4",
+      "SlotName": "mount",
+      "SlotText": "#LoadoutSlot_Mount",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_1",
+      "SlotText": "abaddon_death_coil"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_2",
+      "SlotText": "abaddon_aphotic_shield"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_3",
+      "SlotText": "abaddon_frostmourne"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_4",
+      "SlotText": "abaddon_borrowed_time"
+    },
+    "11": {
+      "SlotIndex": "11",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_chaos_knight",
+  "LoadoutScale": "0.78",
+  "Model": "models/heroes/abaddon/abaddon.vmdl",
+  "ModelScale": "0.780000",
+  "MovementSpeed": "325",
+  "MovementSpeedActivityModifiers": {
+    "<none>": "350",
+    "walk": "0"
+  },
+  "MovementTurnRate": "0.600000",
+  "NameAliases": "Abaddon",
+  "NoCombine": "1",
+  "PickSound": "abaddon_abad_spawn_01",
+  "RenderablePortrait": {},
+  "Role": "Support,Carry,Durable",
+  "Rolelevels": "2,1,2",
+  "SimilarHeroes": "57,99,104",
+  "SoundSet": "Hero_Abaddon",
+  "SpectatorLoadoutScale": "0.72",
+  "StatusHealthRegen": "1",
+  "StatusManaRegen": "0",
+  "Team": "Bad",
+  "VersusScale": "0.78",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_abaddon.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_abaddon",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_abaddon.vpcf",
+    "party_hat_effect_1": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_abaddon_mount.vpcf"
+  },
+  "precache": {
+    "particle": [
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_abaddon.vpcf",
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_abaddon_mount.vpcf"
+    ]
+  },
+  "showcase_attachments": {
+    "attach_hand1": "1",
+    "attach_hand2": "2",
+    "attach_head": "3",
+    "attach_head_horse": "4"
+  },
+  "workshop_guide_name": "Abaddon"
+}

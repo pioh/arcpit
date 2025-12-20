@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_AURA | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityValues": {
+    "bonus_damage_per_stack": {
+      "special_bonus_facet_omniknight_omnipresent": "+1",
+      "value": "0"
+    },
+    "linger_duration": "1",
+    "max_stacks": {
+      "special_bonus_facet_omniknight_omnipresent": "+20",
+      "value": "0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "325"
+    },
+    "speed_bonus": "10 20 30 40",
+    "stack_interval": {
+      "special_bonus_facet_omniknight_omnipresent": "+0.25",
+      "value": "0"
+    }
+  },
+  "DependentOnAbility": "omniknight_guardian_angel",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

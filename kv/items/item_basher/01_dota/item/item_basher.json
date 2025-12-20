@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCooldown": "2.3",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "bash_chance_melee": "25",
+    "bash_chance_ranged": "10",
+    "bash_cooldown": "2.3",
+    "bash_duration": "1.2",
+    "bonus_chance_damage": "100",
+    "bonus_damage": "30",
+    "bonus_strength": "10"
+  },
+  "ItemCost": "2875",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "damage;str;hard_to_tag",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
+  "SuggestLategame": "1"
+}

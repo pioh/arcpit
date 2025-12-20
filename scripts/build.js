@@ -1,6 +1,22 @@
 import { spawn } from "bun";
 import { cleanBuildOutputs } from "./utils.js";
 
+// Генерируем kv/02_custom, финальные npc_*_custom.txt и *.generated.ts перед компиляцией TS -> Lua
+const gen = spawn(["bun", "run", "generate"], {
+    stdout: "inherit",
+    stderr: "inherit",
+});
+const genCode = await gen.exited;
+if (genCode !== 0) process.exit(1);
+
+// Строгая проверка типизации (без эмита)
+const typecheck = spawn(["bun", "run", "typecheck"], {
+    stdout: "inherit",
+    stderr: "inherit",
+});
+const typecheckCode = await typecheck.exited;
+if (typecheckCode !== 0) process.exit(1);
+
 // Важно: чистим outDir'ы перед билдом, чтобы не оставались старые файлы.
 await cleanBuildOutputs();
 

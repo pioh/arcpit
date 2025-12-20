@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityValues": {
+    "bonus_gold": "10",
+    "bonus_health_regen": "3",
+    "bonus_magic_resistance_per_interval": "4",
+    "maximum_intervals": "15",
+    "radius": "700",
+    "total_magic_resistance": {
+      "dynamic_value": "true"
+    }
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCooldown": "15",
+  "AbilityValues": {
+    "bonus_mana": "0",
+    "leap_acceleration": "20000.0",
+    "leap_distance": {
+      "apply_curio_bonus": "1",
+      "value": "300"
+    },
+    "leap_speed": "1300.0"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

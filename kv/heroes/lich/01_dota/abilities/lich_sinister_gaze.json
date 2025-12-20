@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED ",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "24 22 20 18",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityChannelTime": {
+      "special_bonus_unique_lich_2": "+0.3",
+      "value": "1.10 1.4 1.7 2.0"
+    },
+    "AbilityManaCost": {
+      "value": "25"
+    },
+    "aoe_scepter": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "+400"
+    },
+    "channel_duration": {
+      "special_bonus_unique_lich_2": "+0.3",
+      "value": "1.10 1.4 1.7 2.0"
+    },
+    "damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "special_bonus_facet_lich_cryophobia": "15 20 25 30"
+    },
+    "destination": "32 38 44 50",
+    "mana_drain": "20",
+    "post_gaze_debuff_duration_multiplier": {
+      "special_bonus_facet_lich_cryophobia": "=2"
+    },
+    "slow_resistance": {
+      "special_bonus_facet_lich_cryophobia": "50"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,72 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.1 0.1 0.1 0.1 0.1",
+  "AbilityCastRange": "1950",
+  "AbilityManaCost": "90 100 110 120",
+  "AbilitySound": "Hero_Puck.Illusory_Orb",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "11 10 9 8"
+    },
+    "curve_orb": {
+      "special_bonus_facet_puck_curveball": "=1",
+      "value": "0"
+    },
+    "curve_orb_duration_multiplier": {
+      "special_bonus_facet_puck_curveball": "=100",
+      "value": "0"
+    },
+    "curve_orb_max_acceleration": {
+      "special_bonus_facet_puck_curveball": "=0.0015",
+      "value": "0"
+    },
+    "curve_orb_pullback_bonus_launch_speed": {
+      "special_bonus_facet_puck_curveball": "0.25",
+      "value": "0"
+    },
+    "curve_strength": {
+      "special_bonus_facet_puck_curveball": "0.6",
+      "value": "0"
+    },
+    "damage": {
+      "special_bonus_unique_puck_orb_damage": "+40",
+      "value": "75 150 225 300"
+    },
+    "damage_interval": {
+      "special_bonus_facet_puck_curveball": "=0.5"
+    },
+    "damage_over_time_pct": {
+      "special_bonus_facet_puck_curveball": "=3"
+    },
+    "increase_per_sec": {
+      "special_bonus_facet_puck_curveball": "0"
+    },
+    "max_distance": "1950",
+    "orb_speed": {
+      "special_bonus_facet_puck_curveball": "+200",
+      "value": "550"
+    },
+    "orb_vision": {
+      "affected_by_aoe_increase": "1",
+      "value": "450"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "225"
+    },
+    "vector_reticle_distance": {
+      "special_bonus_facet_puck_curveball": "200.0",
+      "value": "0"
+    },
+    "vector_reticle_radius": {
+      "special_bonus_facet_puck_curveball": "0.0",
+      "value": "0"
+    },
+    "vision_duration": "2.5",
+    "warning_sound_time": "0.25"
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

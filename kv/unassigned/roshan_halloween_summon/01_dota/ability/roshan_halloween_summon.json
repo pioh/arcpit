@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastPoint": "1.0",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "30.0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "roshan_spell_block",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "MaxLevel": "1"
+}

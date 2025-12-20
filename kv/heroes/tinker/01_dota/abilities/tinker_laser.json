@@ -1,0 +1,43 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "19 18 17 16",
+  "AbilityManaCost": "95 105 115 125",
+  "AbilityModifierSupportValue": "0.3",
+  "AbilitySound": "Hero_Tinker.Laser",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "duration": {
+      "value": "3.0 3.5 4.0 4.5"
+    },
+    "laser_damage": {
+      "special_bonus_unique_tinker": "+50",
+      "value": "75 150 225 300"
+    },
+    "miss_rate": "100",
+    "radius_explosion": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_tinker_4": "+200",
+      "value": "0"
+    },
+    "scepter_bonus_cast_range": {
+      "special_bonus_scepter": "0"
+    },
+    "scepter_bounce_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "700"
+    },
+    "scepter_reduction_pct": {
+      "special_bonus_scepter": "13"
+    },
+    "splash_pct": "100"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

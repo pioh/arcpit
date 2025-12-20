@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_UNSWAPPABLE",
+  "AbilityValues": {
+    "death_gold_lost_reduction_pct": "100",
+    "gold_tick_interval": "3"
+  },
+  "AllowedInBackpack": "0",
+  "DisplayOverheadAlertOnReceived": "0",
+  "FightRecapLevel": "1",
+  "ItemCanBeConsumed": "1",
+  "ItemCost": "0",
+  "ItemDroppable": "0",
+  "ItemIsNeutralActiveDrop": "0",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl",
+  "SpeciallyAllowedInNeutralSlot": "1"
+}

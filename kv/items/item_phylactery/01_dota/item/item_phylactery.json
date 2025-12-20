@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCooldown": "9.0",
+  "AbilitySharedCooldown": "phylactery",
+  "AbilityValues": {
+    "bonus_all_stats": "7",
+    "bonus_health_regen": "6.5",
+    "bonus_mana_regen": "2.5",
+    "bonus_per_kill": "0",
+    "bonus_spell_damage": "150",
+    "kill_bonus_window": "0",
+    "max_kill_bonus": "0",
+    "slow": "30",
+    "slow_duration": "3"
+  },
+  "ItemCost": "2600",
+  "ItemQuality": "common",
+  "ItemShopTags": "hard_to_tag",
+  "SuggestLategame": "1"
+}

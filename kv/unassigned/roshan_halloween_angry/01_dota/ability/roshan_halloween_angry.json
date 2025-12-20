@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_armor": {
+      "value": "2"
+    },
+    "bonus_damage": {
+      "value": "20"
+    },
+    "bonus_health": {
+      "value": "500"
+    },
+    "bonus_movement": {
+      "value": "20"
+    }
+  },
+  "MaxLevel": "1"
+}

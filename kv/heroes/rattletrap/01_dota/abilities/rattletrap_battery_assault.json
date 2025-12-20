@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCooldown": "24 22 20 18",
+  "AbilityManaCost": "90",
+  "AbilityModifierSupportValue": "0.2",
+  "AbilitySound": "Hero_Rattletrap.Battery_Assault_Impact",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "creep_damage_multiplier": "1.0",
+    "damage": {
+      "special_bonus_unique_clockwerk_3": "+24",
+      "value": "20 45 70 95"
+    },
+    "duration": "10.5 10.5 10.5 10.5",
+    "interval": {
+      "special_bonus_unique_clockwerk": "-0.25",
+      "value": "0.7 0.7 0.7 0.7"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275 275 275 275"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

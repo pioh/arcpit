@@ -1,0 +1,190 @@
+{
+  "Ability1": "mars_spear",
+  "Ability10": "special_bonus_unique_mars_rebuke_radius",
+  "Ability11": "special_bonus_unique_mars_dauntless_hpregen",
+  "Ability12": "special_bonus_unique_mars_rebuke_cooldown",
+  "Ability13": "special_bonus_unique_mars_spear_bonus_damage",
+  "Ability14": "special_bonus_unique_mars_arena_cooldown",
+  "Ability15": "special_bonus_unique_mars_spear_stun_duration",
+  "Ability16": "special_bonus_unique_mars_gods_rebuke_extra_crit",
+  "Ability17": "special_bonus_unique_mars_arena_of_blood_hp_regen",
+  "Ability2": "mars_gods_rebuke",
+  "Ability3": "mars_bulwark",
+  "Ability4": "mars_dauntless",
+  "Ability5": "generic_hidden",
+  "Ability6": "mars_arena_of_blood",
+  "AbilityDraftAbilities": {
+    "Ability1": "mars_spear",
+    "Ability2": "mars_gods_rebuke",
+    "Ability3": "mars_bulwark",
+    "Ability4": "mars_arena_of_blood"
+  },
+  "Adjectives": {
+    "Bearded": "1",
+    "NicePecs": "1",
+    "Parent": "1",
+    "Red": "1"
+  },
+  "ArmorPhysical": "-1",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.40000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "34",
+  "AttackDamageMin": "26",
+  "AttackRange": "250",
+  "AttackRangeActivityModifiers": {
+    "attack_close_range": "90",
+    "attack_closest_range": "0",
+    "attack_long_range": "250",
+    "attack_medium_range": "150"
+  },
+  "AttackRate": "1.800000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "140",
+    "faster": "180",
+    "fastest": "230",
+    "super_fast": "300"
+  },
+  "AttributeAgilityGain": "1.7",
+  "AttributeBaseAgility": "20",
+  "AttributeBaseIntelligence": "21",
+  "AttributeBaseStrength": "23",
+  "AttributeIntelligenceGain": "2.2",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.700000",
+  "BanSound": "mars_ban",
+  "Bot": {
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "1",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "mars_arena": {
+      "Color": "Yellow",
+      "GradientID": "0",
+      "Icon": "no_vision"
+    },
+    "mars_victory_feast": {
+      "Color": "Red",
+      "GradientID": "2",
+      "Icon": "healing"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_mars.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HeroID": "129",
+  "HeroOrderID": "117",
+  "HeroSelectSoundEffect": "Hero_Mars.Pick",
+  "IdleExpression": "scenes/mars/mars_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "no_import": "1"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "5000",
+      "MaxPolygonsLOD1": "2000",
+      "SlotIndex": "1",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "2",
+      "SlotName": "legs",
+      "SlotText": "#LoadoutSlot_Legs",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "4",
+      "SlotName": "offhand_weapon",
+      "SlotText": "#LoadoutSlot_Offhand_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_1",
+      "SlotText": "mars_spear"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_2",
+      "SlotText": "mars_gods_rebuke"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_centaur",
+  "LoadoutScale": "0.9",
+  "Model": "models/heroes/mars/mars.vmdl",
+  "ModelScale": "0.900000",
+  "MovementSpeed": "310",
+  "MovementTurnRate": "0.800000",
+  "NameAliases": "mars",
+  "PickSound": "mars_pick",
+  "RenderablePortrait": {},
+  "Role": "Carry,Initiator,Disabler,Durable",
+  "Rolelevels": "1,2,2,3",
+  "SimilarHeroes": "23,99,97",
+  "SoundSet": "Hero_Mars",
+  "StatusManaRegen": "0.5",
+  "Team": "Good",
+  "VersusScale": "0.9",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_mars.vsndevts",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_mars.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_mars.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_shield": "1",
+    "attach_weapon": "2"
+  },
+  "workshop_guide_name": "Mars"
+}

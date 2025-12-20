@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_evasion": "15"
+  },
+  "ItemCost": "1300",
+  "ItemQuality": "secret_shop",
+  "ItemShopTags": "evasion",
+  "SecretShop": "1"
+}

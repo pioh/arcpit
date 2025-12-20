@@ -1,0 +1,198 @@
+{
+  "Ability1": "spectre_spectral_dagger",
+  "Ability10": "special_bonus_unique_spectre",
+  "Ability11": "special_bonus_unique_spectre_2",
+  "Ability12": "special_bonus_unique_spectre_shadow_step_duration",
+  "Ability13": "special_bonus_unique_spectre_6",
+  "Ability14": "special_bonus_hp_350",
+  "Ability15": "special_bonus_unique_spectre_3",
+  "Ability16": "special_bonus_unique_spectre_4",
+  "Ability17": "special_bonus_unique_spectre_5",
+  "Ability2": "spectre_shadow_step",
+  "Ability3": "spectre_dispersion",
+  "Ability4": "spectre_reality",
+  "Ability5": "spectre_desolate",
+  "Ability6": "spectre_haunt",
+  "AbilityDraftAbilities": {
+    "Ability1": "spectre_spectral_dagger",
+    "Ability2": "spectre_shadow_step",
+    "Ability3": "spectre_dispersion",
+    "Ability4": "spectre_haunt"
+  },
+  "Adjectives": {
+    "Female": "1",
+    "Legs": "0",
+    "Nose": "0",
+    "Undead": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.300000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "27",
+  "AttackDamageMin": "23",
+  "AttackRange": "150",
+  "AttackRate": "1.800000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "130",
+    "faster": "200"
+  },
+  "AttributeAgilityGain": "2.100000",
+  "AttributeBaseAgility": "25",
+  "AttributeBaseIntelligence": "16",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "1.7",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.5",
+  "BanSound": "spectre_spec_anger_02",
+  "BaseAttackSpeed": "110",
+  "Bot": {
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "2",
+      "RequiresFarm": "2",
+      "RequiresSetup": "2",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "spectre_forsaken": {
+      "Color": "Gray",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "spectre"
+    },
+    "spectre_spectre": {
+      "Color": "Gray",
+      "GradientID": "0",
+      "Icon": "spirit"
+    },
+    "spectre_twist_the_knife": {
+      "Color": "Purple",
+      "Deprecated": "true",
+      "GradientID": "2",
+      "Icon": "nuke"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_spectre.vsndevts",
+  "GibTintColor": "115 47 94 255",
+  "GibType": "ethereal",
+  "HeroGlowColor": "107 74 53",
+  "HeroID": "67",
+  "HeroOrderID": "44",
+  "HeroSelectSoundEffect": "Hero_Spectre.Pick",
+  "HeroUnlockOrder": "2",
+  "IdleExpression": "scenes/spectre/spectre_exp_idle_01.vcd",
+  "IdleSoundLoop": "Hero_Spectre.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "2",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Misc",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "4",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "voice",
+      "SlotText": "#LoadoutSlot_Voice"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "spectre_spectral_dagger"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_bounty_hunter",
+  "LoadoutScale": "0.67",
+  "Model": "models/heroes/spectre/spectre.vmdl",
+  "ModelScale": "0.670000",
+  "MovementSpeed": "290",
+  "NameAliases": "Mercurial",
+  "PickSound": "spectre_spec_spawn_01",
+  "RenderablePortrait": {},
+  "Role": "Carry,Durable,Escape",
+  "Rolelevels": "3,1,1",
+  "SimilarHeroes": "12,89,109",
+  "SoundSet": "Hero_Spectre",
+  "SpectatorLoadoutScale": "0.8",
+  "StatusHealthRegen": "1.0",
+  "Team": "Bad",
+  "VersusScale": "0.67",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_spectre.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_spectre",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_spectre.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_spectre.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_hand_l": "3",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Spectre"
+}

@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE ",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "1.0",
+  "AbilityValues": {
+    "buff_linger_duration": "0.1",
+    "damage_bonus": "50",
+    "duration": "120",
+    "health": "24 32 40",
+    "health_tooltip": "6 8 10",
+    "hp_bonus": "75",
+    "max_level": "3",
+    "model_scale": "25",
+    "radius": "600 900 1200"
+  },
+  "AllowedInBackpack": "1",
+  "IsTempestDoubleClonable": "0",
+  "ItemContributesToNetWorthWhenDropped": "0",
+  "ItemCost": "0",
+  "ItemDroppable": "1",
+  "ItemKillable": "1",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable",
+  "ItemSellable": "0",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "Model": "models/props_gameplay/neutral_box.vmdl",
+  "SpeciallyBannedFromNeutralSlot": "1"
+}

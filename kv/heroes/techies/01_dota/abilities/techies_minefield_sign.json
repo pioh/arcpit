@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "1.25",
+  "AbilityCastRange": "10",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_NONE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "60.0"
+    },
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "+500",
+      "value": "500"
+    },
+    "bonus_mine_damage_pct": "15",
+    "lifetime": {
+      "special_bonus_scepter": "+180",
+      "value": "60"
+    },
+    "minefield_duration": "10",
+    "scepter_move_amt": {
+      "special_bonus_scepter": "200"
+    },
+    "scepter_move_damage": {
+      "special_bonus_scepter": "300"
+    },
+    "trigger_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "Innate": "1",
+  "MaxLevel": "1"
+}

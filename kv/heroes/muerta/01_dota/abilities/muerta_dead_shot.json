@@ -1,0 +1,53 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.15",
+  "AbilityCooldown": "16 14 12 10",
+  "AbilityManaCost": "100 120 140 160",
+  "AbilitySound": "Hero_Muerta.DeadShot.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_TREE",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_muerta_dead_shot_range": "+300",
+      "value": "1000"
+    },
+    "AbilityCharges": {
+      "special_bonus_unique_muerta_dead_shot_charges": "2"
+    },
+    "damage": {
+      "special_bonus_scepter": "+125",
+      "value": "100 175 250 325"
+    },
+    "gunslinger_buffed_chance_duration": {
+      "special_bonus_facet_muerta_slingshot": "5.0",
+      "value": "0"
+    },
+    "gunslinger_buffed_chance_multiplier": {
+      "special_bonus_facet_muerta_slingshot": "1.5",
+      "value": "0"
+    },
+    "impact_slow_duration": "1",
+    "impact_slow_percent": "-100",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    },
+    "ricochet_distance_multiplier": "1.5",
+    "ricochet_fear_duration": "0.8 0.95 1.1 1.25",
+    "ricochet_radius_end": "115",
+    "ricochet_radius_expansion_per_second": {
+      "special_bonus_scepter": "+300"
+    },
+    "ricochet_radius_start": "115",
+    "scepter_pierces": {
+      "special_bonus_scepter": "+1"
+    },
+    "speed": "2000"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

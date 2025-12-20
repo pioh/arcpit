@@ -1,0 +1,54 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.2 0.2 0.2 0.2",
+  "AbilityCastRange": "1300",
+  "AbilityManaCost": "110 115 120 125",
+  "AbilityModifierSupportValue": "1.0",
+  "AbilitySound": "Hero_Batrider.Flamebreak",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_batrider_5": "-6",
+      "value": "22 19 16 13"
+    },
+    "collision_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "100 100 100 100"
+    },
+    "damage_duration": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "2 3 4 5"
+    },
+    "damage_impact": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "25 50 75 100"
+    },
+    "damage_per_second": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "25 30 35 40"
+    },
+    "explosion_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "knockback_distance": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_batrider_3": "+50",
+      "value": "250"
+    },
+    "knockback_duration": "0.35",
+    "knockback_height": "100 100 100 100",
+    "napalm_stacks": {
+      "special_bonus_unique_batrider_2": "+4",
+      "value": "0"
+    },
+    "slow": "6 12 18 24",
+    "speed": "1700",
+    "stun_duration": "0.5 0.5 0.5 0.5"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

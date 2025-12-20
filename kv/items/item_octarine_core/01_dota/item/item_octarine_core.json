@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_cooldown": "25",
+    "bonus_health": "450",
+    "bonus_health_regen": "0",
+    "bonus_mana": "450",
+    "bonus_mana_regen": "6"
+  },
+  "ItemCost": "4900",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "move_speed;boost_mana;mana_pool;mana",
+  "SuggestLategame": "1"
+}

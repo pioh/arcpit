@@ -1,0 +1,279 @@
+{
+  "Ability1": "chaos_knight_chaos_bolt",
+  "Ability10": "special_bonus_unique_chaos_knight_6",
+  "Ability11": "special_bonus_unique_chaos_knight_2",
+  "Ability12": "special_bonus_unique_chaos_knight_8",
+  "Ability13": "special_bonus_strength_10",
+  "Ability14": "special_bonus_unique_chaos_knight_3",
+  "Ability15": "special_bonus_unique_chaos_knight",
+  "Ability16": "special_bonus_unique_chaos_knight_5",
+  "Ability17": "special_bonus_unique_chaos_knight_7",
+  "Ability2": "chaos_knight_reality_rift",
+  "Ability3": "chaos_knight_chaos_strike",
+  "Ability4": "generic_hidden",
+  "Ability5": "chaos_knight_reins_of_chaos",
+  "Ability6": "chaos_knight_phantasm",
+  "AbilityDraftAbilities": {
+    "Ability1": "chaos_knight_chaos_bolt",
+    "Ability2": "chaos_knight_reality_rift",
+    "Ability3": "chaos_knight_chaos_strike",
+    "Ability4": "chaos_knight_phantasm"
+  },
+  "Adjectives": {
+    "Red": "1",
+    "Steed": "1"
+  },
+  "ArmorPhysical": "2",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "49",
+  "AttackDamageMin": "29",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.8",
+  "AttributeBaseAgility": "18",
+  "AttributeBaseIntelligence": "18",
+  "AttributeBaseStrength": "24",
+  "AttributeIntelligenceGain": "1.200000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.100000",
+  "BanSound": "chaos_knight_chaknight_anger_06",
+  "Bot": {
+    "Build": {
+      "1": "chaos_knight_chaos_bolt",
+      "2": "chaos_knight_reality_rift",
+      "3": "chaos_knight_chaos_bolt",
+      "4": "chaos_knight_reality_rift",
+      "5": "chaos_knight_chaos_bolt",
+      "6": "chaos_knight_reality_rift",
+      "7": "chaos_knight_chaos_bolt",
+      "8": "chaos_knight_reality_rift",
+      "9": "chaos_knight_chaos_strike",
+      "10": "special_bonus_unique_chaos_knight_6",
+      "11": "chaos_knight_phantasm",
+      "12": "chaos_knight_phantasm",
+      "13": "chaos_knight_chaos_strike",
+      "14": "chaos_knight_chaos_strike",
+      "15": "special_bonus_unique_chaos_knight_8",
+      "16": "chaos_knight_chaos_strike",
+      "17": "",
+      "18": "chaos_knight_phantasm",
+      "19": "",
+      "20": "special_bonus_unique_chaos_knight",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_chaos_knight_5"
+    },
+    "HeroType": "DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER | DOTA_BOT_TANK",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "2",
+      "RequiresFarm": "2",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "1"
+    },
+    "Loadout": {
+      "item_ancient_janggo": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_assault": "ITEM_DERIVED",
+      "item_belt_of_strength": [
+        "ITEM_EXTENSION",
+        "ITEM_EXTENSION"
+      ],
+      "item_blade_of_alacrity": "ITEM_EXTENSION",
+      "item_boots": "ITEM_CORE",
+      "item_boots_of_elves": "ITEM_EXTENSION",
+      "item_branches": [
+        "ITEM_CORE",
+        "ITEM_CORE"
+      ],
+      "item_buckler": "ITEM_DERIVED",
+      "item_crown": [
+        "ITEM_EXTENSION",
+        "ITEM_EXTENSION"
+      ],
+      "item_diadem": "ITEM_EXTENSION",
+      "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_gloves": "ITEM_EXTENSION",
+      "item_heart": "ITEM_DERIVED",
+      "item_heavens_halberd": "ITEM_DERIVED",
+      "item_hyperstone": "ITEM_LUXURY",
+      "item_magic_stick": "ITEM_EXTENSION",
+      "item_magic_wand": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_manta": "ITEM_LUXURY | ITEM_DERIVED",
+      "item_platemail": "ITEM_LUXURY",
+      "item_power_treads": "ITEM_DERIVED",
+      "item_reaver": "ITEM_LUXURY",
+      "item_recipe_ancient_janggo": "ITEM_EXTENSION",
+      "item_recipe_assault": "ITEM_LUXURY",
+      "item_recipe_buckler": "ITEM_LUXURY",
+      "item_recipe_heart": "ITEM_LUXURY",
+      "item_recipe_heavens_halberd": "ITEM_EXTENSION",
+      "item_recipe_magic_wand": "ITEM_EXTENSION",
+      "item_recipe_manta": "ITEM_EXTENSION",
+      "item_recipe_vanguard": "ITEM_EXTENSION",
+      "item_recipe_yasha": "ITEM_EXTENSION",
+      "item_ring_of_health": "ITEM_CORE",
+      "item_ring_of_protection": "ITEM_LUXURY",
+      "item_ring_of_tarrasque": "ITEM_LUXURY",
+      "item_robe": "ITEM_EXTENSION",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_vanguard": "ITEM_DERIVED",
+      "item_vitality_booster": "ITEM_EXTENSION",
+      "item_wind_lace": "ITEM_EXTENSION",
+      "item_yasha": "ITEM_DERIVED"
+    }
+  },
+  "BotImplemented": "1",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "chaos_knight_cloven_chaos": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "ricochet"
+    },
+    "chaos_knight_facet_fundamental_forging": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "chaos_knight_fundamental_forging"
+        }
+      },
+      "Color": "Yellow",
+      "GradientID": "1",
+      "Icon": "item"
+    },
+    "chaos_knight_irrationality": {
+      "Color": "Gray",
+      "GradientID": "0",
+      "Icon": "rng"
+    },
+    "chaos_knight_strong_illusions": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "chaos_knight_phantasmagoria"
+        }
+      },
+      "Color": "Red",
+      "Deprecated": "1",
+      "GradientID": "1",
+      "Icon": "illusion"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_chaos_knight.vsndevts",
+  "GibTintColor": "166 29 17 255",
+  "GibType": "ethereal",
+  "HealthBarOffset": "260",
+  "HeroID": "81",
+  "HeroOrderID": "79",
+  "HeroSelectSoundEffect": "Hero_ChaosKnight.Pick",
+  "HeroUnlockOrder": "3",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "1",
+      "SlotName": "offhand_weapon",
+      "SlotText": "#LoadoutSlot_Shield",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "6000",
+      "MaxPolygonsLOD1": "2400",
+      "SlotIndex": "4",
+      "SlotName": "mount",
+      "SlotText": "#LoadoutSlot_Mount",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_3",
+      "SlotText": "chaos_knight_chaos_strike"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_2",
+      "SlotText": "chaos_knight_reality_rift"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_omniknight",
+  "LoadoutScale": "0.79",
+  "Model": "models/heroes/chaos_knight/chaos_knight.vmdl",
+  "ModelScale": "0.790000",
+  "MovementSpeed": "325",
+  "NameAliases": "ck",
+  "PickSound": "chaos_knight_chaknight_spawn_02",
+  "Role": "Carry,Disabler,Durable,Pusher,Initiator",
+  "Rolelevels": "3,2,2,2,1",
+  "SimilarHeroes": "54,42,18",
+  "SoundSet": "Hero_ChaosKnight",
+  "Team": "Bad",
+  "VersusScale": "0.79",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_chaos_knight.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_chaos_knight",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_chaos_knight.vpcf",
+    "party_hat_effect_1": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_chaos_knight_mount.vpcf"
+  },
+  "precache": {
+    "particle": [
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_chaos_knight.vpcf",
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_chaos_knight_mount.vpcf"
+    ]
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_head": "1",
+    "attach_head_horse": "5",
+    "attach_tail": "4",
+    "attach_weapon": "2"
+  },
+  "workshop_guide_name": "Chaos Knight"
+}

@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "creep_damage_bonus": "50",
+    "heavy_damage_penalty": "-50",
+    "hero_damage_penalty": "-50"
+  },
+  "MaxLevel": "1"
+}

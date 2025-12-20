@@ -1,0 +1,236 @@
+{
+  "Ability1": "gyrocopter_rocket_barrage",
+  "Ability10": "special_bonus_unique_gyrocopter_homing_missile_damage",
+  "Ability11": "special_bonus_hp_150",
+  "Ability12": "special_bonus_unique_gyrocopter_6",
+  "Ability13": "special_bonus_unique_gyrocopter_flak_cannon_bonus_damage",
+  "Ability14": "special_bonus_unique_gyrocopter_2",
+  "Ability15": "special_bonus_unique_gyrocopter_3",
+  "Ability16": "special_bonus_unique_gyrocopter_1",
+  "Ability17": "special_bonus_unique_gyrocopter_5",
+  "Ability2": "gyrocopter_homing_missile",
+  "Ability3": "gyrocopter_flak_cannon",
+  "Ability4": "gyrocopter_chop_shop",
+  "Ability5": "generic_hidden",
+  "Ability6": "gyrocopter_call_down",
+  "Ability7": "generic_hidden",
+  "Ability8": "generic_hidden",
+  "AbilityDraftAbilities": {
+    "Ability1": "gyrocopter_rocket_barrage",
+    "Ability2": "gyrocopter_homing_missile",
+    "Ability3": "gyrocopter_flak_cannon",
+    "Ability4": "gyrocopter_call_down"
+  },
+  "Adjectives": {
+    "Flying": "1",
+    "Steed": "1"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.200000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "24",
+  "AttackDamageMin": "18",
+  "AttackRange": "365",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "3.2",
+  "AttributeBaseAgility": "25",
+  "AttributeBaseIntelligence": "21",
+  "AttributeBaseStrength": "22",
+  "AttributeIntelligenceGain": "2.400000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.500000",
+  "BanSound": "gyrocopter_gyro_anger_08",
+  "BaseAttackSpeed": "125",
+  "Bot": {
+    "HeroType": "DOTA_BOT_HARD_CARRY | DOTA_BOT_GANKER",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "1",
+      "RequiresSetup": "1",
+      "SoloDesire": "0",
+      "SurvivalRating": "0"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "gyrocopter_afterburner": {
+      "Color": "Yellow",
+      "GradientID": "1",
+      "Icon": "speed"
+    },
+    "gyrocopter_secondary_strikes": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "nuke"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_gyrocopter.vsndevts",
+  "GibType": "motor",
+  "HasAggressiveStance": "1",
+  "HeroID": "72",
+  "HeroOrderID": "78",
+  "HeroSelectSoundEffect": "Hero_Gyrocopter.Pick",
+  "HeroUnlockOrder": "2",
+  "IdleSoundLoop": "Hero_Gyrocopter.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Gyrocopter_Guns",
+      "TextureHeight": "512",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4500",
+      "MaxPolygonsLOD1": "1800",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "400",
+      "SlotIndex": "4",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Gyrocopter_Propeller",
+      "TextureHeight": "128",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "GeneratesUnits": {
+        "0": "npc_dota_gyrocopter_homing_missile"
+      },
+      "LoadoutPreviewMode": "hero",
+      "MaxPolygonsLOD0": "500",
+      "MaxPolygonsLOD1": "300",
+      "SlotIndex": "5",
+      "SlotName": "offhand_weapon",
+      "SlotText": "#LoadoutSlot_Gyrocopter_MissileCompartment",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "body_head",
+      "SlotText": "#LoadoutSlot_Head"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_1",
+      "SlotText": "gyrocopter_rocket_barrage"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_2",
+      "SlotText": "gyrocopter_homing_missile"
+    },
+    "11": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "11",
+      "SlotName": "ability_effects_3",
+      "SlotText": "gyrocopter_flak_cannon"
+    },
+    "12": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "12",
+      "SlotName": "ability_effects_4",
+      "SlotText": "gyrocopter_call_down"
+    },
+    "13": {
+      "SlotIndex": "13",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    },
+    "14": {
+      "GeneratesUnits": {
+        "0": "npc_dota_side_gunner"
+      },
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "14",
+      "SlotName": "ability3",
+      "SlotText": "#LoadoutSlot_Gyrocopter_SideGunner",
+      "TextureHeight": "512",
+      "TextureWidth": "512",
+      "no_import": "1"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_sniper",
+  "Model": "models/heroes/gyro/gyro.vmdl",
+  "ModelScale": "0.840000",
+  "MovementSpeed": "320",
+  "NameAliases": "Aurel",
+  "PickSound": "gyrocopter_gyro_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_gyrocopter/gyro_base_attack.vpcf",
+  "ProjectileSpeed": "3000",
+  "RenderablePortrait": [
+    {
+      "Particles": {
+        "particles/units/heroes/hero_gyrocopter/gyrocopter_loadout.vpcf": "loadout"
+      }
+    },
+    {
+      "Particles": {}
+    }
+  ],
+  "Role": "Carry,Nuker,Disabler",
+  "Rolelevels": "3,1,1",
+  "SimilarHeroes": "94,109,6",
+  "SoundSet": "Hero_Gyrocopter",
+  "SpectatorLoadoutScale": "0.82",
+  "Team": "Good",
+  "VersusScale": "0.84",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_gyrocopter.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_gyrocopter",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_gyrocopter.vpcf"
+  },
+  "precache": {
+    "model": [
+      "models/heroes/gyro/gyro_missile.vmdl",
+      "models/heroes/gyro/gyro_sidegunner.vmdl"
+    ],
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_gyrocopter.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_attack2": "2",
+    "attach_head": "1",
+    "attach_homing_missile": "4",
+    "attach_prop1": "5"
+  },
+  "workshop_guide_name": "Gyrocopter"
+}

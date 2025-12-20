@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "0.5",
+  "AbilityManaCost": "0",
+  "AbilityModifierSupportValue": "0.25",
+  "AbilitySound": "Hero_FacelessVoid.TimeWalk",
+  "AbilityValues": {
+    "buff_duration": "3000",
+    "speed": "3000"
+  },
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

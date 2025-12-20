@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_6",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.2 0.2 0.2 0.2",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "0.5",
+  "AbilityManaCost": "0",
+  "AbilitySound": "Hero_Sven.StormBoltImpact",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "fling_damage": "225",
+    "fling_movespeed": "900",
+    "fling_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    },
+    "fling_slow_duration": "3",
+    "movement_slow": "-60"
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByScepter": "1",
+  "LinkedAbility": "meepo_megameepo",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

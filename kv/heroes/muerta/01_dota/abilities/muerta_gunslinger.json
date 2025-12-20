@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityValues": {
+    "bonus_damage": {
+      "special_bonus_unique_muerta_gunslinger_bonus_damage": "+55",
+      "value": "0"
+    },
+    "dead_shot_cooldown_reduction_on_proc": {
+      "special_bonus_facet_muerta_slingshot": "1.0",
+      "value": "0"
+    },
+    "double_shot_chance": {
+      "special_bonus_unique_muerta_gunslinger_double_shot_chance": "+20",
+      "value": "18 27 36 45"
+    },
+    "target_search_bonus_range": "175"
+  },
+  "IsBreakable": "1"
+}

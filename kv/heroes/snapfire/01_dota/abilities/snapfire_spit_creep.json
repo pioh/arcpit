@@ -1,0 +1,46 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "3000",
+  "AbilityCooldown": "0",
+  "AbilitySound": "Hero_Snapfire.MortimerBlob.Launch",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "burn_damage": "100",
+    "burn_ground_duration": "3.0",
+    "burn_interval": "0.5",
+    "burn_linger_duration": "1.0",
+    "impact_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "max_acceleration": "2000.0",
+    "max_lob_travel_time": "2.0",
+    "min_acceleration": "1000.0",
+    "min_height_above_highest": "100.0",
+    "min_height_above_lowest": "150.0",
+    "min_lob_travel_time": "0.1",
+    "move_slow_pct": {
+      "value": "25"
+    },
+    "projectile_speed": "1400",
+    "projectile_vision": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "projectile_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "130"
+    },
+    "stun_duration": "1.2"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

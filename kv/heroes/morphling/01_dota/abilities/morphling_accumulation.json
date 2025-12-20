@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityValues": {
+    "bonus_int_per_level_of_attributes": "0",
+    "bonus_primary_stat_per_level_of_attributes": "3",
+    "percent_to_increment": "50.0"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

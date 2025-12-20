@@ -1,0 +1,11 @@
+{
+  "FightRecapLevel": "2",
+  "ItemCost": "1600",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_ring_of_tarrasque;item_tiara_of_selemene"
+  },
+  "ItemResult": "item_refresher",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

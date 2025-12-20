@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "3.0",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "12.0",
+  "AbilityDamage": "600",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "duration": {
+      "value": "2"
+    },
+    "game_end_damage": {
+      "value": "100000"
+    },
+    "game_end_radius": {
+      "value": "3000"
+    },
+    "mana_burn": {
+      "value": "50"
+    },
+    "radius": {
+      "value": "800"
+    },
+    "speed": {
+      "value": "775"
+    }
+  },
+  "MaxLevel": "1"
+}

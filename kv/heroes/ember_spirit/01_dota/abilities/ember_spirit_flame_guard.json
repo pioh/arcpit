@@ -1,0 +1,34 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "400",
+  "AbilityCooldown": "32.0",
+  "AbilityManaCost": "65 80 95 110",
+  "AbilitySound": "Hero_EmberSpirit.FlameGuard.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "absorb_amount": {
+      "special_bonus_unique_ember_spirit_1": "+165",
+      "value": "60 140 220 300"
+    },
+    "damage_per_second": {
+      "special_bonus_unique_ember_spirit_3": "+100%",
+      "value": "20 30 40 50"
+    },
+    "duration": "12 14 16 18",
+    "linger_duration": "0.5",
+    "passive_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "shield_pct_absorb": "70",
+    "tick_interval": "0.2"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

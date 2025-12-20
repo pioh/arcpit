@@ -1,0 +1,8 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "status_resistance_per_upgrade": "1",
+    "upgrade_rate": "360.0"
+  },
+  "MaxLevel": "1"
+}

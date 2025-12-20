@@ -1,0 +1,48 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.69 0.69 0.69 0.69",
+  "AbilityManaCost": "120 125 130 135",
+  "AbilitySound": "Hero_EarthShaker.Fissure",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_earthshaker_3": "+200",
+      "value": "1600"
+    },
+    "AbilityCooldown": {
+      "special_bonus_shard": "-2",
+      "value": "18 17 16 15"
+    },
+    "echoes_damage_multiplier": {
+      "special_bonus_facet_earthshaker_reverberating_ridge": "=60",
+      "value": "0"
+    },
+    "echoes_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_earthshaker_reverberating_ridge": "400",
+      "value": "0"
+    },
+    "fissure_damage": {
+      "special_bonus_unique_earthshaker_4": "+75",
+      "value": "100 160 220 280"
+    },
+    "fissure_duration": "6.5 7 7.5 8.0",
+    "fissure_max_distance_moved": "300",
+    "fissure_radius": "225",
+    "free_pathing_application_radius": "150",
+    "free_pathing_linger_duration": {
+      "special_bonus_shard": "=1.0"
+    },
+    "shard_aftershock_stun_duration_pct": {
+      "special_bonus_shard": "=50"
+    },
+    "stun_duration": "0.8 1.0 1.2 1.4"
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,45 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_VECTOR_TARGETING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.15",
+  "AbilityCastRange": "400 500 600 700",
+  "AbilityManaCost": "75 80 85 90",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_pangolier_4": "-2",
+      "value": "20 17 14 11"
+    },
+    "attack_damage": {
+      "special_bonus_unique_pangolier_3": "+20",
+      "value": "0"
+    },
+    "attack_interval": "0.1 0.1 0.1 0.1",
+    "damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "30 60 90 120"
+    },
+    "damage_penalty": "25",
+    "dash_range": "400 500 600 700",
+    "dash_speed": "2000",
+    "end_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "155"
+    },
+    "procs_onhit_effects": "1",
+    "range": {
+      "special_bonus_unique_pangolier": "+200",
+      "value": "700"
+    },
+    "slow_duration": "0.4",
+    "slow_percent": "100",
+    "start_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "155"
+    },
+    "strikes": {
+      "value": "3"
+    }
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

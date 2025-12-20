@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "95",
+  "AbilityManaCost": "50",
+  "AbilityValues": {
+    "bonus_damage": "24",
+    "bonus_strength": "10",
+    "duration": "9 8 7 6",
+    "magic_resist": "60",
+    "max_level": "4",
+    "model_scale": "30"
+  },
+  "FightRecapLevel": "2",
+  "ItemCost": "4050",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemSellable": "1",
+  "ItemShopTags": "str;damage;hard_to_tag;teamfight;escape;tank",
+  "SuggestLategame": "1"
+}

@@ -1,0 +1,11 @@
+{
+  "ItemCost": "250",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_ring_of_protection"
+  },
+  "ItemResult": "item_buckler",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "30.0",
+  "AbilityManaCost": "60",
+  "AbilityValues": {
+    "decoy_detonate_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "250"
+    },
+    "decoy_stun_duration": "1.6",
+    "duration": "6.0",
+    "images_do_damage_percent": "100",
+    "images_take_damage_percent": "100",
+    "movement_speed": "15",
+    "projectile_speed": "1200",
+    "sharpshooter_damage_pct": "60"
+  },
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

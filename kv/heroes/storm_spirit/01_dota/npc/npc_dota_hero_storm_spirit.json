@@ -1,0 +1,185 @@
+{
+  "Ability1": "storm_spirit_static_remnant",
+  "Ability10": "special_bonus_unique_storm_spirit_overload_aspd",
+  "Ability11": "special_bonus_mp_regen_150",
+  "Ability12": "special_bonus_hp_250",
+  "Ability13": "special_bonus_unique_storm_spirit_5",
+  "Ability14": "special_bonus_unique_storm_spirit",
+  "Ability15": "special_bonus_unique_storm_spirit_8",
+  "Ability16": "special_bonus_unique_storm_spirit_7",
+  "Ability17": "special_bonus_unique_storm_spirit_4",
+  "Ability2": "storm_spirit_electric_vortex",
+  "Ability3": "storm_spirit_overload",
+  "Ability4": "generic_hidden",
+  "Ability5": "generic_hidden",
+  "Ability6": "storm_spirit_ball_lightning",
+  "Ability7": "storm_spirit_galvanized",
+  "AbilityDraftAbilities": {
+    "Ability1": "storm_spirit_static_remnant",
+    "Ability2": "storm_spirit_electric_vortex",
+    "Ability3": "storm_spirit_overload",
+    "Ability4": "storm_spirit_ball_lightning"
+  },
+  "AbilityPreview": {
+    "movie": "media/heroes/default",
+    "resource": [
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res"
+    ]
+  },
+  "Adjectives": {
+    "Bearded": "1",
+    "Blue": "1",
+    "Spirit": "1"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "34",
+  "AttackDamageMin": "24",
+  "AttackRange": "480",
+  "AttackRate": "1.600000",
+  "AttributeAgilityGain": "2.600000",
+  "AttributeBaseAgility": "22",
+  "AttributeBaseIntelligence": "23",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "3.7",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.000000",
+  "BanSound": "stormspirit_ss_anger_03",
+  "BaseAttackSpeed": "115",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "0",
+      "SoloDesire": "2",
+      "SurvivalRating": "2"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "storm_spirit_shock_collar": {
+      "Color": "Blue",
+      "GradientID": "1",
+      "Icon": "nuke"
+    },
+    "storm_spirit_static_slide": {
+      "Color": "Gray",
+      "GradientID": "3",
+      "Icon": "movement"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_stormspirit.vsndevts",
+  "GibType": "electric",
+  "HeroGlowColor": "0 250 227",
+  "HeroID": "17",
+  "HeroOrderID": "18",
+  "HeroSelectSoundEffect": "Hero_StormSpirit.Pick",
+  "HeroUnlockOrder": "1",
+  "IdleExpression": "scenes/stormspirit/stormspirit_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "7500",
+      "MaxPolygonsLOD1": "3000",
+      "SlotIndex": "1",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Misc"
+    },
+    "4": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ability_effects_3",
+      "SlotText": "storm_spirit_overload"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_4",
+      "SlotText": "storm_spirit_ball_lightning"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_kunkka",
+  "Model": "models/heroes/storm_spirit/storm_spirit.vmdl",
+  "ModelScale": "1.150000",
+  "MovementSpeed": "285",
+  "MovementTurnRate": "0.800000",
+  "NameAliases": "ss;raijin;thunderkeg",
+  "PickSound": "stormspirit_ss_spawn_09",
+  "ProjectileModel": "particles/units/heroes/hero_stormspirit/stormspirit_base_attack.vpcf",
+  "ProjectileSpeed": "1100",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_stormspirit/storm_spirit_loadout.vpcf": "loadout",
+      "particles/units/heroes/hero_stormspirit/storm_spirit_loadout_hand.vpcf": "loadout",
+      "particles/units/heroes/hero_stormspirit/storm_spirit_new_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Escape,Nuker,Initiator,Disabler",
+  "Rolelevels": "2,3,2,1,1",
+  "SimilarHeroes": "106,126,107",
+  "SoundSet": "Hero_StormSpirit",
+  "SpectatorLoadoutScale": "1",
+  "StatusHealthRegen": "0.5",
+  "Team": "Good",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_stormspirit.vsndevts",
+  "particle_folder": "particles/units/heroes/hero_stormspirit",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_storm_spirit.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_storm_spirit.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_hand2": "3",
+    "attach_head": "4"
+  },
+  "workshop_guide_name": "Storm Spirit"
+}

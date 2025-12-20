@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "400",
+  "AbilityCooldown": "75",
+  "AbilityManaCost": "75",
+  "AbilityValues": {
+    "duration": {
+      "value": "2"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "225"
+    }
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1"
+}

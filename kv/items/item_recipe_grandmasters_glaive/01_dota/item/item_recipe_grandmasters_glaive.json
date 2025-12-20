@@ -1,0 +1,10 @@
+{
+  "IsObsolete": "1",
+  "ItemCost": "0",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": "",
+  "ItemResult": "item_grandmasters_glaive",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

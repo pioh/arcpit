@@ -1,0 +1,46 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.5",
+  "AbilityCastRange": "675",
+  "AbilityManaCost": "110 125 140 155",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_underlord_5": "-3",
+      "value": "16 15 14 13"
+    },
+    "burn_damage": {
+      "special_bonus_unique_underlord_4": "+0.6",
+      "value": "1.5 2 2.5 3"
+    },
+    "burn_duration": "2.0",
+    "burn_interval": "1.0",
+    "can_target_units": {
+      "special_bonus_shard": "+1"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "425"
+    },
+    "shard_wave_count_bonus": {
+      "special_bonus_shard": "+3"
+    },
+    "shard_wave_interval_reduction": {
+      "special_bonus_shard": "+25"
+    },
+    "wave_count": "6",
+    "wave_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "30 50 70 90"
+    },
+    "wave_duration": {
+      "value": "7.0"
+    },
+    "wave_interval": "1.0"
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

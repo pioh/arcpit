@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastPoint": "0.3",
+  "AbilityCooldown": "40",
+  "AbilityManaCost": "25",
+  "AbilityValues": {
+    "bonus_strength": "0",
+    "flop_damage": "250",
+    "leap_acceleration": "1250.0",
+    "leap_distance": "400",
+    "leap_speed": "800.0",
+    "max_bounces": "2",
+    "movement_turn_rate": "75",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    },
+    "slow": "-100",
+    "slow_duration": "1.5"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

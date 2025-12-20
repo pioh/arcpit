@@ -1,0 +1,53 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0 0 0 0",
+  "AbilityDuration": "12.0",
+  "AbilityManaCost": "70 80 90 100",
+  "AbilitySound": "Hero_StormSpirit.StaticRemnantPlant",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_facet_storm_spirit_static_slide": "800",
+      "value": "0"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_storm_spirit_8": "-1.25",
+      "value": "3.5"
+    },
+    "is_point_targeted": {
+      "special_bonus_facet_storm_spirit_static_slide": "+1",
+      "value": "0"
+    },
+    "static_remnant_damage": {
+      "special_bonus_unique_storm_spirit_5": "+60",
+      "value": "100 160 220 280"
+    },
+    "static_remnant_damage_radius": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    },
+    "static_remnant_delay": "0.75",
+    "static_remnant_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "235"
+    },
+    "static_remnant_travel_speed": {
+      "special_bonus_facet_storm_spirit_static_slide": "300",
+      "value": "0"
+    },
+    "static_remnant_vision_radius_day": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_storm_spirit_static_slide": "=100",
+      "value": "100"
+    },
+    "static_remnant_vision_radius_night": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_storm_spirit_static_slide": "=100",
+      "value": "100"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,285 @@
+{
+  "Ability1": "tidehunter_gush",
+  "Ability10": "special_bonus_unique_tidehunter_3",
+  "Ability11": "special_bonus_unique_tidehunter_5",
+  "Ability12": "special_bonus_unique_tidehunter_2",
+  "Ability13": "special_bonus_unique_tidehunter_ravage_cooldown",
+  "Ability14": "special_bonus_unique_tidehunter_smash_on_blubber",
+  "Ability15": "special_bonus_unique_tidehunter",
+  "Ability16": "special_bonus_unique_tidehunter_7",
+  "Ability17": "special_bonus_unique_tidehunter_10",
+  "Ability2": "tidehunter_kraken_shell",
+  "Ability3": "tidehunter_anchor_smash",
+  "Ability4": "tidehunter_dead_in_the_water",
+  "Ability5": "generic_hidden",
+  "Ability6": "tidehunter_ravage",
+  "Ability7": "tidehunter_blubber",
+  "AbilityDraftAbilities": {
+    "Ability1": "tidehunter_gush",
+    "Ability2": "tidehunter_kraken_shell",
+    "Ability3": "tidehunter_anchor_smash",
+    "Ability4": "tidehunter_ravage"
+  },
+  "Adjectives": {
+    "Aquatic": "1",
+    "BadTeeth": "1",
+    "Green": "1",
+    "Nose": "0",
+    "Potbelly": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.600000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "31",
+  "AttackDamageMin": "25",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.500000",
+  "AttributeBaseAgility": "15",
+  "AttributeBaseIntelligence": "20",
+  "AttributeBaseStrength": "27",
+  "AttributeIntelligenceGain": "1.700000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.600000",
+  "BanSound": "tidehunter_tide_anger_04",
+  "Bot": {
+    "Build": {
+      "1": "tidehunter_gush",
+      "2": "tidehunter_kraken_shell",
+      "3": "tidehunter_anchor_smash",
+      "4": "tidehunter_kraken_shell",
+      "5": "tidehunter_anchor_smash",
+      "6": "tidehunter_ravage",
+      "7": "tidehunter_anchor_smash",
+      "8": "tidehunter_kraken_shell",
+      "9": "tidehunter_kraken_shell",
+      "10": "special_bonus_unique_tidehunter_9",
+      "11": "tidehunter_anchor_smash",
+      "12": "tidehunter_ravage",
+      "13": "tidehunter_gush",
+      "14": "tidehunter_gush",
+      "15": "special_bonus_unique_tidehunter_3",
+      "16": "tidehunter_gush",
+      "17": "",
+      "18": "tidehunter_ravage",
+      "19": "",
+      "20": "special_bonus_unique_tidehunter_10",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_tidehunter_7"
+    },
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_STUN_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "0",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "2"
+    },
+    "Loadout": {
+      "item_arcane_boots": "ITEM_DERIVED",
+      "item_blink": "ITEM_CORE",
+      "item_boots": "ITEM_CORE",
+      "item_buckler": "ITEM_DERIVED",
+      "item_chainmail": "ITEM_EXTENSION",
+      "item_clarity": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_cloak": "ITEM_EXTENSION",
+      "item_crown": "ITEM_EXTENSION",
+      "item_guardian_greaves": "ITEM_LUXURY | ITEM_DERIVED",
+      "item_headdress": [
+        "ITEM_DERIVED",
+        "ITEM_DERIVED"
+      ],
+      "item_helm_of_iron_will": "ITEM_EXTENSION",
+      "item_mekansm": "ITEM_DERIVED",
+      "item_mystic_staff": "ITEM_LUXURY",
+      "item_pipe": "ITEM_DERIVED",
+      "item_platemail": "ITEM_LUXURY",
+      "item_recipe_arcane_boots": "ITEM_EXTENSION",
+      "item_recipe_buckler": "ITEM_LUXURY",
+      "item_recipe_guardian_greaves": "ITEM_LUXURY",
+      "item_recipe_headdress": [
+        "ITEM_EXTENSION",
+        "ITEM_EXTENSION"
+      ],
+      "item_recipe_mekansm": "ITEM_EXTENSION",
+      "item_recipe_pipe": "ITEM_EXTENSION",
+      "item_recipe_ring_of_basilius": "ITEM_EXTENSION",
+      "item_recipe_sheepstick": "ITEM_EXTENSION",
+      "item_recipe_shivas_guard": "ITEM_LUXURY",
+      "item_recipe_veil_of_discord": "ITEM_EXTENSION",
+      "item_ring_of_basilius": "ITEM_DERIVED",
+      "item_ring_of_protection": "ITEM_LUXURY",
+      "item_ring_of_regen": [
+        "ITEM_EXTENSION",
+        "ITEM_EXTENSION"
+      ],
+      "item_ring_of_tarrasque": "ITEM_EXTENSION",
+      "item_sheepstick": "ITEM_DERIVED",
+      "item_shivas_guard": "ITEM_DERIVED",
+      "item_sobi_mask": "ITEM_CORE",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_tiara_of_selemene": "ITEM_EXTENSION",
+      "item_veil_of_discord": "ITEM_DERIVED"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "tidehunter_kraken_swell": {
+      "Color": "Green",
+      "GradientID": "2",
+      "Icon": "armor"
+    },
+    "tidehunter_sizescale": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "tidehunter_krill_eater"
+        }
+      },
+      "Color": "Green",
+      "GradientID": "0",
+      "Icon": "overshadow",
+      "KeyValueOverrides": {
+        "AttributeStrengthGain": "4.1"
+      }
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_tidehunter.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "54 181 81",
+  "HeroID": "29",
+  "HeroOrderID": "20",
+  "HeroPool1": "1",
+  "HeroPool2": "1",
+  "HeroSelectSoundEffect": "Hero_Tidehunter.Pick",
+  "HeroUnlockOrder": "0",
+  "IdleExpression": "scenes/tidehunter/tidehunter_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "offhand_weapon",
+      "SlotText": "#LoadoutSlot_OffHand_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "4",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "3700",
+      "MaxPolygonsLOD1": "1480",
+      "SlotIndex": "5",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "tidehunter_gush"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_4",
+      "SlotText": "tidehunter_ravage"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_kunkka",
+  "LoadoutScale": "0.840000",
+  "Model": "models/heroes/tidehunter/tidehunter.vmdl",
+  "ModelScale": "0.840000",
+  "MovementSpeed": "300",
+  "NameAliases": "th;Leviathan",
+  "PickSound": "tidehunter_tide_spawn_09",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_tidehunter/tide_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Initiator,Durable,Disabler,Nuker,Carry",
+  "Rolelevels": "3,3,2,1,1",
+  "SimilarHeroes": "16,98,108",
+  "SoundSet": "Hero_Tidehunter",
+  "SpectatorLoadoutScale": "0.92",
+  "StatusManaRegen": "0.5",
+  "Team": "Bad",
+  "VersusScale": "0.84",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_tidehunter.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_tidehunter",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_tidehunter.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_tidehunter.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_hand1": "2",
+    "attach_hand2": "3",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Tidehunter"
+}

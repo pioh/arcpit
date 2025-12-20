@@ -1,0 +1,10 @@
+{
+  "ItemCost": "625",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_helm_of_iron_will;item_gloves;item_blades_of_attack"
+  },
+  "ItemResult": "item_armlet",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

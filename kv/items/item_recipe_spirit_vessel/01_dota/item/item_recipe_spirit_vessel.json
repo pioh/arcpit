@@ -1,0 +1,10 @@
+{
+  "ItemCost": "900",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_urn_of_shadows*;item_diadem"
+  },
+  "ItemResult": "item_spirit_vessel",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

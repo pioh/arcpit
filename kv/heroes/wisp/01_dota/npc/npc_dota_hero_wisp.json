@@ -1,0 +1,155 @@
+{
+  "Ability1": "wisp_tether",
+  "Ability10": "special_bonus_unique_wisp_overcharge_duration",
+  "Ability11": "special_bonus_strength_7",
+  "Ability12": "special_bonus_unique_wisp_3",
+  "Ability13": "special_bonus_unique_wisp",
+  "Ability14": "special_bonus_unique_wisp_10",
+  "Ability15": "special_bonus_unique_wisp_6",
+  "Ability16": "special_bonus_unique_wisp_relocate_delay",
+  "Ability17": "special_bonus_unique_wisp_4",
+  "Ability2": "wisp_spirits",
+  "Ability3": "wisp_overcharge",
+  "Ability4": "wisp_spirits_in",
+  "Ability5": "wisp_spirits_out",
+  "Ability6": "wisp_relocate",
+  "Ability7": "wisp_tether_break",
+  "Ability8": "wisp_essence_conduction",
+  "AbilityDraftAbilities": {
+    "Ability1": "wisp_tether",
+    "Ability2": "wisp_spirits",
+    "Ability3": "wisp_overcharge",
+    "Ability4": "wisp_relocate"
+  },
+  "Adjectives": {
+    "Blue": "1",
+    "Flying": "1",
+    "Legs": "0",
+    "Nose": "0"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.30000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "27",
+  "AttackDamageMin": "21",
+  "AttackRange": "500",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.6",
+  "AttributeBaseAgility": "14",
+  "AttributeBaseIntelligence": "21",
+  "AttributeBaseStrength": "19",
+  "AttributeIntelligenceGain": "1.7",
+  "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+  "AttributeStrengthGain": "3.0",
+  "BanSound": "wisp_shitty_crummy_wizard",
+  "Bot": {
+    "HeroType": "DOTA_BOT_PURE_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "1",
+      "RequiresSetup": "2",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "3",
+  "Enabled": "1",
+  "Facets": {
+    "wisp_kritzkrieg": {
+      "Color": "Blue",
+      "GradientID": "3",
+      "Icon": "damage"
+    },
+    "wisp_medigun": {
+      "Color": "Gray",
+      "GradientID": "3",
+      "Icon": "armor"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_wisp.vsndevts",
+  "GibTintColor": "171 230 255 255",
+  "GibType": "ethereal",
+  "HeroID": "91",
+  "HeroOrderID": "83",
+  "HeroSelectSoundEffect": "Hero_Wisp.Pick",
+  "IdleSoundLoop": "Hero_Wisp.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2300",
+      "MaxPolygonsLOD1": "2300",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "SlotIndex": "1",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "2": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "2",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "3": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "3",
+      "SlotName": "ability_effects_1",
+      "SlotText": "wisp_tether"
+    },
+    "4": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "4",
+      "SlotName": "ability_effects_2",
+      "SlotText": "wisp_spirits"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ability_effects_6",
+      "SlotText": "wisp_relocate"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_zuus",
+  "Model": "models/heroes/wisp/wisp.vmdl",
+  "ModelScale": "0.930000",
+  "MovementSpeed": "320",
+  "MovementTurnRate": "0.700000",
+  "NameAliases": "wisp",
+  "NoCombine": "1",
+  "PickSound": "wisp_move03",
+  "ProjectileModel": "particles/units/heroes/hero_wisp/wisp_base_attack.vpcf",
+  "ProjectileSpeed": "1200",
+  "RenderablePortrait": {},
+  "Role": "Support,Escape,Nuker",
+  "Rolelevels": "3,2,1",
+  "SimilarHeroes": "50,57,111",
+  "SoundSet": "Hero_Wisp",
+  "Team": "Good",
+  "VersusScale": "0.93",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_wisp.vsndevts",
+  "particle_folder": "particles/units/heroes/hero_wisp",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_wisp.vpcf"
+  },
+  "precache": {
+    "model": "models/development/invisiblebox.vmdl",
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_wisp.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_hitloc": "1"
+  },
+  "workshop_guide_name": "Io"
+}

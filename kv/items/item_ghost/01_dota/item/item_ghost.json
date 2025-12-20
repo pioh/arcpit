@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCooldown": "22.0",
+  "AbilitySharedCooldown": "ethereal",
+  "AbilityValues": {
+    "bonus_all_stats": "5",
+    "duration": "4.0",
+    "extra_spell_damage_percent": "-30"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "1500",
+  "ItemQuality": "component",
+  "ItemShopTags": "int;agi;str;hard_to_tag;escape",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestLategame": "1"
+}

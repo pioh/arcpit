@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilitySound": "Hero_TrollWarlord.BerserkersRage.Toggle",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "base_attack_time": "1.4",
+    "bonus_armor": {
+      "special_bonus_unique_troll_warlord": "+10",
+      "value": "3 4 5 6",
+      "var_type": "FIELD_INTEGER"
+    },
+    "bonus_move_speed": {
+      "special_bonus_unique_troll_warlord_2": "+20",
+      "value": "15 25 35 45"
+    },
+    "bonus_range": "350",
+    "ensnare_chance": "20",
+    "ensnare_duration": "0.8 1.2 1.6 2.0",
+    "maim_attack_slow": "8 16 24 32",
+    "maim_chance": "20",
+    "maim_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "10 15 20 25"
+    },
+    "maim_duration": "0.8 1.2 1.6 2.0",
+    "maim_slow": "8 16 24 32"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "4",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

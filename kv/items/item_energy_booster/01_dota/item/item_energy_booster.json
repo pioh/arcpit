@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_mana": "250"
+  },
+  "ItemCost": "800",
+  "ItemQuality": "secret_shop",
+  "ItemShopTags": "mana_pool",
+  "SecretShop": "1"
+}

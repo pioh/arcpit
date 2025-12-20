@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3",
+  "AbilityCooldown": "1.75",
+  "AbilityManaCost": "12 16 20 24",
+  "AbilitySound": "Hero_Bristleback.ViscousGoo.Cast",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_bristleback_5": "+250",
+      "value": "650"
+    },
+    "armor_per_stack": {
+      "value": "2.0 2.5 3.0 3.5"
+    },
+    "base_armor": "1.5 2 2.5 3",
+    "base_move_slow": "10",
+    "goo_duration": "5.0",
+    "goo_duration_creep": "10.0",
+    "goo_speed": "1000",
+    "move_slow_per_stack": "3 6 9 12",
+    "stack_limit": {
+      "special_bonus_facet_bristleback_snot_rocket": "+2",
+      "value": "4"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

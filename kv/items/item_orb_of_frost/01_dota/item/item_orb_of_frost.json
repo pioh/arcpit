@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "duration": "3",
+    "heal_reduction": "13",
+    "slow_melee": "-6",
+    "slow_ranged": "-13"
+  },
+  "ItemCost": "300",
+  "ItemQuality": "rare",
+  "ItemShopTags": "hard_to_tag",
+  "SuggestEarlygame": "1",
+  "SuggestPregame": "1"
+}

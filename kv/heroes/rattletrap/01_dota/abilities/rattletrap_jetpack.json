@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCooldown": "16",
+  "AbilityManaCost": "75",
+  "AbilitySound": "Hero_Rattletrap.Battery_Assault_Impact",
+  "AbilityValues": {
+    "bonus_speed": {
+      "value": "20"
+    },
+    "duration": {
+      "value": "6"
+    },
+    "height": {
+      "value": "250"
+    },
+    "turn_rate": {
+      "value": "75"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

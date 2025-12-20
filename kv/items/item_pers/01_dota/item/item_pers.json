@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_health_regen": "6.5",
+    "bonus_mana_regen": "2.25"
+  },
+  "ItemCost": "1400",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
+  "ItemQuality": "common",
+  "ItemShopTags": "regen_health;regen_mana"
+}

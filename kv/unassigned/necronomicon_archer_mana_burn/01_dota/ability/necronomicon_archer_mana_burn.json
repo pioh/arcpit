@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.5 0.5 0.5",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "7",
+  "AbilityManaCost": "0 0 0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "burn_amount": {
+      "value": "125 175 225"
+    },
+    "burn_as_damage_tooltip": {
+      "value": "100"
+    }
+  },
+  "IsBreakable": "1"
+}

@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "daytime_change": "-15",
+    "daytime_start": ".75",
+    "roshan_initial_move_timer_override": "1199",
+    "tooltip_nighttime_change": "15"
+  },
+  "MaxLevel": "1"
+}

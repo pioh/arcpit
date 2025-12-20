@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "25.0",
+  "AbilityValues": {
+    "blink_damage_cooldown": "3.0",
+    "bonus_health_regen": "0",
+    "bonus_intellect": "0",
+    "bonus_mana_regen": "0",
+    "bonus_strength": "0",
+    "burn_dps_buildings": {
+      "apply_curio_bonus": "1",
+      "value": "60"
+    },
+    "burn_dps_units": {
+      "apply_curio_bonus": "1",
+      "value": "60"
+    },
+    "burn_duration": "6",
+    "burn_interval": "1.0",
+    "impact_damage_buildings": {
+      "apply_curio_bonus": "1",
+      "value": "75"
+    },
+    "impact_damage_units": {
+      "apply_curio_bonus": "1",
+      "value": "150"
+    },
+    "impact_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "315"
+    },
+    "land_time": "1",
+    "max_duration": "2.5",
+    "stun_duration": "1.6"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

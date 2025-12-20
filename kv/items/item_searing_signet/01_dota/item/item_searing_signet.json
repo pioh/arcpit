@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES",
+  "AbilityValues": {
+    "burn_damage": {
+      "apply_curio_bonus": "1",
+      "value": "90"
+    },
+    "burn_duration": "6",
+    "burn_tickrate": ".25",
+    "creep_penalty": "50",
+    "damage_threshold": "55",
+    "max_range": {
+      "affected_by_aoe_increase": "1",
+      "value": "2000"
+    }
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

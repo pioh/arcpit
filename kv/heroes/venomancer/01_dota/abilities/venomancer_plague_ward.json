@@ -1,0 +1,46 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityCastRange": "850",
+  "AbilityManaCost": "24 26 28 30",
+  "AbilitySound": "Hero_Venomancer.Plague_Ward",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_venomancer_8": "-1",
+      "value": "5.0"
+    },
+    "can_target": {
+      "value": "0"
+    },
+    "duration": {
+      "value": "40.0"
+    },
+    "gold_bounty_pct": {
+      "value": "100"
+    },
+    "max_charges": {
+      "value": "0"
+    },
+    "ward_damage_tooltip": {
+      "special_bonus_unique_venomancer": "x2.5",
+      "value": "16 24 32 40"
+    },
+    "ward_hp_tooltip": {
+      "special_bonus_unique_venomancer": "x2.5",
+      "value": "150 250 350 450"
+    },
+    "ward_model_scale": {
+      "special_bonus_unique_venomancer": "x1.5",
+      "value": "1.0"
+    },
+    "ward_multiplier": {
+      "special_bonus_unique_venomancer": "x2.5",
+      "value": "1.0"
+    }
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

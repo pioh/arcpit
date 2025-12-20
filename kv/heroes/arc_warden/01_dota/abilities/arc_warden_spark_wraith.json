@@ -1,0 +1,55 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "2000",
+  "AbilityCooldown": "4.0 4.0 4.0 4.0",
+  "AbilityManaCost": "80",
+  "AbilitySound": "Hero_ArcWarden.SparkWraith.Activate",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "base_activation_delay": {
+      "special_bonus_unique_arc_warden_7": "-1.1",
+      "value": "1.5"
+    },
+    "creep_damage_bonus_pct": "0",
+    "duration": "16",
+    "maximum_targets": {
+      "special_bonus_shard": "+1",
+      "value": "1"
+    },
+    "ministun_duration": {
+      "value": "0.5 0.6 0.7 0.8"
+    },
+    "move_speed_slow_pct": "100",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_shard": "+100",
+      "value": "375"
+    },
+    "second_wraith_damage_pct": {
+      "special_bonus_shard": "=80.0",
+      "value": "0"
+    },
+    "second_wraith_speed_pct": {
+      "special_bonus_shard": "=100.0",
+      "value": "0"
+    },
+    "spark_damage_base": {
+      "special_bonus_unique_arc_warden": "+50%",
+      "value": "100 170 240 310"
+    },
+    "think_interval": "0.2",
+    "wraith_speed_base": {
+      "value": "550"
+    },
+    "wraith_vision_duration": "3.34",
+    "wraith_vision_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

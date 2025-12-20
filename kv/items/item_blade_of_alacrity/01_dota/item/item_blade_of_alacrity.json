@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_agility": "10"
+  },
+  "ItemCost": "1000",
+  "ItemQuality": "component",
+  "ItemShopTags": "agi"
+}

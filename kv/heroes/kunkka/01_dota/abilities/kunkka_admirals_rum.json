@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_kunkka_3": "-15",
+      "value": "60"
+    },
+    "buff_duration": "6",
+    "damage_threshold": "65",
+    "ghostship_absorb": {
+      "special_bonus_unique_kunkka_rum": "+15",
+      "value": "20"
+    },
+    "movespeed_bonus": "10"
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

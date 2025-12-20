@@ -1,0 +1,10 @@
+{
+  "IsObsolete": "1",
+  "ItemCost": "0",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": "",
+  "ItemResult": "item_poor_mans_shield",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

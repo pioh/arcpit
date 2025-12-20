@@ -1,0 +1,81 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_OVERSHOOT",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.05",
+  "AbilityCastRange": "2000",
+  "AbilityManaCost": "140",
+  "AbilitySound": "Hero_Invoker.Tornado",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_invoker_3": "-4",
+      "value": "27"
+    },
+    "area_of_effect": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "base_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "50"
+    },
+    "end_vision_duration": "1.75",
+    "lift_duration": {
+      "levelkey": "quaslevel",
+      "value": "1.2 1.4 1.6 1.8 2 2.2 2.4 2.6 2.8 3.0"
+    },
+    "quas_damage": {
+      "levelkey": "quaslevel",
+      "value": "0 0 0 0 0 0 0 0 0"
+    },
+    "travel_distance": {
+      "levelkey": "wexlevel",
+      "value": "1500 1800 2100 2400 2700 3000 3300 3600 3900 4200"
+    },
+    "travel_speed": "1000",
+    "twister_damage": {
+      "levelkey": "wexlevel",
+      "special_bonus_facet_invoker_wex_focus": {
+        "special_bonus_scepter": "60 70 80 90 100 110 120 130 140 150",
+        "value": "0"
+      },
+      "value": "0"
+    },
+    "twister_distance_interval": {
+      "special_bonus_facet_invoker_wex_focus": {
+        "special_bonus_scepter": "+300",
+        "value": "0"
+      },
+      "value": "0"
+    },
+    "twister_duration": {
+      "levelkey": "quaslevel",
+      "special_bonus_facet_invoker_wex_focus": {
+        "special_bonus_scepter": "3.2 3.4 3.6 3.8 4.0 4.2 4.4 4.6 4.8 5.0",
+        "value": "0"
+      },
+      "value": "0"
+    },
+    "twister_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    },
+    "twister_tick_rate": {
+      "value": "0.25"
+    },
+    "vision_distance": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "wex_damage": {
+      "levelkey": "wexlevel",
+      "value": "45 90 135 180 225 270 315 360 405 450"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "HotKeyOverride": "X",
+  "MaxLevel": "1",
+  "ScepterRequiredFacet": "invoker_wex_focus",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

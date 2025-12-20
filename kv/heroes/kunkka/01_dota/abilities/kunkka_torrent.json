@@ -1,0 +1,36 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "1300",
+  "AbilityManaCost": "90",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilitySound": "Ability.Torrent",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_kunkka_torrent_cooldown": "-4",
+      "value": "16 14 12 10"
+    },
+    "damage_tick_interval": "0.2",
+    "delay": "1.6 1.6 1.6 1.6",
+    "movespeed_bonus": "-40",
+    "percent_instant": "0",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "250"
+    },
+    "slow_duration": "1 2 3 4",
+    "stun_duration": {
+      "special_bonus_unique_kunkka_7": "+25%",
+      "value": "1.4"
+    },
+    "torrent_damage": {
+      "special_bonus_unique_kunkka_7": "+25%",
+      "value": "110 180 250 320"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

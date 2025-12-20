@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_OVERSHOOT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.4 0.4 0.4 0.4",
+  "AbilityManaCost": "50",
+  "AbilitySound": "Hero_Antimage.Blink_out",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_antimage_3": "+200",
+      "value": "750 900 1050 1200"
+    },
+    "AbilityCooldown": {
+      "special_bonus_scepter": "-1",
+      "value": "12 10 8 6"
+    },
+    "empowered_mana_break_debuff_duration_tooltip": {
+      "special_bonus_scepter": "+6.0",
+      "value": "0"
+    },
+    "empowered_mana_break_duration": {
+      "special_bonus_scepter": "+5.0",
+      "value": "0"
+    },
+    "empowered_max_burn_pct_tooltip": {
+      "special_bonus_scepter": "+20.0",
+      "value": "0.0"
+    },
+    "min_blink_range": "200"
+  },
+  "HasScepterUpgrade": "1"
+}

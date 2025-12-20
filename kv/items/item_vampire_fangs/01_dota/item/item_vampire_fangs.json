@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "attack_damage": "0",
+    "attack_lifesteal": "12 16 20",
+    "spell_lifesteal": "8 12 16",
+    "vision_loss": "0"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralPassiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "MaxLevel": "3",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

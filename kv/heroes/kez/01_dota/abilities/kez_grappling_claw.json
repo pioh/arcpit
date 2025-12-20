@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "650 750 850 950",
+  "AbilityCooldown": "13 11 9 7",
+  "AbilityManaCost": "40",
+  "AbilitySound": "Hero_Kez.GrapplingClaw.Katana.Cast",
+  "AbilityUnitTargetFlag": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_TREE",
+  "AbilityValues": {
+    "debuff_duration": "0.7 0.8 0.9 1.0",
+    "grapple_speed": "1800",
+    "katana_ms_slow_pct": "70 80 90 100",
+    "land_distance": "75",
+    "max_distance_break": "2000",
+    "projectile_speed": "3000"
+  },
+  "FightRecapLevel": "1",
+  "LinkedAbility": "kez_talon_toss",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,67 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.3 0.3 0.3",
+  "AbilityCastRange": "550",
+  "AbilityManaCost": "0 0 0",
+  "AbilitySound": "Hero_Huskar.Life_Break",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_huskar_7": "-5",
+      "value": "16 14 12"
+    },
+    "AbilityDuration": {
+      "special_bonus_unique_huskar_4": "+2",
+      "value": "3 4 5"
+    },
+    "attack_speed": "60 100 140",
+    "cast_range_bonus": {
+      "special_bonus_scepter": "+250",
+      "value": "0"
+    },
+    "charge_speed": "1200",
+    "health_cost_percent": "0.32 0.38 0.44",
+    "health_damage": {
+      "special_bonus_unique_huskar": "+0.25",
+      "value": "0.32 0.38 0.44"
+    },
+    "life_break_heal_pct": {
+      "value": "0"
+    },
+    "life_break_heal_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_huskar_nothl_transfusion": "=550"
+    },
+    "movespeed": "-60 -60 -60",
+    "slow_duration_tooltip": {
+      "special_bonus_unique_huskar_4": "+2",
+      "value": "3 4 5"
+    },
+    "splash_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_huskar_bloodbath": "=500"
+    },
+    "taunt_duration": {
+      "special_bonus_scepter": "+3.0",
+      "value": "0.0"
+    },
+    "tooltip_health_cost_percent": {
+      "CalculateSpellDamageTooltip": "1",
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "value": "32 38 44"
+    },
+    "tooltip_health_damage": {
+      "special_bonus_unique_huskar": "+25",
+      "value": "32 38 44"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

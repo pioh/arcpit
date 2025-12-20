@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_damage": "14",
+    "bonus_health": "200",
+    "bonus_mana_regen": "1.8"
+  },
+  "ItemCost": "1125",
+  "ItemQuality": "rare",
+  "ItemShopTags": "hard_to_tag",
+  "SuggestEarlygame": "1"
+}

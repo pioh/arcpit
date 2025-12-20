@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityValues": {
+    "share_percentage": "20",
+    "three_tooltip": "3"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "800",
+  "AbilityCooldown": "20.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "count": {
+      "value": "4"
+    },
+    "customval_dmg_share_percentage": {
+      "value": "6 9 12"
+    },
+    "duration": {
+      "value": "10"
+    },
+    "search_aoe": {
+      "value": "575"
+    }
+  }
+}

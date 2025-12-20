@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "attack_damage_reduction": {
+      "special_bonus_facet_jakiro_twin_terror": "=40 =35 =30 =25",
+      "value": "50"
+    },
+    "second_attack_delay": "0.2"
+  },
+  "DependentOnAbility": "jakiro_macropyre",
+  "Innate": "1",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

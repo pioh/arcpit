@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "400",
+  "AbilityCooldown": "60",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/plus_guild_banner",
+  "AbilityValues": {
+    "lifetime": {
+      "value": "60"
+    },
+    "max_simultaneous": {
+      "value": "1"
+    },
+    "size": {
+      "value": "0.7"
+    }
+  },
+  "EventID": "25",
+  "MaxLevel": "1"
+}

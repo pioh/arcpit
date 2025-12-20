@@ -1,0 +1,215 @@
+{
+  "Ability1": "night_stalker_void",
+  "Ability10": "special_bonus_unique_night_stalker_4",
+  "Ability11": "special_bonus_unique_night_stalker_7",
+  "Ability12": "special_bonus_unique_night_stalker_3",
+  "Ability13": "special_bonus_unique_night_stalker_hunter_status_resist",
+  "Ability14": "special_bonus_unique_night_stalker_crippling_fear_damage",
+  "Ability15": "special_bonus_strength_15",
+  "Ability16": "special_bonus_unique_night_stalker_2",
+  "Ability17": "special_bonus_unique_night_stalker",
+  "Ability2": "night_stalker_crippling_fear",
+  "Ability3": "night_stalker_hunter_in_the_night",
+  "Ability4": "generic_hidden",
+  "Ability5": "generic_hidden",
+  "Ability6": "night_stalker_darkness",
+  "Ability7": "night_stalker_heart_of_darkness",
+  "AbilityDraftAbilities": {
+    "Ability1": "night_stalker_void",
+    "Ability2": "night_stalker_crippling_fear",
+    "Ability3": "night_stalker_hunter_in_the_night",
+    "Ability4": "night_stalker_darkness"
+  },
+  "Adjectives": {
+    "Blue": "1",
+    "Flying": "1",
+    "NicePecs": "1",
+    "Nose": "0",
+    "Wings": "1"
+  },
+  "ArmorPhysical": "2",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.550000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "44",
+  "AttackDamageMin": "40",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "2.20000",
+  "AttributeBaseAgility": "18",
+  "AttributeBaseIntelligence": "15",
+  "AttributeBaseStrength": "23",
+  "AttributeIntelligenceGain": "1.600000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.000000",
+  "BanSound": "night_stalker_nstalk_anger_07",
+  "BaseAttackSpeed": "100",
+  "Bot": {
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_GANKER",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "2",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "2"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "night_stalker_blinding_void": {
+      "Color": "Blue",
+      "Deprecated": "True",
+      "GradientID": "0",
+      "Icon": "no_vision"
+    },
+    "night_stalker_dayswap": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "night_stalker_night_reign"
+        }
+      },
+      "Color": "Gray",
+      "GradientID": "0",
+      "Icon": "moon"
+    },
+    "night_stalker_voidbringer": {
+      "Color": "Blue",
+      "GradientID": "0",
+      "Icon": "area_of_effect",
+      "MaxHeroAttributeLevel": "6"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_nightstalker.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "70 105 255",
+  "HeroID": "60",
+  "HeroOrderID": "42",
+  "HeroSelectSoundEffect": "Hero_NightStalker.Pick",
+  "HeroUnlockOrder": "2",
+  "ItemSlots": {
+    "0": {
+      "DisplayInLoadout": "0",
+      "MaxPolygonsLOD0": "0",
+      "MaxPolygonsLOD1": "0",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "0",
+      "TextureWidth": "0"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "4",
+      "SlotName": "legs",
+      "SlotText": "#LoadoutSlot_Legs",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "5",
+      "SlotName": "tail",
+      "SlotText": "#LoadoutSlot_Tail",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_2",
+      "SlotText": "night_stalker_crippling_fear"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "night_stalker_void"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_juggernaut",
+  "LoadoutScale": "0.840000",
+  "Model": "models/heroes/nightstalker/nightstalker.vmdl",
+  "Model1": "models/heroes/nightstalker/nightstalker_night.vmdl",
+  "ModelScale": "0.840000",
+  "MovementSpeed": "295",
+  "NameAliases": "ns;Balanar",
+  "PickSound": "night_stalker_nstalk_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_night_stalker/nightstalker_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Initiator,Durable,Disabler,Nuker",
+  "Rolelevels": "1,2,2,2,1",
+  "SimilarHeroes": "104,59,4",
+  "SoundSet": "Hero_NightStalker",
+  "SpectatorLoadoutScale": "0.83",
+  "StatusHealthRegen": "1.5",
+  "StatusManaRegen": "0.25",
+  "Team": "Bad",
+  "VersusScale": "0.84",
+  "VisionDaytimeRange": "800",
+  "VisionNighttimeRange": "1800",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_night_stalker.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_night_stalker",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_night_stalker.vpcf"
+  },
+  "precache": {
+    "model": "models/heroes/nightstalker/nightstalker_night.vmdl",
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_night_stalker.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_attack2": "4",
+    "attach_head": "5",
+    "attach_wing_L": "2",
+    "attach_wing_R": "1"
+  },
+  "workshop_guide_name": "Night Stalker"
+}

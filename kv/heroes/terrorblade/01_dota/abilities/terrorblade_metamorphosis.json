@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.",
+  "AbilityDraftExtraAbilities": {
+    "terrorblade_terror_wave": "scepter"
+  },
+  "AbilityManaCost": "100",
+  "AbilitySound": "Hero_Terrorblade.Metamorphosis",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_terrorblade_metamorphosis_cooldown": "-20",
+      "value": "155 150 145 140"
+    },
+    "base_attack_time": "1.5",
+    "bonus_damage": "20 40 60 80",
+    "bonus_range": "300 350 400 450",
+    "duration": {
+      "special_bonus_unique_terrorblade_3": "+30",
+      "value": "35 40 45 50"
+    },
+    "metamorph_aura_tooltip": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "speed_loss": "0",
+    "tooltip_attack_range": "450 500 550 600",
+    "transformation_time": "0.35"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

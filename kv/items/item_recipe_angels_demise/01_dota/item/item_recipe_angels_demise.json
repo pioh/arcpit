@@ -1,0 +1,13 @@
+{
+  "IsObsolete": "0",
+  "ItemCost": "0",
+  "ItemPurchasable": "1",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_phylactery;item_soul_booster"
+  },
+  "ItemResult": "item_angels_demise",
+  "ItemSellable": "1",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

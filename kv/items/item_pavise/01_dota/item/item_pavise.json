@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastRange": "1000",
+  "AbilityCooldown": "16.0",
+  "AbilityManaCost": "60",
+  "AbilitySharedCooldown": "pavise",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "absorb_amount": "250",
+    "bonus_armor": "3",
+    "bonus_health": "175",
+    "bonus_mana": "250",
+    "duration": "7"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "1400",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "armor;regen_mana;hard_to_tag;teamfight;save;tank",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

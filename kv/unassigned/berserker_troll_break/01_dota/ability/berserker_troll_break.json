@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCooldown": "10 9 8 6",
+  "AbilityValues": {
+    "duration": {
+      "value": "3"
+    }
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

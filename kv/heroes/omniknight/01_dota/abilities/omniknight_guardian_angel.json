@@ -1,0 +1,41 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.4",
+  "AbilityManaCost": "125 175 225",
+  "AbilitySound": "Hero_Omniknight.GuardianAngel.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_scepter": "=0",
+      "value": "600"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_omniknight_7": "-20",
+      "value": "100 90 80"
+    },
+    "affects_buildings": {
+      "special_bonus_scepter": "+1",
+      "value": "0"
+    },
+    "duration": {
+      "special_bonus_unique_omniknight_guardian_angel_duration": "+2",
+      "value": "5 6 7"
+    },
+    "heal_and_regen_amp": {
+      "special_bonus_scepter": "+150",
+      "value": "0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "+300",
+      "value": "400"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

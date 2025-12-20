@@ -1,0 +1,64 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "400",
+  "AbilityCooldown": "60",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/seasonal_summon_penguin",
+  "AbilityValues": {
+    "bump_collision_radius": {
+      "value": "120"
+    },
+    "bump_delay": {
+      "value": "1.5"
+    },
+    "bump_delay_absolute": {
+      "value": "0.25"
+    },
+    "impaired_duration": {
+      "value": "3"
+    },
+    "initial_lifetime": {
+      "value": "20"
+    },
+    "initial_speed": {
+      "value": "100"
+    },
+    "jump_distance": {
+      "value": "150"
+    },
+    "lifetime_gain_per_hero_bump": {
+      "value": "5"
+    },
+    "max_gainable_lifetime": {
+      "value": "20"
+    },
+    "max_speed": {
+      "value": "1000"
+    },
+    "min_speech_repeat_time": {
+      "value": "0.5"
+    },
+    "run_distance": {
+      "value": "200"
+    },
+    "spawn_offset": {
+      "value": "150"
+    },
+    "speed_after_crash": {
+      "value": "125"
+    },
+    "speed_gain_per_hero_bump": {
+      "value": "60"
+    },
+    "speed_step": {
+      "value": "1"
+    },
+    "speed_step_interval": {
+      "value": "0.05"
+    }
+  },
+  "MaxLevel": "1"
+}

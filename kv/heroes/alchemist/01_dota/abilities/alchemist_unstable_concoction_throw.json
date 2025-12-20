@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "775",
+  "AbilityModifierSupportBonus": "120",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "brew_explosion": "7.0",
+    "brew_time": "5.0",
+    "max_damage": {
+      "special_bonus_unique_alchemist_2": "+400",
+      "value": "150 220 290 360"
+    },
+    "max_stun": "1.75 2.25 2.75 3.25",
+    "midair_explosion_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_alchemist": "+125",
+      "value": "250"
+    },
+    "min_damage": "0",
+    "min_stun": "0.25",
+    "projectile_speed": "900"
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

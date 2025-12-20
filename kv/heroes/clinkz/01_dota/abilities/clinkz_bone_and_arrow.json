@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_6",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "0",
+  "AbilityChargeRestoreTime": "0",
+  "AbilityCooldown": "0.0",
+  "AbilityDraftExtraAbilities": {
+    "clinkz_burning_army": "scepter"
+  },
+  "AbilityManaCost": "0",
+  "AbilitySound": "Hero_Clinkz.DeathPact",
+  "AbilityValues": {
+    "attack_rate": "1.6",
+    "damage_percent": {
+      "value": "20"
+    },
+    "skeleton_building_damage_reduction": "25",
+    "skeleton_duration": {
+      "value": "15 20 25 30"
+    },
+    "skeleton_health": {
+      "special_bonus_scepter": "+4",
+      "value": "8"
+    },
+    "skeleton_health_tooltip": {
+      "special_bonus_scepter": "+1",
+      "value": "2"
+    }
+  },
+  "DependentOnAbility": "clinkz_wind_walk",
+  "Innate": "1",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

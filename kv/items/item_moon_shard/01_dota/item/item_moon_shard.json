@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE | DOTA_UNIT_TARGET_FLAG_OUT_OF_WORLD",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "bonus_attack_speed": "140",
+    "bonus_night_vision": "400",
+    "consumed_bonus": "60",
+    "consumed_bonus_night_vision": "200"
+  },
+  "ItemCost": "4000",
+  "ItemQuality": "consumable",
+  "ItemShopTags": "attack_speed",
+  "SuggestLategame": "1"
+}

@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_attack_speed": "35",
+    "bonus_intellect": "10",
+    "bonus_mana_regen": "1.0"
+  },
+  "ItemCost": "1625",
+  "ItemQuality": "common",
+  "ItemShopTags": "damage;int;attack_speed;regen_mana"
+}

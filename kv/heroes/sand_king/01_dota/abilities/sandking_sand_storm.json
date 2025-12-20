@@ -1,0 +1,39 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "40 34 28 22",
+  "AbilityManaCost": "85",
+  "AbilitySound": "Ability.SandKing_SandStorm.start",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityDuration": {
+      "value": "16 20 24 28"
+    },
+    "blind_debuff_duration": {
+      "special_bonus_facet_sand_king_obscurity": "5"
+    },
+    "blind_pct": {
+      "special_bonus_facet_sand_king_obscurity": "20 30 40 50"
+    },
+    "damage_tick_rate": "0.2",
+    "fade_delay": {
+      "value": "0.7"
+    },
+    "sand_storm_damage": {
+      "special_bonus_unique_sand_king_2": "+25",
+      "value": "30 50 70 90"
+    },
+    "sand_storm_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "475 550 625 700"
+    },
+    "sand_storm_slow": {
+      "special_bonus_unique_sand_king_4": "50"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

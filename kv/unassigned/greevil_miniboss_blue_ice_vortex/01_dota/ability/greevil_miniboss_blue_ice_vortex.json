@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "1500",
+  "AbilityCooldown": "12.0",
+  "AbilityDuration": "6.0",
+  "AbilityManaCost": "50",
+  "AbilityValues": {
+    "cast_animation": {
+      "value": "3"
+    },
+    "movement_speed_pct": {
+      "value": "-30"
+    },
+    "radius": {
+      "value": "275"
+    },
+    "spell_resist_pct": {
+      "value": "-25"
+    }
+  }
+}

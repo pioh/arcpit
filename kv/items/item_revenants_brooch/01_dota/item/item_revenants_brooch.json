@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_damage": "35",
+    "crit_chance": "30",
+    "crit_multiplier": "80",
+    "spell_lifesteal": "14"
+  },
+  "ItemCost": "3300",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "int;hard_to_tag;crit;dps",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+  "SuggestLategame": "1"
+}

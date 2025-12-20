@@ -1,0 +1,55 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.2",
+  "AbilityCooldown": "19 17 15 13",
+  "AbilityManaCost": "50 60 70 80",
+  "AbilitySound": "Hero_Brewmaster.DrunkenHaze.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "value": "950"
+    },
+    "barrel_impact_damage": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "value": "40 70 100 130"
+    },
+    "barrel_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "75"
+    },
+    "duration": {
+      "special_bonus_unique_brewmaster_5": "+40%",
+      "value": "5"
+    },
+    "extra_duration": "3",
+    "fear_duration": {
+      "special_bonus_unique_brewmaster_4": "1.5"
+    },
+    "max_movement": {
+      "value": "50"
+    },
+    "min_movement": {
+      "value": "-15"
+    },
+    "movement_slow": "24 28 32 36",
+    "projectile_speed": {
+      "value": "950"
+    },
+    "projectile_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "350"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "total_ignite_damage": {
+      "special_bonus_unique_brewmaster_5": "+40%",
+      "value": "80 160 240 320"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

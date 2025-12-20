@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityCastAnimation": "ACT_DOTA_GENERIC_CHANNEL_1",
+  "AbilityCastRange": "300",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityValues": {
+    "allow_mixed_capture": "0",
+    "ally_exponent": "1.0",
+    "base_capture_tick": "0.1",
+    "base_capture_time": "6.0"
+  },
+  "MaxLevel": "1"
+}

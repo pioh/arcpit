@@ -1,0 +1,7 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "mana_reduction_on_hit_tooltip": "1"
+  },
+  "MaxLevel": "1"
+}

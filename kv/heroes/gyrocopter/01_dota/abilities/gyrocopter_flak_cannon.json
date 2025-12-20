@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0 0 0 0",
+  "AbilityDuration": "12",
+  "AbilityManaCost": "50 60 70 80",
+  "AbilitySound": "Hero_Gyrocopter.FlackCannon",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_gyrocopter_1": "-4",
+      "value": "26 24 22 20"
+    },
+    "bonus_damage": {
+      "special_bonus_unique_gyrocopter_flak_cannon_bonus_damage": "+25"
+    },
+    "bonus_night_vision": "200",
+    "double_target": {
+      "special_bonus_scepter": "+1"
+    },
+    "max_attacks": {
+      "special_bonus_unique_gyrocopter_2": "+3",
+      "value": "4 5 6 7"
+    },
+    "projectile_speed": "800",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1250"
+    },
+    "sidegunner_fire_rate": {
+      "special_bonus_scepter": "1.3"
+    },
+    "sidegunner_radius": {
+      "special_bonus_scepter": "700"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

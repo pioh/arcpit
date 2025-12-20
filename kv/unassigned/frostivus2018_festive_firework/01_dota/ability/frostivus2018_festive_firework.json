@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_ITEM",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "30",
+  "AbilityDamage": "200",
+  "AbilityManaCost": "0",
+  "AbilitySharedCooldown": "frostivus2018_consumable",
+  "AbilityTextureName": "consumables/frostivus2018_festive_firework",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "blind_duration": {
+      "value": "12"
+    },
+    "miss_rate": {
+      "value": "100"
+    },
+    "radius": {
+      "value": "600"
+    },
+    "speed": {
+      "value": "2250"
+    },
+    "vision_duration": {
+      "value": "10"
+    },
+    "vision_radius": {
+      "value": "600"
+    }
+  },
+  "AssociatedConsumable": "17473",
+  "MaxLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

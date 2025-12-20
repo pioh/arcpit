@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "650",
+  "AbilityCooldown": "20",
+  "AbilityManaCost": "25",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "block_chance": "60",
+    "block_damage_melee": "60",
+    "block_damage_ranged": "30",
+    "bonus_all_stats": "5",
+    "bonus_health": "275",
+    "bonus_health_regen": "6",
+    "disarm_melee": "3.0",
+    "disarm_range": "3.0"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "2600",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
+  "ItemQuality": "artifact",
+  "ItemShopTags": "regen_health;block;health_pool;save;teamfight;tank",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SuggestLategame": "1"
+}

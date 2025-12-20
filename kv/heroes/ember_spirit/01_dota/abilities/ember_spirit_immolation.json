@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilitySound": "Hero_EmberSpirit.FlameGuard.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage": {
+      "special_bonus_shard": "+10",
+      "value": "10 18 26 34"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_shard": "+175",
+      "value": "175"
+    },
+    "tick_interval": "0.2"
+  },
+  "DependentOnAbility": "ember_spirit_fire_remnant",
+  "HasShardUpgrade": "1",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

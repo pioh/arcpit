@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "block_chance": "50",
+    "damage_block_melee": "20",
+    "damage_block_ranged": "8"
+  },
+  "IsObsolete": "1",
+  "ItemCost": "100",
+  "ItemPurchasable": "0",
+  "ItemQuality": "component",
+  "ItemShopTags": "block",
+  "Model": "models/props_gameplay/stout_shield.vmdl",
+  "SuggestLategame": "0"
+}

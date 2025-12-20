@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityValues": {
+    "aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "charges_per_death": "2",
+    "charges_per_ult": "3",
+    "mp_per_kill": "0.2",
+    "perma_mp_per_kill": "0.1"
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

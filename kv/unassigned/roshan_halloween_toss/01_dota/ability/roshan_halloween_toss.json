@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "1300",
+  "AbilityCooldown": "5.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "bonus_damage_pct": {
+      "value": "20"
+    },
+    "duration": {
+      "value": "1"
+    },
+    "grab_radius": {
+      "value": "300"
+    },
+    "grow_bonus_damage_pct": {
+      "value": "35"
+    },
+    "radius": {
+      "value": "275"
+    },
+    "toss_damage": {
+      "value": "500"
+    }
+  },
+  "MaxLevel": "1"
+}

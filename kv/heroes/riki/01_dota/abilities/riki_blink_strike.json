@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3",
+  "AbilityManaCost": "50 55 60 65",
+  "AbilitySound": "Hero_Riki.Blink_Strike",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_riki_9": "+500",
+      "value": "600 700 800 900"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_riki_5": "-1",
+      "value": "13 10 7 4"
+    },
+    "bonus_damage": {
+      "value": "15 30 45 60"
+    },
+    "slow": "0.5"
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

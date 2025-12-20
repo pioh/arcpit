@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.5 0.5 0.5 0.5",
+  "AbilityCastRange": "300",
+  "AbilityCooldown": "14.0",
+  "AbilityManaCost": "50",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "cast_animation": {
+      "value": "9"
+    },
+    "damage_block": {
+      "value": "40"
+    },
+    "damage_count": {
+      "value": "6"
+    },
+    "duration": {
+      "value": "10"
+    },
+    "health_regen": {
+      "value": "7"
+    }
+  }
+}

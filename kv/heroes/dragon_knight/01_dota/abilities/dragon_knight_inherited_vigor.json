@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE |  DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityValues": {
+    "base_armor": {
+      "dynamic_value": "true",
+      "special_bonus_unique_dragon_knight": "+12",
+      "value": "2"
+    },
+    "base_health_regen": {
+      "dynamic_value": "true",
+      "special_bonus_unique_dragon_knight": "+12",
+      "value": "2"
+    },
+    "level_mult": "0.5",
+    "regen_and_armor_multiplier_during_dragon_form": {
+      "value": "1.5"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

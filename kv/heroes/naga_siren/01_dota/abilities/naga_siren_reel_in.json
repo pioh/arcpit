@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "1400",
+  "AbilityChannelAnimation": "ACT_DOTA_CHANNEL_ABILITY_4",
+  "AbilityChannelTime": "5",
+  "AbilityCooldown": "8",
+  "AbilityManaCost": "0",
+  "AbilitySound": "Hero_NagaSiren.SongOfTheSiren",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
+  "AbilityValues": {
+    "can_target_magic_immune": {
+      "special_bonus_scepter": "+1",
+      "value": "0"
+    },
+    "min_pull_distance": "100",
+    "pull_strength": {
+      "special_bonus_unique_naga_siren_reel_in_speed": "+100",
+      "value": "200"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1600"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

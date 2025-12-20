@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_health": "125"
+  },
+  "ItemCost": "250",
+  "ItemQuality": "secret_shop",
+  "ItemShopTags": "health_pool",
+  "SuggestPregame": "1"
+}

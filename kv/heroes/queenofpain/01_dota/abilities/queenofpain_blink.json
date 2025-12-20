@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_OVERSHOOT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.33 0.33 0.33 0.33",
+  "AbilityCastRange": "1075 1150 1225 1300",
+  "AbilityManaCost": "65",
+  "AbilitySound": "Hero_QueenOfPain.Blink_in",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_queen_of_pain_6": "-2",
+      "value": "12.0 10.0 8.0 6.0"
+    },
+    "min_blink_range": "200",
+    "shard_aoe": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_shard": "300"
+    },
+    "shard_damage": {
+      "special_bonus_shard": "125"
+    },
+    "shard_duration": {
+      "special_bonus_shard": "1.75"
+    }
+  },
+  "HasShardUpgrade": "1"
+}

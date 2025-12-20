@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "radius": {
+      "value": "5"
+    },
+    "slow_resistance": "25"
+  }
+}

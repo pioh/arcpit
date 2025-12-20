@@ -1,0 +1,12 @@
+{
+  "ItemCost": "1340",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_magic_wand;item_crown"
+  },
+  "ItemResult": "item_holy_locket",
+  "ItemShopTags": "",
+  "UIDropSound": "Item.DropRingShop",
+  "UIPickupSound": "Item.PickUpRingShop",
+  "WorldDropSound": "Item.DropRingWorld"
+}

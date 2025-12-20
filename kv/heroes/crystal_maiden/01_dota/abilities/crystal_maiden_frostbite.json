@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityDraftExtraAbilities": {
+    "crystal_maiden_crystal_clone": "shard"
+  },
+  "AbilityModifierSupportValue": "0.5",
+  "AbilitySound": "hero_Crystal.frostbite",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+    "AbilityCastRange": {
+      "special_bonus_unique_crystal_maiden_frostbite_castrange": "+100",
+      "value": "600"
+    },
+    "AbilityCooldown": "9 8 7 6",
+    "AbilityManaCost": "125 135 145 155",
+    "creep_multiplier": "4",
+    "damage_per_second": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "100"
+    },
+    "duration": {
+      "special_bonus_unique_crystal_maiden_1": "+1.0",
+      "value": "1.5 2 2.5 3"
+    },
+    "tick_interval": "0.25"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

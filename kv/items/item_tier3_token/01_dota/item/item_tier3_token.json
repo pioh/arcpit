@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "Model": "models/props_gameplay/neutral_box.vmdl",
+  "TokenTier": "3"
+}

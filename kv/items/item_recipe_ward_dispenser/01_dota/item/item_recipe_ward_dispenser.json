@@ -1,0 +1,15 @@
+{
+  "ItemCost": "0",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_ward_sentry;item_ward_observer",
+    "02": "item_ward_sentry;item_ward_dispenser",
+    "03": "item_ward_dispenser*;item_ward_observer",
+    "04": "item_ward_dispenser*;item_ward_dispenser"
+  },
+  "ItemResult": "item_ward_dispenser",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl",
+  "ShouldNotSuggestMainGame": "1"
+}

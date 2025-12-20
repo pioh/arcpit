@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_NONE",
+  "AbilityValues": {
+    "level_one_ability_points": {
+      "special_bonus_facet_ogre_magi_learning_curve": "=0",
+      "value": "1"
+    },
+    "level_two_ability_points": {
+      "special_bonus_facet_ogre_magi_learning_curve": "=3",
+      "value": "1"
+    },
+    "mana_per_str": {
+      "special_bonus_unique_ogre_magi_dumb_luck_mana": "+2",
+      "value": "6"
+    },
+    "mana_regen_per_str": {
+      "special_bonus_unique_ogre_magi_dumb_luck_mana": "+0.01",
+      "value": "0.02"
+    },
+    "required_level_reduction": {
+      "special_bonus_facet_ogre_magi_learning_curve": "1"
+    }
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

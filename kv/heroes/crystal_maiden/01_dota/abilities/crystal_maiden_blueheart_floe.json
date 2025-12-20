@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityTextureName": "crystal_maiden_let_it_go",
+  "AbilityValues": {
+    "mana_regen_multiplier": {
+      "value": "25 50 75 100"
+    }
+  },
+  "DependentOnAbility": "crystal_maiden_freezing_field",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

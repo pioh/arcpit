@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilitySound": "Hero_Meepo.Geostrike",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityValues": {
+    "health_steal_creeps": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_PURE",
+      "special_bonus_unique_meepo_6": "+8",
+      "value": "3 5 7 9"
+    },
+    "health_steal_heroes": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_PURE",
+      "special_bonus_unique_meepo_6": "+8",
+      "value": "9 12 15 18"
+    }
+  },
+  "IsBreakable": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

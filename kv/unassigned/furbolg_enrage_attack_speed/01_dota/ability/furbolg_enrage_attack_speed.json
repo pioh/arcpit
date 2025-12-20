@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_aspd": {
+      "value": "120"
+    },
+    "duration": {
+      "value": "5"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "700"
+    }
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

@@ -1,0 +1,47 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_4",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_NONE",
+  "AbilityValues": {
+    "AbilityCastPoint": {
+      "special_bonus_shard": "0.3",
+      "value": "0"
+    },
+    "AbilityCastRange": {
+      "special_bonus_shard": "+800",
+      "value": "0"
+    },
+    "AbilityCooldown": {
+      "special_bonus_shard": "20.0",
+      "value": "0"
+    },
+    "AbilityManaCost": {
+      "special_bonus_shard": "50",
+      "value": "0"
+    },
+    "drink_duration": {
+      "special_bonus_shard": "+5",
+      "value": "0"
+    },
+    "max_health_threshold": "20",
+    "max_hp_regen": {
+      "special_bonus_shard": "+2",
+      "value": "0"
+    },
+    "max_speed": "25",
+    "min_health_threshold": "50",
+    "min_speed": "10",
+    "projectile_speed": {
+      "special_bonus_shard": "+1000",
+      "value": "0"
+    },
+    "speed_toggle_time": "1",
+    "status_resist": {
+      "hero_levelup": "+0.5",
+      "value": "10.5"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "Innate": "1",
+  "MaxLevel": "1"
+}

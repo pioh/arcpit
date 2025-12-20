@@ -1,0 +1,43 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityDraftExtraAbilities": {
+    "clinkz_burning_barrage": "shard"
+  },
+  "AbilityManaCost": "80 105 130",
+  "AbilitySound": "Hero_Clinkz.WindWalk",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_clinkz_10": "-4",
+      "value": "24 21 18"
+    },
+    "attack_rate": "1.6",
+    "damage_percent": {
+      "value": "20"
+    },
+    "duration": "35 40 45",
+    "fade_time": "0.6 0.6 0.6",
+    "move_speed_bonus_pct": "25 35 45",
+    "skeleton_building_damage_reduction": "25",
+    "skeleton_count": {
+      "value": "2 3 4"
+    },
+    "skeleton_duration": {
+      "value": "20 25 30"
+    },
+    "skeleton_health": {
+      "special_bonus_scepter": "+4",
+      "value": "8"
+    },
+    "skeleton_health_tooltip": {
+      "special_bonus_scepter": "+1",
+      "value": "2"
+    },
+    "skeleton_offset": "250",
+    "skeleton_offset_min": "150"
+  },
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

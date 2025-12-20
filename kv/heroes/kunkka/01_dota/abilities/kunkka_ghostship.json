@@ -1,0 +1,70 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_DIRECTIONAL | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_GHOST_SHIP",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "1000",
+  "AbilityDamage": "350 475 600",
+  "AbilityDraftExtraAbilities": {
+    "kunkka_tidal_wave": "shard"
+  },
+  "AbilityManaCost": "125 175 225",
+  "AbilitySound": "Ability.Ghostship",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "90 80 70"
+    },
+    "base_cannon_rotation": "20",
+    "buff_duration": "10",
+    "cannon_ball_damage_pct": {
+      "special_bonus_scepter": "40"
+    },
+    "cannon_ball_distance": {
+      "special_bonus_scepter": "1200"
+    },
+    "cannon_ball_radius": {
+      "special_bonus_scepter": "100"
+    },
+    "cannon_ball_speed": {
+      "special_bonus_scepter": "1400"
+    },
+    "cannon_count": {
+      "special_bonus_scepter": "4"
+    },
+    "cannon_fire_interval": {
+      "special_bonus_scepter": "0.78"
+    },
+    "distance_between_cannons": "75",
+    "fire_cannons": {
+      "special_bonus_scepter": "1"
+    },
+    "fleet_count": {
+      "special_bonus_scepter": "2"
+    },
+    "fleet_interval": {
+      "special_bonus_scepter": "2.5"
+    },
+    "ghostship_absorb": {
+      "special_bonus_unique_kunkka_rum": "+15",
+      "value": "35"
+    },
+    "ghostship_distance": "2000",
+    "ghostship_speed": "650",
+    "ghostship_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "450"
+    },
+    "initial_cannon_offset": "-150",
+    "movespeed_bonus": "15",
+    "num_cannon_volleys": "3",
+    "rotation_per_cannon": "12",
+    "stun_duration": "1.2",
+    "tooltip_delay": "3.1"
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

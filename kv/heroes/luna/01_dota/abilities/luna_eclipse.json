@@ -1,0 +1,49 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.5",
+  "AbilityManaCost": "150 200 250",
+  "AbilitySound": "Hero_Luna.Eclipse.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_scepter": "+2500",
+      "value": "0"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_luna_6": "-40.0",
+      "value": "105"
+    },
+    "AbilityDuration": {
+      "special_bonus_scepter": "-0.6",
+      "value": "2.4 4.2 6.0"
+    },
+    "beam_interval": {
+      "special_bonus_scepter": "-0.3",
+      "value": "0.6 0.6 0.6"
+    },
+    "beam_interval_scepter": "0.3",
+    "beams": {
+      "special_bonus_scepter": "+0 +3 +6",
+      "value": "6 9 12"
+    },
+    "hit_count": {
+      "special_bonus_scepter": "+1 +7 +13",
+      "value": "5"
+    },
+    "night_duration": {
+      "value": "10.0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "675"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

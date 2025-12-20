@@ -1,0 +1,41 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "1200",
+  "AbilityCharges": "4 6 8 10",
+  "AbilityCooldown": "0.0",
+  "AbilityManaCost": "40",
+  "AbilitySound": "Hero_Broodmother.SpinWebCast",
+  "AbilityValues": {
+    "AbilityChargeRestoreTime": {
+      "special_bonus_unique_broodmother_5": "-6",
+      "value": "27"
+    },
+    "bonus_movespeed": {
+      "special_bonus_unique_broodmother_web_speed": "+14",
+      "value": "10 22 34 46"
+    },
+    "bonus_turn_rate": "0.2",
+    "break_move_cap": {
+      "special_bonus_unique_broodmother_web_speed": "1",
+      "value": "0"
+    },
+    "count": {
+      "value": "3 5 7 9"
+    },
+    "degen": {
+      "special_bonus_facet_broodmother_necrotic_webs": "=10 =30 =50 =70",
+      "value": "0"
+    },
+    "health_regen": {
+      "value": "0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

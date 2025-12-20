@@ -1,0 +1,63 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.05",
+  "AbilityCastRange": "0",
+  "AbilityManaCost": "175",
+  "AbilitySound": "Hero_Invoker.SunStrike.Charge",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_invoker_11": "-4",
+      "value": "23"
+    },
+    "area_of_effect": {
+      "affected_by_aoe_increase": "1",
+      "value": "175"
+    },
+    "cataclysm_cooldown": {
+      "value": "90"
+    },
+    "cataclysm_count": {
+      "special_bonus_facet_invoker_exort_focus": {
+        "special_bonus_scepter": "+2",
+        "value": "0"
+      },
+      "value": "0"
+    },
+    "cataclysm_damage_pct": {
+      "value": "75"
+    },
+    "cataclysm_max_range": {
+      "value": "180"
+    },
+    "cataclysm_min_range": {
+      "value": "90"
+    },
+    "create_forged_spirit_on_hero_damage": {
+      "special_bonus_facet_invoker_exort_focus": {
+        "special_bonus_shard": "+1",
+        "value": "0"
+      },
+      "value": "0"
+    },
+    "damage": {
+      "levelkey": "exortlevel",
+      "value": "175 225 275 325 375 425 475 525 575 625"
+    },
+    "delay": "1.7",
+    "vision_distance": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "vision_duration": "4.0"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "HasShardUpgrade": "1",
+  "HotKeyOverride": "T",
+  "MaxLevel": "1",
+  "ScepterRequiredFacet": "invoker_exort_focus",
+  "ShardRequiredFacet": "invoker_exort_focus",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

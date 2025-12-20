@@ -1,0 +1,50 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.3 0.3 0.3",
+  "AbilityManaCost": "150 200 250",
+  "AbilitySound": "Hero_Gyrocopter.CallDown.Fire",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "value": "1000"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_gyrocopter_5": "-30",
+      "value": "90 75 60"
+    },
+    "damage": {
+      "value": "200 350 500"
+    },
+    "missile_delay_tooltip": "2",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "slow": "50",
+    "slow_duration": "4",
+    "strike_delay": {
+      "special_bonus_facet_gyrocopter_secondary_strikes": "-0.2",
+      "value": "1.0"
+    },
+    "strike_separation": "500",
+    "total_strikes": "3",
+    "tracking_missile_damage": {
+      "special_bonus_facet_gyrocopter_secondary_strikes": "=50",
+      "value": "0"
+    },
+    "tracking_strike_delay": {
+      "special_bonus_facet_gyrocopter_secondary_strikes": "+0.0",
+      "value": "0"
+    },
+    "tracking_strike_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_gyrocopter_secondary_strikes": "+200",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

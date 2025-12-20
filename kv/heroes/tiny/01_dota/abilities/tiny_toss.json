@@ -1,0 +1,49 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_RUNE_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityCastRange": "800 900 1000 1100",
+  "AbilityCooldown": "20 17 14 11",
+  "AbilityManaCost": "110 125 140 155",
+  "AbilityModifierSupportValue": "0.25",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "AbilityCharges": {
+      "special_bonus_unique_tiny_2": "+2",
+      "value": ""
+    },
+    "bonus_damage_pct": "0",
+    "bonus_land_damage_pct": {
+      "special_bonus_facet_tiny_crash_landing": "20",
+      "value": "0"
+    },
+    "duration": "1.25",
+    "grab_radius": {
+      "value": "300"
+    },
+    "land_attack_slow": {
+      "special_bonus_facet_tiny_crash_landing": "15 25 35 45",
+      "value": "0"
+    },
+    "land_debuff_duration": {
+      "special_bonus_facet_tiny_crash_landing": "=2.5",
+      "value": "0"
+    },
+    "land_movement_slow": {
+      "special_bonus_facet_tiny_crash_landing": "20 25 30 35",
+      "value": "0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_tiny_crash_landing": "=400",
+      "value": "275"
+    },
+    "toss_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "90 180 270 360"
+    }
+  },
+  "FightRecapLevel": "1"
+}

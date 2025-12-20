@@ -1,0 +1,200 @@
+{
+  "Ability1": "slardar_sprint",
+  "Ability10": "special_bonus_unique_slardar_7",
+  "Ability11": "special_bonus_unique_slardar_6",
+  "Ability12": "special_bonus_hp_300",
+  "Ability13": "special_bonus_unique_slardar_2",
+  "Ability14": "special_bonus_unique_slardar",
+  "Ability15": "special_bonus_unique_slardar_5",
+  "Ability16": "special_bonus_unique_slardar_4",
+  "Ability17": "special_bonus_unique_slardar_3",
+  "Ability2": "slardar_slithereen_crush",
+  "Ability3": "slardar_bash",
+  "Ability4": "slardar_seaborn_sentinel",
+  "Ability5": "generic_hidden",
+  "Ability6": "slardar_amplify_damage",
+  "AbilityDraftAbilities": {
+    "Ability1": "slardar_sprint",
+    "Ability2": "slardar_slithereen_crush",
+    "Ability3": "slardar_bash",
+    "Ability4": "slardar_amplify_damage"
+  },
+  "Adjectives": {
+    "Aquatic": "1",
+    "Legs": "0"
+  },
+  "ArmorPhysical": "2",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.360000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "38",
+  "AttackDamageMin": "30",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "2.100000",
+  "AttributeBaseAgility": "17",
+  "AttributeBaseIntelligence": "15",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "1.500000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.600000",
+  "BanSound": "slardar_slar_anger_04",
+  "Bot": {
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_GANKER | DOTA_BOT_STUN_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "2",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "2"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "slardar_brineguard": {
+      "Color": "Purple",
+      "GradientID": "1",
+      "Icon": "armor"
+    },
+    "slardar_leg_day": {
+      "Color": "Red",
+      "GradientID": "2",
+      "Icon": "speed"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_slardar.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "78 127 208",
+  "HeroID": "28",
+  "HeroOrderID": "25",
+  "HeroSelectSoundEffect": "Hero_Slardar.Pick",
+  "HeroUnlockOrder": "1",
+  "IdleExpression": "scenes/default_idle.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "4",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Misc"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "slardar_sprint"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_2",
+      "SlotText": "slardar_slithereen_crush"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_4",
+      "SlotText": "slardar_amplify_damage"
+    },
+    "11": {
+      "SlotIndex": "11",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_tidehunter",
+  "Model": [
+    "models/heroes/slardar/slardar.vmdl",
+    "models/heroes/slardar/slardar.vmdl"
+  ],
+  "ModelScale": "0.880000",
+  "MovementSpeed": "300",
+  "NameAliases": "Slithereen Guard",
+  "PickSound": "slardar_slar_spawn_01",
+  "ProjectileSpeed": "0",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_slardar/slardar_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Durable,Initiator,Disabler,Escape",
+  "Rolelevels": "2,2,2,1,1",
+  "SimilarHeroes": "114,95,93",
+  "SoundSet": "Hero_Slardar",
+  "SpectatorLoadoutScale": "0.94",
+  "StatusHealthRegen": "0.5",
+  "Team": "Bad",
+  "VersusScale": "0.88",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_slardar.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_slardar",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_slardar.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_slardar.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "4",
+    "attach_hand1": "2",
+    "attach_hand2": "3",
+    "attach_light": "1"
+  },
+  "workshop_guide_name": "Slardar"
+}

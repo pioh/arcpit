@@ -1,0 +1,49 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "800",
+  "AbilityCooldown": "30 25 20 15",
+  "AbilityManaCost": "100 110 120 130",
+  "AbilitySound": "Hero_Lich.FrostArmor",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_BUILDING",
+  "AbilityValues": {
+    "bonus_duration_per_creep_killed": {
+      "special_bonus_facet_lich_growing_cold": "+1",
+      "value": "0"
+    },
+    "bonus_duration_per_hero_killed": {
+      "special_bonus_facet_lich_growing_cold": "+4",
+      "value": "0"
+    },
+    "damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "18 32 46 60"
+    },
+    "damage_reduction": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_unique_lich_8": "+10",
+      "value": "45 50 55 60"
+    },
+    "duration": {
+      "special_bonus_unique_lich_4": "+4",
+      "value": "4 5 6 7"
+    },
+    "health_regen": {
+      "special_bonus_unique_lich_1": "+50"
+    },
+    "interval": "1.0",
+    "movement_slow": "20 25 30 35",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    },
+    "slow_duration": "0.5"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES_ENEMIES_NO"
+}

@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "350",
+  "AbilityCooldown": "15.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_PREFER_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "alternative_cooldown": "4",
+    "bonus_armor": "0",
+    "bonus_attack_speed": "0",
+    "cast_range_ward": "450",
+    "creep_damage_pct": "80",
+    "quelling_range_tooltip": "350"
+  },
+  "DisplayOverheadAlertOnReceived": "0",
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemQuality": "common",
+  "ItemSellable": "0",
+  "ItemShopTags": "damage",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

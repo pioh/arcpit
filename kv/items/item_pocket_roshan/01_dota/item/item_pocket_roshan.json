@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "60.0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "summon_duration": "60"
+  },
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "1000",
+  "ItemPurchasable": "0",
+  "ItemQuality": "rare"
+}

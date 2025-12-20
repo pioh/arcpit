@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES | DOTA_ABILITY_BEHAVIOR_ALT_CASTABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityDamage": "80 150 220 290",
+  "AbilityManaCost": "100 110 120 130",
+  "AbilitySound": "Ability.SandKing_BurrowStrike",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_sand_king_8": "+200",
+      "value": "525 600 675 750"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_sand_king_7": "-3",
+      "value": "14 13 12 11"
+    },
+    "burrow_anim_time": "0.52",
+    "burrow_duration": {
+      "value": "1.2 1.4 1.6 1.8"
+    },
+    "burrow_speed": "2000",
+    "burrow_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    },
+    "is_vector_target": {
+      "special_bonus_facet_sand_king_deeper_underground": "1"
+    },
+    "mound_duration": {
+      "special_bonus_facet_sand_king_deeper_underground": "=0"
+    },
+    "underground_distance_pct": {
+      "special_bonus_facet_sand_king_deeper_underground": "60"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "movement_speed": "15"
+  },
+  "ItemCost": "225",
+  "ItemPermanent": "1",
+  "ItemQuality": "component",
+  "ItemShopTags": "armor;laning",
+  "SuggestPregame": "1",
+  "UIDropSound": "Item.DropRingShop",
+  "UIPickupSound": "Item.PickUpRingShop",
+  "WorldDropSound": "Item.DropRingWorld"
+}

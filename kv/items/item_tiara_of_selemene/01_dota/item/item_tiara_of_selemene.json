@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_mana_regen": "6"
+  },
+  "ItemCost": "1700",
+  "ItemQuality": "component",
+  "ItemShopTags": "regen_mana",
+  "SecretShop": "1"
+}

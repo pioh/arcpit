@@ -1,0 +1,234 @@
+{
+  "Ability1": "life_stealer_rage",
+  "Ability10": "special_bonus_all_stats_4",
+  "Ability11": "special_bonus_unique_lifestealer_2",
+  "Ability12": "special_bonus_unique_lifestealer_5",
+  "Ability13": "special_bonus_unique_lifestealer_4",
+  "Ability14": "special_bonus_unique_lifestealer_infest_target_bonus",
+  "Ability15": "special_bonus_unique_lifestealer_6",
+  "Ability16": "special_bonus_unique_lifestealer_3",
+  "Ability17": "special_bonus_unique_lifestealer",
+  "Ability2": "life_stealer_open_wounds",
+  "Ability3": "life_stealer_ghoul_frenzy",
+  "Ability4": "life_stealer_feast",
+  "Ability5": "generic_hidden",
+  "Ability6": "life_stealer_infest",
+  "Ability7": "life_stealer_consume",
+  "AbilityDraftAbilities": {
+    "Ability1": "life_stealer_rage",
+    "Ability2": "life_stealer_open_wounds",
+    "Ability3": "life_stealer_ghoul_frenzy",
+    "Ability4": "life_stealer_infest"
+  },
+  "Adjectives": {
+    "BadTeeth": "1",
+    "Undead": "1"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.390000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "22",
+  "AttackDamageMin": "16",
+  "AttackRange": "150",
+  "AttackRate": "1.7000",
+  "AttributeAgilityGain": "1.900000",
+  "AttributeBaseAgility": "15",
+  "AttributeBaseIntelligence": "15",
+  "AttributeBaseStrength": "23",
+  "AttributeIntelligenceGain": "1.8000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "2.400000",
+  "BanSound": "life_stealer_lifest_anger_05",
+  "Bot": {
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_HARD_CARRY | DOTA_BOT_GANKER",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "2"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "life_stealer_fleshfeast": {
+      "Color": "Gray",
+      "GradientID": "0",
+      "Icon": "full_heart"
+    },
+    "life_stealer_gorestorm": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "area_of_effect"
+    },
+    "life_stealer_maxhp_gain": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "life_stealer_corpse_eater"
+        }
+      },
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "3",
+      "Icon": "armor"
+    },
+    "life_stealer_rage": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "0",
+          "AbilityName": "life_stealer_rage",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "3",
+      "Icon": "lifestealer_rage"
+    },
+    "life_stealer_rage_dispell": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "0",
+          "AbilityName": "life_stealer_unfettered",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Red",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "broken_chain"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_life_stealer.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HeroGlowColor": "209 4 1",
+  "HeroID": "54",
+  "HeroOrderID": "61",
+  "HeroSelectSoundEffect": "Hero_LifeStealer.Pick",
+  "HeroUnlockOrder": "1",
+  "IdleExpression": "scenes/life_stealer/life_stealer_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "4",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "life_stealer_rage"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_3",
+      "SlotText": "life_stealer_open_wounds"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_4",
+      "SlotText": "life_stealer_infest"
+    },
+    "11": {
+      "SlotIndex": "11",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_skeleton_king",
+  "Model": "models/heroes/life_stealer/life_stealer.vmdl",
+  "ModelScale": "0.810000",
+  "MovementSpeed": "315",
+  "MovementTurnRate": "0.900000",
+  "NameAliases": "ls;Naix",
+  "PickSound": "life_stealer_lifest_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_life_stealer/life_stealer_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Durable,Escape,Disabler",
+  "Rolelevels": "2,2,1,1",
+  "SimilarHeroes": "104,28,93",
+  "SoundSet": "Hero_LifeStealer",
+  "SpectatorLoadoutScale": "0.87",
+  "Team": "Bad",
+  "VersusScale": "0.81",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_life_stealer.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_life_stealer",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_life_stealer.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_life_stealer.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_attack2": "2",
+    "attach_jaw": "1"
+  },
+  "workshop_guide_name": "Lifestealer"
+}

@@ -1,0 +1,48 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCooldown": "44 36 28 20",
+  "AbilityManaCost": "65",
+  "AbilitySound": "Ability.static.start",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_shard": "+150",
+      "value": "550"
+    },
+    "attack_speed_factor": {
+      "special_bonus_unique_razor_static_link_aspd": "+1",
+      "value": "0"
+    },
+    "drain_duration": "12 14 16 18",
+    "drain_length": {
+      "value": "10"
+    },
+    "drain_range_buffer": "250",
+    "drain_rate": {
+      "special_bonus_unique_razor": "+5",
+      "value": "5 10 15 20"
+    },
+    "min_pull_range": {
+      "special_bonus_shard": "0",
+      "value": "0"
+    },
+    "move_speed_factor": {
+      "special_bonus_shard": "+1",
+      "value": "0"
+    },
+    "pull_speed": {
+      "special_bonus_shard": "0",
+      "value": "0"
+    },
+    "radius": "200 200 200 200",
+    "speed": "900 900 900 900",
+    "vision_duration": "3.34 3.34 3.34 3.34"
+  },
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

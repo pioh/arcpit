@@ -1,0 +1,49 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastGestureSlot": "ABSOLUTE",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "30",
+  "AbilityManaCost": "100 150 200",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "attack_damage": {
+      "special_bonus_unique_dark_willow_4": "+30",
+      "value": "70 120 170"
+    },
+    "attack_interval": "0.25",
+    "attack_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    },
+    "attack_targets": "1",
+    "damage_reduction_pct": {
+      "value": "0"
+    },
+    "roaming_duration": {
+      "special_bonus_unique_dark_willow_6": "+1.0",
+      "value": "5.5"
+    },
+    "roaming_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "roaming_seconds_per_rotation": "1.5",
+    "target_count": {
+      "special_bonus_unique_dark_willow_bedlam_targets": "+2",
+      "value": "1"
+    },
+    "travel_speed": "1800",
+    "unit_targetable": {
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "LinkedAbility": "dark_willow_terrorize",
+  "MaxLevel": "3",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

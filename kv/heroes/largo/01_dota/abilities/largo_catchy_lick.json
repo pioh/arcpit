@@ -1,0 +1,44 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.2",
+  "AbilityCooldown": "13 11 9 7",
+  "AbilityManaCost": "80 85 90 95",
+  "AbilitySound": "Hero_Largo.CatchyLick.Target.Layer1",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY | DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_largo_4": "+100",
+      "value": "700"
+    },
+    "AbilityCharges": {
+      "special_bonus_unique_largo_8": "=2",
+      "value": "0"
+    },
+    "buff_duration": "10",
+    "damage": {
+      "special_bonus_unique_largo_5": "+140",
+      "value": "85 170 255 340"
+    },
+    "dispel_hp_regen": {
+      "special_bonus_unique_largo_2": "x2.5",
+      "value": "4 6 8 10"
+    },
+    "pull_distance": {
+      "special_bonus_unique_largo_4": "+50",
+      "value": "210 240 270 300"
+    },
+    "pull_distance_ally": {
+      "special_bonus_unique_largo_4": "+50",
+      "value": "375"
+    },
+    "pull_duration": "0.3",
+    "strong_dispel": {
+      "value": "0"
+    }
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

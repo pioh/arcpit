@@ -1,0 +1,36 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.4",
+  "AbilityCooldown": "7.0 6.0 5.0 4.0",
+  "AbilityManaCost": "40 45 50 55",
+  "AbilitySound": "Hero_Tidehunter.AnchorSmash",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "attack_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "50 100 150 200"
+    },
+    "damage_reduction": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_unique_tidehunter_3": "-20",
+      "value": "-25 -30 -35 -40"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "375"
+    },
+    "reduction_duration": "6.0 6.0 6.0 6.0",
+    "smash_on_attack": {
+      "special_bonus_unique_tidehunter_8": "1"
+    },
+    "targets_buildings": {
+      "special_bonus_unique_tidehunter_10": "+1",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

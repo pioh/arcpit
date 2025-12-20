@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "750 900 1050 1200",
+  "AbilityManaCost": "70 80 90 100",
+  "AbilitySound": "Hero_Meepo.Earthbind.Cast",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_meepo_3": "-2.5",
+      "value": "16 14 12 10"
+    },
+    "duration": "2.0",
+    "megameepo_net_offset": {
+      "affected_by_aoe_increase": "1",
+      "value": "160"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "220"
+    },
+    "speed": "1200",
+    "true_strike": {
+      "special_bonus_unique_meepo_4": "1"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

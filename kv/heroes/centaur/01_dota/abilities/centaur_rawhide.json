@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "bonus_hp_total": {
+      "dynamic_value": "true"
+    },
+    "health_per_upgrade": "25",
+    "upgrade_rate": "120.0"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

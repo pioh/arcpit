@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_damage": "10",
+    "bonus_speed": "10"
+  },
+  "IsObsolete": "1",
+  "ItemCost": "875",
+  "ItemQuality": "component",
+  "ItemShopTags": "damage;attack_speed"
+}

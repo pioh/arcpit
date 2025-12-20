@@ -1,0 +1,9 @@
+{
+  "ItemCost": "1275",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_basher;item_sange"
+  },
+  "ItemResult": "item_abyssal_blade",
+  "ItemShopTags": ""
+}

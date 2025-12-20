@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCooldown": "16.0",
+  "AbilityManaCost": "25",
+  "AbilityValues": {
+    "berserk_armor_reduction": "8",
+    "berserk_bonus_attack_speed": "100",
+    "berserk_bonus_movement_speed": "25",
+    "berserk_duration": "6.0",
+    "bonus_damage": "20",
+    "lifesteal_percent": "24"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "1900",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
+  "ItemQuality": "artifact",
+  "ItemShopTags": "unique;hard_to_tag;farming;dps",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestLategame": "1"
+}

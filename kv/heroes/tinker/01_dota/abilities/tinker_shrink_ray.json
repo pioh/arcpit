@@ -1,0 +1,39 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "20",
+  "AbilityManaCost": "50",
+  "AbilityModifierSupportValue": "0.3",
+  "AbilitySound": "Hero_Tinker.Laser",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "duration": {
+      "value": "6"
+    },
+    "health_reduction": {
+      "value": "15"
+    },
+    "max_stacks": {
+      "value": "4"
+    },
+    "radius_explosion": {
+      "affected_by_aoe_increase": "1",
+      "value": "250"
+    },
+    "scale_reduction": {
+      "value": "15"
+    },
+    "slow": {
+      "value": "20"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

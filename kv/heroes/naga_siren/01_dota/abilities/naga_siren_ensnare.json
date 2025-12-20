@@ -1,0 +1,41 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3",
+  "AbilityDraftExtraAbilities": {
+    "naga_siren_reel_in_ad": ""
+  },
+  "AbilityManaCost": "70 80 90 100",
+  "AbilitySound": "Hero_NagaSiren.Ensnare.Cast",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_INVULNERABLE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_scepter": "+50%",
+      "value": "500 525 550 575"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_naga_siren_net_cooldown": "-2",
+      "value": "21 18 15 12"
+    },
+    "can_target_magic_immune": {
+      "special_bonus_scepter": "+1",
+      "value": "0"
+    },
+    "does_break": {
+      "special_bonus_scepter": "+1",
+      "value": "0"
+    },
+    "duration": "2.75 3.5 4.25 5.0",
+    "fake_ensnare_distance": "900 900 900 900",
+    "net_speed": {
+      "special_bonus_scepter": "+60%",
+      "value": "1500"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,7 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "health_restoration_reduction": "30"
+  },
+  "MaxLevel": "1"
+}

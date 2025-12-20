@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastRange": "1200",
+  "AbilityValues": {
+    "armor": "1",
+    "armor_aura": "2.0",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "damage_aura": "18",
+    "damage_self": "0",
+    "lifesteal_aura": "20",
+    "lifesteal_creeps_tooltip": {
+      "value": "12"
+    },
+    "lifesteal_self": "0",
+    "mana_regen": "0.75",
+    "mana_regen_aura": "1"
+  },
+  "ItemCost": "2200",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_ALWAYS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "damage;armor;regen_mana;teamfight",
+  "SuggestLategame": "1"
+}

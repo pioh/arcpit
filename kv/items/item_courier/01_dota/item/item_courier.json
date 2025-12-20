@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "50",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES",
+  "ItemKillable": "0",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable",
+  "ItemSellable": "0",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "consumable",
+  "ItemStockMax": "1",
+  "ItemStockTime": "36000.0",
+  "ItemSupport": "1"
+}

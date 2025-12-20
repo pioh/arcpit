@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.5 0.5 0.5",
+  "AbilityCastRange": "0",
+  "AbilityManaCost": "125",
+  "AbilitySound": "Ability.MoonlightShadow",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_mirana_4": "-30",
+      "value": "120 110 100"
+    },
+    "ally_pct": "50",
+    "day_vision_multiplier": "0",
+    "duration": "16",
+    "evasion": {
+      "special_bonus_unique_mirana_5": "+20",
+      "value": "0"
+    },
+    "increase_rate": "10 15 20",
+    "max_damage_time": "6",
+    "max_total_increase": "70 110 150",
+    "smoothness": "0.015"
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

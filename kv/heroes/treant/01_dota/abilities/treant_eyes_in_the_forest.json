@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "350",
+  "AbilityChargeRestoreTime": "55.0",
+  "AbilityCharges": "3",
+  "AbilityManaCost": "30",
+  "AbilitySound": "Hero_Treant.Eyes.Cast",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE",
+  "AbilityValues": {
+    "duration": "300",
+    "hits_to_kill": "2",
+    "max_eyes": "0",
+    "vision_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "800"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1"
+}

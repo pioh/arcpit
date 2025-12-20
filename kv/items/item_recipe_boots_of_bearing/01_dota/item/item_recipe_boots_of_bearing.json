@@ -1,0 +1,10 @@
+{
+  "ItemCost": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_tranquil_boots;item_ancient_janggo;item_ring_of_tarrasque"
+  },
+  "ItemResult": "item_boots_of_bearing",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

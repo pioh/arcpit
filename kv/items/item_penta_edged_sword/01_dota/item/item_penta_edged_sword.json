@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "damage": "45",
+    "maim_chance": "25",
+    "maim_duration": "3",
+    "maim_slow_attack": "60",
+    "maim_slow_movement": "20",
+    "melee_attack_range": "100"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

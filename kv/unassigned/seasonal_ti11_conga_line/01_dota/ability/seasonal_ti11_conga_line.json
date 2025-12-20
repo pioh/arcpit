@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_ITEM",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "0",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/seasonal_ti11_conga_line",
+  "AbilityValues": {
+    "catch_up_distance": "200",
+    "dance_interval": "2.6",
+    "gesture_duration": "1.0",
+    "max_duration": "60",
+    "slow_amount": "20",
+    "slow_duration": "1.0"
+  },
+  "AssociatedConsumable": "23572",
+  "MaxLevel": "1"
+}

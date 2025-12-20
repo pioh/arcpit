@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "bonus_building_damage": {
+      "special_bonus_unique_lone_druid_spirit_bear_demolish": "+20",
+      "value": "30"
+    },
+    "bonus_damage_against_entangled": {
+      "special_bonus_unique_lone_druid_spirit_bear_damage_against_entangled": "15"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

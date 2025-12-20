@@ -1,0 +1,10 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_all_stats": "2"
+  },
+  "ItemCost": "155",
+  "ItemQuality": "component",
+  "ItemShopTags": "agi;int;str",
+  "SuggestPregame": "1"
+}

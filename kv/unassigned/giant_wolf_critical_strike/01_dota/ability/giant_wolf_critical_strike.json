@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "crit_chance": {
+      "value": "20"
+    },
+    "crit_mult": {
+      "value": "200"
+    }
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

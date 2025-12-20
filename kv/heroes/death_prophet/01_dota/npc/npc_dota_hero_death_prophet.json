@@ -1,0 +1,291 @@
+{
+  "Ability1": "death_prophet_carrion_swarm",
+  "Ability10": "special_bonus_attack_speed_30",
+  "Ability11": "special_bonus_magic_resistance_12",
+  "Ability12": "special_bonus_unique_death_prophet_silence_aoe",
+  "Ability13": "special_bonus_unique_death_prophet_2",
+  "Ability14": "special_bonus_hp_400",
+  "Ability15": "special_bonus_unique_death_prophet_3",
+  "Ability16": "special_bonus_unique_death_prophet_5",
+  "Ability17": "special_bonus_unique_death_prophet",
+  "Ability2": "death_prophet_silence",
+  "Ability3": "death_prophet_spirit_siphon",
+  "Ability4": "death_prophet_witchcraft",
+  "Ability5": "generic_hidden",
+  "Ability6": "death_prophet_exorcism",
+  "AbilityDraftAbilities": {
+    "Ability1": "death_prophet_carrion_swarm",
+    "Ability2": "death_prophet_silence",
+    "Ability3": "death_prophet_spirit_siphon",
+    "Ability4": "death_prophet_exorcism"
+  },
+  "Adjectives": {
+    "Arachnophobic": "1",
+    "Female": "1",
+    "Flying": "1",
+    "Undead": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.5",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "32",
+  "AttackDamageMin": "22",
+  "AttackRange": "600",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "2.0",
+  "AttributeBaseAgility": "17",
+  "AttributeBaseIntelligence": "24",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "3.000000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+  "AttributeStrengthGain": "2.900000",
+  "BanSound": "death_prophet_dpro_anger_01",
+  "BaseAttackSpeed": "100",
+  "Bot": {
+    "Build": {
+      "1": "death_prophet_spirit_siphon",
+      "2": "death_prophet_carrion_swarm",
+      "3": "death_prophet_spirit_siphon",
+      "4": "death_prophet_carrion_swarm",
+      "5": "death_prophet_spirit_siphon",
+      "6": "death_prophet_exorcism",
+      "7": "death_prophet_spirit_siphon",
+      "8": "death_prophet_carrion_swarm",
+      "9": "death_prophet_carrion_swarm",
+      "10": "special_bonus_magic_resistance_12",
+      "11": "death_prophet_silence",
+      "12": "death_prophet_exorcism",
+      "13": "death_prophet_silence",
+      "14": "death_prophet_silence",
+      "15": "special_bonus_unique_death_prophet_silence_aoe",
+      "16": "death_prophet_silence",
+      "17": "",
+      "18": "death_prophet_exorcism",
+      "19": "",
+      "20": "special_bonus_hp_400",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_death_prophet"
+    },
+    "HeroType": "DOTA_BOT_PUSH_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "0",
+      "SoloDesire": "2",
+      "SurvivalRating": "0"
+    },
+    "Loadout": {
+      "item_black_king_bar": "ITEM_DERIVED",
+      "item_blades_of_attack": "ITEM_EXTENSION",
+      "item_boots": "ITEM_CORE",
+      "item_chainmail": "ITEM_EXTENSION",
+      "item_circlet": "ITEM_CORE",
+      "item_crown": "ITEM_EXTENSION",
+      "item_cyclone": "ITEM_DERIVED",
+      "item_helm_of_iron_will": "ITEM_EXTENSION",
+      "item_mantle": "ITEM_CORE",
+      "item_mithril_hammer": "ITEM_EXTENSION",
+      "item_null_talisman": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_ogre_axe": "ITEM_EXTENSION",
+      "item_phase_boots": "ITEM_DERIVED",
+      "item_platemail": "ITEM_LUXURY",
+      "item_recipe_black_king_bar": "ITEM_EXTENSION",
+      "item_recipe_cyclone": "ITEM_EXTENSION",
+      "item_recipe_null_talisman": "ITEM_CORE",
+      "item_recipe_shivas_guard": "ITEM_LUXURY",
+      "item_recipe_veil_of_discord": "ITEM_EXTENSION",
+      "item_shivas_guard": "ITEM_DERIVED",
+      "item_staff_of_wizardry": "ITEM_EXTENSION",
+      "item_veil_of_discord": "ITEM_DERIVED",
+      "item_void_stone": "ITEM_EXTENSION",
+      "item_wind_lace": "ITEM_EXTENSION"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "death_prophet_delayed_damage": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "death_prophet_mourning_ritual",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Red",
+      "GradientID": "1",
+      "Icon": "healing"
+    },
+    "death_prophet_ghosts": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "death_prophet_spirit_collector"
+        }
+      },
+      "Color": "Green",
+      "GradientID": "1",
+      "Icon": "spirit"
+    },
+    "death_prophet_suppress": {
+      "Color": "Purple",
+      "Deprecated": "true",
+      "GradientID": "2",
+      "Icon": "slow"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_death_prophet.vsndevts",
+  "GibTintColor": "148 206 100 255",
+  "GibType": "ethereal",
+  "HeroGlowColor": "15 241 28",
+  "HeroID": "43",
+  "HeroOrderID": "62",
+  "HeroSelectSoundEffect": "Hero_DeathProphet.Pick",
+  "HeroUnlockOrder": "1",
+  "IdleSoundLoop": "Hero_DeathProphet.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "0",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "legs",
+      "SlotText": "#LoadoutSlot_Legs",
+      "TextureHeight": "512",
+      "TextureWidth": "512",
+      "no_import": "1"
+    },
+    "2": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "2",
+      "SlotName": "body_head",
+      "SlotText": "#LoadoutSlot_Head"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "400",
+      "SlotIndex": "5",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_misc",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "6": {
+      "GeneratesUnits": {
+        "0": "dota_death_prophet_exorcism_spirit"
+      },
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "6",
+      "SlotName": "ability_ultimate",
+      "SlotText": "#LoadoutSlot_Death_Spirits",
+      "TextureHeight": "256",
+      "TextureWidth": "256",
+      "no_import": "1"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_1",
+      "SlotText": "death_prophet_carrion_swarm"
+    },
+    "11": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "11",
+      "SlotName": "ability_effects_2",
+      "SlotText": "death_prophet_silence"
+    },
+    "12": {
+      "SlotIndex": "12",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_dazzle",
+  "Model": "models/heroes/death_prophet/death_prophet.vmdl",
+  "ModelScale": "0.930000",
+  "MovementSpeed": "290",
+  "MovementTurnRate": "0.800000",
+  "NameAliases": "dp;Krobelus",
+  "PickSound": "death_prophet_dpro_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_death_prophet/death_prophet_base_attack.vpcf",
+  "ProjectileSpeed": "1000",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_death_prophet/death_prophet_spawn.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Pusher,Nuker,Disabler",
+  "Rolelevels": "1,3,1,1",
+  "SimilarHeroes": "36,15,45",
+  "SoundSet": "Hero_DeathProphet",
+  "StatusManaRegen": "0.5",
+  "Team": "Bad",
+  "VersusScale": "0.93",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_death_prophet.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_death_prophet",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_death_prophet.vpcf"
+  },
+  "precache": {
+    "model": "models/heroes/death_prophet/death_prophet_ghost.vmdl",
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_death_prophet.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_hand_L": "3",
+    "attach_hand_R": "2",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Death Prophet"
+}

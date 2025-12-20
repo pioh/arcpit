@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.2 0.2 0.2 0.2",
+  "AbilityCastRange": "550 600 650 700",
+  "AbilityCooldown": "16.0 13.0 10.0 7.0",
+  "AbilityManaCost": "80",
+  "AbilitySound": "Hero_Pugna.Decrepify",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "AbilityDuration": {
+      "special_bonus_unique_pugna_5": "+1.5",
+      "value": "3.5"
+    },
+    "bonus_heal_amp_pct_allies": "10 15 20 25",
+    "bonus_movement_speed": "-45 -50 -55 -60",
+    "bonus_movement_speed_allies": {
+      "special_bonus_unique_pugna_decrepify_ally_movespeed": "+30",
+      "value": "0"
+    },
+    "bonus_spell_damage_pct": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "value": "-20 -30 -40 -50"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

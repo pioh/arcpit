@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "15.0",
+  "AbilitySharedCooldown": "magicwand",
+  "AbilityValues": {
+    "bonus_all_stats": "3",
+    "charge_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "max_charges": "20",
+    "restore_per_charge": "15"
+  },
+  "ItemCost": "460",
+  "ItemDisplayCharges": "1",
+  "ItemQuality": "common",
+  "ItemRequiresCharges": "1",
+  "ItemShopTags": "regen_health;regen_mana;boost_health;boost_mana;int;agi;str;laning;regen_mana",
+  "Model": "models/props_gameplay/magic_wand.vmdl",
+  "SuggestEarlygame": "1"
+}

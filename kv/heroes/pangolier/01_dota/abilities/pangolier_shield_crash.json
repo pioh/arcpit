@@ -1,0 +1,56 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityCastRange": "0",
+  "AbilityManaCost": "75",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_pangolier_shield_crash_cooldown": "-1.5",
+      "value": "16 13 10 7"
+    },
+    "base_shield": "0",
+    "can_double_jump": {
+      "special_bonus_facet_pangolier_double_jump": "=1",
+      "value": "0"
+    },
+    "damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "50 100 150 200"
+    },
+    "duration": "6",
+    "hero_shield": {
+      "special_bonus_unique_pangolier_shield_crash_herostacks": "+125",
+      "value": "60 120 180 240"
+    },
+    "jump_duration": "0.4",
+    "jump_duration_gyroshell": "0.75",
+    "jump_height": "250",
+    "jump_height_gyroshell": "350",
+    "jump_horizontal_distance": "225",
+    "max_barrier_increase_pct_tooltip": {
+      "value": "0"
+    },
+    "max_damage_increase_pct": {
+      "special_bonus_facet_pangolier_double_jump": "=40",
+      "value": "0"
+    },
+    "min_barrier_increase_pct_tooltip": {
+      "special_bonus_facet_pangolier_double_jump": "=30"
+    },
+    "min_damage_increase_pct": {
+      "special_bonus_facet_pangolier_double_jump": "=30",
+      "value": "0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "scepter_damage_outgoing_tooltip": "75"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

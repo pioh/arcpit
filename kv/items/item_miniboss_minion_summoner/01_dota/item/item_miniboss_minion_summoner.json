@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastRange": "700",
+  "AbilityCooldown": "40.0",
+  "AbilityDuration": "20",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BUILDING",
+  "AbilityValues": {
+    "aura_radius": "900",
+    "damage_cooldown": "1.5",
+    "damage_reflection_pct": "40",
+    "decay_to_zero_seconds": "1",
+    "disappear_time": "120",
+    "duration": "20",
+    "max_barrier_pct_max_health": "40",
+    "owner_max_barrier_pct_max_health": "25",
+    "protector_duration": "240",
+    "regeneration_to_max_seconds": "2.0"
+  },
+  "IsTempestDoubleClonable": "0",
+  "ItemDroppable": "1",
+  "ItemInitialCharges": "4",
+  "ItemKillable": "1",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "0",
+  "ItemQuality": "artifact",
+  "ItemSellable": "0",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

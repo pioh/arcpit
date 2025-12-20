@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.75",
+  "AbilityValues": {
+    "mana_as_ms": {
+      "special_bonus_unique_outworld_devourer_3": "=0.8"
+    },
+    "mana_increase": {
+      "special_bonus_facet_obsidian_destroyer_obsidian_decimator": "5",
+      "value": "0"
+    },
+    "mana_increase_duration": {
+      "special_bonus_facet_obsidian_destroyer_obsidian_decimator": "10",
+      "value": "0"
+    },
+    "mana_restore": "25 35 45 55",
+    "proc_chance": "30",
+    "scepter_barrier_cooldown": "80",
+    "scepter_barrier_duration": "15",
+    "scepter_barrier_threshold": "20",
+    "scepter_max_mana_barrier_pct": "65"
+  },
+  "HasScepterUpgrade": "1",
+  "IsBreakable": "1"
+}

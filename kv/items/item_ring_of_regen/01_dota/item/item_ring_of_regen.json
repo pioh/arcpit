@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_health_regen": "1.25"
+  },
+  "ItemCost": "175",
+  "ItemQuality": "component",
+  "ItemShopTags": "regen_health",
+  "SuggestPregame": "1",
+  "UIDropSound": "Item.DropRingShop",
+  "UIPickupSound": "Item.PickUpRingShop",
+  "WorldDropSound": "Item.DropRingWorld"
+}

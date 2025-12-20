@@ -21,5 +21,9 @@ export const GAME_CONSTANTS = {
     DEFAULT_ACQUISITION_RANGE: 800,
     BOT_SEARCH_RADIUS: 2500,
     COMBAT_SEARCH_RADIUS: 8000,
+
+    // Если true — чистим дефолтные способности у героя кодом.
+    // Если false — ожидаем, что дефолтные Ability* уже очищены через npc_heroes_custom (генерация KV).
+    CLEAR_DEFAULT_ABILITIES_IN_CODE: false,
 } as const;
 

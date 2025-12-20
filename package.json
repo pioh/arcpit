@@ -3,6 +3,9 @@
     "private": true,
     "scripts": {
         "postinstall": "bun scripts/install.js",
+        "generate": "bun scripts/generate.js",
+        "refresh:dota-kv": "bun scripts/refresh-dota-kv.js",
+        "typecheck": "tsc -p src/vscripts/tsconfig.json --noEmit && tsc -p src/panorama/tsconfig.json --noEmit && tsc -p kv/tsconfig.json --noEmit",
         "launch": "bun scripts/launch.js",
         "play": "bun scripts/play.js",
         "hammer": "bun scripts/hammer.js",
@@ -12,13 +15,17 @@
         "build:vscripts": "tstl --project src/vscripts/tsconfig.json",
         "dev": "bun scripts/dev.js",
         "dev:panorama": "tsc --project src/panorama/tsconfig.json --watch",
-        "dev:vscripts": "tstl --project src/vscripts/tsconfig.json --watch"
+        "dev:vscripts": "tstl --project src/vscripts/tsconfig.json --watch",
+        "dump:dota": "bun scripts/dota/dump.js",
+        "build:dota-custom": "bun scripts/dota/build-custom.js",
+        "gen:dota-pools": "bun scripts/dota/generate-pools.js"
     },
     "devDependencies": {
         "@moddota/dota-lua-types": "^4.37.0",
         "@moddota/find-steam-app": "^1.1.0",
         "@moddota/panorama-types": "^1.38.1",
         "typescript": "5.5.2",
-        "typescript-to-lua": "^1.33.0"
+        "typescript-to-lua": "^1.33.0",
+        "vpk": "^0.2.0"
     }
 }

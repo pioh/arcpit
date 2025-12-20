@@ -1,0 +1,10 @@
+{
+  "ItemCost": "550",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_maelstrom*;item_hyperstone"
+  },
+  "ItemResult": "item_mjollnir",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

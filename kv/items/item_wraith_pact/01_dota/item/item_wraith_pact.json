@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastPoint": "0.2 0.2 0.2 0.2",
+  "AbilityCastRange": "350",
+  "AbilityCooldown": "60",
+  "AbilityDuration": "25",
+  "AbilityManaCost": "100",
+  "AbilitySound": "Hero_Pugna.NetherWard",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "armor_aura": "3.0",
+    "aura_dps": "45",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "bonus_health": "250",
+    "bonus_mana": "250",
+    "creep_lifesteal_reduction_pct": "50",
+    "damage_aura": "18",
+    "damage_penalty_aura": "30",
+    "lifesteal_aura": "24",
+    "mana_regen_aura": "2.0",
+    "pact_aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    }
+  },
+  "FightRecapLevel": "1",
+  "IsObsolete": "1",
+  "ItemCost": "3800",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemPurchasable": "0",
+  "ItemQuality": "rare",
+  "ItemShopTags": "damage;armor;regen_mana",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+  "SuggestLategame": "1"
+}

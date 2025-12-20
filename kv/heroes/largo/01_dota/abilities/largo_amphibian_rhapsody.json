@@ -1,0 +1,51 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_INVISIBLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "2",
+  "AbilityDraftExtraAbilities": {
+    "largo_song_double_time": "hidden",
+    "largo_song_fight_song": "hidden",
+    "largo_song_good_vibrations": "hidden"
+  },
+  "AbilityManaCost": "0",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "armor_ally_pct": {
+      "special_bonus_unique_largo_6": "=50",
+      "value": "0"
+    },
+    "armor_per_stack": "2 3 4",
+    "burst_damage": {
+      "special_bonus_scepter": "+50",
+      "special_bonus_unique_largo_7": "+17.5",
+      "value": "0"
+    },
+    "damage_per_stack": {
+      "special_bonus_scepter": "+10 +15 +20",
+      "special_bonus_unique_largo_7": "+7",
+      "value": "0"
+    },
+    "double_song": {
+      "special_bonus_scepter": "=1",
+      "value": "0"
+    },
+    "max_stacks": {
+      "value": "5"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "750"
+    },
+    "rhythm_grace_period": "0.4",
+    "rhythm_interval": "1",
+    "song_cost_reduction_per_stack_tooltip": "1 1.5 2",
+    "stack_decrement_on_exit": "0",
+    "stack_duration": {
+      "value": "5"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "MaxLevel": "3",
+  "SubAbilityNames": "largo_song_fight_song;largo_song_double_time;largo_song_good_vibrations"
+}

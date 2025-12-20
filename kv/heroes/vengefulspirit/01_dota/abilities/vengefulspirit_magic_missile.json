@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityManaCost": "90 95 100 105",
+  "AbilitySound": "Hero_VengefulSpirit.MagicMissile",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_vengeful_spirit_missile_castrange": "+100",
+      "value": "650"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_vengeful_spirit_5": "-2",
+      "value": "14 13 12 11"
+    },
+    "bounce_range_pct": "75",
+    "damage_per_lasthit": {
+      "special_bonus_facet_vengefulspirit_avenging_missile": "+0.75",
+      "value": "0"
+    },
+    "magic_missile_damage": {
+      "value": "85 170 255 340"
+    },
+    "magic_missile_speed": "1350",
+    "magic_missile_stun": {
+      "special_bonus_unique_vengeful_spirit_1": "+0.3",
+      "value": "1.2 1.4 1.6 1.8"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

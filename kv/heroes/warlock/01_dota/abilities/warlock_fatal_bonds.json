@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES",
+  "AbilityCastAnimation": "ACT_DOTA_FATAL_BONDS",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "1000",
+  "AbilityCooldown": "42 34 26 18",
+  "AbilityDamage": "0 0 0 0",
+  "AbilityManaCost": "120 130 140 150",
+  "AbilityModifierSupportValue": "0.0",
+  "AbilitySound": "Hero_Warlock.FatalBonds",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "count": {
+      "special_bonus_unique_warlock_fatal_bonds_count": "+3",
+      "value": "6"
+    },
+    "damage_share_percentage": {
+      "special_bonus_unique_warlock_5": "+4",
+      "value": "15 18 21 24"
+    },
+    "duration": "18",
+    "search_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "700"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,41 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "675",
+  "AbilityDuration": "2.75",
+  "AbilityManaCost": "120",
+  "AbilitySound": "Hero_ShadowDemon.Disruption",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO | DOTA_UNIT_TARGET_FLAG_NOT_MAGIC_IMMUNE_ALLIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY | DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityChargeRestoreTime": "26 24 22 20",
+    "AbilityCharges": {
+      "special_bonus_unique_shadow_demon_7": "+2",
+      "value": ""
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_shadow_demon_7": "=0.25",
+      "value": "26 24 22 20"
+    },
+    "disruption_duration": {
+      "value": "2.75"
+    },
+    "illusion_bounty_base": "0",
+    "illusion_bounty_growth": "2",
+    "illusion_duration": "11 12 13 14",
+    "illusion_flat_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "value": "20 35 50 65"
+    },
+    "illusion_incoming_damage": "200",
+    "illusion_outgoing_damage": "-80.0 -70.0 -60.0 -50.0",
+    "illusion_outgoing_tooltip": "20.0 30.0 40.0 50.0",
+    "tooltip_total_illusion_incoming_damage": "300"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

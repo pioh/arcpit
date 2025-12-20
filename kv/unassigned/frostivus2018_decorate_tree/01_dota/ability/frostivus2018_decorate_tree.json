@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_ITEM",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "400",
+  "AbilityCooldown": "30",
+  "AbilityDamage": "50",
+  "AbilitySharedCooldown": "frostivus2018_consumable",
+  "AbilityTextureName": "consumables/frostivus2018_decorate_tree",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE",
+  "AbilityValues": {
+    "duration": {
+      "value": "20"
+    },
+    "num_explosions": {
+      "value": "200"
+    },
+    "radius": {
+      "value": "500"
+    }
+  },
+  "AssociatedConsumable": "17471",
+  "MaxLevel": "1"
+}

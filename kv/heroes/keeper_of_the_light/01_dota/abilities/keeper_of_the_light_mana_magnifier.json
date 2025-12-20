@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityValues": {
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    },
+    "bonus_mana_pct": "15"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

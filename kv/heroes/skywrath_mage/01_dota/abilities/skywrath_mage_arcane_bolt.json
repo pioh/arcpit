@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.1 0.1 0.1 0.1",
+  "AbilityCooldown": "5.0 4.0 3.0 2.0",
+  "AbilityManaCost": "70",
+  "AbilitySound": "Hero_SkywrathMage.ArcaneBolt.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_skywrath_6": "+125",
+      "value": "875"
+    },
+    "bolt_damage": "60 90 120 150",
+    "bolt_speed": "500",
+    "bolt_vision": "325",
+    "extra_bolt_search_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "int_multiplier": {
+      "CalculateSpellDamageTooltip": "1",
+      "special_bonus_unique_skywrath_2": "+1.5",
+      "value": "1.5"
+    },
+    "pierce_spell_immunity": {
+      "special_bonus_unique_skywrath_6": "1"
+    },
+    "total_bolt_count": {
+      "special_bonus_shard": "+2",
+      "value": "1"
+    },
+    "vision_duration": "3.34"
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

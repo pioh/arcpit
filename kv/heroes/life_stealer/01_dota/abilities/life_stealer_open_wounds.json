@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "300 400 500 600",
+  "AbilityCooldown": "30 25 20 15",
+  "AbilityManaCost": "100",
+  "AbilitySound": "Hero_LifeStealer.OpenWounds.Cast",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "duration": "7",
+    "heal_percent": {
+      "special_bonus_unique_lifestealer_6": "+25",
+      "value": "20 30 40 50"
+    },
+    "max_health_as_damage_pct": "0",
+    "reset_cooldown_on_kill": {
+      "special_bonus_facet_life_stealer_fleshfeast": "+1",
+      "value": "0"
+    },
+    "slow_step_pct_of_max": "70 80 90 100",
+    "slow_steps": {
+      "special_bonus_unique_lifestealer_4": "-15",
+      "value": "-50 -50 -40 -30 -20 -10 -10 -10"
+    },
+    "slow_tooltip": {
+      "special_bonus_unique_lifestealer_4": "+15",
+      "value": "35 40 45 50"
+    },
+    "spread_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "700"
+    }
+  },
+  "FightRecapLevel": "1",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

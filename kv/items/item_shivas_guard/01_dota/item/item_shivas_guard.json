@@ -1,0 +1,36 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCooldown": "27",
+  "AbilityManaCost": "75",
+  "AbilityValues": {
+    "aura_attack_speed": "-45",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "blast_damage": "200",
+    "blast_debuff_duration": "4.0",
+    "blast_movement_speed": "-40",
+    "blast_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    },
+    "blast_speed": "400",
+    "bonus_agility": "5",
+    "bonus_armor": "15",
+    "bonus_hp_regen": "5",
+    "bonus_intellect": "5",
+    "bonus_strength": "5",
+    "illusion_multiplier_pct": "100",
+    "resist_debuff_duration": "16.0",
+    "restoration_reduction_aura": "25",
+    "spell_amp": "15"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "5175",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "int;armor;hard_to_tag;teamfight;tank;magic_dmg",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestLategame": "1"
+}

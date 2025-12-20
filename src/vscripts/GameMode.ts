@@ -20,6 +20,7 @@ import { AiTakeoverController } from "./bots/ai-takeover-controller";
 import { LightingManager } from "./map/lighting-manager";
 import { HeroDraftManager } from "./heroes/hero-draft-manager";
 import { AbilityDraftManager } from "./abilities/ability-draft-manager";
+import "./kv_generated/autoload";
 
 declare global {
     interface CDOTAGameRules {
@@ -234,14 +235,16 @@ export class GameMode {
             print("[arcpit] GAME_IN_PROGRESS: starting scenario + initial ability offers");
             Timers.CreateTimer(0.25, () => {
                 this.startGame();
-                // Герои могли заспавниться раньше (до GAME_IN_PROGRESS), поэтому чистим дефолтные способности принудительно.
-                for (const pid of this.playerManager.getAllValidPlayerIDs()) {
-                    if (this.clearedDefaultAbilities.get(pid)) continue;
-                    const hero = this.playerManager.getPlayerHero(pid) ?? PlayerResource.GetSelectedHeroEntity(pid);
-                    if (!hero || !IsValidEntity(hero)) continue;
-                    this.clearedDefaultAbilities.set(pid, true);
-                    this.clearAllHeroAbilities(hero);
-                    try { print(`[arcpit][Abilities] cleared default abilities on GAME_IN_PROGRESS pid=${pid} hero=${hero.GetUnitName()}`); } catch (e) {}
+                if (GAME_CONSTANTS.CLEAR_DEFAULT_ABILITIES_IN_CODE) {
+                    // Герои могли заспавниться раньше (до GAME_IN_PROGRESS), поэтому чистим дефолтные способности принудительно.
+                    for (const pid of this.playerManager.getAllValidPlayerIDs()) {
+                        if (this.clearedDefaultAbilities.get(pid)) continue;
+                        const hero = this.playerManager.getPlayerHero(pid) ?? PlayerResource.GetSelectedHeroEntity(pid);
+                        if (!hero || !IsValidEntity(hero)) continue;
+                        this.clearedDefaultAbilities.set(pid, true);
+                        this.clearAllHeroAbilities(hero);
+                        try { print(`[arcpit][Abilities] cleared default abilities on GAME_IN_PROGRESS pid=${pid} hero=${hero.GetUnitName()}`); } catch (e) {}
+                    }
                 }
                 // Первые 2 способности на 1 уровне должны быть доступны сразу
                 for (const pid of this.playerManager.getAllValidPlayerIDs()) {
@@ -369,7 +372,7 @@ export class GameMode {
             // но только один раз на PlayerID.
             if (pid !== undefined && PlayerResource.IsValidPlayerID(pid)) {
                 const state = GameRules.State_Get();
-                if (state >= GameState.GAME_IN_PROGRESS && !this.clearedDefaultAbilities.get(pid)) {
+                if (GAME_CONSTANTS.CLEAR_DEFAULT_ABILITIES_IN_CODE && state >= GameState.GAME_IN_PROGRESS && !this.clearedDefaultAbilities.get(pid)) {
                     this.clearedDefaultAbilities.set(pid, true);
                     this.clearAllHeroAbilities(hero);
                     try { print(`[arcpit][Abilities] cleared default abilities for pid=${pid} hero=${hero.GetUnitName()}`); } catch (e) {}

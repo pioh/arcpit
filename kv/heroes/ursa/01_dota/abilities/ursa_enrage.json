@@ -1,0 +1,39 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_4",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastRange": "0",
+  "AbilityManaCost": "0 0 0",
+  "AbilitySound": "Hero_Ursa.Enrage",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_scepter": "=30 =24 =18",
+      "value": "60 45 30"
+    },
+    "aoe_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "0"
+    },
+    "damage_increase": {
+      "special_bonus_facet_ursa_grudge_bearer": "=5",
+      "value": "0"
+    },
+    "damage_increase_duration": {
+      "special_bonus_facet_ursa_grudge_bearer": "=5",
+      "value": "0"
+    },
+    "damage_reduction": "80",
+    "duration": {
+      "value": "4 4.5 5"
+    },
+    "status_resistance": {
+      "special_bonus_unique_ursa_8": "+25",
+      "value": "50"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

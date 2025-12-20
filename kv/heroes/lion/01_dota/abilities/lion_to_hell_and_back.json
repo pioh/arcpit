@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityValues": {
+    "debuff_amp": {
+      "special_bonus_unique_lion_11": "+15",
+      "value": "20"
+    },
+    "duration": "90",
+    "spell_amp": {
+      "special_bonus_unique_lion_11": "+15",
+      "value": "20"
+    }
+  },
+  "Innate": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

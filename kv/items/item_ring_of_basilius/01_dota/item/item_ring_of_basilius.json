@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastRange": "1200",
+  "AbilityValues": {
+    "aura_mana_regen": "1.0",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "mana_regen": "0.25"
+  },
+  "ItemCost": "425",
+  "ItemQuality": "rare",
+  "ItemShopTags": "regen_mana",
+  "SuggestEarlygame": "1",
+  "UIDropSound": "Item.DropRingShop",
+  "UIPickupSound": "Item.PickUpRingShop",
+  "WorldDropSound": "Item.DropRingWorld"
+}

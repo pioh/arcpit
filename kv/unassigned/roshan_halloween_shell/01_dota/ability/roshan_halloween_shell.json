@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "45.0",
+  "AbilityValues": {
+    "bonus_spell_damage_pct": {
+      "value": "-60"
+    },
+    "duration": {
+      "value": "5"
+    }
+  },
+  "MaxLevel": "1"
+}

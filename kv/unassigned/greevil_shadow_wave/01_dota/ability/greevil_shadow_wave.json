@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "10",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bounce_radius": {
+      "value": "475"
+    },
+    "customval_damage": {
+      "value": "28 33 38"
+    },
+    "damage_radius": {
+      "value": "185"
+    },
+    "max_targets": {
+      "value": "4"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.3 0.3 0.3",
+  "AbilityCastRange": "410 410 410",
+  "AbilityDraftExtraAbilities": {
+    "magnataur_horn_toss": "scepter"
+  },
+  "AbilityManaCost": "150 225 300",
+  "AbilityModifierSupportValue": "0.5",
+  "AbilitySound": "Hero_Magnataur.ReversePolarity.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_facet_magnataur_reverse_reverse_polarity": "=100",
+      "value": "115"
+    },
+    "hero_stun_duration": {
+      "special_bonus_unique_magnus_5": "+0.8",
+      "value": "2.5 3.0 3.5"
+    },
+    "knockback_height": {
+      "special_bonus_facet_magnataur_reverse_reverse_polarity": "+100",
+      "value": "0"
+    },
+    "max_knockback_distance": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_magnataur_reverse_reverse_polarity": "+850",
+      "value": "0"
+    },
+    "polarity_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "100 200 300"
+    },
+    "pull_duration": {
+      "special_bonus_facet_magnataur_reverse_reverse_polarity": "+0.2",
+      "value": "0.0"
+    },
+    "pull_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_magnataur_reverse_reverse_polarity": "-100%",
+      "value": "430"
+    },
+    "push_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_magnataur_reverse_reverse_polarity": "+700",
+      "value": "0"
+    },
+    "stat_buff_duration": {
+      "special_bonus_unique_magnus_reverse_polarity_stats": "+20",
+      "value": "0"
+    },
+    "stats_per_stack": {
+      "special_bonus_unique_magnus_reverse_polarity_stats": "+12",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastRange": "200",
+  "AbilityValues": {
+    "seconds": "60"
+  },
+  "IsTempestDoubleClonable": "0",
+  "ItemInitialCharges": "1",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable",
+  "ItemSellable": "0",
+  "ItemShopTags": "consumable;laning",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

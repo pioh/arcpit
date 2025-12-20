@@ -1,0 +1,59 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.2",
+  "AbilityCooldown": "18 16 14 12",
+  "AbilityManaCost": "100 110 120 130",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "burn_damage": "20 30 40 50",
+    "burn_interval": "0.5",
+    "fire_trail_health_regen": {
+      "special_bonus_facet_dawnbreaker_hearthfire": "=10 =15 =20 =25",
+      "value": "0"
+    },
+    "flare_debuff_duration": {
+      "value": "2.5 3 3.5 4"
+    },
+    "flare_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "hammer_aoe_radius": "200",
+    "hammer_damage": "50 80 110 140",
+    "hammer_solar_guardian_effectiveness_pct": {
+      "special_bonus_unique_dawnbreaker_gleaming_hammer": "=40",
+      "value": "0"
+    },
+    "hammer_solar_guardian_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_dawnbreaker_gleaming_hammer": "+200",
+      "value": "0"
+    },
+    "move_slow": {
+      "special_bonus_unique_dawnbreaker_celestial_hammer_slow": "+15",
+      "value": "24 28 32 36"
+    },
+    "pause_duration": {
+      "special_bonus_unique_dawnbreaker_gleaming_hammer": "+2",
+      "value": "2"
+    },
+    "projectile_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "projectile_speed": {
+      "special_bonus_unique_dawnbreaker_celestial_hammer_cast_range": "+80%",
+      "value": "1600"
+    },
+    "range": {
+      "special_bonus_unique_dawnbreaker_celestial_hammer_cast_range": "+80%",
+      "value": "700 900 1100 1300"
+    },
+    "return_anim_distance_threshold": "300",
+    "travel_speed_pct": "100"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

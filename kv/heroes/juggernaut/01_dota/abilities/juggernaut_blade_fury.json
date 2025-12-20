@@ -1,0 +1,46 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0 0 0 0",
+  "AbilityCastRange": "0",
+  "AbilityManaCost": "120",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_juggernaut_blade_fury_cooldown": "-3",
+      "value": "36 30 24 18"
+    },
+    "blade_fury_damage": {
+      "special_bonus_unique_juggernaut": "+90",
+      "value": "80 110 140 170"
+    },
+    "blade_fury_damage_tick": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "0.2"
+    },
+    "blade_fury_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_shard": "+100",
+      "value": "260"
+    },
+    "bonus_movespeed": {
+      "special_bonus_unique_juggernaut_blade_fury_movespeed": "+40",
+      "value": "0"
+    },
+    "can_crit": {
+      "special_bonus_facet_juggernaut_bladestorm": "+1",
+      "value": "0"
+    },
+    "duration": {
+      "value": "5.0"
+    },
+    "movement_slow": {
+      "special_bonus_shard": "+35",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

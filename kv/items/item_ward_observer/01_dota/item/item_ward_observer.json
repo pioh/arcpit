@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_SUPPRESS_ASSOCIATED_CONSUMABLE",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "500",
+  "AbilityCooldown": "1.0",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_CREEP_HERO",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "duration_minutes_tooltip": "6",
+    "health": "200",
+    "lifetime": "360",
+    "vision_range_tooltip": "1600"
+  },
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "0",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES",
+  "ItemInitialCharges": "1",
+  "ItemPermanent": "0",
+  "ItemQuality": "consumable",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "consumable;laning",
+  "ItemStackable": "1",
+  "ItemStockInitial": "2",
+  "ItemStockMax": "4",
+  "ItemStockTime": "135.0",
+  "ItemSupport": "1",
+  "Model": "models/props_gameplay/observer_ward_bundle.vmdl",
+  "ShouldNotSuggestMainGame": "1",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestPregame": "1"
+}

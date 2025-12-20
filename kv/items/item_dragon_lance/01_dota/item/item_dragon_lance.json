@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "base_attack_range": "140",
+    "bonus_agility": "15",
+    "bonus_strength": "10"
+  },
+  "ItemCost": "1900",
+  "ItemQuality": "artifact",
+  "ItemShopTags": "damage",
+  "SuggestLategame": "1"
+}

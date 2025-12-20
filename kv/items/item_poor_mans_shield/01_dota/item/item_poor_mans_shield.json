@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "block_chance": "50",
+    "block_chance_hero": "100",
+    "bonus_agility": "0",
+    "damage_block_melee": {
+      "apply_curio_bonus": "1",
+      "value": "30"
+    },
+    "damage_block_ranged": {
+      "apply_curio_bonus": "1",
+      "value": "20"
+    }
+  },
+  "DisplayOverheadAlertOnReceived": "0",
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemQuality": "common",
+  "ItemSellable": "0",
+  "ItemShopTags": "agi;block",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

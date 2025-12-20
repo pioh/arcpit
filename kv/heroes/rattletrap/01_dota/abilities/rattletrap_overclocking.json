@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCooldown": "50",
+  "AbilityManaCost": "90",
+  "AbilitySound": "Hero_Rattletrap.Battery_Assault_Impact",
+  "AbilityValues": {
+    "bonus_attack_speed": "250",
+    "bonus_movement_speed": "0",
+    "buff_duration": "13",
+    "debuff_duration": "3",
+    "hookshot_damage_bonus_pct": "0",
+    "hookshot_duration_bonus_pct": "50",
+    "hookshot_radius_bonus_pct": "50",
+    "jetpack_bonus_speed": "40",
+    "jetpack_turn_rate": "75",
+    "rocket_flare_cooldown": "3.5",
+    "rocket_flare_interval": "0.15",
+    "rocket_flare_offset_pct": "125",
+    "rocket_flare_rockets": "2"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

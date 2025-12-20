@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityValues": {
+    "duration": "2",
+    "movespeed": "-25",
+    "radius": "250",
+    "shard_amount": "2 2 3 3",
+    "shard_damage": "12 16 20 28",
+    "shard_duration": "60",
+    "shard_health": "250 280 310 370"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

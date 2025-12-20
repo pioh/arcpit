@@ -1,0 +1,211 @@
+{
+  "ARDMDisabled": "1",
+  "Ability1": "meepo_earthbind",
+  "Ability10": "special_bonus_strength_7",
+  "Ability11": "special_bonus_unique_meepo_2",
+  "Ability12": "special_bonus_evasion_15",
+  "Ability13": "special_bonus_unique_meepo_3",
+  "Ability14": "special_bonus_unique_meepo_4",
+  "Ability15": "special_bonus_unique_meepo_6",
+  "Ability16": "special_bonus_hp_350",
+  "Ability17": "special_bonus_unique_meepo_poof_cast_point",
+  "Ability2": "meepo_poof",
+  "Ability3": "meepo_ransack",
+  "Ability4": "meepo_petrify",
+  "Ability5": "meepo_megameepo",
+  "Ability6": "meepo_divided_we_stand",
+  "Ability7": "meepo_megameepo_fling",
+  "Ability8": "meepo_sticky_fingers",
+  "AbilityDraftAbilities": {
+    "Ability1": "meepo_earthbind",
+    "Ability2": "meepo_poof",
+    "Ability3": "meepo_ransack"
+  },
+  "Adjectives": {
+    "Cute": "1",
+    "Fuzzy": "1",
+    "Parent": "1"
+  },
+  "ArmorPhysical": "3",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.380000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "35",
+  "AttackDamageMin": "29",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "2.100000",
+  "AttributeBaseAgility": "17",
+  "AttributeBaseIntelligence": "18",
+  "AttributeBaseStrength": "24",
+  "AttributeIntelligenceGain": "1.900000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.200000",
+  "BanSound": "meepo_meepo_anger_12",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_SEMI_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "0",
+      "RequiresSetup": "2",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_SMALL",
+  "CMEnabled": "1",
+  "Complexity": "3",
+  "Enabled": "1",
+  "Facets": {
+    "meepo_codependent": {
+      "Color": "Yellow",
+      "GradientID": "1",
+      "Icon": "illusion"
+    },
+    "meepo_more_meepo": {
+      "Color": "Blue",
+      "GradientID": "2",
+      "Icon": "summons",
+      "MaxHeroAttributeLevel": "6"
+    },
+    "meepo_pack_rat": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "meepo_pack_rat"
+        }
+      },
+      "Color": "Yellow",
+      "Deprecated": "1",
+      "GradientID": "1",
+      "Icon": "item"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_meepo.vsndevts",
+  "GibType": "default",
+  "HeroID": "82",
+  "HeroOrderID": "91",
+  "HeroSelectSoundEffect": "Hero_Meepo.Pick",
+  "HeroUnlockOrder": "3",
+  "IdleExpression": "scenes/meepo/meepo_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "2",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "400",
+      "SlotIndex": "5",
+      "SlotName": "tail",
+      "SlotText": "#LoadoutSlot_Tail",
+      "TextureHeight": "128",
+      "TextureWidth": "256"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_2",
+      "SlotText": "meepo_poof"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_1",
+      "SlotText": "meepo_earthbind"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_sand_king",
+  "Model": "models/heroes/meepo/meepo.vmdl",
+  "ModelScale": "0.930000",
+  "MovementSpeed": "320",
+  "MovementTurnRate": "0.90000",
+  "NameAliases": "geomancer;meepwn",
+  "PickSound": "meepo_meepo_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_meepo/meepo_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Escape,Nuker,Disabler,Initiator,Pusher",
+  "Rolelevels": "2,2,2,1,1,1",
+  "SimilarHeroes": "66,61,81",
+  "SoundSet": "Hero_Meepo",
+  "StatusHealthRegen": "0.25",
+  "StatusManaRegen": "0.25",
+  "Team": "Bad",
+  "VersusScale": "0.93",
+  "VisionDaytimeRange": "1800",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_meepo.vsndevts",
+  "particle_folder": "particles/units/heroes/hero_meepo",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_meepo.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_meepo.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_head": "1",
+    "attach_shovel": "4"
+  },
+  "workshop_guide_name": "Meepo"
+}

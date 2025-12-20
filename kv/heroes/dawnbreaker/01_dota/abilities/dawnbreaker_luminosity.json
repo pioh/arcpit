@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityValues": {
+    "allied_healing_pct": "50",
+    "attack_count": {
+      "special_bonus_unique_dawnbreaker_luminosity_attack_count": "-1",
+      "value": "3"
+    },
+    "bonus_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "special_bonus_unique_dawnbreaker_luminosity_crit": "+40",
+      "value": "125 150 175 200"
+    },
+    "cooldown_reduction": {
+      "special_bonus_facet_dawnbreaker_solar_charged": "0.8",
+      "value": "0"
+    },
+    "heal_from_creeps": "40",
+    "heal_pct": "35 40 45 50",
+    "heal_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "650"
+    },
+    "proc_cooldown": "0.00",
+    "triggered_by_celestial_hammer": {
+      "special_bonus_facet_dawnbreaker_brightmaul_wake": "1",
+      "value": "0"
+    }
+  },
+  "IsBreakable": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ALLIES_YES"
+}

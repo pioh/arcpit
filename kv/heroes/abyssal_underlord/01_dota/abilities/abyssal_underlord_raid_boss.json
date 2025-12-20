@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityValues": {
+    "bonus_ms": {
+      "special_bonus_unique_underlord_7": "+5",
+      "value": "11 14 17 20"
+    },
+    "buff_duration": "5.0",
+    "damage_reduction": {
+      "special_bonus_unique_underlord_7": "+5",
+      "value": "4 6 8 10"
+    },
+    "dark_portal_multiplier": "2"
+  },
+  "DependentOnAbility": "abyssal_underlord_dark_portal",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

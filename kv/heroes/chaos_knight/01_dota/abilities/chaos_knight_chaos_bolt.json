@@ -1,0 +1,51 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.4 0.4 0.4 0.4",
+  "AbilityManaCost": "110",
+  "AbilitySound": "Hero_ChaosKnight.ChaosBolt.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_shard": "+0",
+      "value": "600"
+    },
+    "AbilityCooldown": {
+      "special_bonus_unique_chaos_knight_8": "-3",
+      "value": "13 12 11 10"
+    },
+    "bounce_range_pct": {
+      "special_bonus_facet_chaos_knight_cloven_chaos": "=70"
+    },
+    "chaos_bolt_speed": "700",
+    "damage_max": {
+      "value": "155 240 325 410"
+    },
+    "damage_min": {
+      "value": "90 120 150 180"
+    },
+    "fake_bolt_distance": "675",
+    "illusion_damage_reduction_pct": {
+      "special_bonus_shard": "=15",
+      "value": "0"
+    },
+    "illusion_duration": {
+      "special_bonus_shard": "=6.0",
+      "value": "0"
+    },
+    "stun_max": {
+      "special_bonus_unique_chaos_knight_3": "+0.6",
+      "value": "1.75 2.25 2.75 3.25"
+    },
+    "stun_min": {
+      "special_bonus_unique_chaos_knight_3": "+0.6",
+      "value": "1.25 1.5 1.75 2"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

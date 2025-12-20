@@ -1,0 +1,240 @@
+{
+  "Ability1": "bane_enfeeble",
+  "Ability10": "special_bonus_unique_bane_8",
+  "Ability11": "special_bonus_unique_bane_11",
+  "Ability12": "special_bonus_unique_bane_10",
+  "Ability13": "special_bonus_unique_bane_9",
+  "Ability14": "special_bonus_unique_bane_5",
+  "Ability15": "special_bonus_movement_speed_30",
+  "Ability16": "special_bonus_unique_bane_2",
+  "Ability17": "special_bonus_unique_bane_3",
+  "Ability2": "bane_brain_sap",
+  "Ability3": "bane_nightmare",
+  "Ability4": "generic_hidden",
+  "Ability5": "generic_hidden",
+  "Ability6": "bane_fiends_grip",
+  "Ability7": "bane_nightmare_end",
+  "Ability8": "bane_ichor_of_nyctasha",
+  "AbilityDraftAbilities": {
+    "Ability1": "bane_enfeeble",
+    "Ability2": "bane_brain_sap",
+    "Ability3": "bane_nightmare",
+    "Ability4": "bane_fiends_grip"
+  },
+  "AbilityPreview": {
+    "movie": "media/heroes/default",
+    "resource": [
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res"
+    ]
+  },
+  "Adjectives": {
+    "BadTeeth": "1",
+    "Flying": "1",
+    "Legs": "4",
+    "Nose": "0"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.300000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "30",
+  "AttackDamageMin": "24",
+  "AttackRange": "400",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "2.700000",
+  "AttributeBaseAgility": "23",
+  "AttributeBaseIntelligence": "23",
+  "AttributeBaseStrength": "23",
+  "AttributeIntelligenceGain": "2.700000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+  "AttributeStrengthGain": "2.700000",
+  "BanSound": "bane_bane_anger_10",
+  "Bot": {
+    "Build": {
+      "1": "bane_nightmare",
+      "2": "bane_brain_sap",
+      "3": "bane_brain_sap",
+      "4": "bane_nightmare",
+      "5": "bane_brain_sap",
+      "6": "bane_fiends_grip",
+      "7": "bane_brain_sap",
+      "8": "bane_nightmare",
+      "9": "bane_nightmare",
+      "10": "special_bonus_unique_bane_11",
+      "11": "bane_enfeeble",
+      "12": "bane_fiends_grip",
+      "13": "bane_enfeeble",
+      "14": "bane_enfeeble",
+      "15": "special_bonus_unique_bane_10",
+      "16": "bane_enfeeble",
+      "17": "",
+      "18": "bane_fiends_grip",
+      "19": "",
+      "20": "special_bonus_movement_speed_30",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_bane_3"
+    },
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_STUN_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "1",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "2"
+    },
+    "Loadout": {
+      "item_blades_of_attack": "ITEM_EXTENSION",
+      "item_boots": "ITEM_CORE",
+      "item_chainmail": "ITEM_EXTENSION",
+      "item_clarity": [
+        "ITEM_CONSUMABLE | ITEM_SELLABLE",
+        "ITEM_CONSUMABLE | ITEM_SELLABLE",
+        "ITEM_CONSUMABLE | ITEM_SELLABLE"
+      ],
+      "item_magic_stick": "ITEM_CORE | ITEM_SELLABLE",
+      "item_mantle": "ITEM_CORE | ITEM_SELLABLE",
+      "item_mystic_staff": "ITEM_LUXURY",
+      "item_phase_boots": "ITEM_DERIVED",
+      "item_recipe_sheepstick": "ITEM_EXTENSION",
+      "item_sheepstick": "ITEM_DERIVED",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_tiara_of_selemene": "ITEM_EXTENSION"
+    }
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "bane_dream_stalker": {
+      "Color": "Gray",
+      "GradientID": "0",
+      "Icon": "damage"
+    },
+    "bane_sleepwalk": {
+      "Color": "Purple",
+      "GradientID": "1",
+      "Icon": "movement"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_bane.vsndevts",
+  "GibTintColor": "92 44 167 255",
+  "GibType": "ethereal",
+  "HealthBarOffset": "230",
+  "HeroGlowColor": "207 106 125",
+  "HeroID": "3",
+  "HeroOrderID": "70",
+  "HeroSelectSoundEffect": "Hero_Bane.Pick",
+  "HeroUnlockOrder": "2",
+  "IdleExpression": "scenes/bane/bane_exp_idle_01.vcd",
+  "IdleSoundLoop": "Hero_Bane.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "SlotIndex": "0",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "4",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_3",
+      "SlotText": "bane_nightmare"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_4",
+      "SlotText": "bane_fiends_grip"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_lion",
+  "LoadoutScale": "0.930000",
+  "Model": "models/heroes/bane/bane.vmdl",
+  "ModelScale": "0.930000",
+  "MovementSpeed": "305",
+  "NoCombine": "1",
+  "PickSound": "bane_bane_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_bane/bane_projectile.vpcf",
+  "ProjectileSpeed": "900",
+  "RenderablePortrait": {},
+  "Role": "Support,Disabler,Nuker,Durable",
+  "Rolelevels": "2,3,1,1",
+  "SimilarHeroes": "87,5,20",
+  "SoundSet": "Hero_Bane",
+  "SpectatorLoadoutScale": "0.8",
+  "Team": "Bad",
+  "VersusScale": "0.93",
+  "VisionNighttimeRange": "1200",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_bane.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_bane",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_bane.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_bane.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_hand1": "2",
+    "attach_hand2": "3",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Bane"
+}

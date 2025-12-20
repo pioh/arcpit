@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "40.0",
+  "AbilityManaCost": "75",
+  "AbilityValues": {
+    "block_chance": "60",
+    "block_chance_active": "100",
+    "block_damage_active": "70",
+    "block_damage_melee": "75",
+    "block_damage_ranged": "50",
+    "bonus_aoe_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "bonus_armor": "8",
+    "bonus_health": "250",
+    "bonus_health_regen": "12",
+    "duration": "7",
+    "max_hp_pct": "2.2",
+    "tooltip_reapply_time": "35"
+  },
+  "ItemAlertable": "1",
+  "ItemCost": "3725",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "armor;boost_armor;regen_health;block;health_pool;teamfight;tank",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SuggestLategame": "1"
+}

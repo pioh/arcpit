@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "7.0",
+  "AbilityValues": {
+    "initial_charges": "6",
+    "magic_damage_block": "120",
+    "mana_regen": "0.8",
+    "min_damage": "75"
+  },
+  "ItemCost": "225",
+  "ItemHideCharges": "0",
+  "ItemInitialCharges": "6",
+  "ItemInitialStockTime": "270.0",
+  "ItemInitialStockTimeTurbo": "150.0",
+  "ItemPermanent": "0",
+  "ItemQuality": "component",
+  "ItemShopTags": "armor;laning",
+  "ItemStackable": "0",
+  "ItemStockInitial": "0",
+  "ItemStockMax": "1",
+  "ItemStockTime": "1",
+  "SuggestPregame": "1",
+  "UIDropSound": "Item.DropRingShop",
+  "UIPickupSound": "Item.PickUpRingShop",
+  "WorldDropSound": "Item.DropRingWorld"
+}

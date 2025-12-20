@@ -1,0 +1,39 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.05",
+  "AbilityCooldown": "25",
+  "AbilityManaCost": "125",
+  "AbilitySound": "Hero_Invoker.IceWall.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "damage_per_second": {
+      "special_bonus_unique_invoker_ice_wall_dps": "+50",
+      "value": "30 45 60 75"
+    },
+    "duration": "3.0 6.0 9.0 12.0",
+    "glacier_formation_delay": "1.3",
+    "glacier_formation_speed": "600",
+    "slow": "-20 -80 -140 -200",
+    "slow_duration": "2.0",
+    "tick_interval": "0.5",
+    "vector_cast_range": {
+      "special_bonus_unique_invoker_glacier": "600",
+      "value": "0"
+    },
+    "wall_place_distance": "200",
+    "wall_total_length": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "wall_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "105"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HotKeyOverride": "G",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

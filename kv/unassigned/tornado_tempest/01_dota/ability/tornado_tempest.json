@@ -1,0 +1,29 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "attackspeed_slow": {
+      "value": "-15"
+    },
+    "far_damage": {
+      "value": "15"
+    },
+    "far_radius": {
+      "value": "600"
+    },
+    "movespeed_slow": {
+      "value": "-15"
+    },
+    "near_damage": {
+      "value": "45"
+    },
+    "near_radius": {
+      "value": "150"
+    },
+    "tick_rate": {
+      "value": "0.25"
+    }
+  },
+  "MaxLevel": "1"
+}

@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.2",
+  "AbilityCastRange": "650 700 750 800",
+  "AbilityManaCost": "110 120 130 140",
+  "AbilityModifierSupportValue": "0.0",
+  "AbilitySound": "Hero_Warlock.ShadowWordCastGood",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "15 14 13 12"
+    },
+    "damage": {
+      "value": "15 25 35 45"
+    },
+    "duration": {
+      "value": "10.0"
+    },
+    "shard_movement_speed_pct": {
+      "special_bonus_shard": "0"
+    },
+    "spell_aoe": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_warlock_7": "+150",
+      "value": "225"
+    },
+    "tick_interval": "0.5"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

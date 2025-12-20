@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityTextureName": "arc_warden_scepter",
+  "AbilityValues": {
+    "all_attribute_bonus_per_stack": {
+      "special_bonus_facet_arc_warden_power_capture": "+1.5",
+      "value": "0"
+    },
+    "bonus_stacks_per_rune_pickup": {
+      "special_bonus_facet_arc_warden_power_capture": "+1",
+      "value": "0"
+    },
+    "duration": "4.0",
+    "regeneration_effect": "1",
+    "water_bounty_rune_duration_pct": "67"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

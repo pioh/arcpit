@@ -1,0 +1,196 @@
+{
+  "Ability1": "rubick_telekinesis",
+  "Ability10": "rubick_might_and_magus",
+  "Ability11": "rubick_telekinesis_land_self",
+  "Ability12": "special_bonus_unique_rubick_8",
+  "Ability13": "special_bonus_unique_rubick_2",
+  "Ability14": "special_bonus_unique_rubick_6",
+  "Ability15": "special_bonus_unique_rubick_7",
+  "Ability16": "special_bonus_unique_rubick_3",
+  "Ability17": "special_bonus_unique_rubick_4",
+  "Ability18": "special_bonus_unique_rubick",
+  "Ability19": "special_bonus_unique_rubick_5",
+  "Ability2": "rubick_fade_bolt",
+  "Ability20": "rubick_hidden3",
+  "Ability21": "rubick_hidden4",
+  "Ability3": "rubick_arcane_supremacy",
+  "Ability4": "rubick_empty1",
+  "Ability5": "rubick_empty2",
+  "Ability6": "rubick_spell_steal",
+  "Ability7": "rubick_telekinesis_land",
+  "Ability8": "rubick_hidden1",
+  "Ability9": "rubick_hidden2",
+  "AbilityDraftAbilities": {
+    "Ability1": "rubick_telekinesis",
+    "Ability2": "rubick_fade_bolt",
+    "Ability3": "rubick_arcane_supremacy"
+  },
+  "AbilityTalentStart": "12",
+  "Adjectives": {
+    "Arachnophobic": "1",
+    "Cape": "1",
+    "Green": "1",
+    "Nose": "0"
+  },
+  "ArmorPhysical": "1.000000",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.400000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "32",
+  "AttackDamageMin": "26",
+  "AttackRange": "550",
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "200",
+    "faster": "350"
+  },
+  "AttributeAgilityGain": "2.500000",
+  "AttributeBaseAgility": "23",
+  "AttributeBaseIntelligence": "24",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "3.700000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.00000",
+  "BanSound": "rubick_rubick_anger_06",
+  "BaseAttackSpeed": "100",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_PURE_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "1",
+      "SurvivalRating": "0"
+    }
+  },
+  "CMEnabled": "1",
+  "Complexity": "3",
+  "Enabled": "1",
+  "Facets": {
+    "rubick_arcane_accumulation": {
+      "Color": "Green",
+      "GradientID": "0",
+      "Icon": "area_of_effect"
+    },
+    "rubick_frugal_filch": {
+      "Color": "Purple",
+      "GradientID": "2",
+      "Icon": "mana"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_rubick.vsndevts",
+  "GibType": "default",
+  "HeroID": "86",
+  "HeroOrderID": "81",
+  "HeroSelectSoundEffect": "Hero_Rubick.Pick",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "1",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "CanBeUsedAsGeneratingSlot": "1",
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "3",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "SlotIndex": "4",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "voice",
+      "SlotText": "#LoadoutSlot_Voice"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_1",
+      "SlotText": "rubick_telekinesis"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_2",
+      "SlotText": "rubick_fade_bolt"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_warlock",
+  "LoadoutScale": "0.70",
+  "Model": "models/heroes/rubick/rubick.vmdl",
+  "ModelScale": "0.700000",
+  "MovementSpeed": "290",
+  "MovementTurnRate": "0.700000",
+  "NameAliases": "rubick",
+  "PickSound": "rubick_rubick_spawn_04",
+  "ProjectileModel": "particles/units/heroes/hero_rubick/rubick_base_attack.vpcf",
+  "ProjectileSpeed": "1125",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_rubick/rubick_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Support,Disabler,Nuker",
+  "Rolelevels": "2,1,1",
+  "SimilarHeroes": "27,26,79",
+  "SoundSet": "Hero_Rubick",
+  "StatusManaRegen": "0.5",
+  "Team": "Good",
+  "VersusScale": "0.70",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_rubick.vsndevts",
+  "particle_folder": "particles/units/heroes/hero_rubick",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_rubick.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_rubick.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Rubick"
+}

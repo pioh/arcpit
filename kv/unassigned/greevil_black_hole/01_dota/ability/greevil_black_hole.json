@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+  "AbilityCastPoint": "0.3 0.3 0.3",
+  "AbilityCastRange": "250",
+  "AbilityChannelTime": "3.0 3.0 3.0",
+  "AbilityCooldown": "40.0",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "customval_far_damage": {
+      "value": "10 13 16"
+    },
+    "customval_far_radius": {
+      "value": "200"
+    },
+    "customval_near_damage": {
+      "value": "30 35 40"
+    },
+    "customval_pull_radius": {
+      "value": "200"
+    },
+    "duration": {
+      "value": "3"
+    },
+    "near_radius": {
+      "value": "150"
+    },
+    "pull_speed": {
+      "value": "40"
+    },
+    "tick_rate": {
+      "value": "0.1"
+    },
+    "vision_radius": {
+      "value": "800"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_ITEM | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "60",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/seasonal_ti10_hot_potato",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_NONE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "debuff_duration": {
+      "value": "30"
+    },
+    "max_duration": {
+      "value": "22"
+    },
+    "min_duration": {
+      "value": "7"
+    },
+    "projectile_speed": {
+      "value": "1000"
+    }
+  },
+  "AssociatedConsumable": "17551",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

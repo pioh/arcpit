@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.4 0.4 0.4 0.4",
+  "AbilityCastRange": "550 700 850 1000",
+  "AbilityCooldown": "24 20 16 12",
+  "AbilityManaCost": "50",
+  "AbilitySound": "Ability.XMarksTheSpot.Target",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "allied_duration": "6.0",
+    "ally_armor": "0",
+    "ally_ms": {
+      "value": "0"
+    },
+    "buff_duration": {
+      "special_bonus_facet_kunkka_grog": "+3",
+      "value": "0"
+    },
+    "duration": "3.0",
+    "fow_duration": "5.94",
+    "fow_range": "400",
+    "ghostship_absorb": {
+      "special_bonus_unique_kunkka_rum": "+15",
+      "value": "35"
+    },
+    "movespeed_bonus": "15",
+    "rum_allies_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_kunkka_grog": "+400",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

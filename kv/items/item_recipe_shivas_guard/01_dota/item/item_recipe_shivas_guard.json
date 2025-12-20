@@ -1,0 +1,10 @@
+{
+  "ItemCost": "2050",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_veil_of_discord;item_platemail"
+  },
+  "ItemResult": "item_shivas_guard",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

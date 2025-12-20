@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_HIDDEN  | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.2",
+  "AbilityCooldown": "20",
+  "AbilityManaCost": "80",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "burn_interval": "0.5",
+    "damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "75"
+    },
+    "dragon_form_cast_range": "1400",
+    "duration": "8.0",
+    "linger_duration": "2",
+    "melee_cast_range": "600",
+    "physical_damage_type": {
+      "special_bonus_facet_dragon_knight_corrosive_dragon": "+1",
+      "value": "0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    }
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

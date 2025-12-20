@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastRange": "1400",
+  "AbilityCooldown": "0 0 0 0",
+  "AbilityManaCost": "0 0 0 0",
+  "AbilitySound": "Hero_Phoenix.FireSpirits.Launch",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "attackspeed_slow": "-50 -80 -110 -140",
+    "damage_per_second": {
+      "special_bonus_unique_phoenix_3": "+20",
+      "value": "20 40 60 80"
+    },
+    "duration": "4.0",
+    "hp_cost_perc": "20",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "spirit_count": "5",
+    "spirit_duration": "20.0 20.0 20.0 20.0",
+    "spirit_speed": "1000 1000 1000 1000",
+    "tick_interval": "0.2"
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

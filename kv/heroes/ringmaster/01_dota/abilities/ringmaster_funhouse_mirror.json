@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_SILENCE | DOTA_ABILITY_BEHAVIOR_AFFECTED_BY_MUTE | DOTA_ABILITY_BEHAVIOR_IS_FAKE_ITEM | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastPoint": "0.0",
+  "AbilityChargeRestoreTime": "0",
+  "AbilityCharges": "99",
+  "AbilityCooldown": "3.0",
+  "AbilitySharedCooldown": "dark_carnival_souvenir",
+  "AbilityValues": {
+    "health_bar_offset_1": "180",
+    "health_bar_offset_2": "220",
+    "health_bar_offset_3": "280",
+    "illusion_duration": "18",
+    "illusion_model_scale_1": "0",
+    "illusion_model_scale_2": "0",
+    "illusion_model_scale_3": "50",
+    "images_count": "1",
+    "images_do_damage_percent_melee": "-67",
+    "images_do_damage_percent_ranged": "-72",
+    "images_take_damage_percent": "200",
+    "invuln_duration": "0.2",
+    "model_scale_animate_time": "0.05",
+    "num_scale_sets": "3",
+    "tooltip_damage_incoming_total_pct": "300",
+    "tooltip_damage_outgoing_melee": "33",
+    "tooltip_damage_outgoing_ranged": "28",
+    "vision_radius": "1000"
+  },
+  "InitialAbilityCharges": "0",
+  "MaxLevel": "1"
+}

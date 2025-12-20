@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "65",
+  "AbilityValues": {
+    "attack_speed": {
+      "apply_curious_bonus": "1",
+      "value": "30"
+    },
+    "base_damage": {
+      "apply_curio_bonus": "1",
+      "value": "15"
+    },
+    "death_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "duration": "6"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

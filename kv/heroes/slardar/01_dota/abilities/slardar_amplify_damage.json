@@ -1,0 +1,47 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "5",
+  "AbilityManaCost": "25",
+  "AbilityModifierSupportValue": "6.0",
+  "AbilitySound": "Hero_Slardar.Amplify_Damage",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "armor_pct": {
+      "special_bonus_facet_slardar_brineguard": "+50",
+      "value": "0"
+    },
+    "armor_reduction": {
+      "special_bonus_unique_slardar_5": "-4",
+      "value": "-10 -15 -20"
+    },
+    "duration": {
+      "value": "18"
+    },
+    "has_self_buff": {
+      "special_bonus_facet_slardar_brineguard": "+1",
+      "value": "0"
+    },
+    "puddle_duration": {
+      "special_bonus_scepter": "+5",
+      "value": "7"
+    },
+    "puddle_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "x1.8",
+      "value": "100"
+    },
+    "undispellable": {
+      "special_bonus_unique_slardar_3": "+1",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

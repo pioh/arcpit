@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.3 0.3 0.3",
+  "AbilityCastRange": "0",
+  "AbilityDamage": "275 375 475",
+  "AbilityDraftExtraAbilities": {
+    "tidehunter_dead_in_the_water": "shard"
+  },
+  "AbilityManaCost": "125 225 325",
+  "AbilitySound": "Ability.Ravage",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_tidehunter_ravage_cooldown": "-15",
+      "value": "150.0 145.0 140.0"
+    },
+    "duration": {
+      "special_bonus_unique_tidehunter_7": "+1.0",
+      "value": "2.0 2.2 2.4"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1250"
+    },
+    "speed": "725"
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

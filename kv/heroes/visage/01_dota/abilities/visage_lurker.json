@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "cooldown_speed_per_stack": "2.0",
+    "linger_duration": "2",
+    "max_stacks": {
+      "special_bonus_unique_visage_8": "+4",
+      "value": "8"
+    },
+    "stack_gain_time": "2.0"
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

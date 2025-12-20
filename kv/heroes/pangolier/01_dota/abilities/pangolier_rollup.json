@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET |  DOTA_ABILITY_BEHAVIOR_HIDDEN  | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "40",
+  "AbilityManaCost": "50",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "bounce_duration": "0.4",
+    "cast_time_tooltip": "0.5",
+    "duration": "2.25",
+    "forward_move_speed": "600",
+    "hit_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    },
+    "jump_recover_time": "0.25",
+    "knockback_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    },
+    "magic_resistance": "60",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "rollup_bounce_duration": "0.75",
+    "stun_duration": "1.0 1.25 1.5",
+    "tick_interval": "0.05",
+    "turn_rate": "275",
+    "turn_rate_boosted": "275"
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByShard": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO",
+  "precache": {
+    "model": "models/heroes/pangolier/pangolier_gyroshell2.vmdl"
+  }
+}

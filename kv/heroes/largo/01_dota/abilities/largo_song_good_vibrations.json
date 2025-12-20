@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastPoint": "0",
+  "AbilityCooldown": "0.2",
+  "AbilitySharedCooldown": "largo_songs",
+  "AbilitySound": "Hero_Largo.AmphibianRhapsody.Song1",
+  "AbilityType": "ABILITY_TYPE_BASIC",
+  "AbilityValues": {
+    "AbilityManaCost": {
+      "value": "20 32 44"
+    },
+    "double_song": {
+      "special_bonus_scepter": "=1",
+      "value": "0"
+    },
+    "heal_burst": {
+      "special_bonus_unique_largo_7": "+35%",
+      "value": "34 56 78"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "750"
+    },
+    "song_cost_reduction_per_stack": "1 1.5 2"
+  },
+  "MaxLevel": "3",
+  "ShowCooldownInTooltips": "0"
+}

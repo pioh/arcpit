@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilitySound": "Hero_ChaosKnight.ChaosStrike",
+  "AbilityValues": {
+    "chance": {
+      "special_bonus_unique_chaos_knight_5": "+10",
+      "value": "33.33"
+    },
+    "creep_multiplier": "1.0",
+    "crit_max": "140 180 220 260",
+    "crit_min": "120",
+    "lifesteal": {
+      "special_bonus_unique_chaos_knight_6": "+30",
+      "value": "24 36 48 60"
+    }
+  },
+  "IsBreakable": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

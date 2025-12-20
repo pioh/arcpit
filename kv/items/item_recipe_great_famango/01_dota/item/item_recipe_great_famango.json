@@ -1,0 +1,12 @@
+{
+  "ItemCost": "0",
+  "ItemRecipe": "1",
+  "ItemRecipeConsumesCharges": "1",
+  "ItemRequirements": {
+    "01": "item_famango;item_famango;item_famango"
+  },
+  "ItemResult": "item_great_famango",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl",
+  "ShouldNotSuggestMainGame": "1"
+}

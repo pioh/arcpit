@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "duration": {
+      "special_bonus_unique_phantom_lancer_illusory_armaments_duration": "+2",
+      "value": "3"
+    },
+    "outgoing_floor": {
+      "hero_levelup": "2",
+      "levelup_interval": "3",
+      "value": "18"
+    }
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityValues": {
+    "damage_interval": "1",
+    "delay_pct": "15 25 35 45",
+    "delay_time": "5"
+  },
+  "DependentOnAbility": "death_prophet_exorcism",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

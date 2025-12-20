@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "armor_per_chainmail": {
+      "special_bonus_facet_rattletrap_junk_mail": "=4"
+    },
+    "can_consume_chainmail": {
+      "special_bonus_facet_rattletrap_junk_mail": "=1"
+    },
+    "damage_per_armor": "0.25",
+    "damage_tooltip": {
+      "dynamic_value": "true"
+    },
+    "health_bar_offset_per_stack": {
+      "special_bonus_facet_rattletrap_junk_mail": "=3.5"
+    },
+    "model_scale_maximum": {
+      "special_bonus_facet_rattletrap_junk_mail": "=150"
+    },
+    "model_scale_per_chainmail": {
+      "special_bonus_facet_rattletrap_junk_mail": "=3"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

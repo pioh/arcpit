@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "attack_speed": "-35",
+    "duration": "3.0",
+    "movement_speed": "-35"
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

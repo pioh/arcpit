@@ -1,0 +1,9 @@
+{
+  "ItemCost": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_relic;item_demon_edge"
+  },
+  "ItemResult": "item_rapier",
+  "ItemShopTags": ""
+}

@@ -1,0 +1,20 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityDraftExtraAbilities": {
+    "enchantress_bunny_hop": "shard"
+  },
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "slow_attack_speed": {
+      "special_bonus_unique_enchantress_3": "-70",
+      "value": "-110 -160 -210"
+    },
+    "slow_duration": {
+      "value": "4"
+    }
+  },
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

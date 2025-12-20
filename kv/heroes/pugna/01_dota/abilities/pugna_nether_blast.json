@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.2 0.2 0.2 0.2",
+  "AbilityCastRange": "600",
+  "AbilityManaCost": "100 115 130 145",
+  "AbilitySound": "Hero_Pugna.NetherBlast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_pugna_4": "-1",
+      "value": "5"
+    },
+    "blast_damage": {
+      "special_bonus_unique_pugna_2": "+200",
+      "value": "95 170 245 320"
+    },
+    "delay": "0.8",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "structure_damage_mod": "65"
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

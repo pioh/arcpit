@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "bash_chance": {
+      "value": "7"
+    },
+    "bonus_damage": {
+      "value": "25"
+    },
+    "stun_duration": {
+      "value": "1"
+    }
+  },
+  "MaxLevel": "1"
+}

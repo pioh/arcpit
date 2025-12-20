@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_damage": "55",
+    "bonus_damage_per_assist": "1",
+    "bonus_damage_per_kill": "2",
+    "corruption_armor": "-6",
+    "corruption_duration": "7.0",
+    "max_damage": "30"
+  },
+  "ItemCost": "3500",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "artifact",
+  "ItemShopTags": "damage;unique;dps",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
+  "SuggestLategame": "1"
+}

@@ -1,0 +1,22 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastRange": "700",
+  "AbilityCooldown": "14.0",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "block_cooldown": "14.0",
+    "bonus_all_stats": "16",
+    "bonus_health_regen": "6.5",
+    "bonus_mana_regen": "4.25",
+    "damage_absorb": "300",
+    "upgrade_absorb_duration": "10.0"
+  },
+  "ActiveDescriptionLine": "2",
+  "FightRecapLevel": "1",
+  "ItemCost": "4800",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "regen_health;regen_mana;str;agi;int;hard_to_tag;teamfight;save",
+  "SuggestLategame": "1"
+}

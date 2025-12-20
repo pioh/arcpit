@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.2",
+  "AbilityCooldown": "90 80 70",
+  "AbilityManaCost": "150 225 300",
+  "AbilitySound": "Hero_Ringmaster.Wheel.Target",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_ringmaster_wheel_radius": "+100",
+      "value": "1400"
+    },
+    "aura_damage": "50 75 100",
+    "aura_slow": "-50",
+    "aura_tick_interval": "0.5",
+    "damage_per_second": "0",
+    "explosion_damage": "300 450 600",
+    "face_duration": "0.5",
+    "knockback_distance": "100",
+    "knockback_duration": "0.35",
+    "knockback_height": "100",
+    "knockback_radius": "100",
+    "mesmerize_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_ringmaster_wheel_radius": "+100",
+      "value": "500"
+    },
+    "min_range": "700",
+    "projectile_speed": "1200",
+    "tick_rate": "0.25",
+    "trap_duration": "4",
+    "vision_cone": "0.08715",
+    "vision_radius": "400",
+    "wheel_stun": "2.5 2.75 3.0"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

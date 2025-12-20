@@ -1,0 +1,53 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_4",
+  "AbilityCastPoint": "0.3",
+  "AbilityDraftExtraAbilities": {
+    "spectre_reality": ""
+  },
+  "AbilityManaCost": "125 150 175",
+  "AbilitySound": "Hero_Spectre.Haunt",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_scepter": "-20",
+      "value": "180 160 140"
+    },
+    "attack_delay": "0",
+    "destroy_if_target_is_dead": {
+      "special_bonus_facet_spectre_twist_the_knife": "=0",
+      "value": "1"
+    },
+    "duration": "5.0 6.0 7.0",
+    "fear_aoe": {
+      "special_bonus_scepter": "=400",
+      "value": "0"
+    },
+    "fear_duration": {
+      "special_bonus_scepter": "=1.5",
+      "value": "0"
+    },
+    "fear_movespeed_slow": {
+      "special_bonus_scepter": "50",
+      "value": "0"
+    },
+    "illusion_damage_incoming": "100 100 100",
+    "illusion_damage_outgoing": {
+      "special_bonus_unique_spectre_4": "+20",
+      "value": "-70 -45 -20"
+    },
+    "scepter_cooldown_reduction_tooltip": "20",
+    "tooltip_illusion_total_damage_incoming": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "200 200 200"
+    },
+    "tooltip_outgoing": {
+      "special_bonus_unique_spectre_4": "+20",
+      "value": "30 55 80"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

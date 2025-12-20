@@ -1,0 +1,30 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "350",
+  "AbilityCooldown": "16.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "customval_leech_damage": {
+      "value": "12 15 18"
+    },
+    "damage_interval": {
+      "value": "0.75"
+    },
+    "duration": {
+      "value": "3"
+    },
+    "movement_slow": {
+      "value": "-24"
+    },
+    "projectile_speed": {
+      "value": "400"
+    },
+    "radius": {
+      "value": "500"
+    }
+  }
+}

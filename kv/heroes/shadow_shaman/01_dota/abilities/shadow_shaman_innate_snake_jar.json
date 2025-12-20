@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_INNATE_UI",
+  "AbilityValues": {
+    "cooldown": "40",
+    "duration": "10",
+    "tooltip_attack_range": "650",
+    "tooltip_cast_range": "400",
+    "tooltip_damage": "50",
+    "tooltip_hits_to_destroy": "2",
+    "tooltip_hits_to_destroy_creeps": "4"
+  },
+  "MaxLevel": "1"
+}

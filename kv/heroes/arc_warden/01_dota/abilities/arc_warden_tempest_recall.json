@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.3",
+  "AbilityCooldown": "50",
+  "AbilityManaCost": "125",
+  "AbilitySound": "Hero_ArcWarden.TempestDouble",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "restore_pct": "50"
+  },
+  "FightRecapLevel": "2",
+  "MaxLevel": "1"
+}

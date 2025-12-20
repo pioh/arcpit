@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastGestureSlot": "ABSOLUTE",
+  "AbilityManaCost": "0 0 0",
+  "AbilitySound": "Hero_Abaddon.BorrowedTime",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "90 85 80"
+    },
+    "ally_threshold_scepter": {
+      "special_bonus_scepter": "550"
+    },
+    "duration": {
+      "special_bonus_scepter": "+3",
+      "value": "4.0 5.0 6.0"
+    },
+    "hp_threshold": "400",
+    "immolate_aoe": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_abaddon_immolation": "+400"
+    },
+    "immolate_damage": {
+      "special_bonus_unique_abaddon_immolation": "+100"
+    },
+    "immolate_tick": ".25",
+    "redirect_range_scepter": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "900"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

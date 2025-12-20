@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastRange": "1200",
+  "AbilityValues": {
+    "aura_attack_speed": "30",
+    "aura_negative_armor": "-5",
+    "aura_positive_armor": "5",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "bonus_armor": "10",
+    "bonus_attack_speed": "30"
+  },
+  "ItemCost": "5125",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "attack_speed;armor;hard_to_tag;teamfight;tank",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES",
+  "SuggestLategame": "1"
+}

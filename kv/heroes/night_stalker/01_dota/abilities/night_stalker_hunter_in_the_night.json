@@ -1,0 +1,45 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityValues": {
+    "AbilityManaCost": {
+      "special_bonus_shard": "+50"
+    },
+    "bonus_attack_speed_night": {
+      "special_bonus_facet_night_stalker_dayswap": "=15 =35 =55 =75 =95",
+      "special_bonus_unique_night_stalker_2": "+100",
+      "value": "20 40 60 80 80"
+    },
+    "bonus_movement_speed_pct_night": {
+      "special_bonus_facet_night_stalker_dayswap": "=10 =22 =28 =34 =40",
+      "value": "22 28 34 40 40"
+    },
+    "bonus_status_resist_night": {
+      "special_bonus_unique_night_stalker_hunter_status_resist": "+20"
+    },
+    "gives_free_level": {
+      "special_bonus_facet_night_stalker_dayswap": "+1"
+    },
+    "max_level": {
+      "special_bonus_facet_night_stalker_dayswap": "+1",
+      "value": "4"
+    },
+    "max_level_tooltip": {
+      "special_bonus_facet_night_stalker_dayswap": "=5"
+    },
+    "shard_cast_range": {
+      "special_bonus_shard": "125"
+    },
+    "shard_cooldown": {
+      "special_bonus_shard": "35"
+    },
+    "shard_hp_restore_pct": {
+      "special_bonus_shard": "25"
+    },
+    "shard_mana_restore_pct": {
+      "special_bonus_shard": "25"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "IsBreakable": "1"
+}

@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCooldown": "0.0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "agility": "10",
+    "all_stats": "0",
+    "count": "2",
+    "damage": "18",
+    "proc_chance": "25",
+    "proc_dmg_pct": "75",
+    "secondary_target_angle": "120",
+    "secondary_target_range_bonus": "225"
+  },
+  "ItemCost": "2650",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemPurchasable": "0",
+  "ItemQuality": "rare",
+  "ItemShopTags": "int;damage;hard_to_tag;mobility;escape;save",
+  "SuggestLategame": "1"
+}

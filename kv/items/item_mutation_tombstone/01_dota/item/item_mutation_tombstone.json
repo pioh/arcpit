@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "100",
+  "AbilityName": "item_tombstone",
+  "ItemCastOnPickup": "1",
+  "ItemCost": "0",
+  "ItemInitialCharges": "1",
+  "ItemKillable": "0",
+  "ItemPermanent": "0",
+  "ItemPurchasable": "0",
+  "ItemQuality": "consumable",
+  "ItemShareability": "ITEM_FULLY_SHAREABLE",
+  "ItemShopTags": "consumable",
+  "ItemStackable": "1",
+  "Model": "models/props_gameplay/tombstoneb01.vmdl",
+  "PingOverrideText": "DOTA_Chat_Tombstone_Pinged",
+  "precache": {
+    "particle_folder": "particles/units/heroes/hero_morphling"
+  }
+}

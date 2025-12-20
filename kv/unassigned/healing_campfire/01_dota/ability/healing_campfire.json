@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_ITEM",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "350",
+  "AbilityCooldown": "10.0",
+  "AbilityDuration": "10.0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "heal_amount": {
+      "value": "0"
+    },
+    "healing_aura_radius": {
+      "value": "500"
+    }
+  }
+}

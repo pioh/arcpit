@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCooldown": "40.0",
+  "AbilityManaCost": "0",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityValues": {
+    "customval_armor_bonus": {
+      "value": "3"
+    },
+    "customval_bonus_damage": {
+      "value": "12"
+    },
+    "duration": {
+      "value": "8"
+    },
+    "health_regen": {
+      "value": "1"
+    },
+    "radius": {
+      "value": "700"
+    }
+  }
+}

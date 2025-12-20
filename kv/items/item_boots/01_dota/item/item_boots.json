@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "bonus_movement_speed": "45"
+  },
+  "ItemCost": "500",
+  "ItemQuality": "component",
+  "ItemShopTags": "move_speed;mobility;laning",
+  "Model": "models/props_gameplay/boots_of_speed.vmdl",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestEarlygame": "1",
+  "SuggestPregame": "1"
+}

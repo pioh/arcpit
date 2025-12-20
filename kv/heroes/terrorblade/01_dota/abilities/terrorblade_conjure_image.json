@@ -1,0 +1,43 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.15",
+  "AbilitySound": "Hero_Terrorblade.ConjureImage",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_terrorblade_4": "-2",
+      "value": "16"
+    },
+    "AbilityManaCost": {
+      "special_bonus_facet_terrorblade_soul_fragment": "-100%",
+      "value": "55 65 75 85"
+    },
+    "appear_as_illusion": {
+      "value": "1"
+    },
+    "hp_cost_perc": {
+      "special_bonus_facet_terrorblade_soul_fragment": "=15"
+    },
+    "illusion_duration": {
+      "special_bonus_unique_terrorblade_5": "+10",
+      "value": "34.0"
+    },
+    "illusion_incoming_damage": "150.0",
+    "illusion_incoming_damage_total_tooltip": "250.0",
+    "illusion_outgoing_damage": {
+      "value": "-80 -75 -70 -65"
+    },
+    "illusion_outgoing_tooltip": {
+      "value": "20 25 30 35"
+    },
+    "illusions_spawn_with_full_hp": {
+      "special_bonus_facet_terrorblade_soul_fragment": "+1"
+    },
+    "show_particle_effect": {
+      "value": "1"
+    },
+    "strong_illusion": {
+      "value": "0"
+    }
+  }
+}

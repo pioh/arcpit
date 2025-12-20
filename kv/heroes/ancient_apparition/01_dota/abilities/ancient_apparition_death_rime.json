@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "cast_slow": {
+      "value": "0"
+    },
+    "damage": {
+      "special_bonus_unique_ancient_apparition_6": "+50%",
+      "value": "10"
+    },
+    "slow": {
+      "special_bonus_unique_ancient_apparition_6": "+50%",
+      "value": "2"
+    },
+    "strength_decrease": {
+      "special_bonus_facet_ancient_apparition_bone_chill": "0.5 0.75 1 1.25",
+      "value": "0"
+    }
+  },
+  "DependentOnAbility": "ancient_apparition_ice_blast",
+  "Innate": "1",
+  "MaxLevel": "4",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

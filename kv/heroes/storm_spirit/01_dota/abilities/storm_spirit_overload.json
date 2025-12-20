@@ -1,0 +1,57 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityDuration": "0.8",
+  "AbilityModifierSupportBonus": "40",
+  "AbilitySound": "Hero_StormSpirit.Overload",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "overload_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "300"
+    },
+    "overload_attack_slow": {
+      "special_bonus_unique_storm_spirit_overload_aspd": "-20.0",
+      "value": "-90"
+    },
+    "overload_bounces": {
+      "special_bonus_unique_storm_spirit_7": "=2"
+    },
+    "overload_cast_range": {
+      "value": "0"
+    },
+    "overload_damage": {
+      "value": "25 50 75 100"
+    },
+    "overload_damage_pct": {
+      "special_bonus_unique_storm_spirit_7": "=65"
+    },
+    "overload_move_slow": {
+      "special_bonus_unique_storm_spirit_overload_aspd": "-20.0",
+      "value": "-80"
+    },
+    "shard_activation_charges": {
+      "special_bonus_shard": "3"
+    },
+    "shard_activation_duration": {
+      "special_bonus_shard": "12"
+    },
+    "shard_activation_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_shard": "750"
+    },
+    "shard_attack_speed_bonus": {
+      "special_bonus_shard": "40"
+    },
+    "shard_cooldown": {
+      "special_bonus_shard": "30"
+    },
+    "shard_manacost": {
+      "special_bonus_shard": "100"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

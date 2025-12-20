@@ -1,0 +1,47 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.05",
+  "AbilityCastRange": "950",
+  "AbilityCooldown": "27",
+  "AbilityManaCost": "125",
+  "AbilitySound": "Hero_Invoker.EMP.Charge",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "area_of_effect": {
+      "affected_by_aoe_increase": "1",
+      "value": "675"
+    },
+    "damage_barriers": {
+      "value": "0"
+    },
+    "damage_per_mana_pct": {
+      "special_bonus_facet_invoker_wex_focus": {
+        "special_bonus_shard": "+30",
+        "value": "0"
+      },
+      "value": "60"
+    },
+    "delay": {
+      "levelkey": "wexlevel",
+      "value": "2.9"
+    },
+    "drag_speed": {
+      "special_bonus_facet_invoker_wex_focus": {
+        "special_bonus_shard": "+125",
+        "value": "0"
+      },
+      "value": "0"
+    },
+    "mana_burned": {
+      "levelkey": "wexlevel",
+      "value": "100 175 250 325 400 475 550 625 700 775"
+    },
+    "self_mana_restore_pct": "25"
+  },
+  "HasShardUpgrade": "1",
+  "HotKeyOverride": "C",
+  "MaxLevel": "1",
+  "ShardRequiredFacet": "invoker_wex_focus",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

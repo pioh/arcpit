@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCooldown": "45",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "aura_bonus_threshold": "25",
+    "aura_health_regen": "2.5",
+    "aura_health_regen_bonus": "14.5",
+    "aura_mana_regen": "1.5",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "bonus_armor": "5",
+    "bonus_movement": "50",
+    "mana_regen": "1.5",
+    "max_health_pct_heal_amount": "0",
+    "replenish_health": "325",
+    "replenish_mana": "200",
+    "replenish_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    }
+  },
+  "FightRecapLevel": "1",
+  "ItemAlertable": "1",
+  "ItemCost": "4300",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "int;armor;regen_health;hard_to_tag;teamfight;save;tank;regen_mana",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestLategame": "1"
+}

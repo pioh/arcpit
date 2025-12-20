@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "attack_range": "75",
+    "aura_range": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "cast_range": "100",
+    "scan_cooldown_reduction": "50"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

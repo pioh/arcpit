@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastRange": "350",
+  "AbilityCooldown": "35.0",
+  "AbilityValues": {
+    "aura_health_regen": "6",
+    "aura_health_regen_pct": "25",
+    "bonus_health": "0",
+    "bonus_health_regen": "0",
+    "duration": "8",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    }
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

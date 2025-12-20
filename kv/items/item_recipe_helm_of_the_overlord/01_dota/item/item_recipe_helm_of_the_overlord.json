@@ -1,0 +1,9 @@
+{
+  "ItemCost": "300",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_helm_of_the_dominator;item_ultimate_orb"
+  },
+  "ItemResult": "item_helm_of_the_overlord",
+  "ItemShopTags": ""
+}

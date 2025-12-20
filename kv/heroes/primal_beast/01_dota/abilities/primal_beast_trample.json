@@ -1,0 +1,51 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastGestureSlot": "ABSOLUTE",
+  "AbilityManaCost": "100",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_primal_beast_trample_cooldown": "-5",
+      "value": "30 27 24 21"
+    },
+    "attack_damage": {
+      "special_bonus_unique_primal_beast_trample_attack_damage": "+20",
+      "value": "35"
+    },
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_primal_beast_romp_n_stomp": "=1200"
+    },
+    "base_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "15 30 45 60"
+    },
+    "bonus_magic_resistance": {
+      "special_bonus_unique_primal_beast_trample_magic_resist": "+25",
+      "value": "0"
+    },
+    "bonus_movespeed_pct_allies": {
+      "special_bonus_facet_primal_beast_romp_n_stomp": "=5"
+    },
+    "bonus_movespeed_pct_self": {
+      "special_bonus_facet_primal_beast_romp_n_stomp": "=10"
+    },
+    "duration": "5.5",
+    "effect_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "230"
+    },
+    "proc_attack_modifiers": {
+      "value": "0"
+    },
+    "step_distance": "140",
+    "unslowable": {
+      "special_bonus_unique_primal_beast_trample_unslowable": "+1",
+      "value": "0"
+    }
+  },
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "15",
+  "AbilityManaCost": "110 130 150 170",
+  "AbilitySound": "Hero_Chen.HolyPersuasionCast",
+  "AbilityValues": {
+    "bonus_health_per_level": "50",
+    "creep_ability_level": {
+      "special_bonus_shard": "=2",
+      "value": "0"
+    },
+    "current_hp_pct_tooltip": {
+      "value": "0"
+    },
+    "damage_bonus": {
+      "special_bonus_unique_chen_5": "+14",
+      "value": "4 8 12 16"
+    },
+    "gold_pct": "25 50 75 100",
+    "health_min": {
+      "special_bonus_unique_chen_4": "+1300",
+      "value": "400"
+    },
+    "is_martyr": {
+      "value": "0"
+    },
+    "level_req": "3 4 5 6",
+    "max_units": "1 2 3 4",
+    "movement_speed_bonus": "5 10 20 30"
+  },
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

@@ -1,0 +1,36 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES",
+  "AbilityCastRange": "750",
+  "AbilityCooldown": "10.0",
+  "AbilitySharedCooldown": "urn",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "bonus_all_stats": "10",
+    "bonus_armor": "2",
+    "bonus_health": "0",
+    "bonus_mana_regen": "1.75",
+    "duration": "8.0",
+    "enemy_hp_drain": "4",
+    "enemy_slow_pct": "0",
+    "heal_reduction_enemy": "70",
+    "restoration_reduction_enemy": "70",
+    "soul_additional_charges": "1",
+    "soul_damage_amount": "25",
+    "soul_heal_amount": "40",
+    "soul_initial_charge": "2",
+    "soul_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1500"
+    }
+  },
+  "ItemCost": "2725",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisplayCharges": "1",
+  "ItemPermanent": "1",
+  "ItemQuality": "rare",
+  "ItemRequiresCharges": "1",
+  "ItemShopTags": "teamfight",
+  "ItemStackable": "0",
+  "SuggestLategame": "1"
+}

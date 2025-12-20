@@ -1,0 +1,28 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_ATTACK",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "600",
+  "AbilityChargeRestoreTime": "90",
+  "AbilityCharges": "2",
+  "AbilityCooldown": "0",
+  "AbilityManaCost": "0",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_NOT_ANCIENTS | DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "bonus_attack_speed": "35",
+    "bonus_gold": "160"
+  },
+  "ItemCost": "2200",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemDisassembleRule": "DOTA_ITEM_DISASSEMBLE_NEVER",
+  "ItemDisplayCharges": "1",
+  "ItemInitialCharges": "1",
+  "ItemPermanent": "1",
+  "ItemQuality": "common",
+  "ItemRequiresCharges": "1",
+  "ItemShopTags": "attack_speed;hard_to_tag;farming",
+  "ItemStackable": "0",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestLategame": "1"
+}

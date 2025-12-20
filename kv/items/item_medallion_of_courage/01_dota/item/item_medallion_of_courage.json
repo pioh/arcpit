@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastRange": "1000",
+  "AbilityCooldown": "16.0",
+  "AbilitySharedCooldown": "medallion",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "armor_reduction": "-6",
+    "bonus_armor": "5",
+    "bonus_mana_regen_pct": "1.5",
+    "duration": "8"
+  },
+  "FightRecapLevel": "1",
+  "IsObsolete": "1",
+  "ItemCost": "1025",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemPurchasable": "0",
+  "ItemQuality": "rare",
+  "ItemShopTags": "armor;regen_mana;hard_to_tag",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

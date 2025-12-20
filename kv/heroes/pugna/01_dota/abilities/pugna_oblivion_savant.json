@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "tower_scale": {
+      "special_bonus_facet_pugna_rewards_of_ruin": "1.5",
+      "value": "0"
+    }
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

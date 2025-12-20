@@ -1,0 +1,43 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CAN_SELF_CAST",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityModifierSupportValue": "0.2",
+  "AbilitySound": "Hero_SkeletonKing.Reincarnate",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_scepter": "-15",
+      "value": "180 150 120"
+    },
+    "AbilityManaCost": {
+      "special_bonus_shard": "=0",
+      "value": "225"
+    },
+    "attackslow": "-75",
+    "clear_curse": {
+      "special_bonus_facet_skeleton_king_facet_cursed_blade": "=1",
+      "value": "0"
+    },
+    "movespeed": "-75",
+    "reincarnate_time": "3.0 3.0 3.0",
+    "shard_skeleton_count": {
+      "special_bonus_facet_skeleton_king_facet_bone_guard": "2 3 4",
+      "value": "0"
+    },
+    "slow_duration": "4.0",
+    "slow_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    },
+    "trigger_wraithfire_blast": {
+      "special_bonus_unique_wraith_king_4": "=1"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_ICE_VORTEX",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.01 0.01 0.01 0.01",
+  "AbilityCastRange": "1200 1200 1200 1200",
+  "AbilityDuration": "6 8 10 12",
+  "AbilityManaCost": "40 55 70 85",
+  "AbilitySound": "Hero_Ancient_Apparition.IceVortexCast",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_ancient_apparition_3": "-2",
+      "value": "10 8 6 4"
+    },
+    "drag_speed": "40 50 60 70",
+    "frost_stacks": "1 2 3 4",
+    "movement_speed_pct": {
+      "value": "-16 -19 -22 -25"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "275"
+    },
+    "spell_resist_pct": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_MAGICAL",
+      "value": "-16 -19 -22 -25"
+    },
+    "vision_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "200 220 240 260"
+    },
+    "vortex_duration": {
+      "value": "6 8 10 12"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

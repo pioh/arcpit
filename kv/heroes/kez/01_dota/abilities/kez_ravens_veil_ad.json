@@ -1,0 +1,5 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "BaseClass": "kez_ravens_veil",
+  "_base": "kez_ravens_veil"
+}

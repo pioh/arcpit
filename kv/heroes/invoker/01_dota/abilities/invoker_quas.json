@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_INVISIBLE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCooldown": "0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "facet_bonus_levels": {
+      "special_bonus_facet_invoker_quas_focus": {
+        "special_bonus_unique_invoker_facet_orb_level": "+1",
+        "value": "0"
+      },
+      "value": "0"
+    },
+    "hp_regen_per_instance": {
+      "special_bonus_unique_invoker_13": "x2",
+      "value": "1 2 3 4 5 6 7 8 9 10"
+    },
+    "max_level": {
+      "special_bonus_facet_invoker_quas_focus": {
+        "special_bonus_unique_invoker_facet_orb_level": "+1",
+        "value": "+1"
+      },
+      "special_bonus_scepter": "+1",
+      "value": "7"
+    },
+    "scepter_bonus_levels": {
+      "special_bonus_facet_invoker_quas_focus": {
+        "special_bonus_scepter": "0",
+        "value": "0"
+      },
+      "value": "1"
+    },
+    "strength_bonus": "1",
+    "upgrade_at_level": {
+      "special_bonus_facet_invoker_quas_focus": "6",
+      "value": "0"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "MaxLevel": "7",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

@@ -1,0 +1,31 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "800",
+  "AbilityCooldown": "60",
+  "AbilityManaCost": "150",
+  "AbilitySound": "Hero_KeeperOfTheLight.ManaLeak.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "bounty": "100",
+    "fixed_movement_speed": "60",
+    "hit_count": "7",
+    "off_duration": "1.85",
+    "off_duration_initial": "1.0",
+    "on_count": "5",
+    "on_duration": "1.0",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "725"
+    },
+    "wisp_damage": "85"
+  },
+  "HasScepterUpgrade": "1",
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

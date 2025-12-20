@@ -1,0 +1,12 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_DONT_CANCEL_MOVEMENT | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "50",
+  "AbilityValues": {
+    "gold_bag_duration": "15"
+  },
+  "AutoPickup": "1",
+  "ItemCost": "0",
+  "ItemPurchasable": "0",
+  "Model": "models/props_gameplay/gold_bag.vmdl"
+}

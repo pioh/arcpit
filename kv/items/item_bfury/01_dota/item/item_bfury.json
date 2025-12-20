@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "350",
+  "AbilityCooldown": "4.0",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "bonus_damage": "50",
+    "bonus_health_regen": "7.5",
+    "bonus_mana_regen": "2.75",
+    "cleave_damage_percent": "60",
+    "cleave_damage_percent_creep": "40",
+    "cleave_distance": "650",
+    "cleave_ending_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "360"
+    },
+    "cleave_starting_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "150"
+    },
+    "quelling_bonus": "10",
+    "quelling_bonus_ranged": "5",
+    "upgraded_cleave_bonus": "25",
+    "upgraded_damage_bonus": "15"
+  },
+  "ItemCost": "3900",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_IN_SPEECH | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "epic",
+  "ItemShopTags": "damage;health_regen;mana_regen;hard_to_tag;farming;dps",
+  "SuggestLategame": "1"
+}

@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_SUPPRESS_ASSOCIATED_CONSUMABLE",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "165",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_TREE | DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "buff_duration": "16.0",
+    "health_regen": "7.0",
+    "tooltip_charges": "3"
+  },
+  "Effect": "particles/generic_gameplay/dropped_tango.vpcf",
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "90",
+  "ItemInitialCharges": "3",
+  "ItemPermanent": "0",
+  "ItemQuality": "consumable",
+  "ItemShopTags": "consumable;laning",
+  "ItemStackable": "1",
+  "ItemStockInitial": "10",
+  "ItemStockMax": "10",
+  "ItemStockTime": "120",
+  "Model": "models/props_gameplay/tango.vmdl",
+  "SpeciallyBannedFromNeutralSlot": "1",
+  "SuggestPregame": "1"
+}

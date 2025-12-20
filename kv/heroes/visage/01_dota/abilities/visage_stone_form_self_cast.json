@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_PSEUDO_QUEUE | DOTA_ABILITY_BEHAVIOR_ALT_CASTABLE | DOTA_ABILITY_BEHAVIOR_IGNORE_SILENCE",
+  "AbilityCastPoint": "0.0",
+  "AbilityCooldown": "0.0",
+  "AbilityManaCost": "0",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_facet_visage_faithful_followers": "=1200",
+      "value": "0"
+    },
+    "hp_regen": "150 175 200",
+    "stone_duration": "6.0",
+    "stun_damage": "60 100 140",
+    "stun_delay": "0.55",
+    "stun_duration": "0.8 1.0 1.2",
+    "stun_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "375"
+    }
+  },
+  "DependentOnAbility": "visage_summon_familiars",
+  "MaxLevel": "3",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

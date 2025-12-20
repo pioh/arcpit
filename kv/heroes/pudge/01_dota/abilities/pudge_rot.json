@@ -1,0 +1,51 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0 0 0 0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "attack_damage_per_second_tooltip": {
+      "special_bonus_facet_pudge_rotten_core": "4 8 12 16"
+    },
+    "attack_damage_per_stack": {
+      "special_bonus_facet_pudge_rotten_core": "0.8 1.6 2.4 3.2"
+    },
+    "max_bonus_damage_tooltip": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "special_bonus_facet_pudge_rotten_core": "20 40 60 80"
+    },
+    "max_total_stacks": {
+      "special_bonus_facet_pudge_rotten_core": "=25"
+    },
+    "rot_damage": {
+      "special_bonus_scepter": "+90",
+      "value": "30 60 90 120"
+    },
+    "rot_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "+200",
+      "value": "250"
+    },
+    "rot_slow": {
+      "special_bonus_unique_pudge_4": "+-10",
+      "value": "-14 -20 -26 -32"
+    },
+    "rot_tick": "0.2",
+    "scepter_rot_regen_reduction_pct": {
+      "special_bonus_scepter": "20"
+    },
+    "stacks_decrement_per_rot_off_tick": {
+      "special_bonus_facet_pudge_rotten_core": "=5"
+    },
+    "time_for_decay_tooltip": {
+      "special_bonus_facet_pudge_rotten_core": "=1.0"
+    },
+    "time_for_max_stacks_tooltip": {
+      "special_bonus_facet_pudge_rotten_core": "=5.0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

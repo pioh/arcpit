@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_DP_SPIRIT_SIPHON",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "500",
+  "AbilityCharges": "1 2 3 4",
+  "AbilityCooldown": "0",
+  "AbilityManaCost": "80",
+  "AbilitySound": "Hero_DeathProphet.SpiritSiphon.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityChargeRestoreTime": {
+      "special_bonus_unique_death_prophet_5": "-22",
+      "value": "40"
+    },
+    "damage": {
+      "special_bonus_unique_death_prophet_3": "+25",
+      "value": "25 50 75 100"
+    },
+    "damage_pct": "0",
+    "haunt_duration": "6",
+    "shard_bonus_charges": {
+      "special_bonus_shard": "1"
+    },
+    "shard_consecutive_siphon_duration": {
+      "special_bonus_shard": "3"
+    },
+    "shard_fear_duration": {
+      "special_bonus_shard": "1.0"
+    },
+    "siphon_buffer": "250"
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

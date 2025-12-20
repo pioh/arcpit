@@ -1,0 +1,215 @@
+{
+  "Ability1": "faceless_void_time_walk",
+  "Ability10": "special_bonus_unique_faceless_void_6",
+  "Ability11": "special_bonus_unique_faceless_void_7",
+  "Ability12": "special_bonus_unique_faceless_void_3",
+  "Ability13": "special_bonus_unique_faceless_void_8",
+  "Ability14": "special_bonus_unique_faceless_void",
+  "Ability15": "special_bonus_unique_faceless_void_5",
+  "Ability16": "special_bonus_unique_faceless_void_4",
+  "Ability17": "special_bonus_unique_faceless_void_2",
+  "Ability2": "faceless_void_time_dilation",
+  "Ability3": "faceless_void_time_lock",
+  "Ability4": "faceless_void_time_walk_reverse",
+  "Ability5": "faceless_void_distortion_field",
+  "Ability6": "generic_hidden",
+  "AbilityDraftAbilities": {
+    "Ability1": "faceless_void_time_walk",
+    "Ability2": "faceless_void_time_dilation",
+    "Ability3": "faceless_void_time_lock",
+    "Ability4": "faceless_void_chronosphere,faceless_void_time_zone"
+  },
+  "Adjectives": {
+    "NicePecs": "1",
+    "Nose": "0"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "43",
+  "AttackDamageMin": "37",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "180",
+    "faster": "250",
+    "fastest": "350"
+  },
+  "AttributeAgilityGain": "3.3",
+  "AttributeBaseAgility": "21",
+  "AttributeBaseIntelligence": "15",
+  "AttributeBaseStrength": "20",
+  "AttributeIntelligenceGain": "1.500000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_AGILITY",
+  "AttributeStrengthGain": "2.600000",
+  "BanSound": "faceless_void_face_anger_02",
+  "Bot": {
+    "HeroType": "DOTA_BOT_HARD_CARRY",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "0",
+      "RequiresBabysit": "2",
+      "RequiresFarm": "2",
+      "RequiresSetup": "2",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "faceless_void_chronosphere": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "5",
+          "AbilityName": "faceless_void_chronosphere",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Green",
+      "GradientID": "0",
+      "Icon": "area_of_effect"
+    },
+    "faceless_void_temporal_impunity": {
+      "Color": "Green",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "armor"
+    },
+    "faceless_void_time_zone": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityIndex": "5",
+          "AbilityName": "faceless_void_time_zone",
+          "AutoLevelAbility": "false"
+        }
+      },
+      "Color": "Purple",
+      "GradientID": "1",
+      "Icon": "chrono_cube"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_faceless_void.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HeroGlowColor": "217 160 255",
+  "HeroID": "41",
+  "HeroOrderID": "27",
+  "HeroSelectSoundEffect": "Hero_FacelessVoid.Pick",
+  "HeroUnlockOrder": "0",
+  "IdleExpression": "scenes/faceless_void/faceless_void_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "1",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "body_head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "4",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_2",
+      "SlotText": "faceless_void_time_dilation"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_4",
+      "SlotText": "faceless_void_chronosphere"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "faceless_void_time_walk"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_bounty_hunter",
+  "LoadoutScale": "0.900000",
+  "Model": "models/heroes/faceless_void/faceless_void.vmdl",
+  "ModelScale": "0.900000",
+  "MovementSpeed": "300",
+  "MovementTurnRate": "0.900000",
+  "NameAliases": "fv",
+  "PickSound": "faceless_void_face_spawn_01",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_faceless_void/faceless_void_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Initiator,Disabler,Escape,Durable",
+  "Rolelevels": "2,3,2,1,1",
+  "SimilarHeroes": "1,44,8",
+  "SoundSet": "Hero_FacelessVoid",
+  "SpectatorLoadoutScale": "0.95",
+  "StatusHealthRegen": "1",
+  "Team": "Bad",
+  "VersusScale": "0.90",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_faceless_void.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_faceless_void",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_faceless_void.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_faceless_void.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_hand2": "6",
+    "attach_head": "1",
+    "attach_weapon_glow": "2"
+  },
+  "workshop_guide_name": "Faceless Void"
+}

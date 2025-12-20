@@ -1,0 +1,195 @@
+{
+  "Ability1": "leshrac_split_earth",
+  "Ability10": "special_bonus_mp_regen_150",
+  "Ability11": "special_bonus_armor_4",
+  "Ability12": "special_bonus_unique_leshrac_6",
+  "Ability13": "special_bonus_unique_leshrac_4",
+  "Ability14": "special_bonus_unique_leshrac_7",
+  "Ability15": "special_bonus_unique_leshrac_3",
+  "Ability16": "special_bonus_unique_leshrac_pulse_nova_lightning",
+  "Ability17": "special_bonus_unique_leshrac_1",
+  "Ability2": "leshrac_diabolic_edict",
+  "Ability3": "leshrac_lightning_storm",
+  "Ability4": "leshrac_greater_lightning_storm",
+  "Ability5": "leshrac_defilement",
+  "Ability6": "leshrac_pulse_nova",
+  "AbilityDraftAbilities": {
+    "Ability1": "leshrac_split_earth",
+    "Ability2": "leshrac_diabolic_edict",
+    "Ability3": "leshrac_lightning_storm",
+    "Ability4": "leshrac_pulse_nova"
+  },
+  "Adjectives": {
+    "Blue": "1",
+    "Horns": "1",
+    "Legs": "4"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.400000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "31",
+  "AttackDamageMin": "27",
+  "AttackRange": "575",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "2.5",
+  "AttributeBaseAgility": "17",
+  "AttributeBaseIntelligence": "22",
+  "AttributeBaseStrength": "20",
+  "AttributeIntelligenceGain": "3.5",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.8",
+  "BanSound": "leshrac_lesh_anger_06",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER | DOTA_BOT_PUSH_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "0",
+      "SurvivalRating": "0"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "leshrac_attacks_mana": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "leshrac_chronoptic_nourishment"
+        }
+      },
+      "Color": "Blue",
+      "GradientID": "1",
+      "Icon": "mana"
+    },
+    "leshrac_misanthropy": {
+      "Color": "Purple",
+      "GradientID": "0",
+      "Icon": "nuke"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_leshrac.vsndevts",
+  "HeroGlowColor": "12 157 179",
+  "HeroID": "52",
+  "HeroOrderID": "38",
+  "HeroSelectSoundEffect": "Hero_Leshrac.Pick",
+  "HeroUnlockOrder": "1",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "0",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Misc",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "3",
+      "SlotName": "tail",
+      "SlotText": "#LoadoutSlot_Tail",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "4",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256",
+      "no_import": "1"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_1",
+      "SlotText": "leshrac_split_earth"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_2",
+      "SlotText": "leshrac_diabolic_edict"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_lion",
+  "Legs": "4",
+  "LoadoutScale": "0.84",
+  "Model": "models/heroes/leshrac/leshrac.vmdl",
+  "ModelScale": "0.840000",
+  "MovementSpeed": "325",
+  "NameAliases": "ts",
+  "PickSound": "leshrac_lesh_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_leshrac/leshrac_base_attack.vpcf",
+  "ProjectileSpeed": "900",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_leshrac/leshrac_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Support,Nuker,Pusher,Disabler",
+  "Rolelevels": "1,1,3,3,1",
+  "SimilarHeroes": "74,25,45",
+  "SoundSet": "Hero_Leshrac",
+  "SpectatorLoadoutScale": "0.78",
+  "Team": "Bad",
+  "VersusScale": "0.84",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_leshrac.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_leshrac",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_leshrac.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_leshrac.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_attack2": "2",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Leshrac"
+}

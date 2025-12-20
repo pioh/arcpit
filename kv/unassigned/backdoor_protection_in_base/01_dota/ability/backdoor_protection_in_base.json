@@ -1,0 +1,16 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityValues": {
+    "activation_time": {
+      "value": "15"
+    },
+    "radius": {
+      "value": "900"
+    },
+    "regen_rate": {
+      "value": "90"
+    }
+  },
+  "MaxLevel": "1"
+}

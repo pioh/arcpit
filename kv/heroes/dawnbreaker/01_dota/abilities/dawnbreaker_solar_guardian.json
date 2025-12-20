@@ -1,0 +1,59 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_CHANNELLED",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.1 0.1 0.1 0.1",
+  "AbilityCastRange": "0",
+  "AbilityChannelTime": "1.7",
+  "AbilityManaCost": "150 200 250",
+  "AbilityModifierSupportValue": "0.25",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_dawnbreaker_solar_guardian_cooldown": "-15",
+      "value": "120 105 90"
+    },
+    "airtime_duration": {
+      "value": "0.8"
+    },
+    "airtime_scepter_bonus": {
+      "special_bonus_scepter": "3.5"
+    },
+    "airtime_scepter_movement_speed": "200",
+    "base_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "30 50 70"
+    },
+    "base_heal": {
+      "special_bonus_scepter": "+15 20 25",
+      "value": "45 70 95"
+    },
+    "land_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "130 160 190"
+    },
+    "land_stun_duration": "1.4 1.6 1.8",
+    "max_offset_distance": "350",
+    "miss_rate": {
+      "special_bonus_scepter": "0"
+    },
+    "pulse_interval": "0.5",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_dawnbreaker_solar_guardian_radius": "+150",
+      "value": "500"
+    },
+    "scepter_aura_duration": {
+      "special_bonus_scepter": "2"
+    },
+    "scepter_channel_time": {
+      "special_bonus_scepter": "1.7"
+    }
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "LinkedAbility": "dawnbreaker_land",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

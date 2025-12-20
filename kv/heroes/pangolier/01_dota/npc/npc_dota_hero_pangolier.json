@@ -1,0 +1,203 @@
+{
+  "Ability1": "pangolier_swashbuckle",
+  "Ability10": "special_bonus_unique_pangolier_luckyshot_armor",
+  "Ability11": "special_bonus_unique_pangolier",
+  "Ability12": "special_bonus_unique_pangolier_4",
+  "Ability13": "special_bonus_unique_pangolier_shield_crash_herostacks",
+  "Ability14": "special_bonus_unique_pangolier_6",
+  "Ability15": "special_bonus_unique_pangolier_shield_crash_cooldown",
+  "Ability16": "special_bonus_unique_pangolier_3",
+  "Ability17": "special_bonus_unique_pangolier_5",
+  "Ability2": "pangolier_shield_crash",
+  "Ability3": "pangolier_lucky_shot",
+  "Ability4": "generic_hidden",
+  "Ability5": "pangolier_rollup",
+  "Ability6": "pangolier_gyroshell",
+  "Ability7": "pangolier_gyroshell_stop",
+  "Ability8": "pangolier_rollup_stop",
+  "Ability9": "pangolier_fortune_favors_the_bold",
+  "AbilityDraftAbilities": {
+    "Ability1": "pangolier_swashbuckle",
+    "Ability2": "pangolier_shield_crash",
+    "Ability3": "pangolier_lucky_shot",
+    "Ability4": "pangolier_gyroshell"
+  },
+  "Adjectives": {
+    "Fuzzy": "1",
+    "Parent": "1",
+    "Red": "1"
+  },
+  "ArmorPhysical": "2",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.330000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "32",
+  "AttackDamageMin": "26",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "170",
+    "faster": "275",
+    "fastest": "350"
+  },
+  "AttributeAgilityGain": "3.2",
+  "AttributeBaseAgility": "18",
+  "AttributeBaseIntelligence": "16",
+  "AttributeBaseStrength": "19",
+  "AttributeIntelligenceGain": "2.2",
+  "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+  "AttributeStrengthGain": "2.7",
+  "BanSound": "pangolin_ban",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "2",
+      "SurvivalRating": "1"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "pangolier_double_jump": {
+      "Color": "Red",
+      "Deprecated": "true",
+      "GradientID": "1",
+      "Icon": "double_bounce"
+    },
+    "pangolier_pangolier": {
+      "Color": "Blue",
+      "GradientID": "1",
+      "Icon": "cooldown"
+    },
+    "pangolier_thunderbolt": {
+      "Color": "Yellow",
+      "Deprecated": "true",
+      "GradientID": "1",
+      "Icon": "speed"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_pangolier.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HealthBarOffset": "180",
+  "HeroGlowColor": "94 49 76",
+  "HeroID": "120",
+  "HeroOrderID": "115",
+  "HeroSelectSoundEffect": "Hero_Pangolier.Pick",
+  "HeroUnlockOrder": "3",
+  "IdleExpression": "scenes/pangolin/pangolin_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "5000",
+      "MaxPolygonsLOD1": "2000",
+      "SlotIndex": "2",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "offhand_weapon",
+      "SlotText": "#LoadoutSlot_Offhand_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "SlotIndex": "4",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "5",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ability_effects_1",
+      "SlotText": "pangolier_swashbuckle"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_2",
+      "SlotText": "pangolier_shield_crash"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_sand_king",
+  "LoadoutScale": "0.9",
+  "Model": "models/heroes/pangolier/pangolier.vmdl",
+  "ModelScale": "0.9",
+  "MovementSpeed": "295",
+  "MovementSpeedActivityModifiers": {
+    "run": "400",
+    "walk": "0"
+  },
+  "MovementTurnRate": "0.900000",
+  "NameAliases": "ar",
+  "PickSound": "pangolin_pick",
+  "ReleaseTimestamp": "1509390000",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_pangolier/pangolier_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Nuker,Disabler,Durable,Escape,Initiator",
+  "Rolelevels": "2,2,1,1,2,2",
+  "SimilarHeroes": "108,38,129",
+  "SoundSet": "Hero_Pangolier",
+  "StatusHealthRegen": "1.25",
+  "Team": "Good",
+  "VersusScale": "0.9",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_pangolin.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_pangolier",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_pangolier.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_pangolier.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_attack2": "3",
+    "attach_head": "1",
+    "attach_weapon_tip": "4"
+  },
+  "workshop_guide_name": "Pangolier"
+}

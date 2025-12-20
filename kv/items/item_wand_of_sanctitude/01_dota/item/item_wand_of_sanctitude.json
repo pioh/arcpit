@@ -1,0 +1,18 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastRange": "350",
+  "AbilityCooldown": "40.0",
+  "AbilityValues": {
+    "all_stats": "15",
+    "bonus_cast_range": "200",
+    "duration": "6",
+    "duration_per_charge": "1.5",
+    "radius": "450",
+    "tick_rate": "1.5"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

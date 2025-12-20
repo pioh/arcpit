@@ -1,0 +1,11 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCooldown": "30 25 20 15",
+  "AbilityManaCost": "40",
+  "AbilityValues": {
+    "attack_speed": "30 45 60 75",
+    "duration": "5.0",
+    "night_multiplier": "2.0"
+  }
+}

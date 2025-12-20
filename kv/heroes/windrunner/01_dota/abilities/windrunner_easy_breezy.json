@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_SKIP_FOR_KEYBINDS",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityValues": {
+    "max_movespeed": {
+      "value": "600"
+    },
+    "min_movespeed": {
+      "value": "240"
+    }
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

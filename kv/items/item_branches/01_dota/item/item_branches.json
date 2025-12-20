@@ -1,0 +1,15 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "400",
+  "AbilityCooldown": "0.0",
+  "AbilityValues": {
+    "bonus_all_stats": "1",
+    "tree_duration": "20"
+  },
+  "ItemCost": "55",
+  "ItemQuality": "consumable",
+  "ItemShopTags": "agi;int;str",
+  "Model": "models/props_gameplay/branch.vmdl",
+  "SuggestPregame": "1"
+}

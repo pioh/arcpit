@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_6",
+  "AbilityCastPoint": "1.0",
+  "AbilityCooldown": "240.0",
+  "AbilityValues": {
+    "bonus_hp": "3",
+    "bonus_hp_tooltip": "1",
+    "bonus_levels": "3",
+    "courier_max_level": "30"
+  },
+  "Innate": "1",
+  "MaxLevel": "1"
+}

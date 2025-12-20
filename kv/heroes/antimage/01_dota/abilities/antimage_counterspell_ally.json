@@ -1,0 +1,37 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0 0 0 0",
+  "AbilityCastRange": "600",
+  "AbilityManaCost": "50",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "3"
+    },
+    "damage_from_mana_drain_percent": {
+      "special_bonus_facet_antimage_magebanes_mirror": "100"
+    },
+    "does_reflect": {
+      "value": "1"
+    },
+    "duration": "1.2",
+    "duration_illusion": "4",
+    "incoming_damage": "100",
+    "mana_drain_percent": {
+      "special_bonus_facet_antimage_magebanes_mirror": "=300"
+    },
+    "max_damage_from_mana_drain": {
+      "special_bonus_facet_antimage_magebanes_mirror": "400"
+    },
+    "outgoing_damage": "-25",
+    "reflected_spell_amp": {
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.15",
+  "AbilityCooldown": "14",
+  "AbilityManaCost": "80",
+  "AbilitySound": "Ability.Torrent",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityValues": {
+    "degen": "-50",
+    "duration": "4",
+    "max_damage_initial": "-1",
+    "pct_health_damage": "2",
+    "pct_health_damage_initial": "30",
+    "projectile_speed": "1000",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "550"
+    }
+  },
+  "FightRecapLevel": "1",
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

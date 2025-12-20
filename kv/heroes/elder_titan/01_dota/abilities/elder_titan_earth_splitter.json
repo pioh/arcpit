@@ -1,0 +1,45 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.4 0.4 0.4",
+  "AbilityCastRange": "2400",
+  "AbilityManaCost": "125 175 225",
+  "AbilitySound": "Hero_ElderTitan.EarthSplitter.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_elder_titan_3": "-60",
+      "value": "100"
+    },
+    "crack_distance": {
+      "value": "2400"
+    },
+    "crack_time": "2.7182",
+    "crack_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "315"
+    },
+    "damage_pct": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "34 42 50"
+    },
+    "slow_duration": "3.0 4.0 5.0",
+    "slow_duration_scepter": "4.0 5.0 6.0",
+    "slow_pct": "30 40 50",
+    "speed": "1100",
+    "total_steps": "12",
+    "vision_duration": "4.0",
+    "vision_interval": "0.22",
+    "vision_step": "200",
+    "vision_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

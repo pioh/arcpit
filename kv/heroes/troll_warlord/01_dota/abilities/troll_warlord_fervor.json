@@ -1,0 +1,32 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityValues": {
+    "armor_per_stack": {
+      "special_bonus_facet_troll_warlord_insensitive": "+1.0"
+    },
+    "attack_speed": {
+      "special_bonus_unique_troll_warlord_5": "+4",
+      "value": "15 20 25 30"
+    },
+    "base_chance": {
+      "special_bonus_shard": "16"
+    },
+    "extra_attack_chance_per_stack": {
+      "special_bonus_shard": "3"
+    },
+    "max_stacks": {
+      "value": "10"
+    },
+    "range_buffer": {
+      "special_bonus_shard": "=175"
+    },
+    "stack_limit_during_battle_trance": {
+      "special_bonus_facet_troll_warlord_bad_influence": "+12",
+      "value": "0"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

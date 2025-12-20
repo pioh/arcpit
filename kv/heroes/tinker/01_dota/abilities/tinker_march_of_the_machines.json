@@ -1,0 +1,36 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.53",
+  "AbilityCastRange": "300",
+  "AbilityCooldown": "35.0 33.0 31.0 29.0",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "100 120 140 160",
+  "AbilitySound": "Hero_Tinker.March_of_the_Machines",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "collision_radius": "50",
+    "damage": "13 22 31 40",
+    "distance": "1800",
+    "duration": {
+      "special_bonus_unique_tinker_march_duration": "+1.0",
+      "value": "6.0"
+    },
+    "heal_duration": {
+      "special_bonus_facet_tinker_repair_bots": "+4",
+      "value": "0"
+    },
+    "heal_per_second": {
+      "special_bonus_facet_tinker_repair_bots": "+14 +21 +28 +35",
+      "value": "0"
+    },
+    "machines_per_sec": "24",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "900"
+    },
+    "speed": "400",
+    "splash_radius": "150"
+  },
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,42 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "850",
+  "AbilityChannelTime": "5.1",
+  "AbilityCooldown": "15 12 9 6",
+  "AbilityManaCost": "0",
+  "AbilityModifierSupportValue": "5.0",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_FOW_VISIBLE | DOTA_UNIT_TARGET_FLAG_NO_INVIS",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "ally_pct": "50",
+    "break_distance": {
+      "special_bonus_shard": "+200",
+      "value": "1100"
+    },
+    "damage_pct": {
+      "special_bonus_facet_lion_essence_eater": "+100"
+    },
+    "duration": "5.0",
+    "magic_resist": {
+      "special_bonus_shard": "+60"
+    },
+    "mana_per_second": {
+      "value": "20 40 60 120"
+    },
+    "movespeed": {
+      "special_bonus_unique_lion_6": "+10",
+      "value": "15 20 25 30"
+    },
+    "movespeed_bonus_when_empty_pct": "15",
+    "shard_bonus_targets": {
+      "special_bonus_shard": "2"
+    },
+    "tick_interval": "0.1"
+  },
+  "HasShardUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

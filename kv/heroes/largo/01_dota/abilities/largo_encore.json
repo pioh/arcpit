@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "buff_amplification": {
+      "hero_levelup": "+1",
+      "value": "10"
+    },
+    "repeat_buff": {
+      "special_bonus_shard": "=1",
+      "value": "0"
+    }
+  },
+  "HasShardUpgrade": "1",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

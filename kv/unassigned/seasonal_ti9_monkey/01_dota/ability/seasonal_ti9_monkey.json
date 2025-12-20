@@ -1,0 +1,41 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_ITEM | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "400",
+  "AbilityCooldown": "45",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilityTextureName": "consumables/seasonal_ti9_monkey",
+  "AbilityValues": {
+    "attack_projectile_time": {
+      "value": "0.34"
+    },
+    "attack_range": {
+      "value": "1400"
+    },
+    "attack_time": {
+      "value": "6"
+    },
+    "debuff_time": {
+      "value": "2.5"
+    },
+    "duration": {
+      "value": "45"
+    },
+    "projectile_speed": {
+      "value": "1000"
+    },
+    "shoot_angle": {
+      "value": "90"
+    },
+    "turn_angle": {
+      "value": "45"
+    },
+    "turn_time": {
+      "value": "0.25"
+    }
+  },
+  "AssociatedConsumable": "17505",
+  "MaxLevel": "1"
+}

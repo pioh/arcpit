@@ -1,0 +1,46 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "625 550 475 400",
+  "AbilityManaCost": "50",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_shard": "-10",
+      "value": "45"
+    },
+    "active_movespeed_bonus": "6 9 12 15",
+    "break_on_attack": "0",
+    "buff_duration_after_break": {
+      "special_bonus_facet_phantom_assassin_veiled_one": "+5",
+      "value": "0"
+    },
+    "cooldown_refund_pct": {
+      "special_bonus_shard": "60"
+    },
+    "duration": "30",
+    "fade_duration": "0.4 0.6 0.8 1.0",
+    "immediate_cast": {
+      "special_bonus_shard": "0"
+    },
+    "manacost_reduction_after_blur_pct": {
+      "special_bonus_facet_phantom_assassin_veiled_one": "100",
+      "value": "0"
+    },
+    "manacost_reduction_during_blur_pct": {
+      "special_bonus_facet_phantom_assassin_veiled_one": "30",
+      "value": "0"
+    },
+    "purge_on_cast": {
+      "special_bonus_shard": "0"
+    },
+    "radius": "625 550 475 400"
+  },
+  "DependentOnAbility": "phantom_assassin_coup_de_grace",
+  "HasShardUpgrade": "1",
+  "Innate": "1",
+  "MaxLevel": "4",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

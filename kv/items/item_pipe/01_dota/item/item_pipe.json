@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastRange": "1200",
+  "AbilityCooldown": "60.0",
+  "AbilityManaCost": "150",
+  "AbilityValues": {
+    "aura_health_regen": "2.5",
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "barrier_block": "425",
+    "barrier_block_creep": "425",
+    "barrier_debuff_duration": "50.0",
+    "barrier_duration": "8.0",
+    "barrier_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "bonus_all_stats": "0",
+    "health_regen": "14.0",
+    "magic_resistance": "20",
+    "magic_resistance_aura": "8",
+    "tooltip_resist": "20"
+  },
+  "FightRecapLevel": "2",
+  "ItemAlertable": "1",
+  "ItemCost": "3725",
+  "ItemDeclarations": "DECLARE_PURCHASES_TO_TEAMMATES | DECLARE_PURCHASES_TO_SPECTATORS",
+  "ItemQuality": "rare",
+  "ItemShopTags": "regen_health;boost_magic_resist;teamfight;tank;magic_resist",
+  "SuggestLategame": "1"
+}

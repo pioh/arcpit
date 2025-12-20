@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "eye_of_the_storm_chance_multiplier": {
+      "special_bonus_facet_razor_thunderhead": "=2",
+      "value": "0"
+    },
+    "hit_targets_inside_eye_of_the_storm": {
+      "special_bonus_facet_razor_thunderhead": "=1",
+      "value": "0"
+    },
+    "strike_cd_reduction_during_storm": {
+      "special_bonus_facet_razor_thunderhead": "=2.0",
+      "value": "0"
+    },
+    "strike_damage": {
+      "special_bonus_unique_razor_storm_surge_damage_and_slow": "+25%",
+      "value": "50 90 130 170"
+    },
+    "strike_internal_cd": {
+      "value": "2.5"
+    },
+    "strike_move_slow_pct": {
+      "special_bonus_unique_razor_storm_surge_damage_and_slow": "+25",
+      "value": "25 30 35 40"
+    },
+    "strike_pct_chance": "20",
+    "strike_search_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "700"
+    },
+    "strike_slow_duration": "1.0",
+    "strike_target_count": "3"
+  },
+  "IsBreakable": "1"
+}

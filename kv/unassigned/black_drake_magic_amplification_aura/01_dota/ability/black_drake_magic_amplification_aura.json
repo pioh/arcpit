@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityValues": {
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "spell_amp": "5 6 7 9"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

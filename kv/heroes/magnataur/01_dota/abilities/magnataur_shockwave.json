@@ -1,0 +1,55 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCooldown": "13 12 11 10",
+  "AbilityDuration": "0.6875 0.6875 0.6875 0.6875",
+  "AbilityManaCost": "85 90 95 100",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "value": "1200"
+    },
+    "basic_slow_duration": {
+      "value": "0.4 0.6 0.8 1.0 1.0"
+    },
+    "max_level": {
+      "special_bonus_facet_magnataur_diminishing_return": "+1",
+      "value": "4"
+    },
+    "max_level_tooltip": {
+      "special_bonus_facet_magnataur_diminishing_return": "=5"
+    },
+    "movement_slow": "75",
+    "pull_distance": "150",
+    "pull_duration": "0.2",
+    "return_damage_pct": {
+      "special_bonus_facet_magnataur_diminishing_return": "=0 =0 =0 =0 =50",
+      "value": "0"
+    },
+    "return_damage_pct_tooltip": {
+      "special_bonus_facet_magnataur_diminishing_return": "=50",
+      "value": "0"
+    },
+    "return_shockwave_bonus_distance": {
+      "special_bonus_facet_magnataur_diminishing_return": "+200"
+    },
+    "shock_damage": {
+      "special_bonus_unique_magnus": "+125",
+      "value": "75 150 225 300 300"
+    },
+    "shock_speed": {
+      "value": "1200"
+    },
+    "shock_width": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "slow_duration": "2"
+  },
+  "FightRecapLevel": "1",
+  "HasShardUpgrade": "0",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

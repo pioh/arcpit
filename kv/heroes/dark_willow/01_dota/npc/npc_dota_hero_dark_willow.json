@@ -1,0 +1,230 @@
+{
+  "Ability1": "dark_willow_bramble_maze",
+  "Ability10": "special_bonus_unique_dark_willow_6",
+  "Ability11": "special_bonus_intelligence_10",
+  "Ability12": "special_bonus_unique_dark_willow_4",
+  "Ability13": "special_bonus_unique_dark_willow_7",
+  "Ability14": "special_bonus_unique_dark_willow_1",
+  "Ability15": "special_bonus_unique_dark_willow_3",
+  "Ability16": "special_bonus_unique_dark_willow_2",
+  "Ability17": "special_bonus_unique_dark_willow_bedlam_targets",
+  "Ability2": "dark_willow_shadow_realm",
+  "Ability3": "dark_willow_cursed_crown",
+  "Ability4": "dark_willow_bedlam",
+  "Ability5": "dark_willow_pixie_dust",
+  "Ability6": "dark_willow_terrorize",
+  "AbilityDraftAbilities": {
+    "Ability1": "dark_willow_bramble_maze",
+    "Ability2": "dark_willow_shadow_realm",
+    "Ability3": "dark_willow_cursed_crown",
+    "Ability4": "dark_willow_terrorize"
+  },
+  "AbilityPreview": {
+    "movie": "media/heroes/default",
+    "resource": [
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res",
+      "resource/UI/Heroes/default.res"
+    ]
+  },
+  "Adjectives": {
+    "Cute": "1",
+    "Female": "1",
+    "Flying": "1",
+    "Green": "1",
+    "Wings": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.30000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "35",
+  "AttackDamageMin": "27",
+  "AttackRange": "475",
+  "AttackRate": "1.500000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "200",
+    "faster": "300"
+  },
+  "AttributeAgilityGain": "1.6",
+  "AttributeBaseAgility": "18",
+  "AttributeBaseIntelligence": "21",
+  "AttributeBaseStrength": "20",
+  "AttributeIntelligenceGain": "3.5",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.0",
+  "BanSound": "dark_willow_ban",
+  "BaseAttackSpeed": "115",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "dark_willow_shattering_crown": {
+      "Color": "Green",
+      "GradientID": "4",
+      "Icon": "barrier"
+    },
+    "dark_willow_thorny_thicket": {
+      "Color": "Green",
+      "Deprecated": "true",
+      "GradientID": "4",
+      "Icon": "area_of_effect"
+    },
+    "dark_willow_throwing_shade": {
+      "Color": "Purple",
+      "GradientID": "1",
+      "Icon": "damage"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_dark_willow.vsndevts",
+  "GibType": "default",
+  "HealthBarOffset": "230",
+  "HeroGlowColor": "117 240 255",
+  "HeroID": "119",
+  "HeroOrderID": "114",
+  "HeroSelectSoundEffect": "Hero_DarkWillow.Pick",
+  "IdleExpression": "scenes/sylph/sylph_exp_idle_01.vcd",
+  "IdleSoundLoop": "Hero_DarkWillow.IdleLoop",
+  "ItemSlots": {
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1500",
+      "SlotIndex": "2",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "3",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Wings",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "GeneratesUnits": {
+        "0": "npc_dota_dark_willow_creature"
+      },
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "4",
+      "SlotName": "offhand_weapon",
+      "SlotText": "#LoadoutSlot_offhand_weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "750",
+      "SlotIndex": "5",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_1",
+      "SlotText": "dark_willow_bramble_maze"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_2",
+      "SlotText": "dark_willow_shadow_realm"
+    },
+    "11": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "11",
+      "SlotName": "ability_effects_3",
+      "SlotText": "dark_willow_cursed_crown"
+    },
+    "12": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "12",
+      "SlotName": "ability_effects_4",
+      "SlotText": "dark_willow_terrorize"
+    },
+    "13": {
+      "SlotIndex": "13",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_jakiro",
+  "LoadoutScale": "1",
+  "Model": "models/heroes/dark_willow/dark_willow.vmdl",
+  "ModelScale": "1",
+  "MovementSpeed": "290",
+  "MovementSpeedActivityModifiers": {
+    "run": "340",
+    "walk": "0"
+  },
+  "MovementTurnRate": "0.700000",
+  "NameAliases": "dw;Mireska",
+  "PickSound": "dark_willow_pick",
+  "ProjectileModel": "particles/units/heroes/hero_dark_willow/dark_willow_base_attack.vpcf",
+  "ProjectileSpeed": "1200",
+  "ReleaseTimestamp": "1509390000",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_dark_willow/dark_willow_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Support,Nuker,Disabler,Escape",
+  "Rolelevels": "2,2,1,2",
+  "SimilarHeroes": "21,128,9",
+  "SoundSet": "Hero_DarkWillow",
+  "SpectatorLoadoutScale": "0.8",
+  "StatusHealthRegen": "0.75",
+  "Team": "Good",
+  "VersusScale": "1",
+  "VisionNighttimeRange": "800",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_dark_willow.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_dark_willow",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_dark_willow.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_dark_willow.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_head": "1",
+    "attach_lantern": "2"
+  },
+  "workshop_guide_name": "Dark Willow"
+}

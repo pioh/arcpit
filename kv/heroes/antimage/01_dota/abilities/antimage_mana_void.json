@@ -1,0 +1,67 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "600",
+  "AbilityDraftExtraAbilities": {
+    "antimage_mana_overload": "scepter"
+  },
+  "AbilityManaCost": "100 150 200",
+  "AbilityModifierSupportValue": "0.0",
+  "AbilitySound": "Hero_Antimage.ManaVoid",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_antimage_2": "-50",
+      "value": "70"
+    },
+    "bonus_attack_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "special_bonus_facet_antimage_mana_thirst": "20 45 70"
+    },
+    "linger_duration": {
+      "special_bonus_facet_antimage_mana_thirst": "4.0"
+    },
+    "mana_void_aoe_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_antimage_manavoid_aoe": "+200",
+      "value": "500"
+    },
+    "mana_void_damage_per_mana": {
+      "special_bonus_unique_antimage_6": "+0.2",
+      "value": "0.8 0.95 1.1"
+    },
+    "mana_void_ministun": {
+      "special_bonus_unique_antimage_8": "+0.8",
+      "value": "0.3"
+    },
+    "max_bonus_pct": {
+      "special_bonus_facet_antimage_mana_thirst": "+15",
+      "value": "0"
+    },
+    "min_bonus_pct": {
+      "special_bonus_facet_antimage_mana_thirst": "+60",
+      "value": "0"
+    },
+    "thirst_enabled": {
+      "special_bonus_facet_antimage_mana_thirst": "+1",
+      "value": "0"
+    },
+    "thirst_range": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_antimage_mana_thirst": "+2500",
+      "value": "0"
+    },
+    "threshold_pct": {
+      "special_bonus_facet_antimage_mana_thirst": "+15",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "2",
+  "IsBreakable": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

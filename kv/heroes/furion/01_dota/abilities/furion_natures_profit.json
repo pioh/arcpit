@@ -1,0 +1,19 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_INNATE_UI | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "AbilityValues": {
+    "bags_per_tick": {
+      "special_bonus_unique_furion_8": "+1",
+      "value": "2"
+    },
+    "hero_level_gold_multiplier": "2.0",
+    "initial_spawn_time": "2",
+    "max_throw_range": "250",
+    "min_throw_range": "200",
+    "radius": "750",
+    "tick_interval": "1",
+    "tree_duration": "3"
+  },
+  "IsBreakable": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO"
+}

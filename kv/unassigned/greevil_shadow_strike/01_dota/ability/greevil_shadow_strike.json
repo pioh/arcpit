@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "400",
+  "AbilityCooldown": "12.0",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "customval_duration_damage": {
+      "value": "10 15 20"
+    },
+    "customval_strike_damage": {
+      "value": "20 25 30"
+    },
+    "duration": {
+      "value": "6"
+    },
+    "movement_slow": {
+      "value": "-40"
+    },
+    "projectile_speed": {
+      "value": "900"
+    }
+  }
+}

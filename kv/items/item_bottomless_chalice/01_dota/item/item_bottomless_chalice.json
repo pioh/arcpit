@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_OPTIONAL_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_SUPPRESS_ASSOCIATED_CONSUMABLE",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "350",
+  "AbilityCooldown": "0.5",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "bonus_intellect": "40",
+    "duration": "3",
+    "health": "200",
+    "mana": "70",
+    "max_charges_per_kill": "1",
+    "movement_speed": "30",
+    "recharge_time": "10",
+    "stored_rune_duration": "90"
+  },
+  "FightRecapLevel": "1",
+  "IsTempestDoubleClonable": "0",
+  "ItemCost": "0",
+  "ItemDisplayCharges": "1",
+  "ItemInitialCharges": "6",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

@@ -1,0 +1,5 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_HIDDEN",
+  "DependentOnAbility": "dazzle_nothl_projection",
+  "MaxLevel": "3"
+}

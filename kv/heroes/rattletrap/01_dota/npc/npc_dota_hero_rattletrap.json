@@ -1,0 +1,200 @@
+{
+  "Ability1": "rattletrap_battery_assault",
+  "Ability10": "special_bonus_unique_clockwerk_7",
+  "Ability11": "special_bonus_unique_clockwerk_hookshot_damage",
+  "Ability12": "special_bonus_unique_clockwerk_5",
+  "Ability13": "special_bonus_unique_clockwerk_3",
+  "Ability14": "special_bonus_unique_clockwerk_4",
+  "Ability15": "special_bonus_unique_clockwerk_2",
+  "Ability16": "special_bonus_unique_clockwerk_6",
+  "Ability17": "special_bonus_unique_clockwerk",
+  "Ability2": "rattletrap_power_cogs",
+  "Ability3": "rattletrap_rocket_flare",
+  "Ability4": "rattletrap_overclocking",
+  "Ability5": "rattletrap_jetpack",
+  "Ability6": "rattletrap_hookshot",
+  "Ability7": "rattletrap_armor_power",
+  "Ability8": "rattletrap_jetpack_toggle",
+  "AbilityDraftAbilities": {
+    "Ability1": "rattletrap_battery_assault",
+    "Ability2": "rattletrap_power_cogs",
+    "Ability3": "rattletrap_rocket_flare",
+    "Ability4": "rattletrap_hookshot"
+  },
+  "Adjectives": {
+    "Arachnophobic": "1",
+    "Red": "1"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.330000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "26",
+  "AttackDamageMin": "24",
+  "AttackRange": "150",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "2.3",
+  "AttributeBaseAgility": "13",
+  "AttributeBaseIntelligence": "18",
+  "AttributeBaseStrength": "26",
+  "AttributeIntelligenceGain": "1.7",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.2",
+  "BanSound": "rattletrap_ratt_anger_06",
+  "BaseAttackSpeed": "100",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "2",
+      "SurvivalRating": "1"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "rattletrap_expanded_armature": {
+      "Color": "Red",
+      "GradientID": "2",
+      "Icon": "area_of_effect"
+    },
+    "rattletrap_hookup": {
+      "Color": "Gray",
+      "GradientID": "2",
+      "Icon": "cooldown"
+    },
+    "rattletrap_junk_mail": {
+      "Color": "Yellow",
+      "GradientID": "1",
+      "Icon": "armor"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_rattletrap.vsndevts",
+  "GibType": "motor",
+  "HeroGlowColor": "252 220 64",
+  "HeroID": "51",
+  "HeroOrderID": "31",
+  "HeroSelectSoundEffect": "Hero_Rattletrap.Pick",
+  "HeroUnlockOrder": "3",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "2",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "400",
+      "SlotIndex": "3",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Clockwerk_Rocket",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "GeneratesUnits": {
+        "0": "npc_dota_rattletrap_cog"
+      },
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "4",
+      "SlotName": "ability2",
+      "SlotText": "#LoadoutSlot_Clockwerk_Cogs",
+      "TextureHeight": "256",
+      "TextureWidth": "256",
+      "no_import": "1"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_3",
+      "SlotText": "rattletrap_rocket_flare"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_4",
+      "SlotText": "rattletrap_hookshot"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_sand_king",
+  "LoadoutScale": "0.88",
+  "Model": "models/heroes/rattletrap/rattletrap.vmdl",
+  "ModelScale": "0.880000",
+  "MovementSpeed": "310",
+  "NameAliases": "Rattletrap;cw",
+  "PickSound": "rattletrap_ratt_spawn_05",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_rattletrap/clock_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Initiator,Disabler,Durable,Nuker",
+  "Rolelevels": "3,2,1,1",
+  "SimilarHeroes": "17,71,100",
+  "SoundSet": "Hero_Rattletrap",
+  "SpectatorLoadoutScale": "1",
+  "StatusHealthRegen": "0.5",
+  "Team": "Good",
+  "VersusScale": "0.88",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_rattletrap.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_rattletrap",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_rattletrap.vpcf"
+  },
+  "precache": {
+    "model": "models/heroes/rattletrap/rattletrap_cog.vmdl",
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_rattletrap.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_hand2": "4",
+    "attach_head": "1",
+    "attach_rocket": "2"
+  },
+  "workshop_guide_name": "Clockwerk"
+}

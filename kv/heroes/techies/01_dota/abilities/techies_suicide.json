@@ -1,0 +1,39 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_NORMAL_WHEN_STOLEN | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "1.0",
+  "AbilityCastRange": "1000",
+  "AbilityManaCost": "100 125 150 175",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_techies_5": "-15",
+      "value": "40 35 30 25"
+    },
+    "damage": {
+      "special_bonus_unique_techies": "+200",
+      "value": "200 300 400 500"
+    },
+    "duration": "0.75",
+    "hp_cost": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PURE",
+      "value": "20"
+    },
+    "hp_dmg": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PURE",
+      "special_bonus_facet_techies_spleens_secret_sauce": "=15",
+      "value": "0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "400"
+    },
+    "stun_duration": "0.8 1 1.2 1.4"
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

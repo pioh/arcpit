@@ -1,0 +1,334 @@
+{
+  "Ability1": "dragon_knight_breathe_fire",
+  "Ability10": "special_bonus_attack_damage_15",
+  "Ability11": "special_bonus_unique_dragon_knight_3",
+  "Ability12": "special_bonus_unique_dragon_knight_2",
+  "Ability13": "special_bonus_hp_300",
+  "Ability14": "special_bonus_unique_dragon_knight_7",
+  "Ability15": "special_bonus_unique_dragon_knight_9",
+  "Ability16": "special_bonus_unique_dragon_knight",
+  "Ability17": "special_bonus_unique_dragon_knight_8",
+  "Ability2": "dragon_knight_dragon_tail",
+  "Ability3": "dragon_knight_dragon_blood",
+  "Ability4": "dragon_knight_fireball",
+  "Ability5": "generic_hidden",
+  "Ability6": "dragon_knight_elder_dragon_form",
+  "Ability7": "dragon_knight_inherited_vigor",
+  "AbilityDraftAbilities": {
+    "Ability1": "dragon_knight_breathe_fire",
+    "Ability2": "dragon_knight_dragon_tail",
+    "Ability3": "dragon_knight_dragon_blood",
+    "Ability4": "dragon_knight_elder_dragon_form"
+  },
+  "Adjectives": {
+    "Fiery": "1",
+    "Red": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "40",
+  "AttackDamageMin": "34",
+  "AttackRange": "150",
+  "AttackRangeActivityModifiers": {
+    "attack_closest_range": "0",
+    "attack_normal_range": "90"
+  },
+  "AttackRate": "1.600000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "140"
+  },
+  "AttributeAgilityGain": "2.000000",
+  "AttributeBaseAgility": "14",
+  "AttributeBaseIntelligence": "18",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "1.700000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.600000",
+  "BanSound": "dragon_knight_drag_anger_06",
+  "Bot": {
+    "Build": {
+      "1": "dragon_knight_breathe_fire",
+      "2": "dragon_knight_dragon_blood",
+      "3": "dragon_knight_breathe_fire",
+      "4": "dragon_knight_dragon_tail",
+      "5": "dragon_knight_breathe_fire",
+      "6": "dragon_knight_elder_dragon_form",
+      "7": "dragon_knight_breathe_fire",
+      "8": "dragon_knight_dragon_blood",
+      "9": "dragon_knight_dragon_blood",
+      "10": "special_bonus_attack_damage_15",
+      "11": "dragon_knight_dragon_blood",
+      "12": "dragon_knight_elder_dragon_form",
+      "13": "dragon_knight_dragon_tail",
+      "14": "dragon_knight_dragon_tail",
+      "15": "special_bonus_hp_300",
+      "16": "dragon_knight_dragon_tail",
+      "17": "",
+      "18": "dragon_knight_elder_dragon_form",
+      "19": "",
+      "20": "special_bonus_unique_dragon_knight_7",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_dragon_knight"
+    },
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_STUN_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "2",
+      "RequiresSetup": "1",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    },
+    "Loadout": {
+      "item_armlet": "ITEM_DERIVED",
+      "item_assault": "ITEM_DERIVED",
+      "item_belt_of_strength": "ITEM_CORE",
+      "item_black_king_bar": "ITEM_DERIVED",
+      "item_blades_of_attack": "ITEM_CORE",
+      "item_boots": "ITEM_CORE",
+      "item_buckler": "ITEM_DERIVED",
+      "item_claymore": "ITEM_LUXURY",
+      "item_flask": "ITEM_CORE | ITEM_SELLABLE",
+      "item_gloves": [
+        "ITEM_CORE",
+        "ITEM_CORE"
+      ],
+      "item_helm_of_iron_will": "ITEM_CORE",
+      "item_hyperstone": "ITEM_LUXURY",
+      "item_lifesteal": "ITEM_LUXURY",
+      "item_mithril_hammer": "ITEM_LUXURY",
+      "item_ogre_axe": "ITEM_LUXURY",
+      "item_platemail": "ITEM_LUXURY",
+      "item_power_treads": "ITEM_DERIVED",
+      "item_reaver": "ITEM_LUXURY",
+      "item_recipe_armlet": "ITEM_CORE",
+      "item_recipe_assault": "ITEM_LUXURY",
+      "item_recipe_black_king_bar": "ITEM_LUXURY",
+      "item_recipe_buckler": "ITEM_LUXURY",
+      "item_recipe_satanic": "ITEM_LUXURY",
+      "item_ring_of_protection": "ITEM_LUXURY",
+      "item_satanic": "ITEM_DERIVED",
+      "item_tango": "ITEM_CORE | ITEM_SELLABLE"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "dragon_knight_corrosive_dragon": {
+      "Color": "Green",
+      "GradientID": "0",
+      "Icon": "dragon_poison"
+    },
+    "dragon_knight_fire_dragon": {
+      "Color": "Red",
+      "GradientID": "1",
+      "Icon": "dragon_fire"
+    },
+    "dragon_knight_frost_dragon": {
+      "Color": "Blue",
+      "GradientID": "0",
+      "Icon": "dragon_frost"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_dragon_knight.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "1",
+  "HeroGlowColor": "209 143 71",
+  "HeroID": "49",
+  "HeroOrderID": "58",
+  "HeroPool1": "1",
+  "HeroPool2": "1",
+  "HeroSelectSoundEffect": "Hero_DragonKnight.Pick",
+  "HeroUnlockOrder": "0",
+  "IdleExpression": "scenes/dragon_knight/dragon_knight_exp_idle_01.vcd",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "2",
+      "SlotName": "offhand_weapon",
+      "SlotText": "#LoadoutSlot_Shield",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "3",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "4",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "5",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "6": {
+      "LoadoutPreviewMode": "transformation",
+      "MaxPolygonsLOD0": "16000",
+      "MaxPolygonsLOD1": "6400",
+      "SlotIndex": "6",
+      "SlotName": "shapeshift",
+      "SlotText": "#LoadoutSlot_Elder_Dragon",
+      "TextureHeight": "1024",
+      "TextureWidth": "1024",
+      "no_import": "1"
+    },
+    "7": {
+      "SlotIndex": "7",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "head_persona_1",
+      "SlotText": "#LoadoutSlot_Head"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "armor_persona_1",
+      "SlotText": "#LoadoutSlot_Armor"
+    },
+    "10": {
+      "SlotIndex": "10",
+      "SlotName": "weapon_persona_1",
+      "SlotText": "#LoadoutSlot_Weapon"
+    },
+    "11": {
+      "LoadoutPreviewMode": "transformation",
+      "SlotIndex": "11",
+      "SlotName": "shapeshift_persona_1",
+      "SlotText": "#LoadoutSlot_Persona_Elder_Dragon",
+      "no_import": "1"
+    },
+    "12": {
+      "DisplayInLoadout": "1",
+      "SlotIndex": "12",
+      "SlotName": "taunt_persona_1",
+      "SlotText": "#LoadoutSlot_Taunt_Antimage_Persona"
+    },
+    "13": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "13",
+      "SlotName": "ability_effects_2",
+      "SlotText": "dragon_knight_dragon_tail"
+    },
+    "14": {
+      "SlotIndex": "14",
+      "SlotName": "persona_selector",
+      "SlotText": "#LoadoutSlot_Persona_Selector"
+    },
+    "15": {
+      "SlotIndex": "15",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    },
+    "16": {
+      "SlotIndex": "16",
+      "SlotName": "hero_effigy_persona_1",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_sven",
+  "Model": "models/heroes/dragon_knight/dragon_knight.vmdl",
+  "ModelScale": "0.840000",
+  "MovementSpeed": "315",
+  "NameAliases": "dk,davion,dragon's blood",
+  "Persona": {
+    "1": {
+      "Model": "models/heroes/dragon_knight_persona/dk_persona_base.vmdl",
+      "mvp_map_override": "maps/scenes/mvp/mvp_dragon_knight_persona.vmap",
+      "name": "npc_dota_hero_dragon_knight_persona1",
+      "token": "#npc_dota_hero_dragon_knight_persona1",
+      "token_english": "#npc_dota_hero_dragon_knight_persona1__en"
+    }
+  },
+  "PickSound": "dragon_knight_drag_spawn_01",
+  "ProjectileSpeed": "900",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_dragon_knight/dragon_knight_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Pusher,Durable,Disabler,Initiator,Nuker",
+  "Rolelevels": "2,3,2,2,1,1",
+  "SimilarHeroes": "18,109,42",
+  "SoundSet": "Hero_DragonKnight",
+  "Team": "Good",
+  "TransformedLoadoutScale": "1.00",
+  "VersusScale": "0.84",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_dragon_knight.vsndevts",
+  "animation_transitions": {
+    "ACT_DOTA_IDLE": {
+      "regular": "0.50000"
+    },
+    "ACT_DOTA_RUN": {
+      "regular": "0.300000"
+    }
+  },
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_dragon_knight",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_dragon_knight.vpcf",
+    "party_hat_effect_persona_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_dragon_knight_persona1.vpcf"
+  },
+  "precache": {
+    "model": "models/heroes/dragon_knight/dragon_knight_dragon.vmdl",
+    "particle": [
+      "particles/units/heroes/hero_dragon_knight/dragon_knight_elder_dragon_corrosive.vpcf",
+      "particles/units/heroes/hero_dragon_knight/dragon_knight_elder_dragon_fire.vpcf",
+      "particles/units/heroes/hero_dragon_knight/dragon_knight_elder_dragon_frost.vpcf",
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_dragon_knight.vpcf",
+      "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_dragon_knight_persona1.vpcf"
+    ]
+  },
+  "showcase_attachments": {
+    "attach_attack1": "3",
+    "attach_attack2": "2",
+    "attach_head": "1"
+  },
+  "workshop_guide_name": "Dragon Knight"
+}

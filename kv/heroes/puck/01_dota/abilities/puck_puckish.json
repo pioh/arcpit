@@ -1,0 +1,17 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "dodged_spell_multiplier": "3.5",
+    "hp_restore_base": "10",
+    "hp_restore_pct": {
+      "value": "2"
+    },
+    "mana_restore_base": "10",
+    "mana_restore_pct": {
+      "value": "2"
+    }
+  },
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "1"
+}

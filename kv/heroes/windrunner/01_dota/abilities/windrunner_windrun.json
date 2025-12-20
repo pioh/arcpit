@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IMMEDIATE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityDuration": "3 4 5 6",
+  "AbilityManaCost": "50",
+  "AbilityModifierSupportValue": "0.1",
+  "AbilitySound": "Ability.Windrun",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_windranger_4": "-2",
+      "value": "15 14 13 12"
+    },
+    "ally_movespeed_bonus_pct": {
+      "special_bonus_facet_windrunner_tailwind": "=15"
+    },
+    "cannot_be_dispelled": {
+      "special_bonus_unique_windranger_windrun_undispellable": "+1"
+    },
+    "duration": "3 4 5 6",
+    "enemy_movespeed_bonus_pct": {
+      "value": "0"
+    },
+    "evasion_pct_tooltip": "100",
+    "movespeed_bonus_pct": "60",
+    "physical_damage_pct": {
+      "special_bonus_scepter": "-45"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_windrunner_tailwind": "700"
+    },
+    "scepter_movespeed_bonus_pct": {
+      "special_bonus_scepter": "0"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

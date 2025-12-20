@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.0 0.0 0.0 0.0",
+  "AbilityCastRange": "150",
+  "AbilityCooldown": "16 14 12 10",
+  "AbilityManaCost": "70 80 90 100",
+  "AbilitySound": "Hero_DragonKnight.DragonTail.Target",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "damage": "60 90 120 150",
+    "damage_pct": "0",
+    "dragon_aoe": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_facet_dragon_knight_fire_dragon": "100"
+    },
+    "dragon_cast_range": "450",
+    "physical_damage_type": {
+      "special_bonus_facet_dragon_knight_corrosive_dragon": "+1",
+      "value": "0"
+    },
+    "projectile_speed": "1600",
+    "stun_duration": {
+      "special_bonus_unique_dragon_knight_2": "+0.4",
+      "value": "1.8 2.0 2.2 2.4"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

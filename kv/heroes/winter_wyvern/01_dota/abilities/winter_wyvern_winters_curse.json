@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "800",
+  "AbilityCooldown": "100 90 80",
+  "AbilityManaCost": "150 200 250",
+  "AbilitySound": "Hero_WinterWyvern.WintersCurse.Target",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "bonus_attack_speed": {
+      "special_bonus_unique_winter_wyvern_3": "+60",
+      "value": "65"
+    },
+    "bonus_duration_per_creep": "0.5",
+    "bonus_duration_per_hero": "2",
+    "damage_reduction": "100",
+    "duration": "2",
+    "max_duration": "4 5.5 7",
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "525"
+    },
+    "transfer_duration_pct": {
+      "special_bonus_facet_winter_wyvern_recursive": "=50.0",
+      "value": "0"
+    },
+    "transfer_on_death": {
+      "special_bonus_facet_winter_wyvern_recursive": "=1",
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

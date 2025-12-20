@@ -1,0 +1,35 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "200",
+  "AbilityManaCost": "125 150 175",
+  "AbilitySound": "Hero_Batrider.FlamingLasso.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_batrider_6": "-8",
+      "value": "90 75 60"
+    },
+    "break_distance": "425",
+    "damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "200 350 500"
+    },
+    "drag_distance": "300 300 300",
+    "duration": "2.25 2.75 3.25",
+    "grab_radius_scepter": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "+650"
+    },
+    "tick_rate": "0.5"
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

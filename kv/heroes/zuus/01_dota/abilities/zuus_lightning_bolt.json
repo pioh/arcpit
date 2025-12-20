@@ -1,0 +1,46 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "700 750 800 850",
+  "AbilityCooldown": "6.0 6.0 6.0 6.0",
+  "AbilityManaCost": "120 125 130 135",
+  "AbilityModifierSupportValue": "0.1",
+  "AbilitySound": "Hero_Zuus.LightningBolt",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "aoe_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_zeus_5": "325"
+    },
+    "creep_damage_bonus_pct": "0",
+    "damage": {
+      "value": "140 220 300 380"
+    },
+    "ministun_duration": {
+      "special_bonus_unique_zeus_3": "+0.5",
+      "value": "0.35"
+    },
+    "sight_duration": "5",
+    "sight_radius_day": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "sight_radius_night": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "spread_aoe": {
+      "affected_by_aoe_increase": "1",
+      "value": "325"
+    },
+    "true_sight_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

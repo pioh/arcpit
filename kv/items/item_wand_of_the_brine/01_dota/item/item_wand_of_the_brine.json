@@ -1,0 +1,23 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_IMMEDIATE | DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_CHANNEL | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
+  "AbilityCastRange": "550",
+  "AbilityCooldown": "35.0",
+  "AbilityManaCost": "90",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "damage_reduction": "50",
+    "duration": "3",
+    "heal": "40",
+    "heal_increase": "15",
+    "interval": "0.5",
+    "movement_speed": "50"
+  },
+  "FightRecapLevel": "1",
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

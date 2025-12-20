@@ -1,0 +1,14 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "health_bonus": "110 150 190 230",
+    "health_regen": "0 3 6 9",
+    "slow_resist": "0 0 0 25"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralPassiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "MaxLevel": "4",
+  "Model": "models/props_gameplay/neutral_box.vmdl"
+}

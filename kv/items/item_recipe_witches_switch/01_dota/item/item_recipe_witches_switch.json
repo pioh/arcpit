@@ -1,0 +1,11 @@
+{
+  "ItemCost": "625",
+  "ItemPurchasable": "0",
+  "ItemRecipe": "1",
+  "ItemRequirements": {
+    "01": "item_buckler;item_ring_of_basilius;item_headdress"
+  },
+  "ItemResult": "item_witches_switch",
+  "ItemShopTags": "",
+  "Model": "models/props_gameplay/recipe.vmdl"
+}

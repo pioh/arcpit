@@ -1,0 +1,213 @@
+{
+  "Ability1": "magnataur_shockwave",
+  "Ability10": "special_bonus_mp_regen_150",
+  "Ability11": "special_bonus_unique_magnus_6",
+  "Ability12": "special_bonus_unique_magnus_reverse_polarity_stats",
+  "Ability13": "special_bonus_unique_magnus_7",
+  "Ability14": "special_bonus_unique_magnus",
+  "Ability15": "special_bonus_unique_magnus_skewer_damage_distance",
+  "Ability16": "special_bonus_unique_magnus_2",
+  "Ability17": "special_bonus_unique_magnus_5",
+  "Ability2": "magnataur_empower",
+  "Ability3": "magnataur_skewer",
+  "Ability4": "magnataur_horn_toss",
+  "Ability5": "magnataur_solid_core",
+  "Ability6": "magnataur_reverse_polarity",
+  "AbilityDraftAbilities": {
+    "Ability1": "magnataur_shockwave",
+    "Ability2": "magnataur_empower",
+    "Ability3": "magnataur_skewer",
+    "Ability4": "magnataur_reverse_polarity"
+  },
+  "Adjectives": {
+    "Fuzzy": "1",
+    "Horns": "1",
+    "Legs": "4"
+  },
+  "ArmorPhysical": "1",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "39",
+  "AttackDamageMin": "31",
+  "AttackRange": "200",
+  "AttackRate": "1.800000",
+  "AttributeAgilityGain": "2.0",
+  "AttributeBaseAgility": "12",
+  "AttributeBaseIntelligence": "20",
+  "AttributeBaseStrength": "23",
+  "AttributeIntelligenceGain": "2.1",
+  "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+  "AttributeStrengthGain": "3.1",
+  "BanSound": "magnataur_magn_anger_07",
+  "Bot": {
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_STUN_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "1",
+      "RequiresSetup": "1",
+      "SoloDesire": "0",
+      "SurvivalRating": "2"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "magnataur_diminishing_return": {
+      "Color": "Blue",
+      "GradientID": "2",
+      "Icon": "ricochet",
+      "MaxHeroAttributeLevel": "6"
+    },
+    "magnataur_eternal_empowerment": {
+      "Color": "Gray",
+      "GradientID": "1",
+      "Icon": "empower"
+    },
+    "magnataur_reverse_polarity": {
+      "Color": "Gray",
+      "Deprecated": "true",
+      "GradientID": "3",
+      "Icon": "vortex_in"
+    },
+    "magnataur_reverse_reverse_polarity": {
+      "AbilityIconReplacements": {
+        "magnataur_reverse_polarity": "magnataur_reversed_reverse_polarity"
+      },
+      "Color": "Gray",
+      "Deprecated": "true",
+      "GradientID": "0",
+      "Icon": "vortex_out"
+    },
+    "magnataur_run_through": {
+      "Color": "Gray",
+      "Deprecated": "true",
+      "GradientID": "3",
+      "Icon": "movement"
+    }
+  },
+  "GameSoundsFile": [
+    "soundevents/game_sounds_heroes/game_sounds_magnataur.vsndevts",
+    "soundevents/game_sounds_heroes/game_sounds_magnataur.vsndevts"
+  ],
+  "GibType": "default",
+  "HeroID": "97",
+  "HeroOrderID": "92",
+  "HeroSelectSoundEffect": "Hero_Magnataur.Pick",
+  "HeroUnlockOrder": "0",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "1",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Misc",
+      "TextureHeight": "256",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "3",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "SlotIndex": "6",
+      "SlotName": "costume",
+      "SlotText": "#LoadoutSlot_Costume"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_4",
+      "SlotText": "magnataur_reverse_polarity"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_1",
+      "SlotText": "magnataur_shockwave"
+    },
+    "9": {
+      "SlotIndex": "9",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_tidehunter",
+  "LoadoutScale": "0.92",
+  "Model": "models/heroes/magnataur/magnataur.vmdl",
+  "ModelScale": "0.920000",
+  "MovementSpeed": "305",
+  "MovementTurnRate": "0.800000",
+  "NameAliases": "magnataur, magnus",
+  "PickSound": "magnataur_magn_spawn_06",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_magnataur/magnus_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Initiator,Disabler,Nuker,Escape",
+  "Rolelevels": "3,2,1,1",
+  "SimilarHeroes": "23,129,18",
+  "SoundSet": "Hero_Magnataur",
+  "StatusHealthRegen": "0.5",
+  "StatusManaRegen": "0.5",
+  "Team": "Bad",
+  "VersusScale": "0.92",
+  "VisionDaytimeRange": "1800",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_magnataur.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_magnataur",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_magnataur.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_magnataur.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "2",
+    "attach_head": "3",
+    "attach_horn": "1"
+  },
+  "workshop_guide_name": "Magnus"
+}

@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_ITEM",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "600",
+  "AbilityCooldown": "30",
+  "AbilityDamage": "0",
+  "AbilityManaCost": "0",
+  "AbilitySharedCooldown": "frostivus2018_consumable",
+  "AbilityTextureName": "consumables/frostivus2018_summon_snowman",
+  "AbilityValues": {
+    "duration": {
+      "value": "15"
+    },
+    "taunt_duration": {
+      "value": "2"
+    },
+    "taunt_radius": {
+      "value": "300"
+    },
+    "tick_rate": {
+      "value": "3"
+    }
+  },
+  "AssociatedConsumable": "17472",
+  "MaxLevel": "1"
+}

@@ -1,0 +1,57 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_CHANNELLED | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.3 0.3 0.3",
+  "AbilityCastRange": "200",
+  "AbilityChannelAnimation": "ACT_DOTA_CHANNEL_ABILITY_4",
+  "AbilityManaCost": "100 130 170",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityChannelTime": {
+      "special_bonus_unique_pudge_6": "+0.75",
+      "value": "2.75 2.75 2.75"
+    },
+    "AbilityCooldown": {
+      "value": "30 25 20"
+    },
+    "animation_rate": "1.5",
+    "dismember_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "special_bonus_unique_pudge_3": "x1.5",
+      "value": "80 100 120"
+    },
+    "glutton_strength_stack_duration": {
+      "special_bonus_facet_pudge_fresh_meat": "12"
+    },
+    "gluttony_strength_bonus": {
+      "special_bonus_facet_pudge_fresh_meat": "2 4 6"
+    },
+    "order_lock_duration": {
+      "special_bonus_shard": "2.75"
+    },
+    "pull_distance_limit": "125",
+    "pull_units_per_second": "75",
+    "shard_cast_range": {
+      "special_bonus_shard": "300"
+    },
+    "shard_regen_pct": {
+      "special_bonus_shard": "5"
+    },
+    "strength_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "special_bonus_unique_pudge_3": "x1.8",
+      "value": "0.3 0.6 0.9"
+    },
+    "ticks": {
+      "special_bonus_unique_pudge_6": "+2",
+      "value": "6"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

@@ -1,0 +1,54 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_6",
+  "AbilityCastPoint": "0.4",
+  "AbilityDraftExtraAbilities": {
+    "bloodseeker_blood_mist": "scepter"
+  },
+  "AbilityManaCost": "100 150 200",
+  "AbilityModifierSupportValue": "0.0",
+  "AbilitySound": "hero_bloodseeker.rupture",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityUnitTargetFlags": "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastRange": {
+      "special_bonus_unique_bloodseeker_3": "+425",
+      "value": "800"
+    },
+    "AbilityCharges": {
+      "special_bonus_scepter": "+2",
+      "value": "0"
+    },
+    "AbilityCooldown": "75 70 65",
+    "damage_cap_amount": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "200"
+    },
+    "duration": "9 10 11",
+    "hp_pct": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PURE",
+      "special_bonus_scepter": "+3",
+      "value": "10"
+    },
+    "knockback": {
+      "special_bonus_facet_bloodseeker_arterial_spray": "50",
+      "value": "0"
+    },
+    "knockback_duration": {
+      "special_bonus_facet_bloodseeker_arterial_spray": "0.1",
+      "value": "0"
+    },
+    "movement_damage_pct": {
+      "CalculateSpellDamageTooltip": "0",
+      "value": "35 45 55"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

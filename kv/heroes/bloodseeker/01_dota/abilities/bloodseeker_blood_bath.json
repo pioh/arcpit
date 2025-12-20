@@ -1,0 +1,36 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_POINT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "1500",
+  "AbilityManaCost": "90 100 110 120",
+  "AbilitySound": "hero_bloodseeker.bloodRite",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "value": "15 14 13 12"
+    },
+    "damage": {
+      "special_bonus_unique_bloodseeker_2": "+100",
+      "value": "100 155 210 265"
+    },
+    "delay": "2.6",
+    "delay_plus_castpoint_tooltip": "2.9",
+    "heal": {
+      "value": "0"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "600"
+    },
+    "silence_duration": {
+      "special_bonus_unique_bloodseeker_7": "+2.5",
+      "value": "3 4 5 6"
+    },
+    "strong_dispel_count": {
+      "value": "0"
+    }
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

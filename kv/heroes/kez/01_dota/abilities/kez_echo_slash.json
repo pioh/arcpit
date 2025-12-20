@@ -1,0 +1,43 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_DONT_RESUME_MOVEMENT",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.2",
+  "AbilityCooldown": "21 18 15 12",
+  "AbilityManaCost": "75 90 105 120",
+  "AbilitySound": "Hero_Kez.EchoSlash.Katana.Start",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "echo_hero_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "value": "20 40 60 80"
+    },
+    "katana_distance": {
+      "value": "800"
+    },
+    "katana_echo_damage": {
+      "CalculateSpellDamageTooltip": "0",
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "value": "70 80 90 100"
+    },
+    "katana_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "katana_strikes": {
+      "special_bonus_unique_kez_echo_slash_strike_count": "+1",
+      "value": "2"
+    },
+    "strike_interval": {
+      "special_bonus_unique_kez_echo_slash_strike_count": "-0.6",
+      "value": "1.2"
+    },
+    "tag_slow": "100",
+    "tag_slow_duration": "0.25",
+    "travel_distance": "250"
+  },
+  "FightRecapLevel": "1",
+  "LinkedAbility": "kez_falcon_rush"
+}

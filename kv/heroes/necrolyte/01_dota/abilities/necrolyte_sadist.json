@@ -1,0 +1,24 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityValues": {
+    "bonus_aoe": {
+      "special_bonus_facet_necrolyte_profane_potency": "+35",
+      "value": "0"
+    },
+    "bonus_spell_amp": {
+      "value": "0"
+    },
+    "health_regen": "3.5 5.0 6.5 8.0",
+    "hero_multiplier": "6",
+    "mana_regen": "3.5 5 6.5 8",
+    "regen_duration": {
+      "special_bonus_unique_necrophos_heartstopper_regen_duration": "+2",
+      "value": "8"
+    }
+  },
+  "DependentOnAbility": "necrolyte_reapers_scythe",
+  "Innate": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

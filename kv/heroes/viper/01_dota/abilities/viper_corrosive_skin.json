@@ -1,0 +1,44 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityModifierSupportBonus": "10",
+  "AbilitySound": "hero_viper.CorrosiveSkin",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "bonus_attack_speed": {
+      "display_type": "kDebuffValue",
+      "value": "9 18 27 36"
+    },
+    "bonus_magic_resistance": {
+      "display_type": "kBuffPercentage",
+      "value": "10 15 20 25"
+    },
+    "damage": {
+      "special_bonus_unique_viper_1": "+20",
+      "value": "8 16 24 32"
+    },
+    "duration": "4.0",
+    "effect_multiplier": {
+      "display_type": "kBuffPercentage",
+      "special_bonus_scepter": "4"
+    },
+    "effect_multiplier_distance": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "500"
+    },
+    "max_range": {
+      "affected_by_aoe_increase": "1",
+      "value": "1200"
+    },
+    "nethertoxin_bonus_pct": {
+      "special_bonus_facet_viper_caustic_bath": "=100"
+    },
+    "nethertoxin_bonus_pct_max_duration_tooltip": {
+      "special_bonus_facet_viper_caustic_bath": "=5.0"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

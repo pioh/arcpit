@@ -1,0 +1,50 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastPoint": "0.5 0.5 0.5 0.5",
+  "AbilityDraftExtraAbilities": {
+    "treant_eyes_in_the_forest": "shard"
+  },
+  "AbilityManaCost": "200 250 300",
+  "AbilitySound": "Hero_Treant.Overgrowth.Cast",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_scepter": "-30",
+      "value": "110 100 90"
+    },
+    "bloom_duration": {
+      "special_bonus_scepter": "16"
+    },
+    "damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "value": "95"
+    },
+    "duration": "3 4 5",
+    "movement_speed": {
+      "special_bonus_scepter": "345"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "800"
+    },
+    "splash_pct": {
+      "special_bonus_scepter": "60"
+    },
+    "splash_radius": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_scepter": "300"
+    },
+    "strength_bonus": {
+      "special_bonus_scepter": "100"
+    },
+    "undispellable": {
+      "value": "0"
+    }
+  },
+  "FightRecapLevel": "2",
+  "HasScepterUpgrade": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

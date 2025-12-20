@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_4",
+  "AbilityCastPoint": "0.4",
+  "AbilityCastRange": "850 975 1100",
+  "AbilityManaCost": "100 150 200",
+  "AbilitySound": "Hero_VengefulSpirit.NetherSwap",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_CUSTOM",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_CUSTOM",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_vengeful_spirit_9": "-18",
+      "value": "46 38 30"
+    },
+    "damage": {
+      "special_bonus_unique_vengeful_spirit_swap_damage": "+150",
+      "value": "150 300 450"
+    },
+    "damage_reduction": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "0"
+    },
+    "damage_reduction_duration": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_NONE",
+      "value": "10"
+    }
+  },
+  "FightRecapLevel": "2",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

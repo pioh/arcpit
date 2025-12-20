@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastPoint": "0",
+  "AbilityCastRange": "500 500 500 500",
+  "AbilityCooldown": "20",
+  "AbilityManaCost": "75 75 75 75",
+  "AbilitySound": "Brewmaster_Storm.DispelMagic",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_BOTH",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "attack_speed": "20",
+    "damage": "4",
+    "radius": "300"
+  },
+  "ItemCost": "0",
+  "ItemIsNeutralActiveDrop": "1",
+  "ItemPurchasable": "0",
+  "ItemSellable": "0",
+  "Model": "models/props_gameplay/neutral_box.vmdl",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.4 0.4 0.4 0.4",
+  "AbilityCastRange": "800",
+  "AbilityManaCost": "100 105 110 115",
+  "AbilitySound": "Hero_NyxAssassin.ManaBurn.Target",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_nyx_jolt_cooldown": "-3",
+      "value": "11 9.5 8 6.5"
+    },
+    "aoe": {
+      "affected_by_aoe_increase": "1",
+      "special_bonus_unique_nyx": "+600",
+      "value": "0"
+    },
+    "damage_echo_duration": "15",
+    "damage_echo_pct": "15",
+    "mana_burn_pct": {
+      "special_bonus_facet_nyx_assassin_burn_mana": "=16 =19 =22 =25"
+    },
+    "max_mana_as_damage_pct": {
+      "value": "25 30 35 40"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

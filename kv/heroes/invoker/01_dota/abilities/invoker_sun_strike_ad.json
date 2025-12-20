@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING",
+  "AbilityCastAnimation": "ACT_INVALID",
+  "AbilityCastPoint": "0.05",
+  "AbilityCastRange": "0",
+  "AbilityCooldown": "25",
+  "AbilityManaCost": "175",
+  "AbilitySound": "Hero_Invoker.SunStrike.Charge",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PURE",
+  "AbilityValues": {
+    "area_of_effect": {
+      "affected_by_aoe_increase": "1",
+      "value": "175"
+    },
+    "cataclysm_cooldown": {
+      "value": "90"
+    },
+    "cataclysm_count": {
+      "special_bonus_scepter": "+2"
+    },
+    "cataclysm_damage_pct": {
+      "value": "75"
+    },
+    "cataclysm_max_range": {
+      "value": "180"
+    },
+    "cataclysm_min_range": {
+      "value": "90"
+    },
+    "damage": "162 266 370 475",
+    "delay": "1.7",
+    "vision_distance": "400",
+    "vision_duration": "4.0"
+  },
+  "FightRecapLevel": "1",
+  "HasScepterUpgrade": "1",
+  "HotKeyOverride": "T",
+  "MaxLevel": "4",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

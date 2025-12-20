@@ -1,0 +1,13 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "ItemCost": "1400",
+  "ItemInitialStockTime": "990.0",
+  "ItemInitialStockTimeTurbo": "510.0",
+  "ItemPermanent": "0",
+  "ItemQuality": "rare",
+  "ItemShopTags": "int;str;agi;mana_pool;health_pool;hard_to_tag",
+  "ItemStockInitial": "0",
+  "ItemStockMax": "1",
+  "ItemStockTime": "1",
+  "SuggestLategame": "1"
+}

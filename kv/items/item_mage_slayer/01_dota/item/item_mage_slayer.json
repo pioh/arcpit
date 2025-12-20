@@ -1,0 +1,21 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE | DOTA_ABILITY_BEHAVIOR_DONT_PROC_OTHER_ABILITIES",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "bonus_attack_speed": "30",
+    "bonus_damage": "8",
+    "bonus_health_regen": "5",
+    "bonus_magical_armor": "20",
+    "bonus_mana_regen": "2",
+    "dps": "20",
+    "duration": "3",
+    "spell_amp_debuff": "40"
+  },
+  "ItemCost": "2800",
+  "ItemQuality": "rare",
+  "ItemShopTags": "hard_to_tag;dps;magic_resist",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SuggestLategame": "1"
+}

@@ -1,0 +1,27 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_ROOT_DISABLES",
+  "AbilityCastAnimation": "ACT_DOTA_VIPER_DIVE",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.1",
+  "AbilityCastRange": "700",
+  "AbilityCooldown": "20.0",
+  "AbilityManaCost": "75",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "corrosive_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "500"
+    },
+    "dive_speed": {
+      "value": "700"
+    },
+    "duration": "0.1",
+    "effect_duration": "4",
+    "movespeed_slow": "0",
+    "start_height": "100"
+  },
+  "IsGrantedByScepter": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

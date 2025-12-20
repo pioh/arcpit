@@ -1,0 +1,55 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_TOGGLE",
+  "AbilityValues": {
+    "attack_redirection_grace_distance": "0",
+    "forward_angle": "140",
+    "knockback_distance": {
+      "special_bonus_scepter": "325"
+    },
+    "physical_damage_reduction": {
+      "special_bonus_unique_mars_bulwark_damage_reduction": "+10",
+      "value": "40 50 60 70"
+    },
+    "physical_damage_reduction_side": {
+      "special_bonus_unique_mars_bulwark_damage_reduction": "+5",
+      "value": "20 25 30 35"
+    },
+    "redirect_chance": {
+      "special_bonus_unique_mars_bulwark_redirect_chance": "+30",
+      "value": "70"
+    },
+    "redirect_close_range": {
+      "affected_by_aoe_increase": "1",
+      "value": "200"
+    },
+    "redirect_range": "900",
+    "redirect_speed_penatly": {
+      "value": "18"
+    },
+    "scepter_bonus_damage": {
+      "special_bonus_scepter": "75"
+    },
+    "scepter_movement_slow_duration": {
+      "special_bonus_scepter": "1.0"
+    },
+    "scepter_movement_slow_pct": {
+      "special_bonus_scepter": "30"
+    },
+    "side_angle": "240",
+    "soldier_attack_range": {
+      "special_bonus_scepter": "275"
+    },
+    "soldier_count": {
+      "special_bonus_scepter": "4"
+    },
+    "soldier_offset": {
+      "special_bonus_scepter": "150"
+    },
+    "stationary_attack_delay": {
+      "special_bonus_scepter": "0.0"
+    }
+  },
+  "HasScepterUpgrade": "1",
+  "IsBreakable": "1",
+  "MaxLevel": "4"
+}

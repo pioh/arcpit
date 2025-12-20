@@ -1,0 +1,199 @@
+{
+  "Ability1": "grimstroke_dark_artistry",
+  "Ability10": "special_bonus_unique_grimstroke_8",
+  "Ability11": "special_bonus_unique_grimstroke_7",
+  "Ability12": "special_bonus_unique_grimstroke_soul_chain_reflect_damage",
+  "Ability13": "special_bonus_unique_grimstroke_6",
+  "Ability14": "special_bonus_unique_grimstroke_2",
+  "Ability15": "special_bonus_unique_grimstroke_4",
+  "Ability16": "special_bonus_unique_grimstroke_1",
+  "Ability17": "special_bonus_unique_grimstroke_3",
+  "Ability2": "grimstroke_ink_creature",
+  "Ability3": "grimstroke_spirit_walk",
+  "Ability4": "grimstroke_dark_portrait",
+  "Ability5": "grimstroke_return",
+  "Ability6": "grimstroke_soul_chain",
+  "Ability7": "grimstroke_ink_trail",
+  "AbilityDraftAbilities": {
+    "Ability1": "grimstroke_dark_artistry",
+    "Ability2": "grimstroke_ink_creature",
+    "Ability3": "grimstroke_spirit_walk",
+    "Ability4": "grimstroke_soul_chain"
+  },
+  "Adjectives": {
+    "Bearded": "1",
+    "Flying": "1",
+    "Legs": "0",
+    "Undead": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.350000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "25",
+  "AttackDamageMin": "21",
+  "AttackRange": "600",
+  "AttackRate": "1.700000",
+  "AttackSpeedActivityModifiers": {
+    "fast": "150",
+    "faster": "240",
+    "fastest": "330"
+  },
+  "AttributeAgilityGain": "1.900000",
+  "AttributeBaseAgility": "18",
+  "AttributeBaseIntelligence": "25",
+  "AttributeBaseStrength": "21",
+  "AttributeIntelligenceGain": "3.800000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_INTELLECT",
+  "AttributeStrengthGain": "2.400000",
+  "BanSound": "grimstroke_grimstroke_anger_06",
+  "BaseAttackSpeed": "100",
+  "Bot": {
+    "HeroType": "DOTA_BOT_STUN_SUPPORT | DOTA_BOT_GANKER",
+    "LaningInfo": {
+      "ProvidesBabysit": "2",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "1",
+      "RequiresSetup": "0",
+      "SoloDesire": "1",
+      "SurvivalRating": "2"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "grimstroke_fine_art": {
+      "Color": "Red",
+      "GradientID": "1",
+      "Icon": "brush"
+    },
+    "grimstroke_inkstigate": {
+      "Color": "Gray",
+      "GradientID": "0",
+      "Icon": "area_of_effect"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_grimstroke.vsndevts",
+  "HealthBarOffset": "250",
+  "HeroGlowColor": "242 200 198",
+  "HeroID": "121",
+  "HeroOrderID": "116",
+  "HeroSelectSoundEffect": "Hero_Grimstroke.Pick",
+  "HeroUnlockOrder": "3",
+  "IdleExpression": "scenes/grimstroke/grimstroke_exp_idle_01.vcd",
+  "IdleSoundLoop": "Hero_Grimstroke.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "4",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head_Accessory",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "4000",
+      "MaxPolygonsLOD1": "1600",
+      "SlotIndex": "3",
+      "SlotName": "armor",
+      "SlotText": "#LoadoutSlot_Armor",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "2",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Belt",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "5": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "6",
+      "SlotName": "ambient_effects",
+      "SlotText": "#LoadoutSlot_Ambient_Effects"
+    },
+    "6": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "7",
+      "SlotName": "ability_effects_1",
+      "SlotText": "grimstroke_dark_artistry"
+    },
+    "7": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_4",
+      "SlotText": "grimstroke_soul_chain"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_kunkka",
+  "LoadoutScale": "0.76",
+  "Model": "models/heroes/grimstroke/grimstroke.vmdl",
+  "ModelScale": "0.76",
+  "MovementSpeed": "290",
+  "NameAliases": "gs",
+  "PickSound": "grimstroke_grimstroke_spawn_01_02",
+  "ProjectileModel": "particles/units/heroes/hero_grimstroke/grimstroke_base_attack.vpcf",
+  "ProjectileSpeed": "900",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_grimstroke/grimstroke_loadout.vpcf": {
+        "0": {
+          "location": "attach_hitloc",
+          "type": "follow_attachment"
+        },
+        "1": {
+          "position": "0 0 0",
+          "type": "follow_origin"
+        }
+      }
+    }
+  },
+  "Role": "Support,Nuker,Disabler,Escape",
+  "Rolelevels": "2,2,2,1",
+  "SimilarHeroes": "26,27,31",
+  "SoundSet": "Hero_Grimstroke",
+  "SpectatorLoadoutScale": "0.75",
+  "Team": "Bad",
+  "VersusScale": "0.76",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_grimstroke.vsndevts",
+  "particle_folder": "particles/units/heroes/hero_grimstroke",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_grimstroke.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_grimstroke.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "1",
+    "attach_attack2": "2",
+    "attach_eye_l": "3",
+    "attach_eye_r": "4"
+  },
+  "workshop_guide_name": "Grimstroke"
+}

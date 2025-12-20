@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET",
+  "AbilityCastPoint": "0.3",
+  "AbilityCooldown": "30.0",
+  "AbilityManaCost": "0",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "customval_damage": {
+      "value": "30 40 50"
+    },
+    "customval_echo_damage": {
+      "value": "14 17 20"
+    },
+    "echo_slam_damage_range": {
+      "value": "500"
+    },
+    "echo_slam_echo_range": {
+      "value": "500"
+    },
+    "echo_slam_echo_search_range": {
+      "value": "550"
+    }
+  }
+}

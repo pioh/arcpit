@@ -1,0 +1,33 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_NO_TARGET | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE",
+  "AbilityCooldown": "20",
+  "AbilityManaCost": "0",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "customval_damage_per_second": {
+      "value": "13 18 23"
+    },
+    "customval_duration": {
+      "value": "3.0 4.0 5.0"
+    },
+    "num_wall_elements": {
+      "value": "15"
+    },
+    "slow": {
+      "value": "-40"
+    },
+    "slow_duration": {
+      "value": "2"
+    },
+    "wall_element_radius": {
+      "value": "105"
+    },
+    "wall_element_spacing": {
+      "value": "80"
+    },
+    "wall_place_distance": {
+      "value": "200"
+    }
+  },
+  "MaxLevel": "1"
+}

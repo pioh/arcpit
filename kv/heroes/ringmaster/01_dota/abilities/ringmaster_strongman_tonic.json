@@ -1,0 +1,25 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET | DOTA_ABILITY_BEHAVIOR_IGNORE_SILENCE | DOTA_ABILITY_BEHAVIOR_AFFECTED_BY_MUTE | DOTA_ABILITY_BEHAVIOR_IS_FAKE_ITEM | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_NOT_LEARNABLE | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_OVERRIDE_ABILITY_2",
+  "AbilityCastPoint": "0.0",
+  "AbilityCastRange": "750",
+  "AbilityChargeRestoreTime": "0",
+  "AbilityCharges": "99",
+  "AbilityCooldown": "3.0",
+  "AbilitySharedCooldown": "dark_carnival_souvenir",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_FRIENDLY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO",
+  "AbilityValues": {
+    "duration": "8.0",
+    "effect_strength_max_duration": "4.0",
+    "model_scale": "30",
+    "model_scale_animate_time": "0.1",
+    "projectile_speed": "1400",
+    "strength_bonus_base": "5.0",
+    "strength_bonus_per_level": "1.0"
+  },
+  "FightRecapLevel": "1",
+  "InitialAbilityCharges": "0",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

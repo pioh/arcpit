@@ -1,0 +1,9 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityValues": {
+    "lifesteal_percent": "18"
+  },
+  "ItemCost": "900",
+  "ItemQuality": "component",
+  "ItemShopTags": "unique"
+}

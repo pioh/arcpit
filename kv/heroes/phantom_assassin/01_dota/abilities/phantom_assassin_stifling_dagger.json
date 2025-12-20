@@ -1,0 +1,40 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.3 0.3 0.3 0.3",
+  "AbilityCastRange": "700 850 1000 1150",
+  "AbilityManaCost": "30",
+  "AbilitySound": "Hero_PhantomAssassin.Dagger.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_PHYSICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_CREEP",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_phantom_assassin_7": "-1.5",
+      "value": "6"
+    },
+    "attack_factor": {
+      "special_bonus_unique_phantom_assassin_5": "+15",
+      "value": "-70 -55 -40 -25"
+    },
+    "attack_factor_tooltip": {
+      "DamageTypeTooltip": "DAMAGE_TYPE_PHYSICAL",
+      "special_bonus_unique_phantom_assassin_5": "+15",
+      "value": "30 45 60 75"
+    },
+    "base_damage": "65 70 75 80",
+    "dagger_recast_time": {
+      "special_bonus_facet_phantom_assassin_sweet_release": "6"
+    },
+    "dagger_secondary_reduce": {
+      "special_bonus_facet_phantom_assassin_sweet_release": "50"
+    },
+    "dagger_speed": "1200",
+    "duration": "2.1 2.4 2.7 3",
+    "extra_daggers": {
+      "special_bonus_unique_phantom_assassin": "2"
+    },
+    "move_slow": "-50"
+  },
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES"
+}

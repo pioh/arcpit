@@ -1,0 +1,26 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_POINT | DOTA_ABILITY_BEHAVIOR_AOE | DOTA_ABILITY_BEHAVIOR_HIDDEN | DOTA_ABILITY_BEHAVIOR_IGNORE_BACKSWING | DOTA_ABILITY_BEHAVIOR_SHOW_IN_GUIDES",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_5",
+  "AbilityCastGestureSlot": "DEFAULT",
+  "AbilityCastPoint": "0.3",
+  "AbilityCastRange": "750",
+  "AbilityCooldown": "25",
+  "AbilityManaCost": "150",
+  "AbilitySound": "Ability.FrostNova",
+  "AbilityValues": {
+    "aura_radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "550"
+    },
+    "bonus_movespeed": "-25",
+    "duration": "15.0",
+    "max_creep_attacks": "8",
+    "max_hero_attacks": "4",
+    "slow_duration": "0.5"
+  },
+  "IsGrantedByShard": "1",
+  "IsShardUpgrade": "1",
+  "MaxLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_NO",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

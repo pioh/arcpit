@@ -1,0 +1,38 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_PASSIVE",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_3",
+  "AbilityModifierSupportBonus": "40",
+  "AbilitySound": "Hero_Spirit_Breaker.GreaterBash",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityValues": {
+    "AbilityCooldown": {
+      "special_bonus_unique_spirit_breaker_1": "-0.3",
+      "value": "1.2"
+    },
+    "bonus_chance_duration": {
+      "special_bonus_facet_spirit_breaker_bulls_hit": "10.0",
+      "value": "0"
+    },
+    "bonus_chance_pct": {
+      "special_bonus_facet_spirit_breaker_bulls_hit": "+17",
+      "value": "0"
+    },
+    "bonus_movespeed_pct": "17",
+    "chance_pct": {
+      "value": "17"
+    },
+    "creep_multiplier": "1",
+    "damage": {
+      "special_bonus_unique_spirit_breaker_3": "+20",
+      "value": "25 30 35 40"
+    },
+    "duration": "0.9 1.1 1.3 1.5",
+    "knockback_distance": "143 152 158 162",
+    "knockback_duration": "0.5",
+    "knockback_height": "50",
+    "movespeed_duration": "3"
+  },
+  "IsBreakable": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES_STRONG",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_YES"
+}

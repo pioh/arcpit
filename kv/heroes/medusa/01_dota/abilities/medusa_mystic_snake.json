@@ -1,0 +1,60 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_2",
+  "AbilityDraftExtraAbilities": {
+    "medusa_cold_blooded": "shard"
+  },
+  "AbilitySound": "Hero_Medusa.MysticSnake.Cast",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "AbilityCastPoint": "0.2",
+    "AbilityCastRange": "750",
+    "AbilityCooldown": {
+      "special_bonus_unique_medusa_5": "-3",
+      "value": "15 14 13 12"
+    },
+    "AbilityManaCost": "80 100 120 140",
+    "attack_buff_duration": {
+      "special_bonus_facet_medusa_engorged": "+5"
+    },
+    "initial_speed": "800",
+    "jump_delay": "0.25 0.25 0.25 0.25",
+    "mana_per_damage": {
+      "special_bonus_facet_medusa_engorged": "+6"
+    },
+    "max_attacks": {
+      "special_bonus_facet_medusa_engorged": "+3"
+    },
+    "movement_slow": {
+      "value": "30"
+    },
+    "radius": {
+      "affected_by_aoe_increase": "1",
+      "value": "450"
+    },
+    "return_speed": "800",
+    "slow_duration": "0",
+    "snake_damage": {
+      "CalculateSpellDamageTooltip": "1",
+      "special_bonus_unique_medusa_snake_damage": "+40",
+      "value": "90 140 190 240"
+    },
+    "snake_damage_pct": "0",
+    "snake_jumps": {
+      "special_bonus_unique_medusa_3": "+3",
+      "value": "3 4 5 6"
+    },
+    "snake_mana_steal": "15",
+    "snake_scale": "25",
+    "stone_form_scepter_base": {
+      "special_bonus_shard": "1.0"
+    },
+    "stone_form_scepter_increment": {
+      "special_bonus_scepter": "0.2"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

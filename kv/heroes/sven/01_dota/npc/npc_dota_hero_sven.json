@@ -1,0 +1,273 @@
+{
+  "Ability1": "sven_storm_bolt",
+  "Ability10": "special_bonus_unique_sven_5",
+  "Ability11": "special_bonus_unique_sven",
+  "Ability12": "special_bonus_unique_sven_3",
+  "Ability13": "special_bonus_unique_sven_8",
+  "Ability14": "special_bonus_unique_sven_gods_strength_slow_resist",
+  "Ability15": "special_bonus_unique_sven_7",
+  "Ability16": "special_bonus_unique_sven_2",
+  "Ability17": "special_bonus_unique_sven_4",
+  "Ability2": "sven_great_cleave",
+  "Ability3": "sven_warcry",
+  "Ability4": "generic_hidden",
+  "Ability5": "generic_hidden",
+  "Ability6": "sven_gods_strength",
+  "Ability7": "sven_vanquisher",
+  "AbilityDraftAbilities": {
+    "Ability1": "sven_storm_bolt",
+    "Ability2": "sven_great_cleave",
+    "Ability3": "sven_warcry",
+    "Ability4": "sven_gods_strength"
+  },
+  "Adjectives": {
+    "NicePecs": "1"
+  },
+  "ArmorPhysical": "0",
+  "AttackAcquisitionRange": "600",
+  "AttackAnimationPoint": "0.400000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_MELEE_ATTACK",
+  "AttackDamageMax": "39",
+  "AttackDamageMin": "37",
+  "AttackRange": "150",
+  "AttackRate": "1.900000",
+  "AttributeAgilityGain": "2.20000",
+  "AttributeBaseAgility": "18",
+  "AttributeBaseIntelligence": "16",
+  "AttributeBaseStrength": "23",
+  "AttributeIntelligenceGain": "1.500000",
+  "AttributePrimary": "DOTA_ATTRIBUTE_STRENGTH",
+  "AttributeStrengthGain": "3.5",
+  "BanSound": "sven_sven_anger_03",
+  "BaseAttackSpeed": "110",
+  "Bot": {
+    "Build": {
+      "1": "sven_storm_bolt",
+      "2": "sven_warcry",
+      "3": "sven_warcry",
+      "4": "sven_great_cleave",
+      "5": "sven_great_cleave",
+      "6": "sven_gods_strength",
+      "7": "sven_great_cleave",
+      "8": "sven_great_cleave",
+      "9": "sven_warcry",
+      "10": "special_bonus_unique_sven_5",
+      "11": "sven_warcry",
+      "12": "sven_gods_strength",
+      "13": "sven_storm_bolt",
+      "14": "sven_storm_bolt",
+      "15": "special_bonus_unique_sven_3",
+      "16": "sven_storm_bolt",
+      "17": "",
+      "18": "sven_gods_strength",
+      "19": "",
+      "20": "special_bonus_unique_sven_7",
+      "21": "",
+      "22": "",
+      "23": "",
+      "24": "",
+      "25": "special_bonus_unique_sven_2"
+    },
+    "HeroType": "DOTA_BOT_TANK | DOTA_BOT_SEMI_CARRY | DOTA_BOT_STUN_SUPPORT",
+    "LaningInfo": {
+      "ProvidesBabysit": "0",
+      "ProvidesSetup": "2",
+      "RequiresBabysit": "1",
+      "RequiresFarm": "1",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "1"
+    },
+    "Loadout": {
+      "item_belt_of_strength": "ITEM_CORE",
+      "item_black_king_bar": "ITEM_DERIVED",
+      "item_blink": "ITEM_CORE",
+      "item_boots": "ITEM_CORE",
+      "item_branches": [
+        "ITEM_CORE | ITEM_SELLABLE",
+        "ITEM_CORE | ITEM_SELLABLE"
+      ],
+      "item_broadsword": "ITEM_CORE",
+      "item_claymore": "ITEM_LUXURY",
+      "item_echo_sabre": "ITEM_DERIVED",
+      "item_flask": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_gloves": "ITEM_CORE",
+      "item_lifesteal": "ITEM_LUXURY",
+      "item_magic_stick": "ITEM_CORE",
+      "item_magic_wand": "ITEM_DERIVED | ITEM_SELLABLE",
+      "item_mithril_hammer": "ITEM_EXTENSION",
+      "item_ogre_axe": [
+        "ITEM_CORE",
+        "ITEM_EXTENSION"
+      ],
+      "item_power_treads": "ITEM_DERIVED",
+      "item_quelling_blade": "ITEM_CORE | ITEM_SELLABLE",
+      "item_reaver": "ITEM_LUXURY",
+      "item_recipe_black_king_bar": "ITEM_EXTENSION",
+      "item_recipe_magic_wand": "ITEM_CORE",
+      "item_recipe_satanic": "ITEM_LUXURY",
+      "item_satanic": "ITEM_DERIVED",
+      "item_tango": "ITEM_CONSUMABLE | ITEM_SELLABLE",
+      "item_void_stone": "ITEM_CORE"
+    },
+    "SupportsEasyMode": "1"
+  },
+  "BotImplemented": "1",
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "Complexity": "1",
+  "Enabled": "1",
+  "Facets": {
+    "sven_heavy_plate": {
+      "Color": "Blue",
+      "GradientID": "0",
+      "Icon": "armor"
+    },
+    "sven_strscaling": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "sven_wrath_of_god"
+        }
+      },
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "strength"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_sven.vsndevts",
+  "GibType": "default",
+  "HeroGlowColor": "0 50 247",
+  "HeroID": "18",
+  "HeroOrderID": "19",
+  "HeroSelectSoundEffect": "Hero_Sven.Pick",
+  "HeroUnlockOrder": "0",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Weapon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3000",
+      "MaxPolygonsLOD1": "1200",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Head",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "2",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_belt",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "3",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_arms",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "4": {
+      "MaxPolygonsLOD0": "2000",
+      "MaxPolygonsLOD1": "800",
+      "SlotIndex": "4",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_shoulder",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "5": {
+      "SlotIndex": "5",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "6": {
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "400",
+      "SlotIndex": "6",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Back",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "7": {
+      "GeneratesUnits": {
+        "0": "npc_dota_companion"
+      },
+      "ShowItemOnGeneratedUnits": "1",
+      "SlotIndex": "7",
+      "SlotName": "summon",
+      "SlotText": "#LoadoutSlot_Pet"
+    },
+    "8": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "8",
+      "SlotName": "ability_effects_2",
+      "SlotText": "sven_great_cleave"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_4",
+      "SlotText": "sven_gods_strength"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_3",
+      "SlotText": "sven_warcry"
+    },
+    "11": {
+      "SlotIndex": "11",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LastHitChallengeRival": "npc_dota_hero_omniknight",
+  "LoadoutScale": "0.840000",
+  "Model": "models/heroes/sven/sven.vmdl",
+  "ModelScale": "0.840000",
+  "MovementSpeed": "325",
+  "NameAliases": "Rogue Knight",
+  "PickSound": "sven_sven_spawn_04",
+  "ProjectileSpeed": "0",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_sven/sven_loadout.vpcf": "loadout"
+    }
+  },
+  "Role": "Carry,Disabler,Initiator,Durable,Nuker",
+  "Rolelevels": "2,2,2,2,1",
+  "SimilarHeroes": "42,81,23",
+  "SoundSet": "Hero_Sven",
+  "SpectatorLoadoutScale": "0.92",
+  "StatusHealthRegen": "0.75",
+  "Team": "Good",
+  "VersusScale": "0.840000",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_sven.vsndevts",
+  "new_player_enable": "1",
+  "particle_folder": "particles/units/heroes/hero_sven",
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_sven.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_sven.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_attack1": "1",
+    "attach_head": "2",
+    "attach_sword": "3"
+  },
+  "workshop_guide_name": "Sven"
+}

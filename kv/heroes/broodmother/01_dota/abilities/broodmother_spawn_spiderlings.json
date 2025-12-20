@@ -1,0 +1,45 @@
+{
+  "AbilityBehavior": "DOTA_ABILITY_BEHAVIOR_UNIT_TARGET",
+  "AbilityCastAnimation": "ACT_DOTA_CAST_ABILITY_1",
+  "AbilityCastPoint": "0.2 0.2 0.2 0.2",
+  "AbilityCastRange": "900",
+  "AbilityCooldown": "9 8 7",
+  "AbilityDraftExtraAbilities": {
+    "broodmother_sticky_snare": "scepter"
+  },
+  "AbilityManaCost": "100",
+  "AbilityModifierSupportValue": "0.0",
+  "AbilitySound": "Hero_Broodmother.SpawnSpiderlingsImpact",
+  "AbilityType": "ABILITY_TYPE_ULTIMATE",
+  "AbilityUnitDamageType": "DAMAGE_TYPE_MAGICAL",
+  "AbilityUnitTargetTeam": "DOTA_UNIT_TARGET_TEAM_ENEMY",
+  "AbilityUnitTargetType": "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC",
+  "AbilityValues": {
+    "buff_duration": "20",
+    "count": {
+      "value": "4 5 6"
+    },
+    "damage": {
+      "special_bonus_unique_broodmother_3": "+80",
+      "value": "220 320 420"
+    },
+    "damage_bonus": "0 3 6",
+    "hp_bonus": {
+      "special_bonus_unique_broodmother_7": "+150",
+      "value": "0"
+    },
+    "movement_speed": "25 35 45",
+    "projectile_speed": "1200",
+    "slow_duration": {
+      "value": "4"
+    },
+    "spiderling_duration": "40",
+    "tooltip_spiderling_hp": {
+      "special_bonus_unique_broodmother_7": "+150",
+      "value": "300"
+    }
+  },
+  "FightRecapLevel": "1",
+  "SpellDispellableType": "SPELL_DISPELLABLE_YES",
+  "SpellImmunityType": "SPELL_IMMUNITY_ENEMIES_NO"
+}

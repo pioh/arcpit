@@ -1,0 +1,268 @@
+{
+  "Ability1": "techies_sticky_bomb",
+  "Ability10": "special_bonus_magic_resistance_20",
+  "Ability11": "special_bonus_unique_techies_3",
+  "Ability12": "special_bonus_unique_techies",
+  "Ability13": "special_bonus_mp_regen_3",
+  "Ability14": "special_bonus_unique_techies_2",
+  "Ability15": "special_bonus_unique_techies_5",
+  "Ability16": "special_bonus_attack_damage_252",
+  "Ability17": "special_bonus_unique_techies_4",
+  "Ability2": "techies_reactive_tazer",
+  "Ability3": "techies_suicide",
+  "Ability4": "generic_hidden",
+  "Ability5": "techies_minefield_sign",
+  "Ability6": "techies_land_mines",
+  "Ability7": "techies_reactive_tazer_stop",
+  "AbilityDraftAbilities": {
+    "Ability1": "techies_sticky_bomb",
+    "Ability2": "techies_reactive_tazer",
+    "Ability3": "techies_suicide",
+    "Ability4": "techies_land_mines"
+  },
+  "Adjectives": {
+    "Fiery": "1",
+    "Legs": "6",
+    "Potbelly": "1",
+    "Steed": "1"
+  },
+  "ArmorPhysical": "2",
+  "AttackAcquisitionRange": "800",
+  "AttackAnimationPoint": "0.500000",
+  "AttackCapabilities": "DOTA_UNIT_CAP_RANGED_ATTACK",
+  "AttackDamageMax": "22",
+  "AttackDamageMin": "20",
+  "AttackDamageType": "DAMAGE_TYPE_ArmorPhysical",
+  "AttackRange": "600",
+  "AttackRate": "1.700000",
+  "AttributeAgilityGain": "1.8",
+  "AttributeBaseAgility": "16",
+  "AttributeBaseIntelligence": "25",
+  "AttributeBaseStrength": "19",
+  "AttributeIntelligenceGain": "3.0",
+  "AttributePrimary": "DOTA_ATTRIBUTE_ALL",
+  "AttributeStrengthGain": "2.6",
+  "BanSound": "techies_tech_anger_23",
+  "BaseAttackSpeed": "90",
+  "Bot": {
+    "HeroType": "DOTA_BOT_GANKER",
+    "LaningInfo": {
+      "ProvidesBabysit": "1",
+      "ProvidesSetup": "1",
+      "RequiresBabysit": "0",
+      "RequiresFarm": "0",
+      "RequiresSetup": "0",
+      "SoloDesire": "0",
+      "SurvivalRating": "0"
+    }
+  },
+  "BoundsHullName": "DOTA_HULL_SIZE_HERO",
+  "CMEnabled": "1",
+  "CombatClassAttack": "DOTA_COMBAT_CLASS_ATTACK_HERO",
+  "CombatClassDefend": "DOTA_COMBAT_CLASS_DEFEND_HERO",
+  "Complexity": "2",
+  "Enabled": "1",
+  "Facets": {
+    "techies_atk_range": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "techies_squees_scope"
+        }
+      },
+      "Color": "Gray",
+      "GradientID": "0",
+      "Icon": "range"
+    },
+    "techies_backpack": {
+      "Abilities": {
+        "Ability1": {
+          "AbilityName": "techies_spoons_stash"
+        }
+      },
+      "Color": "Blue",
+      "GradientID": "1",
+      "Icon": "item"
+    },
+    "techies_spleens_secret_sauce": {
+      "Color": "Red",
+      "GradientID": "0",
+      "Icon": "nuke"
+    }
+  },
+  "GameSoundsFile": "soundevents/game_sounds_heroes/game_sounds_techies.vsndevts",
+  "GibType": "default",
+  "HasAggressiveStance": "0",
+  "HeroID": "105",
+  "HeroOrderID": "108",
+  "HeroSelectSoundEffect": "Hero_Techies.Pick",
+  "HeroUnlockOrder": "1",
+  "IdleExpression": "scenes/techies/techies_exp_idle_01.vcd",
+  "IdleSoundLoop": "Hero_Techies.IdleLoop",
+  "ItemSlots": {
+    "0": {
+      "MaxPolygonsLOD0": "2500",
+      "MaxPolygonsLOD1": "1000",
+      "SlotIndex": "0",
+      "SlotName": "weapon",
+      "SlotText": "#LoadoutSlot_Techies_Bazooka",
+      "TextureHeight": "256",
+      "TextureWidth": "256"
+    },
+    "1": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1500",
+      "SlotIndex": "1",
+      "SlotName": "head",
+      "SlotText": "#LoadoutSlot_Techies_Spleen",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "2": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "2",
+      "SlotName": "back",
+      "SlotText": "#LoadoutSlot_Techies_Spoon",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "3": {
+      "MaxPolygonsLOD0": "3500",
+      "MaxPolygonsLOD1": "1400",
+      "SlotIndex": "3",
+      "SlotName": "shoulder",
+      "SlotText": "#LoadoutSlot_Techies_Squee",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "4": {
+      "GeneratesUnits": {
+        "0": "npc_dota_techies_remote_mine",
+        "1": "npc_dota_techies_stasis_trap",
+        "2": "npc_dota_techies_land_mine"
+      },
+      "MaxPolygonsLOD0": "1500",
+      "MaxPolygonsLOD1": "600",
+      "SlotIndex": "4",
+      "SlotName": "arms",
+      "SlotText": "#LoadoutSlot_Techies_RemoteMines",
+      "TextureHeight": "256",
+      "TextureWidth": "256",
+      "no_import": "1"
+    },
+    "5": {
+      "MaxPolygonsLOD0": "6500",
+      "MaxPolygonsLOD1": "2600",
+      "SlotIndex": "5",
+      "SlotName": "mount",
+      "SlotText": "#LoadoutSlot_Techies_Cart",
+      "TextureHeight": "512",
+      "TextureWidth": "512"
+    },
+    "6": {
+      "GeneratesUnits": {
+        "0": "npc_dota_techies_minefield_sign"
+      },
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "420",
+      "SlotIndex": "6",
+      "SlotName": "belt",
+      "SlotText": "#LoadoutSlot_Techies_Sign",
+      "TextureHeight": "256",
+      "TextureWidth": "256",
+      "no_import": "1"
+    },
+    "7": {
+      "GeneratesUnits": {
+        "0": "npc_dota_techies_land_mine"
+      },
+      "MaxPolygonsLOD0": "1000",
+      "MaxPolygonsLOD1": "420",
+      "SlotIndex": "7",
+      "SlotName": "misc",
+      "SlotText": "#LoadoutSlot_Techies_ProximityMines",
+      "TextureHeight": "256",
+      "TextureWidth": "256",
+      "no_import": "1"
+    },
+    "8": {
+      "SlotIndex": "8",
+      "SlotName": "taunt",
+      "SlotText": "#LoadoutSlot_Taunt"
+    },
+    "9": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "9",
+      "SlotName": "ability_effects_2",
+      "SlotText": "techies_sticky_bomb"
+    },
+    "10": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "10",
+      "SlotName": "ability_effects_3",
+      "SlotText": "techies_minefield_sign"
+    },
+    "11": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "11",
+      "SlotName": "ability_effects_4",
+      "SlotText": "techies_land_mines"
+    },
+    "12": {
+      "DisplayInLoadout": "0",
+      "SlotIndex": "12",
+      "SlotName": "ability_effects_1",
+      "SlotText": "techies_sticky_bomb"
+    },
+    "13": {
+      "SlotIndex": "13",
+      "SlotName": "hero_effigy",
+      "SlotText": "#LoadoutSlot_HeroEffigy"
+    }
+  },
+  "LoadoutScale": "0.600000",
+  "Model": "models/heroes/techies/techies.vmdl",
+  "ModelScale": "0.600000",
+  "MovementCapabilities": "DOTA_UNIT_CAP_MOVE_GROUND",
+  "MovementSpeed": "310",
+  "NameAliases": "Squee;Spleen;Spoon",
+  "NewHero": "0",
+  "PickSound": "techies_tech_spawn_01",
+  "ProjectileModel": "particles/units/heroes/hero_techies/techies_base_attack.vpcf",
+  "ProjectileSpeed": "900",
+  "RenderablePortrait": {
+    "Particles": {
+      "particles/units/heroes/hero_techies/techies_loadout.vpcf": "loadout"
+    }
+  },
+  "RingRadius": "70",
+  "Role": "Nuker,Disabler",
+  "Rolelevels": "3,1",
+  "SimilarHeroes": "14,83,123",
+  "SoundSet": "Hero_Techies",
+  "StatusHealthRegen": "1.0",
+  "StatusManaRegen": "1.0",
+  "Team": "Good",
+  "TeamName": "DOTA_TEAM_GOODGUYS",
+  "UnitRelationshipClass": "DOTA_NPC_UNIT_RELATIONSHIP_TYPE_HERO",
+  "VersusScale": "0.600000",
+  "VisionDaytimeRange": "1800",
+  "VoiceFile": "soundevents/voscripts/game_sounds_vo_techies.vsndevts",
+  "new_player_enable": "0",
+  "particle_folder": [
+    "particles/units/heroes/hero_techies",
+    "particles/units/heroes/hero_techies"
+  ],
+  "party_hat_effects": {
+    "party_hat_effect_0": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_techies.vpcf"
+  },
+  "precache": {
+    "particle": "particles/econ/events/frostivus_2024/frostivus_2024_hat_ambient_npc_dota_hero_techies.vpcf"
+  },
+  "showcase_attachments": {
+    "attach_head_1": "1",
+    "attach_head_2": "2",
+    "attach_weapon_tip": "3"
+  },
+  "workshop_guide_name": "Techies"
+}
