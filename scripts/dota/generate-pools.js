@@ -26,9 +26,12 @@ async function main() {
     const abilities = Array.isArray(index.abilities) ? index.abilities : [];
     const items = Array.isArray(index.items) ? index.items : [];
 
-    const heroesOut = path.join(outRoot, "heroes", "hero-pool.generated.ts");
-    const abilitiesOut = path.join(outRoot, "abilities", "ability-pool.generated.ts");
-    const itemsOut = path.join(outRoot, "items", "item-pool.generated.ts");
+    // ВАЖНО: Dota VScript `require` использует '.' как разделитель папок.
+    // Поэтому имя файла вида `hero-pool.generated.lua` будет искаться как `hero-pool/generated.lua`.
+    // Генерим пулы в папки (`.../hero-pool/generated.ts`), без точек в имени файла.
+    const heroesOut = path.join(outRoot, "heroes", "hero-pool", "generated.ts");
+    const abilitiesOut = path.join(outRoot, "abilities", "ability-pool", "generated.ts");
+    const itemsOut = path.join(outRoot, "items", "item-pool", "generated.ts");
 
     await mkdir(path.dirname(heroesOut), { recursive: true });
     await mkdir(path.dirname(abilitiesOut), { recursive: true });

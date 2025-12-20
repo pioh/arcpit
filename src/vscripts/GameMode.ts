@@ -66,34 +66,38 @@ export class GameMode {
      * Прекеш ресурсов
      */
     public static Precache(this: void, context: CScriptPrecacheContext) {
-        precacheHeroes(context);
+        // ВАЖНО: массовый precache всего пула героев может переполнить список loading resources и привести к крашу.
+        // Поэтому по умолчанию прекеш на старте выключен (см. GAME_CONSTANTS.PRECACHE_HERO_POOL_SYNC_LIMIT).
+        precacheHeroes(context, GAME_CONSTANTS.PRECACHE_HERO_POOL_SYNC_LIMIT);
 
         // В tools/локалке некоторые hero-model ресурсы могут отсутствовать в session-manifest,
         // что приводит к assert "Serialized nonresident asset ...".
-        // Best-effort: форсим прекеш базовых моделей героев из npc_heroes.txt (и фолбэк пути).
-        try {
-            const kv: any = (LoadKeyValues("scripts/npc/npc_heroes.txt") as any) ?? {};
-            const precacheRes = (globalThis as any).PrecacheResource;
-            if (typeof precacheRes === "function") {
-                for (const unitName of HERO_POOL) {
-                    let model: string | undefined;
-                    try {
-                        const entry = kv[unitName];
-                        if (entry && typeof entry === "object") {
-                            const m = entry["Model"];
-                            if (typeof m === "string" && m.length > 0) model = m;
+        // Но массовый precache моделей легко переполняет лимиты движка, поэтому по умолчанию выключен.
+        if (GAME_CONSTANTS.PRECACHE_HERO_MODELS_IN_PRECACHE) {
+            try {
+                const kv: any = (LoadKeyValues("scripts/npc/npc_heroes.txt") as any) ?? {};
+                const precacheRes = (globalThis as any).PrecacheResource;
+                if (typeof precacheRes === "function") {
+                    for (const unitName of HERO_POOL) {
+                        let model: string | undefined;
+                        try {
+                            const entry = kv[unitName];
+                            if (entry && typeof entry === "object") {
+                                const m = entry["Model"];
+                                if (typeof m === "string" && m.length > 0) model = m;
+                            }
+                        } catch (e) {}
+                        if (!model) {
+                            const short = unitName.replace("npc_dota_hero_", "");
+                            if (short && short.length > 0) model = `models/heroes/${short}/${short}.vmdl`;
                         }
-                    } catch (e) {}
-                    if (!model) {
-                        const short = unitName.replace("npc_dota_hero_", "");
-                        if (short && short.length > 0) model = `models/heroes/${short}/${short}.vmdl`;
-                    }
-                    if (model && model.length > 0) {
-                        try { precacheRes("model", model, context); } catch (e) {}
+                        if (model && model.length > 0) {
+                            try { precacheRes("model", model, context); } catch (e) {}
+                        }
                     }
                 }
-            }
-        } catch (e) {}
+            } catch (e) {}
+        }
     }
 
     /**

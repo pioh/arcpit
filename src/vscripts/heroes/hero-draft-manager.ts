@@ -39,6 +39,21 @@ export class HeroDraftManager {
             const offerId = ++this.offerSeq;
             this.offers.set(pid, { offerId, heroes, picked: false });
 
+            // ВАЖНО: не делаем массовый PrecacheUnitByNameSync на старте (это может крашить по лимитам ресурсов).
+            // Вместо этого — best-effort асинхронно прекешим только героев из оффера.
+            try {
+                const precacheAsync = (globalThis as any).PrecacheUnitByNameAsync as
+                    | ((unitName: string, cb: () => void, context?: any) => void)
+                    | undefined;
+                if (typeof precacheAsync === "function") {
+                    for (const h of heroes) {
+                        try {
+                            precacheAsync(h, () => {});
+                        } catch (e) {}
+                    }
+                }
+            } catch (e) {}
+
             try {
                 const isBot = PlayerResource.IsFakeClient(pid);
                 print(`[arcpit][HeroDraft] offer -> pid=${pid} bot=${isBot ? 1 : 0} offerId=${offerId} heroes=${heroes.join(",")}`);

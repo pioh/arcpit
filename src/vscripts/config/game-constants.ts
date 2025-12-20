@@ -25,5 +25,14 @@ export const GAME_CONSTANTS = {
     // Если true — чистим дефолтные способности у героя кодом.
     // Если false — ожидаем, что дефолтные Ability* уже очищены через npc_heroes_custom (генерация KV).
     CLEAR_DEFAULT_ABILITIES_IN_CODE: false,
+
+    // Precache:
+    // Массовый PrecacheUnitByNameSync для большого пула героев может переполнить список loading resources
+    // и привести к FATAL ERROR (лимит ~32767). Включайте только при необходимости.
+    // 0 = не прекешить пул на старте (рекомендуется).
+    PRECACHE_HERO_POOL_SYNC_LIMIT: 0,
+
+    // Best-effort precache моделей героев в Precache (для tools окружения). Аналогично опасно по лимитам.
+    PRECACHE_HERO_MODELS_IN_PRECACHE: false,
 } as const;
 
